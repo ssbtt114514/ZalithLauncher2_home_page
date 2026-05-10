@@ -20,8 +20,6 @@ const EVENT_OPTIONS = [
 // 所有组件模板
 const ComponentTemplates = {
     // ==================== 容器组件 ====================
-    
-    // 卡片
     card: {
         name: '卡片容器',
         icon: '📦',
@@ -41,8 +39,6 @@ const ComponentTemplates = {
     },
 
     // ==================== 按钮组件（4种样式） ====================
-    
-    // 填充按钮（实心）
     button_filled: {
         name: '填充按钮',
         icon: '🔵',
@@ -64,7 +60,6 @@ const ComponentTemplates = {
         }
     },
     
-    // 边框按钮
     button_outlined: {
         name: '边框按钮',
         icon: '🔲',
@@ -86,7 +81,6 @@ const ComponentTemplates = {
         }
     },
     
-    // 色调填充按钮
     button_tonal: {
         name: '柔和按钮',
         icon: '🎨',
@@ -108,7 +102,6 @@ const ComponentTemplates = {
         }
     },
     
-    // 纯文字按钮
     button_text: {
         name: '文字按钮',
         icon: '📝',
@@ -129,8 +122,6 @@ const ComponentTemplates = {
     },
 
     // ==================== 布局组件 ====================
-    
-    // 横向布局
     row: {
         name: '横向布局',
         icon: '↔️',
@@ -156,7 +147,6 @@ const ComponentTemplates = {
         }
     },
     
-    // 纵向布局
     column: {
         name: '纵向布局',
         icon: '↕️',
@@ -183,8 +173,6 @@ const ComponentTemplates = {
     },
 
     // ==================== 媒体组件 ====================
-    
-    // 图片
     image: {
         name: '图片',
         icon: '🖼️',
@@ -203,8 +191,6 @@ const ComponentTemplates = {
     },
 
     // ==================== 排版组件 ====================
-    
-    // 分割线
     divider: {
         name: '分割线',
         icon: '➖',
@@ -213,7 +199,6 @@ const ComponentTemplates = {
         template: () => '\n---\n'
     },
     
-    // 标题（H1-H6）
     heading: {
         name: '标题',
         icon: '📌',
@@ -228,7 +213,6 @@ const ComponentTemplates = {
         }
     },
     
-    // 引用块
     quote: {
         name: '引用块',
         icon: '💬',
@@ -241,7 +225,6 @@ const ComponentTemplates = {
         }
     },
     
-    // 列表
     list: {
         name: '列表',
         icon: '📋',
@@ -257,9 +240,7 @@ const ComponentTemplates = {
         }
     },
 
-    // ==================== 高级组件（带权重） ====================
-    
-    // 带权重的按钮（用于 Row 内部）
+    // ==================== 高级组件 ====================
     button_weighted: {
         name: '权重按钮',
         icon: '⚖️',
@@ -276,8 +257,6 @@ const ComponentTemplates = {
             return `...button text="${data.text}" event="${ev}" weight=(${data.weight})`;
         }
     }
-
-    // 注：权重属性仅支持在 Row 内部使用
 };
 
 // 帮助内容（完整版）
@@ -343,6 +322,38 @@ const HelpContent = `
 </ul>
 `;
 
+// 按分类组织的组件按钮（用于 UI 渲染）
+const COMPONENT_CATEGORIES = [
+    { name: '容器', items: ['card'] },
+    { name: '按钮', items: ['button_filled', 'button_outlined', 'button_tonal', 'button_text'] },
+    { name: '布局', items: ['row', 'column'] },
+    { name: '媒体', items: ['image'] },
+    { name: '排版', items: ['divider', 'heading', 'quote', 'list'] },
+    { name: '高级', items: ['button_weighted'] }
+];
+
+// 获取组件显示名称
+function getComponentDisplayName(type) {
+    const names = {
+        card: '📦 卡片',
+        button_filled: '🔵 填充按钮',
+        button_outlined: '🔲 边框按钮',
+        button_tonal: '🎨 柔和按钮',
+        button_text: '📝 文字按钮',
+        button_weighted: '⚖️ 权重按钮',
+        row: '↔️ 横向布局',
+        column: '↕️ 纵向布局',
+        image: '🖼️ 图片',
+        divider: '➖ 分割线',
+        heading: '📌 标题',
+        quote: '💬 引用块',
+        list: '📋 列表'
+    };
+    return names[type] || type;
+}
+
 // 导出到全局
 window.ComponentTemplates = ComponentTemplates;
 window.HelpContent = HelpContent;
+window.COMPONENT_CATEGORIES = COMPONENT_CATEGORIES;
+window.getComponentDisplayName = getComponentDisplayName;
