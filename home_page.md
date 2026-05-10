@@ -1,39 +1,22 @@
 // ============================================
-// 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026/5/10 07:35:11
-// 数据来源：Bing | 一言 | Mojang | Modrinth | 静态配置
+// 🎮 Zalith Launcher 2 自定义主页
+// 预设版本（静态数据 + 作者链接）
+// 最后更新：2026-05-10
 // ============================================
 
-// --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.MotherCub_ZH-CN0999123163_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+// --- Bing 每日壁纸横幅（可自行替换图片链接）---
+...image url="https://cn.bing.com/th?id=OHR.SpringCove_ZH-CN1234567890_1920x1080.jpg" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16, 12)
     ...column-start vertical=spacedBy(8) horizontal=Center
-> *"你看她笑靥如花，恰似此间神话。"*
+> *"星光不问赶路人，时光不负有心人。"*
 
-—— 随感 · 渊鱼
+—— 网络
 
         ...row-start horizontal=spacedBy(12)
             ...button-filled-tonal text="🔄 刷新" event="copy{https://v1.hitokoto.cn/?c=a}" width=100dp
-            ...button-text text="📋 复制" event="copy{你看她笑靥如花，恰似此间神话。}"
-        ...row-end
-    ...column-end
-...card-end
-
-
-// --- 🎮 服务器状态 ---
-...card-start title="🎮 我的服务器" shape=medium contentPadding=(12)
-    ...column-start vertical=spacedBy(4) horizontal=Start
-        🔴 **离线** | undefined:25565
-
-        版本: 未知 | 在线玩家: N/A
-
-        > 欢迎来到服务器！
-
-        ...row-start horizontal=spacedBy(8)
-            ...button text="📋 复制IP" event="copy{undefined:25565}" weight=(1)
-            ...button-outlined text="🔄 刷新" event="url{https://api.mcstatus.io/v2/status/java/play.mcmod.cn}" weight=(1)
+            ...button-text text="📋 复制" event="copy{星光不问赶路人，时光不负有心人。}"
         ...row-end
     ...column-end
 ...card-end
@@ -49,17 +32,17 @@
 // --- 📦 MC 版本信息 ---
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
     ...column-start vertical=spacedBy(6) horizontal=Start
-**最新正式版**: 26.1.2
-**最新快照**: 26.2-snapshot-6
+**最新正式版**: 1.20.6
+**最新快照**: 24w18a
 
 近期版本：
-        - **26.1.2** (2026-04-09)
-        - **26.1.1** (2026-04-01)
-        - **26.1** (2026-03-24)
+        - **1.20.6** (2024-05-03)
+        - **1.20.5** (2024-04-23)
+        - **1.20.4** (2023-12-07)
 
         ...row-start horizontal=spacedBy(8)
             ...button text="📥 官方下载" event="url{https://www.minecraft.net/zh-hans/download}" weight=(1)
-            ...button text="📋 复制版本号" event="copy{26.1.2}" weight=(1)
+            ...button text="📋 复制版本号" event="copy{1.20.6}" weight=(1)
         ...row-end
     ...column-end
 ...card-end
@@ -82,14 +65,34 @@
     ...column-end
 ...card-end
 
-// --- 🧩 Modrinth 热门（实时API）---
+// --- 🧩 Modrinth 热门（含模组图标）---
 ...card-start title="🧩 Modrinth 热门" shape=medium contentPadding=(12)
-    ...column-start vertical=spacedBy(6) horizontal=Start
-        - [Sodium](https://modrinth.com/mod/sodium) - The fastest and most compatible renderin (151.5M)
-        - [Fabric API](https://modrinth.com/mod/fabric-api) - Lightweight and modular API providing co (167.3M)
-        - [Iris Shaders](https://modrinth.com/mod/iris) - A modern shader pack loader for Minecraf (118.3M)
-        - [Mod Menu](https://modrinth.com/mod/modmenu) - Adds a mod menu to view the list of mods (100.7M)
-        - [Lithium](https://modrinth.com/mod/lithium) - No-compromises game logic optimization m (91.0M)
+    ...column-start vertical=spacedBy(10) horizontal=Start
+        // Sodium
+        ...row-start horizontal=spacedBy(8) vertical=Center
+            ...image url="https://cdn.modrinth.com/data/AANobbMI/icon.png" width=24dp shape=4dp
+            ...button-text text="[Sodium](https://modrinth.com/mod/sodium) - 高性能渲染引擎 (15M+)"
+        ...row-end
+        // Iris
+        ...row-start horizontal=spacedBy(8) vertical=Center
+            ...image url="https://cdn.modrinth.com/data/YL57xq9U/icon.png" width=24dp shape=4dp
+            ...button-text text="[Iris](https://modrinth.com/mod/iris) - 现代光影加载器 (8M+)"
+        ...row-end
+        // Fabric API
+        ...row-start horizontal=spacedBy(8) vertical=Center
+            ...image url="https://cdn.modrinth.com/data/P7dR8mSH/icon.png" width=24dp shape=4dp
+            ...button-text text="[Fabric API](https://modrinth.com/mod/fabric-api) - Fabric 核心 API (20M+)"
+        ...row-end
+        // Lithium
+        ...row-start horizontal=spacedBy(8) vertical=Center
+            ...image url="https://cdn.modrinth.com/data/gvQqBUqZ/icon.png" width=24dp shape=4dp
+            ...button-text text="[Lithium](https://modrinth.com/mod/lithium) - 游戏逻辑优化 (10M+)"
+        ...row-end
+        // Phosphor
+        ...row-start horizontal=spacedBy(8) vertical=Center
+            ...image url="https://cdn.modrinth.com/data/9pc0y4kz/icon.png" width=24dp shape=4dp
+            ...button-text text="[Phosphor](https://modrinth.com/mod/phosphor) - 光照引擎优化 (5M+)"
+        ...row-end
 
         ...row-start horizontal=spacedBy(8)
             ...button text="📥 访问 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
@@ -109,7 +112,7 @@
             ...button-outlined text="🌙 夜间模式" event="copy{夜间模式功能暂未接入}" width=100%
             ...button-outlined text="⚙️ 游戏设置" event="copy{请前往启动器设置}" width=100%
             ...button-outlined text="📁 存档目录" event="copy{请手动打开 .minecraft/saves}" width=100%
-        ...row-end
+        ...column-end
     ...row-end
 ...card-end
 
@@ -122,15 +125,16 @@
     ...row-end
 ...card-end
 
-// --- ℹ️ 关于 ---
+// --- ℹ️ 关于（含作者链接）---
 ...card-start title="ℹ️ 关于" shape=small contentPadding=(12)
     ...column-start vertical=spacedBy(4) horizontal=Center
-**Zalith Launcher 2** 自动更新主页
+**Zalith Launcher 2** 自定义主页
 
-🖼️ 壁纸：一份经久不衰的羁绊
-        © 北极熊妈妈和幼崽在瓦普斯克国家公园玩耍, 马尼托巴省, 加拿大 (© Hao Jiang/Getty Images)
+🖼️ 壁纸：示例 Bing 壁纸
 
-⏰ 更新时间：2026/5/10 07:35:11
+👤 **作者**：[ssbtt114514](https://ssbtt114514.github.io/)
+
+⏰ 更新时间：2026-05-10
 
         ...row-start horizontal=spacedBy(12)
             ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
