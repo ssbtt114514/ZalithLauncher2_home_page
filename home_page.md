@@ -1,7 +1,7 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-05-10 07:55:30
-// 数据来源：Bing | 一言 | Mojang | Modrinth | WorldTimeAPI
+// 生成时间：2026-05-10 08:04:30
+// 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
@@ -10,13 +10,11 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16, 12)
     ...column-start vertical=spacedBy(8) horizontal=Center
-> *"一个人唯有身处烈火中才能领悟做人的真谛。"*
-
-—— 本人 · 本人
+> *"意志是一个强壮的盲人，倚靠在明眼的跛子肩上。"*
 
         ...row-start horizontal=spacedBy(12)
             ...button-filled-tonal text="🔄 刷新" event="copy{https://v1.hitokoto.cn/?c=a}" width=100dp
-            ...button-text text="📋 复制" event="copy{一个人唯有身处烈火中才能领悟做人的真谛。}"
+            ...button-text text="📋 复制" event="copy{意志是一个强壮的盲人，倚靠在明眼的跛子肩上。}"
         ...row-end
     ...column-end
 ...card-end
@@ -55,8 +53,8 @@
             ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
         ...row-end
         ...row-start horizontal=spacedBy(8)
-            ...button-filled-tonal text="⬇️ 下载站" event="url{https://www.mcmod.cn/download.html}" weight=(1)
-            ...button-filled-tonal text="💬 论坛" event="url{https://bbs.mcmod.cn/}" weight=(1)
+            ...button-filled-tonal text="💬 MCBBS" event="url{https://www.mcbbs.net/}" weight=(1)
+            ...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Blast_Furnace}" weight=(1)
         ...row-end
         ...row-start horizontal=spacedBy(8)
             ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
@@ -65,32 +63,32 @@
     ...column-end
 ...card-end
 
-// --- 🧩 Modrinth 热门（含模组图标）---
-...card-start title="🧩 Modrinth 热门" shape=medium contentPadding=(12)
+// --- 🧩 Modrinth 最新模组（按更新时间排序）---
+...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
     ...column-start vertical=spacedBy(10) horizontal=Start
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/AANobbMI/295862f4724dc3f78df3447ad6072b2dcd3ef0c9_96.webp" width=24dp shape=4dp
-            ...button-text text="Sodium - The fastest and most compatible renderin (151.5M)" event="url{https://modrinth.com/mod/sodium}"
+            ...image url="https://cdn.modrinth.com/data/t4M26zkN/c2fcfbeb2209bfed46f9714cf6be77871065b4db_96.webp" width=24dp shape=4dp
+            ...button-text text="Immersive Chests - This project adds a configurable camera  (0.0M)" event="url{https://modrinth.com/mod/immersivechests}"
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/P7dR8mSH/icon.png" width=24dp shape=4dp
-            ...button-text text="Fabric API - Lightweight and modular API providing co (167.4M)" event="url{https://modrinth.com/mod/fabric-api}"
+            ...image url="https://cdn.modrinth.com/data/eDSgW1zD/2f522f27776e6d91ece38dfba5575adc4d9fee8e_96.webp" width=24dp shape=4dp
+            ...button-text text="BL Inventory Peek - This mod adds a small preview of your in (0.0M)" event="url{https://modrinth.com/mod/bl-inventory-peek}"
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/YL57xq9U/18d0e7f076d3d6ed5bedd472b853909aac5da202_96.webp" width=24dp shape=4dp
-            ...button-text text="Iris Shaders - A modern shader pack loader for Minecraf (118.4M)" event="url{https://modrinth.com/mod/iris}"
+            ...image url="https://cdn.modrinth.com/data/ULzrAD1U/5b220eabadd9031e6851ce803a62c961db96f118_96.webp" width=24dp shape=4dp
+            ...button-text text="Create: SchematicChecker - A mod for fix all schematic problem from (0.1M)" event="url{https://modrinth.com/mod/createschematicchecker}"
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/mOgUt4GM/5a20ed1450a0e1e79a1fe04e61bb4e5878bf1d20.png" width=24dp shape=4dp
-            ...button-text text="Mod Menu - Adds a mod menu to view the list of mods (100.7M)" event="url{https://modrinth.com/mod/modmenu}"
+            ...image url="https://cdn.modrinth.com/data/bra6fsBj/e6b81eaa153612d4c0b2d6d135839d479bcca1fc_96.webp" width=24dp shape=4dp
+            ...button-text text="Starter pack - Adds starter pack to your game (0.0M)" event="url{https://modrinth.com/mod/starter-pack-mod}"
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/gvQqBUqZ/bcc8686c13af0143adf4285d741256af824f70b7_96.webp" width=24dp shape=4dp
-            ...button-text text="Lithium - No-compromises game logic optimization m (91.0M)" event="url{https://modrinth.com/mod/lithium}"
+            ...image url="https://cdn.modrinth.com/data/LdhhdMPS/c1e0c5a6ad17df204ca0681cd06ef06df4dc6878_96.webp" width=24dp shape=4dp
+            ...button-text text="Lyro PvP ULTIMATE - The ULTIMATE PvP Texture Pack you'll eve (0.0M)" event="url{https://modrinth.com/mod/lyro-ultimate}"
         ...row-end
 
         ...row-start horizontal=spacedBy(8)
@@ -101,18 +99,9 @@
 
 // --- 🛠️ 实用工具 ---
 ...card-start title="🧰 实用工具" shape=medium contentPadding=(12)
-    ...row-start horizontal=spacedBy(8) vertical=Top
-        ...column-start weight=(1) vertical=spacedBy(8) horizontal=Center
-            ...button-outlined text="📋 复制服务器IP" event="copy{play.mcmod.cn}" width=100%
-            ...button-outlined text="📋 复制QQ群" event="copy{123456789}" width=100%
-            ...button-outlined text="📋 复制 Discord" event="copy{discord.gg/xxxx}" width=100%
-        ...column-end
-        ...column-start weight=(1) vertical=spacedBy(8) horizontal=Center
-            ...button-outlined text="🌙 夜间模式" event="copy{夜间模式功能暂未接入}" width=100%
-            ...button-outlined text="⚙️ 游戏设置" event="copy{请前往启动器设置}" width=100%
-            ...button-outlined text="📁 存档目录" event="copy{请手动打开 .minecraft/saves}" width=100%
-        ...column-end
-    ...row-end
+    ...column-start vertical=spacedBy(8) horizontal=Center
+        ...button-outlined text="📋 复制QQ群" event="copy{123456789}" width=50%
+    ...column-end
 ...card-end
 
 // --- 📸 精选壁纸 ---
@@ -124,7 +113,7 @@
     ...row-end
 ...card-end
 
-// --- ℹ️ 关于（含作者链接）---
+// --- ℹ️ 关于 ---
 ...card-start title="ℹ️ 关于" shape=small contentPadding=(12)
     ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
@@ -134,7 +123,9 @@
 
 👤 **作者**：[ssbtt114514](https://ssbtt114514.github.io/)
 
-⏰ 更新时间：2026-05-10 07:55:30
+📖 **Wiki 推荐**：[Blast Furnace](https://minecraft.wiki/Blast_Furnace)
+
+⏰ 更新时间：2026-05-10 08:04:30
 
         ...row-start horizontal=spacedBy(12)
             ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
