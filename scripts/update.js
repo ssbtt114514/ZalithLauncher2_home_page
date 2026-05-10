@@ -196,8 +196,8 @@ async function fetchCurseForgeHot() {
             { name: 'Just Enough Items (JEI)', url: 'https://www.curseforge.com/minecraft/mcmods/jei', desc: '物品管理器，查看合成配方', downloads: '3亿+' },
             { name: 'JourneyMap', url: 'https://www.curseforge.com/minecraft/mcmods/journeymap', desc: '实时地图模组', downloads: '1.5亿+' },
             { name: 'Iron Chests', url: 'https://www.curseforge.com/minecraft/mcmods/iron-chests', desc: '更多箱子类型', downloads: '1亿+' },
-            { name: 'Biomes O' Plenty', url: 'https://www.curseforge.com/minecraft/mcmods/biomes-o-plenty', desc: '更多生物群系', downloads: '9000万+' },
-            { name: 'Tinkers' Construct', url: 'https://www.curseforge.com/minecraft/mcmods/tinkers-construct', desc: '匠魂工具打造', downloads: '8000万+' }
+            { name: "Biomes O' Plenty", url: "https://www.curseforge.com/minecraft/mcmods/biomes-o-plenty", desc: "更多生物群系", downloads: "9000万+" },
+        { name: "Tinkers' Construct", url: "https://www.curseforge.com/minecraft/mcmods/tinkers-construct", desc: "匠魂工具打造", downloads: "8000万+" },
         ];
     }
 }
