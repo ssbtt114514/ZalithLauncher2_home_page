@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026/5/10 07:23:09
+// 生成时间：2026/5/10 07:23:31
 // 数据来源：Bing | 一言 | Mojang | Modrinth | 静态配置
 // ============================================
 
@@ -10,18 +10,33 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16, 12)
     ...column-start vertical=spacedBy(8) horizontal=Center
-> *"未经审视的人生是不值得过的。"*
+> *"当你为错过太阳而哭泣的时候，你也要再错过群星了。"*
 
-—— 苏格拉底 · 苏格拉底
+—— 飞鸟集 · 泰戈尔
 
         ...row-start horizontal=spacedBy(12)
             ...button-filled-tonal text="🔄 刷新" event="copy{https://v1.hitokoto.cn/?c=a}" width=100dp
-            ...button-text text="📋 复制" event="copy{未经审视的人生是不值得过的。}"
+            ...button-text text="📋 复制" event="copy{当你为错过太阳而哭泣的时候，你也要再错过群星了。}"
         ...row-end
     ...column-end
 ...card-end
 
 
+// --- 🎮 服务器状态 ---
+...card-start title="🎮 我的服务器" shape=medium contentPadding=(12)
+    ...column-start vertical=spacedBy(4) horizontal=Start
+        🔴 **离线** | undefined:25565
+
+        版本: 未知 | 在线玩家: N/A
+
+        > 欢迎来到服务器！
+
+        ...row-start horizontal=spacedBy(8)
+            ...button text="📋 复制IP" event="copy{undefined:25565}" weight=(1)
+            ...button-outlined text="🔄 刷新" event="url{https://api.mcstatus.io/v2/status/java/play.mcmod.cn}" weight=(1)
+        ...row-end
+    ...column-end
+...card-end
 
 // --- ⚡ 快捷操作 ---
 ...card-start title="🚀 快捷操作" shape=medium contentPadding=(12)
@@ -86,7 +101,7 @@
 ...card-start title="🧰 实用工具" shape=medium contentPadding=(12)
     ...row-start horizontal=spacedBy(8) vertical=Top
         ...column-start weight=(1) vertical=spacedBy(8) horizontal=Center
-            ...button-outlined text="📋 复制服务器IP" event="copy{play.example.com}" width=100%
+            ...button-outlined text="📋 复制服务器IP" event="copy{play.mcmod.cn}" width=100%
             ...button-outlined text="📋 复制QQ群" event="copy{123456789}" width=100%
             ...button-outlined text="📋 复制 Discord" event="copy{discord.gg/xxxx}" width=100%
         ...column-end
@@ -115,7 +130,7 @@
 🖼️ 壁纸：一份经久不衰的羁绊
         © 北极熊妈妈和幼崽在瓦普斯克国家公园玩耍, 马尼托巴省, 加拿大 (© Hao Jiang/Getty Images)
 
-⏰ 更新时间：2026/5/10 07:23:09
+⏰ 更新时间：2026/5/10 07:23:31
 
         ...row-start horizontal=spacedBy(12)
             ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
