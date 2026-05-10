@@ -454,3 +454,44 @@ body {
 .card-content .markdown-body hr {
     margin: 16px 0;
 }
+/* 组件栏分类标题 */
+.category-title {
+    font-size: 11px;
+    color: #60a5fa;
+    margin: 8px 0 4px 0;
+    padding-left: 4px;
+    width: 100%;
+}
+
+.category-title:first-of-type {
+    margin-top: 0;
+}
+
+/* 文本域（textarea 类型） */
+.form-textarea {
+    width: 100%;
+    padding: 10px 12px;
+    background: #0b0f1a;
+    border: 1px solid #2a3150;
+    border-radius: 12px;
+    color: #e2e8f0;
+    font-size: 13px;
+    font-family: monospace;
+    resize: vertical;
+    outline: none;
+    min-height: 100px;
+}
+
+.form-textarea:focus {
+    border-color: #3b82f6;
+}
+
+/* 数字输入框 */
+.form-input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.form-input[type="number"]::-webkit-inner-spin-button,
+.form-input[type="number"]::-webkit-outer-spin-button {
+    opacity: 0.5;
+}
