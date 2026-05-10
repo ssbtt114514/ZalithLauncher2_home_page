@@ -127,6 +127,43 @@ body {
     background: #0f1322;
 }
 
+/* ========== 组件工具栏（新增） ========== */
+.component-bar {
+    background: #0b0f1a;
+    border-bottom: 1px solid #1e2440;
+    padding: 10px 16px;
+}
+
+.bar-label {
+    font-size: 12px;
+    color: #7f8ea3;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.component-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.comp-btn {
+    background: #1e2440;
+    border: none;
+    color: #e2e8f0;
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 0.2s;
+}
+
+.comp-btn:hover {
+    background: #3b82f6;
+    transform: translateY(-1px);
+}
+
+/* 编辑器区域 */
 .editor-textarea {
     flex: 1;
     background: #0b0f1a;
@@ -146,6 +183,176 @@ body {
     border-top: 1px solid #1e2440;
     font-size: 12px;
     color: #7f8ea3;
+}
+
+/* ========== 弹窗样式 ========== */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+    backdrop-filter: blur(4px);
+}
+
+.modal {
+    background: #0f1322;
+    border-radius: 24px;
+    width: 90%;
+    max-width: 500px;
+    max-height: 80vh;
+    overflow: hidden;
+    border: 1px solid #2a3150;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+.modal-large {
+    max-width: 700px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    background: #0b0f1a;
+    border-bottom: 1px solid #1e2440;
+    font-weight: 600;
+}
+
+.modal-close {
+    background: none;
+    border: none;
+    color: #7f8ea3;
+    font-size: 24px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.modal-close:hover {
+    color: #e2e8f0;
+}
+
+.modal-body {
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 60vh;
+}
+
+.modal-footer {
+    padding: 12px 20px;
+    background: #0b0f1a;
+    border-top: 1px solid #1e2440;
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.modal-btn {
+    padding: 8px 20px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.modal-btn-primary {
+    background: #3b82f6;
+    color: white;
+}
+
+.modal-btn-primary:hover {
+    background: #2563eb;
+}
+
+.modal-btn-secondary {
+    background: #1e2440;
+    color: #e2e8f0;
+}
+
+.modal-btn-secondary:hover {
+    background: #2d3a5e;
+}
+
+/* 表单样式 */
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #94a3b8;
+}
+
+.form-input, .form-select {
+    width: 100%;
+    padding: 10px 12px;
+    background: #0b0f1a;
+    border: 1px solid #2a3150;
+    border-radius: 12px;
+    color: #e2e8f0;
+    font-size: 14px;
+    outline: none;
+}
+
+.form-input:focus, .form-select:focus {
+    border-color: #3b82f6;
+}
+
+.form-hint {
+    font-size: 11px;
+    color: #7f8ea3;
+    margin-top: 4px;
+}
+
+.form-row {
+    display: flex;
+    gap: 12px;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+/* 帮助内容 */
+.help-content h3 {
+    margin: 16px 0 8px;
+    color: #60a5fa;
+}
+
+.help-content pre {
+    background: #0b0f1a;
+    padding: 12px;
+    border-radius: 12px;
+    overflow-x: auto;
+    font-size: 12px;
+    border: 1px solid #1e2440;
+    margin: 8px 0;
+}
+
+.help-content code {
+    background: #1e2440;
+    padding: 2px 6px;
+    border-radius: 6px;
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.help-content ul {
+    margin: 8px 0 8px 20px;
+}
+
+.help-content li {
+    margin: 4px 0;
 }
 
 /* ========== 自定义组件样式 ========== */
@@ -319,6 +526,9 @@ body {
         align-items: stretch;
     }
     .toolbar-right {
+        justify-content: center;
+    }
+    .component-grid {
         justify-content: center;
     }
 }
