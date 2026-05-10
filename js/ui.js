@@ -52,7 +52,7 @@ function renderComponentBar() {
                 btn.className = 'comp-btn';
                 btn.dataset.type = type;
                 btn.textContent = getComponentDisplayName(type);
-                btn.title = ComponentTemplates[type].name;
+                btn.title = ComponentTemplates[type].name + (ComponentTemplates[type].note ? ' ' + ComponentTemplates[type].note : '');
                 container.appendChild(btn);
             }
         }
@@ -93,6 +93,9 @@ function openComponentModal(type) {
     document.getElementById('modalTitle').textContent = `添加 ${template.name}`;
     
     let html = '';
+    if (template.note) {
+        html += `<div style="background:#1e2440; padding:8px 12px; border-radius:8px; margin-bottom:16px; font-size:12px; color:#fbbf24;">💡 ${template.note}</div>`;
+    }
     for (const field of template.fields) {
         html += `<div class="form-group">`;
         html += `<label class="form-label">${field.label}${field.required ? ' <span style="color:#ef4444;">*</span>' : ''}</label>`;
@@ -106,8 +109,6 @@ function openComponentModal(type) {
             html += `</select>`;
         } else if (field.type === 'textarea') {
             html += `<textarea class="form-textarea" id="field_${field.name}" placeholder="${field.placeholder || ''}" rows="4"></textarea>`;
-        } else if (field.type === 'number') {
-            html += `<input type="number" class="form-input" id="field_${field.name}" placeholder="${field.placeholder || ''}" value="${field.default || ''}">`;
         } else {
             html += `<input type="text" class="form-input" id="field_${field.name}" placeholder="${field.placeholder || ''}" value="${field.default || ''}">`;
         }
@@ -164,8 +165,10 @@ function insertAtCursor(code) {
     const end = textarea.selectionEnd;
     const text = textarea.value;
     
-    let prefix = (start > 0 && text[start - 1] !== '\n') ? '\n' : '';
-    let suffix = (end < text.length && text[end] !== '\n') ? '\n' : '';
+    let prefix = '';
+    let suffix = '';
+    if (start > 0 && text[start - 1] !== '\n') prefix = '\n';
+    if (end < text.length && text[end] !== '\n') suffix = '\n';
     
     const newText = text.substring(0, start) + prefix + code + suffix + text.substring(end);
     textarea.value = newText;
