@@ -176,6 +176,18 @@ body {
     gap: 8px;
 }
 
+.category-title {
+    font-size: 11px;
+    color: #60a5fa;
+    margin: 8px 0 4px 0;
+    padding-left: 4px;
+    width: 100%;
+}
+
+.category-title:first-of-type {
+    margin-top: 0;
+}
+
 .comp-btn {
     background: #1e2440;
     border: none;
@@ -287,7 +299,7 @@ body {
     color: #94a3b8;
 }
 
-.form-input, .form-select {
+.form-input, .form-select, .form-textarea {
     width: 100%;
     padding: 10px 12px;
     background: #0b0f1a;
@@ -298,8 +310,14 @@ body {
     outline: none;
 }
 
-.form-input:focus, .form-select:focus {
+.form-input:focus, .form-select:focus, .form-textarea:focus {
     border-color: #3b82f6;
+}
+
+.form-textarea {
+    resize: vertical;
+    font-family: monospace;
+    min-height: 100px;
 }
 
 .form-hint {
@@ -398,6 +416,12 @@ body {
     padding-left: 16px;
     color: #94a3b8;
 }
+.markdown-body hr {
+    margin: 20px 0;
+    border: none;
+    height: 1px;
+    background: #2a3150;
+}
 
 /* 提示 */
 .toast {
@@ -435,63 +459,4 @@ body {
     .main-area { flex-direction: column; }
     .top-bar { flex-direction: column; gap: 10px; }
     .tool-buttons { flex-wrap: wrap; justify-content: center; }
-}
-/* 修复水平分割线样式 */
-.markdown-body hr {
-    margin: 20px 0;
-    border: none;
-    height: 1px;
-    background: #2a3150;
-}
-
-/* 确保预览区域正确显示 */
-.preview-body {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-}
-
-/* 卡片内容中的 Markdown 样式 */
-.card-content .markdown-body hr {
-    margin: 16px 0;
-}
-/* 组件栏分类标题 */
-.category-title {
-    font-size: 11px;
-    color: #60a5fa;
-    margin: 8px 0 4px 0;
-    padding-left: 4px;
-    width: 100%;
-}
-
-.category-title:first-of-type {
-    margin-top: 0;
-}
-
-/* 文本域（textarea 类型） */
-.form-textarea {
-    width: 100%;
-    padding: 10px 12px;
-    background: #0b0f1a;
-    border: 1px solid #2a3150;
-    border-radius: 12px;
-    color: #e2e8f0;
-    font-size: 13px;
-    font-family: monospace;
-    resize: vertical;
-    outline: none;
-    min-height: 100px;
-}
-
-.form-textarea:focus {
-    border-color: #3b82f6;
-}
-
-/* 数字输入框 */
-.form-input[type="number"] {
-    -moz-appearance: textfield;
-}
-
-.form-input[type="number"]::-webkit-inner-spin-button,
-.form-input[type="number"]::-webkit-outer-spin-button {
-    opacity: 0.5;
 }
