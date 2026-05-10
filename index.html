@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Zalith Launcher2 - 主页预览与编辑器</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Markdown 解析库 -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+<div class="app-container">
+    <!-- 顶部工具栏 -->
+    <div class="toolbar">
+        <div class="toolbar-left">
+            <h1>📄 Zalith 主页编辑器</h1>
+            <span class="badge">预览模式</span>
+        </div>
+        <div class="toolbar-right">
+            <button id="editModeBtn" class="tool-btn">✏️ 编辑模式</button>
+            <button id="downloadBtn" class="tool-btn">💾 下载 MD 文件</button>
+            <button id="uploadBtn" class="tool-btn">📁 上传 MD 文件</button>
+            <button id="newFileBtn" class="tool-btn">✨ 新建文件</button>
+            <button id="refreshPreviewBtn" class="tool-btn">🔄 刷新预览</button>
+        </div>
+    </div>
+
+    <!-- 双栏布局：预览区 + 编辑区 -->
+    <div class="main-layout">
+        <!-- 左侧预览区 -->
+        <div class="preview-area" id="previewArea">
+            <div class="area-header">
+                <span>👁️ 预览效果</span>
+                <span class="file-info" id="fileInfo">未加载文件</span>
+            </div>
+            <div id="previewContent" class="preview-content">
+                <div class="loading">加载中...</div>
+            </div>
+        </div>
+
+        <!-- 右侧编辑区（默认隐藏） -->
+        <div class="edit-area" id="editArea" style="display: none;">
+            <div class="area-header">
+                <span>✏️ 源码编辑</span>
+                <div>
+                    <button id="saveEditBtn" class="small-btn">💾 保存并预览</button>
+                    <button id="cancelEditBtn" class="small-btn">❌ 取消</button>
+                </div>
+            </div>
+            <textarea id="editorTextarea" class="editor-textarea" placeholder="在此输入 Markdown 内容..."></textarea>
+            <div class="editor-help">
+                💡 提示：支持 Zalith 扩展组件（...card-start、...button、...image、...row-start 等）
+            </div>
+        </div>
+    </div>
+
+    <!-- 消息提示 -->
+    <div id="toast" class="toast"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
