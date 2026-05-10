@@ -16,3 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+// 导出全局变量（供其他模块使用）
+window.currentMarkdown = '';
+window.currentFileName = 'home_page.md';
+window.isEditMode = false;
