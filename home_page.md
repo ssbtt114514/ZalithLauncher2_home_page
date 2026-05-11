@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-05-11 15:30:00
+// 生成时间：2026-05-11 16:04:07
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.QueenslandReef_ZH-CN1138150002_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.Fratercula_ZH-CN1239275412_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
     ...column-start vertical=spacedBy(8) horizontal=Center
-> *"缘起，我在人群中看见你；缘落，我看见你在人群中。"*
+> *"神在白天做梦，太阳从西边升起。"*
 
         ...row-start horizontal=spacedBy(12)
-            ...button-text text="📋 复制" event="copy{缘起，我在人群中看见你；缘落，我看见你在人群中。}"
+            ...button-text text="📋 复制" event="copy{神在白天做梦，太阳从西边升起。}"
         ...row-end
     ...column-end
 ...card-end
@@ -54,7 +54,7 @@
             ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
         ...row-end
         ...row-start horizontal=spacedBy(8)
-            ...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Ticking_area}" weight=(1)
+            ...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Door_(disambiguation)}" weight=(1)
             ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
         ...row-end
         ...row-start horizontal=spacedBy(8)
@@ -138,14 +138,14 @@
     ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：水下建筑
-        © 从上方俯瞰大堡礁, 昆士兰州, 澳大利亚 (© Francesco Riccardo Iacomino/Getty Images)
+🖼️ 壁纸：振翅, 潜水, 生存
+        © 北极海鹦, 威尔士 (© FLPA/Alamy)
 
 👤 **作者**：[ssbtt114514](https://ssbtt114514.github.io/)
 
-📖 **Wiki 推荐**：[Ticking area](https://minecraft.wiki/Ticking_area)
+📖 **Wiki 推荐**：[Door (disambiguation)](https://minecraft.wiki/Door_(disambiguation))
 
-⏰ 更新时间：2026-05-11 15:30:00
+⏰ 更新时间：2026-05-11 16:04:07
 
         ...row-start horizontal=spacedBy(12)
             ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
