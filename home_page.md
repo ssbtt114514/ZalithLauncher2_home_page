@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-05-11 04:12:19
+// 生成时间：2026-05-11 15:04:08
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -8,16 +8,17 @@
 ...image url="https://cn.bing.com/th?id=OHR.QueenslandReef_ZH-CN1138150002_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
-...card-start title="📜 每日一言" shape=large contentPadding=(16, 12)
+...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
     ...column-start vertical=spacedBy(8) horizontal=Center
-> *"黑暗的环境容易做错事。"*
+> *" 不合理的事物，未必都是显而易见的"*
 
         ...row-start horizontal=spacedBy(12)
-            ...button-filled-tonal text="🔄 刷新" event="copy{https://v1.hitokoto.cn/?c=a}" width=100dp
-            ...button-text text="📋 复制" event="copy{黑暗的环境容易做错事。}"
+            ...button-text text="📋 复制" event="copy{ 不合理的事物，未必都是显而易见的}"
         ...row-end
     ...column-end
 ...card-end
+
+
 
 // --- ⚡ 快捷操作 ---
 ...card-start title="🚀 快捷操作" shape=medium contentPadding=(12)
@@ -53,42 +54,61 @@
             ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
         ...row-end
         ...row-start horizontal=spacedBy(8)
-            ...button-filled-tonal text="💬 MCBBS" event="url{https://www.mcbbs.net/}" weight=(1)
-            ...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Fdefaultgamemode}" weight=(1)
+            ...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.2}" weight=(1)
+            ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
         ...row-end
         ...row-start horizontal=spacedBy(8)
-            ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
             ...button text="🌐 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
         ...row-end
     ...column-end
 ...card-end
 
-// --- 🧩 Modrinth 最新模组（按更新时间排序）---
+// --- 🧩 Modrinth 最新模组 ---
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
-    ...column-start vertical=spacedBy(10) horizontal=Start
+    ...column-start vertical=spacedBy(12) horizontal=Start
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/qUhSghSQ/f8a33ae1d9381d4444fe7213b71e5bd45de1f1da.png" width=24dp shape=4dp
-            ...button-text text="SimpleVoiceChat Broadcast - Broadcast audio to everyone (0.0M)" event="url{https://modrinth.com/mod/simplevoicechat-broadcast}"
+            ...image url="https://cdn.modrinth.com/data/xE5zZjzy/20f8f1142e6068309ca28b5e346dde52054564b6_96.webp" width=32dp shape=4dp
+            ...column-start
+                ...button-text text="Recycle!" event="url{https://modrinth.com/mod/recycle!}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 Kurtloise | 📅 2026-05-11</span>
+                <span style="font-size:12px;">A new block that lets you recycle your tools for Ingots!</span>
+            ...column-end
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/ZPILNkUJ/8cdc21f9d483df22feb5a76ee20075074c300842.png" width=24dp shape=4dp
-            ...button-text text="Potato's Chips 'n' Skills - A datapackable RPG skills & leveling sys (0.0M)" event="url{https://modrinth.com/mod/chipsnskills}"
+            ...image url="https://cdn.modrinth.com/data/GG0UE9Yn/e593f4acf25ab5ad231abfd02a070faaf927fd2b.png" width=32dp shape=4dp
+            ...column-start
+                ...button-text text="Whiteboard-mod" event="url{https://modrinth.com/mod/whiteboard-mod}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 NONN12 | 📅 2026-05-11</span>
+                <span style="font-size:12px;">Add a interactive drawing and real-time collaboration for Fabric.</span>
+            ...column-end
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/TEesXKHE/5c4eef00e3246366aebeb5555475e8fb5dc9e612_96.webp" width=24dp shape=4dp
-            ...button-text text="soyaTierTagger - SoyaNetwork TierTagger mod for TierListT (0.0M)" event="url{https://modrinth.com/mod/soyatiertagger}"
+            ...image url="https://cdn.modrinth.com/data/KibJCT3b/0c8616c2919ec1b7b9b367599a62933d5e80e741.png" width=32dp shape=4dp
+            ...column-start
+                ...button-text text="SadJier's PlayerTracker" event="url{https://modrinth.com/mod/sadjiers-playertracker}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 SadJier | 📅 2026-05-11</span>
+                <span style="font-size:12px;">一个可以用指南针对玩家进行追踪的模组。A mod that can track players with a compass.</span>
+            ...column-end
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/6ixNTb2A/3a4fb6ae79ed8a837b7d7014fcecd8c4b76f5f57_96.webp" width=24dp shape=4dp
-            ...button-text text="VIRISMP - This is the official VIRISMP modpack, sh (0.0M)" event="url{https://modrinth.com/mod/virismp}"
+            ...image url="https://cdn.modrinth.com/data/aJewFWOb/0f148c35e3a625f70b163dc26e2bfe3923ada4dc_96.webp" width=32dp shape=4dp
+            ...column-start
+                ...button-text text="Synaxis" event="url{https://modrinth.com/mod/synaxis}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 Rew1nd | 📅 2026-05-11</span>
+                <span style="font-size:12px;">Add circuit / luascript infrastructure that runs at full precision/frequency and</span>
+            ...column-end
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/W0s8ZXtN/a259d1e6cee4a85bb7f641fc19be45998d6d2870_96.webp" width=24dp shape=4dp
-            ...button-text text="Moh's Daggers - Miss pre-1.9 combat? Try a dagger! (0.0M)" event="url{https://modrinth.com/mod/mohs-daggers}"
+            ...image url="https://cdn.modrinth.com/data/xZGq1FwZ/9d94295cae6b537e81669e83b7512568a7d23ee5_96.webp" width=32dp shape=4dp
+            ...column-start
+                ...button-text text="Blind Deaf Mute" event="url{https://modrinth.com/mod/blind-deaf-mute}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 ChaldS | 📅 2026-05-11</span>
+                <span style="font-size:12px;">A 3-player roleplay challenge — Blind, Deaf & Mute. Can you survive together?</span>
+            ...column-end
         ...row-end
 
         ...row-start horizontal=spacedBy(8)
@@ -123,9 +143,9 @@
 
 👤 **作者**：[ssbtt114514](https://ssbtt114514.github.io/)
 
-📖 **Wiki 推荐**：[Commands/defaultgamemode](https://minecraft.wiki/Commands%2Fdefaultgamemode)
+📖 **Wiki 推荐**：[Java Edition 1.2](https://minecraft.wiki/Java_Edition_1.2)
 
-⏰ 更新时间：2026-05-11 04:12:19
+⏰ 更新时间：2026-05-11 15:04:08
 
         ...row-start horizontal=spacedBy(12)
             ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
