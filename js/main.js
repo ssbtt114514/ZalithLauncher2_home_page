@@ -1,11 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     bindComponentButtons();
     bindTopButtons();
-    bindSidebarToggle();
-    bindCodeToggle();
     bindModalEvents();
     
-    // 编辑器实时同步
+    // 编辑器实时同步到预览
     const editor = document.getElementById('editor');
     if (editor) {
         editor.oninput = () => {
@@ -18,3 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
         loadFromUrl('sample.md').catch(() => newFile());
     });
 });
+
+window.currentMarkdown = '';
+window.currentFileName = 'home_page.md';
