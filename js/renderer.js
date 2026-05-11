@@ -1,9 +1,7 @@
 /**
  * 渲染器 - 将 Markdown + 扩展组件转为 HTML
- * 严格按照 Zalith Launcher2 教程规范
  */
 
-// 转义 HTML
 function escapeHtml(str) {
     if (!str) return '';
     return str.replace(/[&<>]/g, function(m) {
@@ -14,7 +12,6 @@ function escapeHtml(str) {
     });
 }
 
-// 解析元组 (12) 或 (12, 8) 或 (4,4,12,12)
 function parseTuple(tupleStr) {
     if (!tupleStr) return null;
     const match = tupleStr.match(/^\(([\d\.,\s]+)\)$/);
@@ -26,14 +23,12 @@ function parseTuple(tupleStr) {
     return null;
 }
 
-// 获取属性值
 function getAttr(line, name) {
     const regex = new RegExp(`${name}=("([^"]*)"|([^\\s]+))`);
     const match = line.match(regex);
     return match ? (match[2] || match[3] || '') : '';
 }
 
-// 解析自定义组件
 function parseCustomComponents(mdText) {
     const lines = mdText.split(/\r?\n/);
     let result = '';
@@ -45,7 +40,6 @@ function parseCustomComponents(mdText) {
         let line = lines[i];
         const trimmed = line.trim();
 
-        // 代码块中的内容不解析
         if (trimmed.startsWith('```')) {
             inCode = !inCode;
             result += line + '\n';
@@ -53,25 +47,17 @@ function parseCustomComponents(mdText) {
             continue;
         }
         
-        if (inCode) {
+        if (inCode || trimmed.startsWith('//')) {
             result += line + '\n';
             i++;
             continue;
         }
-        
-        // 注释行以 // 开头，被忽略
-        if (trimmed.startsWith('//')) {
-            i++;
-            continue;
-        }
 
-        // 检测扩展组件（以 ... 开头）
         const match = trimmed.match(/^\.\.\.([a-z-]+)(?:\s+(.*))?$/);
         if (match) {
             const tag = match[1];
             const attrs = match[2] || '';
 
-            // 结束标签
             if (tag.endsWith('-end')) {
                 const openTag = tag.replace('-end', '');
                 if (stack.length && stack[stack.length - 1].tag === openTag) {
@@ -84,7 +70,6 @@ function parseCustomComponents(mdText) {
                 continue;
             }
 
-            // 卡片开始
             if (tag === 'card-start') {
                 const title = getAttr(attrs, 'title');
                 let style = '';
@@ -106,7 +91,6 @@ function parseCustomComponents(mdText) {
                 continue;
             }
 
-            // 横向布局
             if (tag === 'row-start') {
                 result += '<div class="custom-row">\n';
                 stack.push({ tag: 'row' });
@@ -114,7 +98,6 @@ function parseCustomComponents(mdText) {
                 continue;
             }
             
-            // 纵向布局
             if (tag === 'column-start') {
                 result += '<div class="custom-column">\n';
                 stack.push({ tag: 'column' });
@@ -122,7 +105,6 @@ function parseCustomComponents(mdText) {
                 continue;
             }
 
-            // 按钮组件（4种样式）
             if (['button', 'button-outlined', 'button-filled-tonal', 'button-text'].includes(tag)) {
                 const text = getAttr(attrs, 'text');
                 const eventVal = getAttr(attrs, 'event');
@@ -150,7 +132,6 @@ function parseCustomComponents(mdText) {
                 continue;
             }
 
-            // 图片组件
             if (tag === 'image') {
                 const url = getAttr(attrs, 'url');
                 const width = getAttr(attrs, 'width');
@@ -169,18 +150,15 @@ function parseCustomComponents(mdText) {
                 continue;
             }
 
-            // 未知组件，作为注释
-            result += `<!-- 未识别的组件: ${tag} -->\n`;
+            result += `<!-- ${tag} -->\n`;
             i++;
             continue;
         }
 
-        // 普通文本行 - 直接保留
         result += line + '\n';
         i++;
     }
 
-    // 关闭未闭合的标签
     while (stack.length) {
         const item = stack.pop();
         if (item.tag === 'card') result += '</div></div>\n';
@@ -188,7 +166,6 @@ function parseCustomComponents(mdText) {
         else if (item.tag === 'column') result += '</div>\n';
     }
 
-    // 保护我们生成的 HTML 标签不被 marked 转义
     const placeholders = [];
     let processed = result.replace(/<div class="custom-card[^>]*>|<\/div>|<div class="card-title">.*?<\/div>|<div class="card-content">|<div class="custom-row">|<div class="custom-column">|<button[^>]*>.*?<\/button>|<img[^>]*>/gs, (match) => {
         const idx = placeholders.length;
@@ -196,16 +173,12 @@ function parseCustomComponents(mdText) {
         return `%%HTML_${idx}%%`;
     });
 
-    // 使用 marked 解析 Markdown
     let finalHtml = marked.parse(processed, { async: false });
-    
-    // 恢复被保护的 HTML 标签
     finalHtml = finalHtml.replace(/%%HTML_(\d+)%%/g, (_, idx) => placeholders[parseInt(idx)] || '');
     
     return finalHtml;
 }
 
-// 渲染预览
 function renderPreview(content) {
     const previewDiv = document.getElementById('preview');
     if (!content) {
@@ -215,22 +188,24 @@ function renderPreview(content) {
     try {
         const html = parseCustomComponents(content);
         previewDiv.innerHTML = html;
+        
+        // 如果在编辑模式，重新初始化拖拽
+        if (window.isEditMode) {
+            setTimeout(() => setDragMode(true), 100);
+        }
     } catch (e) {
         console.error('渲染错误:', e);
         previewDiv.innerHTML = `<div class="error">解析错误: ${e.message}</div>`;
     }
 }
 
-// 全局事件处理（供预览按钮使用）- 严格按照教程格式
 window.handleEvent = function(eventStr) {
-    // 解析 url {https://...} 格式（注意空格）
     const urlMatch = eventStr.match(/url\s*\{\s*(.*?)\s*\}/);
     if (urlMatch) {
         window.open(urlMatch[1], '_blank');
         showToast(`🔗 打开链接: ${urlMatch[1]}`);
         return;
     }
-    // 解析 copy{...} 格式
     const copyMatch = eventStr.match(/copy\s*\{\s*(.*?)\s*\}/);
     if (copyMatch) {
         navigator.clipboard.writeText(copyMatch[1]);
@@ -246,6 +221,5 @@ window.handleEvent = function(eventStr) {
     }
 };
 
-// 导出
 window.parseCustomComponents = parseCustomComponents;
 window.renderPreview = renderPreview;
