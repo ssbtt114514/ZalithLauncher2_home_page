@@ -3,74 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>Zalith 主页编辑器 - 可视化制作你的启动器主页</title>
+    <title>Zalith 主页编辑器 - 拖拽式可视化编辑</title>
+    <link rel="preconnect" href="https://fastly.jsdelivr.net">
+    <link rel="dns-prefetch" href="https://fastly.jsdelivr.net">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://fastly.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- 拖拽排序库 -->
+    <script src="https://fastly.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
 </head>
 <body>
 <div class="app">
-    <!-- 顶部栏 -->
-    <div class="top-bar">
-        <div class="logo-area">
-            <span class="logo">📄</span>
-            <span class="title">Zalith 主页编辑器</span>
-            <span class="badge">可视化</span>
-        </div>
-        <div class="tool-buttons">
-            <button id="authorBtn" class="btn-icon">👤 关于作者</button>
-            <button id="editBtn" class="btn-icon">✏️ 编辑</button>
-            <button id="downloadBtn" class="btn-icon">💾 下载</button>
-            <button id="uploadBtn" class="btn-icon">📁 上传</button>
-            <button id="newBtn" class="btn-icon">✨ 新建</button>
-            <button id="refreshBtn" class="btn-icon">🔄 刷新</button>
-        </div>
-    </div>
-
-    <!-- 主区域 -->
-    <div class="main-area">
-        <!-- 左侧预览 -->
+    <!-- 主编辑区（预览 + 属性面板） -->
+    <div class="main-editor-area">
+        <!-- 左侧预览区 -->
         <div class="preview-panel">
             <div class="panel-header">
                 <span>👁️ 预览效果</span>
                 <span id="fileName" class="file-name">未加载</span>
             </div>
-            <div id="preview" class="preview-body">
+            <div id="preview" class="preview-content">
                 <div class="loading">加载中...</div>
             </div>
         </div>
 
-        <!-- 右侧编辑区（编辑模式显示） -->
-        <div id="editPanel" class="edit-panel" style="display: none;">
+        <!-- 右侧属性面板（选中元素时显示） -->
+        <div id="propertyPanel" class="property-panel" style="display: none;">
             <div class="panel-header">
-                <span>✏️ 源码编辑</span>
-                <div class="panel-actions">
-                    <button id="saveBtn" class="btn-small">💾 保存</button>
-                    <button id="cancelBtn" class="btn-small">❌ 取消</button>
-                </div>
+                <span>🎨 属性设置</span>
+                <button id="closePropertyBtn" class="close-btn">×</button>
             </div>
-            
-            <!-- 可视化组件栏 -->
-            <div class="component-bar">
-                <div class="bar-title">📦 插入组件</div>
-                <div class="component-list" id="componentList">
-                    <!-- 组件按钮会由 JS 动态生成 -->
-                </div>
-            </div>
-            
-            <!-- 代码编辑器 -->
-            <textarea id="editor" class="editor" placeholder="在这里编写 Markdown 源码..."></textarea>
-            
-            <div class="editor-hint">
-                💡 提示：点击上方按钮可快速插入组件，无需记忆语法
+            <div id="propertyContent" class="property-content">
+                <!-- 动态表单会插入这里 -->
             </div>
         </div>
     </div>
 
-    <!-- 提示消息 -->
-    <div id="toast" class="toast"></div>
+    <!-- 底部菜单栏（预览、新建、下载） -->
+    <div class="bottom-menu">
+        <div class="menu-left">
+            <button id="previewModeBtn" class="menu-btn active">👁️ 预览模式</button>
+            <button id="editModeBtn" class="menu-btn">✏️ 编辑模式</button>
+        </div>
+        <div class="menu-center">
+            <span class="mode-indicator" id="modeIndicator">预览模式</span>
+        </div>
+        <div class="menu-right">
+            <button id="newFileBtn" class="menu-btn">✨ 新建</button>
+            <button id="uploadBtn" class="menu-btn">📁 上传</button>
+            <button id="downloadBtn" class="menu-btn">💾 下载</button>
+            <button id="refreshBtn" class="menu-btn">🔄 刷新</button>
+            <button id="authorBtn" class="menu-btn author-btn">👤 关于作者</button>
+        </div>
+    </div>
 </div>
 
-<!-- 组件配置弹窗 -->
+<!-- 消息提示 -->
+<div id="toast" class="toast"></div>
+
+<!-- 组件配置弹窗（用于插入新组件） -->
 <div id="modal" class="modal" style="display: none;">
     <div class="modal-content">
         <div class="modal-header">
@@ -99,10 +89,11 @@
     </div>
 </div>
 
-<script src="js/ui.js"></script>
 <script src="js/renderer.js"></script>
 <script src="js/components.js"></script>
 <script src="js/fileHandler.js"></script>
+<script src="js/dragEditor.js"></script>
+<script src="js/ui.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
