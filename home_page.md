@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-05-11 15:24:01
+// 生成时间：2026-05-11 15:24:38
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
     ...column-start vertical=spacedBy(8) horizontal=Center
-> *"开心就好"*
+> *"我们要一直往上爬，总有一天抵达月亮吧。"*
 
         ...row-start horizontal=spacedBy(12)
-            ...button-text text="📋 复制" event="copy{开心就好}"
+            ...button-text text="📋 复制" event="copy{我们要一直往上爬，总有一天抵达月亮吧。}"
         ...row-end
     ...column-end
 ...card-end
@@ -54,7 +54,7 @@
             ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
         ...row-end
         ...row-start horizontal=spacedBy(8)
-            ...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FSea_Lantern}" weight=(1)
+            ...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/MinecraftEdu_1.5.1_Build_13}" weight=(1)
             ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
         ...row-end
         ...row-start horizontal=spacedBy(8)
@@ -143,9 +143,9 @@
 
 👤 **作者**：[ssbtt114514](https://ssbtt114514.github.io/)
 
-📖 **Wiki 推荐**：[Java Edition block render history/Sea Lantern](https://minecraft.wiki/Java_Edition_block_render_history%2FSea_Lantern)
+📖 **Wiki 推荐**：[MinecraftEdu 1.5.1 Build 13](https://minecraft.wiki/MinecraftEdu_1.5.1_Build_13)
 
-⏰ 更新时间：2026-05-11 15:24:01
+⏰ 更新时间：2026-05-11 15:24:38
 
         ...row-start horizontal=spacedBy(12)
             ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
