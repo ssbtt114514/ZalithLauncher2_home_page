@@ -1,4 +1,4 @@
-let isEditMode = false;
+let pendingComponent = null;
 
 function showToast(msg) {
     const toast = document.getElementById('toast');
@@ -7,120 +7,12 @@ function showToast(msg) {
     setTimeout(() => toast.classList.remove('show'), 2000);
 }
 
-function setPreviewMode() {
-    const editPanel = document.getElementById('editPanel');
-    const previewBtn = document.getElementById('previewModeBtn');
-    const editBtn = document.getElementById('editModeBtn');
-    
-    if (editPanel) editPanel.remove();
-    previewBtn.classList.add('active');
-    editBtn.classList.remove('active');
-    setDragMode(false);
-    isEditMode = false;
-    showToast('预览模式');
-}
-
-function setEditMode() {
-    const mainArea = document.querySelector('.main-editor-area');
-    const previewPanel = document.querySelector('.preview-panel');
-    const previewBtn = document.getElementById('previewModeBtn');
-    const editBtn = document.getElementById('editModeBtn');
-    
-    if (!isEditMode) {
-        const editPanel = document.createElement('div');
-        editPanel.id = 'editPanel';
-        editPanel.className = 'edit-panel';
-        editPanel.style.flex = '1';
-        editPanel.style.display = 'flex';
-        editPanel.style.flexDirection = 'column';
-        editPanel.style.background = '#0f1322';
-        editPanel.style.borderRadius = '16px';
-        editPanel.style.border = '1px solid #1e2440';
-        editPanel.style.overflow = 'hidden';
-        
-        editPanel.innerHTML = `
-            <div class="preview-header">
-                <span>✏️ 源码</span>
-                <button id="saveBtn" class="bar-btn" style="padding:4px 12px">保存</button>
-            </div>
-            <div class="component-bar">
-                <div class="component-list" id="componentList"></div>
-            </div>
-            <textarea id="editor" class="editor" placeholder="Markdown 源码..."></textarea>
-            <div class="editor-hint">💡 点击按钮插入 | 预览区长按拖拽排序 | 点击修改属性</div>
-        `;
-        
-        mainArea.insertBefore(editPanel, previewPanel.nextSibling);
-        
-        renderComponentBar();
-        bindComponentButtons();
-        
-        const editor = document.getElementById('editor');
-        if (editor) {
-            editor.value = window.currentMarkdown || '';
-            editor.oninput = () => {
-                window.currentMarkdown = editor.value;
-                renderPreview(editor.value);
-            };
-        }
-        
-        document.getElementById('saveBtn').onclick = () => {
-            const editor = document.getElementById('editor');
-            if (editor) {
-                window.currentMarkdown = editor.value;
-                renderPreview(editor.value);
-                showToast('已保存');
-            }
-        };
-        
-        previewBtn.classList.remove('active');
-        editBtn.classList.add('active');
-        setDragMode(true);
-        isEditMode = true;
-        showToast('编辑模式 - 长按元素可拖拽');
-    }
-}
-
-function renderComponentBar() {
-    const container = document.getElementById('componentList');
-    if (!container) return;
-    container.innerHTML = '';
-    
-    for (const cat of COMPONENT_CATEGORIES) {
-        const title = document.createElement('div');
-        title.className = 'category-title';
-        title.textContent = cat.name;
-        container.appendChild(title);
-        
-        for (const type of cat.items) {
-            if (ComponentTemplates[type]) {
-                const btn = document.createElement('button');
-                btn.className = 'comp-btn';
-                btn.dataset.type = type;
-                btn.textContent = getComponentDisplayName(type);
-                container.appendChild(btn);
-            }
-        }
-    }
-}
-
-function bindComponentButtons() {
-    document.querySelectorAll('.comp-btn').forEach(btn => {
-        btn.onclick = () => {
-            const type = btn.dataset.type;
-            if (type === 'help') openHelpModal();
-            else if (ComponentTemplates[type]) openComponentModal(type);
-            else showToast('开发中');
-        };
-    });
-}
-
 function openComponentModal(type) {
     const tmpl = ComponentTemplates[type];
     if (!tmpl) return;
     
-    window.pendingComponent = type;
-    document.getElementById('modalTitle').textContent = tmpl.name;
+    pendingComponent = type;
+    document.getElementById('modalTitle').textContent = `添加 ${tmpl.name}`;
     
     let html = '';
     for (const f of tmpl.fields) {
@@ -146,12 +38,12 @@ function openComponentModal(type) {
 
 function closeModal() {
     document.getElementById('modal').style.display = 'none';
-    window.pendingComponent = null;
+    pendingComponent = null;
 }
 
 function insertComponent() {
-    if (!window.pendingComponent) return;
-    const tmpl = ComponentTemplates[window.pendingComponent];
+    if (!pendingComponent) return;
+    const tmpl = ComponentTemplates[pendingComponent];
     if (!tmpl) return;
     
     const data = {};
@@ -175,7 +67,7 @@ function insertComponent() {
         const prefix = (start > 0 && text[start-1] !== '\n') ? '\n' : '';
         const suffix = (end < text.length && text[end] !== '\n') ? '\n' : '';
         editor.value = text.substring(0, start) + prefix + code + suffix + text.substring(end);
-        window.currentMarkdown = editor.value;
+        currentMarkdown = editor.value;
         renderPreview(editor.value);
         closeModal();
         showToast(`已添加 ${tmpl.name}`);
@@ -199,25 +91,60 @@ function bindModalEvents() {
     document.getElementById('helpConfirm').onclick = closeHelpModal;
 }
 
-function openAuthor() {
-    window.open('https://ssbtt114514.github.io/', '_blank');
+function bindComponentButtons() {
+    document.querySelectorAll('.comp-btn').forEach(btn => {
+        btn.onclick = () => {
+            const type = btn.dataset.type;
+            if (type === 'help') openHelpModal();
+            else if (ComponentTemplates[type]) openComponentModal(type);
+            else showToast('开发中');
+        };
+    });
 }
 
-function bindMenuButtons() {
-    document.getElementById('previewModeBtn').onclick = setPreviewMode;
-    document.getElementById('editModeBtn').onclick = setEditMode;
-    document.getElementById('newFileBtn').onclick = newFile;
+function bindTopButtons() {
+    document.getElementById('newBtn').onclick = newFile;
     document.getElementById('uploadBtn').onclick = uploadFile;
     document.getElementById('downloadBtn').onclick = downloadFile;
+    document.getElementById('refreshBtn').onclick = () => {
+        if (currentMarkdown) renderPreview(currentMarkdown);
+        else forceRefresh();
+    };
     document.getElementById('authorBtn').onclick = openAuthor;
-    document.getElementById('closePropertyBtn').onclick = closePropertyPanel;
+}
+
+function bindSidebarToggle() {
+    const sidebar = document.getElementById('sidebar');
+    const toggleBtn = document.getElementById('toggleSidebar');
+    if (toggleBtn) {
+        toggleBtn.onclick = () => {
+            sidebar.classList.toggle('collapsed');
+            toggleBtn.textContent = sidebar.classList.contains('collapsed') ? '▶' : '◀';
+        };
+    }
+}
+
+function bindCodeToggle() {
+    const codeBody = document.getElementById('codeBody');
+    const toggleBtn = document.getElementById('toggleCode');
+    if (toggleBtn) {
+        toggleBtn.onclick = () => {
+            codeBody.classList.toggle('collapsed');
+            toggleBtn.textContent = codeBody.classList.contains('collapsed') ? '▼' : '▲';
+        };
+    }
+}
+
+function closePropertyPanel() {
+    const panel = document.getElementById('propertyPanel');
+    panel.classList.remove('open');
+    setTimeout(() => { panel.style.display = 'none'; }, 300);
 }
 
 window.showToast = showToast;
+window.bindComponentButtons = bindComponentButtons;
+window.bindTopButtons = bindTopButtons;
+window.bindSidebarToggle = bindSidebarToggle;
+window.bindCodeToggle = bindCodeToggle;
 window.bindModalEvents = bindModalEvents;
-window.bindMenuButtons = bindMenuButtons;
-window.openComponentModal = openComponentModal;
-window.closeModal = closeModal;
-window.insertComponent = insertComponent;
-window.openHelpModal = openHelpModal;
-window.closeHelpModal = closeHelpModal;
+window.closePropertyPanel = closePropertyPanel;
