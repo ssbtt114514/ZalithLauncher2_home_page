@@ -1,20 +1,20 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-05-10 15:40:47
+// 生成时间：2026-05-11 04:12:19
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.MotherCub_ZH-CN0999123163_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.QueenslandReef_ZH-CN1138150002_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16, 12)
     ...column-start vertical=spacedBy(8) horizontal=Center
-> *"任何一件事都具有两面性。"*
+> *"黑暗的环境容易做错事。"*
 
         ...row-start horizontal=spacedBy(12)
             ...button-filled-tonal text="🔄 刷新" event="copy{https://v1.hitokoto.cn/?c=a}" width=100dp
-            ...button-text text="📋 复制" event="copy{任何一件事都具有两面性。}"
+            ...button-text text="📋 复制" event="copy{黑暗的环境容易做错事。}"
         ...row-end
     ...column-end
 ...card-end
@@ -54,7 +54,7 @@
         ...row-end
         ...row-start horizontal=spacedBy(8)
             ...button-filled-tonal text="💬 MCBBS" event="url{https://www.mcbbs.net/}" weight=(1)
-            ...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft%3A_The_Tournament}" weight=(1)
+            ...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Fdefaultgamemode}" weight=(1)
         ...row-end
         ...row-start horizontal=spacedBy(8)
             ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
@@ -67,28 +67,28 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
     ...column-start vertical=spacedBy(10) horizontal=Start
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/ilxqKTHS/99fd253bd8a7c6b680d4661ce9045eb0ec5ab92c_96.webp" width=24dp shape=4dp
-            ...button-text text="Reimagined World Selection - Mod that changes the way how the World S (0.0M)" event="url{https://modrinth.com/mod/reimagined-world-selection}"
+            ...image url="https://cdn.modrinth.com/data/qUhSghSQ/f8a33ae1d9381d4444fe7213b71e5bd45de1f1da.png" width=24dp shape=4dp
+            ...button-text text="SimpleVoiceChat Broadcast - Broadcast audio to everyone (0.0M)" event="url{https://modrinth.com/mod/simplevoicechat-broadcast}"
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/hOu0A7L5/bbba6e0522d88098a4e3cb3cdc666e268705ecb6_96.webp" width=24dp shape=4dp
-            ...button-text text="Diamond to Cobalt - changes diamond textures to cobalt (0.0M)" event="url{https://modrinth.com/mod/diamond-to-cobalt}"
+            ...image url="https://cdn.modrinth.com/data/ZPILNkUJ/8cdc21f9d483df22feb5a76ee20075074c300842.png" width=24dp shape=4dp
+            ...button-text text="Potato's Chips 'n' Skills - A datapackable RPG skills & leveling sys (0.0M)" event="url{https://modrinth.com/mod/chipsnskills}"
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/T0ZNSMix/40e8cb5718646c0ca5f40c5c10bd13beaa0d65d3_96.webp" width=24dp shape=4dp
-            ...button-text text="Paxels - Paxels adds simple multi-tools that comb (0.0M)" event="url{https://modrinth.com/mod/paxels-tools}"
+            ...image url="https://cdn.modrinth.com/data/TEesXKHE/5c4eef00e3246366aebeb5555475e8fb5dc9e612_96.webp" width=24dp shape=4dp
+            ...button-text text="soyaTierTagger - SoyaNetwork TierTagger mod for TierListT (0.0M)" event="url{https://modrinth.com/mod/soyatiertagger}"
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/ONFFQRso/58dbf380b2f00195e56548c1305c2d769654d69c_96.webp" width=24dp shape=4dp
-            ...button-text text="Modpack Authors - Client-side Minecraft mod that adds a co (0.0M)" event="url{https://modrinth.com/mod/modpack-authors}"
+            ...image url="https://cdn.modrinth.com/data/6ixNTb2A/3a4fb6ae79ed8a837b7d7014fcecd8c4b76f5f57_96.webp" width=24dp shape=4dp
+            ...button-text text="VIRISMP - This is the official VIRISMP modpack, sh (0.0M)" event="url{https://modrinth.com/mod/virismp}"
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/aBVLHiAW/eb1a5f242a024853d493df68d806ab7156e0a6e6_96.webp" width=24dp shape=4dp
-            ...button-text text="BentoBox - SkyBlock, OneBlock, Boxed, SkyGrid, Acid (0.0M)" event="url{https://modrinth.com/mod/bentobox}"
+            ...image url="https://cdn.modrinth.com/data/W0s8ZXtN/a259d1e6cee4a85bb7f641fc19be45998d6d2870_96.webp" width=24dp shape=4dp
+            ...button-text text="Moh's Daggers - Miss pre-1.9 combat? Try a dagger! (0.0M)" event="url{https://modrinth.com/mod/mohs-daggers}"
         ...row-end
 
         ...row-start horizontal=spacedBy(8)
@@ -118,14 +118,14 @@
     ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：一份经久不衰的羁绊
-        © 北极熊妈妈和幼崽在瓦普斯克国家公园玩耍, 马尼托巴省, 加拿大 (© Hao Jiang/Getty Images)
+🖼️ 壁纸：水下建筑
+        © 从上方俯瞰大堡礁, 昆士兰州, 澳大利亚 (© Francesco Riccardo Iacomino/Getty Images)
 
 👤 **作者**：[ssbtt114514](https://ssbtt114514.github.io/)
 
-📖 **Wiki 推荐**：[Minecraft: The Tournament](https://minecraft.wiki/Minecraft%3A_The_Tournament)
+📖 **Wiki 推荐**：[Commands/defaultgamemode](https://minecraft.wiki/Commands%2Fdefaultgamemode)
 
-⏰ 更新时间：2026-05-10 15:40:47
+⏰ 更新时间：2026-05-11 04:12:19
 
         ...row-start horizontal=spacedBy(12)
             ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
