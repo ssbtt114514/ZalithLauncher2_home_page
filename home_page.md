@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-05-11 16:04:07
+// 生成时间：2026-05-11 21:59:12
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
     ...column-start vertical=spacedBy(8) horizontal=Center
-> *"神在白天做梦，太阳从西边升起。"*
+> *"Per aspera ad astra."*
 
         ...row-start horizontal=spacedBy(12)
-            ...button-text text="📋 复制" event="copy{神在白天做梦，太阳从西边升起。}"
+            ...button-text text="📋 复制" event="copy{Per aspera ad astra.}"
         ...row-end
     ...column-end
 ...card-end
@@ -54,7 +54,7 @@
             ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
         ...row-end
         ...row-start horizontal=spacedBy(8)
-            ...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Door_(disambiguation)}" weight=(1)
+            ...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Debug}" weight=(1)
             ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
         ...row-end
         ...row-start horizontal=spacedBy(8)
@@ -67,47 +67,47 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
     ...column-start vertical=spacedBy(12) horizontal=Start
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/xE5zZjzy/20f8f1142e6068309ca28b5e346dde52054564b6_96.webp" width=32dp shape=4dp
+            ...image url="https://cdn.modrinth.com/data/bh0iBZld/dd5e29208efbed612f74fef6e13e0e0d797b9907_96.webp" width=32dp shape=4dp
             ...column-start
-                ...button-text text="Recycle!" event="url{https://modrinth.com/mod/recycle!}"
-                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 Kurtloise | 📅 2026-05-11</span>
-                <span style="font-size:12px;">A new block that lets you recycle your tools for Ingots!</span>
+                ...button-text text="Slot Jam" event="url{https://modrinth.com/mod/slot-jam}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 Neiliv | 📅 2026-05-11</span>
+                <span style="font-size:12px;">At a configurable interval, some slots become unusable.</span>
             ...column-end
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/GG0UE9Yn/e593f4acf25ab5ad231abfd02a070faaf927fd2b.png" width=32dp shape=4dp
+            ...image url="https://cdn.modrinth.com/data/eGy4o2qu/5b3241cceb584962c118d89bb9c159ebee3aa1db.png" width=32dp shape=4dp
             ...column-start
-                ...button-text text="Whiteboard-mod" event="url{https://modrinth.com/mod/whiteboard-mod}"
-                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 NONN12 | 📅 2026-05-11</span>
-                <span style="font-size:12px;">Add a interactive drawing and real-time collaboration for Fabric.</span>
+                ...button-text text="Rotten Flesh into Leather" event="url{https://modrinth.com/mod/rotten-flesh-into-leather}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 badcakee | 📅 2026-05-11</span>
+                <span style="font-size:12px;">This project adds a useful use for Rotten Flesh</span>
             ...column-end
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/KibJCT3b/0c8616c2919ec1b7b9b367599a62933d5e80e741.png" width=32dp shape=4dp
+            ...image url="https://cdn.modrinth.com/data/5ECg8hJg/ae61020f77abe8fdb76b71c7e2996040c411512a_96.webp" width=32dp shape=4dp
             ...column-start
-                ...button-text text="SadJier's PlayerTracker" event="url{https://modrinth.com/mod/sadjiers-playertracker}"
-                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 SadJier | 📅 2026-05-11</span>
-                <span style="font-size:12px;">一个可以用指南针对玩家进行追踪的模组。A mod that can track players with a compass.</span>
+                ...button-text text="Polymer Patch for Sooty Chimneys" event="url{https://modrinth.com/mod/sooty-chimneys-polymer}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 Sun_Phoen1x | 📅 2026-05-11</span>
+                <span style="font-size:12px;">A Polymer Patch mod for Sooty Chimneys, allowing it to work fully server side!</span>
             ...column-end
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/aJewFWOb/0f148c35e3a625f70b163dc26e2bfe3923ada4dc_96.webp" width=32dp shape=4dp
+            ...image url="https://cdn.modrinth.com/data/etWyo7w3/ca6357c337a91b6ad70d5fc0eb2ce45fb19653dc_96.webp" width=32dp shape=4dp
             ...column-start
-                ...button-text text="Synaxis" event="url{https://modrinth.com/mod/synaxis}"
-                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 Rew1nd | 📅 2026-05-11</span>
-                <span style="font-size:12px;">Add circuit / luascript infrastructure that runs at full precision/frequency and</span>
+                ...button-text text="StaticSky" event="url{https://modrinth.com/mod/staticsky}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 ZeeGood | 📅 2026-05-11</span>
+                <span style="font-size:12px;">Changes the default Minecraft sky gradient to a single, solid color for a cleane</span>
             ...column-end
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/xZGq1FwZ/9d94295cae6b537e81669e83b7512568a7d23ee5_96.webp" width=32dp shape=4dp
+            ...image url="https://cdn.modrinth.com/data/iqG99Iwy/c5e34d9b22ee7453f78b84aee9f4f7e40934571d.png" width=32dp shape=4dp
             ...column-start
-                ...button-text text="Blind Deaf Mute" event="url{https://modrinth.com/mod/blind-deaf-mute}"
-                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 ChaldS | 📅 2026-05-11</span>
-                <span style="font-size:12px;">A 3-player roleplay challenge — Blind, Deaf & Mute. Can you survive together?</span>
+                ...button-text text="CoolGUI" event="url{https://modrinth.com/mod/fifou_coolgui}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 joris.brischetto | 📅 2026-05-11</span>
+                <span style="font-size:12px;">ADD A COOLGUI whit many possibilities like teleport, walkspeed overide and more.</span>
             ...column-end
         ...row-end
 
@@ -143,9 +143,9 @@
 
 👤 **作者**：[ssbtt114514](https://ssbtt114514.github.io/)
 
-📖 **Wiki 推荐**：[Door (disambiguation)](https://minecraft.wiki/Door_(disambiguation))
+📖 **Wiki 推荐**：[Debug](https://minecraft.wiki/Debug)
 
-⏰ 更新时间：2026-05-11 16:04:07
+⏰ 更新时间：2026-05-11 21:59:12
 
         ...row-start horizontal=spacedBy(12)
             ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
