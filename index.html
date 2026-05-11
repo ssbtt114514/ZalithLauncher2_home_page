@@ -7,47 +7,100 @@
     <link rel="preconnect" href="https://fastly.jsdelivr.net">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://fastly.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="https://fastly.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
 </head>
 <body>
 <div class="app">
-    <!-- 主内容区（可滑动） -->
-    <div class="main-scroll-area">
-        <div class="main-editor-area">
-            <!-- 预览区 -->
-            <div class="preview-panel">
-                <div class="preview-header">
-                    <span>👁️ 预览</span>
-                    <span id="fileName" class="file-name"></span>
-                </div>
-                <div id="preview" class="preview-content">
-                    <div class="loading">加载中...</div>
-                </div>
+    <!-- 左侧边栏：组件工具栏 -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <span>📦 组件</span>
+            <button id="toggleSidebar" class="icon-btn">◀</button>
+        </div>
+        <div class="sidebar-content" id="sidebarContent">
+            <div class="component-section">
+                <div class="section-title">📦 容器</div>
+                <button class="comp-btn" data-type="card">卡片</button>
             </div>
-
-            <!-- 属性面板（移动端从底部弹出） -->
-            <div id="propertyPanel" class="property-panel" style="display: none;">
-                <div class="property-header">
-                    <span>🎨 属性</span>
-                    <button id="closePropertyBtn" class="close-btn">×</button>
-                </div>
-                <div id="propertyContent" class="property-content"></div>
+            <div class="component-section">
+                <div class="section-title">🔘 按钮</div>
+                <button class="comp-btn" data-type="button_filled">填充按钮</button>
+                <button class="comp-btn" data-type="button_outlined">边框按钮</button>
+                <button class="comp-btn" data-type="button_tonal">色调按钮</button>
+                <button class="comp-btn" data-type="button_text">文字按钮</button>
+            </div>
+            <div class="component-section">
+                <div class="section-title">📐 布局</div>
+                <button class="comp-btn" data-type="row">横向布局</button>
+                <button class="comp-btn" data-type="column">纵向布局</button>
+            </div>
+            <div class="component-section">
+                <div class="section-title">🖼️ 媒体</div>
+                <button class="comp-btn" data-type="image">图片</button>
+            </div>
+            <div class="component-section">
+                <div class="section-title">📝 排版</div>
+                <button class="comp-btn" data-type="divider">分割线</button>
+                <button class="comp-btn" data-type="heading">标题</button>
+                <button class="comp-btn" data-type="quote">引用</button>
+                <button class="comp-btn" data-type="list">列表</button>
+            </div>
+            <div class="component-section">
+                <div class="section-title">❓ 帮助</div>
+                <button class="comp-btn" data-type="help">语法帮助</button>
             </div>
         </div>
     </div>
 
-    <!-- 简约底部菜单栏 -->
-    <div class="bottom-bar">
-        <div class="bar-group">
-            <button id="previewModeBtn" class="bar-btn active">预览</button>
-            <button id="editModeBtn" class="bar-btn">编辑</button>
+    <!-- 主内容区 -->
+    <div class="main-content">
+        <!-- 顶部工具栏 -->
+        <div class="top-bar">
+            <div class="logo-area">
+                <span>📄 Zalith 主页编辑器</span>
+                <span class="badge">官方教程版</span>
+            </div>
+            <div class="action-buttons">
+                <button id="newBtn" class="action-btn">新建</button>
+                <button id="uploadBtn" class="action-btn">上传</button>
+                <button id="downloadBtn" class="action-btn">保存</button>
+                <button id="refreshBtn" class="action-btn">刷新</button>
+                <button id="authorBtn" class="action-btn">关于</button>
+            </div>
         </div>
-        <div class="bar-group">
-            <button id="newFileBtn" class="bar-btn">新建</button>
-            <button id="uploadBtn" class="bar-btn">上传</button>
-            <button id="downloadBtn" class="bar-btn">保存</button>
-            <button id="authorBtn" class="bar-btn">关于</button>
+
+        <!-- 预览区域 -->
+        <div class="preview-area">
+            <div class="preview-header">
+                <span>👁️ 预览效果</span>
+                <span id="fileName" class="file-name"></span>
+            </div>
+            <div id="preview" class="preview-content">
+                <div class="loading">加载中...</div>
+            </div>
         </div>
+
+        <!-- 底部代码编辑区 -->
+        <div class="code-area" id="codeArea">
+            <div class="code-header">
+                <span>✏️ Markdown 源码</span>
+                <button id="toggleCode" class="icon-btn">▲</button>
+            </div>
+            <div class="code-body" id="codeBody">
+                <textarea id="editor" class="editor" placeholder="在这里编写 Markdown 源码..."></textarea>
+                <div class="editor-hint">
+                    💡 提示：点击左侧组件按钮可快速插入，支持所有官方扩展组件
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 属性面板（选中时显示） -->
+    <div id="propertyPanel" class="property-panel" style="display: none;">
+        <div class="property-header">
+            <span>🎨 属性</span>
+            <button id="closePropertyBtn" class="icon-btn">×</button>
+        </div>
+        <div id="propertyContent" class="property-content"></div>
     </div>
 
     <div id="toast" class="toast"></div>
@@ -71,7 +124,7 @@
 <div id="helpModal" class="modal" style="display: none;">
     <div class="modal-content modal-large">
         <div class="modal-header">
-            <span>📖 帮助</span>
+            <span>📖 组件语法速查</span>
             <button id="helpClose" class="modal-close">×</button>
         </div>
         <div id="helpBody" class="modal-body help-body"></div>
@@ -84,7 +137,6 @@
 <script src="js/renderer.js"></script>
 <script src="js/components.js"></script>
 <script src="js/fileHandler.js"></script>
-<script src="js/dragEditor.js"></script>
 <script src="js/ui.js"></script>
 <script src="js/main.js"></script>
 </body>
