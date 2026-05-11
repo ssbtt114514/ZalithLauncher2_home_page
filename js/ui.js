@@ -1,7 +1,3 @@
-/**
- * UI 控制
- */
-
 let isEditMode = false;
 
 function showToast(msg) {
@@ -11,7 +7,6 @@ function showToast(msg) {
     setTimeout(() => toast.classList.remove('show'), 2000);
 }
 
-// 预览模式
 function setPreviewMode() {
     const editPanel = document.getElementById('editPanel');
     const previewBtn = document.getElementById('previewModeBtn');
@@ -25,7 +20,6 @@ function setPreviewMode() {
     showToast('预览模式');
 }
 
-// 编辑模式
 function setEditMode() {
     const mainArea = document.querySelector('.main-editor-area');
     const previewPanel = document.querySelector('.preview-panel');
@@ -40,20 +34,20 @@ function setEditMode() {
         editPanel.style.display = 'flex';
         editPanel.style.flexDirection = 'column';
         editPanel.style.background = '#0f1322';
-        editPanel.style.borderRadius = '20px';
+        editPanel.style.borderRadius = '16px';
         editPanel.style.border = '1px solid #1e2440';
         editPanel.style.overflow = 'hidden';
         
         editPanel.innerHTML = `
             <div class="preview-header">
                 <span>✏️ 源码</span>
-                <div><button id="saveBtn" class="bar-btn" style="padding:4px 12px">保存</button></div>
+                <button id="saveBtn" class="bar-btn" style="padding:4px 12px">保存</button>
             </div>
             <div class="component-bar">
                 <div class="component-list" id="componentList"></div>
             </div>
             <textarea id="editor" class="editor" placeholder="Markdown 源码..."></textarea>
-            <div class="editor-hint">💡 点击上方按钮插入组件 | 预览区可拖拽调整</div>
+            <div class="editor-hint">💡 点击按钮插入 | 预览区长按拖拽排序 | 点击修改属性</div>
         `;
         
         mainArea.insertBefore(editPanel, previewPanel.nextSibling);
@@ -83,11 +77,10 @@ function setEditMode() {
         editBtn.classList.add('active');
         setDragMode(true);
         isEditMode = true;
-        showToast('编辑模式 - 可拖拽元素');
+        showToast('编辑模式 - 长按元素可拖拽');
     }
 }
 
-// 渲染组件栏
 function renderComponentBar() {
     const container = document.getElementById('componentList');
     if (!container) return;
@@ -122,7 +115,6 @@ function bindComponentButtons() {
     });
 }
 
-// 组件弹窗
 function openComponentModal(type) {
     const tmpl = ComponentTemplates[type];
     if (!tmpl) return;
@@ -136,9 +128,7 @@ function openComponentModal(type) {
             <label class="form-label">${f.label}${f.required ? ' *' : ''}</label>`;
         if (f.type === 'select') {
             html += `<select class="form-select" id="field_${f.name}">`;
-            for (const opt of f.options) {
-                html += `<option value="${opt}">${opt}</option>`;
-            }
+            for (const opt of f.options) html += `<option value="${opt}">${opt}</option>`;
             html += `</select>`;
         } else if (f.type === 'textarea') {
             html += `<textarea class="form-textarea" id="field_${f.name}" placeholder="${f.placeholder || ''}"></textarea>`;
@@ -224,8 +214,6 @@ function bindMenuButtons() {
 }
 
 window.showToast = showToast;
-window.setPreviewMode = setPreviewMode;
-window.setEditMode = setEditMode;
 window.bindModalEvents = bindModalEvents;
 window.bindMenuButtons = bindMenuButtons;
 window.openComponentModal = openComponentModal;
