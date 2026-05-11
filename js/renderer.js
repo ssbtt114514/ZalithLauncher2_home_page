@@ -1,5 +1,6 @@
 /**
- * 渲染器 - 支持自定义组件和纯 Markdown
+ * 渲染器 - 严格按照 Zalith Launcher2 官方教程
+ * 支持所有扩展组件：卡片、按钮、布局、图片
  */
 
 function escapeHtml(str) {
@@ -40,6 +41,7 @@ function parseCustomComponents(mdText) {
         let line = lines[i];
         const trimmed = line.trim();
 
+        // 代码块内不解析
         if (trimmed.startsWith('```')) {
             inCode = !inCode;
             result += line + '\n';
@@ -47,17 +49,25 @@ function parseCustomComponents(mdText) {
             continue;
         }
         
-        if (inCode || trimmed.startsWith('//')) {
+        if (inCode) {
             result += line + '\n';
             i++;
             continue;
         }
+        
+        // 注释行以 // 开头，忽略
+        if (trimmed.startsWith('//')) {
+            i++;
+            continue;
+        }
 
+        // 检测扩展组件
         const match = trimmed.match(/^\.\.\.([a-z-]+)(?:\s+(.*))?$/);
         if (match) {
             const tag = match[1];
             const attrs = match[2] || '';
 
+            // 结束标签
             if (tag.endsWith('-end')) {
                 const openTag = tag.replace('-end', '');
                 if (stack.length && stack[stack.length - 1].tag === openTag) {
@@ -70,6 +80,7 @@ function parseCustomComponents(mdText) {
                 continue;
             }
 
+            // 卡片组件
             if (tag === 'card-start') {
                 const title = getAttr(attrs, 'title');
                 let style = '';
@@ -91,6 +102,7 @@ function parseCustomComponents(mdText) {
                 continue;
             }
 
+            // 横向布局
             if (tag === 'row-start') {
                 result += '<div class="custom-row">\n';
                 stack.push({ tag: 'row' });
@@ -98,6 +110,7 @@ function parseCustomComponents(mdText) {
                 continue;
             }
             
+            // 纵向布局
             if (tag === 'column-start') {
                 result += '<div class="custom-column">\n';
                 stack.push({ tag: 'column' });
@@ -105,6 +118,7 @@ function parseCustomComponents(mdText) {
                 continue;
             }
 
+            // 按钮组件（4种样式）
             if (['button', 'button-outlined', 'button-filled-tonal', 'button-text'].includes(tag)) {
                 const text = getAttr(attrs, 'text');
                 const eventVal = getAttr(attrs, 'event');
@@ -132,6 +146,7 @@ function parseCustomComponents(mdText) {
                 continue;
             }
 
+            // 图片组件
             if (tag === 'image') {
                 const url = getAttr(attrs, 'url');
                 const width = getAttr(attrs, 'width');
@@ -150,15 +165,18 @@ function parseCustomComponents(mdText) {
                 continue;
             }
 
-            result += `<!-- ${tag} -->\n`;
+            // 未知组件
+            result += `<!-- 组件: ${tag} -->\n`;
             i++;
             continue;
         }
 
+        // 普通文本
         result += line + '\n';
         i++;
     }
 
+    // 关闭未闭合标签
     while (stack.length) {
         const item = stack.pop();
         if (item.tag === 'card') result += '</div></div>\n';
@@ -166,6 +184,7 @@ function parseCustomComponents(mdText) {
         else if (item.tag === 'column') result += '</div>\n';
     }
 
+    // 保护 HTML 标签
     const placeholders = [];
     let processed = result.replace(/<div class="custom-card[^>]*>|<\/div>|<div class="card-title">.*?<\/div>|<div class="card-content">|<div class="custom-row">|<div class="custom-column">|<button[^>]*>.*?<\/button>|<img[^>]*>/gs, (match) => {
         const idx = placeholders.length;
@@ -173,8 +192,13 @@ function parseCustomComponents(mdText) {
         return `%%HTML_${idx}%%`;
     });
 
+    // Markdown 解析
     let finalHtml = marked.parse(processed, { async: false });
+    
+    // 恢复 HTML 标签
     finalHtml = finalHtml.replace(/%%HTML_(\d+)%%/g, (_, idx) => placeholders[parseInt(idx)] || '');
+    
+    // 清理多余分隔符
     finalHtml = finalHtml.replace(/<hr>\s*<hr>/g, '<hr>');
     
     return finalHtml;
@@ -183,15 +207,12 @@ function parseCustomComponents(mdText) {
 function renderPreview(content) {
     const previewDiv = document.getElementById('preview');
     if (!content) {
-        previewDiv.innerHTML = '<div class="error">没有内容</div>';
+        previewDiv.innerHTML = '<div class="error">没有内容，请新建或上传文件</div>';
         return;
     }
     try {
         const html = parseCustomComponents(content);
         previewDiv.innerHTML = html;
-        if (window.isEditMode) {
-            setTimeout(() => setDragMode(true), 100);
-        }
     } catch (e) {
         console.error('渲染错误:', e);
         previewDiv.innerHTML = `<div class="error">解析错误: ${e.message}</div>`;
@@ -202,7 +223,7 @@ window.handleEvent = function(eventStr) {
     const urlMatch = eventStr.match(/url\s*\{\s*(.*?)\s*\}/);
     if (urlMatch) {
         window.open(urlMatch[1], '_blank');
-        showToast(`🔗 ${urlMatch[1]}`);
+        showToast(`🔗 打开链接`);
         return;
     }
     const copyMatch = eventStr.match(/copy\s*\{\s*(.*?)\s*\}/);
