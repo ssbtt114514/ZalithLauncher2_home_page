@@ -5,54 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=cover">
     <title>Zalith 主页编辑器</title>
     <link rel="preconnect" href="https://fastly.jsdelivr.net">
-    <link rel="dns-prefetch" href="https://fastly.jsdelivr.net">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://fastly.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="https://fastly.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
 </head>
 <body>
 <div class="app">
-    <!-- 主编辑区 -->
-    <div class="main-editor-area">
-        <!-- 预览区 -->
-        <div class="preview-panel">
-            <div class="preview-header">
-                <span>👁️ 预览</span>
-                <span id="fileName" class="file-name"></span>
+    <!-- 主内容区（可滑动） -->
+    <div class="main-scroll-area">
+        <div class="main-editor-area">
+            <!-- 预览区 -->
+            <div class="preview-panel">
+                <div class="preview-header">
+                    <span>👁️ 预览</span>
+                    <span id="fileName" class="file-name"></span>
+                </div>
+                <div id="preview" class="preview-content">
+                    <div class="loading">加载中...</div>
+                </div>
             </div>
-            <div id="preview" class="preview-content">
-                <div class="loading">加载中...</div>
-            </div>
-        </div>
 
-        <!-- 属性面板（选中时显示） -->
-        <div id="propertyPanel" class="property-panel" style="display: none;">
-            <div class="property-header">
-                <span>🎨 属性</span>
-                <button id="closePropertyBtn" class="close-btn">×</button>
+            <!-- 属性面板（移动端从底部弹出） -->
+            <div id="propertyPanel" class="property-panel" style="display: none;">
+                <div class="property-header">
+                    <span>🎨 属性</span>
+                    <button id="closePropertyBtn" class="close-btn">×</button>
+                </div>
+                <div id="propertyContent" class="property-content"></div>
             </div>
-            <div id="propertyContent" class="property-content"></div>
         </div>
     </div>
 
     <!-- 简约底部菜单栏 -->
     <div class="bottom-bar">
-        <!-- 左侧：模式切换 -->
         <div class="bar-group">
             <button id="previewModeBtn" class="bar-btn active">预览</button>
             <button id="editModeBtn" class="bar-btn">编辑</button>
         </div>
-        
-        <!-- 右侧：文件操作 -->
         <div class="bar-group">
             <button id="newFileBtn" class="bar-btn">新建</button>
             <button id="uploadBtn" class="bar-btn">上传</button>
             <button id="downloadBtn" class="bar-btn">保存</button>
-            <button id="authorBtn" class="bar-btn author">关于</button>
+            <button id="authorBtn" class="bar-btn">关于</button>
         </div>
     </div>
 
-    <!-- 提示 -->
     <div id="toast" class="toast"></div>
 </div>
 
