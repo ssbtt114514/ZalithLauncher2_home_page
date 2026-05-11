@@ -15,19 +15,18 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    padding: 16px;
-    gap: 16px;
+    padding: 12px;
+    gap: 12px;
 }
 
-/* 主编辑区（预览 + 属性面板） */
+/* 主编辑区 */
 .main-editor-area {
     display: flex;
     flex: 1;
-    gap: 20px;
+    gap: 12px;
     min-height: 0;
 }
 
-/* 预览面板 */
 .preview-panel {
     flex: 2;
     background: #0f1322;
@@ -38,7 +37,6 @@ body {
     overflow: hidden;
 }
 
-/* 属性面板 */
 .property-panel {
     flex: 1;
     background: #0f1322;
@@ -49,31 +47,19 @@ body {
     overflow: hidden;
 }
 
-.panel-header {
+.preview-header, .property-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 18px;
+    padding: 10px 16px;
     background: #0b0f1a;
     border-bottom: 1px solid #1e2440;
-    font-size: 14px;
-}
-
-.close-btn {
-    background: none;
-    border: none;
-    color: #7f8ea3;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.close-btn:hover {
-    color: #ef4444;
+    font-size: 13px;
 }
 
 .preview-content {
     flex: 1;
-    padding: 20px;
+    padding: 16px;
     overflow-y: auto;
 }
 
@@ -83,68 +69,110 @@ body {
     overflow-y: auto;
 }
 
-/* 底部菜单栏 */
-.bottom-menu {
+/* ========== 简约底部菜单栏 ========== */
+.bottom-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #0f1322;
-    padding: 8px 20px;
-    border-radius: 50px;
+    padding: 8px 16px;
+    border-radius: 40px;
     border: 1px solid #1e2440;
+    gap: 16px;
+    flex-wrap: wrap;
 }
 
-.menu-left, .menu-right {
+.bar-group {
     display: flex;
     gap: 8px;
+    align-items: center;
 }
 
-.menu-center {
-    display: flex;
-    gap: 16px;
-}
-
-.mode-indicator {
-    font-size: 12px;
-    color: #60a5fa;
-    background: #1e2440;
-    padding: 4px 12px;
-    border-radius: 30px;
-}
-
-.menu-btn {
-    background: #1e2440;
+.bar-btn {
+    background: transparent;
     border: none;
-    color: #e2e8f0;
-    padding: 6px 16px;
+    color: #94a3b8;
+    padding: 8px 16px;
     border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
     cursor: pointer;
-    font-size: 13px;
     transition: all 0.2s;
 }
 
-.menu-btn:hover {
-    background: #3b82f6;
-    transform: translateY(-1px);
+.bar-btn:hover {
+    background: #1e2440;
+    color: #e2e8f0;
 }
 
-.menu-btn.active {
+.bar-btn.active {
     background: #3b82f6;
+    color: white;
 }
 
-.author-btn {
+.bar-btn.author {
     background: #2d3a5e;
+    color: #bbd7ff;
 }
 
-.author-btn:hover {
+.bar-btn.author:hover {
     background: #3b4a74;
 }
 
-/* 可拖拽元素样式 */
+/* 手机适配 */
+@media (max-width: 640px) {
+    .app {
+        padding: 8px;
+        gap: 8px;
+    }
+    
+    .bottom-bar {
+        padding: 6px 12px;
+        gap: 10px;
+    }
+    
+    .bar-group {
+        gap: 4px;
+    }
+    
+    .bar-btn {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+    
+    .preview-header, .property-header {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+    
+    .preview-content {
+        padding: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bottom-bar {
+        flex-direction: column;
+        gap: 8px;
+        border-radius: 20px;
+    }
+    
+    .bar-group {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .bar-btn {
+        flex: 1;
+        text-align: center;
+        padding: 8px 0;
+    }
+}
+
+/* ========== 拖拽样式 ========== */
 .draggable-element {
     cursor: move;
     transition: box-shadow 0.2s;
-    position: relative;
 }
 
 .draggable-element:hover {
@@ -155,7 +183,7 @@ body {
     box-shadow: 0 0 0 2px #3b82f6, 0 0 0 4px rgba(59, 130, 246, 0.3);
 }
 
-/* 属性表单样式 */
+/* 属性表单 */
 .prop-group {
     margin-bottom: 20px;
     border-bottom: 1px solid #1e2440;
@@ -210,17 +238,11 @@ body {
     font-size: 12px;
 }
 
-/* 组件工具栏（编辑模式下显示） */
+/* 编辑模式下的组件栏 */
 .component-bar {
     background: #0b0f1a;
     border-bottom: 1px solid #1e2440;
     padding: 10px 16px;
-}
-
-.bar-title {
-    font-size: 12px;
-    color: #7f8ea3;
-    margin-bottom: 8px;
 }
 
 .component-list {
@@ -249,19 +271,10 @@ body {
     border-radius: 20px;
     cursor: pointer;
     font-size: 12px;
-    transition: all 0.2s;
 }
 
 .comp-btn:hover {
     background: #3b82f6;
-}
-
-/* 编辑器区域（编辑模式下显示） */
-.editor-container {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
 }
 
 .editor {
@@ -269,7 +282,7 @@ body {
     background: #0b0f1a;
     border: none;
     color: #e2e8f0;
-    font-family: 'Fira Code', 'Courier New', monospace;
+    font-family: monospace;
     font-size: 13px;
     padding: 16px;
     resize: none;
@@ -285,7 +298,7 @@ body {
     color: #7f8ea3;
 }
 
-/* 自定义组件预览样式 */
+/* ========== 自定义组件样式 ========== */
 .custom-card {
     background: #1a1f33;
     border-radius: 12px;
@@ -324,7 +337,6 @@ body {
 
 .custom-row {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     gap: 8px;
     margin-bottom: 12px;
@@ -342,23 +354,40 @@ body {
     border-radius: 12px;
 }
 
-/* Markdown 样式 */
-.markdown-body h1, .markdown-body h2, .markdown-body h3 { color: white; margin: 12px 0 8px; }
-.markdown-body p { margin: 8px 0; }
-.markdown-body ul { margin: 8px 0 8px 20px; }
+/* ========== Markdown 样式（修复分隔符） ========== */
+.markdown-body {
+    line-height: 1.6;
+}
+
+.markdown-body h1, .markdown-body h2, .markdown-body h3 { 
+    color: white; 
+    margin: 16px 0 12px; 
+}
+
+.markdown-body h1 { font-size: 28px; }
+.markdown-body h2 { font-size: 22px; }
+.markdown-body h3 { font-size: 18px; }
+
+.markdown-body p { margin: 12px 0; }
+.markdown-body ul, .markdown-body ol { margin: 12px 0 12px 24px; }
+.markdown-body li { margin: 4px 0; }
 .markdown-body a { color: #60a5fa; text-decoration: none; }
 .markdown-body a:hover { text-decoration: underline; }
-.markdown-body blockquote {
-    border-left: 4px solid #3b82f6;
-    margin: 12px 0;
-    padding-left: 16px;
-    color: #94a3b8;
-}
+
+/* 分隔符样式 - 修复 */
 .markdown-body hr {
-    margin: 20px 0;
+    margin: 24px 0;
     border: none;
     height: 1px;
-    background: #2a3150;
+    background: linear-gradient(90deg, transparent, #3b82f6, #60a5fa, #3b82f6, transparent);
+}
+
+.markdown-body blockquote {
+    border-left: 4px solid #3b82f6;
+    margin: 16px 0;
+    padding-left: 16px;
+    color: #94a3b8;
+    font-style: italic;
 }
 
 /* 提示 */
@@ -379,17 +408,15 @@ body {
 
 .toast.show { opacity: 1; }
 
-.loading {
+.loading, .error {
     text-align: center;
     padding: 40px;
-    color: #7f8ea3;
 }
 
 .error {
-    background: #7f1a1a;
-    padding: 16px;
-    border-radius: 16px;
     color: #fecaca;
+    background: #7f1a1a;
+    border-radius: 16px;
 }
 
 /* 弹窗 */
@@ -435,10 +462,6 @@ body {
     cursor: pointer;
 }
 
-.modal-close:hover {
-    color: white;
-}
-
 .modal-body {
     padding: 20px;
     max-height: 60vh;
@@ -453,7 +476,6 @@ body {
     gap: 12px;
 }
 
-/* 表单 */
 .form-group {
     margin-bottom: 16px;
 }
@@ -477,13 +499,8 @@ body {
     outline: none;
 }
 
-.form-input:focus, .form-select:focus, .form-textarea:focus {
-    border-color: #3b82f6;
-}
-
 .form-textarea {
     resize: vertical;
-    font-family: monospace;
     min-height: 80px;
 }
 
@@ -493,13 +510,23 @@ body {
     margin-top: 4px;
 }
 
-/* 响应式 */
-@media (max-width: 800px) {
-    .main-editor-area {
-        flex-direction: column;
-    }
-    .property-panel {
-        flex: none;
-        max-height: 300px;
-    }
+.btn-primary, .btn-secondary {
+    padding: 8px 20px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
 }
+
+.btn-primary { background: #3b82f6; color: white; }
+.btn-secondary { background: #1e2440; color: #e2e8f0; }
+
+.close-btn {
+    background: none;
+    border: none;
+    color: #7f8ea3;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.close-btn:hover { color: #ef4444; }
