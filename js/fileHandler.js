@@ -65,7 +65,6 @@ function newFile() {
     const defaultContent = `// ============================================
 // 🎮 Zalith Launcher 2 - 自定义主页
 // 生成时间：${new Date().toLocaleString()}
-// 数据来源：Bing | 一言 | Mojang | Modrinth
 // ============================================
 
 // --- Bing 每日壁纸 ---
@@ -75,40 +74,21 @@ function newFile() {
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
     ...column-start vertical=spacedBy(8) horizontal=Center
 > *"星光不问赶路人，时光不负有心人。"*
-
-        ...row-start horizontal=spacedBy(12)
-            ...button-text text="📋 复制" event="copy{星光不问赶路人，时光不负有心人。}"
-        ...row-end
+        ...button-text text="📋 复制" event="copy{星光不问赶路人，时光不负有心人。}"
     ...column-end
 ...card-end
 
 // --- 快捷操作 ---
-...card-start title="🚀 快捷操作" shape=medium contentPadding=(12)
-    ...row-start horizontal=spacedBy(12) vertical=Center
+...card-start title="🚀 快捷操作" shape=medium
+    ...row-start horizontal=spacedBy(12)
         ...button text="▶️ 启动游戏" event="launch_game" weight=(1)
         ...button-outlined text="🔄 检查更新" event="check_update" weight=(1)
     ...row-end
 ...card-end
 
-// --- MC 版本 ---
-...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
-**最新正式版**: 1.20.6
-**最新快照**: 24w18a
-...card-end
-
-// --- 资源中心 ---
-...card-start title="📚 资源中心" shape=medium
-    ...row-start horizontal=spacedBy(8)
-        ...button-filled-tonal text="📖 MC百科" event="url {https://www.mcmod.cn/}" weight=(1)
-        ...button text="🌐 Modrinth" event="url {https://modrinth.com/}" weight=(1)
-    ...row-end
-...card-end
-
-// --- 关于 ---
-...card-start title="ℹ️ 关于"
-**Zalith Launcher 2** 自定义主页
-
-👤 作者：ssbtt114514
+// --- Modrinth 最新模组 ---
+...card-start title="🧩 最新模组"
+...modrinth-list
 ...card-end
 `;
     loadContent(defaultContent, '我的主页.md');
@@ -123,26 +103,15 @@ function saveFromEditor() {
     }
 }
 
-function forceRefresh() {
-    if (currentFileName && currentFileName !== '我的主页.md') {
-        fileCache.delete(currentFileName);
-        loadFromUrl(currentFileName, true);
-    } else {
-        showToast('当前是新建文件');
-    }
-}
-
 function openAuthor() {
     window.open('https://ssbtt114514.github.io/', '_blank');
 }
 
 window.currentMarkdown = currentMarkdown;
-window.currentFileName = currentFileName;
 window.loadContent = loadContent;
 window.loadFromUrl = loadFromUrl;
 window.downloadFile = downloadFile;
 window.uploadFile = uploadFile;
 window.newFile = newFile;
 window.saveFromEditor = saveFromEditor;
-window.forceRefresh = forceRefresh;
 window.openAuthor = openAuthor;
