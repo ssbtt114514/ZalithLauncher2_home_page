@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-05-13 04:04:07
+// 生成时间：2026-05-13 14:52:02
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
     ...column-start vertical=spacedBy(8) horizontal=Center
-> *"奇迹，只不过是努力的另一个名字罢了。"*
+> *"黑，真他妈黑啊"*
 
         ...row-start horizontal=spacedBy(12)
-            ...button-text text="📋 复制" event="copy{奇迹，只不过是努力的另一个名字罢了。}"
+            ...button-text text="📋 复制" event="copy{黑，真他妈黑啊}"
         ...row-end
     ...column-end
 ...card-end
@@ -54,7 +54,7 @@
             ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
         ...row-end
         ...row-start horizontal=spacedBy(8)
-            ...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/1.52}" weight=(1)
+            ...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Music_Disc_Tears}" weight=(1)
             ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
         ...row-end
         ...row-start horizontal=spacedBy(8)
@@ -67,47 +67,51 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
     ...column-start vertical=spacedBy(12) horizontal=Start
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/dn6Cj64G/8cc45f1f11548c9649b207fa470e010cb71bd75d_96.webp" width=32dp shape=4dp
+            ...image url="https://cdn.modrinth.com/data/qThzG03Y/82a04ec534a60e93032df62fd50ab878b79a5591_96.webp" width=32dp shape=4dp
             ...column-start
-                ...button-text text="Infinite Trades" event="url{https://modrinth.com/mod/infinite-trades}"
-                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 SatDPhoe | 📅 2026-05-13</span>
-                <span style="font-size:12px;">A  mod that allows specific players (via tags) to have unlimited trades with vil</span>
+                ...button-text text="Day Counter by Niruki" event="url{https://modrinth.com/mod/day-counter-by-niruki}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 niruki | 📅 2026-05-13</span>
+                <span style="font-size:12px;">Adds a small pixel-art calendar at the top-left of your screen showing the curre</span>
             ...column-end
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/YCZwoYfR/c28d4a4b87e72a100df7e952ebc4cea1cdb928aa_96.webp" width=32dp shape=4dp
+            ...image url="https://cdn.modrinth.com/data/hNGFhUh9/fe251ab3acd38325976be289262536b7de63ab31_96.webp" width=32dp shape=4dp
             ...column-start
-                ...button-text text="MC-TIER" event="url{https://modrinth.com/mod/mc-tier}"
-                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 eymengul_ | 📅 2026-05-13</span>
-                <span style="font-size:12px;">Shows MC-TIER ranks in player nametags, tab list, and in-game profile search.</span>
+                ...button-text text="blaze skeleton" event="url{https://modrinth.com/mod/blaze-skeleton}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 wardenbabapiro31 | 📅 2026-05-13</span>
+                <span style="font-size:12px;">Added Blaze Skeleton with unique abilities:
+
+Immune to fire and lava.
+
+Can spawn</span>
             ...column-end
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/pPogN6VH/7b07b8b808f0473cdc69f83721805e6b94d32ec9_96.webp" width=32dp shape=4dp
+            ...image url="https://cdn.modrinth.com/data/kAynBp83/d173dea5453c1ad23a7adef34914c12a923e8e45_96.webp" width=32dp shape=4dp
             ...column-start
-                ...button-text text="More Levitite" event="url{https://modrinth.com/mod/morelevitite}"
-                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 UrBoiTom_ | 📅 2026-05-13</span>
-                <span style="font-size:12px;">Simple mod adding more levitite to Create Aeronautics</span>
+                ...button-text text="Create: Solar Punk" event="url{https://modrinth.com/mod/create-solar-punk}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 IsuckAtEverything | 📅 2026-05-13</span>
+                <span style="font-size:12px;">An addon for create that adds green energy to minecraft. (Solar panels, etc.)</span>
             ...column-end
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/HPEWrsxD/1d7f49f4407912ac38acd926ebdcb6d6c61ac578.png" width=32dp shape=4dp
+            ...image url="https://cdn.modrinth.com/data/vsv72IJr/7c01abbee7770b9774f516898994d82164480a7e_96.webp" width=32dp shape=4dp
             ...column-start
-                ...button-text text="GoodMC: Items" event="url{https://modrinth.com/mod/goodmc-items}"
-                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 Buvtack | 📅 2026-05-13</span>
-                <span style="font-size:12px;">Adds the items and gear the original GoodMC mod made for Minecraft 1.12.2 did</span>
+                ...button-text text="Unlocked Void Sea  - Aeronautics Addon" event="url{https://modrinth.com/mod/unlocked-void-sea}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 Tyrthurey | 📅 2026-05-13</span>
+                <span style="font-size:12px;">A simple utility mod that lets you use the "End Sea" physics from Create: Aerona</span>
             ...column-end
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/BQUOOW5H/6e4ba2a569858e568e54afa64c5ce1a9f5d23cb2_96.webp" width=32dp shape=4dp
+            ...image url="https://cdn.modrinth.com/data/LSu2JE8E/43d4ffc24b09c22056f9fb987eb88c1cbc258d14_96.webp" width=32dp shape=4dp
             ...column-start
-                ...button-text text="Health Indicator +" event="url{https://modrinth.com/mod/health-indicator+}"
-                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 yashvardhantechno | 📅 2026-05-13</span>
-                <span style="font-size:12px;">A beautiful, PvP-ready health display mod for Fabric! Shows player/mob HP via Va</span>
+                ...button-text text="Cobalt Material Mod" event="url{https://modrinth.com/mod/cobalt-material-mod}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 KingGeo_11 | 📅 2026-05-13</span>
+                <span style="font-size:12px;">This project adds Cobalt as a material used in the game. It is intended to be be</span>
             ...column-end
         ...row-end
 
@@ -143,9 +147,9 @@
 
 👤 **作者**：[ssbtt114514](https://ssbtt114514.github.io/)
 
-📖 **Wiki 推荐**：[1.52](https://minecraft.wiki/1.52)
+📖 **Wiki 推荐**：[Music Disc Tears](https://minecraft.wiki/Music_Disc_Tears)
 
-⏰ 更新时间：2026-05-13 04:04:07
+⏰ 更新时间：2026-05-13 14:52:02
 
         ...row-start horizontal=spacedBy(12)
             ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
