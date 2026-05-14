@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-05-13 14:52:02
+// 生成时间：2026-05-14 04:03:11
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.AlabamaHills_ZH-CN1387018045_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.Pitigliano_ZH-CN1509921892_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
     ...column-start vertical=spacedBy(8) horizontal=Center
-> *"黑，真他妈黑啊"*
+> *"冈崎，永远都别迷失自己最珍爱的事物啊。"*
 
         ...row-start horizontal=spacedBy(12)
-            ...button-text text="📋 复制" event="copy{黑，真他妈黑啊}"
+            ...button-text text="📋 复制" event="copy{冈崎，永远都别迷失自己最珍爱的事物啊。}"
         ...row-end
     ...column-end
 ...card-end
@@ -54,7 +54,7 @@
             ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
         ...row-end
         ...row-start horizontal=spacedBy(8)
-            ...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Music_Disc_Tears}" weight=(1)
+            ...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FTulip}" weight=(1)
             ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
         ...row-end
         ...row-start horizontal=spacedBy(8)
@@ -67,51 +67,47 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
     ...column-start vertical=spacedBy(12) horizontal=Start
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/qThzG03Y/82a04ec534a60e93032df62fd50ab878b79a5591_96.webp" width=32dp shape=4dp
+            ...image url="https://cdn.modrinth.com/data/8HLtNhbi/410fc5cc6b292edf2312320b33c405fd5dfa8796_96.webp" width=32dp shape=4dp
             ...column-start
-                ...button-text text="Day Counter by Niruki" event="url{https://modrinth.com/mod/day-counter-by-niruki}"
-                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 niruki | 📅 2026-05-13</span>
-                <span style="font-size:12px;">Adds a small pixel-art calendar at the top-left of your screen showing the curre</span>
+                ...button-text text="Reactions" event="url{https://modrinth.com/mod/playereactions}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 Tochuuu | 📅 2026-05-14</span>
+                <span style="font-size:12px;">A mod that adds dynamic expressions and facial personality to players.</span>
             ...column-end
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/hNGFhUh9/fe251ab3acd38325976be289262536b7de63ab31_96.webp" width=32dp shape=4dp
+            ...image url="https://cdn.modrinth.com/data/EVgGwbjs/21aae3d735b634bb4c9de9eeb07d0f6f016fed36.png" width=32dp shape=4dp
             ...column-start
-                ...button-text text="blaze skeleton" event="url{https://modrinth.com/mod/blaze-skeleton}"
-                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 wardenbabapiro31 | 📅 2026-05-13</span>
-                <span style="font-size:12px;">Added Blaze Skeleton with unique abilities:
-
-Immune to fire and lava.
-
-Can spawn</span>
+                ...button-text text="Polymer Patch For Gensokyo: Reverie of Lost Dreams" event="url{https://modrinth.com/mod/polymer-patch-for-gensokyo-reverie-of-lost-dreams}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 SAGUMEDREAM | 📅 2026-05-14</span>
+                <span style="font-size:12px;">A Polymer Patch mod for Gensokyo: Reverie of Lost Dreams, allowing it to work fu</span>
             ...column-end
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/kAynBp83/d173dea5453c1ad23a7adef34914c12a923e8e45_96.webp" width=32dp shape=4dp
+            ...image url="https://cdn.modrinth.com/data/YPww10NZ/44b58dcb993dddd202490d395f0576f182c151d3_96.webp" width=32dp shape=4dp
             ...column-start
-                ...button-text text="Create: Solar Punk" event="url{https://modrinth.com/mod/create-solar-punk}"
-                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 IsuckAtEverything | 📅 2026-05-13</span>
-                <span style="font-size:12px;">An addon for create that adds green energy to minecraft. (Solar panels, etc.)</span>
+                ...button-text text="Bobby ReNeoForged [Unofficial Port]" event="url{https://modrinth.com/mod/bobby-reneoforged}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 Nitsha | 📅 2026-05-14</span>
+                <span style="font-size:12px;">Allows for render distances greater than the server's view-distance setting</span>
             ...column-end
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/vsv72IJr/7c01abbee7770b9774f516898994d82164480a7e_96.webp" width=32dp shape=4dp
+            ...image url="https://cdn.modrinth.com/data/Qju1jJ58/ef959bd4585cc740d3e6a3f48bb0ad71caebe693.png" width=32dp shape=4dp
             ...column-start
-                ...button-text text="Unlocked Void Sea  - Aeronautics Addon" event="url{https://modrinth.com/mod/unlocked-void-sea}"
-                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 Tyrthurey | 📅 2026-05-13</span>
-                <span style="font-size:12px;">A simple utility mod that lets you use the "End Sea" physics from Create: Aerona</span>
+                ...button-text text="LetterMod" event="url{https://modrinth.com/mod/lettermod}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 vektor14691 | 📅 2026-05-14</span>
+                <span style="font-size:12px;">Mod add letters and numbers on blocks</span>
             ...column-end
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/LSu2JE8E/43d4ffc24b09c22056f9fb987eb88c1cbc258d14_96.webp" width=32dp shape=4dp
+            ...image url="https://cdn.modrinth.com/data/AZrTjbpP/258f44f6bd739c3966907f1a1ded2238f713df96.png" width=32dp shape=4dp
             ...column-start
-                ...button-text text="Cobalt Material Mod" event="url{https://modrinth.com/mod/cobalt-material-mod}"
-                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 KingGeo_11 | 📅 2026-05-13</span>
-                <span style="font-size:12px;">This project adds Cobalt as a material used in the game. It is intended to be be</span>
+                ...button-text text="Somnium API" event="url{https://modrinth.com/mod/somnium-api}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 Eclipce77 | 📅 2026-05-14</span>
+                <span style="font-size:12px;">A highly customizable Power and Ability API, for those who can dream it possible</span>
             ...column-end
         ...row-end
 
@@ -142,14 +138,14 @@ Can spawn</span>
     ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：银河系，摇滚吧！
-        © 拱门与银河, 阿拉巴马山, 内华达山脉, 加利福尼亚州, 美国 (© Tim Fitzharris/Minden Pictures)
+🖼️ 壁纸：一场穿越时空的旅程
+        © 中世纪古镇皮蒂利亚诺, 托斯卡纳, 意大利 (© bluejayphoto/Getty Images Plus)
 
 👤 **作者**：[ssbtt114514](https://ssbtt114514.github.io/)
 
-📖 **Wiki 推荐**：[Music Disc Tears](https://minecraft.wiki/Music_Disc_Tears)
+📖 **Wiki 推荐**：[Java Edition block render history/Tulip](https://minecraft.wiki/Java_Edition_block_render_history%2FTulip)
 
-⏰ 更新时间：2026-05-13 14:52:02
+⏰ 更新时间：2026-05-14 04:03:11
 
         ...row-start horizontal=spacedBy(12)
             ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
