@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-05-16 07:45:47
+// 生成时间：2026-05-16 13:48:56
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我只有一条生命可以先给艾欧尼亚，绝不能随意辜负。"*
+> *"没有偶然的必然，只有必然的偶然"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我只有一条生命可以先给艾欧尼亚，绝不能随意辜负。}"
+...button-text text="📋 复制" event="copy{没有偶然的必然，只有必然的偶然}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Data_component_format%2Fdamage_resistant}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_1.20.10%2FDevelopment_versions}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ Customize your Minecraft world icons with in-game screenshots!
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Data component format/damage resistant](https://minecraft.wiki/Data_component_format%2Fdamage_resistant)
+📖 **Wiki 推荐**：[Bedrock Edition 1.20.10/Development versions](https://minecraft.wiki/Bedrock_Edition_1.20.10%2FDevelopment_versions)
 
-⏰ 更新时间：2026-05-16 07:45:47
+⏰ 更新时间：2026-05-16 13:48:56
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
