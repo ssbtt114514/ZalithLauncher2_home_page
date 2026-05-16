@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-05-16 03:50:22
+// 生成时间：2026-05-16 06:28:01
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
     ...column-start vertical=spacedBy(8) horizontal=Center
-> *"当城中亮起灯火，空中的繁星便黯然失色。"*
+> *"做出一副温柔的样子来折磨人不是更令人难受吗？"*
 
         ...row-start horizontal=spacedBy(12)
-            ...button-text text="📋 复制" event="copy{当城中亮起灯火，空中的繁星便黯然失色。}"
+            ...button-text text="📋 复制" event="copy{做出一副温柔的样子来折磨人不是更令人难受吗？}"
         ...row-end
     ...column-end
 ...card-end
@@ -54,7 +54,7 @@
             ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
         ...row-end
         ...row-start horizontal=spacedBy(8)
-            ...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FBrick_Stairs}" weight=(1)
+            ...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Fscriptevent}" weight=(1)
             ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
         ...row-end
         ...row-start horizontal=spacedBy(8)
@@ -67,47 +67,47 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
     ...column-start vertical=spacedBy(12) horizontal=Start
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/wNhxYz2v/4923a04245101d5a56dbc9070c0a43d1e65a9a5d_96.webp" width=32dp shape=4dp
+            ...image url="https://cdn.modrinth.com/data/SyIfrnRd/6960cf1bfff3b3dc95390f64a7b5c77488f5bbf0.png" width=32dp shape=4dp
             ...column-start
-                ...button-text text="Smart Copper Golems" event="url{https://modrinth.com/mod/smart-copper-golems}"
-                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 GameMech007 | 📅 2026-05-16</span>
-                <span style="font-size:12px;">Dumb Copper Golems open chests randomly — Smart Copper Golems scan item frames a</span>
+                ...button-text text="Cave (Johnson) Sounds" event="url{https://modrinth.com/mod/cave-(johnson)-sounds}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 MafiaToasterMan | 📅 2026-05-16</span>
+                <span style="font-size:12px;">A sound mod that replaces all cave ambiance with random Cave Johnson quotes. All</span>
             ...column-end
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/Lp6SMiR2/29b1bbb3d757d15be40896935cf39c8997f4727e_96.webp" width=32dp shape=4dp
+            ...image url="https://cdn.modrinth.com/data/4D8bhjBH/091fa577c048a820707659390130dc1befb0819e.png" width=32dp shape=4dp
             ...column-start
-                ...button-text text="Modernpvptweaks" event="url{https://modrinth.com/mod/modernpvptweaks}"
-                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 uthishsd | 📅 2026-05-16</span>
-                <span style="font-size:12px;">This is a pvp mod that enhances your gameplay when pvping.</span>
+                ...button-text text="NimbusUtils" event="url{https://modrinth.com/mod/nimbusutils}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 synicalmx | 📅 2026-05-16</span>
+                <span style="font-size:12px;">This mod adds extra features for when playing on playnimbus.net!</span>
             ...column-end
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/30RgCRl5/5922d2df44f96b0302018ec22399aa88572957d8_96.webp" width=32dp shape=4dp
+            ...image url="https://cdn.modrinth.com/data/JkvCW0DO/3284cfe11a581e886b59a9530e0921cd6b11a575_96.webp" width=32dp shape=4dp
             ...column-start
-                ...button-text text="Scared's Faction Mod" event="url{https://modrinth.com/mod/scaredsfactionmod}"
-                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 scaredrabbitnl_ | 📅 2026-05-16</span>
-                <span style="font-size:12px;">A simple mod for creating factions on a multiplayer server</span>
+                ...button-text text="ParityFast" event="url{https://modrinth.com/mod/parityfast}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 assemblycsharp | 📅 2026-05-16</span>
+                <span style="font-size:12px;">Vanilla parity math, random, and lookup optimizations aimed to increase server p</span>
             ...column-end
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/HiPMHSof/745e3cc687ba5db0379aa0b2cf7b8614ca980fea_96.webp" width=32dp shape=4dp
+            ...image url="https://cdn.modrinth.com/data/stUNbMf2/210a673d326f155e89f08950ecfe53bed1aa1404_96.webp" width=32dp shape=4dp
             ...column-start
-                ...button-text text="Hopeful: Enchanting" event="url{https://modrinth.com/mod/hopeful-enchanting}"
-                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 Double_Pi | 📅 2026-05-16</span>
-                <span style="font-size:12px;">Enchanting overhaul focusin on customizability, determinism, and choice!</span>
+                ...button-text text="Sable Drive-By-Wire TFMG engine controller support" event="url{https://modrinth.com/mod/sable-drive-by-wire-tfmg-engine-controller-support}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 Prosto_chelovechic | 📅 2026-05-16</span>
+                <span style="font-size:12px;">an unofficial fork of the fork drive by wire that adds support for the TFMG engi</span>
             ...column-end
         ...row-end
 
         ...row-start horizontal=spacedBy(8) vertical=Center
-            ...image url="https://cdn.modrinth.com/data/DcNPMBeU/d9807b951b105d5796bb17c08d526f7c88ecb420_96.webp" width=32dp shape=4dp
+            ...image url="https://cdn.modrinth.com/data/OPhHeUGj/37170a9a682562146fb55cd8ad43b8e3085b61fa_96.webp" width=32dp shape=4dp
             ...column-start
-                ...button-text text="ORM - OverrideResourceManager" event="url{https://modrinth.com/mod/orm-overrideresourcemanager}"
-                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 Lauma | 📅 2026-05-16</span>
-                <span style="font-size:12px;">Minecraft Fabric 1.21.4 mod that adds runtime overriding of item textures and 3D</span>
+                ...button-text text="Immersive Walk" event="url{https://modrinth.com/mod/immersive-walk}"
+                <span style="font-size:12px; color:#94a3b8;">📥 0.0M | 👤 Javieljefe | 📅 2026-05-16</span>
+                <span style="font-size:12px;">This mod lets you walk slower with by pressing a key.</span>
             ...column-end
         ...row-end
 
@@ -143,9 +143,9 @@
 
 👤 **作者**：[ssbtt114514](https://ssbtt114514.github.io/)
 
-📖 **Wiki 推荐**：[Java Edition block render history/Brick Stairs](https://minecraft.wiki/Java_Edition_block_render_history%2FBrick_Stairs)
+📖 **Wiki 推荐**：[Commands/scriptevent](https://minecraft.wiki/Commands%2Fscriptevent)
 
-⏰ 更新时间：2026-05-16 03:50:22
+⏰ 更新时间：2026-05-16 06:28:01
 
         ...row-start horizontal=spacedBy(12)
             ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
