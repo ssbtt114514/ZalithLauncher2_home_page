@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-05-18 04:20:32
+// 生成时间：2026-05-18 15:51:15
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"终一生渡世人和终一世渡一人，为师觉得是一样的。"*
+> *"人能够能动地认识世界；人能够能动地改造世界。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{终一生渡世人和终一世渡一人，为师觉得是一样的。}"
+...button-text text="📋 复制" event="copy{人能够能动地认识世界；人能够能动地改造世界。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FSquid_Spawn_Egg}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/PlayStation_3_Edition_1.18}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/SxbuYthV/afc26de975afa12ba1ff0fda57fc9f50db6ff123.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/GsjJlCah/8cfae13429893d574fc0470080904e1c90fbae1b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Lsn Cases" event="url{https://modrinth.com/mod/lsn-cases}"
+...button-text text="OptionalFurnaceSmelting" event="url{https://modrinth.com/mod/optionalfurnacesmelting}"
 
-👤 7Guga | 📅 2026-05-18
+👤 KXXJWAN | 📅 2026-05-18
 
-Tired of the old boring way of opening scrolls ? This mod will add a cool csgo animation to enchant 
+This mod adds multiple furnace recipe compatibility, allowing you to selectively smelt an item into 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lsn-cases/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lsn-cases}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/optionalfurnacesmelting/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/optionalfurnacesmelting}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/w51aXf75/1613786ebc87ab2117aaffb57256ff3f4cb9b50c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/DDECTrHw/5b30ebc79b60fdf1ec621be34db727170eab0b4c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Exploration Reloaded" event="url{https://modrinth.com/mod/exploration-reloaded}"
+...button-text text="Better Combat Reach Fix" event="url{https://modrinth.com/mod/better-combat-reach-fix}"
 
-👤 akitain | 📅 2026-05-18
+👤 xianziyu | 📅 2026-05-18
 
-Maps, loot, mobs, and travel reloaded.
+Fixes the incompatibility between the Better Combat mod and the vanilla forge:entity_reach attribute
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/exploration-reloaded/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/exploration-reloaded}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-combat-reach-fix/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-combat-reach-fix}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/GcNbMEwm/a8941e12140349f7939a5df5843b6a54d4ad3a9f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/PFeSWIUn/c39be428da456585d987ec353bb4f57456a6c970.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Elytra_Tweaks" event="url{https://modrinth.com/mod/elytra_tweaks}"
+...button-text text="BloodyParticlesMod" event="url{https://modrinth.com/mod/bloodyparticlesmod}"
 
-👤 FROSTYTRIX | 📅 2026-05-18
+👤 HappyPito | 📅 2026-05-18
 
-A mod that allows to change the keybind that serves to open (and close) the elytras. Idea from : @Va
+Make every hit feel meaningful. Mobs splash thematic blood and impact particles when damaged differe
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/elytra_tweaks/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/elytra_tweaks}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bloodyparticlesmod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bloodyparticlesmod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/iMFvPhVJ/27a3c1dac6cce03c7ee8615bd24b22f45749dde1_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/SXZKjImi/8e51eb44968cb0416e6a0b5ae9f0740079aea010_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Effortless Crafting" event="url{https://modrinth.com/mod/effortless-crafting}"
+...button-text text="Amethyst tools and more" event="url{https://modrinth.com/mod/amethysttoolsandmore}"
 
-👤 Ekra8154 | 📅 2026-05-18
+👤 OldManPlaysGames | 📅 2026-05-18
 
-Effortless Crafting is a client-side Fabric mod that streamlines crafting by allowing pulling items 
+This project adds a full set of, Amethyst tools, weapons, and armor to Minecraft.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/effortless-crafting/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/effortless-crafting}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/amethysttoolsandmore/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/amethysttoolsandmore}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/U4F3bdPQ/651bd55b594285ef04bda093dd441517dab5bc30_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/eDMGl8ES/663e218eab8d9ef8df3280d83ebba330d4c4d040_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Tonten" event="url{https://modrinth.com/mod/tonten}"
+...button-text text="Chefmakes' Custom Peaceful" event="url{https://modrinth.com/mod/chefmakes-custom-peaceful}"
 
-👤 ghlim | 📅 2026-05-18
+👤 Chefmakes | 📅 2026-05-18
 
-This mod adds simple building assistance tools that can be used in survival mode.
+This is a peaceful mod for people who might want more out of peaceful, not less
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tonten/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tonten}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chefmakes-custom-peaceful/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chefmakes-custom-peaceful}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ This mod adds simple building assistance tools that can be used in survival mode
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition item texture history/Squid Spawn Egg](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FSquid_Spawn_Egg)
+📖 **Wiki 推荐**：[PlayStation 3 Edition 1.18](https://minecraft.wiki/PlayStation_3_Edition_1.18)
 
-⏰ 更新时间：2026-05-18 04:20:32
+⏰ 更新时间：2026-05-18 15:51:15
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
