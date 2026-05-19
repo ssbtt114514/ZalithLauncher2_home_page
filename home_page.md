@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-05-19 04:16:19
+// 生成时间：2026-05-19 15:42:28
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"如果不能忠于自己的心，胜负又有什么价值呢？"*
+> *"凤凰台上凤凰游，凤去台空江自流。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{如果不能忠于自己的心，胜负又有什么价值呢？}"
+...button-text text="📋 复制" event="copy{凤凰台上凤凰游，凤去台空江自流。}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.1.2
-**最新快照**: 26.2-snapshot-7
+**最新快照**: 26.2-snapshot-8
 
 近期版本：
 - **26.1.2** (2026-04-09)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Village%2FStructure_(old)%2FBlueprints%2FWell}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_Beta_1.4}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -66,6 +66,55 @@
 // --- 🧩 Modrinth 最新模组 ---
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/SkuvwKcr/30386724285b3e96f5ab910d9eba31c1a735383d.png" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Not Invisible Anymore" event="url{https://modrinth.com/mod/not-invisible-anymore}"
+
+👤 macsipac | 📅 2026-05-19
+
+A mod that makes the invisibility effect and tag only make you 50% transparent
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/not-invisible-anymore/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/not-invisible-anymore}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/xFlhiDHT/40831996f77f000a6f074c43c548493664530639_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Iron‘s Spells: Spoken Sorcery(Ported)" event="url{https://modrinth.com/mod/irons-spells-spoken-sorcery(ported)}"
+
+👤 AAAuom | 📅 2026-05-19
+
+A unofficial 1.20.1 port of Iron's Spells: Spoken Sorcery.
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/irons-spells-spoken-sorcery(ported)/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/irons-spells-spoken-sorcery(ported)}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/XAgkS2Pl/86c951638bb54b2832c297baff8045c0897ed442_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="[WATF]Why Are They Fighting?" event="url{https://modrinth.com/mod/watf}"
+
+👤 XGOvO | 📅 2026-05-19
+
+Start epic mob battles in Minecraft! Duel Staff for 1v1, Team War Staff for group fights.
+在Minecraft
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/watf/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/watf}" weight=(1)
+...row-end
+...column-end
+...row-end
+
 ...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/s1I9GeSl/c2a6b30ec4a3de9cf27893a0f92510db24e8ff8b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
@@ -94,54 +143,6 @@ A block that kills you
 ...row-start horizontal=spacedBy(8)
 ...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kill-block/versions}" weight=(1)
 ...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kill-block}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/vbF8vp1s/b47993a7b5d23e075d1e728e07707105cc32ffb8.gif" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Create: Dyed Experience Blocks" event="url{https://modrinth.com/mod/create-dyed-experience-blocks}"
-
-👤 AkacioBahno | 📅 2026-05-19
-
-A Create addon that adds colored variants of the Block of Experience
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-dyed-experience-blocks/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-dyed-experience-blocks}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/z7QUfFgg/4669d9ee6649a2ccb438387f55ccffdcaaca8ebe.png" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="CarrotSkin" event="url{https://modrinth.com/mod/carrotskin}"
-
-👤 OFFLlNE_PLAYER | 📅 2026-05-19
-
-Updates the game hud with custom exhaustion bar n fancy carrots.
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/carrotskin/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/carrotskin}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/upWs5ldJ/09cd52377a3fcae1bdbde76471f530aae23fa215_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Come and Go" event="url{https://modrinth.com/mod/cag}"
-
-👤 Swiyss | 📅 2026-05-19
-
-Adds 3 new Maces, each with their own crafting recipe. Collect a Heavy Core to gain the recipes in t
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cag/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cag}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +179,9 @@ Adds 3 new Maces, each with their own crafting recipe. Collect a Heavy Core to g
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Village/Structure (old)/Blueprints/Well](https://minecraft.wiki/Village%2FStructure_(old)%2FBlueprints%2FWell)
+📖 **Wiki 推荐**：[Java Edition Beta 1.4](https://minecraft.wiki/Java_Edition_Beta_1.4)
 
-⏰ 更新时间：2026-05-19 04:16:19
+⏰ 更新时间：2026-05-19 15:42:28
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
