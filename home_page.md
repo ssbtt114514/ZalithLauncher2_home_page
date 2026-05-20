@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-05-20 04:17:23
+// 生成时间：2026-05-20 15:45:29
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"这世界太大，勇敢的少年奔赴天涯。"*
+> *"爱与友情以及勇气改变不了一个人，只有受伤才能让人成长。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{这世界太大，勇敢的少年奔赴天涯。}"
+...button-text text="📋 复制" event="copy{爱与友情以及勇气改变不了一个人，只有受伤才能让人成长。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Wii_U_Edition_Patch_9}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/PlayStation_4_Edition_1.50}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/hXlFtwCP/1d2a0673d1514173438fe8b962dec4a075165882.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8LbPgjxl/50e2c09318435b9fb0f9e87e112b2304e4281215_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Slot Steal" event="url{https://modrinth.com/mod/slotsteal}"
+...button-text text="Minecraft But Hotbar Only" event="url{https://modrinth.com/mod/minecraft-hotbar-only}"
 
-👤 crzybananaman | 📅 2026-05-20
+👤 Bebu | 📅 2026-05-20
 
-A lifesteal-style mod using inventory slots instead of hearts. Kill players to gain slots, lose slot
+Minecraft But Hotbar Only limits your inventory to just the 9 slots in your hotbar. Every other inve
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/slotsteal/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/slotsteal}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/minecraft-hotbar-only/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/minecraft-hotbar-only}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/rN6sx1hO/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Rxu0ixrC/783af69f5768e5f4a67324abe1b9a32ba6845b36_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Defalt's AutoTorch Reforged" event="url{https://modrinth.com/mod/defalts-autotorch-reforged}"
+...button-text text="Immortal Pets" event="url{https://modrinth.com/mod/impe}"
 
-👤 0xdefalt | 📅 2026-05-20
+👤 bluffcon | 📅 2026-05-20
 
-Java mod with primary purpose of automatically placing torches.
+🐈 ⟢ Your pets now don't take damage! With horses, kitties, donkeys, dogs!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/defalts-autotorch-reforged/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/defalts-autotorch-reforged}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/impe/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/impe}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xQUBXV8I/ad13804e25e63e788dcb222fc3fd70c6ff3e797f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/U90KBI9X/978799a8885196059cc7053ceb24ea308d3fbbe1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MenuKit: Containers" event="url{https://modrinth.com/mod/menukit-containers}"
+...button-text text="Walled City Structure" event="url{https://modrinth.com/mod/walled-city-structure}"
 
-👤 trevlar | 📅 2026-05-20
+👤 bushman59 | 📅 2026-05-20
 
-Slot extension for MenuKit — custom container menus, per-slot state, slot-group regions. Requires Me
+Spice up your badlands biomes with the new walled city structure! inspired by the Kowloon Walled Cit
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/menukit-containers/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/menukit-containers}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/walled-city-structure/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/walled-city-structure}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/pSyLfOMt/b0cf2042bb98224ca2cafd7f723a7b9d389e8469_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xYQlddR6/d625e54da18a80b1e392d4603f572bb48626bc0d.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Custom3D Food Craft" event="url{https://modrinth.com/mod/custom3d-food-craft}"
+...button-text text="Paintings Unlocked" event="url{https://modrinth.com/mod/paintings-unlocked}"
 
-👤 Sun_Fun95 | 📅 2026-05-20
+👤 SparkStuff | 📅 2026-05-20
 
-Adds custom 3D food items to Minecraft with detailed models and immersive gameplay.
+Allow players to place more paintings without commands! Compatable with Portfolio (and more to come)
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/custom3d-food-craft/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/custom3d-food-craft}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/paintings-unlocked/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/paintings-unlocked}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/rBnuDJZG/416df95bfd2362c27721151e126410cfe04ac6b0_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/H35QvTKn/ce222a51a20d73b087171bf372f7835c1517427e.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mace helper" event="url{https://modrinth.com/mod/mace-helper}"
+...button-text text="Pets: Earth" event="url{https://modrinth.com/mod/pets-earth}"
 
-👤 mephist | 📅 2026-05-20
+👤 downloadableduck | 📅 2026-05-20
 
-Automatically combo aerial attacks! Hit with sword/axe while falling 2-3+ blocks above targets, then
+Adds all of the Minecraft Earth mobs into PetsMod!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mace-helper/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mace-helper}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pets-earth/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pets-earth}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Automatically combo aerial attacks! Hit with sword/axe while falling 2-3+ blocks
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Wii U Edition Patch 9](https://minecraft.wiki/Wii_U_Edition_Patch_9)
+📖 **Wiki 推荐**：[PlayStation 4 Edition 1.50](https://minecraft.wiki/PlayStation_4_Edition_1.50)
 
-⏰ 更新时间：2026-05-20 04:17:23
+⏰ 更新时间：2026-05-20 15:45:29
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
