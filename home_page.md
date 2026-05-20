@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-05-19 15:42:28
+// 生成时间：2026-05-20 04:17:23
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.SpainLighthouse_ZH-CN6024263415_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.BumbleBee_ZH-CN6429376340_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"凤凰台上凤凰游，凤去台空江自流。"*
+> *"这世界太大，勇敢的少年奔赴天涯。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{凤凰台上凤凰游，凤去台空江自流。}"
+...button-text text="📋 复制" event="copy{这世界太大，勇敢的少年奔赴天涯。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_Beta_1.4}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Wii_U_Edition_Patch_9}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,82 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/SkuvwKcr/30386724285b3e96f5ab910d9eba31c1a735383d.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/hXlFtwCP/1d2a0673d1514173438fe8b962dec4a075165882.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Not Invisible Anymore" event="url{https://modrinth.com/mod/not-invisible-anymore}"
+...button-text text="Slot Steal" event="url{https://modrinth.com/mod/slotsteal}"
 
-👤 macsipac | 📅 2026-05-19
+👤 crzybananaman | 📅 2026-05-20
 
-A mod that makes the invisibility effect and tag only make you 50% transparent
+A lifesteal-style mod using inventory slots instead of hearts. Kill players to gain slots, lose slot
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/not-invisible-anymore/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/not-invisible-anymore}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/slotsteal/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/slotsteal}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xFlhiDHT/40831996f77f000a6f074c43c548493664530639_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/rN6sx1hO/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Iron‘s Spells: Spoken Sorcery(Ported)" event="url{https://modrinth.com/mod/irons-spells-spoken-sorcery(ported)}"
+...button-text text="Defalt's AutoTorch Reforged" event="url{https://modrinth.com/mod/defalts-autotorch-reforged}"
 
-👤 AAAuom | 📅 2026-05-19
+👤 0xdefalt | 📅 2026-05-20
 
-A unofficial 1.20.1 port of Iron's Spells: Spoken Sorcery.
+Java mod with primary purpose of automatically placing torches.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/irons-spells-spoken-sorcery(ported)/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/irons-spells-spoken-sorcery(ported)}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/defalts-autotorch-reforged/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/defalts-autotorch-reforged}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/XAgkS2Pl/86c951638bb54b2832c297baff8045c0897ed442_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xQUBXV8I/ad13804e25e63e788dcb222fc3fd70c6ff3e797f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="[WATF]Why Are They Fighting?" event="url{https://modrinth.com/mod/watf}"
+...button-text text="MenuKit: Containers" event="url{https://modrinth.com/mod/menukit-containers}"
 
-👤 XGOvO | 📅 2026-05-19
+👤 trevlar | 📅 2026-05-20
 
-Start epic mob battles in Minecraft! Duel Staff for 1v1, Team War Staff for group fights.
-在Minecraft
+Slot extension for MenuKit — custom container menus, per-slot state, slot-group regions. Requires Me
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/watf/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/watf}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/menukit-containers/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/menukit-containers}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/s1I9GeSl/c2a6b30ec4a3de9cf27893a0f92510db24e8ff8b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/pSyLfOMt/b0cf2042bb98224ca2cafd7f723a7b9d389e8469_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Colorful Depot" event="url{https://modrinth.com/mod/colorful-depot}"
+...button-text text="Custom3D Food Craft" event="url{https://modrinth.com/mod/custom3d-food-craft}"
 
-👤 Rarin97 | 📅 2026-05-19
+👤 Sun_Fun95 | 📅 2026-05-20
 
-Compatibility for Create: Colorful Pipes & Dye Depot
+Adds custom 3D food items to Minecraft with detailed models and immersive gameplay.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/colorful-depot/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/colorful-depot}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/custom3d-food-craft/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/custom3d-food-craft}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/UWIo1Ry1/f18df1b165eec1ccee626a99ec9327a9b6010e6f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/rBnuDJZG/416df95bfd2362c27721151e126410cfe04ac6b0_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Kill Block" event="url{https://modrinth.com/mod/kill-block}"
+...button-text text="Mace helper" event="url{https://modrinth.com/mod/mace-helper}"
 
-👤 KrupicovaKase | 📅 2026-05-19
+👤 mephist | 📅 2026-05-20
 
-A block that kills you
+Automatically combo aerial attacks! Hit with sword/axe while falling 2-3+ blocks above targets, then
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kill-block/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kill-block}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mace-helper/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mace-helper}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -174,14 +173,14 @@ A block that kills you
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：马略卡岛的边缘
-© 福门托尔灯塔, 马略卡, 巴利阿里群岛, 西班牙 (© Allard Schager/Getty Images)
+🖼️ 壁纸：喧闹从这里开始
+© 熊蜂在授粉, 伍斯特, 英格兰 (© SimonEastwood87/Shutterstock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition Beta 1.4](https://minecraft.wiki/Java_Edition_Beta_1.4)
+📖 **Wiki 推荐**：[Wii U Edition Patch 9](https://minecraft.wiki/Wii_U_Edition_Patch_9)
 
-⏰ 更新时间：2026-05-19 15:42:28
+⏰ 更新时间：2026-05-20 04:17:23
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
