@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-05-23 13:54:40
+// 生成时间：2026-05-24 04:18:51
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.ThreeTurtlesButterflies_ZH-CN7043849571_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.DolomitesPark_ZH-CN7134423478_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"你为了你的正义，我为了我的正义。"*
+> *"无垢清净光，慧日破诸暗，能伏灾风火，普明照世间。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{你为了你的正义，我为了我的正义。}"
+...button-text text="📋 复制" event="copy{无垢清净光，慧日破诸暗，能伏灾风火，普明照世间。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Armadillo_(disambiguation)}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FRed_Mushroom}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,83 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ymZOvvqd/8130c5b59381912e9d0e0f7dfad9285ac8aebf95_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/jZrDX6R1/c00f744660b2141c0f9cff43eb4375b6787dd3af_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mythic Thor" event="url{https://modrinth.com/mod/mythic-thor}"
+...button-text text="StereoCraft: Stereoscopic 3D" event="url{https://modrinth.com/mod/stereocraft-stereoscopic-3d}"
 
-👤 aradillamarinadrian | 📅 2026-05-22
+👤 MitchellSamora | 📅 2026-05-24
 
-Summon the god of thunder during storms! Wielding Mjölnir and dropping legendary rewards, this light
+Side-by-side (SBS) stereoscopic 3D rendering for 3D TVs, 3D monitors, and SBS-compatible displays. S
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mythic-thor/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mythic-thor}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/stereocraft-stereoscopic-3d/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/stereocraft-stereoscopic-3d}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/jlCJASGI/6ce4f74a7d62e325c6dfe01dc55bff61eaa1bdda_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/r5Ffm05H/a1574fffc69da2473064130ee249a8dc89508b8e.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="ricoshot" event="url{https://modrinth.com/mod/ricoshot}"
+...button-text text="Create: Rail Fix" event="url{https://modrinth.com/mod/create-rail-fix}"
 
-👤 zigqora | 📅 2026-05-22
+👤 Husior | 📅 2026-05-24
 
-A Minecraft mod that lets you throw gold nugget in the air and shoot them with a bow. 
-
-You can also
+Undoes a balancing fix of Create Mod.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ricoshot/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ricoshot}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-rail-fix/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-rail-fix}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/fW660xjR/42a1a8649ab54874b28866a3b84c2d479503e9b3_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/MqUk86sR/29fbe8cf3dfd03ad1d1652c48d5f6fadc97c49c4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="/back Command" event="url{https://modrinth.com/mod/corndawgcoco-back-command}"
+...button-text text="Wynncraft Autoattack" event="url{https://modrinth.com/mod/wynncraft-autoattack}"
 
-👤 CornDawgCoco | 📅 2026-05-22
+👤 Frogvis | 📅 2026-05-24
 
-This mod adds a /back command that teleports you to your last death location in/from ANY dimension. 
+Auto Clicker triggered by holding a key (default: R). Attack interval can be checked or configured u
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/corndawgcoco-back-command/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/corndawgcoco-back-command}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wynncraft-autoattack/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wynncraft-autoattack}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/2hGXRnGs/90e60d6c5fec38fcffe52e18da7c09ec925ced4e.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/sld9WRxU/b17aa63855e0fd33814b5d1e4937cb143a6408e7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Totem Reminder" event="url{https://modrinth.com/mod/manlys-totem-reminder}"
+...button-text text="Random Troll Commands" event="url{https://modrinth.com/mod/random-troll-commands}"
 
-👤 manlydev0 | 📅 2026-05-22
+👤 Melworks | 📅 2026-05-24
 
-Totem Reminder helps you avoid one of the scariest mistakes in Minecraft: forgetting to keep a Totem
+Adds troll commands to mess with your friends
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/manlys-totem-reminder/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/manlys-totem-reminder}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/random-troll-commands/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/random-troll-commands}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/k2nEht8R/78c2e8faf1040140f0aa384752917c383125e9a7_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/M7ikTwuQ/c1cbd1bf3697cd0c2e795113a56bdb7be9aab399_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Deathcord Music Disc" event="url{https://modrinth.com/mod/deathcord-music-disc}"
+...button-text text="Vein Miner | Veinst" event="url{https://modrinth.com/mod/vein-miner-veinst}"
 
-👤 VtMystic | 📅 2026-05-22
+👤 Jack_853 | 📅 2026-05-24
 
-DeathCore Music Disc Mod is a minecraft mod that adds a Lot of music Disc To your world.
+quickly mine entire veins of ores by breaking one block, which automatically breaks all connected bl
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/deathcord-music-disc/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/deathcord-music-disc}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/vein-miner-veinst/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/vein-miner-veinst}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -175,14 +173,14 @@ DeathCore Music Disc Mod is a minecraft mod that adds a Lot of music Disc To you
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：为龟类喝彩！
-© 与蝴蝶在一起的乌龟 (© Patrick Gallet/Getty Images)
+🖼️ 壁纸：守护欧洲的自然净土
+© 三峰自然公园，南蒂罗尔，意大利 (© Adisorn Fineday Chutikunakorn/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Armadillo (disambiguation)](https://minecraft.wiki/Armadillo_(disambiguation))
+📖 **Wiki 推荐**：[Java Edition block render history/Red Mushroom](https://minecraft.wiki/Java_Edition_block_render_history%2FRed_Mushroom)
 
-⏰ 更新时间：2026-05-23 13:54:40
+⏰ 更新时间：2026-05-24 04:18:51
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
