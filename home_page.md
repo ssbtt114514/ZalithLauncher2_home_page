@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-05-24 04:18:51
+// 生成时间：2026-05-24 13:51:24
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"无垢清净光，慧日破诸暗，能伏灾风火，普明照世间。"*
+> *"燕子来时新社，梨花落后清明。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{无垢清净光，慧日破诸暗，能伏灾风火，普明照世间。}"
+...button-text text="📋 复制" event="copy{燕子来时新社，梨花落后清明。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FRed_Mushroom}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Hydra}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/jZrDX6R1/c00f744660b2141c0f9cff43eb4375b6787dd3af_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/pCufGrcv/9ff5c630a04a8c1319bd8e2698ae15e5964106e3.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="StereoCraft: Stereoscopic 3D" event="url{https://modrinth.com/mod/stereocraft-stereoscopic-3d}"
+...button-text text="Fast Golden Carrot Crafting" event="url{https://modrinth.com/mod/fast-golden-carrot-crafting}"
 
-👤 MitchellSamora | 📅 2026-05-24
+👤 Minetechstarship | 📅 2026-05-24
 
-Side-by-side (SBS) stereoscopic 3D rendering for 3D TVs, 3D monitors, and SBS-compatible displays. S
+Makes golden carrot crafting faster
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/stereocraft-stereoscopic-3d/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/stereocraft-stereoscopic-3d}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fast-golden-carrot-crafting/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fast-golden-carrot-crafting}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/r5Ffm05H/a1574fffc69da2473064130ee249a8dc89508b8e.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/tQC9Xv4j/a7eae7e1debbd7b8f99b83c06f6e5c119f0c118d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Rail Fix" event="url{https://modrinth.com/mod/create-rail-fix}"
+...button-text text="Craftable Wither Skulls" event="url{https://modrinth.com/mod/better-craftable-wither-skulls}"
 
-👤 Husior | 📅 2026-05-24
+👤 c0smy | 📅 2026-05-24
 
-Undoes a balancing fix of Create Mod.
+Adds the ability to craft wither skulls in minecraft rather than going to a nether fortress to farm 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-rail-fix/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-rail-fix}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-craftable-wither-skulls/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-craftable-wither-skulls}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/MqUk86sR/29fbe8cf3dfd03ad1d1652c48d5f6fadc97c49c4_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ahObrKUa/b0d3753fa3264717ed1cfb7ffd393d7729335798_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Wynncraft Autoattack" event="url{https://modrinth.com/mod/wynncraft-autoattack}"
+...button-text text="Craftable Elytra" event="url{https://modrinth.com/mod/craftableelytrabyhydra}"
 
-👤 Frogvis | 📅 2026-05-24
+👤 hydrazone | 📅 2026-05-24
 
-Auto Clicker triggered by holding a key (default: R). Attack interval can be checked or configured u
+This mod/data pack adds craftable elytras!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wynncraft-autoattack/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wynncraft-autoattack}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/craftableelytrabyhydra/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/craftableelytrabyhydra}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/sld9WRxU/b17aa63855e0fd33814b5d1e4937cb143a6408e7_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/NOODwmcM/b79b177b045a38b3ed0e1d607aab949c73fb1b28_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Random Troll Commands" event="url{https://modrinth.com/mod/random-troll-commands}"
+...button-text text="Boilzone" event="url{https://modrinth.com/mod/boilzone}"
 
-👤 Melworks | 📅 2026-05-24
+👤 FrogDude5555 | 📅 2026-05-24
 
-Adds troll commands to mess with your friends
+Adds a new magma themed ocean biome.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/random-troll-commands/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/random-troll-commands}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/boilzone/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/boilzone}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/M7ikTwuQ/c1cbd1bf3697cd0c2e795113a56bdb7be9aab399_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/QcVJlB98/ae6047dd76681fd312797d5c7f0c77c9735072e0_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Vein Miner | Veinst" event="url{https://modrinth.com/mod/vein-miner-veinst}"
+...button-text text="PeanutsChat" event="url{https://modrinth.com/mod/peanutschat}"
 
-👤 Jack_853 | 📅 2026-05-24
+👤 PeanutsMods | 📅 2026-05-24
 
-quickly mine entire veins of ores by breaking one block, which automatically breaks all connected bl
+Direct message anyone on the server! You can even mine and walk while having chat open! Group DMs bu
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/vein-miner-veinst/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/vein-miner-veinst}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/peanutschat/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/peanutschat}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ quickly mine entire veins of ores by breaking one block, which automatically bre
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition block render history/Red Mushroom](https://minecraft.wiki/Java_Edition_block_render_history%2FRed_Mushroom)
+📖 **Wiki 推荐**：[Hydra](https://minecraft.wiki/Hydra)
 
-⏰ 更新时间：2026-05-24 04:18:51
+⏰ 更新时间：2026-05-24 13:51:24
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
