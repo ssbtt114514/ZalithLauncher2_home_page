@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-05-24 13:51:24
+// 生成时间：2026-05-25 04:41:15
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.DolomitesPark_ZH-CN7134423478_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.HawaMahal2026_ZH-CN7233246545_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"燕子来时新社，梨花落后清明。"*
+> *"天下有道，以道殉身；天下无道，以身殉道。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{燕子来时新社，梨花落后清明。}"
+...button-text text="📋 复制" event="copy{天下有道，以道殉身；天下无道，以身殉道。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Hydra}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FMelon_Seeds}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/pCufGrcv/9ff5c630a04a8c1319bd8e2698ae15e5964106e3.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/RsDIjV1N/6433d10d67571780f48cd6b70f93336e07dd6880_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Fast Golden Carrot Crafting" event="url{https://modrinth.com/mod/fast-golden-carrot-crafting}"
+...button-text text="Turbo Happy Ghast" event="url{https://modrinth.com/mod/turbo-happy-ghast}"
 
-👤 Minetechstarship | 📅 2026-05-24
+👤 TheLokin | 📅 2026-05-25
 
-Makes golden carrot crafting faster
+Increases the Happy Ghast's flying speed whenever a player is mounted on it.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fast-golden-carrot-crafting/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fast-golden-carrot-crafting}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/turbo-happy-ghast/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/turbo-happy-ghast}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/tQC9Xv4j/a7eae7e1debbd7b8f99b83c06f6e5c119f0c118d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/G8h6VEMz/9f033d9a175a1252f78f1d81a89c6eabcd756c1d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Craftable Wither Skulls" event="url{https://modrinth.com/mod/better-craftable-wither-skulls}"
+...button-text text="Cheaper Shulker Boxes" event="url{https://modrinth.com/mod/cheaper-shulker-boxes}"
 
-👤 c0smy | 📅 2026-05-24
+👤 TheLokin | 📅 2026-05-25
 
-Adds the ability to craft wither skulls in minecraft rather than going to a nether fortress to farm 
+Craft Shulker Boxes with just 1 Shulker Shell and 1 Chest. No crafting table required, no extra grin
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-craftable-wither-skulls/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-craftable-wither-skulls}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cheaper-shulker-boxes/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cheaper-shulker-boxes}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ahObrKUa/b0d3753fa3264717ed1cfb7ffd393d7729335798_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/YFzv6mJh/7e75c9cde54dca5e8a36981a334b64777d8866c0_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Craftable Elytra" event="url{https://modrinth.com/mod/craftableelytrabyhydra}"
+...button-text text="Rotten Player" event="url{https://modrinth.com/mod/rotten-player}"
 
-👤 hydrazone | 📅 2026-05-24
+👤 Terrarich-2004 | 📅 2026-05-25
 
-This mod/data pack adds craftable elytras!
+Now the player is like a zombie!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/craftableelytrabyhydra/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/craftableelytrabyhydra}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/rotten-player/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/rotten-player}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/NOODwmcM/b79b177b045a38b3ed0e1d607aab949c73fb1b28_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/196e916Z/7dd3da69b34ed2baae6c1053fc881de688618cea.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Boilzone" event="url{https://modrinth.com/mod/boilzone}"
+...button-text text="Infernal Infinity" event="url{https://modrinth.com/mod/infernal-infinity}"
 
-👤 FrogDude5555 | 📅 2026-05-24
+👤 ElectricDragon | 📅 2026-05-25
 
-Adds a new magma themed ocean biome.
+A mod which aims to add an unnecessary amount of vanilla feature variants.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/boilzone/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/boilzone}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/infernal-infinity/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/infernal-infinity}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/QcVJlB98/ae6047dd76681fd312797d5c7f0c77c9735072e0_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/aznwOQTM/da52bc7e270c2402a4949bc39432d5988c784e8f.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="PeanutsChat" event="url{https://modrinth.com/mod/peanutschat}"
+...button-text text="Simple Waterloggable Redstone" event="url{https://modrinth.com/mod/simple-waterloggable-redstone}"
 
-👤 PeanutsMods | 📅 2026-05-24
+👤 KanieOutis | 📅 2026-05-25
 
-Direct message anyone on the server! You can even mine and walk while having chat open! Group DMs bu
+Adds the waterlogged property to redstone components
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/peanutschat/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/peanutschat}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simple-waterloggable-redstone/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simple-waterloggable-redstone}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Direct message anyone on the server! You can even mine and walk while having cha
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：守护欧洲的自然净土
-© 三峰自然公园，南蒂罗尔，意大利 (© Adisorn Fineday Chutikunakorn/Getty Images)
+🖼️ 壁纸：石间的清风
+© 从风之宫殿俯瞰斋浦尔市景，拉贾斯坦邦，印度 (© byheaven/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Hydra](https://minecraft.wiki/Hydra)
+📖 **Wiki 推荐**：[Java Edition item texture history/Melon Seeds](https://minecraft.wiki/Java_Edition_item_texture_history%2FMelon_Seeds)
 
-⏰ 更新时间：2026-05-24 13:51:24
+⏰ 更新时间：2026-05-25 04:41:15
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
