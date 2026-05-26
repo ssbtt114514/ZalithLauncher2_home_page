@@ -1,19 +1,21 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-05-26 04:16:25
+// 生成时间：2026-05-26 16:00:20
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.LupineBloom_ZH-CN7639721663_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.OtterDay_ZH-CN7735013625_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"生命中，再无聊的时光，也都是限量版。"*
+> *"“你失去了”
+“我从未拥有”"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{生命中，再无聊的时光，也都是限量版。}"
+...button-text text="📋 复制" event="copy{“你失去了”
+“我从未拥有”}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +34,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.1.2
-**最新快照**: 26.2-snapshot-8
+**最新快照**: 26.2-pre-1
 
 近期版本：
 - **26.1.2** (2026-04-09)
@@ -54,7 +56,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Sheep%2FOld_colors}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/David_Nisshagen}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +69,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/V7BPfphg/0ea954f7ff20c15a9d059d392207886d5e21b310_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/qOVyvwph/a10cba0cece2ab1c6b4649f6b9e7e1400251f346_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Compass to Map: Xaero's" event="url{https://modrinth.com/mod/compass-to-map-xaeros}"
+...button-text text="LlpswLib" event="url{https://modrinth.com/mod/llpswlib}"
 
-👤 KURONAMI | 📅 2026-05-26
+👤 1241373309 | 📅 2026-05-26
 
-Auto-register found structures (Explorer's Compass) and biomes (Nature's Compass) as permanent Xaero
+LLPSW’s mod library, including the original animation modules and octree modules
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/compass-to-map-xaeros/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/compass-to-map-xaeros}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/llpswlib/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/llpswlib}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8YgFuv6f/ad55c6fb5035460d7cfedf9d8412324e17f163ea_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/XGRSTKJX/a2e16d7818df9c7b1deaa3aedae04d5d20c18a6d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ping to Map: Xaero's" event="url{https://modrinth.com/mod/ping-to-map-xaeros}"
+...button-text text="player's Backpack" event="url{https://modrinth.com/mod/players-backpack}"
 
-👤 KURONAMI | 📅 2026-05-26
+👤 J-ko | 📅 2026-05-26
 
-Drop a temporary Xaero's Minimap waypoint the instant a teammate (or you) pings a spot with Ping-Whe
+Wear and place a detailed adventurer’s backpack with 54 storage slots, animated water and lava tanks
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ping-to-map-xaeros/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ping-to-map-xaeros}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/players-backpack/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/players-backpack}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/LjvxbrLl/c0302a54306a53c0e5e9800225d95402cc54cb7d.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/5c63usQC/ec28dd352d4e51e5c8882c235457acb3447dead3.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Calc2MC" event="url{https://modrinth.com/mod/calc2mc}"
+...button-text text="Idiocy's Craftable Discs!" event="url{https://modrinth.com/mod/idiocys-craftable-discs!}"
 
-👤 BouncingElf10 | 📅 2026-05-26
+👤 Idiocy | 📅 2026-05-26
 
-For if you ever don't have a controller nearby...
+This Mod adds the ability to make an Empty disc, which you can then use wool to make into any non st
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/calc2mc/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/calc2mc}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/idiocys-craftable-discs!/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/idiocys-craftable-discs!}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6buDm2T6/96f4bb4ae26428b5c49b55689ca8f4f7eb2271c5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/sRZmQUGe/dd3dba203ccef5f42dac2f1d9663d92c41d102a8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Faithful Companions: Ravens" event="url{https://modrinth.com/mod/companions-ravens}"
+...button-text text="Older Blocks" event="url{https://modrinth.com/mod/older-blocks}"
 
-👤 MythicGooseStudios | 📅 2026-05-26
+👤 Winesmoker | 📅 2026-05-26
 
-The simplicity of bundle delivering ravens
+Mix and match modern vanilla with classic pre-1.13.2 textures! Adds nostalgic art style blocks as se
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/companions-ravens/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/companions-ravens}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/older-blocks/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/older-blocks}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/m6ThQUjA/8a34c599f3d7a9916209dd16f3b549b23441f778_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/f3PrkThU/e784e2b6482bb7a9a08e39c11e42866944c82df6_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Fairlands" event="url{https://modrinth.com/mod/fairlands}"
+...button-text text="Goecia: Forgotten Rites" event="url{https://modrinth.com/mod/goecia-forgotten-rites}"
 
-👤 akitain | 📅 2026-05-26
+👤 suryamael | 📅 2026-05-26
 
-Fair survival rules for multiplayer worlds
+GoeciaMod is a dark fantasy Minecraft mod focused on new biomes, decorative blocks, and ancient-look
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fairlands/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fairlands}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/goecia-forgotten-rites/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/goecia-forgotten-rites}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +175,14 @@ Fair survival rules for multiplayer worlds
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：羽扇豆书写的季节
-© 盛开的羽扇豆，北加利福尼亚州，美国 (© Jeffrey Lewis/Tandem Stills + Motion)
+🖼️ 壁纸：它们“獭”独一无二
+© 海獭，霍默卡奇马克湾，阿拉斯加州，美国 (© roclwyr/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Sheep/Old colors](https://minecraft.wiki/Sheep%2FOld_colors)
+📖 **Wiki 推荐**：[David Nisshagen](https://minecraft.wiki/David_Nisshagen)
 
-⏰ 更新时间：2026-05-26 04:16:25
+⏰ 更新时间：2026-05-26 16:00:20
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
