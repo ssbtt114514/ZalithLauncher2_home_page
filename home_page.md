@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-05-27 04:39:13
+// 生成时间：2026-05-27 16:03:33
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.OtterDay_ZH-CN7735013625_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.HwaesongFortress_ZH-CN8225341972_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"如此生活30年，直到大厦崩塌。"*
+> *"只有分离后才能懂的事，却没有了感慨的时间。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{如此生活30年，直到大厦崩塌。}"
+...button-text text="📋 复制" event="copy{只有分离后才能懂的事，却没有了感慨的时间。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Double_Compressed_Poisonous_Potato_Block}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Dryad}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ZMLc5JnS/a04d19682d3798f6f363cadb8e96ff209e560af5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/NbN1WVzr/8935ed897688c8f665cb924a6428bd5a9a8d820b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Pretty Structures" event="url{https://modrinth.com/mod/create-pretty-structures}"
+...button-text text="/sethome and /home Commands" event="url{https://modrinth.com/mod/sethome-and-home-commands}"
 
-👤 Art_Zippie | 📅 2026-05-27
+👤 CornDawgCoco | 📅 2026-05-27
 
-Structures for vanilla create mod (can be used server side only)
+This mod adds 2 commands: /home, and /sethome. /sethome sets your home to your current coordinates. 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-pretty-structures/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-pretty-structures}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sethome-and-home-commands/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sethome-and-home-commands}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8JcmBR7w/d28cb9c4108ffa82d674fe70310bf68d853851e0_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xtIfI7el/a8394820a5643787c7ee481c1f534166b1204239_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="BilingualSearch" event="url{https://modrinth.com/mod/bilingualsearch}"
+...button-text text="Path Undo" event="url{https://modrinth.com/mod/path-undo}"
 
-👤 kazut0 | 📅 2026-05-27
+👤 Mqx | 📅 2026-05-27
 
-Search the creative inventory in both your game language and English.
+Use a shovel to turn a path block back into a gras block
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bilingualsearch/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bilingualsearch}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/path-undo/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/path-undo}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/E9FELrX5/9b09f606cae25138fb0fec7e70cc6895f702a3ec_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/QAGvycZL/2211d587096ebb1f9c2e1f0ad5b6c369a09f3347_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Totem Offhand Warning" event="url{https://modrinth.com/mod/totem-offhand-warning}"
+...button-text text="Vulkan Border Fix" event="url{https://modrinth.com/mod/vulkan-border-fix}"
 
-👤 uuirco | 📅 2026-05-27
+👤 LoopholeMC | 📅 2026-05-27
 
-Shows a subtle red vignette when you have a totem but forget to hold it in your offhand.
+Fixes a bug where the world border is invisible when using Vulkan Mod!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/totem-offhand-warning/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/totem-offhand-warning}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/vulkan-border-fix/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/vulkan-border-fix}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ZDd8e63m/5832a62d59176dd79e0f300b350c4a091e8a2845_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vHZpoCbE/a535f38d3eddb7731cdafb790cb6ad6fa4cc0b32_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Netherite Portable Engine" event="url{https://modrinth.com/mod/create-netherite-portable-engine}"
+...button-text text="Ascendant Arcana" event="url{https://modrinth.com/mod/ascendant-arcana}"
 
-👤 Vladislav117 | 📅 2026-05-27
+👤 anticode | 📅 2026-05-27
 
-A small Create Simulated (Create Aeronautics) addon that adds a netherite portable engine
+A complete enchantment overhaul with dozens of new enchantments and enhanced progression.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-netherite-portable-engine/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-netherite-portable-engine}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ascendant-arcana/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ascendant-arcana}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/5a5L3Ld7/a7701166e582da193567c0c0349c8df2ee81003e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wnsOjcv5/0dd10965570bae04956f99b97c8f5ac2eaab792d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="The Boys Mod" event="url{https://modrinth.com/mod/the-boys-1.20.1}"
+...button-text text="[SBW]HaloVehicles" event="url{https://modrinth.com/mod/sbwhalovehicles}"
 
-👤 StelleMB | 📅 2026-05-27
+👤 Chaoji_Mouse | 📅 2026-05-27
 
-A superhero-inspired Minecraft mod featuring Homelander, Starlight, Soldier Boy, and A-Train, each w
+This expansion pack for SBW adds Halo vehicles.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-boys-1.20.1/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-boys-1.20.1}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sbwhalovehicles/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sbwhalovehicles}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ A superhero-inspired Minecraft mod featuring Homelander, Starlight, Soldier Boy,
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：它们“獭”独一无二
-© 海獭，霍默卡奇马克湾，阿拉斯加州，美国 (© roclwyr/Getty Images)
+🖼️ 壁纸：设计与秩序相结合
+© 华城堡的古城墙，水原，韩国 (© aomam/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Double Compressed Poisonous Potato Block](https://minecraft.wiki/Double_Compressed_Poisonous_Potato_Block)
+📖 **Wiki 推荐**：[Dryad](https://minecraft.wiki/Dryad)
 
-⏰ 更新时间：2026-05-27 04:39:13
+⏰ 更新时间：2026-05-27 16:03:33
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
