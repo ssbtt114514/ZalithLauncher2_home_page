@@ -1,6 +1,7 @@
 /**
  * 从 Minecraft Wiki 获取最新内容并更新主页
  * 使用 MediaWiki API: https://zh.minecraft.wiki/api.php
+ * 输出文件: /home.md
  */
 
 const axios = require('axios');
@@ -9,14 +10,10 @@ const path = require('path');
 
 // ============ 配置 ============
 const WIKI_API = 'https://zh.minecraft.wiki/api.php';
-const OUTPUT_PATH = path.join(__dirname, '..', 'home_page.md');
+const OUTPUT_PATH = path.join(__dirname, '..', 'home.md');  // 输出到根目录的 home.md
 
-// 需要获取的页面列表
-const PAGES = [
-    '小鬼当家',           // Tiny Takeover 活动页面
-    'Minecraft_Live_2026', // 最新活动（如果存在）
-    'Java版即将到来'      // 最新快照信息
-];
+// 需要获取的页面
+const WIKI_PAGE = '小鬼当家';
 
 // ============ Minecraft Wiki API 调用 ============
 
@@ -26,7 +23,8 @@ const PAGES = [
 async function getPageHTML(pageTitle) {
     try {
         const url = `${WIKI_API}?action=parse&page=${encodeURIComponent(pageTitle)}&format=json`;
-        const response = await axios.get(url, { timeout: 10000 });
+        console.log('📡 请求:', url);
+        const response = await axios.get(url, { timeout: 15000 });
         
         if (response.data && response.data.parse) {
             return {
@@ -51,7 +49,7 @@ async function getPageRaw(pageTitle) {
         const response = await axios.get(url, { timeout: 10000 });
         return response.data;
     } catch (error) {
-        console.error(`❌ 获取源码 "${pageTitle}" 失败:`, error.message);
+        console.error(`❌ 获取源码失败:`, error.message);
         return null;
     }
 }
@@ -86,17 +84,13 @@ async function getPageImages(pageTitle) {
  * 从 HTML 中提取纯文本内容
  */
 function extractTextFromHTML(html) {
-    // 移除 script 和 style 标签
     let text = html.replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '');
     text = text.replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '');
-    // 移除 HTML 标签
     text = text.replace(/<[^>]+>/g, ' ');
-    // 解码 HTML 实体
     text = text.replace(/&nbsp;/g, ' ');
     text = text.replace(/&amp;/g, '&');
     text = text.replace(/&lt;/g, '<');
     text = text.replace(/&gt;/g, '>');
-    // 清理多余空格
     text = text.replace(/\s+/g, ' ').trim();
     return text;
 }
@@ -104,27 +98,37 @@ function extractTextFromHTML(html) {
 /**
  * 从 HTML 中提取第一段描述
  */
-function extractDescription(html, maxLength = 200) {
+function extractDescription(html, maxLength = 250) {
     const text = extractTextFromHTML(html);
-    if (text.length > maxLength) {
-        return text.substring(0, maxLength) + '...';
+    // 尝试截取到句号
+    let desc = text;
+    if (desc.length > maxLength) {
+        const cutIndex = desc.lastIndexOf('。', maxLength);
+        if (cutIndex > 0) {
+            desc = desc.substring(0, cutIndex + 1);
+        } else {
+            desc = desc.substring(0, maxLength) + '...';
+        }
     }
-    return text;
+    return desc;
 }
 
 /**
- * 从 HTML 中提取图片 URL（优先获取主视觉图）
+ * 从 HTML 中提取主视觉图
  */
 function extractMainImage(html) {
-    // 匹配 wiki 图片 URL
     const imgRegex = /<img[^>]+src="([^"]+)"[^>]*>/gi;
     const matches = [...html.matchAll(imgRegex)];
     
+    // 优先匹配关键词
+    const keywords = ['Key_Art', 'keyart', 'banner', 'main', 'hero', 'logo'];
     for (const match of matches) {
         const url = match[1];
-        // 优先返回大的图片（包含 keyart、banner、main 等关键词）
-        if (url.includes('Key_Art') || url.includes('banner') || url.includes('main')) {
-            return url;
+        const lowerUrl = url.toLowerCase();
+        for (const keyword of keywords) {
+            if (lowerUrl.includes(keyword.toLowerCase())) {
+                return url;
+            }
         }
     }
     
@@ -133,6 +137,26 @@ function extractMainImage(html) {
         return matches[0][1];
     }
     return null;
+}
+
+/**
+ * 从 Wiki 源码中提取特性列表
+ */
+function extractFeatures(rawWiki) {
+    const features = [];
+    const lines = rawWiki.split('\n');
+    
+    for (const line of lines) {
+        // 匹配列表项
+        if (line.match(/^\*+\s+/) && !line.includes('File:') && !line.includes('{{')) {
+            let feature = line.replace(/^\*+\s+/, '').trim();
+            if (feature.length > 10 && feature.length < 200) {
+                features.push(feature);
+            }
+        }
+    }
+    
+    return features.slice(0, 5); // 最多5条
 }
 
 // ============ 获取 Minecraft 最新版本信息 ============
@@ -165,14 +189,16 @@ async function fetchMinecraftVersions() {
 async function generateHomePage() {
     console.log('🚀 开始从 Minecraft Wiki 获取内容...');
     console.log('⏰', new Date().toLocaleString('zh-CN'));
+    console.log('📁 输出路径:', OUTPUT_PATH);
     
     // 获取 Wiki 页面内容
-    console.log('📖 正在获取 Wiki 页面...');
-    const wikiPage = await getPageHTML('小鬼当家');
+    console.log(`\n📖 正在获取页面: ${WIKI_PAGE}`);
+    const wikiPage = await getPageHTML(WIKI_PAGE);
+    const wikiRaw = await getPageRaw(WIKI_PAGE);
     
     let wikiDescription = '';
     let wikiImage = '';
-    let wikiUpdateInfo = '';
+    let wikiFeatures = [];
     
     if (wikiPage) {
         wikiDescription = extractDescription(wikiPage.text, 300);
@@ -184,11 +210,24 @@ async function generateHomePage() {
         wikiImage = 'https://zh.minecraft.wiki/images/Tiny_Takeover_Key_Art.png';
     }
     
+    if (wikiRaw) {
+        wikiFeatures = extractFeatures(wikiRaw);
+        console.log(`📋 提取到 ${wikiFeatures.length} 条特性`);
+    }
+    
     // 获取版本信息
     const mcVersions = await fetchMinecraftVersions();
     
     // 生成版本列表
     const versionInfo = mcVersions.recentReleases.map(v => `- **${v.id}** (${v.date})`).join('\n        ');
+    
+    // 生成特性列表 HTML
+    let featuresHtml = '';
+    if (wikiFeatures.length > 0) {
+        featuresHtml = wikiFeatures.map(f => `- ${f}`).join('\n        ');
+    } else {
+        featuresHtml = '- 全新的幼年生物登场\n- 特色游戏内容\n- 限时活动奖励';
+    }
     
     // 生成 Markdown
     const md = `// ============================================
@@ -203,12 +242,17 @@ async function generateHomePage() {
 ...card-end
 
 // --- 活动介绍卡片 ---
-...card-start title="📢 ${wikiPage ? wikiPage.title : 'Tiny Takeover'}" shape=medium contentPadding=(16,12)
+...card-start title="📢 ${wikiPage ? wikiPage.title : 'Tiny Takeover 小鬼当家'}" shape=medium contentPadding=(16,12)
     ...column-start vertical=spacedBy(8) horizontal=Center
-> ${wikiDescription}
+
+${wikiDescription}
+
+**活动特色：**
+        ${featuresHtml}
 
 无论你准备好了没有，[**《Tiny Takeover》**](https://www.minecraft.net/zh-hans/updates/tiny-takeover-drop) 现已上市！  
 [**下载 Minecraft**](https://www.minecraft.net/choose-your-game) 现在就去玩新版本吧！
+
     ...column-end
 ...card-end
 
@@ -228,7 +272,7 @@ async function generateHomePage() {
     ...column-end
 ...card-end
 
-// --- 更多新闻 ---
+// --- 最新资讯 ---
 ...card-start title="📰 最新资讯" shape=medium
     ...row-start horizontal=spacedBy(12) vertical=Top
 
@@ -362,6 +406,7 @@ __更新日志__
     console.log(`📅 生成时间: ${new Date().toLocaleString('zh-CN')}`);
     console.log(`📦 MC版本: ${mcVersions.latestRelease} / ${mcVersions.latestSnapshot}`);
     if (wikiPage) console.log(`📖 Wiki页面: ${wikiPage.title}`);
+    console.log(`📋 特性数量: ${wikiFeatures.length}`);
 }
 
 // 运行
