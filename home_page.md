@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-05-30 04:06:55
+// 生成时间：2026-05-30 13:57:17
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"爱,其实很简单，困难的是去接受它。"*
+> *"花，不知道自己就是春天。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{爱,其实很简单，困难的是去接受它。}"
+...button-text text="📋 复制" event="copy{花，不知道自己就是春天。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FFletching_Table}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FPotato_Slab}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,83 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/uaYzPoEy/841e89a4942f35040c92a8979bafeefb8acb272d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vEcgUB8q/f43015dab5e3d85caa40b7a7f50e1867dcff6d0f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Count Easy" event="url{https://modrinth.com/mod/count-easy}"
+...button-text text="Pozitification" event="url{https://modrinth.com/mod/pozitification}"
 
-👤 dydgh620 | 📅 2026-05-30
+👤 kasperoid | 📅 2026-05-30
 
-Automatically counts items inside opened chests and barrels and displays totals in a clean overlay
+Adds crawling, sitting, lying down and other poses
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/count-easy/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/count-easy}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pozitification/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pozitification}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7FEWgXWo/c08eafa20cd8924bce678cd35dd67eaa0ada669f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/qzENwZPq/07762f18cfad2f12557619ce25de31977337dfeb_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Bigger Items PvP" event="url{https://modrinth.com/mod/biggeritems}"
+...button-text text="Jackie Chan Adventures: Talisman" event="url{https://modrinth.com/mod/jackie-chan-adventures-talisman}"
 
-👤 bauerhartmut | 📅 2026-05-30
+👤 ALIYANBROGAMING | 📅 2026-05-30
 
-BiggerItems lets you resize dropped items in Minecraft from 0.01× to 10×. Press H to open the GUI, s
+Jackie Chan Adventures: Talisman Mod
+
+Bring the legendary mystical talismans from the classic animat
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/biggeritems/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/biggeritems}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jackie-chan-adventures-talisman/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jackie-chan-adventures-talisman}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ZLQgC502/f4851475341630a0e3578efa5d6971415950152b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/VDEAQjwd/1388335a949e4343f48584d8d792fb83ed103b98_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="VariableMod" event="url{https://modrinth.com/mod/variablemod}"
+...button-text text="Phantom Warner" event="url{https://modrinth.com/mod/phantom-warner}"
 
-👤 OrangeFaHTA | 📅 2026-05-30
+👤 gifti3003 | 📅 2026-05-30
 
-This project adds a variables, what can simplyfing mapmaking
+Tells you when phantoms will spawn. Displays a clean countdown in your action bar before they attack
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/variablemod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/variablemod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/phantom-warner/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/phantom-warner}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/hkjgiuuD/746fa41e80a0ab4f95df251906bc0b2233bfed58_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/maiVPGYD/5f398b81d69dc8de574bb5544e23593bad867a19_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MCTCG" event="url{https://modrinth.com/mod/minecrafttcg}"
+...button-text text="Create: Modern Tech" event="url{https://modrinth.com/mod/create-modern-tech}"
 
-👤 LightFreecs | 📅 2026-05-30
+👤 JTech | 📅 2026-05-30
 
-MCTCG is a fully playable trading card game built inside Minecraft. Challenge your friends, climb th
+Create: Modern Tech introduces more high-tech items and blocks primarily for use with create aeronau
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/minecrafttcg/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/minecrafttcg}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-modern-tech/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-modern-tech}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/2NNwv7jU/3bccdead243fbb4baad9a77cfa80e2529bd061f9_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/qGSCOjVE/153c8dc58498d85b2188a8d804b9980b6db25806_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Flint Block Slab" event="url{https://modrinth.com/mod/flint-block-slab}"
+...button-text text="Create: Continuum (Vanilla Backport Integration)" event="url{https://modrinth.com/mod/create-continuum-(vanilla-backport-integration)}"
 
-👤 Super_McTea | 📅 2026-05-30
+👤 blouish_ | 📅 2026-05-30
 
-Adds a slab variant for the Block of Flint from Supplementaries!
+Adds new recipes to bridge the gap between Create and Vanilla Backport
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/flint-block-slab/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/flint-block-slab}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-continuum-(vanilla-backport-integration)/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-continuum-(vanilla-backport-integration)}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +180,9 @@ Adds a slab variant for the Block of Flint from Supplementaries!
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition block render history/Fletching Table](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FFletching_Table)
+📖 **Wiki 推荐**：[Java Edition block render history/Potato Slab](https://minecraft.wiki/Java_Edition_block_render_history%2FPotato_Slab)
 
-⏰ 更新时间：2026-05-30 04:06:55
+⏰ 更新时间：2026-05-30 13:57:17
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
