@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-05-31 04:41:57
+// 生成时间：2026-05-31 14:02:50
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"这不是玩笑，不要吃掉梦想啊。"*
+> *"我想要握紧的并不是匕首或是什么，只不过是他的掌心而已。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{这不是玩笑，不要吃掉梦想啊。}"
+...button-text text="📋 复制" event="copy{我想要握紧的并不是匕首或是什么，只不过是他的掌心而已。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_14w26b}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_Indev_20100211-2340}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/BF38S4z0/44a55647817ce2e63f32c555e93788e4df8eb9f5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Iv7znCSW/3778fea36a11e47433045b9ffdec6d49b41c10e9.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Wayz info display" event="url{https://modrinth.com/mod/wayz-info-display}"
+...button-text text="TDSMP Bits and Bobs" event="url{https://modrinth.com/mod/tdsmp-bits-and-bobs}"
 
-👤 leoWayz | 📅 2026-05-31
+👤 SpheralTomato78 | 📅 2026-05-31
 
-Wayz’s info display shows useful stats like FPS, direction you’re facing, and much more.
+TDSMP Bits and Bobs adds a bunch of signs and other blocks/items for the Time Dimension SMP.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wayz-info-display/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wayz-info-display}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tdsmp-bits-and-bobs/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tdsmp-bits-and-bobs}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/qFSrgid8/5cdced5c293acd48da9f587819bc99a0fc038b55.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vqygMnuo/781f3d4cd14d929fba57aada67fc9ca33a49caf9_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Bow Boostin'" event="url{https://modrinth.com/mod/bow-boostin}"
+...button-text text="Tensura: EP Regen Scaling Reborn" event="url{https://modrinth.com/mod/tensura-ep-regen-scaling-reborn}"
 
-👤 galaxy_guy2 | 📅 2026-05-31
+👤 DaAnya29 | 📅 2026-05-31
 
-This is just a mod that makes bow boosting easier by automating it, there are multiple commands to h
+Makes your EP (Magicule & Aura) regeneration, percentage based. (Configurable)
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bow-boostin/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bow-boostin}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tensura-ep-regen-scaling-reborn/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tensura-ep-regen-scaling-reborn}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/BjGfz7Td/fa0101e3e70c018d0a71850c9c5ebdd6fcf32ad6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/OVu6OwFg/89d722224c5cd9e9bceecf566b6b0c80bb427d8d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Cartridge" event="url{https://modrinth.com/mod/cartridge}"
+...button-text text="SB+ | Hypixel Skyblock" event="url{https://modrinth.com/mod/sb+}"
 
-👤 Chlamydomonos | 📅 2026-05-31
+👤 JustinDevs | 📅 2026-05-31
 
-Adds Cartridge from Made in Abyss (as well as the curse mechanism) to Minecraft.
+Skyblock+ is a mod for Hypixel SkyBlock, adding quality-of-life features, dungeon and boss helpers, 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cartridge/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cartridge}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sb+/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sb+}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/La3tcksm/c0878a5bcfe8c234658b5f7c197692d97df3b155_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/UI2y9G9e/91072668936960b1cd7f181716b0dc29c5cc3291_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="LiveControl" event="url{https://modrinth.com/mod/livecontrol}"
+...button-text text="Wasted Screen GTA" event="url{https://modrinth.com/mod/wasted-screen-gta}"
 
-👤 Pjluna | 📅 2026-05-31
+👤 gatosmias | 📅 2026-05-31
 
-This project allows the user to add a YouTube, Kick, or Twitch channel to Minecraft, and let chat co
+Transform the Minecraft death screen into the classic "WASTED" transition from GTA, complete with gr
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/livecontrol/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/livecontrol}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wasted-screen-gta/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wasted-screen-gta}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/28kNJ9Ok/06081de43a1c4bdef137def5eb7ffcd7e37429c0.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/X0Lnj8M8/dd453c08c90e5095534430b4d1cf39861427efdc_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="f1le" event="url{https://modrinth.com/mod/f1le}"
+...button-text text="Chat Wheel" event="url{https://modrinth.com/mod/chat-wheel}"
 
-👤 Idursunvip | 📅 2026-05-31
+👤 rd5ey24d1ae | 📅 2026-05-31
 
-An horror mod that has a theme of an world failing to generate, chunks are flying, crosses are every
+Chat Wheel adds a radial menu to Minecraft that lets you quickly send chat messages with a simple mo
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/f1le/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/f1le}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chat-wheel/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chat-wheel}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ An horror mod that has a theme of an world failing to generate, chunks are flyin
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 14w26b](https://minecraft.wiki/Java_Edition_14w26b)
+📖 **Wiki 推荐**：[Java Edition Indev 20100211-2340](https://minecraft.wiki/Java_Edition_Indev_20100211-2340)
 
-⏰ 更新时间：2026-05-31 04:41:57
+⏰ 更新时间：2026-05-31 14:02:50
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
