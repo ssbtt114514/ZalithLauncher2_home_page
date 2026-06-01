@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-01 05:03:29
+// 生成时间：2026-06-01 17:56:58
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.OlivaPalermo_ZH-CN9639920195_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.Qinghai_ZH-CN9899656327_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"无论怎么坚持，我都可能失败。无论怎么失败，我都始终坚持。"*
+> *"纵然身朽去，心美亦永恒。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{无论怎么坚持，我都可能失败。无论怎么失败，我都始终坚持。}"
+...button-text text="📋 复制" event="copy{纵然身朽去，心美亦永恒。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Legacy_Console_Edition_data_values%2FEffects}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Fsetfixedinvslot}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -66,6 +66,22 @@
 // --- 🧩 Modrinth 最新模组 ---
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/8Bik850L/icon.png" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="PotionsButStackable" event="url{https://modrinth.com/mod/potionsbutstackable}"
+
+👤 ThatOneCyberPunk | 📅 2026-06-01
+
+It allows any potion to stack up to 16
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/potionsbutstackable/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/potionsbutstackable}" weight=(1)
+...row-end
+...column-end
+...row-end
+
 ...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/nyvwo0yT/dc3f2032ae69f51a66095d629232e338db47cf38_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
@@ -130,22 +146,6 @@ Rusty Arsenal is a small addon for Forge 1.20.1 that adds a collection of rough 
 ...column-end
 ...row-end
 
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/I4WFLyZu/icon.png" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="ToolBelt Unlimited" event="url{https://modrinth.com/mod/toolbelt-unlimited}"
-
-👤 TeutonStudio | 📅 2026-06-01
-
-Increases the slot limit of ToolBelt according to Config
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/toolbelt-unlimited/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/toolbelt-unlimited}" weight=(1)
-...row-end
-...column-end
-...row-end
-
 ...row-start horizontal=spacedBy(8)
 ...button text="📥 访问 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
 ...row-end
@@ -173,14 +173,14 @@ Increases the slot limit of ToolBelt according to Config
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：历史的况味
-© 巴勒莫暮色下的天际线，西西里岛，意大利 (© Sean Pavone/Getty Images)
+🖼️ 壁纸：穿行于蓝色之间
+© 穿越西台吉乃尔湖的公路，青海省，中国 (© Kaicheng Xu/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Legacy Console Edition data values/Effects](https://minecraft.wiki/Legacy_Console_Edition_data_values%2FEffects)
+📖 **Wiki 推荐**：[Commands/setfixedinvslot](https://minecraft.wiki/Commands%2Fsetfixedinvslot)
 
-⏰ 更新时间：2026-06-01 05:03:29
+⏰ 更新时间：2026-06-01 17:56:58
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
