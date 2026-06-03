@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-02 16:48:36
+// 生成时间：2026-06-03 05:00:37
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我们是学生，学生就要有学生的样子。"*
+> *"闪烁的灯光是我在异世界大声地呼唤你。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我们是学生，学生就要有学生的样子。}"
+...button-text text="📋 复制" event="copy{闪烁的灯光是我在异世界大声地呼唤你。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FMusic_Disc_Tears}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Fdedicatedwsserver}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/2TpgSSVU/94a1b2ff75b7d2becfb93f493a9c74d39cf55302.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/DKkdLu6q/e53c2fee90f34411a8ecae34b99399f45a66500e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Glyphbound: Hanzi Magic" event="url{https://modrinth.com/mod/glyphbound-hanzi-magic}"
+...button-text text="Grass on Leaves" event="url{https://modrinth.com/mod/grass-on-leaves}"
 
-👤 Aozaidev | 📅 2026-06-02
+👤 otto-BigO | 📅 2026-06-03
 
-Draw handwritten Chinese characters to cast spells, survive combat, and reshape the world.
+A very simple mod that allows you to place grass on leaves!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/glyphbound-hanzi-magic/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/glyphbound-hanzi-magic}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/grass-on-leaves/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/grass-on-leaves}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/LJLu53Fk/213e55fdafbda98400c8277b8ea357830856de6b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/eRfD9CpO/b36f5dc0fc22e93036151ef4314742a7c68e90c4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Simple Combos" event="url{https://modrinth.com/mod/simple-combos}"
+...button-text text="Simple XP multiplier" event="url{https://modrinth.com/mod/simple-xp-multiplier}"
 
-👤 eicv_ | 📅 2026-06-02
+👤 eduloqui | 📅 2026-06-03
 
-A simple way to add combos to your game.
+Function: multiplies the experience points dropped by slain mobs by 10.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simple-combos/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simple-combos}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simple-xp-multiplier/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simple-xp-multiplier}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/b3uEbf6Q/491c9db0f4bdc75d52b677533ad8281ff52c4bf7_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/oJypqMto/1de91d8efda9bdfeaf436a620648ace0c92c6ed7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="NoSnooper" event="url{https://modrinth.com/mod/nosnooper}"
+...button-text text="LegacyZoom" event="url{https://modrinth.com/mod/legacyzoomduck}"
 
-👤 gain | 📅 2026-06-02
+👤 Duckyy_ | 📅 2026-06-03
 
-Removes "Snooper Settings..." from the settings as well as breaks snooper from working.
+Мод-зум для Minecraft! / Mod-zoom for Minecraft!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nosnooper/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nosnooper}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/legacyzoomduck/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/legacyzoomduck}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wjsGWBKQ/7fb82584ebfe5342643af496c046e3c4977dece9_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/KD2QrWTM/316c743ae412270e127cb225e2edd9d3016652a8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="hxwi1structures" event="url{https://modrinth.com/mod/hxwi1structures}"
+...button-text text="Aeronautics Replay" event="url{https://modrinth.com/mod/aeronautics-replay}"
 
-👤 hxwi1 | 📅 2026-06-02
+👤 Milasand | 📅 2026-06-03
 
-An NBT structure generator for modpack makers. Visual GUI config, four placement modes, biome tags, 
+Adds ReForgedPlay support for Aeronautics ships and contraption
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hxwi1structures/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hxwi1structures}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/aeronautics-replay/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/aeronautics-replay}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/pct7jL3J/9d487438ae2af97a123dacf21c49c476a2e52eb6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/q9NYEgIJ/8b050aac9f06fe27665112c64db3d7a23854b290.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="FluxerCraft" event="url{https://modrinth.com/mod/fluxercraft}"
+...button-text text="Promising shovel efficiency hud" event="url{https://modrinth.com/mod/prom-shovel-effi-hud}"
 
-👤 Arxari | 📅 2026-06-02
+👤 Enksuu | 📅 2026-06-03
 
-A Fluxer client in the Minecraft Chat window
+makes a green number that tells the efficiency enchant level to the hotbar slot where the shovel is 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fluxercraft/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fluxercraft}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/prom-shovel-effi-hud/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/prom-shovel-effi-hud}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ A Fluxer client in the Minecraft Chat window
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition item texture history/Music Disc Tears](https://minecraft.wiki/Java_Edition_item_texture_history%2FMusic_Disc_Tears)
+📖 **Wiki 推荐**：[Commands/dedicatedwsserver](https://minecraft.wiki/Commands%2Fdedicatedwsserver)
 
-⏰ 更新时间：2026-06-02 16:48:36
+⏰ 更新时间：2026-06-03 05:00:37
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
