@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-03 17:05:26
+// 生成时间：2026-06-04 04:52:52
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我无处不在"*
+> *"幸福破灭之时，总是伴随着血腥味。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我无处不在}"
+...button-text text="📋 复制" event="copy{幸福破灭之时，总是伴随着血腥味。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FStripped_Oak_Wood}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.14.2}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/fOgtkSYN/7eed4d128e4b1735c89523a1d7227a8a82277f26_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ny77zKza/9c4b358c75364264c76c18cd719d9decd45db190_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Wearable Copper Golems" event="url{https://modrinth.com/mod/wearable-copper-golems}"
+...button-text text="Simply Jetpacks 2" event="url{https://modrinth.com/mod/simply-jetpacks-2}"
 
-👤 KiwiFish | 📅 2026-06-03
+👤 Tomson124 | 📅 2026-06-04
 
-Makes copper golem blocks equippable on player heads.
+RF powered, tier based Jetpacks
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wearable-copper-golems/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wearable-copper-golems}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simply-jetpacks-2/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simply-jetpacks-2}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/EU3FMMq6/b95c3207ad9ca7c43502c6bc170b70b44d4da7c3.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/9qcC7Ssn/f7786be4b29fa625f856a6474ee7c6eac1846e42.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Trip On String" event="url{https://modrinth.com/mod/trip-on-string}"
+...button-text text="Practical Cosmetics" event="url{https://modrinth.com/mod/practical-cosmetics}"
 
-👤 TheKingOfNerds | 📅 2026-06-03
+👤 Ihatescavs | 📅 2026-06-04
 
-Gives a chance of tripping when stepping onto a tripwire block.
+This mod aims to add cosmetics that not only look great but actually get usage over vanilla armor to
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/trip-on-string/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/trip-on-string}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/practical-cosmetics/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/practical-cosmetics}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/1mhZFJ40/ddb0a2690288b7033f77dfee686eb40cd7542cda.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wm1FOSU4/9542a34010183396ebf11c5f012af636716e244c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Hot Redstone Wires" event="url{https://modrinth.com/mod/hot-redstone-wires}"
+...button-text text="Mine&Dragons" event="url{https://modrinth.com/mod/minedrag}"
 
-👤 TheKingOfNerds | 📅 2026-06-03
+👤 andrepolpo | 📅 2026-06-04
 
-Wires get hot! Makes redstone dust and blocks painful to step on.
+Mine&Dragons Fragments from the World
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hot-redstone-wires/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hot-redstone-wires}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/minedrag/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/minedrag}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/65BMeMn7/959f097d069a9b70a2293b5ca4a8aa5add437207.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Br00QPmE/a4209a3d99144aa5095e6a56c7b71232149e3729_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Spell Lib" event="url{https://modrinth.com/mod/spell-lib}"
+...button-text text="Classic Farlands Reforged" event="url{https://modrinth.com/mod/classic-farlands-reforged}"
 
-👤 TheKingOfNerds | 📅 2026-06-03
+👤 dddanpppan | 📅 2026-06-04
 
-Adds a bunch of spells for other projects to use, with customization. Makes projects that want to ad
+Neoforge port bringing the classic style of Far Lands to 1.21.1
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/spell-lib/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/spell-lib}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/classic-farlands-reforged/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/classic-farlands-reforged}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/1BUxbVGV/33d1b1a3d1463f6df16185dfd687c34bd89913ab_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/CFTMguCN/86dcf9f502f63fa970b530499486b542430129d4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Magically Engraved" event="url{https://modrinth.com/mod/magically-engraved}"
+...button-text text="BordersOnXaeroMap" event="url{https://modrinth.com/mod/bordersonxaeromap}"
 
-👤 NightMareLore | 📅 2026-06-03
+👤 immorrtalz | 📅 2026-06-04
 
-Bridges the gap between modern Minecraft tech and ancient magic. Use your life-force to change reali
+Simple borders/zones addon for the Xaero's World Map
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/magically-engraved/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/magically-engraved}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bordersonxaeromap/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bordersonxaeromap}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Bridges the gap between modern Minecraft tech and ancient magic. Use your life-f
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition block render history/Stripped Oak Wood](https://minecraft.wiki/Java_Edition_block_render_history%2FStripped_Oak_Wood)
+📖 **Wiki 推荐**：[Java Edition 1.14.2](https://minecraft.wiki/Java_Edition_1.14.2)
 
-⏰ 更新时间：2026-06-03 17:05:26
+⏰ 更新时间：2026-06-04 04:52:52
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
