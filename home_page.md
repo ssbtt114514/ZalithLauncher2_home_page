@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-04 15:33:35
+// 生成时间：2026-06-05 04:37:24
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.PreeningEgret_ZH-CN2216012708_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.WedLapland_ZH-CN2365942547_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我们各自努力，最高处见！"*
+> *"满目山河空念远，落花风雨更伤春。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我们各自努力，最高处见！}"
+...button-text text="📋 复制" event="copy{满目山河空念远，落花风雨更伤春。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Ffilldrive}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Stampy}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ny77zKza/9c4b358c75364264c76c18cd719d9decd45db190_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ceUvEMAi/83e8134959d619a0fce642cb104c6cf5037c82a9_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Simply Jetpacks 2" event="url{https://modrinth.com/mod/simply-jetpacks-2}"
+...button-text text="More Sponge" event="url{https://modrinth.com/mod/more-sponge}"
 
-👤 Tomson124 | 📅 2026-06-04
+👤 CoolerProYT | 📅 2026-06-05
 
-RF powered, tier based Jetpacks
+Adds compressed sponges and new lava, snow, and fire sponge variants — each with 5 compression tiers
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simply-jetpacks-2/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simply-jetpacks-2}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/more-sponge/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/more-sponge}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/9qcC7Ssn/f7786be4b29fa625f856a6474ee7c6eac1846e42.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/4FpnMD8d/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Practical Cosmetics" event="url{https://modrinth.com/mod/practical-cosmetics}"
+...button-text text="EarthMC Recruitment Addon" event="url{https://modrinth.com/mod/earthmc-recruitment}"
 
-👤 Ihatescavs | 📅 2026-06-04
+👤 JR1258- | 📅 2026-06-05
 
-This mod aims to add cosmetics that not only look great but actually get usage over vanilla armor to
+EarthMC Recruitment Addon - Provides some recruitment assistance features. (May add other features t
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/practical-cosmetics/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/practical-cosmetics}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/earthmc-recruitment/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/earthmc-recruitment}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wm1FOSU4/9542a34010183396ebf11c5f012af636716e244c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/aWmX8OeH/2258a633f8cbfee04ee2a9ab33d6a2d40ef186a7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mine&Dragons" event="url{https://modrinth.com/mod/minedrag}"
+...button-text text="Mob Blacklist" event="url{https://modrinth.com/mod/mob-blacklist}"
 
-👤 andrepolpo | 📅 2026-06-04
+👤 Drypted | 📅 2026-06-05
 
-Mine&Dragons Fragments from the World
+A simple mod that allows you to blacklist/disable mobs from spawning inside your world, directly fro
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/minedrag/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/minedrag}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mob-blacklist/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mob-blacklist}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Br00QPmE/a4209a3d99144aa5095e6a56c7b71232149e3729_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/FytP0FJD/c42387d236debb6ad5f36ff4f86a86b575bf6de6_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Classic Farlands Reforged" event="url{https://modrinth.com/mod/classic-farlands-reforged}"
+...button-text text="Lore Keeper" event="url{https://modrinth.com/mod/lore-keeper}"
 
-👤 dddanpppan | 📅 2026-06-04
+👤 LegendaryPorpoise | 📅 2026-06-05
 
-Neoforge port bringing the classic style of Far Lands to 1.21.1
+This project adds an easy and intuitive way to add lore to your world!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/classic-farlands-reforged/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/classic-farlands-reforged}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lore-keeper/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lore-keeper}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/CFTMguCN/86dcf9f502f63fa970b530499486b542430129d4_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/AkDFRRWI/82714c121aaea6a56bcb1c481f2d8472893554b1.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="BordersOnXaeroMap" event="url{https://modrinth.com/mod/bordersonxaeromap}"
+...button-text text="Cursed Fate: Maxed" event="url{https://modrinth.com/mod/cursed-fate-maxed}"
 
-👤 immorrtalz | 📅 2026-06-04
+👤 Tetras | 📅 2026-06-05
 
-Simple borders/zones addon for the Xaero's World Map
+Adds a new command that maxes out your Cursed Fate progress
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bordersonxaeromap/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bordersonxaeromap}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cursed-fate-maxed/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cursed-fate-maxed}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Simple borders/zones addon for the Xaero's World Map
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：优雅羽饰
-© 梳理羽毛的雪鹭，佛罗里达州中部，美国 (© Donald M. Jones/Minden Pictures)
+🖼️ 壁纸：无人问津之地的静默力量
+© 从斯基尔夫山俯瞰拉帕达伦河三角洲, 萨雷克国家公园, 拉波尼亚, 瑞典拉普兰 (© Robert Haasmann/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Commands/filldrive](https://minecraft.wiki/Commands%2Ffilldrive)
+📖 **Wiki 推荐**：[Stampy](https://minecraft.wiki/Stampy)
 
-⏰ 更新时间：2026-06-04 15:33:35
+⏰ 更新时间：2026-06-05 04:37:24
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
