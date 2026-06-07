@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-07 04:46:39
+// 生成时间：2026-06-07 14:10:50
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"不敢打开信封啊。因为，打开了就结束了啊。"*
+> *"恰沐春风共同游，终只叹，木已舟。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{不敢打开信封啊。因为，打开了就结束了啊。}"
+...button-text text="📋 复制" event="copy{恰沐春风共同游，终只叹，木已舟。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_guides%2FBountiful_Update}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/1.45}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/oqirYRbR/2f1776a62fca0a1895ef55546fe1accc2e22fc6a.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/4pktn6X5/fb7888f43917cc90b2f26d0d42fd27ee53def37f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Smaller Slimes" event="url{https://modrinth.com/mod/smaller-slimes}"
+...button-text text="infused books" event="url{https://modrinth.com/mod/infused-books}"
 
-👤 TheKingOfNerds | 📅 2026-06-07
+👤 phluxjr | 📅 2026-06-07
 
-Makes slimes and magma cubes less threatening
+infused books adds crafting recipes to enchantment books, such as a diamond + book + ender pearl + b
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/smaller-slimes/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/smaller-slimes}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/infused-books/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/infused-books}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/cWKgLdl8/b4ac49950ead458f9a0a0b6d2b6d26bcc1696e1c.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/h9VIbKvX/ee4495331379703e698b9d3d4671dd42a5228caf_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="AuraLite Realistic Crafting" event="url{https://modrinth.com/mod/auralite-realistic-crafting}"
+...button-text text="RetroRig: Oil" event="url{https://modrinth.com/mod/retrorig-oil}"
 
-👤 AlexanderNyr | 📅 2026-06-07
+👤 kyden_ | 📅 2026-06-07
 
-Minecraft mod for realistic craftings
+RetroRig: Oil reimagines classic BuildCraft-style oil for modern Minecraft with pumpjacks, refining,
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/auralite-realistic-crafting/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/auralite-realistic-crafting}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/retrorig-oil/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/retrorig-oil}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/GwhkafOP/4d88f1d86f6e0fcc01e51b91be68aacf9213c6c3_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Nyk2VjUX/6d4446c7063288cad14af3d8b2b8436456813eaf_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Curse & Enchantment Extension" event="url{https://modrinth.com/mod/enchantment-extension}"
+...button-text text="Eelytra Slot" event="url{https://modrinth.com/mod/eelytra-slot}"
 
-👤 Vaerph | 📅 2026-06-07
+👤 6to7 | 📅 2026-06-07
 
-Adds more vanilla-like enchantments to the game: shulker boxes, buckets, and elytra.
+Adds a standalone Elytra slot with chestplate support and working Mending repair.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/enchantment-extension/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/enchantment-extension}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/eelytra-slot/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/eelytra-slot}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ABjqRout/5e8cd8988f0585f1814dabd8537532446094ecad.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/XISdHjIb/8a88648ae164f289f5ddf9596aba41540dd1c75f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Elytra Enchantments" event="url{https://modrinth.com/mod/elytra-enchantments}"
+...button-text text="BarSwap" event="url{https://modrinth.com/mod/barswap}"
 
-👤 Vaerph | 📅 2026-06-07
+👤 KesslerCascade | 📅 2026-06-07
 
-Adds the enchantments Ethereal and Photosynthesis to elytra. A part of Curse and Enchantment Extensi
+Just swaps the hotbar with the bottom inventory row. That's it.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/elytra-enchantments/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/elytra-enchantments}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/barswap/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/barswap}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6HYkRQas/cea622799581caf9a633395a7ae51229b6beb927.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/LoYEEHGJ/1efc1afde795f8476507f4e2dce55df35eeff0e2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Shulker Enchantments" event="url{https://modrinth.com/mod/shulker-box-enchantments}"
+...button-text text="Cobblemon PC Info" event="url{https://modrinth.com/mod/cobblemon-pc-info}"
 
-👤 Vaerph | 📅 2026-06-07
+👤 72_65_64 | 📅 2026-06-07
 
-Adds the enchantments Eternal and Void to Shulker Boxes and bundles. A part of Curse and Enchantment
+Add info about spawn locations, evolution requirements and breeding groups to the PC.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/shulker-box-enchantments/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/shulker-box-enchantments}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cobblemon-pc-info/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cobblemon-pc-info}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Adds the enchantments Eternal and Void to Shulker Boxes and bundles. A part of C
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition guides/Bountiful Update](https://minecraft.wiki/Java_Edition_guides%2FBountiful_Update)
+📖 **Wiki 推荐**：[1.45](https://minecraft.wiki/1.45)
 
-⏰ 更新时间：2026-06-07 04:46:39
+⏰ 更新时间：2026-06-07 14:10:50
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
