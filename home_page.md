@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-08 04:51:35
+// 生成时间：2026-06-08 16:10:13
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.Cyanea_ZH-CN3858079050_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.CTNPVernazza_ZH-CN3971102271_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"为什么要担心？如果努力了，担心不会让结果变得更好。"*
+> *"道生之，德蓄之，物形之，势成之。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{为什么要担心？如果努力了，担心不会让结果变得更好。}"
+...button-text text="📋 复制" event="copy{道生之，德蓄之，物形之，势成之。}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.1.2
-**最新快照**: 26.2-pre-4
+**最新快照**: 26.2-pre-5
 
 近期版本：
 - **26.1.2** (2026-04-09)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FRaw_Iron}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/MinecraftEdu_mod_0.9833%2FDevelopment}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/qMoubcij/2b83f8fc573079868a91eeb8742858033517b2f8.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/mRBMgFpa/82f1ada7e5b7c8c971c9be0a6b9ab63e40f0c8e5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Enigmatica" event="url{https://modrinth.com/mod/enigmatica}"
+...button-text text="Fake Death Messages" event="url{https://modrinth.com/mod/fake-death-messages}"
 
-👤 BoxyPlayz | 📅 2026-06-08
+👤 kamussy | 📅 2026-06-08
 
-A few slightly overpowered items to make your world interesting.
+Every 10-20 minutes, a fake death message will be sent to chat
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/enigmatica/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/enigmatica}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fake-death-messages/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fake-death-messages}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/OC8i1kRN/44b53ba1e44cad90f751080d92eb01aad650d97f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/z3IelKQ3/1a9ab9be85e932db8354fc2a19a1548d5ee5633b.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Multifolder" event="url{https://modrinth.com/mod/multifolder}"
+...button-text text="Destiny Constellations" event="url{https://modrinth.com/mod/destiny-constellations}"
 
-👤 ItsDurrDurr | 📅 2026-06-08
+👤 mystia | 📅 2026-06-08
 
-MultiFolder allows you to group multiplayer servers into folders, reorder them, and customize their 
+A highly configurable Forge 1.20.1 mod that adds a Genshin-style constellation progression system, c
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/multifolder/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/multifolder}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/destiny-constellations/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/destiny-constellations}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/XqZhUI07/db869a083abe079d5f82868edc34ba6fcef3fc24_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/jYoKk2YT/bb00ed9f55610cb6d441bb9ac41c18d5c54b64e1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Shrugger" event="url{https://modrinth.com/mod/shrugger}"
+...button-text text="Embers of Rest" event="url{https://modrinth.com/mod/eor}"
 
-👤 Fleny | 📅 2026-06-08
+👤 copen | 📅 2026-06-08
 
-This mod adds the /shrug command to send a shrug face in the chat.
+A simple and immersive mod that allows players to rest by the campfire. Warm yourself, recover healt
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/shrugger/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/shrugger}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/eor/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/eor}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/371acMJ8/eee5709a6c4a3a29a698160a7caad6bc07e974b0.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vkGpLME3/c01ca2efa7222c0b46ed2fa7107bba03b4cfe2eb_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Clock and day indicator" event="url{https://modrinth.com/mod/clock-and-day-indicator}"
+...button-text text="StylizedDamage" event="url{https://modrinth.com/mod/stylizeddamage}"
 
-👤 ryantimg5 | 📅 2026-06-08
+👤 Yanbwe | 📅 2026-06-08
 
-Simple clock and day indicator.
+A damage number display mod, offering a highly customizable and buttery-smooth experience.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/clock-and-day-indicator/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/clock-and-day-indicator}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/stylizeddamage/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/stylizeddamage}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/jvABMn1f/7a197d4b1d07f59c39b86f0396e92d75d5bd5cce_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/bcEk6DLa/918507af6cc443d8878a500652608eadfe2066de_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="CNPC Curios API" event="url{https://modrinth.com/mod/cnpccurios}"
+...button-text text="ShunFeiDelight" event="url{https://modrinth.com/mod/shunfeidelight}"
 
-👤 xiaobiniaox | 📅 2026-06-08
+👤 2134180693 | 📅 2026-06-08
 
-Adds a Curios GUI to CustomNPCs entities, allowing NPCs to visually wear and render Curios accessori
+A Minecraft Forge mod based on the internet streamer Zhang Shunfei, featuring new creatures, weapons
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cnpccurios/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cnpccurios}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/shunfeidelight/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/shunfeidelight}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Adds a Curios GUI to CustomNPCs entities, allowing NPCs to visually wear and ren
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：随波逐流
-© 在海洋中游动的狮鬃水母 (© Alexander Semenov Images/Shutterstock)
+🖼️ 壁纸：品尝日落
+© 韦尔纳扎, 五渔村, 利古里亚, 意大利 (© Kelly Cheng/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition item texture history/Raw Iron](https://minecraft.wiki/Java_Edition_item_texture_history%2FRaw_Iron)
+📖 **Wiki 推荐**：[MinecraftEdu mod 0.9833/Development](https://minecraft.wiki/MinecraftEdu_mod_0.9833%2FDevelopment)
 
-⏰ 更新时间：2026-06-08 04:51:35
+⏰ 更新时间：2026-06-08 16:10:13
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
