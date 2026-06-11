@@ -1,21 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-10 04:25:08
+// 生成时间：2026-06-11 04:47:45
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.Hnausapollur_ZH-CN4075343976_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.Limpets_ZH-CN4991771513_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"“你失去了”
-“我从未拥有”"*
+> *"千里之行，始于足下。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{“你失去了”
-“我从未拥有”}"
+...button-text text="📋 复制" event="copy{千里之行，始于足下。}"
 ...row-end
 ...column-end
 ...card-end
@@ -34,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.1.2
-**最新快照**: 26.2-pre-5
+**最新快照**: 26.2-pre-6
 
 近期版本：
 - **26.1.2** (2026-04-09)
@@ -56,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_protocol%2FServer_List_Ping}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Sniffer}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -69,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/1qMrluiH/f02ebed1fbd4fe51310faf1916153f6a04e705f5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/W1P0ehkU/c9a542b89ccb0d95adc4a1a41dc83c0bf0caa7b4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Kenny" event="url{https://modrinth.com/mod/kenny}"
+...button-text text="Stack Refill" event="url{https://modrinth.com/mod/stack-refill-seishironagi}"
 
-👤 Zynwro | 📅 2026-06-10
+👤 SeishiroNagi | 📅 2026-06-11
 
-Kenny is here. A Minecraft horror mod where a silent stalker grows more aggressive each day, turning
+Automatically refills your main hand, off-hand, armor, and tools when matching replacements are avai
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kenny/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kenny}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/stack-refill-seishironagi/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/stack-refill-seishironagi}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/5N0STcIq/a3d53ec0671fd5b3f84e4bef0cc0b0aa44d9263b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xImRnl37/22a742d106d2fe4e45c3bd3faf7ccea112e27c06_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="rpg magic" event="url{https://modrinth.com/mod/rpg-magic}"
+...button-text text="Purpir ElytraSwap" event="url{https://modrinth.com/mod/purpir-elytraswap}"
 
-👤 RenRose | 📅 2026-06-10
+👤 _purpir_ | 📅 2026-06-11
 
-adds rpg like magic using vanilla resources
+A lightweight mod that lets you quickly swap your equipped Elytra with a chestplate from your invent
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/rpg-magic/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/rpg-magic}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/purpir-elytraswap/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/purpir-elytraswap}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/PaKd093D/a2d295aa781950b04d1254843a1143690dfff6c5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/SaFoaOy4/71f09379b266b1057189617de25f26702f9d9483.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Synced Double Doors" event="url{https://modrinth.com/mod/synced-double-doors}"
+...button-text text="Cassetu's Better Sticky Keys - CBSK" event="url{https://modrinth.com/mod/cbsk}"
 
-👤 Jden7 | 📅 2026-06-10
+👤 CassetuYT | 📅 2026-06-11
 
-This mod syncs double-doors to open simultaneously!
+Imagine Sticky Keys... but Better.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/synced-double-doors/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/synced-double-doors}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cbsk/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cbsk}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/2QbasiLp/3f142ae56c71dd109a77cfcb449823b722702a92_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/q4ibM57n/0cba6db7b0b6c72ec9e374c69fa3e079ff9768ba_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Continuance" event="url{https://modrinth.com/mod/continuance}"
+...button-text text="Structure Configurator" event="url{https://modrinth.com/mod/structure-configurator}"
 
-👤 bagglebrain | 📅 2026-06-10
+👤 alchemyyy | 📅 2026-06-11
 
-Continuance is an alternate vision of Minecraft's future.
+Adds structure search, spacing, and safety configs.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/continuance/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/continuance}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/structure-configurator/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/structure-configurator}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/dMV6OgNj/e6e5fedc3a63eeb178dfcc926bff428479cece09_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/HOl2fYpO/367565fa621af473678933c11f921dcc65f21b7e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Riposte" event="url{https://modrinth.com/mod/riposte}"
+...button-text text="Yet Another Thirst" event="url{https://modrinth.com/mod/yet-another-thirst}"
 
-👤 NelA470 | 📅 2026-06-10
+👤 MinhNH | 📅 2026-06-11
 
-Yet another "Parry" over-visualized parry mod.
+Adds a dynamic thirst bar and customizable hydration mechanics to elevate your survival gameplay.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/riposte/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/riposte}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/yet-another-thirst/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/yet-another-thirst}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -175,14 +173,14 @@ Yet another "Parry" over-visualized parry mod.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：一抹蓝色
-© 赫瑙萨波鲁尔火山口, 菲亚拉巴克自然保护区, 兰德曼纳劳加尔, 冰岛 (© Juan Maria Coy Vergara/Getty Images)
+🖼️ 壁纸：沉静的力量
+© 退潮时裸露在乌尔萨海滩海岸上的帽贝, 葡萄牙 (© Theo Bosboom/Nature Picture Library)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition protocol/Server List Ping](https://minecraft.wiki/Java_Edition_protocol%2FServer_List_Ping)
+📖 **Wiki 推荐**：[Sniffer](https://minecraft.wiki/Sniffer)
 
-⏰ 更新时间：2026-06-10 04:25:08
+⏰ 更新时间：2026-06-11 04:47:45
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
