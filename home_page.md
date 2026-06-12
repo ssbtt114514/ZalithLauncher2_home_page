@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-11 16:16:13
+// 生成时间：2026-06-12 04:50:22
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"水光潋滟晴方好，山色空蒙雨亦奇。"*
+> *"天作孽，犹可违，自作孽，不可活。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{水光潋滟晴方好，山色空蒙雨亦奇。}"
+...button-text text="📋 复制" event="copy{天作孽，犹可违，自作孽，不可活。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minicraft}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/GoodTimesWithScar}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/QvBbwnmy/aba1f6c7a6874c9dd5c8e56a308fcc483e715268.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/sSeKcDrC/f34903674672f0b5534673939563c26ed87062c9.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Netherite Torch Bow" event="url{https://modrinth.com/mod/netherite-torch-bow}"
+...button-text text="World Preview NH" event="url{https://modrinth.com/mod/world-preview-nh}"
 
-👤 wit24 | 📅 2026-06-11
+👤 ABKQPO | 📅 2026-06-12
 
-This mod adds a Netherite upgrade version of the Torch Bow.
+A Minecraft 1.7.10 mod for previewing world biomes before creation. This is a backport of World Prev
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/netherite-torch-bow/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/netherite-torch-bow}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/world-preview-nh/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/world-preview-nh}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/gAysZn6T/ca34b4eba4393bb907a10a4e71ba87d11e430a19_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/tQG2KWRe/3eab5f8be65e0dd0652665bb8432f57d72027e94_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Breakdown" event="url{https://modrinth.com/mod/breakdown}"
+...button-text text="Redden's Stone Lantern Reconstructed" event="url{https://modrinth.com/mod/reddens-stone-lantern-reconstructed}"
 
-👤 TroubleGy | 📅 2026-06-11
+👤 King_Thenuja | 📅 2026-06-12
 
-Break connected decorative and plant blocks with a smooth wave-like chain reaction using a configura
+An Updated version of Redden's Stone Lanterns but for more versions and loaders
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/breakdown/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/breakdown}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/reddens-stone-lantern-reconstructed/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/reddens-stone-lantern-reconstructed}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7ULXMU3R/936cac44bdde973ddcf02a44f6a2e421570a1b75_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/OY2I72c4/9be8ec670e56aed7394bc2e5998b9001bf370d33_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="FurnaceHUD" event="url{https://modrinth.com/mod/furnacehud}"
+...button-text text="Better With Bigshrooms (Huge Mushroom Backport)" event="url{https://modrinth.com/mod/better-with-bigshrooms}"
 
-👤 kvapilvaclav0 | 📅 2026-06-11
+👤 mama_balloon | 📅 2026-06-12
 
-Look at a furnace, blast furnace, or smoker and a small top-left HUD shows the exact seconds left on
+This mod adds huge mushrooms to Minecraft BTA! 8.0.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/furnacehud/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/furnacehud}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-with-bigshrooms/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-with-bigshrooms}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Ntc6PUdR/c99635a6f75bd1c81d473ea9baf9c2784a15fd79_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/m2HPONcc/d416b8caae4924edc4f61d496e07cccd2b68b7fe_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Galgochim" event="url{https://modrinth.com/mod/galgochim}"
+...button-text text="Orbital Railgun: Renewed" event="url{https://modrinth.com/mod/orbital-railgun-renewed}"
 
-👤 giamat13 | 📅 2026-06-11
+👤 RaynessSilver | 📅 2026-06-12
 
-Adds animals and music from the podcast "The Answer".
+Craft the Orbital Railgun, hold right-click to aim through a full-screen targeting interface, and le
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/galgochim/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/galgochim}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/orbital-railgun-renewed/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/orbital-railgun-renewed}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/rwcUZaV8/115610108be2b0a5cf403e86d4bf0df971a449c2_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zau765PF/c93be6ceec33d0f4eb75caa1d7f2542ce4ede65e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Need To Chill?" event="url{https://modrinth.com/mod/need-to-chill}"
+...button-text text="Plan" event="url{https://modrinth.com/mod/planned}"
 
-👤 Frozeflydieturks | 📅 2026-06-11
+👤 CyeBeem | 📅 2026-06-12
 
-Remember the times you ate Ice Cubes out from the Freezer? NOW YOU CAN!
+Simple server sided mod that allows players to teleport to a creative dimension where they can desig
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/need-to-chill/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/need-to-chill}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/planned/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/planned}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Remember the times you ate Ice Cubes out from the Freezer? NOW YOU CAN!
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Minicraft](https://minecraft.wiki/Minicraft)
+📖 **Wiki 推荐**：[GoodTimesWithScar](https://minecraft.wiki/GoodTimesWithScar)
 
-⏰ 更新时间：2026-06-11 16:16:13
+⏰ 更新时间：2026-06-12 04:50:22
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
