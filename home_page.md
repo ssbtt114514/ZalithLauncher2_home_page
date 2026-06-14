@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-13 14:17:55
+// 生成时间：2026-06-14 04:56:48
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.BadSunset_ZH-CN9050997938_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.DuckPond_ZH-CN1683101997_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"以智者之名，为愚者代辩。"*
+> *"死亡是所有人的共同幸福。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{以智者之名，为愚者代辩。}"
+...button-text text="📋 复制" event="copy{死亡是所有人的共同幸福。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Chiseled_Bookshelf}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Fremove}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,82 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/DQHB6vo3/40dc5e43447d0de688ded21271e8797c7d9ebb7a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Q8zfkjED/bb782462412a1acdd95840ece3b618bb79242c77.jpeg" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Fishing Real Extra Compatibility" event="url{https://modrinth.com/mod/fishing-real-extra-compatibility}"
+...button-text text="Giant Alex: The Silent Watcher" event="url{https://modrinth.com/mod/giant-alex-the-silent-watcher}"
 
-👤 SilentAutopsy | 📅 2026-06-13
+👤 TNK | 📅 2026-06-14
 
-Adds Fishing Real compatibility for over 25 different mods.
+Giant Alex: The Silent Watcher - mod from legendary entity
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fishing-real-extra-compatibility/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fishing-real-extra-compatibility}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/giant-alex-the-silent-watcher/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/giant-alex-the-silent-watcher}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wJUsVfuq/af2d8356da4f6c896bb8743df9c7184e2271151c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ssyvO6WG/24828632af55e53e7af0ae2321a7eee6dcdbbe0e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="叠山 peakscape" event="url{https://modrinth.com/mod/peakscape}"
+...button-text text="Open Together" event="url{https://modrinth.com/mod/open-together}"
 
-👤 RinO233 | 📅 2026-06-13
+👤 Fuzs | 📅 2026-06-14
 
-描绘我幻想的中式园林。
-Depict the Chinese garden I imagine.
+Open matching double doors, trapdoors, and fence gates with a single click.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/peakscape/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/peakscape}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/open-together/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/open-together}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/bqCIFndP/7b85737282392c94323bb03d730f585a0d2fcfbf_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/MDljZreW/d3127b4ea0bd4dd304192fbcacc7a693d424d3cb_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Turbo Ghasts" event="url{https://modrinth.com/mod/turbo-ghasts}"
+...button-text text="Reach Behind" event="url{https://modrinth.com/mod/reach-behind}"
 
-👤 Anxietie | 📅 2026-06-13
+👤 Fuzs | 📅 2026-06-14
 
-Make happy ghasts faster with a special enchantment only while riding them
+Click through decorations and interact with the blocks behind them.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/turbo-ghasts/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/turbo-ghasts}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/reach-behind/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/reach-behind}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wVa7ipQD/757f7899cb72f7a8d3732ca26b783a34b2606325_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6dj0XcBu/8d0de2008a6be5fce48a88380f5ec18a65c03706_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Keep XP On Death by Juix" event="url{https://modrinth.com/mod/keep-xp-on-death-by-juix}"
+...button-text text="Arrow Attachments" event="url{https://modrinth.com/mod/arrow-attachments}"
 
-👤 Juix | 📅 2026-06-13
+👤 BLIZZ606 | 📅 2026-06-14
 
-Datapack that lets you save your XP on death, without KeepInventory. Fully customizable ! (Milestone
+Fuse items onto arrows, just like in Zelda.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/keep-xp-on-death-by-juix/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/keep-xp-on-death-by-juix}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/arrow-attachments/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/arrow-attachments}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/5hfgMoXt/15a850368c2cd420cc13303b0abaabf85e8629bd.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/eEdTSEGj/940bebc95aa4a5e51dcb667dedae0acbd3bd8238_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Eggo SMP Mod" event="url{https://modrinth.com/mod/eggo-smp-mod}"
+...button-text text="Deo's Portal Gun" event="url{https://modrinth.com/mod/deos-portal-gun-mod}"
 
-👤 P2ime | 📅 2026-06-13
+👤 Lt-DO7 | 📅 2026-06-14
 
-The official EGGO SMP mod, that is available for download!
+This is a mod heavily based off the Portal Travel from Rick and Morty. Do not worry! More fandoms sh
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/eggo-smp-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/eggo-smp-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/deos-portal-gun-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/deos-portal-gun-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -174,14 +173,14 @@ The official EGGO SMP mod, that is available for download!
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：岁月的层峦
-© 落日，恶地国家公园，南达科他州，美国 (© Troy Harrison/Getty Images)
+🖼️ 壁纸：潜羽探清波
+© 绿头鸭 (© Philippe Paternolli/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Chiseled Bookshelf](https://minecraft.wiki/Chiseled_Bookshelf)
+📖 **Wiki 推荐**：[Commands/remove](https://minecraft.wiki/Commands%2Fremove)
 
-⏰ 更新时间：2026-06-13 14:17:55
+⏰ 更新时间：2026-06-14 04:56:48
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
