@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-14 14:20:40
+// 生成时间：2026-06-15 05:15:34
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.DuckPond_ZH-CN1683101997_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.ParkEstd_ZH-CN3419035151_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"金霞錯日遲雲暮，回首摸空茶已涼。"*
+> *"我爱的人也爱着我，对我来说这简直是个奇迹。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{金霞錯日遲雲暮，回首摸空茶已涼。}"
+...button-text text="📋 复制" event="copy{我爱的人也爱着我，对我来说这简直是个奇迹。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Archie}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Banner_patterns.png-atlas}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,83 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/CwsY1gnn/576604d194df15785aa05b8b7057d3f9b5a8eded.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/qtWLu3xw/828eab2a4dae3e9f4c717d38d378db43ad6d7c6b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="The TNT Update" event="url{https://modrinth.com/mod/the-tnt-update}"
+...button-text text="Polymer Patch for The Silver Age" event="url{https://modrinth.com/mod/the-silver-age-polymer}"
 
-👤 SnurfTech | 📅 2026-06-14
+👤 Sun_Phoen1x | 📅 2026-06-15
 
-This mod adds a bunch of cool new types of TNT to the game.
+A Polymer Patch mod for The Silver Age, allowing it to work fully server side!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-tnt-update/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-tnt-update}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-silver-age-polymer/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-silver-age-polymer}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/uhMtkFRI/e11fdf75c1adeaa6e3a215dc9ab060f6c91d9f54.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/V0jvVo0A/63d942fd01b6be3255a797f8c07f397a6d4fe2fa.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Feathery Elytra" event="url{https://modrinth.com/mod/feathery-elytra}"
+...button-text text="Leaves Be Gone Backport" event="url{https://modrinth.com/mod/leaves-be-gone-backport}"
 
-👤 Hamada_MP4 | 📅 2026-06-14
+👤 bludjay | 📅 2026-06-15
 
-This Mod adds an extra elytra a weeker version of the elytra in minecraft
-It's made using
-2 Feathers
+Backport of Fuzs' Leaves Be Gone to Minecraft version 1.16.5 Fabric
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/feathery-elytra/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/feathery-elytra}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/leaves-be-gone-backport/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/leaves-be-gone-backport}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/2QYBwakg/f7b27c7757de1fb7c24aa2e64c3e162c4cdc916b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/y1WLFJBb/1126ca63c98b72a2c5b109babd6491a2ef89c94f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Pomelo's Shop" event="url{https://modrinth.com/mod/pomelos-shop}"
+...button-text text="Tectonic Layers" event="url{https://modrinth.com/mod/tectonic-layers}"
 
-👤 youziqwq539 | 📅 2026-06-14
+👤 Pepitaaf | 📅 2026-06-15
 
-A feature-rich in-game shop mod for minecraft, allowing players to buy and sell items through a grap
+Stacks Nether and End layers inside the Overworld, with native layered terrain, biomes, fog, lightin
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pomelos-shop/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pomelos-shop}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tectonic-layers/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tectonic-layers}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/TVhOvEMf/2583c34402019d43b87f251f8c90d00176dbe14e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vis82fEZ/fa542951757f3fde7ac94837c054d09e7c922689_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create Furnace Lava Adapter" event="url{https://modrinth.com/mod/create-furnace-lava-adapter}"
+...button-text text="Gales&Storms" event="url{https://modrinth.com/mod/galesandstorms}"
 
-👤 Bocha9031 | 📅 2026-06-14
+👤 diegoalonsosolano | 📅 2026-06-15
 
-A simple block that allows for direct input of liquid lava into furnaces.
+A mod that adds a variety of weather related features such as Tornadoes, Hail, Walkable clouds and m
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-furnace-lava-adapter/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-furnace-lava-adapter}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/galesandstorms/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/galesandstorms}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/sVfGg5Ds/8fc92276321de2aeb5b1aa03ec8357ca99df4540_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/7WbwkCaD/5c1fdc6d2c3864a87b2f20d8fe676f0b5e534a9f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Hammers" event="url{https://modrinth.com/mod/create-hammers}"
+...button-text text="HitboxCustom" event="url{https://modrinth.com/mod/hitboxcustom}"
 
-👤 .superintendent | 📅 2026-06-14
+👤 _DictatoSteve_ | 📅 2026-06-15
 
-Adds the ability to create sheets via your inventory, without having to go to a press to make sheets
+A complete revamp of F3+B hitboxes into a powerful tactical tool. Custom opacity, thickness, and col
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-hammers/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-hammers}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hitboxcustom/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hitboxcustom}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -175,14 +173,14 @@ Adds the ability to create sheets via your inventory, without having to go to a 
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：潜羽探清波
-© 绿头鸭 (© Philippe Paternolli/Getty Images)
+🖼️ 壁纸：岁月雕琢，风景始成
+© 大烟山国家公园，田纳西州，美国 (© Mint Images/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Archie](https://minecraft.wiki/Archie)
+📖 **Wiki 推荐**：[Banner patterns.png-atlas](https://minecraft.wiki/Banner_patterns.png-atlas)
 
-⏰ 更新时间：2026-06-14 14:20:40
+⏰ 更新时间：2026-06-15 05:15:34
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
