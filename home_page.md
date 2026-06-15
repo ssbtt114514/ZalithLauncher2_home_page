@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-15 05:15:34
+// 生成时间：2026-06-15 17:24:46
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.ParkEstd_ZH-CN3419035151_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.SevenMileTurtle_ZH-CN4346512721_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我爱的人也爱着我，对我来说这简直是个奇迹。"*
+> *"山赶着山，山山漫漫结成关；人赶着人，人人草草尽走散。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我爱的人也爱着我，对我来说这简直是个奇迹。}"
+...button-text text="📋 复制" event="copy{山赶着山，山山漫漫结成关；人赶着人，人人草草尽走散。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Banner_patterns.png-atlas}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Gui.png-atlas}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/qtWLu3xw/828eab2a4dae3e9f4c717d38d378db43ad6d7c6b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ehmUxaIw/942787e9d88ac48a92e56cfd3bc02e62546b789f.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Polymer Patch for The Silver Age" event="url{https://modrinth.com/mod/the-silver-age-polymer}"
+...button-text text="Delete Empty Folders On Game Close" event="url{https://modrinth.com/mod/delete-empty-folders-on-game-close}"
 
-👤 Sun_Phoen1x | 📅 2026-06-15
+👤 SmilerRyan | 📅 2026-06-15
 
-A Polymer Patch mod for The Silver Age, allowing it to work fully server side!
+When the game closes, it searches for and deletes any empty folders.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-silver-age-polymer/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-silver-age-polymer}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/delete-empty-folders-on-game-close/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/delete-empty-folders-on-game-close}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/V0jvVo0A/63d942fd01b6be3255a797f8c07f397a6d4fe2fa.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/HxYpZgrW/5c81a63884d076c9acc0fd2f3a061c50c4a3c1c0_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Leaves Be Gone Backport" event="url{https://modrinth.com/mod/leaves-be-gone-backport}"
+...button-text text="LavaDamageFixerForJEGN" event="url{https://modrinth.com/mod/lavadamagefixerforjegn}"
 
-👤 bludjay | 📅 2026-06-15
+👤 hellscythe88p | 📅 2026-06-15
 
-Backport of Fuzs' Leaves Be Gone to Minecraft version 1.16.5 Fabric
+A NeoForge mod that fixes the instant-death bug caused by environmental damage when using JEGN (Just
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/leaves-be-gone-backport/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/leaves-be-gone-backport}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lavadamagefixerforjegn/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lavadamagefixerforjegn}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/y1WLFJBb/1126ca63c98b72a2c5b109babd6491a2ef89c94f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zhqcwJVr/31e6605f5e0860246e125c40b4d757cb207d2a31_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Tectonic Layers" event="url{https://modrinth.com/mod/tectonic-layers}"
+...button-text text="Sprint Enhancer" event="url{https://modrinth.com/mod/sprint-enhancer}"
 
-👤 Pepitaaf | 📅 2026-06-15
+👤 ByteSlayer | 📅 2026-06-15
 
-Stacks Nether and End layers inside the Overworld, with native layered terrain, biomes, fog, lightin
+Disables sprinting immediately after the sprint key is released even if the forward key is still hel
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tectonic-layers/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tectonic-layers}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sprint-enhancer/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sprint-enhancer}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/vis82fEZ/fa542951757f3fde7ac94837c054d09e7c922689_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/hBaXGu88/0cc535cc7f1e60f44118b276a55b36d3fa203d3a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Gales&Storms" event="url{https://modrinth.com/mod/galesandstorms}"
+...button-text text="Accurate Block Placement Reforked" event="url{https://modrinth.com/mod/accurate-block-placement-reforked}"
 
-👤 diegoalonsosolano | 📅 2026-06-15
+👤 nameisxy | 📅 2026-06-15
 
-A mod that adds a variety of weather related features such as Tornadoes, Hail, Walkable clouds and m
+Makes block placement smarter by timing it for you.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/galesandstorms/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/galesandstorms}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/accurate-block-placement-reforked/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/accurate-block-placement-reforked}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7WbwkCaD/5c1fdc6d2c3864a87b2f20d8fe676f0b5e534a9f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/NKqRTplo/87d11df61dcd35168ea601450971cd71555bd068_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="HitboxCustom" event="url{https://modrinth.com/mod/hitboxcustom}"
+...button-text text="Isometric Chunk" event="url{https://modrinth.com/mod/isometric-chunk}"
 
-👤 _DictatoSteve_ | 📅 2026-06-15
+👤 DoubtfulFanboy | 📅 2026-06-15
 
-A complete revamp of F3+B hitboxes into a powerful tactical tool. Custom opacity, thickness, and col
+This mod adds a new isometric chunkminimap to the HUD in both a 3x3 or 1x1 chunk. There is an also o
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hitboxcustom/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hitboxcustom}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/isometric-chunk/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/isometric-chunk}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ A complete revamp of F3+B hitboxes into a powerful tactical tool. Custom opacity
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：岁月雕琢，风景始成
-© 大烟山国家公园，田纳西州，美国 (© Mint Images/Getty Images)
+🖼️ 壁纸：蔚蓝海礁的守护者
+© 七英里海滩附近的玳瑁海龟伴侣，大开曼岛，开曼群岛 (© Alex Mustard/Nature Picture Library)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Banner patterns.png-atlas](https://minecraft.wiki/Banner_patterns.png-atlas)
+📖 **Wiki 推荐**：[Gui.png-atlas](https://minecraft.wiki/Gui.png-atlas)
 
-⏰ 更新时间：2026-06-15 05:15:34
+⏰ 更新时间：2026-06-15 17:24:46
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
