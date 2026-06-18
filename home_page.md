@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-17 15:54:42
+// 生成时间：2026-06-18 04:48:53
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.TremolaRoad_ZH-CN8810749250_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.Saqsaywaman_ZH-CN2584038469_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"说时依旧,有泪如倾"*
+> *"告诉你一个发现，你和我都会感动，世界很小是个家庭。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{说时依旧,有泪如倾}"
+...button-text text="📋 复制" event="copy{告诉你一个发现，你和我都会感动，世界很小是个家庭。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Copper_Torch}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FMinecart_with_Hopper}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/syHecAZ6/28d8ba2fd0ce9f720b6c3fc40189a033ea128dfd_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/roISWAva/e76431b2385de97a67f1c67feab35235066ed96b.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="veinminer++" event="url{https://modrinth.com/mod/veinminer-plus-plus}"
+...button-text text="Bird Feeder" event="url{https://modrinth.com/mod/bird-feeder}"
 
-👤 kestalkayden | 📅 2026-06-17
+👤 LeoBeo | 📅 2026-06-18
 
-Vein Miner, Ore Harvester, Shovel Master, Tree Feller. Guided area. All rolled into one nice package
+Feed the Bird, Allay, Bee in your New Bird Feeder And Water Spender
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/veinminer-plus-plus/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/veinminer-plus-plus}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bird-feeder/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bird-feeder}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xRMFhybq/a5af5a13e7123591c1905bcb986b1fc1c64d7297_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/HiC89MkA/97a54dd01e152c37688a75e211fb7ec791240153_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mob scale randomizer" event="url{https://modrinth.com/mod/mob-scale-randomizer}"
+...button-text text="Better Chunk Borders" event="url{https://modrinth.com/mod/better-chunk-borders}"
 
-👤 mobfucker | 📅 2026-06-17
+👤 L3_N0X | 📅 2026-06-18
 
-Randomizes mob scale
+Improves the visual appearance of chunk borders
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mob-scale-randomizer/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mob-scale-randomizer}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-chunk-borders/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-chunk-borders}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/DqQmfNRg/7dcd150864d39c9bf6bee425c3df2f7ab82d5745.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/11TJ6Wdi/f8319e17d5ee36348074c9ec2fa7ea89c76bb5ab_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Froggy Throwables" event="url{https://modrinth.com/mod/froggy-throwables}"
+...button-text text="Inventory Manager: Smart Storage" event="url{https://modrinth.com/mod/inventory-manager-smart-storage}"
 
-👤 Just_A_Froggy | 📅 2026-06-17
+👤 CoopTechGames | 📅 2026-06-18
 
-This Mod allows you to throw any item by holding the drop key.
+A simple and powerful Minecraft inventory and chest management mod.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/froggy-throwables/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/froggy-throwables}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/inventory-manager-smart-storage/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/inventory-manager-smart-storage}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/OWPDND8a/7df908b34fa236b89a6842332604ccc7cc4e44d5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/SgW9mQeM/04aa9d8c0f30492faaab5ca6951e5f2845929bab_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Happy Ghast: Automation" event="url{https://modrinth.com/mod/happy-ghast-automation}"
+...button-text text="Ender IO: Conduit Optimizer" event="url{https://modrinth.com/mod/ender-io-conduit-optimizer}"
 
-👤 celeryyyyyyy | 📅 2026-06-17
+👤 Saku_rain | 📅 2026-06-18
 
-Automated station routes for Happy Ghasts, like a flying train.
+Optimizes Ender IO conduits with customizable tick intervals and smart algorithms to maximize endgam
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/happy-ghast-automation/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/happy-ghast-automation}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ender-io-conduit-optimizer/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ender-io-conduit-optimizer}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/OPApM7gf/e5c738f4644f484b151900409c9ca2b703dba7e2_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/S8yfKmO3/d84f3116a0eddfda0c095eccfbcbb65ed4496b2c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ad Astra: Star" event="url{https://modrinth.com/mod/ad-astra-star}"
+...button-text text="Create Cursor Anchor Fix" event="url{https://modrinth.com/mod/create-cursor-anchor-fix}"
 
-👤 qeqes13141 | 📅 2026-06-17
+👤 LowaSC | 📅 2026-06-18
 
-Attempting to land on a star in Ad Astra.
+Fixes cursor positioning in Create mod's settings screen on Linux Wayland/X11 via mixins with anchor
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ad-astra-star/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ad-astra-star}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-cursor-anchor-fix/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-cursor-anchor-fix}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Attempting to land on a star in Ad Astra.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：蜿蜒而上
-© 特雷莫拉公路在圣哥达山口，艾罗洛，瑞士 (© Sandro Bisaro/Getty Images)
+🖼️ 壁纸：坚如磐石的奇观
+© 萨克赛瓦曼遗址俯瞰图，库斯科，秘鲁 (© Creative-Family/Getty Images Plus)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Copper Torch](https://minecraft.wiki/Copper_Torch)
+📖 **Wiki 推荐**：[Java Edition item texture history/Minecart with Hopper](https://minecraft.wiki/Java_Edition_item_texture_history%2FMinecart_with_Hopper)
 
-⏰ 更新时间：2026-06-17 15:54:42
+⏰ 更新时间：2026-06-18 04:48:53
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
