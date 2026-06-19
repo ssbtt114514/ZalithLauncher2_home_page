@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-19 05:09:34
+// 生成时间：2026-06-19 15:35:47
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"不幸的是我们等了那么多年，幸运的我们那么多年过去还一直在一起"*
+> *"你总说我不好，可我对你的好，你却从来不记得。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{不幸的是我们等了那么多年，幸运的我们那么多年过去还一直在一起}"
+...button-text text="📋 复制" event="copy{你总说我不好，可我对你的好，你却从来不记得。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/TwitchCon_2025}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FDebug_Stick%E2%80%8C}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,82 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/vWnU5ilU/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/tNNBiJIt/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Beacons" event="url{https://modrinth.com/mod/beacons}"
+...button-text text="Herobrine`s weapons" event="url{https://modrinth.com/mod/herobrine`s-weapons}"
 
-👤 zachphul | 📅 2026-06-19
+👤 HEROBRIN3 | 📅 2026-06-19
 
-Create named, colored waypoint beams in the world and share them with other players directly in chat
+A tactical area-denial combat mod introducing lethal chemical payloads, blinding smoke screens, and 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/beacons/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/beacons}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/herobrine`s-weapons/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/herobrine`s-weapons}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/1dspfCgy/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/SJPVBx6Y/6c1374a41d5ad746c38aa556940da17a1007cb79.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="chestseek" event="url{https://modrinth.com/mod/chestseek}"
+...button-text text="Easier Gunpowder" event="url{https://modrinth.com/mod/easier-gunpowder}"
 
-👤 zachphul | 📅 2026-06-19
+👤 Betaeta | 📅 2026-06-19
 
-Search any open chest: matching items stay bright while the rest dim, and it even peeks inside shulk
+Custom recipe for crafting the gunpowder in version 26.2 (Using Charcoal)
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chestseek/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chestseek}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/easier-gunpowder/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/easier-gunpowder}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/1PSHa2Cd/494dba4f4e718d51dfed496718deef517b12bfb6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/9vlbcnmn/e0fa10b39819fadcc4390f3df5969f9ebb9fceef_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="EffectsHud" event="url{https://modrinth.com/mod/bufftimer}"
+...button-text text="More Than Realistic" event="url{https://modrinth.com/mod/more-than-realistic}"
 
-👤 zachphul | 📅 2026-06-19
+👤 GeniusofAB | 📅 2026-06-19
 
-A cleaner status-effect HUD with sortable timers, amplifier levels, and a warning before key effects
+Mods adds realistic features in you minecraft
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bufftimer/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bufftimer}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/more-than-realistic/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/more-than-realistic}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/MbsulKAH/001172cd796902fb6c0699a2e0e823ba26991816_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ct6jPeuV/aad2c04da71974805af67a327c838bbd3dd8fdfb_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="GearHud" event="url{https://modrinth.com/mod/gearhud}"
+...button-text text="Nik's Craftables - Back to Basics" event="url{https://modrinth.com/mod/niks-craftables-back-to-basics}"
 
-👤 zachphul | 📅 2026-06-19
+👤 nik_at_knight | 📅 2026-06-19
 
-Compact HUD showing the durability of your armor, main hand, and off hand as color-coded bars so a t
+Adds 562 crafting recipes to revert items back to their basic materials.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/gearhud/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/gearhud}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/niks-craftables-back-to-basics/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/niks-craftables-back-to-basics}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Xuh8kuKM/9a3aa1ae6bf20477822d6cc2541f1118328ec013_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/h6FOoEc7/7488dd23c59b1bda58592da275cb53f99f511ab7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="GTFToSleep" event="url{https://modrinth.com/mod/gtftosleep}"
+...button-text text="Auto Biter" event="url{https://modrinth.com/mod/autobiter}"
 
-👤 reticulathefirst | 📅 2026-06-18
+👤 916Isxxc | 📅 2026-06-19
 
-Set your real-world bedtime. You'll be kicked off the server when that time comes.
+🍖 AutoBiter
+Never starve. Ever again.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/gtftosleep/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/gtftosleep}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/autobiter/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/autobiter}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +179,9 @@ Set your real-world bedtime. You'll be kicked off the server when that time come
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[TwitchCon 2025](https://minecraft.wiki/TwitchCon_2025)
+📖 **Wiki 推荐**：[Java Edition item texture history/Debug Stick‌](https://minecraft.wiki/Java_Edition_item_texture_history%2FDebug_Stick%E2%80%8C)
 
-⏰ 更新时间：2026-06-19 05:09:34
+⏰ 更新时间：2026-06-19 15:35:47
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
