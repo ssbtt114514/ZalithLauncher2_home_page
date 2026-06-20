@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-20 04:21:49
+// 生成时间：2026-06-20 14:21:36
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"Technoblade never dies!"*
+> *"踏上取经路比到达灵山更重要！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{Technoblade never dies!}"
+...button-text text="📋 复制" event="copy{踏上取经路比到达灵山更重要！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Glass_(disambiguation)}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft_Hour_of_Code}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,82 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/qrvAGIcM/c8746d1340bb7ebb4ddecea83ca880185fbb6c87_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/uAGzQDxz/8b753acecf7cea14a44183836c793a4ef04f7707_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Netheroreoverlay" event="url{https://modrinth.com/mod/netheroreoverlay}"
+...button-text text="Amethyst OPickaxe" event="url{https://modrinth.com/mod/amethyst-opickaxe}"
 
-👤 Willld | 📅 2026-06-20
+👤 Filou23xx | 📅 2026-06-20
 
-This is oreoverlay but in the nether, works exactly the same
+A powerful 3x3 pickaxe inspired by DonutSMP, with amethyst particles and sounds. Mine walls or flat 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/netheroreoverlay/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/netheroreoverlay}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/amethyst-opickaxe/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/amethyst-opickaxe}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ElZfOBKK/457c3c0a9e014d9e2fec783b3f3b07a6a3ab14a9_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xlKY2G6z/4ae1b703d9ab2599c7b37622117c353a2ecb8308.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Afrikalify Music" event="url{https://modrinth.com/mod/afrikalify-music}"
+...button-text text="matter's Armor HUD" event="url{https://modrinth.com/mod/matters-armor-hud}"
 
-👤 BestOfAfrika | 📅 2026-06-20
+👤 mattervisualizer | 📅 2026-06-20
 
-A modern in-game music player with themes, queues, and Simple Voice Chat support.
+Minimalist vanilla-like widget to display your armor items and their durability for legacy 1.12.2. I
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/afrikalify-music/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/afrikalify-music}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/matters-armor-hud/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/matters-armor-hud}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/lzkJhu4e/95836e46ff37032e607ab48fcde63c8cd0ffa2f4.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/b5ZL0F1V/e0d03540f9594258062af6fa0df8f683cdea84af_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Simple Locks" event="url{https://modrinth.com/mod/simple-locks}"
+...button-text text="Craftsman's Bows Foked" event="url{https://modrinth.com/mod/craftsmans-bows-foked}"
 
-👤 Qubit | 📅 2026-06-19
+👤 takumax0412 | 📅 2026-06-20
 
-Simple Locks is a simple mod that adds locks, keys, and lockpick.
+Adds 5 new bows and crossbows: Short Bow, Long Bow, Shot Crossbow, Repeater Crossbow, and Burst Arba
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simple-locks/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simple-locks}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/craftsmans-bows-foked/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/craftsmans-bows-foked}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/e7rDBfh7/b385aecf848a3c4ef99dc19a4fea71a424726e9c.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/LnnIYmZq/9029dd2a984a9cc17afb0639ce7acdf2c25e957e.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="waterupgrade" event="url{https://modrinth.com/mod/waterupgrade}"
+...button-text text="Moody Ghasts" event="url{https://modrinth.com/mod/moody-ghasts-mod}"
 
-👤 xlxyvergil | 📅 2026-06-19
+👤 CorruptData | 📅 2026-06-20
 
-A Sophisticated Backpacks addon that adds a Drinking Upgrade to automatically hydrate the player fro
+A Happy Ghast overhaul adding a mood system, aerial combat with multiple projectile types, and new c
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/waterupgrade/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/waterupgrade}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/moody-ghasts-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/moody-ghasts-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/iXmWUK7c/772a64bacb6d0e83edc83ff7715588c6886bf3ef_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/rkANpjKH/fd8207ae25485956b557ef1a8d1c88b16236c201_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Nickname" event="url{https://modrinth.com/mod/s3don-nickname}"
+...button-text text="More Custom Paintings" event="url{https://modrinth.com/mod/more-custom-paintings}"
 
-👤 S3don_Ms3od | 📅 2026-06-19
+👤 DS_DEX_DEV | 📅 2026-06-20
 
-Personalize your experience! Set a custom nickname and show off animated GIFs above your character w
+More Paintings transforms the way players decorate their worlds.
+Instead of cycling through the same
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/s3don-nickname/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/s3don-nickname}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/more-custom-paintings/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/more-custom-paintings}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +179,9 @@ Personalize your experience! Set a custom nickname and show off animated GIFs ab
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Glass (disambiguation)](https://minecraft.wiki/Glass_(disambiguation))
+📖 **Wiki 推荐**：[Minecraft Hour of Code](https://minecraft.wiki/Minecraft_Hour_of_Code)
 
-⏰ 更新时间：2026-06-20 04:21:49
+⏰ 更新时间：2026-06-20 14:21:36
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
