@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-21 05:05:39
+// 生成时间：2026-06-21 14:26:11
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"哪有顷刻之间的心灰意冷，有的，只是日积月累的看透罢了。"*
+> *"新欢是良药，而我选择了时间。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{哪有顷刻之间的心灰意冷，有的，只是日积月累的看透罢了。}"
+...button-text text="📋 复制" event="copy{新欢是良药，而我选择了时间。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_2.3.449}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FNetherite_Sword}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/kfl02pjz/0633f6caa808cd909aaba0844a380153e6b963f8_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/eg9pjfOa/bd3515ab3f66600461558e9b47bdd3481c58f4b8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Choose player size" event="url{https://modrinth.com/mod/choose-player-size}"
+...button-text text="Sandblast" event="url{https://modrinth.com/mod/sandblast}"
 
-👤 bobbymurphy | 📅 2026-06-21
+👤 GrandAviation | 📅 2026-06-21
 
-This will affect the player's attributes
+Make glass in a blast furnace!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/choose-player-size/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/choose-player-size}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sandblast/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sandblast}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/OFMcBUIP/696320b3e69406f866785e5a123848507d4b4697.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/K1e4Zfxa/a7683a0a8c62d909afb86e3e1dfcacf37b78e70c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="consistentmenu" event="url{https://modrinth.com/mod/consistentmenu}"
+...button-text text="Peaceful Plus" event="url{https://modrinth.com/mod/peaceful-plus}"
 
-👤 neclusive | 📅 2026-06-21
+👤 GrandAviation | 📅 2026-06-21
 
-Replaces the ugly new 26.2 icon buttons with a text only friends button.
+Beat the game in peaceful mode!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/consistentmenu/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/consistentmenu}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/peaceful-plus/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/peaceful-plus}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6BITJSVi/e65d5d9ec5f231c8783726f2a945b67e0fc9293c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/CUqdOc9w/3bce6acaa00b80537a709dec40a00c03b0f29198_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Transit Tickets" event="url{https://modrinth.com/mod/create-transit-tickets}"
+...button-text text="Lava is Rising !" event="url{https://modrinth.com/mod/lava-is-rising-}"
 
-👤 rslover521 | 📅 2026-06-21
+👤 M0lfkha | 📅 2026-06-21
 
-A Create addon that focuses on transit fares/ticketing system.
+The lava rises by one block every two seconds
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-transit-tickets/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-transit-tickets}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lava-is-rising-/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lava-is-rising-}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/M5TXw7UT/579747f7cfc4289730f41dec7dae863e9e553c12.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/4rwxHF09/8f699cad073f57bc888d7142463ee7d21a430406.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Jat's Inventory Auto Totem" event="url{https://modrinth.com/mod/jats-inventory-auto-totem}"
+...button-text text="Ars Mekanica" event="url{https://modrinth.com/mod/ars-mekanica}"
 
-👤 JatLacksUnderstanding | 📅 2026-06-21
+👤 meigoc | 📅 2026-06-21
 
-A simple mod that automaticly equips totems to the users offhand and hotbar when the players invento
+Bridges Ars Nouveau and Mekanism for tighter cross-mod integration. Currently adds Mekanism sawmill 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jats-inventory-auto-totem/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jats-inventory-auto-totem}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ars-mekanica/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ars-mekanica}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/LRNdjuIO/a4cdbb275d1fef1949a99fbeb991b1d0599bbb51_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ooA3n3rr/8e53117466fbc2aa9fc96a53181a3c7cf8c3f2a3.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Build Assist Wands" event="url{https://modrinth.com/mod/build-assist-wands}"
+...button-text text="Early Craftable Elytra" event="url{https://modrinth.com/mod/early-craftable-elytra}"
 
-👤 Genzyuro | 📅 2026-06-21
+👤 Andy_71 | 📅 2026-06-21
 
-Adds multiple wands that assist with block placement, making building and exploration more convenien
+Adds a crafting recipe for the elytra.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/build-assist-wands/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/build-assist-wands}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/early-craftable-elytra/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/early-craftable-elytra}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Adds multiple wands that assist with block placement, making building and explor
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Launcher 2.3.449](https://minecraft.wiki/Launcher_2.3.449)
+📖 **Wiki 推荐**：[Bedrock Edition item texture history/Netherite Sword](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FNetherite_Sword)
 
-⏰ 更新时间：2026-06-21 05:05:39
+⏰ 更新时间：2026-06-21 14:26:11
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
