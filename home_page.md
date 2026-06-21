@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-20 14:21:36
+// 生成时间：2026-06-21 05:05:39
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.ArchedIceberg_ZH-CN2698040371_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.EggDad_ZH-CN6045387630_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"踏上取经路比到达灵山更重要！"*
+> *"哪有顷刻之间的心灰意冷，有的，只是日积月累的看透罢了。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{踏上取经路比到达灵山更重要！}"
+...button-text text="📋 复制" event="copy{哪有顷刻之间的心灰意冷，有的，只是日积月累的看透罢了。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft_Hour_of_Code}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_2.3.449}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,82 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/uAGzQDxz/8b753acecf7cea14a44183836c793a4ef04f7707_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/kfl02pjz/0633f6caa808cd909aaba0844a380153e6b963f8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Amethyst OPickaxe" event="url{https://modrinth.com/mod/amethyst-opickaxe}"
+...button-text text="Choose player size" event="url{https://modrinth.com/mod/choose-player-size}"
 
-👤 Filou23xx | 📅 2026-06-20
+👤 bobbymurphy | 📅 2026-06-21
 
-A powerful 3x3 pickaxe inspired by DonutSMP, with amethyst particles and sounds. Mine walls or flat 
+This will affect the player's attributes
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/amethyst-opickaxe/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/amethyst-opickaxe}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/choose-player-size/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/choose-player-size}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xlKY2G6z/4ae1b703d9ab2599c7b37622117c353a2ecb8308.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/OFMcBUIP/696320b3e69406f866785e5a123848507d4b4697.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="matter's Armor HUD" event="url{https://modrinth.com/mod/matters-armor-hud}"
+...button-text text="consistentmenu" event="url{https://modrinth.com/mod/consistentmenu}"
 
-👤 mattervisualizer | 📅 2026-06-20
+👤 neclusive | 📅 2026-06-21
 
-Minimalist vanilla-like widget to display your armor items and their durability for legacy 1.12.2. I
+Replaces the ugly new 26.2 icon buttons with a text only friends button.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/matters-armor-hud/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/matters-armor-hud}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/consistentmenu/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/consistentmenu}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/b5ZL0F1V/e0d03540f9594258062af6fa0df8f683cdea84af_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6BITJSVi/e65d5d9ec5f231c8783726f2a945b67e0fc9293c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Craftsman's Bows Foked" event="url{https://modrinth.com/mod/craftsmans-bows-foked}"
+...button-text text="Create: Transit Tickets" event="url{https://modrinth.com/mod/create-transit-tickets}"
 
-👤 takumax0412 | 📅 2026-06-20
+👤 rslover521 | 📅 2026-06-21
 
-Adds 5 new bows and crossbows: Short Bow, Long Bow, Shot Crossbow, Repeater Crossbow, and Burst Arba
+A Create addon that focuses on transit fares/ticketing system.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/craftsmans-bows-foked/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/craftsmans-bows-foked}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-transit-tickets/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-transit-tickets}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/LnnIYmZq/9029dd2a984a9cc17afb0639ce7acdf2c25e957e.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/M5TXw7UT/579747f7cfc4289730f41dec7dae863e9e553c12.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Moody Ghasts" event="url{https://modrinth.com/mod/moody-ghasts-mod}"
+...button-text text="Jat's Inventory Auto Totem" event="url{https://modrinth.com/mod/jats-inventory-auto-totem}"
 
-👤 CorruptData | 📅 2026-06-20
+👤 JatLacksUnderstanding | 📅 2026-06-21
 
-A Happy Ghast overhaul adding a mood system, aerial combat with multiple projectile types, and new c
+A simple mod that automaticly equips totems to the users offhand and hotbar when the players invento
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/moody-ghasts-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/moody-ghasts-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jats-inventory-auto-totem/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jats-inventory-auto-totem}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/rkANpjKH/fd8207ae25485956b557ef1a8d1c88b16236c201_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/LRNdjuIO/a4cdbb275d1fef1949a99fbeb991b1d0599bbb51_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="More Custom Paintings" event="url{https://modrinth.com/mod/more-custom-paintings}"
+...button-text text="Build Assist Wands" event="url{https://modrinth.com/mod/build-assist-wands}"
 
-👤 DS_DEX_DEV | 📅 2026-06-20
+👤 Genzyuro | 📅 2026-06-21
 
-More Paintings transforms the way players decorate their worlds.
-Instead of cycling through the same
+Adds multiple wands that assist with block placement, making building and exploration more convenien
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/more-custom-paintings/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/more-custom-paintings}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/build-assist-wands/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/build-assist-wands}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -174,14 +173,14 @@ Instead of cycling through the same
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：海洋中冰封的大教堂
-© 漂浮在南极半岛西部海域的拱形冰山, 南大洋 (© Steven Kazlowski/Nature Picture Library)
+🖼️ 壁纸：鸟类好爸爸
+© 企鹅爸爸正在检查蛋的情况 (© McDonald Wildlife Photography Inc./Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Minecraft Hour of Code](https://minecraft.wiki/Minecraft_Hour_of_Code)
+📖 **Wiki 推荐**：[Launcher 2.3.449](https://minecraft.wiki/Launcher_2.3.449)
 
-⏰ 更新时间：2026-06-20 14:21:36
+⏰ 更新时间：2026-06-21 05:05:39
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
