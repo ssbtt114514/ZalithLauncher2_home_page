@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-21 14:26:11
+// 生成时间：2026-06-22 05:16:48
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.EggDad_ZH-CN6045387630_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.QuinaultFerns_ZH-CN6696428927_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"新欢是良药，而我选择了时间。"*
+> *"见过沧海桑田，望过白日飞升，走过拙山枯水，笑过月隐晦明。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{新欢是良药，而我选择了时间。}"
+...button-text text="📋 复制" event="copy{见过沧海桑田，望过白日飞升，走过拙山枯水，笑过月隐晦明。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FNetherite_Sword}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Ocean_Ruins%2FStructure%2FBig_Ruin_1_Mossy}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -173,14 +173,14 @@ Adds a crafting recipe for the elytra.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：鸟类好爸爸
-© 企鹅爸爸正在检查蛋的情况 (© McDonald Wildlife Photography Inc./Getty Images)
+🖼️ 壁纸：一个郁郁葱葱的王国
+© 奎诺尔特雨林, 奥林匹克国家公园, 华盛顿州, 美国 (© Chris Moore/Tandem Stills + Motion)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition item texture history/Netherite Sword](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FNetherite_Sword)
+📖 **Wiki 推荐**：[Ocean Ruins/Structure/Big Ruin 1 Mossy](https://minecraft.wiki/Ocean_Ruins%2FStructure%2FBig_Ruin_1_Mossy)
 
-⏰ 更新时间：2026-06-21 14:26:11
+⏰ 更新时间：2026-06-22 05:16:48
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
