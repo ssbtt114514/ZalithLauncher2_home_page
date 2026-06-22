@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-22 05:16:48
+// 生成时间：2026-06-22 17:08:43
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.QuinaultFerns_ZH-CN6696428927_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.Fujisan_ZH-CN7203975085_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"见过沧海桑田，望过白日飞升，走过拙山枯水，笑过月隐晦明。"*
+> *"这不是玩笑，不要吃掉梦想啊。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{见过沧海桑田，望过白日飞升，走过拙山枯水，笑过月隐晦明。}"
+...button-text text="📋 复制" event="copy{这不是玩笑，不要吃掉梦想啊。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Ocean_Ruins%2FStructure%2FBig_Ruin_1_Mossy}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FTonic}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/eg9pjfOa/bd3515ab3f66600461558e9b47bdd3481c58f4b8_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/jcEd80UX/2b05a87a52040da511349e4f34fb4d4a9533b5b0_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Sandblast" event="url{https://modrinth.com/mod/sandblast}"
+...button-text text="Broken Redstone Lamp Mod" event="url{https://modrinth.com/mod/broken-redstone-lamp-mod}"
 
-👤 GrandAviation | 📅 2026-06-21
+👤 manahit121 | 📅 2026-06-22
 
-Make glass in a blast furnace!
+This project adds a broken redstone lamp. It adds another redstone lamp that doesn't work and doesn'
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sandblast/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sandblast}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/broken-redstone-lamp-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/broken-redstone-lamp-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/K1e4Zfxa/a7683a0a8c62d909afb86e3e1dfcacf37b78e70c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/bgknC1pg/9d30ab3791e885e8515732165d09b9d03276f5de_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Peaceful Plus" event="url{https://modrinth.com/mod/peaceful-plus}"
+...button-text text="pv-LazoDiscs" event="url{https://modrinth.com/mod/lazodiscs}"
 
-👤 GrandAviation | 📅 2026-06-21
+👤 EyeCrasher | 📅 2026-06-22
 
-Beat the game in peaceful mode!
+Server-side custom music discs using Plasmo Voice positional audio.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/peaceful-plus/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/peaceful-plus}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lazodiscs/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lazodiscs}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/CUqdOc9w/3bce6acaa00b80537a709dec40a00c03b0f29198_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/kDRBfYCz/6c0effded8d983b705b6bd390c845c35322426d8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Lava is Rising !" event="url{https://modrinth.com/mod/lava-is-rising-}"
+...button-text text="Create: Threshold Fix" event="url{https://modrinth.com/mod/create-threshold-fix}"
 
-👤 M0lfkha | 📅 2026-06-21
+👤 yuma-dev | 📅 2026-06-22
 
-The lava rises by one block every two seconds
+Fixes Create's Threshold Switch misreading vaults that hold non-stackable or partially-stacked items
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lava-is-rising-/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lava-is-rising-}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-threshold-fix/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-threshold-fix}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/4rwxHF09/8f699cad073f57bc888d7142463ee7d21a430406.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/IJt6WXFi/0f0a3975ab9ffbb7bc8ebb0f014e1646d3874aae.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ars Mekanica" event="url{https://modrinth.com/mod/ars-mekanica}"
+...button-text text="The Block Box Refabricated" event="url{https://modrinth.com/mod/the-block-box-re-fabricated}"
 
-👤 meigoc | 📅 2026-06-21
+👤 Axperty | 📅 2026-06-22
 
-Bridges Ars Nouveau and Mekanism for tighter cross-mod integration. Currently adds Mekanism sawmill 
+A collection of building blocks, furniture, and decorations!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ars-mekanica/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ars-mekanica}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-block-box-re-fabricated/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-block-box-re-fabricated}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ooA3n3rr/8e53117466fbc2aa9fc96a53181a3c7cf8c3f2a3.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/fUwN0QYR/07adb9864e231b622c0ce52f7cfe33704f4d0a70.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Early Craftable Elytra" event="url{https://modrinth.com/mod/early-craftable-elytra}"
+...button-text text="Friend+" event="url{https://modrinth.com/mod/friend+}"
 
-👤 Andy_71 | 📅 2026-06-21
+👤 lukasabbe | 📅 2026-06-22
 
-Adds a crafting recipe for the elytra.
+View your friends skins directly from the friends menu.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/early-craftable-elytra/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/early-craftable-elytra}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/friend+/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/friend+}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Adds a crafting recipe for the elytra.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：一个郁郁葱葱的王国
-© 奎诺尔特雨林, 奥林匹克国家公园, 华盛顿州, 美国 (© Chris Moore/Tandem Stills + Motion)
+🖼️ 壁纸：天际线上的印记
+© 本州岛上的富士山, 日本 (© phutthiseth thongtae/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Ocean Ruins/Structure/Big Ruin 1 Mossy](https://minecraft.wiki/Ocean_Ruins%2FStructure%2FBig_Ruin_1_Mossy)
+📖 **Wiki 推荐**：[Bedrock Edition item texture history/Tonic](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FTonic)
 
-⏰ 更新时间：2026-06-22 05:16:48
+⏰ 更新时间：2026-06-22 17:08:43
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
