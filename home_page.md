@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-23 04:11:15
+// 生成时间：2026-06-23 15:17:26
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"你的一生，我只借一程，这一程便是余生。"*
+> *"如果有一个喜欢你的人出现，一定不要凶她哦！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{你的一生，我只借一程，这一程便是余生。}"
+...button-text text="📋 复制" event="copy{如果有一个喜欢你的人出现，一定不要凶她哦！}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.2
-**最新快照**: 26.2
+**最新快照**: 26.3-snapshot-1
 
 近期版本：
 - **26.2** (2026-06-16)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Straw_Bed}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Scout}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/zN6bwNI2/3c3a68854afa4500ef3c3c4bf52c41705daf284a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xg2Cflre/e8b33b9ae1870b0441a1581df0b6ebc33caf29a7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="No LAN No CHEAT" event="url{https://modrinth.com/mod/no-lan-no-cheat}"
+...button-text text="Purple End Lighting" event="url{https://modrinth.com/mod/purple-end-lighting}"
 
-👤 pluplume09 | 📅 2026-06-22
+👤 gameo7 | 📅 2026-06-23
 
-Completely removes the LAN interface to disable gamemode and command switching.
+A simple data pack that changes the end lighting color to purple.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/no-lan-no-cheat/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/no-lan-no-cheat}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/purple-end-lighting/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/purple-end-lighting}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Menuz9Z9/5743944beee968067929ad0ec4f68392139a2396_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zUHFVyp4/050e93501051b3e146edbd5b2690e215f939a35d.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Big Items API" event="url{https://modrinth.com/mod/big-items-api}"
+...button-text text="Varied Temples" event="url{https://modrinth.com/mod/varied-temples}"
 
-👤 Homak | 📅 2026-06-22
+👤 TheKingOfNerds | 📅 2026-06-23
 
-A really simple library that allows developers to make items take up more inventory slots.
+Makes desert temples more random and interesting.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/big-items-api/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/big-items-api}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/varied-temples/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/varied-temples}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/9sfdAzVl/57fb7e4828777b56f223735a353bbfc9ee9290c6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/kr6tqavQ/068cc901eb4979ed7de3af02361fea56ae19e117.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Pushing Doors" event="url{https://modrinth.com/mod/pushing-doors}"
+...button-text text="Origins: BuildCraft's Own" event="url{https://modrinth.com/mod/origins-buildcrafts-own}"
 
-👤 Aland_ | 📅 2026-06-22
+👤 PolloDelMuerteJr | 📅 2026-06-23
 
-A vanilla-friendly physics mod that lets you seamlessly push and breach doors open with your body in
+This is an Origins Addon mod, current it add one Origin. The Giant! A realistic interpretation of a 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pushing-doors/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pushing-doors}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/origins-buildcrafts-own/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/origins-buildcrafts-own}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/WLynLvaI/1f27fd3102b0ac5d271dd8469266489cfed849eb.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/lV0BpHBY/a00c38b42d92dbf4eae33ca59936e3aa2ddcb00c.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Scaffolding Blueprint" event="url{https://modrinth.com/mod/scaffolding-blueprint}"
+...button-text text="Syringe Mod" event="url{https://modrinth.com/mod/syringemod}"
 
-👤 Yukami | 📅 2026-06-22
+👤 gafolagbazor | 📅 2026-06-23
 
-Pack your scaffolding into a blueprint and place it anywhere!
+A Syringe Mod add syringe, ohhhh mob! What if...
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/scaffolding-blueprint/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/scaffolding-blueprint}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/syringemod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/syringemod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/zb27zzoH/518a29b297cb2577c209f99da676ba41e5668d36_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/q81LOlmI/135f1182818beed7e256e3273be7f52a8fb4b17d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Challenges" event="url{https://modrinth.com/mod/challenges-timonn}"
+...button-text text="Combat log mod" event="url{https://modrinth.com/mod/combat-log-mod}"
 
-👤 Timonn | 📅 2026-06-22
+👤 CodeMC | 📅 2026-06-23
 
-A Minecraft Challenges Mod. You have multiple challenges to choose from for example shared damage wi
+Kills players, if they disconnect in combat.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/challenges-timonn/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/challenges-timonn}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/combat-log-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/combat-log-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ A Minecraft Challenges Mod. You have multiple challenges to choose from for exam
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Straw Bed](https://minecraft.wiki/Straw_Bed)
+📖 **Wiki 推荐**：[Scout](https://minecraft.wiki/Scout)
 
-⏰ 更新时间：2026-06-23 04:11:15
+⏰ 更新时间：2026-06-23 15:17:26
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
