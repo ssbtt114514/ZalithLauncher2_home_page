@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-22 17:08:43
+// 生成时间：2026-06-23 04:11:15
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"这不是玩笑，不要吃掉梦想啊。"*
+> *"你的一生，我只借一程，这一程便是余生。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{这不是玩笑，不要吃掉梦想啊。}"
+...button-text text="📋 复制" event="copy{你的一生，我只借一程，这一程便是余生。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FTonic}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Straw_Bed}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/jcEd80UX/2b05a87a52040da511349e4f34fb4d4a9533b5b0_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zN6bwNI2/3c3a68854afa4500ef3c3c4bf52c41705daf284a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Broken Redstone Lamp Mod" event="url{https://modrinth.com/mod/broken-redstone-lamp-mod}"
+...button-text text="No LAN No CHEAT" event="url{https://modrinth.com/mod/no-lan-no-cheat}"
 
-👤 manahit121 | 📅 2026-06-22
+👤 pluplume09 | 📅 2026-06-22
 
-This project adds a broken redstone lamp. It adds another redstone lamp that doesn't work and doesn'
+Completely removes the LAN interface to disable gamemode and command switching.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/broken-redstone-lamp-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/broken-redstone-lamp-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/no-lan-no-cheat/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/no-lan-no-cheat}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/bgknC1pg/9d30ab3791e885e8515732165d09b9d03276f5de_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Menuz9Z9/5743944beee968067929ad0ec4f68392139a2396_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="pv-LazoDiscs" event="url{https://modrinth.com/mod/lazodiscs}"
+...button-text text="Big Items API" event="url{https://modrinth.com/mod/big-items-api}"
 
-👤 EyeCrasher | 📅 2026-06-22
+👤 Homak | 📅 2026-06-22
 
-Server-side custom music discs using Plasmo Voice positional audio.
+A really simple library that allows developers to make items take up more inventory slots.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lazodiscs/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lazodiscs}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/big-items-api/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/big-items-api}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/kDRBfYCz/6c0effded8d983b705b6bd390c845c35322426d8_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/9sfdAzVl/57fb7e4828777b56f223735a353bbfc9ee9290c6_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Threshold Fix" event="url{https://modrinth.com/mod/create-threshold-fix}"
+...button-text text="Pushing Doors" event="url{https://modrinth.com/mod/pushing-doors}"
 
-👤 yuma-dev | 📅 2026-06-22
+👤 Aland_ | 📅 2026-06-22
 
-Fixes Create's Threshold Switch misreading vaults that hold non-stackable or partially-stacked items
+A vanilla-friendly physics mod that lets you seamlessly push and breach doors open with your body in
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-threshold-fix/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-threshold-fix}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pushing-doors/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pushing-doors}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/IJt6WXFi/0f0a3975ab9ffbb7bc8ebb0f014e1646d3874aae.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/WLynLvaI/1f27fd3102b0ac5d271dd8469266489cfed849eb.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="The Block Box Refabricated" event="url{https://modrinth.com/mod/the-block-box-re-fabricated}"
+...button-text text="Scaffolding Blueprint" event="url{https://modrinth.com/mod/scaffolding-blueprint}"
 
-👤 Axperty | 📅 2026-06-22
+👤 Yukami | 📅 2026-06-22
 
-A collection of building blocks, furniture, and decorations!
+Pack your scaffolding into a blueprint and place it anywhere!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-block-box-re-fabricated/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-block-box-re-fabricated}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/scaffolding-blueprint/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/scaffolding-blueprint}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/fUwN0QYR/07adb9864e231b622c0ce52f7cfe33704f4d0a70.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zb27zzoH/518a29b297cb2577c209f99da676ba41e5668d36_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Friend+" event="url{https://modrinth.com/mod/friend+}"
+...button-text text="Challenges" event="url{https://modrinth.com/mod/challenges-timonn}"
 
-👤 lukasabbe | 📅 2026-06-22
+👤 Timonn | 📅 2026-06-22
 
-View your friends skins directly from the friends menu.
+A Minecraft Challenges Mod. You have multiple challenges to choose from for example shared damage wi
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/friend+/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/friend+}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/challenges-timonn/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/challenges-timonn}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ View your friends skins directly from the friends menu.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition item texture history/Tonic](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FTonic)
+📖 **Wiki 推荐**：[Straw Bed](https://minecraft.wiki/Straw_Bed)
 
-⏰ 更新时间：2026-06-22 17:08:43
+⏰ 更新时间：2026-06-23 04:11:15
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
