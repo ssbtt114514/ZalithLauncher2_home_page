@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-24 04:14:17
+// 生成时间：2026-06-24 14:48:11
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"那么多的梦你一点也不记得，它们又是谁梦见的？"*
+> *"二八原则：做最关键的20%，就可以解决80%的问题。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{那么多的梦你一点也不记得，它们又是谁梦见的？}"
+...button-text text="📋 复制" event="copy{二八原则：做最关键的20%，就可以解决80%的问题。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/PlayStation_Vita_Edition_1.22}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Redstone_circuits%2FMemory%2FIsolated_RS-NOR}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ Kills players, if they disconnect in combat.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[PlayStation Vita Edition 1.22](https://minecraft.wiki/PlayStation_Vita_Edition_1.22)
+📖 **Wiki 推荐**：[Redstone circuits/Memory/Isolated RS-NOR](https://minecraft.wiki/Redstone_circuits%2FMemory%2FIsolated_RS-NOR)
 
-⏰ 更新时间：2026-06-24 04:14:17
+⏰ 更新时间：2026-06-24 14:48:11
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
