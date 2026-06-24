@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-23 15:17:26
+// 生成时间：2026-06-24 04:14:17
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.Fujisan_ZH-CN7203975085_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.BFPollin_ZH-CN7654067396_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"如果有一个喜欢你的人出现，一定不要凶她哦！"*
+> *"那么多的梦你一点也不记得，它们又是谁梦见的？"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{如果有一个喜欢你的人出现，一定不要凶她哦！}"
+...button-text text="📋 复制" event="copy{那么多的梦你一点也不记得，它们又是谁梦见的？}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Scout}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/PlayStation_Vita_Edition_1.22}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -173,14 +173,14 @@ Kills players, if they disconnect in combat.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：天际线上的印记
-© 本州岛上的富士山, 日本 (© phutthiseth thongtae/Getty Images)
+🖼️ 壁纸：花粉与翅膀相遇
+© 蝴蝶正在黄花上授粉 (© lzh/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Scout](https://minecraft.wiki/Scout)
+📖 **Wiki 推荐**：[PlayStation Vita Edition 1.22](https://minecraft.wiki/PlayStation_Vita_Edition_1.22)
 
-⏰ 更新时间：2026-06-23 15:17:26
+⏰ 更新时间：2026-06-24 04:14:17
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
