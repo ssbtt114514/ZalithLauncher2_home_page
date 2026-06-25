@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-25 04:14:32
+// 生成时间：2026-06-25 14:47:59
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"那些听不见音乐的人以为跳舞的人疯了。"*
+> *"我想抬头暖阳春草，你给我简单拥抱。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{那些听不见音乐的人以为跳舞的人疯了。}"
+...button-text text="📋 复制" event="copy{我想抬头暖阳春草，你给我简单拥抱。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Ocean_Ruins%2FStructure%2FBig_Ruin_8_Brick}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Peony}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/QA58IZp6/67fcbc8afdff41861cb9b897483df2de5fc0aa43.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/FepjhGlR/14e3a0c507836add31748abf22a51aab719a8a1a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Home TNT" event="url{https://modrinth.com/mod/home-tnt}"
+...button-text text="GD Uncrafter" event="url{https://modrinth.com/mod/gd-uncrafter}"
 
-👤 Txxicu | 📅 2026-06-24
+👤 GabrielDja | 📅 2026-06-25
 
-Creates a new HomeTNT item that allows you to generate a simple village-style house.
+Destroy items and collect their resources.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/home-tnt/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/home-tnt}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/gd-uncrafter/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/gd-uncrafter}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/yyv3pGAi/2df9bf80043d5d71b7ce84d9cd8cfb7ecf24b92e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6QykOqLG/4a0546db637ce7ac76e89a5f84247591ce9458f8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="BetterPVE" event="url{https://modrinth.com/mod/betterpve}"
+...button-text text="Dooter Amigos" event="url{https://modrinth.com/mod/dooter-amigos}"
 
-👤 delixfreak | 📅 2026-06-24
+👤 Wolverbyte | 📅 2026-06-24
 
-BetterPVE improves vanilla Minecraft PvE with progression tasks, cave encounters, stronger mobs, use
+Adds new traphorses which spawn in silly skeletons wearing somberos and using trumpets
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/betterpve/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/betterpve}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dooter-amigos/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dooter-amigos}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Ltxp9LMr/4a50a2586bb3b8156b46e59949b64358aa0120fd_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/1qX6JSUs/b1b5265fbadbbca542b490ce99e152473ffe539b.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Turtles: The A.T.O.M." event="url{https://modrinth.com/mod/turtles-the-a.t.o.m.}"
+...button-text text="AdminSword" event="url{https://modrinth.com/mod/adminsword}"
 
-👤 TheQuickTurtleKL | 📅 2026-06-24
+👤 NikitaVeresov | 📅 2026-06-24
 
-Become the A.T.O.M. (DC) in minecraft! Plus some extra super tools.
+A creative-only admin weapon that instantly kills any mob or player, while automatically banning str
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/turtles-the-a.t.o.m./versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/turtles-the-a.t.o.m.}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/adminsword/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/adminsword}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ORrleumk/f78391ece0ee5cba987025575c81978c6cf98680_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/jLcflzN8/9bb5f54229104620c4d4c89b2f706467dd9fd145.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Hush" event="url{https://modrinth.com/mod/hush-lythroo}"
+...button-text text="Animal Garden - Bongo" event="url{https://modrinth.com/mod/animal-garden-bongo}"
 
-👤 Lythroo | 📅 2026-06-24
+👤 Aquarius.playz | 📅 2026-06-24
 
-Quiets dead mobs, and fixes loud sounds.
+This mod adds the bongo, the largest and heaviest of the African forest antelopes, to the game
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hush-lythroo/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hush-lythroo}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/animal-garden-bongo/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/animal-garden-bongo}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ssABRLvT/362aad6184b839aba6b5f98ea665b6b4848c9a53_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/MjbAzEnf/8fcc5131caf286d5f49644482a2b39d98a9e8698_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="ResizeableSubtitles" event="url{https://modrinth.com/mod/resizeablesubtitles}"
+...button-text text="SPS Customizer" event="url{https://modrinth.com/mod/sps-customizer}"
 
-👤 Nikrecs | 📅 2026-06-24
+👤 killmkill97 | 📅 2026-06-24
 
-Resize, move, and customize Minecraft's subtitles from a clean in-game menu with a live preview
+Allows Mekanism's SPS to use custom recipes through JSON.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/resizeablesubtitles/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/resizeablesubtitles}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sps-customizer/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sps-customizer}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Resize, move, and customize Minecraft's subtitles from a clean in-game menu with
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Ocean Ruins/Structure/Big Ruin 8 Brick](https://minecraft.wiki/Ocean_Ruins%2FStructure%2FBig_Ruin_8_Brick)
+📖 **Wiki 推荐**：[Peony](https://minecraft.wiki/Peony)
 
-⏰ 更新时间：2026-06-25 04:14:32
+⏰ 更新时间：2026-06-25 14:47:59
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
