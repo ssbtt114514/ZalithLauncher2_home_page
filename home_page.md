@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-24 14:48:11
+// 生成时间：2026-06-25 04:14:32
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.BFPollin_ZH-CN7654067396_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.GrandPlace_ZH-CN8806496436_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"二八原则：做最关键的20%，就可以解决80%的问题。"*
+> *"那些听不见音乐的人以为跳舞的人疯了。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{二八原则：做最关键的20%，就可以解决80%的问题。}"
+...button-text text="📋 复制" event="copy{那些听不见音乐的人以为跳舞的人疯了。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Redstone_circuits%2FMemory%2FIsolated_RS-NOR}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Ocean_Ruins%2FStructure%2FBig_Ruin_8_Brick}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xg2Cflre/e8b33b9ae1870b0441a1581df0b6ebc33caf29a7_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/QA58IZp6/67fcbc8afdff41861cb9b897483df2de5fc0aa43.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Purple End Lighting" event="url{https://modrinth.com/mod/purple-end-lighting}"
+...button-text text="Home TNT" event="url{https://modrinth.com/mod/home-tnt}"
 
-👤 gameo7 | 📅 2026-06-23
+👤 Txxicu | 📅 2026-06-24
 
-A simple data pack that changes the end lighting color to purple.
+Creates a new HomeTNT item that allows you to generate a simple village-style house.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/purple-end-lighting/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/purple-end-lighting}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/home-tnt/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/home-tnt}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/zUHFVyp4/050e93501051b3e146edbd5b2690e215f939a35d.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/yyv3pGAi/2df9bf80043d5d71b7ce84d9cd8cfb7ecf24b92e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Varied Temples" event="url{https://modrinth.com/mod/varied-temples}"
+...button-text text="BetterPVE" event="url{https://modrinth.com/mod/betterpve}"
 
-👤 TheKingOfNerds | 📅 2026-06-23
+👤 delixfreak | 📅 2026-06-24
 
-Makes desert temples more random and interesting.
+BetterPVE improves vanilla Minecraft PvE with progression tasks, cave encounters, stronger mobs, use
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/varied-temples/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/varied-temples}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/betterpve/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/betterpve}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/kr6tqavQ/068cc901eb4979ed7de3af02361fea56ae19e117.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Ltxp9LMr/4a50a2586bb3b8156b46e59949b64358aa0120fd_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Origins: BuildCraft's Own" event="url{https://modrinth.com/mod/origins-buildcrafts-own}"
+...button-text text="Turtles: The A.T.O.M." event="url{https://modrinth.com/mod/turtles-the-a.t.o.m.}"
 
-👤 PolloDelMuerteJr | 📅 2026-06-23
+👤 TheQuickTurtleKL | 📅 2026-06-24
 
-This is an Origins Addon mod, current it add one Origin. The Giant! A realistic interpretation of a 
+Become the A.T.O.M. (DC) in minecraft! Plus some extra super tools.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/origins-buildcrafts-own/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/origins-buildcrafts-own}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/turtles-the-a.t.o.m./versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/turtles-the-a.t.o.m.}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/lV0BpHBY/a00c38b42d92dbf4eae33ca59936e3aa2ddcb00c.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ORrleumk/f78391ece0ee5cba987025575c81978c6cf98680_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Syringe Mod" event="url{https://modrinth.com/mod/syringemod}"
+...button-text text="Hush" event="url{https://modrinth.com/mod/hush-lythroo}"
 
-👤 gafolagbazor | 📅 2026-06-23
+👤 Lythroo | 📅 2026-06-24
 
-A Syringe Mod add syringe, ohhhh mob! What if...
+Quiets dead mobs, and fixes loud sounds.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/syringemod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/syringemod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hush-lythroo/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hush-lythroo}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/q81LOlmI/135f1182818beed7e256e3273be7f52a8fb4b17d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ssABRLvT/362aad6184b839aba6b5f98ea665b6b4848c9a53_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Combat log mod" event="url{https://modrinth.com/mod/combat-log-mod}"
+...button-text text="ResizeableSubtitles" event="url{https://modrinth.com/mod/resizeablesubtitles}"
 
-👤 CodeMC | 📅 2026-06-23
+👤 Nikrecs | 📅 2026-06-24
 
-Kills players, if they disconnect in combat.
+Resize, move, and customize Minecraft's subtitles from a clean in-game menu with a live preview
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/combat-log-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/combat-log-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/resizeablesubtitles/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/resizeablesubtitles}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Kills players, if they disconnect in combat.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：花粉与翅膀相遇
-© 蝴蝶正在黄花上授粉 (© lzh/Getty Images)
+🖼️ 壁纸：在广场中感受历史
+© 布鲁塞尔大广场上的建筑群, 比利时 (© Vladislav Zolotov/Getty Images Plus)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Redstone circuits/Memory/Isolated RS-NOR](https://minecraft.wiki/Redstone_circuits%2FMemory%2FIsolated_RS-NOR)
+📖 **Wiki 推荐**：[Ocean Ruins/Structure/Big Ruin 8 Brick](https://minecraft.wiki/Ocean_Ruins%2FStructure%2FBig_Ruin_8_Brick)
 
-⏰ 更新时间：2026-06-24 14:48:11
+⏰ 更新时间：2026-06-25 04:14:32
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
