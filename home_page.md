@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-25 14:47:59
+// 生成时间：2026-06-26 04:21:03
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.GrandPlace_ZH-CN8806496436_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.ThamesSummer_ZH-CN5292532714_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我想抬头暖阳春草，你给我简单拥抱。"*
+> *"似水流年是一个人所有的一切，只有这个东西，才真正归你所有。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我想抬头暖阳春草，你给我简单拥抱。}"
+...button-text text="📋 复制" event="copy{似水流年是一个人所有的一切，只有这个东西，才真正归你所有。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Peony}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FChiseled_Cinnabar}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -173,14 +173,14 @@ Allows Mekanism's SPS to use custom recipes through JSON.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：在广场中感受历史
-© 布鲁塞尔大广场上的建筑群, 比利时 (© Vladislav Zolotov/Getty Images Plus)
+🖼️ 壁纸：时事
+© 泰晤士河, 伦敦, 英格兰 (© Daniel Lange/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Peony](https://minecraft.wiki/Peony)
+📖 **Wiki 推荐**：[Java Edition block render history/Chiseled Cinnabar](https://minecraft.wiki/Java_Edition_block_render_history%2FChiseled_Cinnabar)
 
-⏰ 更新时间：2026-06-25 14:47:59
+⏰ 更新时间：2026-06-26 04:21:03
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
