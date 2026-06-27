@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-27 04:07:26
+// 生成时间：2026-06-27 13:59:03
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"知识有两种，一种是你知道的，一种是你知道在哪里能找到的！"*
+> *"不能共苦，还是只是不能和我共苦……"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{知识有两种，一种是你知道的，一种是你知道在哪里能找到的！}"
+...button-text text="📋 复制" event="copy{不能共苦，还是只是不能和我共苦……}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Fill_layer}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Controls%2FOld_keys}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ Badges that give you neat perks!
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Fill layer](https://minecraft.wiki/Fill_layer)
+📖 **Wiki 推荐**：[Controls/Old keys](https://minecraft.wiki/Controls%2FOld_keys)
 
-⏰ 更新时间：2026-06-27 04:07:26
+⏰ 更新时间：2026-06-27 13:59:03
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
