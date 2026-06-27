@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-26 14:39:39
+// 生成时间：2026-06-27 04:07:26
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.ThamesSummer_ZH-CN5292532714_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.BoneyardBeach_ZH-CN5540590570_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"当人觉得自己看不到前途时，其实已经看到了前途。"*
+> *"知识有两种，一种是你知道的，一种是你知道在哪里能找到的！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{当人觉得自己看不到前途时，其实已经看到了前途。}"
+...button-text text="📋 复制" event="copy{知识有两种，一种是你知道的，一种是你知道在哪里能找到的！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FCopper_Nugget}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Fill_layer}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/FepjhGlR/14e3a0c507836add31748abf22a51aab719a8a1a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/cdP4PP2p/dcd2760e9715bcadd8aab60d1dc71135afdb387c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="GD Uncrafter" event="url{https://modrinth.com/mod/gd-uncrafter}"
+...button-text text="Economy" event="url{https://modrinth.com/mod/ly-economy}"
 
-👤 GabrielDja | 📅 2026-06-25
+👤 lullaby | 📅 2026-06-26
 
-Destroy items and collect their resources.
+A performance and fully customizable Economy for players!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/gd-uncrafter/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/gd-uncrafter}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ly-economy/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ly-economy}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6QykOqLG/4a0546db637ce7ac76e89a5f84247591ce9458f8_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/gCdlJv4R/1554b7c717279f4ebdf23d9aeb89268965cf177e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Dooter Amigos" event="url{https://modrinth.com/mod/dooter-amigos}"
+...button-text text="SacredTree Mining" event="url{https://modrinth.com/mod/sacredtree-mining}"
 
-👤 Wolverbyte | 📅 2026-06-24
+👤 LyaUnbound | 📅 2026-06-26
 
-Adds new traphorses which spawn in silly skeletons wearing somberos and using trumpets
+Mining ores randomly from stones.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dooter-amigos/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dooter-amigos}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sacredtree-mining/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sacredtree-mining}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/1qX6JSUs/b1b5265fbadbbca542b490ce99e152473ffe539b.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/XY4xq9KJ/9711ae552d6752b3c741dc2fd3b2feb73a5cd359.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="AdminSword" event="url{https://modrinth.com/mod/adminsword}"
+...button-text text="Only An Excuse for a Scottish Mod" event="url{https://modrinth.com/mod/oaesmod}"
 
-👤 NikitaVeresov | 📅 2026-06-24
+👤 Tattieverb | 📅 2026-06-26
 
-A creative-only admin weapon that instantly kills any mob or player, while automatically banning str
+A simple mod that adds a few bits and pieces of Scotland into Minecraft. Food, drink, plant life, ev
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/adminsword/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/adminsword}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/oaesmod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/oaesmod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/jLcflzN8/9bb5f54229104620c4d4c89b2f706467dd9fd145.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/l6drnlXq/fae17b49e1c554bf02cdc41c13a99de82c58617d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Animal Garden - Bongo" event="url{https://modrinth.com/mod/animal-garden-bongo}"
+...button-text text="Resource Pack Profiles" event="url{https://modrinth.com/mod/resource-pack-profiles}"
 
-👤 Aquarius.playz | 📅 2026-06-24
+👤 ZephByte | 📅 2026-06-26
 
-This mod adds the bongo, the largest and heaviest of the African forest antelopes, to the game
+Save, manage, and share named resource pack load-order profiles. Switch between completely different
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/animal-garden-bongo/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/animal-garden-bongo}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/resource-pack-profiles/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/resource-pack-profiles}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/MjbAzEnf/8fcc5131caf286d5f49644482a2b39d98a9e8698_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/92mihqz2/72787ec26c2a5b52cf0789a6383513b1883a5ddb.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="SPS Customizer" event="url{https://modrinth.com/mod/sps-customizer}"
+...button-text text="Badge Bonanza" event="url{https://modrinth.com/mod/badge-bonanza}"
 
-👤 killmkill97 | 📅 2026-06-24
+👤 flngus | 📅 2026-06-26
 
-Allows Mekanism's SPS to use custom recipes through JSON.
+Badges that give you neat perks!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sps-customizer/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sps-customizer}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/badge-bonanza/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/badge-bonanza}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Allows Mekanism's SPS to use custom recipes through JSON.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：时事
-© 泰晤士河, 伦敦, 英格兰 (© Daniel Lange/Getty Images)
+🖼️ 壁纸：逐渐失去立足之地的树木
+© 博尼亚德海滩上的漂流木, 亨廷岛, 南卡罗来纳州, 美国 (© Frances/Adobe Stock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition item texture history/Copper Nugget](https://minecraft.wiki/Java_Edition_item_texture_history%2FCopper_Nugget)
+📖 **Wiki 推荐**：[Fill layer](https://minecraft.wiki/Fill_layer)
 
-⏰ 更新时间：2026-06-26 14:39:39
+⏰ 更新时间：2026-06-27 04:07:26
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
