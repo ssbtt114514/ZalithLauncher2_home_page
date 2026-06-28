@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-28 04:40:41
+// 生成时间：2026-06-28 14:05:46
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"兜里不硬气，啥都不敢买。"*
+> *"残牖孤灯弦月暖，不绝如缕愁千段。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{兜里不硬气，啥都不敢买。}"
+...button-text text="📋 复制" event="copy{残牖孤灯弦月暖，不绝如缕愁千段。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Mangrove_(disambiguation)}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FNetherite_Boots}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ Badges that give you neat perks!
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Mangrove (disambiguation)](https://minecraft.wiki/Mangrove_(disambiguation))
+📖 **Wiki 推荐**：[Java Edition item texture history/Netherite Boots](https://minecraft.wiki/Java_Edition_item_texture_history%2FNetherite_Boots)
 
-⏰ 更新时间：2026-06-28 04:40:41
+⏰ 更新时间：2026-06-28 14:05:46
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
