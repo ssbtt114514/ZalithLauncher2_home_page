@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-29 04:49:21
+// 生成时间：2026-06-29 16:01:37
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.BoraBoraLagoon_ZH-CN9234363590_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.MasaiGiraffe_ZH-CN1665123897_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"泉涸，鱼相与处于陆，相呴以湿，相濡以沫，不如相忘于江湖。"*
+> *"记忆，总会传承下去，无论是用何种方式。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{泉涸，鱼相与处于陆，相呴以湿，相濡以沫，不如相忘于江湖。}"
+...button-text text="📋 复制" event="copy{记忆，总会传承下去，无论是用何种方式。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Pink_Petals}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_mob_render_history%2FPet_Cat}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -173,14 +173,14 @@ Lots of new beautiful skins for wings!
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：生于烈火，拥于碧水
-© 波拉波拉岛及其泻湖, 南太平洋, 法属波利尼西亚 (© Frederick Millett/Shutterstock)
+🖼️ 壁纸：阴影被拉得修长之处
+© 马赛马拉国家保护区日落时分的长颈鹿, 肯尼亚 (© danm/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Pink Petals](https://minecraft.wiki/Pink_Petals)
+📖 **Wiki 推荐**：[Java Edition mob render history/Pet Cat](https://minecraft.wiki/Java_Edition_mob_render_history%2FPet_Cat)
 
-⏰ 更新时间：2026-06-29 04:49:21
+⏰ 更新时间：2026-06-29 16:01:37
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
