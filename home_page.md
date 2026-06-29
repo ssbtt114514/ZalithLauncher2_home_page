@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-28 14:05:46
+// 生成时间：2026-06-29 04:49:21
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.SaguaroSun_ZH-CN5820504732_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.BoraBoraLagoon_ZH-CN9234363590_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"残牖孤灯弦月暖，不绝如缕愁千段。"*
+> *"泉涸，鱼相与处于陆，相呴以湿，相濡以沫，不如相忘于江湖。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{残牖孤灯弦月暖，不绝如缕愁千段。}"
+...button-text text="📋 复制" event="copy{泉涸，鱼相与处于陆，相呴以湿，相濡以沫，不如相忘于江湖。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FNetherite_Boots}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Pink_Petals}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/cdP4PP2p/dcd2760e9715bcadd8aab60d1dc71135afdb387c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/mFHWP18Z/c8de615e0fed9b3823ec597a921672b7b612f178_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Economy" event="url{https://modrinth.com/mod/ly-economy}"
+...button-text text="Kaucjomat (Bottle Deposit Machine)" event="url{https://modrinth.com/mod/kaucjomat-bottle-deposit-machine}"
 
-👤 lullaby | 📅 2026-06-26
+👤 milwy | 📅 2026-06-28
 
-A performance and fully customizable Economy for players!
+Immerse yourself in the world of deposit-free bottles and cans and get something back for yourself ;
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ly-economy/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ly-economy}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kaucjomat-bottle-deposit-machine/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kaucjomat-bottle-deposit-machine}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/gCdlJv4R/1554b7c717279f4ebdf23d9aeb89268965cf177e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6Uuh9qRb/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="SacredTree Mining" event="url{https://modrinth.com/mod/sacredtree-mining}"
+...button-text text="kill_bonus_damage" event="url{https://modrinth.com/mod/kill_bonus_damage}"
 
-👤 LyaUnbound | 📅 2026-06-26
+👤 Mr10619 | 📅 2026-06-28
 
-Mining ores randomly from stones.
+Killing mobs increases the damage of the equipped weapon.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sacredtree-mining/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sacredtree-mining}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kill_bonus_damage/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kill_bonus_damage}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/XY4xq9KJ/9711ae552d6752b3c741dc2fd3b2feb73a5cd359.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/2oJqpEi6/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Only An Excuse for a Scottish Mod" event="url{https://modrinth.com/mod/oaesmod}"
+...button-text text="World Map" event="url{https://modrinth.com/mod/wmap}"
 
-👤 Tattieverb | 📅 2026-06-26
+👤 Runterya | 📅 2026-06-28
 
-A simple mod that adds a few bits and pieces of Scotland into Minecraft. Food, drink, plant life, ev
+A simple vanilla like minecraft world map mod
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/oaesmod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/oaesmod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wmap/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wmap}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/l6drnlXq/fae17b49e1c554bf02cdc41c13a99de82c58617d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/4XFrygBd/2e314633a110f50a5d0b48d5ee5b8c2a99280721_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Resource Pack Profiles" event="url{https://modrinth.com/mod/resource-pack-profiles}"
+...button-text text="Create: Chemistry - Fix" event="url{https://modrinth.com/mod/create-chemistry-fix}"
 
-👤 ZephByte | 📅 2026-06-26
+👤 TowersTeam | 📅 2026-06-28
 
-Save, manage, and share named resource pack load-order profiles. Switch between completely different
+A small fix and extension for Create: Chemistry
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/resource-pack-profiles/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/resource-pack-profiles}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-chemistry-fix/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-chemistry-fix}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/92mihqz2/72787ec26c2a5b52cf0789a6383513b1883a5ddb.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vIKddJF1/8539614807d7d76d0f6bc08aff3cb623d989df09_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Badge Bonanza" event="url{https://modrinth.com/mod/badge-bonanza}"
+...button-text text="Icarus: Re-Winged" event="url{https://modrinth.com/mod/icarus-rewinged}"
 
-👤 flngus | 📅 2026-06-26
+👤 r3ynex | 📅 2026-06-28
 
-Badges that give you neat perks!
+Lots of new beautiful skins for wings!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/badge-bonanza/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/badge-bonanza}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/icarus-rewinged/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/icarus-rewinged}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Badges that give you neat perks!
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：看起来很精神
-© 温德盖特山口附近的巨柱仙人掌, 麦克道尔山脉, 亚利桑那州, 美国 (© Eric Mischke/Getty Images)
+🖼️ 壁纸：生于烈火，拥于碧水
+© 波拉波拉岛及其泻湖, 南太平洋, 法属波利尼西亚 (© Frederick Millett/Shutterstock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition item texture history/Netherite Boots](https://minecraft.wiki/Java_Edition_item_texture_history%2FNetherite_Boots)
+📖 **Wiki 推荐**：[Pink Petals](https://minecraft.wiki/Pink_Petals)
 
-⏰ 更新时间：2026-06-28 14:05:46
+⏰ 更新时间：2026-06-29 04:49:21
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
