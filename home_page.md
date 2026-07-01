@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-01 04:43:52
+// 生成时间：2026-07-01 14:51:56
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"若以色见我，以音声求我，是人行邪道，不能见如来。"*
+> *"真正让我难受的，大概是因为让你看到如此狼狈的自己。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{若以色见我，以音声求我，是人行邪道，不能见如来。}"
+...button-text text="📋 复制" event="copy{真正让我难受的，大概是因为让你看到如此狼狈的自己。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FSplash_Potion_of_Infestation}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_1.21.2}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -179,9 +179,9 @@ Delays mob melee damage until the attack swing animation finishes.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition item texture history/Splash Potion of Infestation](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FSplash_Potion_of_Infestation)
+📖 **Wiki 推荐**：[Bedrock Edition 1.21.2](https://minecraft.wiki/Bedrock_Edition_1.21.2)
 
-⏰ 更新时间：2026-07-01 04:43:52
+⏰ 更新时间：2026-07-01 14:51:56
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
