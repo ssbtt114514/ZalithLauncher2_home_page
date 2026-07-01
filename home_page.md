@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-06-30 14:35:50
+// 生成时间：2026-07-01 04:43:52
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.MasaiGiraffe_ZH-CN1665123897_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.DungeonPark_ZH-CN9544093701_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我命令你，喜欢我！"*
+> *"若以色见我，以音声求我，是人行邪道，不能见如来。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我命令你，喜欢我！}"
+...button-text text="📋 复制" event="copy{若以色见我，以音声求我，是人行邪道，不能见如来。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Diamond}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FSplash_Potion_of_Infestation}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,82 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/mFHWP18Z/c8de615e0fed9b3823ec597a921672b7b612f178_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/NQqjfRGn/3c1cc267b3e28cfe71af42f1b28524bb6d2fda7e.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Kaucjomat (Bottle Deposit Machine)" event="url{https://modrinth.com/mod/kaucjomat-bottle-deposit-machine}"
+...button-text text="InfiniSteak!" event="url{https://modrinth.com/mod/infinisteak}"
 
-👤 milwy | 📅 2026-06-28
+👤 ToadTheGreatest | 📅 2026-06-30
 
-Immerse yourself in the world of deposit-free bottles and cans and get something back for yourself ;
+This project adds an item that is steak but its infinite :P
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kaucjomat-bottle-deposit-machine/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kaucjomat-bottle-deposit-machine}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/infinisteak/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/infinisteak}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6Uuh9qRb/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/LIqveQm1/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="kill_bonus_damage" event="url{https://modrinth.com/mod/kill_bonus_damage}"
+...button-text text="Perspective API" event="url{https://modrinth.com/mod/perspective-api}"
 
-👤 Mr10619 | 📅 2026-06-28
+👤 leawind | 📅 2026-06-30
 
-Killing mobs increases the damage of the equipped weapon.
+A client-side API framework for managing and extending Minecraft's camera perspectives.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kill_bonus_damage/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kill_bonus_damage}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/perspective-api/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/perspective-api}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/2oJqpEi6/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8eSschFq/02a25f52a80add54bff9aa14f3303616c637ea1a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="World Map" event="url{https://modrinth.com/mod/wmap}"
+...button-text text="Русификатор BTA!" event="url{https://modrinth.com/mod/russificator-bta}"
 
-👤 Runterya | 📅 2026-06-28
+👤 alexalabai | 📅 2026-06-30
 
-A simple vanilla like minecraft world map mod
+Переводит Better Than Adventure! на Русский язык.
+Russian translation for BTA!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wmap/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wmap}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/russificator-bta/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/russificator-bta}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/4XFrygBd/2e314633a110f50a5d0b48d5ee5b8c2a99280721_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/1gAS86Nq/b4f11ed81ea2a27805df8a4c54e11f2a11322450_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Chemistry - Fix" event="url{https://modrinth.com/mod/create-chemistry-fix}"
+...button-text text="throwable tnt sticks" event="url{https://modrinth.com/mod/throwable-tnt-sticks}"
 
-👤 TowersTeam | 📅 2026-06-28
+👤 oxidentional | 📅 2026-06-30
 
-A small fix and extension for Create: Chemistry
+this mod adds throwable tnt sticks
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-chemistry-fix/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-chemistry-fix}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/throwable-tnt-sticks/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/throwable-tnt-sticks}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/vIKddJF1/8539614807d7d76d0f6bc08aff3cb623d989df09_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/SS4Ij1nB/484c769916d6954f90cada045462de04634728c4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Icarus: Re-Winged" event="url{https://modrinth.com/mod/icarus-rewinged}"
+...button-text text="Strike After Swing" event="url{https://modrinth.com/mod/strike-after-swing}"
 
-👤 r3ynex | 📅 2026-06-28
+👤 MerrySnow | 📅 2026-06-30
 
-Lots of new beautiful skins for wings!
+Delays mob melee damage until the attack swing animation finishes.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/icarus-rewinged/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/icarus-rewinged}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/strike-after-swing/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/strike-after-swing}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +174,14 @@ Lots of new beautiful skins for wings!
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：阴影被拉得修长之处
-© 马赛马拉国家保护区日落时分的长颈鹿, 肯尼亚 (© danm/Getty Images)
+🖼️ 壁纸：大西洋雕琢而成的加拿大
+© 地牢省立公园, 纽芬兰和拉布拉多省, 加拿大 (© Kaitlyn McLachlan/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Diamond](https://minecraft.wiki/Diamond)
+📖 **Wiki 推荐**：[Bedrock Edition item texture history/Splash Potion of Infestation](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FSplash_Potion_of_Infestation)
 
-⏰ 更新时间：2026-06-30 14:35:50
+⏰ 更新时间：2026-07-01 04:43:52
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
