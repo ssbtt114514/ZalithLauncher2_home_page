@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-02 04:11:08
+// 生成时间：2026-07-02 14:21:50
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"哲学是世界观和方法论的统一。"*
+> *"闭上你的深邃双眼。那里夜色飘散。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{哲学是世界观和方法论的统一。}"
+...button-text text="📋 复制" event="copy{闭上你的深邃双眼。那里夜色飘散。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft%3A_Zombies!%2F2CHP}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_protocol}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ Bringing the hearty culinary traditions of the steppe nomads to your Farmer's De
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Minecraft: Zombies!/2CHP](https://minecraft.wiki/Minecraft%3A_Zombies!%2F2CHP)
+📖 **Wiki 推荐**：[Bedrock Edition protocol](https://minecraft.wiki/Bedrock_Edition_protocol)
 
-⏰ 更新时间：2026-07-02 04:11:08
+⏰ 更新时间：2026-07-02 14:21:50
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
