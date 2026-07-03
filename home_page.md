@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-02 14:21:50
+// 生成时间：2026-07-03 03:57:35
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.TempleEsna_ZH-CN9834689523_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.FirefliesJapan_ZH-CN0071253415_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"闭上你的深邃双眼。那里夜色飘散。"*
+> *"听天，不会由命！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{闭上你的深邃双眼。那里夜色飘散。}"
+...button-text text="📋 复制" event="copy{听天，不会由命！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_protocol}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Pocket_Edition_v0.11.0_alpha_build_4}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xnmwm6JR/a17c41435923362c0a646059bc64b298428f7770_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Sm68d4e0/4d97573c0ded2c4cc6bc63be4f4fc97eddfa96bb_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Utility Drawers" event="url{https://modrinth.com/mod/utility-drawers}"
+...button-text text="Restrictive Farming" event="url{https://modrinth.com/mod/restrictive-farming}"
 
-👤 ChowdaSlime | 📅 2026-07-01
+👤 Mrbysco | 📅 2026-07-02
 
-A storage mod that adds a variety of item and fluid drawers, including framed drawers for an extra l
+Allows configuring biomes in which crops can grow
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/utility-drawers/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/utility-drawers}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/restrictive-farming/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/restrictive-farming}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/zl4pHvMI/493d8f2ef05e99116cf97710a5cac1fba19cb7f5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/JElrDMR4/b16d2cab22c79352d1132860fe531ef074a4ac00_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Spreading Gravel" event="url{https://modrinth.com/mod/spreading-gravel}"
+...button-text text="BTA! Modern Oxygen Bar" event="url{https://modrinth.com/mod/bta-modern-oxygen-bar}"
 
-👤 edward3h | 📅 2026-07-01
+👤 horiuchii | 📅 2026-07-02
 
-A gravity block that flows sideways toward the deepest nearby drop.
+Backports the modern oxygen bar from 1.21.2 to BTA!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/spreading-gravel/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/spreading-gravel}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bta-modern-oxygen-bar/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bta-modern-oxygen-bar}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/HiiNFUcr/939b5b2e1943217ad8c5923abedebd5c7ed5c806_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ODOnDs1c/962051e13019fee5453771c26043862598fc5d1f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Insekto tweaks" event="url{https://modrinth.com/mod/create-insekto-tweaks}"
+...button-text text="Mekanism Nuclear Weapons & Explosives" event="url{https://modrinth.com/mod/mekanism-nuclear-weapons-explosives}"
 
-👤 Insekto888 | 📅 2026-07-01
+👤 Thanatoros | 📅 2026-07-02
 
-This create mod addon adds new recipes
+Mekanism addon adding nuclear, hydrogen, antimatter bomb and more in in future. In active developmen
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-insekto-tweaks/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-insekto-tweaks}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mekanism-nuclear-weapons-explosives/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mekanism-nuclear-weapons-explosives}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/g8fIhahC/170f972e3918c4a5285ed78436cebabf5c0ba982_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/PaUM08Xu/1ab05fdda012a65b020e4cb9bcc145decafcf519.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="saplings into dye" event="url{https://modrinth.com/mod/saplings-into-dye}"
+...button-text text="SkillBind Bridge" event="url{https://modrinth.com/mod/skillbind-bridge}"
 
-👤 Insekto888 | 📅 2026-07-01
+👤 BONUS09 | 📅 2026-07-02
 
-this project adds a recipe to turn saplings into lime dye
+Custom keybind support for MMOCore skill slots using a Fabric client mod and server plugin bridge.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/saplings-into-dye/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/saplings-into-dye}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/skillbind-bridge/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/skillbind-bridge}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/HSplJn2C/7f10def87e6c228d9caa087d96790b7e28864c36.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wPBs7ljG/3a7052043973e7eba5835054b6c42032888f6143_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Nomad's Delight" event="url{https://modrinth.com/mod/nomads-delight}"
+...button-text text="Player Animation Library More Rotation" event="url{https://modrinth.com/mod/playeranimationlibrarymorerotation}"
 
-👤 DosyaKitarov | 📅 2026-07-01
+👤 kltyton | 📅 2026-07-02
 
-Bringing the hearty culinary traditions of the steppe nomads to your Farmer's Delight kitchen.
+A library that extends Player Animation Library and bendable-cuboids with improved player animation 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nomads-delight/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nomads-delight}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/playeranimationlibrarymorerotation/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/playeranimationlibrarymorerotation}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Bringing the hearty culinary traditions of the steppe nomads to your Farmer's De
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：走进埃斯纳神圣的世界
-© 埃斯纳神庙穹顶天花板, 埃及 (© Nick Brundle Photography/Getty Images)
+🖼️ 壁纸：流光之诗
+© 小溪上方的萤火虫，冈山县，日本 (© tdub303/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition protocol](https://minecraft.wiki/Bedrock_Edition_protocol)
+📖 **Wiki 推荐**：[Pocket Edition v0.11.0 alpha build 4](https://minecraft.wiki/Pocket_Edition_v0.11.0_alpha_build_4)
 
-⏰ 更新时间：2026-07-02 14:21:50
+⏰ 更新时间：2026-07-03 03:57:35
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
