@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-04 03:51:13
+// 生成时间：2026-07-04 06:53:27
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"唯有时间的流逝，才能证明我们一直在前进。"*
+> *"我们没有永恒的朋友，也没有永恒的敌人，只有永恒的利益。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{唯有时间的流逝，才能证明我们一直在前进。}"
+...button-text text="📋 复制" event="copy{我们没有永恒的朋友，也没有永恒的敌人，只有永恒的利益。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FWhite_Tulip}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Lapis_Lazuli}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ A library that extends Player Animation Library and bendable-cuboids with improv
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition block render history/White Tulip](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FWhite_Tulip)
+📖 **Wiki 推荐**：[Lapis Lazuli](https://minecraft.wiki/Lapis_Lazuli)
 
-⏰ 更新时间：2026-07-04 03:51:13
+⏰ 更新时间：2026-07-04 06:53:27
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
