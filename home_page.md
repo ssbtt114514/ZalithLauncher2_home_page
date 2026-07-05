@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-05 04:10:01
+// 生成时间：2026-07-05 13:57:15
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"总会有始料不及的运气和忽如其来的惊喜！"*
+> *"为了胜利，向我开炮！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{总会有始料不及的运气和忽如其来的惊喜！}"
+...button-text text="📋 复制" event="copy{为了胜利，向我开炮！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Glistering_Melon_Slice}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Cooked_Salmon}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ A library that extends Player Animation Library and bendable-cuboids with improv
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Glistering Melon Slice](https://minecraft.wiki/Glistering_Melon_Slice)
+📖 **Wiki 推荐**：[Cooked Salmon](https://minecraft.wiki/Cooked_Salmon)
 
-⏰ 更新时间：2026-07-05 04:10:01
+⏰ 更新时间：2026-07-05 13:57:15
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
