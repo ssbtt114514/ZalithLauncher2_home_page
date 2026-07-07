@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-06 15:50:14
+// 生成时间：2026-07-07 04:06:42
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.SyracuseItaly_ZH-CN1001695972_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.MountainToucanOrchids_ZH-CN1400221431_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"真诚加任何一项都是王炸，唯独单出是死牌。"*
+> *"在人间有谁活着不像是一场炼狱，我不哭我已经没有尊严能放弃。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{真诚加任何一项都是王炸，唯独单出是死牌。}"
+...button-text text="📋 复制" event="copy{在人间有谁活着不像是一场炼狱，我不哭我已经没有尊严能放弃。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_guides%2F1.8_releases}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft%3A_Amazing_Bite-Size_Builds}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Sm68d4e0/4d97573c0ded2c4cc6bc63be4f4fc97eddfa96bb_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/pUvrVLXW/ef9383872ed6c4467a03ed6206d33d649199c561_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Restrictive Farming" event="url{https://modrinth.com/mod/restrictive-farming}"
+...button-text text="Expanded Arbor" event="url{https://modrinth.com/mod/expanded-arbor}"
 
-👤 Mrbysco | 📅 2026-07-02
+👤 StarchBasedVegetable | 📅 2026-07-07
 
-Allows configuring biomes in which crops can grow
+Expands the selection of arbored blocks for the Portal Mod
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/restrictive-farming/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/restrictive-farming}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/expanded-arbor/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/expanded-arbor}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/JElrDMR4/b16d2cab22c79352d1132860fe531ef074a4ac00_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/7LlPwnFV/00428591c5ba23d1d6c6a9d9c323d6a041995504_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="BTA! Modern Oxygen Bar" event="url{https://modrinth.com/mod/bta-modern-oxygen-bar}"
+...button-text text="Nitroito's Tooltips" event="url{https://modrinth.com/mod/nitroito-tooltips}"
 
-👤 horiuchii | 📅 2026-07-02
+👤 nitroito | 📅 2026-07-06
 
-Backports the modern oxygen bar from 1.21.2 to BTA!
+A complete costumization of your tooltips... choose what to display and how
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bta-modern-oxygen-bar/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bta-modern-oxygen-bar}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nitroito-tooltips/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nitroito-tooltips}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ODOnDs1c/962051e13019fee5453771c26043862598fc5d1f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vWbLUflR/05a00d8dd51922e6e66cb5c4554e70562512f71d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mekanism Nuclear Weapons & Explosives" event="url{https://modrinth.com/mod/mekanism-nuclear-weapons-explosives}"
+...button-text text="Ruins Galore" event="url{https://modrinth.com/mod/ruins-galore}"
 
-👤 Thanatoros | 📅 2026-07-02
+👤 PerryThePlato | 📅 2026-07-06
 
-Mekanism addon adding nuclear, hydrogen, antimatter bomb and more in in future. In active developmen
+this mod adds 5 new ruin structures to minecraft with good loot.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mekanism-nuclear-weapons-explosives/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mekanism-nuclear-weapons-explosives}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ruins-galore/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ruins-galore}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/PaUM08Xu/1ab05fdda012a65b020e4cb9bcc145decafcf519.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/oBuZ24HP/98afb386ee4c05ea0c8aaee7f427eecf35b9f261_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="SkillBind Bridge" event="url{https://modrinth.com/mod/skillbind-bridge}"
+...button-text text="Architect’s Assistant" event="url{https://modrinth.com/mod/architects-assistant}"
 
-👤 BONUS09 | 📅 2026-07-02
+👤 Purrs | 📅 2026-07-06
 
-Custom keybind support for MMOCore skill slots using a Fabric client mod and server plugin bridge.
+adds commands to make life easier
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/skillbind-bridge/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/skillbind-bridge}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/architects-assistant/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/architects-assistant}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wPBs7ljG/3a7052043973e7eba5835054b6c42032888f6143_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/NmiuNH4C/dc3ae287866cb1c542d57fd40f0353ee7546b7e5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Player Animation Library More Rotation" event="url{https://modrinth.com/mod/playeranimationlibrarymorerotation}"
+...button-text text="Loggit" event="url{https://modrinth.com/mod/loggit}"
 
-👤 kltyton | 📅 2026-07-02
+👤 Corrupt3r | 📅 2026-07-06
 
-A library that extends Player Animation Library and bendable-cuboids with improved player animation 
+logs your playtime. perfectly.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/playeranimationlibrarymorerotation/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/playeranimationlibrarymorerotation}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/loggit/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/loggit}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ A library that extends Player Animation Library and bendable-cuboids with improv
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：百代镌刻之城
-© 锡拉库萨的日落，西西里岛，意大利 (© Balate Dorin/Getty Images)
+🖼️ 壁纸：林冠华彩
+© 板嘴山巨嘴鸟与兰花，厄瓜多尔 (© Murray Cooper/Minden Pictures)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition guides/1.8 releases](https://minecraft.wiki/Bedrock_Edition_guides%2F1.8_releases)
+📖 **Wiki 推荐**：[Minecraft: Amazing Bite-Size Builds](https://minecraft.wiki/Minecraft%3A_Amazing_Bite-Size_Builds)
 
-⏰ 更新时间：2026-07-06 15:50:14
+⏰ 更新时间：2026-07-07 04:06:42
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
