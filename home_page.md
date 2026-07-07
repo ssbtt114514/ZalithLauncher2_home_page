@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-07 04:06:42
+// 生成时间：2026-07-07 14:54:20
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"在人间有谁活着不像是一场炼狱，我不哭我已经没有尊严能放弃。"*
+> *"人生总是那么痛苦吗?还是只有小时候是这样?"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{在人间有谁活着不像是一场炼狱，我不哭我已经没有尊严能放弃。}"
+...button-text text="📋 复制" event="copy{人生总是那么痛苦吗?还是只有小时候是这样?}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.2
-**最新快照**: 26.3-snapshot-2
+**最新快照**: 26.3-snapshot-3
 
 近期版本：
 - **26.2** (2026-06-16)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft%3A_Amazing_Bite-Size_Builds}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Mike_Till}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/pUvrVLXW/ef9383872ed6c4467a03ed6206d33d649199c561_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/sMbJ1e6K/2eab2f6eb9d58e640f8935e4394c34765fb23054.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Expanded Arbor" event="url{https://modrinth.com/mod/expanded-arbor}"
+...button-text text="AutoToolSwitcher" event="url{https://modrinth.com/mod/autotoolswitcher}"
 
-👤 StarchBasedVegetable | 📅 2026-07-07
+👤 Veok | 📅 2026-07-07
 
-Expands the selection of arbored blocks for the Portal Mod
+This is a Client-side Fabric mod. It does an useful thing. It automatically switches to the tool for
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/expanded-arbor/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/expanded-arbor}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/autotoolswitcher/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/autotoolswitcher}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7LlPwnFV/00428591c5ba23d1d6c6a9d9c323d6a041995504_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/nM2oiOyG/e1ac71c546189fae59e2ed7ab5adb85bea8e79e6_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Nitroito's Tooltips" event="url{https://modrinth.com/mod/nitroito-tooltips}"
+...button-text text="SSTTAALLKKEERR" event="url{https://modrinth.com/mod/ssttaallkkeerr}"
 
-👤 nitroito | 📅 2026-07-06
+👤 mittel | 📅 2026-07-07
 
-A complete costumization of your tooltips... choose what to display and how
+The mod transforms your Minecraft world into a more horrific and thrilling experience.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nitroito-tooltips/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nitroito-tooltips}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ssttaallkkeerr/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ssttaallkkeerr}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/vWbLUflR/05a00d8dd51922e6e66cb5c4554e70562512f71d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/MWT5MPwb/3caa5600828f2cee1133969feaa7e5d684981aac_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ruins Galore" event="url{https://modrinth.com/mod/ruins-galore}"
+...button-text text="Pedro II's End Update" event="url{https://modrinth.com/mod/pedroiisendupdate}"
 
-👤 PerryThePlato | 📅 2026-07-06
+👤 PedroII | 📅 2026-07-07
 
-this mod adds 5 new ruin structures to minecraft with good loot.
+This Minecraft mod adds the End Update to the game with 3 new biomes, 3 new structures, 1 mob, and 2
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ruins-galore/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ruins-galore}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pedroiisendupdate/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pedroiisendupdate}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/oBuZ24HP/98afb386ee4c05ea0c8aaee7f427eecf35b9f261_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ybMMiqOC/cf1bd3b55e2e806f24a7ab1f88324568e996a751_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Architect’s Assistant" event="url{https://modrinth.com/mod/architects-assistant}"
+...button-text text="YetiChaos: Yeti Research" event="url{https://modrinth.com/mod/yetichaos}"
 
-👤 Purrs | 📅 2026-07-06
+👤 FimeFire | 📅 2026-07-07
 
-adds commands to make life easier
+Study the Yeti, discover its daily routine, and uncover the story of the photographers before you...
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/architects-assistant/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/architects-assistant}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/yetichaos/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/yetichaos}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/NmiuNH4C/dc3ae287866cb1c542d57fd40f0353ee7546b7e5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/3Or8oXKF/bb22373b23804807ff6d7ceb7a4a8f96003018e4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Loggit" event="url{https://modrinth.com/mod/loggit}"
+...button-text text="MiningFatigueReproductio" event="url{https://modrinth.com/mod/miningfatiguereproductio}"
 
-👤 Corrupt3r | 📅 2026-07-06
+👤 DY_XiaoJiaZi | 📅 2026-07-07
 
-logs your playtime. perfectly.
+Let mining fatigue return to "reasonable" -- linear deceleration, farewell to exponential explosion,
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/loggit/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/loggit}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/miningfatiguereproductio/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/miningfatiguereproductio}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ logs your playtime. perfectly.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Minecraft: Amazing Bite-Size Builds](https://minecraft.wiki/Minecraft%3A_Amazing_Bite-Size_Builds)
+📖 **Wiki 推荐**：[Mike Till](https://minecraft.wiki/Mike_Till)
 
-⏰ 更新时间：2026-07-07 04:06:42
+⏰ 更新时间：2026-07-07 14:54:20
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
