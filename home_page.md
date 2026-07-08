@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-07 14:54:20
+// 生成时间：2026-07-08 03:32:15
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.MountainToucanOrchids_ZH-CN1400221431_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.LakeAtitlan_ZH-CN1920221893_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"人生总是那么痛苦吗?还是只有小时候是这样?"*
+> *"输了你，赢了这个世界也没意义。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{人生总是那么痛苦吗?还是只有小时候是这样?}"
+...button-text text="📋 复制" event="copy{输了你，赢了这个世界也没意义。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Mike_Till}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Xbox_360_Edition_TU52}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/sMbJ1e6K/2eab2f6eb9d58e640f8935e4394c34765fb23054.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xWVyNkeB/81b262aadf83a3941c3e69d9f9bd2422730d6a15.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="AutoToolSwitcher" event="url{https://modrinth.com/mod/autotoolswitcher}"
+...button-text text="Creative Tab Layouts" event="url{https://modrinth.com/mod/creative-tab-layouts}"
 
-👤 Veok | 📅 2026-07-07
+👤 Ziver1246 | 📅 2026-07-08
 
-This is a Client-side Fabric mod. It does an useful thing. It automatically switches to the tool for
+A lightweight API for creating page-based Creative Tabs with sections, headers, banner pages, and an
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/autotoolswitcher/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/autotoolswitcher}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/creative-tab-layouts/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/creative-tab-layouts}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/nM2oiOyG/e1ac71c546189fae59e2ed7ab5adb85bea8e79e6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ffQHHD29/93b193c6b6afa8f0b7c636e21d73791035985235.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="SSTTAALLKKEERR" event="url{https://modrinth.com/mod/ssttaallkkeerr}"
+...button-text text="Cobblemon No IVs" event="url{https://modrinth.com/mod/cobblemon-no-ivs}"
 
-👤 mittel | 📅 2026-07-07
+👤 igorbescobar | 📅 2026-07-08
 
-The mod transforms your Minecraft world into a more horrific and thrilling experience.
+Every Pokémon rolls with the same IVs — no breeding for a perfect spread, no resetting spawns. What 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ssttaallkkeerr/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ssttaallkkeerr}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cobblemon-no-ivs/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cobblemon-no-ivs}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/MWT5MPwb/3caa5600828f2cee1133969feaa7e5d684981aac_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/d9fCjqf7/b888ce7e25c62097c78e4c7d4526f07b45ecb572_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Pedro II's End Update" event="url{https://modrinth.com/mod/pedroiisendupdate}"
+...button-text text="Shield Bash Revived" event="url{https://modrinth.com/mod/shield-bash-revived}"
 
-👤 PedroII | 📅 2026-07-07
+👤 drinomigamez | 📅 2026-07-08
 
-This Minecraft mod adds the End Update to the game with 3 new biomes, 3 new structures, 1 mob, and 2
+Add a Shield Bash ability to all shields in Minecraft 1.21.1 (NeoForge), with knockback, AoE damage,
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pedroiisendupdate/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pedroiisendupdate}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/shield-bash-revived/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/shield-bash-revived}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ybMMiqOC/cf1bd3b55e2e806f24a7ab1f88324568e996a751_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/eFolcF3B/6700b305286b809fd70918dd00c86c09b543903c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="YetiChaos: Yeti Research" event="url{https://modrinth.com/mod/yetichaos}"
+...button-text text="Create: Under Pressure" event="url{https://modrinth.com/mod/create-under-pressure}"
 
-👤 FimeFire | 📅 2026-07-07
+👤 docpotato | 📅 2026-07-08
 
-Study the Yeti, discover its daily routine, and uncover the story of the photographers before you...
+Adds a physics simulated, fluid transport capable hose, as well as a fluid-based linear actuator usi
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/yetichaos/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/yetichaos}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-under-pressure/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-under-pressure}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/3Or8oXKF/bb22373b23804807ff6d7ceb7a4a8f96003018e4_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/3M1LFha4/9e95df9118c77e14c1a3430929a94e98cf0a3f82_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MiningFatigueReproductio" event="url{https://modrinth.com/mod/miningfatiguereproductio}"
+...button-text text="Very easy name tag craft" event="url{https://modrinth.com/mod/very-easy-name-tag-craft}"
 
-👤 DY_XiaoJiaZi | 📅 2026-07-07
+👤 Em3rald_XD | 📅 2026-07-08
 
-Let mining fatigue return to "reasonable" -- linear deceleration, farewell to exponential explosion,
+A simple mod that adds custom crafting recipes for Name Tags and introduces a brand new villager tra
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/miningfatiguereproductio/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/miningfatiguereproductio}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/very-easy-name-tag-craft/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/very-easy-name-tag-craft}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Let mining fatigue return to "reasonable" -- linear deceleration, farewell to ex
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：林冠华彩
-© 板嘴山巨嘴鸟与兰花，厄瓜多尔 (© Murray Cooper/Minden Pictures)
+🖼️ 壁纸：远古火山的回响
+© 阿蒂特兰湖的日出，危地马拉 (© shayes17/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Mike Till](https://minecraft.wiki/Mike_Till)
+📖 **Wiki 推荐**：[Xbox 360 Edition TU52](https://minecraft.wiki/Xbox_360_Edition_TU52)
 
-⏰ 更新时间：2026-07-07 14:54:20
+⏰ 更新时间：2026-07-08 03:32:15
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
