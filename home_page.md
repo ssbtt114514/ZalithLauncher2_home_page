@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-08 06:34:39
+// 生成时间：2026-07-08 14:32:00
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"地球不需要被拯救，需要被拯救的是人类自己。"*
+> *"人生四然：来是偶然，去是必然，尽其当然，顺其自然 ..."*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{地球不需要被拯救，需要被拯救的是人类自己。}"
+...button-text text="📋 复制" event="copy{人生四然：来是偶然，去是必然，尽其当然，顺其自然 ...}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bear_(character)}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_13w18a}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xWVyNkeB/81b262aadf83a3941c3e69d9f9bd2422730d6a15.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/mtA0MjEn/d477f8e98c937ca7aa0eccc91b6a08e99c66f610_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Creative Tab Layouts" event="url{https://modrinth.com/mod/creative-tab-layouts}"
+...button-text text="Create : radiologistics" event="url{https://modrinth.com/mod/create-radiologistics}"
 
-👤 Ziver1246 | 📅 2026-07-08
+👤 Maqwr_ | 📅 2026-07-08
 
-A lightweight API for creating page-based Creative Tabs with sections, headers, banner pages, and an
+Unleash wireless connectivity and node-based logic programming in your Create contraptions
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/creative-tab-layouts/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/creative-tab-layouts}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-radiologistics/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-radiologistics}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ffQHHD29/93b193c6b6afa8f0b7c636e21d73791035985235.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/szCJKF7Z/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Cobblemon No IVs" event="url{https://modrinth.com/mod/cobblemon-no-ivs}"
+...button-text text="Darkness Engine" event="url{https://modrinth.com/mod/darkness-engine}"
 
-👤 igorbescobar | 📅 2026-07-08
+👤 swankydenizen | 📅 2026-07-08
 
-Every Pokémon rolls with the same IVs — no breeding for a perfect spread, no resetting spawns. What 
+Makes darkness absolutely pitch-black. Bring torches!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cobblemon-no-ivs/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cobblemon-no-ivs}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/darkness-engine/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/darkness-engine}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/d9fCjqf7/b888ce7e25c62097c78e4c7d4526f07b45ecb572_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/NzA2FMTI/d6685482ab9631198a79068a876e7f179f92fc07.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Shield Bash Revived" event="url{https://modrinth.com/mod/shield-bash-revived}"
+...button-text text="NoBadBooms" event="url{https://modrinth.com/mod/nobadbooms}"
 
-👤 drinomigamez | 📅 2026-07-08
+👤 JayMing | 📅 2026-07-08
 
-Add a Shield Bash ability to all shields in Minecraft 1.21.1 (NeoForge), with knockback, AoE damage,
+A server-side NeoForge 1.21.1 mod that adds a tntExplodes gamerule, similar to Bedrock Edition, lett
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/shield-bash-revived/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/shield-bash-revived}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nobadbooms/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nobadbooms}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/eFolcF3B/6700b305286b809fd70918dd00c86c09b543903c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/lEvbXLVV/2c38bc18bc3932f8a9f4b7a34895da0a71b556e0.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Under Pressure" event="url{https://modrinth.com/mod/create-under-pressure}"
+...button-text text="Wescraft: Bleach" event="url{https://modrinth.com/mod/wescraft-bleach}"
 
-👤 docpotato | 📅 2026-07-08
+👤 OttoVR_ | 📅 2026-07-08
 
-Adds a physics simulated, fluid transport capable hose, as well as a fluid-based linear actuator usi
+This mod adds an early-game way of repairing armor by washing.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-under-pressure/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-under-pressure}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wescraft-bleach/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wescraft-bleach}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/3M1LFha4/9e95df9118c77e14c1a3430929a94e98cf0a3f82_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/PTIWn6ja/63c12152bfd26a2468c92b76e5156fa7de3080a6_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Very easy name tag craft" event="url{https://modrinth.com/mod/very-easy-name-tag-craft}"
+...button-text text="Manuals" event="url{https://modrinth.com/mod/manuals}"
 
-👤 Em3rald_XD | 📅 2026-07-08
+👤 Stefan_Rot | 📅 2026-07-08
 
-A simple mod that adds custom crafting recipes for Name Tags and introduces a brand new villager tra
+a mod that locks some utility block behind manuals
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/very-easy-name-tag-craft/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/very-easy-name-tag-craft}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/manuals/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/manuals}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ A simple mod that adds custom crafting recipes for Name Tags and introduces a br
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bear (character)](https://minecraft.wiki/Bear_(character))
+📖 **Wiki 推荐**：[Java Edition 13w18a](https://minecraft.wiki/Java_Edition_13w18a)
 
-⏰ 更新时间：2026-07-08 06:34:39
+⏰ 更新时间：2026-07-08 14:32:00
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
