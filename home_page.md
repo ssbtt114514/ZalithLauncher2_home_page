@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-09 04:05:44
+// 生成时间：2026-07-09 15:27:20
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"服下红色药丸吧，那是自由的象征。"*
+> *"其实，恋爱这种东西，当你看上人家的那一刹那就已经失败了。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{服下红色药丸吧，那是自由的象征。}"
+...button-text text="📋 复制" event="copy{其实，恋爱这种东西，当你看上人家的那一刹那就已经失败了。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_effect_texture_history%2FLevitation}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Zombie_Head}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/mtA0MjEn/d477f8e98c937ca7aa0eccc91b6a08e99c66f610_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/tlsBfouU/be0672d61be1a02ca24dd20c70607e7f94827e4e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create : radiologistics" event="url{https://modrinth.com/mod/create-radiologistics}"
+...button-text text="JJC NBT FIX" event="url{https://modrinth.com/mod/jjc-nbt-fix}"
 
-👤 Maqwr_ | 📅 2026-07-08
+👤 Almirion | 📅 2026-07-09
 
-Unleash wireless connectivity and node-based logic programming in your Create contraptions
+JJC NBT Fix fixes a common NBT error
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-radiologistics/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-radiologistics}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jjc-nbt-fix/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jjc-nbt-fix}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/szCJKF7Z/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/tNAlPFb9/050a6f4f68d3c3b464f849ac3fae0fbf092429e9_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Darkness Engine" event="url{https://modrinth.com/mod/darkness-engine}"
+...button-text text="Easy Sort" event="url{https://modrinth.com/mod/easy-sort}"
 
-👤 swankydenizen | 📅 2026-07-08
+👤 imndllnuri | 📅 2026-07-09
 
-Makes darkness absolutely pitch-black. Bring torches!
+A lightweight, vanilla-feel inventory and chest sorting mod for Fabric and NeoForge.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/darkness-engine/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/darkness-engine}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/easy-sort/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/easy-sort}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/NzA2FMTI/d6685482ab9631198a79068a876e7f179f92fc07.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/y14St7Wn/eb95698b60a0e4654f5f6c4fbde6f1fe7b8254e3_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="NoBadBooms" event="url{https://modrinth.com/mod/nobadbooms}"
+...button-text text="FkGauntlet" event="url{https://modrinth.com/mod/fkgauntlet}"
 
-👤 JayMing | 📅 2026-07-08
+👤 Zershyan | 📅 2026-07-09
 
-A server-side NeoForge 1.21.1 mod that adds a tntExplodes gamerule, similar to Bedrock Edition, lett
+Negates damage block from Gauntlet of BOMD.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nobadbooms/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nobadbooms}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fkgauntlet/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fkgauntlet}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/lEvbXLVV/2c38bc18bc3932f8a9f4b7a34895da0a71b556e0.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xu8wy0oC/b0f42074efac37e738f858bccc4298c66e9f8e0b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Wescraft: Bleach" event="url{https://modrinth.com/mod/wescraft-bleach}"
+...button-text text="Magnatour" event="url{https://modrinth.com/mod/magnatour}"
 
-👤 OttoVR_ | 📅 2026-07-08
+👤 roeyqian | 📅 2026-07-09
 
-This mod adds an early-game way of repairing armor by washing.
+Magnatour features experiencing explosive growth in numbers and mechanism throughout your adventures
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wescraft-bleach/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wescraft-bleach}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/magnatour/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/magnatour}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/PTIWn6ja/63c12152bfd26a2468c92b76e5156fa7de3080a6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Y00CWR7x/0ef5948fdc92edec81acf41dda5488355f814fd4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Manuals" event="url{https://modrinth.com/mod/manuals}"
+...button-text text="Random Effects Every Minute" event="url{https://modrinth.com/mod/random-effects-every-minute}"
 
-👤 Stefan_Rot | 📅 2026-07-08
+👤 FilXD | 📅 2026-07-09
 
-a mod that locks some utility block behind manuals
+This project turns normal minecraft into a chaotic playthrough with random effects.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/manuals/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/manuals}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/random-effects-every-minute/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/random-effects-every-minute}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ a mod that locks some utility block behind manuals
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition effect texture history/Levitation](https://minecraft.wiki/Java_Edition_effect_texture_history%2FLevitation)
+📖 **Wiki 推荐**：[Zombie Head](https://minecraft.wiki/Zombie_Head)
 
-⏰ 更新时间：2026-07-09 04:05:44
+⏰ 更新时间：2026-07-09 15:27:20
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
