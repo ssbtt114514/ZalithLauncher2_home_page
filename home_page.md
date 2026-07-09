@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-08 14:32:00
+// 生成时间：2026-07-09 04:05:44
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.LakeAtitlan_ZH-CN1920221893_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.SapaVietnam_ZH-CN2178893672_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"人生四然：来是偶然，去是必然，尽其当然，顺其自然 ..."*
+> *"服下红色药丸吧，那是自由的象征。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{人生四然：来是偶然，去是必然，尽其当然，顺其自然 ...}"
+...button-text text="📋 复制" event="copy{服下红色药丸吧，那是自由的象征。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_13w18a}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_effect_texture_history%2FLevitation}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -173,14 +173,14 @@ a mod that locks some utility block behind manuals
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：远古火山的回响
-© 阿蒂特兰湖的日出，危地马拉 (© shayes17/Getty Images)
+🖼️ 壁纸：步步传承
+© 在沙巴的水稻田，老街，越南 (© Anujak Jaimook/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 13w18a](https://minecraft.wiki/Java_Edition_13w18a)
+📖 **Wiki 推荐**：[Java Edition effect texture history/Levitation](https://minecraft.wiki/Java_Edition_effect_texture_history%2FLevitation)
 
-⏰ 更新时间：2026-07-08 14:32:00
+⏰ 更新时间：2026-07-09 04:05:44
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
