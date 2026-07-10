@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-09 15:27:20
+// 生成时间：2026-07-10 04:00:51
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.SapaVietnam_ZH-CN2178893672_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.VictoriaBeach_ZH-CN8892195426_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"其实，恋爱这种东西，当你看上人家的那一刹那就已经失败了。"*
+> *"归期未如佳期至，巴山夜雨留荒词。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{其实，恋爱这种东西，当你看上人家的那一刹那就已经失败了。}"
+...button-text text="📋 复制" event="copy{归期未如佳期至，巴山夜雨留荒词。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Zombie_Head}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FTaiga%2FButcher_Shop_1}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/tlsBfouU/be0672d61be1a02ca24dd20c70607e7f94827e4e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wkMZmYsD/1e736cbbeb82f451de215eef74cc52d5242afefd.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="JJC NBT FIX" event="url{https://modrinth.com/mod/jjc-nbt-fix}"
+...button-text text="Bring back infinite cut sandstone!" event="url{https://modrinth.com/mod/bring-back-infinite-cut-sandstone}"
 
-👤 Almirion | 📅 2026-07-09
+👤 koutsie | 📅 2026-07-10
 
-JJC NBT Fix fixes a common NBT error
+Bring back the ability to infinitely craft cut sandstone!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jjc-nbt-fix/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jjc-nbt-fix}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bring-back-infinite-cut-sandstone/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bring-back-infinite-cut-sandstone}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/tNAlPFb9/050a6f4f68d3c3b464f849ac3fae0fbf092429e9_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wosCf7Wj/941b6854a69579624d3d438f1b26f06220c7fb13_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Easy Sort" event="url{https://modrinth.com/mod/easy-sort}"
+...button-text text="Phantom Cushion" event="url{https://modrinth.com/mod/phantom-cushion}"
 
-👤 imndllnuri | 📅 2026-07-09
+👤 radwl | 📅 2026-07-10
 
-A lightweight, vanilla-feel inventory and chest sorting mod for Fabric and NeoForge.
+Adds the Phantom Cushion item, an invisible variant of the wool cushions.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/easy-sort/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/easy-sort}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/phantom-cushion/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/phantom-cushion}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/y14St7Wn/eb95698b60a0e4654f5f6c4fbde6f1fe7b8254e3_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zLpmu2zT/8cc7e6f98e2716210e7d6290af68347f620fa0f6.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="FkGauntlet" event="url{https://modrinth.com/mod/fkgauntlet}"
+...button-text text="Essential Chat" event="url{https://modrinth.com/mod/essential-chat}"
 
-👤 Zershyan | 📅 2026-07-09
+👤 NotZyvex | 📅 2026-07-10
 
-Negates damage block from Gauntlet of BOMD.
+Customizable HUD and chat tweaks — coordinates, FPS, clock, ping, direction, armor display, chat hig
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fkgauntlet/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fkgauntlet}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/essential-chat/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/essential-chat}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xu8wy0oC/b0f42074efac37e738f858bccc4298c66e9f8e0b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/5Vv99ycF/93795fbdfc5d4e90cc927aa1fee41d2c0665e903_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Magnatour" event="url{https://modrinth.com/mod/magnatour}"
+...button-text text="W2+PMW Weather EAS" event="url{https://modrinth.com/mod/w2pmw-weather-eas}"
 
-👤 roeyqian | 📅 2026-07-09
+👤 TheWeatherBandit | 📅 2026-07-09
 
-Magnatour features experiencing explosive growth in numbers and mechanism throughout your adventures
+This mod adds some blocks and items so you can report storms, also cleaner version of my old mod Adv
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/magnatour/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/magnatour}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/w2pmw-weather-eas/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/w2pmw-weather-eas}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Y00CWR7x/0ef5948fdc92edec81acf41dda5488355f814fd4_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/aTSYOVqh/26f3bf4ced7d6dc6b369bd5dd7da9c07a7a4223c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Random Effects Every Minute" event="url{https://modrinth.com/mod/random-effects-every-minute}"
+...button-text text="Create Diesel Compat (IE Diesel Generator)" event="url{https://modrinth.com/mod/create-diesel-compat-ie-diesel-generator}"
 
-👤 FilXD | 📅 2026-07-09
+👤 LeFrosheEh | 📅 2026-07-09
 
-This project turns normal minecraft into a chaotic playthrough with random effects.
+Makes Create: Diesel Generator Diesel and Biodiesel Compatible in the Immersive engineering Diesel G
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/random-effects-every-minute/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/random-effects-every-minute}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-diesel-compat-ie-diesel-generator/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-diesel-compat-ie-diesel-generator}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ This project turns normal minecraft into a chaotic playthrough with random effec
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：步步传承
-© 在沙巴的水稻田，老街，越南 (© Anujak Jaimook/Getty Images)
+🖼️ 壁纸：陆地与海洋的鸟瞰图
+© 陆地与海洋的鸟瞰图，维多利亚州，澳大利亚 (© Nearmap/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Zombie Head](https://minecraft.wiki/Zombie_Head)
+📖 **Wiki 推荐**：[Village/Structure/Blueprints/Taiga/Butcher Shop 1](https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FTaiga%2FButcher_Shop_1)
 
-⏰ 更新时间：2026-07-09 15:27:20
+⏰ 更新时间：2026-07-10 04:00:51
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
