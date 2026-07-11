@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-10 14:44:39
+// 生成时间：2026-07-11 03:27:51
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.VictoriaBeach_ZH-CN8892195426_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.AurayBrittany_ZH-CN5549157888_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"爱,其实很简单，困难的是去接受它。"*
+> *"恰沐春风共同游，终只叹，木已舟。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{爱,其实很简单，困难的是去接受它。}"
+...button-text text="📋 复制" event="copy{恰沐春风共同游，终只叹，木已舟。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_Classic_0.26_SURVIVAL_TEST}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_Preview_1.19.30.23}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -173,14 +173,14 @@ Makes Create: Diesel Generator Diesel and Biodiesel Compatible in the Immersive 
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：陆地与海洋的鸟瞰图
-© 陆地与海洋的鸟瞰图，维多利亚州，澳大利亚 (© Nearmap/Getty Images)
+🖼️ 壁纸：布列塔尼的潮汐之约
+© 圣古斯坦港, 欧赖, 布列塔尼, 法国 (© Rolf E. Staerk/Shutterstock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition Classic 0.26 SURVIVAL TEST](https://minecraft.wiki/Java_Edition_Classic_0.26_SURVIVAL_TEST)
+📖 **Wiki 推荐**：[Bedrock Edition Preview 1.19.30.23](https://minecraft.wiki/Bedrock_Edition_Preview_1.19.30.23)
 
-⏰ 更新时间：2026-07-10 14:44:39
+⏰ 更新时间：2026-07-11 03:27:51
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
