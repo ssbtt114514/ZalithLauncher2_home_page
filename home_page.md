@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-12 06:41:22
+// 生成时间：2026-07-12 13:44:08
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"你是住月亮的英雄。"*
+> *"遊びはここまでだ。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{你是住月亮的英雄。}"
+...button-text text="📋 复制" event="copy{遊びはここまでだ。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Ocean_Ruins%2FStructure%2FRuin_6_Mossy}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/0.8.3}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ Makes Create: Diesel Generator Diesel and Biodiesel Compatible in the Immersive 
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Ocean Ruins/Structure/Ruin 6 Mossy](https://minecraft.wiki/Ocean_Ruins%2FStructure%2FRuin_6_Mossy)
+📖 **Wiki 推荐**：[0.8.3](https://minecraft.wiki/0.8.3)
 
-⏰ 更新时间：2026-07-12 06:41:22
+⏰ 更新时间：2026-07-12 13:44:08
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
