@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-13 07:29:16
+// 生成时间：2026-07-13 14:51:40
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"倘若末日将至，我愿与你相依。"*
+> *"失礼。噛みました"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{倘若末日将至，我愿与你相依。}"
+...button-text text="📋 复制" event="copy{失礼。噛みました}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FCoral_Block}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_structure_render_history}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/i5PMLiYX/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ksDyI7e9/0545ee7ee8c11f5ead60537f54f4688767b51549_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Scary Survival" event="url{https://modrinth.com/mod/scary-survival}"
+...button-text text="Aeronautics x Protomanly" event="url{https://modrinth.com/mod/aeronautics-x-protomanly}"
 
-👤 shadow86693 | 📅 2026-07-12
+👤 Atomization | 📅 2026-07-13
 
-Scary Survival is a Fabric mod that recreates the world, progression, mechanics, and atmosphere of E
+Bridge between aeronautics and protomanly weather
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/scary-survival/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/scary-survival}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/aeronautics-x-protomanly/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/aeronautics-x-protomanly}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/jPzkkikd/53fbd9d04afd90fb043d2b107eb91e9be761ed7b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/aSuMLdn3/35c3265964f96f70e163534d95177b1cfa549374_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Disabled Phantoms" event="url{https://modrinth.com/mod/disabled-phantoms}"
+...button-text text="Seed Viewer" event="url{https://modrinth.com/mod/seed-viewer}"
 
-👤 Egireon105 | 📅 2026-07-12
+👤 Acenia | 📅 2026-07-13
 
-Allows each player to individually enable or disable phantom spawning.
+Allows you to preview an entire seed in game or during world creation
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/disabled-phantoms/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/disabled-phantoms}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/seed-viewer/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/seed-viewer}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ru35qihk/59e08adbd0220cf203bdbc2b46a46c61c5e1876b.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/3v13z5os/5ef9718bee31898ab16c4bf90450dfbcba66fcd7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ruh Sandığı — Soul Chest" event="url{https://modrinth.com/mod/ruh-sandigi-soul-chest}"
+...button-text text="AltCraft" event="url{https://modrinth.com/mod/altcraft}"
 
-👤 SpicesFire | 📅 2026-07-12
+👤 Moonii | 📅 2026-07-13
 
-Die in peace: your items and XP sleep safely in an unbreakable soul chest at your death spot. Right-
+AltCraft is a mod that is Minecraft completely reimagined.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ruh-sandigi-soul-chest/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ruh-sandigi-soul-chest}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/altcraft/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/altcraft}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/p1iqD6aL/a2929d4110f6379c54b26f820231bb136e5bb210_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/DfBoWxnI/a2f29f20451cf79b10f46f93270a5bbfd48c7fb8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Eating Sounds" event="url{https://modrinth.com/mod/eating-sounds}"
+...button-text text="SilliestLib" event="url{https://modrinth.com/mod/silliestlib}"
 
-👤 Pav09 | 📅 2026-07-12
+👤 HyperionDash | 📅 2026-07-13
 
-Replaces the default eating noise with distinct sounds for different foods
+A small Library mod for my own projects.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/eating-sounds/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/eating-sounds}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/silliestlib/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/silliestlib}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/EGf3lyTr/2d349fce41ac0814761255f6e88feb6ff1116f72_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Pceuh8vb/c513220c0240f5c55d92ab1364bcd52f66024b48_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="NoMobSpawn" event="url{https://modrinth.com/mod/nomobspawn}"
+...button-text text="PNG Stalkers" event="url{https://modrinth.com/mod/png-stalkers}"
 
-👤 KURGUZ | 📅 2026-07-12
+👤 better_horror | 📅 2026-07-13
 
-A lightweight mod to block specific mob spawns
+this mod adds horror pngs
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nomobspawn/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nomobspawn}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/png-stalkers/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/png-stalkers}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ A lightweight mod to block specific mob spawns
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition block render history/Coral Block](https://minecraft.wiki/Java_Edition_block_render_history%2FCoral_Block)
+📖 **Wiki 推荐**：[Bedrock Edition structure render history](https://minecraft.wiki/Bedrock_Edition_structure_render_history)
 
-⏰ 更新时间：2026-07-13 07:29:16
+⏰ 更新时间：2026-07-13 14:51:40
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
