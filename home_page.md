@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-12 13:44:08
+// 生成时间：2026-07-13 03:41:15
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.KatahdinWWNM_ZH-CN5496444375_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.NavajoSandstone_ZH-CN5009673011_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"遊びはここまでだ。"*
+> *"不敢打开信封啊。因为，打开了就结束了啊。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{遊びはここまでだ。}"
+...button-text text="📋 复制" event="copy{不敢打开信封啊。因为，打开了就结束了啊。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/0.8.3}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/On_a_stick}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wkMZmYsD/1e736cbbeb82f451de215eef74cc52d5242afefd.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/i5PMLiYX/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Bring back infinite cut sandstone!" event="url{https://modrinth.com/mod/bring-back-infinite-cut-sandstone}"
+...button-text text="Scary Survival" event="url{https://modrinth.com/mod/scary-survival}"
 
-👤 koutsie | 📅 2026-07-10
+👤 shadow86693 | 📅 2026-07-12
 
-Bring back the ability to infinitely craft cut sandstone!
+Scary Survival is a Fabric mod that recreates the world, progression, mechanics, and atmosphere of E
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bring-back-infinite-cut-sandstone/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bring-back-infinite-cut-sandstone}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/scary-survival/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/scary-survival}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wosCf7Wj/941b6854a69579624d3d438f1b26f06220c7fb13_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/jPzkkikd/53fbd9d04afd90fb043d2b107eb91e9be761ed7b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Phantom Cushion" event="url{https://modrinth.com/mod/phantom-cushion}"
+...button-text text="Disabled Phantoms" event="url{https://modrinth.com/mod/disabled-phantoms}"
 
-👤 radwl | 📅 2026-07-10
+👤 Egireon105 | 📅 2026-07-12
 
-Adds the Phantom Cushion item, an invisible variant of the wool cushions.
+Allows each player to individually enable or disable phantom spawning.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/phantom-cushion/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/phantom-cushion}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/disabled-phantoms/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/disabled-phantoms}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/zLpmu2zT/8cc7e6f98e2716210e7d6290af68347f620fa0f6.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ru35qihk/59e08adbd0220cf203bdbc2b46a46c61c5e1876b.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Essential Chat" event="url{https://modrinth.com/mod/essential-chat}"
+...button-text text="Ruh Sandığı — Soul Chest" event="url{https://modrinth.com/mod/ruh-sandigi-soul-chest}"
 
-👤 NotZyvex | 📅 2026-07-10
+👤 SpicesFire | 📅 2026-07-12
 
-Customizable HUD and chat tweaks — coordinates, FPS, clock, ping, direction, armor display, chat hig
+Die in peace: your items and XP sleep safely in an unbreakable soul chest at your death spot. Right-
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/essential-chat/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/essential-chat}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ruh-sandigi-soul-chest/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ruh-sandigi-soul-chest}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/5Vv99ycF/93795fbdfc5d4e90cc927aa1fee41d2c0665e903_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/p1iqD6aL/a2929d4110f6379c54b26f820231bb136e5bb210_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="W2+PMW Weather EAS" event="url{https://modrinth.com/mod/w2pmw-weather-eas}"
+...button-text text="Eating Sounds" event="url{https://modrinth.com/mod/eating-sounds}"
 
-👤 TheWeatherBandit | 📅 2026-07-09
+👤 Pav09 | 📅 2026-07-12
 
-This mod adds some blocks and items so you can report storms, also cleaner version of my old mod Adv
+Replaces the default eating noise with distinct sounds for different foods
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/w2pmw-weather-eas/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/w2pmw-weather-eas}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/eating-sounds/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/eating-sounds}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/aTSYOVqh/26f3bf4ced7d6dc6b369bd5dd7da9c07a7a4223c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/EGf3lyTr/2d349fce41ac0814761255f6e88feb6ff1116f72_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create Diesel Compat (IE Diesel Generator)" event="url{https://modrinth.com/mod/create-diesel-compat-ie-diesel-generator}"
+...button-text text="NoMobSpawn" event="url{https://modrinth.com/mod/nomobspawn}"
 
-👤 LeFrosheEh | 📅 2026-07-09
+👤 KURGUZ | 📅 2026-07-12
 
-Makes Create: Diesel Generator Diesel and Biodiesel Compatible in the Immersive engineering Diesel G
+A lightweight mod to block specific mob spawns
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-diesel-compat-ie-diesel-generator/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-diesel-compat-ie-diesel-generator}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nomobspawn/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nomobspawn}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Makes Create: Diesel Generator Diesel and Biodiesel Compatible in the Immersive 
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：缅因州的狂野一面
-© 卡塔丁森林和水域国家纪念地，缅因州，美国 (© Cavan Images/Offset/Shutterstock)
+🖼️ 壁纸：为摇滚而生
+© 羚羊峡谷，纳瓦霍族保留地，亚利桑那州，美国 (© Mark Skalny/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[0.8.3](https://minecraft.wiki/0.8.3)
+📖 **Wiki 推荐**：[On a stick](https://minecraft.wiki/On_a_stick)
 
-⏰ 更新时间：2026-07-12 13:44:08
+⏰ 更新时间：2026-07-13 03:41:15
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
