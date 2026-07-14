@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-14 06:18:46
+// 生成时间：2026-07-14 14:02:23
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"如果不想受伤，请远离带来伤害的所有事物！"*
+> *"所以我松开拳头用手握紧笔，作为自己作为人类也作为你。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{如果不想受伤，请远离带来伤害的所有事物！}"
+...button-text text="📋 复制" event="copy{所以我松开拳头用手握紧笔，作为自己作为人类也作为你。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Durability}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FPointed_Dripstone}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/md0lxAjO/6242d6b3110d7999fbf855a5a03bac43062090a8_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/pTlugVPx/ae91de959b7fc6053a0209fb5a1f5e59425270b8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Trinkets Elytra Support" event="url{https://modrinth.com/mod/trinkets-elytra-support}"
+...button-text text="SkyStone" event="url{https://modrinth.com/mod/skystone}"
 
-👤 Patbox | 📅 2026-07-13
+👤 AmedoNai | 📅 2026-07-14
 
-A datapack enabling elytra support for Trinkets Updated slots
+The cosmos has left its mark. Discover unique meteorite craters scattered across your world, mine ce
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/trinkets-elytra-support/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/trinkets-elytra-support}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/skystone/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/skystone}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/h4VyFn3x/6074c5dfb79799f69920d799cc99beb1540d33bd_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/9FtrZx2P/9e86514706973622a02b6d8958a943e2b7c5605a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Killstreak" event="url{https://modrinth.com/mod/killstreak-dp}"
+...button-text text="Create: Aero Stuff" event="url{https://modrinth.com/mod/create-aero-stuff}"
 
-👤 Napad | 📅 2026-07-13
+👤 IamLeonxx | 📅 2026-07-14
 
-Shows how many player kills you got since your last death.
+Aviation content and aircraft utilities for Create: Aeronautics.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/killstreak-dp/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/killstreak-dp}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-aero-stuff/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-aero-stuff}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/YcSwHFOI/98348160d3031789083c7a6880f62068c5a5be5b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/TfCrGUbp/2fd66de64d1326cdf91772a67b610d1bb41a972e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Fall Effects" event="url{https://modrinth.com/mod/fall-effects}"
+...button-text text="Mekanism: Extra Modules" event="url{https://modrinth.com/mod/mekanism-extra-modules}"
 
-👤 Napad | 📅 2026-07-13
+👤 Rematch | 📅 2026-07-14
 
-Adds cosmetic particles when landing from a certain height.
+Adds extra modules for Mekanism's modular gear, including endgame MekaSuit protection.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fall-effects/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fall-effects}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mekanism-extra-modules/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mekanism-extra-modules}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/XFd238bb/ba6b8657758f7dd03cb3f16d0812370241d9bb88_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vh6aSn2S/228379fe2f55cc01c451197081c9a24be74e8cff_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Sigma Mod" event="url{https://modrinth.com/mod/sigma-modsr19}"
+...button-text text="Aeronautics: Winds & Weather" event="url{https://modrinth.com/mod/aeronautics-winds-and-weather}"
 
-👤 sr19 | 📅 2026-07-13
+👤 enzonic | 📅 2026-07-14
 
-This mod adds a ton of new advancements, blocks, and items, on top of 2 new mobs, a ton of new potio
+Adds realistic wind, weather and temperature to create areonautics and create mod
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sigma-modsr19/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sigma-modsr19}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/aeronautics-winds-and-weather/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/aeronautics-winds-and-weather}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Q6i1uFzc/a4c75fe1f1e1c9e9a7cc150f62b4f5453550a3f4_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/cxUXHlFe/3c7cc0a676256246ca7dcff96f0b9589a0ef2d7e.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Tilting Controls" event="url{https://modrinth.com/mod/create-tilting-controls}"
+...button-text text="Hexagony" event="url{https://modrinth.com/mod/hexagony}"
 
-👤 BirdSys. | 📅 2026-07-13
+👤 hauveli | 📅 2026-07-14
 
-This mod adds compact solutions for otherwise bulky Create: Aeronautics setups
+A Hex Casting addon which intends to add new progression, items and some spells. Lets you do some he
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-tilting-controls/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-tilting-controls}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hexagony/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hexagony}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ This mod adds compact solutions for otherwise bulky Create: Aeronautics setups
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Durability](https://minecraft.wiki/Durability)
+📖 **Wiki 推荐**：[Java Edition block render history/Pointed Dripstone](https://minecraft.wiki/Java_Edition_block_render_history%2FPointed_Dripstone)
 
-⏰ 更新时间：2026-07-14 06:18:46
+⏰ 更新时间：2026-07-14 14:02:23
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
