@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-13 14:51:40
+// 生成时间：2026-07-14 03:16:50
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.NavajoSandstone_ZH-CN5009673011_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.LemonShark_ZH-CN4650331008_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"失礼。噛みました"*
+> *"师者，所以传道授业解惑也。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{失礼。噛みました}"
+...button-text text="📋 复制" event="copy{师者，所以传道授业解惑也。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_structure_render_history}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.4.6%2FDevelopment_versions}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ksDyI7e9/0545ee7ee8c11f5ead60537f54f4688767b51549_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/md0lxAjO/6242d6b3110d7999fbf855a5a03bac43062090a8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Aeronautics x Protomanly" event="url{https://modrinth.com/mod/aeronautics-x-protomanly}"
+...button-text text="Trinkets Elytra Support" event="url{https://modrinth.com/mod/trinkets-elytra-support}"
 
-👤 Atomization | 📅 2026-07-13
+👤 Patbox | 📅 2026-07-13
 
-Bridge between aeronautics and protomanly weather
+A datapack enabling elytra support for Trinkets Updated slots
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/aeronautics-x-protomanly/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/aeronautics-x-protomanly}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/trinkets-elytra-support/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/trinkets-elytra-support}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/aSuMLdn3/35c3265964f96f70e163534d95177b1cfa549374_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/h4VyFn3x/6074c5dfb79799f69920d799cc99beb1540d33bd_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Seed Viewer" event="url{https://modrinth.com/mod/seed-viewer}"
+...button-text text="Killstreak" event="url{https://modrinth.com/mod/killstreak-dp}"
 
-👤 Acenia | 📅 2026-07-13
+👤 Napad | 📅 2026-07-13
 
-Allows you to preview an entire seed in game or during world creation
+Shows how many player kills you got since your last death.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/seed-viewer/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/seed-viewer}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/killstreak-dp/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/killstreak-dp}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/3v13z5os/5ef9718bee31898ab16c4bf90450dfbcba66fcd7_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/YcSwHFOI/98348160d3031789083c7a6880f62068c5a5be5b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="AltCraft" event="url{https://modrinth.com/mod/altcraft}"
+...button-text text="Fall Effects" event="url{https://modrinth.com/mod/fall-effects}"
 
-👤 Moonii | 📅 2026-07-13
+👤 Napad | 📅 2026-07-13
 
-AltCraft is a mod that is Minecraft completely reimagined.
+Adds cosmetic particles when landing from a certain height.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/altcraft/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/altcraft}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fall-effects/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fall-effects}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/DfBoWxnI/a2f29f20451cf79b10f46f93270a5bbfd48c7fb8_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/XFd238bb/ba6b8657758f7dd03cb3f16d0812370241d9bb88_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="SilliestLib" event="url{https://modrinth.com/mod/silliestlib}"
+...button-text text="Sigma Mod" event="url{https://modrinth.com/mod/sigma-modsr19}"
 
-👤 HyperionDash | 📅 2026-07-13
+👤 sr19 | 📅 2026-07-13
 
-A small Library mod for my own projects.
+This mod adds a ton of new advancements, blocks, and items, on top of 2 new mobs, a ton of new potio
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/silliestlib/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/silliestlib}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sigma-modsr19/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sigma-modsr19}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Pceuh8vb/c513220c0240f5c55d92ab1364bcd52f66024b48_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Q6i1uFzc/a4c75fe1f1e1c9e9a7cc150f62b4f5453550a3f4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="PNG Stalkers" event="url{https://modrinth.com/mod/png-stalkers}"
+...button-text text="Create: Tilting Controls" event="url{https://modrinth.com/mod/create-tilting-controls}"
 
-👤 better_horror | 📅 2026-07-13
+👤 BirdSys. | 📅 2026-07-13
 
-this mod adds horror pngs
+This mod adds compact solutions for otherwise bulky Create: Aeronautics setups
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/png-stalkers/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/png-stalkers}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-tilting-controls/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-tilting-controls}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ this mod adds horror pngs
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：为摇滚而生
-© 羚羊峡谷，纳瓦霍族保留地，亚利桑那州，美国 (© Mark Skalny/Getty Images)
+🖼️ 壁纸：奇妙的真相
+© 柠檬鲨幼崽在红树林中，伊柳塞拉岛，巴哈马 (© Shane Gross/Nature Picture Library)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition structure render history](https://minecraft.wiki/Bedrock_Edition_structure_render_history)
+📖 **Wiki 推荐**：[Java Edition 1.4.6/Development versions](https://minecraft.wiki/Java_Edition_1.4.6%2FDevelopment_versions)
 
-⏰ 更新时间：2026-07-13 14:51:40
+⏰ 更新时间：2026-07-14 03:16:50
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
