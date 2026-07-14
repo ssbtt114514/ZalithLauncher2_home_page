@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-14 03:16:50
+// 生成时间：2026-07-14 06:18:46
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"师者，所以传道授业解惑也。"*
+> *"如果不想受伤，请远离带来伤害的所有事物！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{师者，所以传道授业解惑也。}"
+...button-text text="📋 复制" event="copy{如果不想受伤，请远离带来伤害的所有事物！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.4.6%2FDevelopment_versions}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Durability}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ This mod adds compact solutions for otherwise bulky Create: Aeronautics setups
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 1.4.6/Development versions](https://minecraft.wiki/Java_Edition_1.4.6%2FDevelopment_versions)
+📖 **Wiki 推荐**：[Durability](https://minecraft.wiki/Durability)
 
-⏰ 更新时间：2026-07-14 03:16:50
+⏰ 更新时间：2026-07-14 06:18:46
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
