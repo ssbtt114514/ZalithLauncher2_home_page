@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-14 14:02:23
+// 生成时间：2026-07-15 03:16:17
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.LemonShark_ZH-CN4650331008_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.MarieLake_ZH-CN4927917413_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"所以我松开拳头用手握紧笔，作为自己作为人类也作为你。"*
+> *"千载流年一如梦，月落山河一世倾。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{所以我松开拳头用手握紧笔，作为自己作为人类也作为你。}"
+...button-text text="📋 复制" event="copy{千载流年一如梦，月落山河一世倾。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FPointed_Dripstone}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.12.2-pre2}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/pTlugVPx/ae91de959b7fc6053a0209fb5a1f5e59425270b8_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/obnOKoO9/81143cf9cbbf8d36d546d9e3373cd23cafdfaaa9.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="SkyStone" event="url{https://modrinth.com/mod/skystone}"
+...button-text text="Emerald Tools n Armor" event="url{https://modrinth.com/mod/emerald-tools-n-armor}"
 
-👤 AmedoNai | 📅 2026-07-14
+👤 TBBTLY | 📅 2026-07-15
 
-The cosmos has left its mark. Discover unique meteorite craters scattered across your world, mine ce
+This mod adds emerald equipment and sits between Iron and Diamond in comparison.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/skystone/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/skystone}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/emerald-tools-n-armor/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/emerald-tools-n-armor}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/9FtrZx2P/9e86514706973622a02b6d8958a943e2b7c5605a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/UNYfRJXv/ba2063b3389cac24172afca8567135bcf21196f7.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Aero Stuff" event="url{https://modrinth.com/mod/create-aero-stuff}"
+...button-text text="LevelLimit MITE" event="url{https://modrinth.com/mod/levellimit}"
 
-👤 IamLeonxx | 📅 2026-07-14
+👤 JWXHW | 📅 2026-07-15
 
-Aviation content and aircraft utilities for Create: Aeronautics.
+This mod aims to break the level cap and floor in MITE (-40 to 200), alongside attribute adjustments
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-aero-stuff/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-aero-stuff}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/levellimit/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/levellimit}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/TfCrGUbp/2fd66de64d1326cdf91772a67b610d1bb41a972e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/gVJbs7NJ/92889a4571d1f169d45d2b7664d560088ab93564.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mekanism: Extra Modules" event="url{https://modrinth.com/mod/mekanism-extra-modules}"
+...button-text text="Inventorio Extra" event="url{https://modrinth.com/mod/inventorio-extra}"
 
-👤 Rematch | 📅 2026-07-14
+👤 Takobox | 📅 2026-07-15
 
-Adds extra modules for Mekanism's modular gear, including endgame MekaSuit protection.
+A companion mod for Inventorio that adds inventory sorting, configurable tool/block replacement whit
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mekanism-extra-modules/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mekanism-extra-modules}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/inventorio-extra/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/inventorio-extra}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/vh6aSn2S/228379fe2f55cc01c451197081c9a24be74e8cff_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Zavp3bBd/3dd31ff1b60ee3386a00c337c1cff0f3a7984c64_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Aeronautics: Winds & Weather" event="url{https://modrinth.com/mod/aeronautics-winds-and-weather}"
+...button-text text="Noob's Container Searcher" event="url{https://modrinth.com/mod/noobs-container-searcher}"
 
-👤 enzonic | 📅 2026-07-14
+👤 noobfly | 📅 2026-07-15
 
-Adds realistic wind, weather and temperature to create areonautics and create mod
+A client side Fabric mod that remembers the contents of containers you open, then lets you search sa
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/aeronautics-winds-and-weather/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/aeronautics-winds-and-weather}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/noobs-container-searcher/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/noobs-container-searcher}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/cxUXHlFe/3c7cc0a676256246ca7dcff96f0b9589a0ef2d7e.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/UBVdqlDS/b7e4af32cf8ca6cfe140a561bb35cc151dd12436.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Hexagony" event="url{https://modrinth.com/mod/hexagony}"
+...button-text text="Antactica" event="url{https://modrinth.com/mod/antactica}"
 
-👤 hauveli | 📅 2026-07-14
+👤 SindarDen_studios | 📅 2026-07-14
 
-A Hex Casting addon which intends to add new progression, items and some spells. Lets you do some he
+new biome Antarctica , new mashines and more.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hexagony/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hexagony}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/antactica/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/antactica}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ A Hex Casting addon which intends to add new progression, items and some spells.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：奇妙的真相
-© 柠檬鲨幼崽在红树林中，伊柳塞拉岛，巴哈马 (© Shane Gross/Nature Picture Library)
+🖼️ 壁纸：攀登后的奖励
+© 玛丽湖，约翰·缪尔荒野（毕晓普附近），加利福尼亚州，美国 (© Steve Dunleavy/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition block render history/Pointed Dripstone](https://minecraft.wiki/Java_Edition_block_render_history%2FPointed_Dripstone)
+📖 **Wiki 推荐**：[Java Edition 1.12.2-pre2](https://minecraft.wiki/Java_Edition_1.12.2-pre2)
 
-⏰ 更新时间：2026-07-14 14:02:23
+⏰ 更新时间：2026-07-15 03:16:17
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
