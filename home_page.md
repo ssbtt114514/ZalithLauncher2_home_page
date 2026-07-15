@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-15 06:22:18
+// 生成时间：2026-07-15 13:58:58
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"末将于禁，愿为曹家世代赴汤蹈火。"*
+> *"现世为梦，夜梦为真。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{末将于禁，愿为曹家世代赴汤蹈火。}"
+...button-text text="📋 复制" event="copy{现世为梦，夜梦为真。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Data_component_format%2Ffox%2Fvariant}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FSpyglass}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/obnOKoO9/81143cf9cbbf8d36d546d9e3373cd23cafdfaaa9.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/SZ1DDiij/9555138c40d683db6a135a8c75e6b6fc94cc5c47_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Emerald Tools n Armor" event="url{https://modrinth.com/mod/emerald-tools-n-armor}"
+...button-text text="Let Them Talk (LTT)" event="url{https://modrinth.com/mod/let-them-talk}"
 
-👤 TBBTLY | 📅 2026-07-15
+👤 ZipeStudio | 📅 2026-07-15
 
-This mod adds emerald equipment and sits between Iron and Diamond in comparison.
+Client-side Addon for Plasmo Voice & Simple Voice Chat, that lowers your music and other apps while 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/emerald-tools-n-armor/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/emerald-tools-n-armor}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/let-them-talk/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/let-them-talk}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/UNYfRJXv/ba2063b3389cac24172afca8567135bcf21196f7.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/2bKekFeQ/e7f22a4aaa34b4b8f44c424e7320d3a25f67245b.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="LevelLimit MITE" event="url{https://modrinth.com/mod/levellimit}"
+...button-text text="Better Mace Recipe" event="url{https://modrinth.com/mod/better-mace-recipe}"
 
-👤 JWXHW | 📅 2026-07-15
+👤 NobieNotSCARED | 📅 2026-07-15
 
-This mod aims to break the level cap and floor in MITE (-40 to 200), alongside attribute adjustments
+Mace was never this easy to craft.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/levellimit/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/levellimit}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-mace-recipe/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-mace-recipe}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/gVJbs7NJ/92889a4571d1f169d45d2b7664d560088ab93564.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/OUwztNHE/c4adc26afce68bd425c7c5dd6db0639f22454182_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Inventorio Extra" event="url{https://modrinth.com/mod/inventorio-extra}"
+...button-text text="StrideMerchant" event="url{https://modrinth.com/mod/stridemerchant}"
 
-👤 Takobox | 📅 2026-07-15
+👤 IncognitoNoodle | 📅 2026-07-15
 
-A companion mod for Inventorio that adds inventory sorting, configurable tool/block replacement whit
+A walking-powered merchant progression mod with server-authoritative multiplayer support.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/inventorio-extra/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/inventorio-extra}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/stridemerchant/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/stridemerchant}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Zavp3bBd/3dd31ff1b60ee3386a00c337c1cff0f3a7984c64_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/e9CmMWBk/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Noob's Container Searcher" event="url{https://modrinth.com/mod/noobs-container-searcher}"
+...button-text text="Mv_kd" event="url{https://modrinth.com/mod/mv_kd}"
 
-👤 noobfly | 📅 2026-07-15
+👤 vieoz | 📅 2026-07-15
 
-A client side Fabric mod that remembers the contents of containers you open, then lets you search sa
+makes it so you can't hit outside of cooldown/делает так что нельзя бить не в кд 1.21.4 java21
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/noobs-container-searcher/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/noobs-container-searcher}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mv_kd/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mv_kd}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/UBVdqlDS/b7e4af32cf8ca6cfe140a561bb35cc151dd12436.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/cKcZHOvF/0e99cde6663a101e537686bf10b29d30d74e686f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Antactica" event="url{https://modrinth.com/mod/antactica}"
+...button-text text="Ender Tools" event="url{https://modrinth.com/mod/ender-tools}"
 
-👤 SindarDen_studios | 📅 2026-07-14
+👤 CharlesDeMileto | 📅 2026-07-15
 
-new biome Antarctica , new mashines and more.
+A new material forged in the End: mine Enderite Ore, "cook" it with the Ender Dragon's breath, and c
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/antactica/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/antactica}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ender-tools/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ender-tools}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ new biome Antarctica , new mashines and more.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Data component format/fox/variant](https://minecraft.wiki/Data_component_format%2Ffox%2Fvariant)
+📖 **Wiki 推荐**：[Java Edition item texture history/Spyglass](https://minecraft.wiki/Java_Edition_item_texture_history%2FSpyglass)
 
-⏰ 更新时间：2026-07-15 06:22:18
+⏰ 更新时间：2026-07-15 13:58:58
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
