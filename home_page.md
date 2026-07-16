@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-15 13:58:58
+// 生成时间：2026-07-16 03:22:52
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.MarieLake_ZH-CN4927917413_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.NavyPier_ZH-CN4649271588_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"现世为梦，夜梦为真。"*
+> *"仅仅是沉溺于过去，那么，一个人将没有未来。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{现世为梦，夜梦为真。}"
+...button-text text="📋 复制" event="copy{仅仅是沉溺于过去，那么，一个人将没有未来。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FSpyglass}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Shoghi_Cervantes}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/SZ1DDiij/9555138c40d683db6a135a8c75e6b6fc94cc5c47_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xcUm6N6g/f4b76a138e30771c02aa0cb6b52256b538af8b36_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Let Them Talk (LTT)" event="url{https://modrinth.com/mod/let-them-talk}"
+...button-text text="LitematicaSync" event="url{https://modrinth.com/mod/litematicasync}"
 
-👤 ZipeStudio | 📅 2026-07-15
+👤 FanyaOff | 📅 2026-07-16
 
-Client-side Addon for Plasmo Voice & Simple Voice Chat, that lowers your music and other apps while 
+Synchronizes Litematica placements and configurations across different server IPs.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/let-them-talk/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/let-them-talk}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/litematicasync/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/litematicasync}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/2bKekFeQ/e7f22a4aaa34b4b8f44c424e7320d3a25f67245b.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wRHA78h0/08d3a9ec73ca2c31ba10aa53462522572f9b0733_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Better Mace Recipe" event="url{https://modrinth.com/mod/better-mace-recipe}"
+...button-text text="Tide Autofish" event="url{https://modrinth.com/mod/tide-autofish}"
 
-👤 NobieNotSCARED | 📅 2026-07-15
+👤 Duox29 | 📅 2026-07-16
 
-Mace was never this easy to craft.
+Auto play minigame for Tide 2.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-mace-recipe/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-mace-recipe}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tide-autofish/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tide-autofish}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/OUwztNHE/c4adc26afce68bd425c7c5dd6db0639f22454182_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zpssE62T/83795162ef6a3e3ef0999a84677db078749c110a.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="StrideMerchant" event="url{https://modrinth.com/mod/stridemerchant}"
+...button-text text="-DoubleJump-" event="url{https://modrinth.com/mod/-doublejump-}"
 
-👤 IncognitoNoodle | 📅 2026-07-15
+👤 jfyx2025 | 📅 2026-07-16
 
-A walking-powered merchant progression mod with server-authoritative multiplayer support.
+Rush toward obstacles at a certain speed and hold down to jump to trigger a double jump
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/stridemerchant/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/stridemerchant}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/-doublejump-/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/-doublejump-}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/e9CmMWBk/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Z9091xot/d64454d9e2929963f205b3af783e09b407d800cc_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mv_kd" event="url{https://modrinth.com/mod/mv_kd}"
+...button-text text="Smooth Container" event="url{https://modrinth.com/mod/smoothcontainer}"
 
-👤 vieoz | 📅 2026-07-15
+👤 Itamio | 📅 2026-07-16
 
-makes it so you can't hit outside of cooldown/делает так что нельзя бить не в кд 1.21.4 java21
+Eliminates container open lag by instantly rendering GUIs.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mv_kd/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mv_kd}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/smoothcontainer/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/smoothcontainer}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/cKcZHOvF/0e99cde6663a101e537686bf10b29d30d74e686f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/PXRNfXKR/ca35f8ad0a9edbacdc147351c1affced1374bafe_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ender Tools" event="url{https://modrinth.com/mod/ender-tools}"
+...button-text text="All Arrows Pickup" event="url{https://modrinth.com/mod/all-arrows-pickup}"
 
-👤 CharlesDeMileto | 📅 2026-07-15
+👤 DanielhackerXD | 📅 2026-07-15
 
-A new material forged in the End: mine Enderite Ore, "cook" it with the Ender Dragon's breath, and c
+Makes all arrows shot by any entity pickable.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ender-tools/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ender-tools}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/all-arrows-pickup/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/all-arrows-pickup}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ A new material forged in the End: mine Enderite Ore, "cook" it with the Ender Dr
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：攀登后的奖励
-© 玛丽湖，约翰·缪尔荒野（毕晓普附近），加利福尼亚州，美国 (© Steve Dunleavy/Getty Images)
+🖼️ 壁纸：滨水变色龙
+© 海军码头，芝加哥，伊利诺伊州，美国 (© Christopher.F Photography/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition item texture history/Spyglass](https://minecraft.wiki/Java_Edition_item_texture_history%2FSpyglass)
+📖 **Wiki 推荐**：[Shoghi Cervantes](https://minecraft.wiki/Shoghi_Cervantes)
 
-⏰ 更新时间：2026-07-15 13:58:58
+⏰ 更新时间：2026-07-16 03:22:52
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
