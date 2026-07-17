@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-17 06:23:07
+// 生成时间：2026-07-17 13:54:31
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"谨口慎言方可保命。"*
+> *"忘掉生日，忘掉青涩的诗，忘掉他不厌其烦夜夜追逐他影子。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{谨口慎言方可保命。}"
+...button-text text="📋 复制" event="copy{忘掉生日，忘掉青涩的诗，忘掉他不厌其烦夜夜追逐他影子。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/1.14}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Copper_Chain}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -78,22 +78,6 @@ Set up player-owned trading stalls, price your goods, and sell to players or vil
 ...row-start horizontal=spacedBy(8)
 ...button text="⬇️ 下载" event="url{https://modrinth.com/mod/trading-stalls/versions}" weight=(1)
 ...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/trading-stalls}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/OLltaQji/icon.png" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="The Mimic BETA" event="url{https://modrinth.com/mod/the-mimic-beta}"
-
-👤 LARPnTMC | 📅 2026-07-17
-
-hi this is my first TRULY custom mod its not a port of ANYTHING lmao, this mod is about a mimic that
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-mimic-beta/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-mimic-beta}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -146,6 +130,22 @@ A Fabric client-side chain mining & smart farming mod — hold ` to vein-mine, t
 ...column-end
 ...row-end
 
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/TJNGC5Rp/2dd66f2e28a0e5262d8e8ebcf2fc62d668ba0a4e_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Anti Magic" event="url{https://modrinth.com/mod/anti-magic}"
+
+👤 arcforgelab | 📅 2026-07-17
+
+A powered containment system for selectively suppressing vanilla supernatural mechanics in Minecraft
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/anti-magic/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/anti-magic}" weight=(1)
+...row-end
+...column-end
+...row-end
+
 ...row-start horizontal=spacedBy(8)
 ...button text="📥 访问 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
 ...row-end
@@ -178,9 +178,9 @@ A Fabric client-side chain mining & smart farming mod — hold ` to vein-mine, t
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[1.14](https://minecraft.wiki/1.14)
+📖 **Wiki 推荐**：[Copper Chain](https://minecraft.wiki/Copper_Chain)
 
-⏰ 更新时间：2026-07-17 06:23:07
+⏰ 更新时间：2026-07-17 13:54:31
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
