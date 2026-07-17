@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-17 03:25:51
+// 生成时间：2026-07-17 06:23:07
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我会好好的生活，不为别的，就为这些年我亏欠自己的。"*
+> *"谨口慎言方可保命。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我会好好的生活，不为别的，就为这些年我亏欠自己的。}"
+...button-text text="📋 复制" event="copy{谨口慎言方可保命。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_3.31.2}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/1.14}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ A Fabric client-side chain mining & smart farming mod — hold ` to vein-mine, t
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Launcher 3.31.2](https://minecraft.wiki/Launcher_3.31.2)
+📖 **Wiki 推荐**：[1.14](https://minecraft.wiki/1.14)
 
-⏰ 更新时间：2026-07-17 03:25:51
+⏰ 更新时间：2026-07-17 06:23:07
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
