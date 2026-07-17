@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-16 14:10:46
+// 生成时间：2026-07-17 03:25:51
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.NavyPier_ZH-CN4649271588_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.VaiUmbrellas_ZH-CN1271422272_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"慢慢来，谁还没有一个努力的过程。"*
+> *"我会好好的生活，不为别的，就为这些年我亏欠自己的。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{慢慢来，谁还没有一个努力的过程。}"
+...button-text text="📋 复制" event="copy{我会好好的生活，不为别的，就为这些年我亏欠自己的。}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.2
-**最新快照**: 26.3-snapshot-3
+**最新快照**: 26.3-snapshot-4
 
 近期版本：
 - **26.2** (2026-06-16)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2F1.10-1.19}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_3.31.2}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xcUm6N6g/f4b76a138e30771c02aa0cb6b52256b538af8b36_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/uskAR81c/8cec62e68f9c40b7eb9d2c2ddf57e974c0ef2d04.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="LitematicaSync" event="url{https://modrinth.com/mod/litematicasync}"
+...button-text text="Trading Stalls" event="url{https://modrinth.com/mod/trading-stalls}"
 
-👤 FanyaOff | 📅 2026-07-16
+👤 KuKuuu69 | 📅 2026-07-17
 
-Synchronizes Litematica placements and configurations across different server IPs.
+Set up player-owned trading stalls, price your goods, and sell to players or villagers
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/litematicasync/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/litematicasync}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/trading-stalls/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/trading-stalls}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wRHA78h0/08d3a9ec73ca2c31ba10aa53462522572f9b0733_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/OLltaQji/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Tide Autofish" event="url{https://modrinth.com/mod/tide-autofish}"
+...button-text text="The Mimic BETA" event="url{https://modrinth.com/mod/the-mimic-beta}"
 
-👤 Duox29 | 📅 2026-07-16
+👤 LARPnTMC | 📅 2026-07-17
 
-Auto play minigame for Tide 2.
+hi this is my first TRULY custom mod its not a port of ANYTHING lmao, this mod is about a mimic that
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tide-autofish/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tide-autofish}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-mimic-beta/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-mimic-beta}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/zpssE62T/83795162ef6a3e3ef0999a84677db078749c110a.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/DxsKlq8A/d15905909371277881a283ab924d2d7c24bb3e40.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="-DoubleJump-" event="url{https://modrinth.com/mod/-doublejump-}"
+...button-text text="Jest's Artefacts PLUS" event="url{https://modrinth.com/mod/jests-artefacts-plus}"
 
-👤 jfyx2025 | 📅 2026-07-16
+👤 AxisTheJester | 📅 2026-07-17
 
-Rush toward obstacles at a certain speed and hold down to jump to trigger a double jump
+An addon for Jest's Swords PLUS, Jest's Artefacts PLUS aims to add a number of smaller items and wea
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/-doublejump-/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/-doublejump-}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jests-artefacts-plus/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jests-artefacts-plus}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Z9091xot/d64454d9e2929963f205b3af783e09b407d800cc_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/WA5Ki1fq/6d8a64d4c31deeffad50f581692250c9c23294cb.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Smooth Container" event="url{https://modrinth.com/mod/smoothcontainer}"
+...button-text text="AdvancementUnlockedMod" event="url{https://modrinth.com/mod/advancementunlockedmod}"
 
-👤 Itamio | 📅 2026-07-16
+👤 EdvardCode | 📅 2026-07-17
 
-Eliminates container open lag by instantly rendering GUIs.
+Adds 30+ fun and humorous advancements to your Minecraft world, organized into 6 categories!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/smoothcontainer/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/smoothcontainer}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/advancementunlockedmod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/advancementunlockedmod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/PXRNfXKR/ca35f8ad0a9edbacdc147351c1affced1374bafe_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ha7TAvj9/6d25979aea751336a56eed0b37beea07f097e14b.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="All Arrows Pickup" event="url{https://modrinth.com/mod/all-arrows-pickup}"
+...button-text text="TheTidengFarstMod_ChainMining" event="url{https://modrinth.com/mod/thetidengfarstmod_chainmining}"
 
-👤 DanielhackerXD | 📅 2026-07-15
+👤 tideng | 📅 2026-07-17
 
-Makes all arrows shot by any entity pickable.
+A Fabric client-side chain mining & smart farming mod — hold ` to vein-mine, till, plant, and harves
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/all-arrows-pickup/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/all-arrows-pickup}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/thetidengfarstmod_chainmining/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/thetidengfarstmod_chainmining}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Makes all arrows shot by any entity pickable.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：滨水变色龙
-© 海军码头，芝加哥，伊利诺伊州，美国 (© Christopher.F Photography/Getty Images)
+🖼️ 壁纸：希腊式的逃离
+© 瓦伊海滩上的日光浴躺椅，克里特岛，希腊 (© borchee/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition block render history/1.10-1.19](https://minecraft.wiki/Bedrock_Edition_block_render_history%2F1.10-1.19)
+📖 **Wiki 推荐**：[Launcher 3.31.2](https://minecraft.wiki/Launcher_3.31.2)
 
-⏰ 更新时间：2026-07-16 14:10:46
+⏰ 更新时间：2026-07-17 03:25:51
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
