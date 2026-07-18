@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-18 06:11:15
+// 生成时间：2026-07-18 13:37:49
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"今夜不知何处宿，平沙万里绝人烟。"*
+> *"没有调查，没有发言权。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{今夜不知何处宿，平沙万里绝人烟。}"
+...button-text text="📋 复制" event="copy{没有调查，没有发言权。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Mentioned_features%2FBluestone_Dust}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_13w18a}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -66,6 +66,70 @@
 // --- 🧩 Modrinth 最新模组 ---
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/QJy9JI0K/71023cfd7c76beecd4c7ef020cf849fd9540da4b_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="BankMOD|银行模组/支付模组" event="url{https://modrinth.com/mod/bankmod}"
+
+👤 Niu_Roubing | 📅 2026-07-18
+
+Bank mod simulates a real banking and payment experience in Minecraft, featuring bank cards, ATM dep
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bankmod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bankmod}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/o6E4a2Dw/0ecc29f2fd188688d09103f839ee3fd1e9ed3ee6_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Magicraft" event="url{https://modrinth.com/mod/ly-magicraft}"
+
+👤 lullaby | 📅 2026-07-18
+
+Spells, scrolls, mana system and grimoires, be a mage!
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ly-magicraft/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ly-magicraft}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/CeBBZ7DJ/0c83d23bd00d74902c3794c6c28387a443c131ea_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Coords & Days" event="url{https://modrinth.com/mod/coords-and-days}"
+
+👤 FuzjaJadrowa | 📅 2026-07-18
+
+Datapack that adds coords and days in left-top corner of the game.
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/coords-and-days/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/coords-and-days}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/YgFd3sSr/ab0c14090ba2ef161948b7a28bfb910ee3621cd8_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Magic" event="url{https://modrinth.com/mod/zoyluo-magic}"
+
+👤 zoyluo | 📅 2026-07-18
+
+原创星环强化台、12 种可叠加强化与四阶装备成长 / Original Astral Strengthening Table, 12 stackable enhancements, and four-
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/zoyluo-magic/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/zoyluo-magic}" weight=(1)
+...row-end
+...column-end
+...row-end
+
 ...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/n9pE8Wpa/d786b81755238045c5add36acc5e4f940e6e0174_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
@@ -79,70 +143,6 @@ Fixes issues that occur when VR players use teleport
 ...row-start horizontal=spacedBy(8)
 ...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sable-vivecraft-fix/versions}" weight=(1)
 ...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sable-vivecraft-fix}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/dLnuHztJ/6110e0a5aa6570c33b253504004d8ccdee5b45d2_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="The Unseen Origin" event="url{https://modrinth.com/mod/the-unseen-origin}"
-
-👤 Mark_CG_048 | 📅 2026-07-18
-
-This is a custom origin I call "The Unseen Origin" for the Origins mod.
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-unseen-origin/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-unseen-origin}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/hmopNc8L/0f45b50d909bad5061b4ab738887882ef21f3222_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Quick Homes" event="url{https://modrinth.com/mod/quick-series-homes}"
-
-👤 joxer021 | 📅 2026-07-18
-
-Allows players to set homes and teleport to them using the Quick Actions menu.
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/quick-series-homes/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/quick-series-homes}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/dP69yvhb/ee08a79e212940d20fe708e543779f16578a90c3.png" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="The easy way out" event="url{https://modrinth.com/mod/the-easy-way-out}"
-
-👤 bb771 | 📅 2026-07-18
-
-a quick way to respawn back to your base using a gun!
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-easy-way-out/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-easy-way-out}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Zpxwpmaw/a1ae6d93135cdeda2a43e3dff92953a74f06ae5c_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="TruePearls" event="url{https://modrinth.com/mod/truepearls}"
-
-👤 Yashh_Penchi | 📅 2026-07-18
-
-Never lose track of your ender pearl in a fight again - custom textures per thrower, live-configurab
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/truepearls/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/truepearls}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -179,9 +179,9 @@ Never lose track of your ender pearl in a fight again - custom textures per thro
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Mentioned features/Bluestone Dust](https://minecraft.wiki/Mentioned_features%2FBluestone_Dust)
+📖 **Wiki 推荐**：[Java Edition 13w18a](https://minecraft.wiki/Java_Edition_13w18a)
 
-⏰ 更新时间：2026-07-18 06:11:15
+⏰ 更新时间：2026-07-18 13:37:49
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
