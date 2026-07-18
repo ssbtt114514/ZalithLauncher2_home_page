@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-18 03:14:54
+// 生成时间：2026-07-18 06:11:15
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"书上说岁岁年年人不同，但你会一直在的。"*
+> *"今夜不知何处宿，平沙万里绝人烟。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{书上说岁岁年年人不同，但你会一直在的。}"
+...button-text text="📋 复制" event="copy{今夜不知何处宿，平沙万里绝人烟。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Mushroom_Stew}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Mentioned_features%2FBluestone_Dust}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -116,33 +116,33 @@ Allows players to set homes and teleport to them using the Quick Actions menu.
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/E8vOB8XM/5da1784fa73031f6632dff5f7a4802f4b194b442.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/dP69yvhb/ee08a79e212940d20fe708e543779f16578a90c3.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Highroller Origins" event="url{https://modrinth.com/mod/highroller-origins}"
+...button-text text="The easy way out" event="url{https://modrinth.com/mod/the-easy-way-out}"
 
-👤 Wawacatswiss | 📅 2026-07-18
+👤 bb771 | 📅 2026-07-18
 
-A custom origin that add the highroller origin (might be op)
+a quick way to respawn back to your base using a gun!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/highroller-origins/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/highroller-origins}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-easy-way-out/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-easy-way-out}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Dpnl1uQf/94cd9da522bdc1d0d325220e353e3000960c5652_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Zpxwpmaw/a1ae6d93135cdeda2a43e3dff92953a74f06ae5c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Guns" event="url{https://modrinth.com/mod/zoyluo-guns}"
+...button-text text="TruePearls" event="url{https://modrinth.com/mod/truepearls}"
 
-👤 zoyluo | 📅 2026-07-18
+👤 Yashh_Penchi | 📅 2026-07-18
 
-Server-authoritative Fabric weapons for Minecraft 1.21.3: six survival-craftable guns, ammunition, r
+Never lose track of your ender pearl in a fight again - custom textures per thrower, live-configurab
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/zoyluo-guns/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/zoyluo-guns}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/truepearls/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/truepearls}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -179,9 +179,9 @@ Server-authoritative Fabric weapons for Minecraft 1.21.3: six survival-craftable
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Mushroom Stew](https://minecraft.wiki/Mushroom_Stew)
+📖 **Wiki 推荐**：[Mentioned features/Bluestone Dust](https://minecraft.wiki/Mentioned_features%2FBluestone_Dust)
 
-⏰ 更新时间：2026-07-18 03:14:54
+⏰ 更新时间：2026-07-18 06:11:15
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
