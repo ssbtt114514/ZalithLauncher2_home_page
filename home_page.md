@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-18 13:37:49
+// 生成时间：2026-07-19 03:35:30
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.DevilsBridge_ZH-CN2164982440_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.HirundoRustica_ZH-CN2798518247_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"没有调查，没有发言权。"*
+> *"就算是像牛郎和织女那样分开了我们最后也一定会再会的！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{没有调查，没有发言权。}"
+...button-text text="📋 复制" event="copy{就算是像牛郎和织女那样分开了我们最后也一定会再会的！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_13w18a}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FSalmon_Spawn_Egg}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,82 +67,82 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/QJy9JI0K/71023cfd7c76beecd4c7ef020cf849fd9540da4b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/4tTtiCab/972bfc4cd94c24ca97ee3c6f1b86ada2f1400c3e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="BankMOD|银行模组/支付模组" event="url{https://modrinth.com/mod/bankmod}"
+...button-text text="TerraCompositio" event="url{https://modrinth.com/mod/terracompositio}"
 
-👤 Niu_Roubing | 📅 2026-07-18
+👤 SinedKadis | 📅 2026-07-19
 
-Bank mod simulates a real banking and payment experience in Minecraft, featuring bank cards, ATM dep
+Big magic mod, that introduses Flow of Creation and his applications
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bankmod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bankmod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/terracompositio/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/terracompositio}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/o6E4a2Dw/0ecc29f2fd188688d09103f839ee3fd1e9ed3ee6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/MPdfvWpE/7ffe8fe27de390bb64f7bd8cc70a04320445c508_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Magicraft" event="url{https://modrinth.com/mod/ly-magicraft}"
+...button-text text="Enhanced VQ" event="url{https://modrinth.com/mod/enhanced-vq}"
 
-👤 lullaby | 📅 2026-07-18
+👤 Dozan | 📅 2026-07-19
 
-Spells, scrolls, mana system and grimoires, be a mage!
+adds a fully integrated quest system that feels like a natural extension of 
+Vanilla Minecraft.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ly-magicraft/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ly-magicraft}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/enhanced-vq/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/enhanced-vq}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/CeBBZ7DJ/0c83d23bd00d74902c3794c6c28387a443c131ea_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Dtl1xMRM/8b3df6f95ac128251d18d1c8bce6ae45e7c41ce1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Coords & Days" event="url{https://modrinth.com/mod/coords-and-days}"
+...button-text text="PureHUD" event="url{https://modrinth.com/mod/purehud}"
 
-👤 FuzjaJadrowa | 📅 2026-07-18
+👤 Felky_ | 📅 2026-07-19
 
-Datapack that adds coords and days in left-top corner of the game.
+HUD minecraft customizable and convenient
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/coords-and-days/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/coords-and-days}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/purehud/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/purehud}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/YgFd3sSr/ab0c14090ba2ef161948b7a28bfb910ee3621cd8_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/338vwYC3/1f32dde9c3829f76dec8ca8463959c9d75fbea77_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Magic" event="url{https://modrinth.com/mod/zoyluo-magic}"
+...button-text text="Simple Auto Sprint" event="url{https://modrinth.com/mod/simple-auto-sprint}"
 
-👤 zoyluo | 📅 2026-07-18
+👤 creamblyy | 📅 2026-07-19
 
-原创星环强化台、12 种可叠加强化与四阶装备成长 / Original Astral Strengthening Table, 12 stackable enhancements, and four-
+A smart client-side auto-sprint mod for 1.21.11 that prevents sprint resets after attacking, climbin
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/zoyluo-magic/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/zoyluo-magic}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simple-auto-sprint/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simple-auto-sprint}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/n9pE8Wpa/d786b81755238045c5add36acc5e4f940e6e0174_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/7hRHmcMD/618f87603d0628d5df0f02cf13297957736f7022_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Sable-Vivecraft-Fix" event="url{https://modrinth.com/mod/sable-vivecraft-fix}"
+...button-text text="Hypercompostable" event="url{https://modrinth.com/mod/hypercompostable}"
 
-👤 finkkk | 📅 2026-07-18
+👤 Veraxtocity | 📅 2026-07-18
 
-A compatibility patch for Sable and Vivecraft.
-Fixes issues that occur when VR players use teleport 
+A lightweight mod which adds some new compostable items!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sable-vivecraft-fix/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sable-vivecraft-fix}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hypercompostable/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hypercompostable}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -174,14 +174,14 @@ Fixes issues that occur when VR players use teleport
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：环影圆成
-© 恶魔桥在克罗姆劳杜鹃花公园，萨克森州，德国 (© Mike Mareen/Getty Images)
+🖼️ 壁纸：敛羽栖时
+© 不同亚种的家燕聚在一起休息 (© Oscar Dominguez/Tandem Stills + Motion)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 13w18a](https://minecraft.wiki/Java_Edition_13w18a)
+📖 **Wiki 推荐**：[Bedrock Edition item texture history/Salmon Spawn Egg](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FSalmon_Spawn_Egg)
 
-⏰ 更新时间：2026-07-18 13:37:49
+⏰ 更新时间：2026-07-19 03:35:30
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
