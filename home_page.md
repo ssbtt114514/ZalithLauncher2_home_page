@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-19 06:37:15
+// 生成时间：2026-07-19 13:40:33
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"生物趋利避害，生命自私无情。"*
+> *"我们边境的钥匙被折断成两半，而我们的父亲列宁也已去世。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{生物趋利避害，生命自私无情。}"
+...button-text text="📋 复制" event="copy{我们边境的钥匙被折断成两半，而我们的父亲列宁也已去世。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_2.0.760%2FDevelopment_versions}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Shovel_(disambiguation)}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,82 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/4tTtiCab/972bfc4cd94c24ca97ee3c6f1b86ada2f1400c3e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/OheONM6n/f75bdeea1942721e6f9419ce6e6d5514576e3d40_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="TerraCompositio" event="url{https://modrinth.com/mod/terracompositio}"
+...button-text text="Infectious Patch" event="url{https://modrinth.com/mod/infectious-patch}"
 
-👤 SinedKadis | 📅 2026-07-19
+👤 RinkyNooble | 📅 2026-07-19
 
-Big magic mod, that introduses Flow of Creation and his applications
+Companion patch: suppresses the Infectious "Lootdrop" tellraw/sound cues since the enableLootdrops g
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/terracompositio/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/terracompositio}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/infectious-patch/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/infectious-patch}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/MPdfvWpE/7ffe8fe27de390bb64f7bd8cc70a04320445c508_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/RAmmQzJY/f09a564cd9cc3f3bf91d0b7d0eec66b80ef96c30_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Enhanced VQ" event="url{https://modrinth.com/mod/enhanced-vq}"
+...button-text text="Forged Lead" event="url{https://modrinth.com/mod/forged-lead}"
 
-👤 Dozan | 📅 2026-07-19
+👤 gvoze32 | 📅 2026-07-19
 
-adds a fully integrated quest system that feels like a natural extension of 
-Vanilla Minecraft.
+Makes leads (leashes) unbreakable in Minecraft. No more leads snapping when your animals wander too 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/enhanced-vq/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/enhanced-vq}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/forged-lead/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/forged-lead}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Dtl1xMRM/8b3df6f95ac128251d18d1c8bce6ae45e7c41ce1_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/YvHjiDOy/54b0da1813840f39ea2734ff60eac25101f6a9e1.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="PureHUD" event="url{https://modrinth.com/mod/purehud}"
+...button-text text="Freeze Lib" event="url{https://modrinth.com/mod/freeze-lib}"
 
-👤 Felky_ | 📅 2026-07-19
+👤 FreezePhoenix | 📅 2026-07-19
 
-HUD minecraft customizable and convenient
+A library mod to be used by my other projects!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/purehud/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/purehud}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/freeze-lib/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/freeze-lib}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/338vwYC3/1f32dde9c3829f76dec8ca8463959c9d75fbea77_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/NUsQRh7C/dd985faede700ae42026b8f13b2f105d23b1e369_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Simple Auto Sprint" event="url{https://modrinth.com/mod/simple-auto-sprint}"
+...button-text text="The Dreamland" event="url{https://modrinth.com/mod/the-dreamland}"
 
-👤 creamblyy | 📅 2026-07-19
+👤 flamingman54 | 📅 2026-07-19
 
-A smart client-side auto-sprint mod for 1.21.11 that prevents sprint resets after attacking, climbin
+Welcome to Minecraft: Dream Engine Edition!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simple-auto-sprint/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simple-auto-sprint}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-dreamland/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-dreamland}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7hRHmcMD/618f87603d0628d5df0f02cf13297957736f7022_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/R0VpRl4S/d2adc6114d65c7bac44f9202d2371d7441f69583_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Hypercompostable" event="url{https://modrinth.com/mod/hypercompostable}"
+...button-text text="CoopRoles" event="url{https://modrinth.com/mod/cooproles}"
 
-👤 Veraxtocity | 📅 2026-07-18
+👤 EdvardCode | 📅 2026-07-19
 
-A lightweight mod which adds some new compostable items!
+Share responsibilities with friends: each player can only perform actions of their class, making tea
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hypercompostable/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hypercompostable}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cooproles/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cooproles}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -179,9 +178,9 @@ A lightweight mod which adds some new compostable items!
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Launcher 2.0.760/Development versions](https://minecraft.wiki/Launcher_2.0.760%2FDevelopment_versions)
+📖 **Wiki 推荐**：[Shovel (disambiguation)](https://minecraft.wiki/Shovel_(disambiguation))
 
-⏰ 更新时间：2026-07-19 06:37:15
+⏰ 更新时间：2026-07-19 13:40:33
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
