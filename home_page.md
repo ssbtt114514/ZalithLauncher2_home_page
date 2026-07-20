@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-20 06:55:05
+// 生成时间：2026-07-20 14:24:13
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"云漫天，梦中巷，白日不得见；人如浪，聚似潮，不知何处去。"*
+> *"我之所以想变强，是为了活得轻松写意。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{云漫天，梦中巷，白日不得见；人如浪，聚似潮，不知何处去。}"
+...button-text text="📋 复制" event="copy{我之所以想变强，是为了活得轻松写意。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Cartographer}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft%2FDevelopment}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Fg7ej7zI/1a0334d8bd3cc25d03d8bc68900ab5fa7a12ec70_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/GjY7VVKD/5805693df7367adb8112c040bf8e6930136741c5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Armor Override" event="url{https://modrinth.com/mod/armor-override}"
+...button-text text="More Tetra Benches!" event="url{https://modrinth.com/mod/moretetrabench}"
 
-👤 MrZylr | 📅 2026-07-20
+👤 thatwon | 📅 2026-07-20
 
-Adds modular armor overrides by item name
+Gives tetra compat for 3 other workstation blocks.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/armor-override/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/armor-override}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/moretetrabench/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/moretetrabench}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ojYA4YRf/97306c31d498dec28c8a9cba79c958751ab01585.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xCCmjlFN/7db88eb71d149d3caea3a5741b3a633b30c2de14_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Emote Chat" event="url{https://modrinth.com/mod/emote-chat}"
+...button-text text="nekorelay" event="url{https://modrinth.com/mod/nekorelay}"
 
-👤 SimolZimol | 📅 2026-07-20
+👤 kuroneko6423 | 📅 2026-07-20
 
-This Minecraft Fabric client mod that adds a small + button next to the chat, allowing players to qu
+Let’s make it so you can host a Minecraft server for free without opening any ports.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/emote-chat/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/emote-chat}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nekorelay/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nekorelay}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/VaMSC73S/0157c6aaff88eea697c82593a3cdfc6ed2affcd9.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wdsPUH3M/6774c2274101201924a5597b7f8022c8e915eec1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="BlueGreen Enchantments" event="url{https://modrinth.com/mod/bluegreen-enchantments}"
+...button-text text="Window Title Bar Information" event="url{https://modrinth.com/mod/window-title-bar-information}"
 
-👤 Kile_ | 📅 2026-07-19
+👤 Luc1fer1o | 📅 2026-07-20
 
-Adds twenty custom enchantments with a four-slot custom enchantment limit.
+Customizable client-side window title info for NeoForge 1.21.1 with dark Windows title bar support, 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bluegreen-enchantments/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bluegreen-enchantments}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/window-title-bar-information/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/window-title-bar-information}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/vyHIoAyg/ea2a466539c431481f9aa95c02a8c3bc6db90752_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/yiAxil3V/cc757f2ef7f67e0e70a64cd9ecc51a95bed32153_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Large Structure Lib" event="url{https://modrinth.com/mod/largestructlib}"
+...button-text text="Vyvern Bridge" event="url{https://modrinth.com/mod/vyvern-bridge}"
 
-👤 rebbystuff | 📅 2026-07-19
+👤 Vyvern | 📅 2026-07-20
 
-Library for large structures, including enormous jigsaw structures.
+Shared foundation for every Vyvern companion mod - WebSocket bus, permissions, config sync and the i
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/largestructlib/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/largestructlib}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/vyvern-bridge/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/vyvern-bridge}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/MUCGQaGv/e4daf4122304d82692fa2e5ce14e2537927087a3_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/V74QPcNi/17a179942800300de3fa2be34f02a594dbfecaf0_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Droneworks Simulated" event="url{https://modrinth.com/mod/create-droneworks-simulated}"
+...button-text text="TickTweak" event="url{https://modrinth.com/mod/ticktweak}"
 
-👤 LowTierChud | 📅 2026-07-19
+👤 MCclip | 📅 2026-07-20
 
-Create your own custom FPV drones with aeronautics
+Convenient tick control: one-key tick stepping, freeze toggle, hold-to-slow-motion, and responsive i
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-droneworks-simulated/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-droneworks-simulated}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ticktweak/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ticktweak}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Create your own custom FPV drones with aeronautics
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Cartographer](https://minecraft.wiki/Cartographer)
+📖 **Wiki 推荐**：[Minecraft/Development](https://minecraft.wiki/Minecraft%2FDevelopment)
 
-⏰ 更新时间：2026-07-20 06:55:05
+⏰ 更新时间：2026-07-20 14:24:13
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
