@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-19 13:40:33
+// 生成时间：2026-07-20 03:50:02
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.HirundoRustica_ZH-CN2798518247_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.Artemis_ZH-CN3540365575_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我们边境的钥匙被折断成两半，而我们的父亲列宁也已去世。"*
+> *"寻觅归乡之路，一次一颗子弹"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我们边境的钥匙被折断成两半，而我们的父亲列宁也已去世。}"
+...button-text text="📋 复制" event="copy{寻觅归乡之路，一次一颗子弹}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Shovel_(disambiguation)}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Fsetspawn}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/OheONM6n/f75bdeea1942721e6f9419ce6e6d5514576e3d40_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Fg7ej7zI/1a0334d8bd3cc25d03d8bc68900ab5fa7a12ec70_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Infectious Patch" event="url{https://modrinth.com/mod/infectious-patch}"
+...button-text text="Armor Override" event="url{https://modrinth.com/mod/armor-override}"
 
-👤 RinkyNooble | 📅 2026-07-19
+👤 MrZylr | 📅 2026-07-20
 
-Companion patch: suppresses the Infectious "Lootdrop" tellraw/sound cues since the enableLootdrops g
+Adds modular armor overrides by item name
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/infectious-patch/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/infectious-patch}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/armor-override/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/armor-override}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/RAmmQzJY/f09a564cd9cc3f3bf91d0b7d0eec66b80ef96c30_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ojYA4YRf/97306c31d498dec28c8a9cba79c958751ab01585.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Forged Lead" event="url{https://modrinth.com/mod/forged-lead}"
+...button-text text="Emote Chat" event="url{https://modrinth.com/mod/emote-chat}"
 
-👤 gvoze32 | 📅 2026-07-19
+👤 SimolZimol | 📅 2026-07-20
 
-Makes leads (leashes) unbreakable in Minecraft. No more leads snapping when your animals wander too 
+This Minecraft Fabric client mod that adds a small + button next to the chat, allowing players to qu
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/forged-lead/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/forged-lead}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/emote-chat/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/emote-chat}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/YvHjiDOy/54b0da1813840f39ea2734ff60eac25101f6a9e1.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/VaMSC73S/0157c6aaff88eea697c82593a3cdfc6ed2affcd9.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Freeze Lib" event="url{https://modrinth.com/mod/freeze-lib}"
+...button-text text="BlueGreen Enchantments" event="url{https://modrinth.com/mod/bluegreen-enchantments}"
 
-👤 FreezePhoenix | 📅 2026-07-19
+👤 Kile_ | 📅 2026-07-19
 
-A library mod to be used by my other projects!
+Adds twenty custom enchantments with a four-slot custom enchantment limit.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/freeze-lib/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/freeze-lib}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bluegreen-enchantments/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bluegreen-enchantments}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/NUsQRh7C/dd985faede700ae42026b8f13b2f105d23b1e369_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vyHIoAyg/ea2a466539c431481f9aa95c02a8c3bc6db90752_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="The Dreamland" event="url{https://modrinth.com/mod/the-dreamland}"
+...button-text text="Large Structure Lib" event="url{https://modrinth.com/mod/largestructlib}"
 
-👤 flamingman54 | 📅 2026-07-19
+👤 rebbystuff | 📅 2026-07-19
 
-Welcome to Minecraft: Dream Engine Edition!
+Library for large structures, including enormous jigsaw structures.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-dreamland/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-dreamland}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/largestructlib/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/largestructlib}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/R0VpRl4S/d2adc6114d65c7bac44f9202d2371d7441f69583_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/MUCGQaGv/e4daf4122304d82692fa2e5ce14e2537927087a3_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="CoopRoles" event="url{https://modrinth.com/mod/cooproles}"
+...button-text text="Create: Droneworks Simulated" event="url{https://modrinth.com/mod/create-droneworks-simulated}"
 
-👤 EdvardCode | 📅 2026-07-19
+👤 LowTierChud | 📅 2026-07-19
 
-Share responsibilities with friends: each player can only perform actions of their class, making tea
+Create your own custom FPV drones with aeronautics
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cooproles/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cooproles}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-droneworks-simulated/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-droneworks-simulated}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Share responsibilities with friends: each player can only perform actions of the
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：敛羽栖时
-© 不同亚种的家燕聚在一起休息 (© Oscar Dominguez/Tandem Stills + Motion)
+🖼️ 壁纸：月瞰寰宇
+© 月球与地球由阿耳忒弥斯2号机组人员拍摄 (© NASA)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Shovel (disambiguation)](https://minecraft.wiki/Shovel_(disambiguation))
+📖 **Wiki 推荐**：[Commands/setspawn](https://minecraft.wiki/Commands%2Fsetspawn)
 
-⏰ 更新时间：2026-07-19 13:40:33
+⏰ 更新时间：2026-07-20 03:50:02
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
