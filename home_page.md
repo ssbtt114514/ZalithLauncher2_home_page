@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-21 03:29:40
+// 生成时间：2026-07-21 06:35:36
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"梦比现实更易侵蚀人的精神，刻意准备的梦是危险的。"*
+> *"记忆的流沙倾洒，所有的可爱模样都化为浮华。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{梦比现实更易侵蚀人的精神，刻意准备的梦是危险的。}"
+...button-text text="📋 复制" event="copy{记忆的流沙倾洒，所有的可爱模样都化为浮华。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Badlands}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Enchantment_tag_(Java_Edition)}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ Convenient tick control: one-key tick stepping, freeze toggle, hold-to-slow-moti
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Badlands](https://minecraft.wiki/Badlands)
+📖 **Wiki 推荐**：[Enchantment tag (Java Edition)](https://minecraft.wiki/Enchantment_tag_(Java_Edition))
 
-⏰ 更新时间：2026-07-21 03:29:40
+⏰ 更新时间：2026-07-21 06:35:36
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
