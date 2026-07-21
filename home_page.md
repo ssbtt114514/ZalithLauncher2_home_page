@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-21 06:35:36
+// 生成时间：2026-07-21 14:10:00
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"记忆的流沙倾洒，所有的可爱模样都化为浮华。"*
+> *"游心于淡，合气于漠，顺物自然而无容私焉。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{记忆的流沙倾洒，所有的可爱模样都化为浮华。}"
+...button-text text="📋 复制" event="copy{游心于淡，合气于漠，顺物自然而无容私焉。}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.2
-**最新快照**: 26.3-snapshot-4
+**最新快照**: 26.3-snapshot-5
 
 近期版本：
 - **26.2** (2026-06-16)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Enchantment_tag_(Java_Edition)}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Crossbow_(disambiguation)}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ Convenient tick control: one-key tick stepping, freeze toggle, hold-to-slow-moti
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Enchantment tag (Java Edition)](https://minecraft.wiki/Enchantment_tag_(Java_Edition))
+📖 **Wiki 推荐**：[Crossbow (disambiguation)](https://minecraft.wiki/Crossbow_(disambiguation))
 
-⏰ 更新时间：2026-07-21 06:35:36
+⏰ 更新时间：2026-07-21 14:10:00
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
