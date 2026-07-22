@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-21 14:10:00
+// 生成时间：2026-07-22 03:28:10
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.SantaCatalina_ZH-CN6223370790_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.CoralAwareness_ZH-CN1621627126_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"游心于淡，合气于漠，顺物自然而无容私焉。"*
+> *"想丢掉回忆，却又牢牢握紧。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{游心于淡，合气于漠，顺物自然而无容私焉。}"
+...button-text text="📋 复制" event="copy{想丢掉回忆，却又牢牢握紧。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Crossbow_(disambiguation)}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/2nd_Birthday_Skin_Pack}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/GjY7VVKD/5805693df7367adb8112c040bf8e6930136741c5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/PlYdCB7j/66af6841693f6d2778f62cd73c570c7b55cd79f0_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="More Tetra Benches!" event="url{https://modrinth.com/mod/moretetrabench}"
+...button-text text="Create: Threaded Tracks" event="url{https://modrinth.com/mod/threaded-tracks}"
 
-👤 thatwon | 📅 2026-07-20
+👤 Ghasto | 📅 2026-07-21
 
-Gives tetra compat for 3 other workstation blocks.
+Optimizes track placement in Create by moving it to a different thread.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/moretetrabench/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/moretetrabench}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/threaded-tracks/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/threaded-tracks}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xCCmjlFN/7db88eb71d149d3caea3a5741b3a633b30c2de14_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zYUBdfyc/4e541ff3fe8cf5968e9d959faecc7e46a25d1616_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="nekorelay" event="url{https://modrinth.com/mod/nekorelay}"
+...button-text text="darkabyss" event="url{https://modrinth.com/mod/darkabyss}"
 
-👤 kuroneko6423 | 📅 2026-07-20
+👤 1361651519 | 📅 2026-07-21
 
-Let’s make it so you can host a Minecraft server for free without opening any ports.
+hadows fall, the abyss awakens. 5 terrifying new mobs + the Abyss Lord boss fight. Craft the Dark Ab
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nekorelay/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nekorelay}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/darkabyss/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/darkabyss}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wdsPUH3M/6774c2274101201924a5597b7f8022c8e915eec1_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ytKr895Q/2f8e32162eefa1ac684d8c9fdc41190b9107688f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Window Title Bar Information" event="url{https://modrinth.com/mod/window-title-bar-information}"
+...button-text text="Mei's Mushrooms Mod" event="url{https://modrinth.com/mod/meis-mushrooms-mod}"
 
-👤 Luc1fer1o | 📅 2026-07-20
+👤 Kawaii_Meichan | 📅 2026-07-21
 
-Customizable client-side window title info for NeoForge 1.21.1 with dark Windows title bar support, 
+A small, but, packed mushroom-themed mod, with blocks and buddies.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/window-title-bar-information/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/window-title-bar-information}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/meis-mushrooms-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/meis-mushrooms-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/yiAxil3V/cc757f2ef7f67e0e70a64cd9ecc51a95bed32153_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wIHJf6qM/288a859f4041861c86eb531de0e214a46c1e6dbe_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Vyvern Bridge" event="url{https://modrinth.com/mod/vyvern-bridge}"
+...button-text text="Greener Forests" event="url{https://modrinth.com/mod/greener-forests}"
 
-👤 Vyvern | 📅 2026-07-20
+👤 Timpaw21 | 📅 2026-07-21
 
-Shared foundation for every Vyvern companion mod - WebSocket bus, permissions, config sync and the i
+Green wood in Minecraft because why not
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/vyvern-bridge/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/vyvern-bridge}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/greener-forests/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/greener-forests}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/V74QPcNi/17a179942800300de3fa2be34f02a594dbfecaf0_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/1KT3WHlF/81d213368125b5d489fc910787dec5eab6ca42a0_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="TickTweak" event="url{https://modrinth.com/mod/ticktweak}"
+...button-text text="GuardianControl" event="url{https://modrinth.com/mod/guardiancontrol}"
 
-👤 MCclip | 📅 2026-07-20
+👤 ModdingFrameStudio | 📅 2026-07-21
 
-Convenient tick control: one-key tick stepping, freeze toggle, hold-to-slow-motion, and responsive i
+GuardianControl is a Forge administration mod that adds powerful server protection, player control, 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ticktweak/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ticktweak}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/guardiancontrol/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/guardiancontrol}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Convenient tick control: one-key tick stepping, freeze toggle, hold-to-slow-moti
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：拱影寻踪
-© 圣卡塔琳娜拱门，安提瓜，危地马拉 (© Filippo Maria Bianchi/Getty Images)
+🖼️ 壁纸：细微之举，影响深远
+© 珊瑚礁与海滩在拉贾安帕特，印度尼西亚 (© SergeUWPhoto/Shutterstock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Crossbow (disambiguation)](https://minecraft.wiki/Crossbow_(disambiguation))
+📖 **Wiki 推荐**：[2nd Birthday Skin Pack](https://minecraft.wiki/2nd_Birthday_Skin_Pack)
 
-⏰ 更新时间：2026-07-21 14:10:00
+⏰ 更新时间：2026-07-22 03:28:10
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
