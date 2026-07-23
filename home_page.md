@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-22 14:13:24
+// 生成时间：2026-07-23 03:33:18
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.CoralAwareness_ZH-CN1621627126_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.PinkDahlia_ZH-CN2259107800_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"落尽红缨君不见，轻绘梨花泪沾衣。"*
+> *"Technoblade never dies!"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{落尽红缨君不见，轻绘梨花泪沾衣。}"
+...button-text text="📋 复制" event="copy{Technoblade never dies!}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bastion_Remnant%2FStructure%2FBlueprints%2Fbastion-hoglin_stable-small_stables-outer_2}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Data_component_format%2Fuse_cooldown}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/I5zW79DI/dd350c29e94acb1c8d327b139b2db6e8f5e32eec.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/nbmiKwce/a224fdeb85604e218114aae29bcacb3a758e2229.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Camille's Resourceful Stones" event="url{https://modrinth.com/mod/camilles-resourceful-stones}"
+...button-text text="Echo Compass HUD" event="url{https://modrinth.com/mod/echo-compass-hud}"
 
-👤 Cam3 | 📅 2026-07-22
+👤 lazydev418 | 📅 2026-07-23
 
-This datapack adds a VERY RARE chance to find ores while mining stone (and stone-like blocks), makin
+A minimalist yet immersive compass overlay that shows your current direction, angle, coordinates.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/camilles-resourceful-stones/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/camilles-resourceful-stones}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/echo-compass-hud/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/echo-compass-hud}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/zaPcMGz6/6e2a003dd03cc72203d5eac8fdbb351e2340fa83_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/X2qrYMqg/5dfa807c51ced26b3d4e6eb0464acfa78f38a8b6.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Abyssaline Nether" event="url{https://modrinth.com/mod/abyssaline-nether}"
+...button-text text="Giant Crop's" event="url{https://modrinth.com/mod/ticklgiantcrops}"
 
-👤 Jayzet | 📅 2026-07-22
+👤 ticklopes | 📅 2026-07-23
 
-An overhaul to the generation of the nether that aims to make the dimension feel more coherent and i
+Make farming more interesting and add yummy, awesome giant crops to Minecraft!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/abyssaline-nether/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/abyssaline-nether}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ticklgiantcrops/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ticklgiantcrops}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/aayJAD9u/50df67c62a7f176b5956e0516f3352024d1b1169.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/j9ESD6E3/f1f91ad1ab6b2a764ec9354606008cc55c248620_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Silver's Ray Cast Library | RCL" event="url{https://modrinth.com/mod/silvers_ray-cast-library}"
+...button-text text="Cat Cushions" event="url{https://modrinth.com/mod/cat-cushions}"
 
-👤 ItzSilver_ | 📅 2026-07-22
+👤 pokemaniac_101 | 📅 2026-07-23
 
-Yet another Ray Cast library! with even more functions?
+Adds cushions to the cat's laying down logic, just like beds
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/silvers_ray-cast-library/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/silvers_ray-cast-library}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cat-cushions/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cat-cushions}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/TUfCjF9V/d87f57136d78e2563e02c41c2bd450eb9a9cd410_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ZxqVT5Pi/c1e8ea18bb1a7beee131fba4fcc3d348831b7f73_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Better Crafts - old versions" event="url{https://modrinth.com/mod/better-crafts-old-versions}"
+...button-text text="New ItemDuper" event="url{https://modrinth.com/mod/new-itemduper}"
 
-👤 Nat_68 | 📅 2026-07-22
+👤 soulsborne123 | 📅 2026-07-23
 
-Better Crafts - old versions is a datapack that improves a lifetime [1.16.x - 26.2]
+A mod that lets you dupe an item, by pressing G!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-crafts-old-versions/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-crafts-old-versions}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/new-itemduper/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/new-itemduper}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/q9IQHpND/2ee877d93d8f72c1afa6320778d2f19bb678ae2d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/GYfk79U2/4f6b7f4c0c8cd429b39b79002e1144e5e51e15e7.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create Automaton: Reconfiguration" event="url{https://modrinth.com/mod/create-automaton-reconfiguration}"
+...button-text text="Potion Bread" event="url{https://modrinth.com/mod/potion-bread}"
 
-👤 mrtophatt | 📅 2026-07-22
+👤 sea-sky-coder | 📅 2026-07-23
 
-This is an addon to the Create Automaton that allows the ability to change abilities after the initi
+Stackable Potion Bread
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-automaton-reconfiguration/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-automaton-reconfiguration}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/potion-bread/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/potion-bread}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ This is an addon to the Create Automaton that allows the ability to change abili
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：细微之举，影响深远
-© 珊瑚礁与海滩在拉贾安帕特，印度尼西亚 (© SergeUWPhoto/Shutterstock)
+🖼️ 壁纸：瓣叠交响
+© 粉红色大丽花 (© Harald Biebel/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bastion Remnant/Structure/Blueprints/bastion-hoglin stable-small stables-outer 2](https://minecraft.wiki/Bastion_Remnant%2FStructure%2FBlueprints%2Fbastion-hoglin_stable-small_stables-outer_2)
+📖 **Wiki 推荐**：[Data component format/use cooldown](https://minecraft.wiki/Data_component_format%2Fuse_cooldown)
 
-⏰ 更新时间：2026-07-22 14:13:24
+⏰ 更新时间：2026-07-23 03:33:18
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
