@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-23 06:35:36
+// 生成时间：2026-07-23 14:22:39
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"あなたは敵だけど悪くない。"*
+> *"为了能体面地死去而狼狈地活着。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{あなたは敵だけど悪くない。}"
+...button-text text="📋 复制" event="copy{为了能体面地死去而狼狈地活着。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Boat}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FCobblestone_Wall}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/nbmiKwce/a224fdeb85604e218114aae29bcacb3a758e2229.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/QqxoD2TR/fb2dc50b2591ba6e2f7d2f79bb3629e5ab5ac85f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Echo Compass HUD" event="url{https://modrinth.com/mod/echo-compass-hud}"
+...button-text text="Metro Villagers" event="url{https://modrinth.com/mod/metro-villagers}"
 
-👤 lazydev418 | 📅 2026-07-23
+👤 xFrah | 📅 2026-07-23
 
-A minimalist yet immersive compass overlay that shows your current direction, angle, coordinates.
+Villagers gossip to find jobs far away! BIGGER CITIES!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/echo-compass-hud/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/echo-compass-hud}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/metro-villagers/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/metro-villagers}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/X2qrYMqg/5dfa807c51ced26b3d4e6eb0464acfa78f38a8b6.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Wdj7Tylv/09a26afabe8f76491a658a24c9b1f6c7735591bb_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Giant Crop's" event="url{https://modrinth.com/mod/ticklgiantcrops}"
+...button-text text="TavernTales 4ging" event="url{https://modrinth.com/mod/taverntales-4ging}"
 
-👤 ticklopes | 📅 2026-07-23
+👤 innerbox | 📅 2026-07-23
 
-Make farming more interesting and add yummy, awesome giant crops to Minecraft!
+This mod adds an Equipment Forge (select a recipe to craft, materials pulled from your inventory) an
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ticklgiantcrops/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ticklgiantcrops}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/taverntales-4ging/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/taverntales-4ging}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/j9ESD6E3/f1f91ad1ab6b2a764ec9354606008cc55c248620_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/SNubMwcs/366bc24d4ff3264acb39bebe3237c562f62df6d3_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Cat Cushions" event="url{https://modrinth.com/mod/cat-cushions}"
+...button-text text="JustKeys" event="url{https://modrinth.com/mod/justkeys}"
 
-👤 pokemaniac_101 | 📅 2026-07-23
+👤 Walfyd | 📅 2026-07-23
 
-Adds cushions to the cat's laying down logic, just like beds
+Manage multiple keybind profiles and instantly switch between grouped items using a smooth radial it
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cat-cushions/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cat-cushions}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/justkeys/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/justkeys}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ZxqVT5Pi/c1e8ea18bb1a7beee131fba4fcc3d348831b7f73_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/eTv1kjlv/98f575087263c1caa0e4ab86caf244d49f2f0179.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="New ItemDuper" event="url{https://modrinth.com/mod/new-itemduper}"
+...button-text text="Advancement Guide" event="url{https://modrinth.com/mod/advancement-guide}"
 
-👤 soulsborne123 | 📅 2026-07-23
+👤 camroncin2 | 📅 2026-07-23
 
-A mod that lets you dupe an item, by pressing G!
+See every advancement — including the ones you're missing — with the exact criteria you still need
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/new-itemduper/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/new-itemduper}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/advancement-guide/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/advancement-guide}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/GYfk79U2/4f6b7f4c0c8cd429b39b79002e1144e5e51e15e7.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/2ZBgixv0/1979ee41952c3b9da590054b1939042597f0ab89_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Potion Bread" event="url{https://modrinth.com/mod/potion-bread}"
+...button-text text="Jden7's Edible Blocks" event="url{https://modrinth.com/mod/edible}"
 
-👤 sea-sky-coder | 📅 2026-07-23
+👤 Jden7 | 📅 2026-07-23
 
-Stackable Potion Bread
+Makes nature blocks edible with special effects!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/potion-bread/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/potion-bread}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/edible/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/edible}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Stackable Potion Bread
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Boat](https://minecraft.wiki/Boat)
+📖 **Wiki 推荐**：[Bedrock Edition block render history/Cobblestone Wall](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FCobblestone_Wall)
 
-⏰ 更新时间：2026-07-23 06:35:36
+⏰ 更新时间：2026-07-23 14:22:39
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
