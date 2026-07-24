@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-24 06:33:33
+// 生成时间：2026-07-24 14:01:24
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我曾踏月而来，只因你在山中。"*
+> *"赢得了时间就是赢得了一切。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我曾踏月而来，只因你在山中。}"
+...button-text text="📋 复制" event="copy{赢得了时间就是赢得了一切。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Iron_Armor}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_14w27a}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/g8lGcB5n/0ef1f0f7233850bad0ba011df12694ae2a5b2597_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ih1srQ9d/55c66c492cf8f75c35d97f0f4dcc79837b79906c.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="DonutSMP /ahguard" event="url{https://modrinth.com/mod/ahguard}"
+...button-text text="Better Paint" event="url{https://modrinth.com/mod/better-paint-mod}"
 
-👤 villtalks2 | 📅 2026-07-23
+👤 _375_ | 📅 2026-07-24
 
-Introducing AHGuard  a GENT CLUB original client side mod, built from the ground up to stop one of t
+Enhances Minecraft's painting system with selection GUI, locking, and transformations.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ahguard/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ahguard}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-paint-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-paint-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/cKv4hDkk/1e4ea3338de0be3aef043eaf2860a94e5ce47d1a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/na2nvuBV/7f668ffac702251128e3f9db4103e30e53182e51.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Adaptive Mod" event="url{https://modrinth.com/mod/adaptive-mod}"
+...button-text text="EnderSwordmod" event="url{https://modrinth.com/mod/enderswordmod}"
 
-👤 RedBounce_ | 📅 2026-07-23
+👤 Sonkixo | 📅 2026-07-24
 
-A fully customizable HUD for Minecraft Fabric 26.2 with movable widgets, modern UI, profiles, animat
+This mod adds an Ender Sword with balanced stats.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/adaptive-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/adaptive-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/enderswordmod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/enderswordmod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/P2HwNGNB/4a446155de954db34240970fdcf3fbb39f32d88b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/YEn2DV27/35f9f8da1500e35f900758278e69555a5fa43cbc_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="True POWER: Optimization" event="url{https://modrinth.com/mod/true-power-optimization}"
+...button-text text="斗蛐蛐 (Cricket Fight)" event="url{https://modrinth.com/mod/cricket-fight}"
 
-👤 mrqx0195 | 📅 2026-07-23
+👤 kuangmoge9 | 📅 2026-07-24
 
-An optimization add-on for SlashBlade: Resharped that improves rendering performance of SlashBlade i
+把你喜欢的生物请上擂台！看红队与蓝队在封闭战场里正面交锋；挑选原版或模组生物，分配队伍、施加药水强化，然后等着胜负揭晓！ Bring your favorite mobs into the arena
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/true-power-optimization/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/true-power-optimization}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cricket-fight/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cricket-fight}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/BngtDh26/ab18350ea549b80d7f23e5d5351c2b1c483e341a.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/weUamDSm/20f17cf41c87fbe6b992134c2851823bfd504485_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="ItemPhysicLite Config" event="url{https://modrinth.com/mod/itemphysicliteconfig}"
+...button-text text="Zombie Waves" event="url{https://modrinth.com/mod/zombie-waves}"
 
-👤 Microcontrollers | 📅 2026-07-23
+👤 VLAD9_9 | 📅 2026-07-24
 
-OneConfig integration for ItemPhysicLite!
+This mod includes zombie invasions in your Minecraft world.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/itemphysicliteconfig/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/itemphysicliteconfig}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/zombie-waves/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/zombie-waves}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/jIeNNShA/ebe3cf4040afc75f6356ad16f2b2ff57e414d624_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/gzQnA6Ae/5b46a3c7b92bbbfa8a682e0ef59c7dfcb53b5ed9.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="DyeAddons" event="url{https://modrinth.com/mod/dyeaddons}"
+...button-text text="Ench Tell" event="url{https://modrinth.com/mod/ench-tell}"
 
-👤 anlg | 📅 2026-07-23
+👤 TheSmoothRere | 📅 2026-07-24
 
-A mod for hypixel skyblock that focuses on dye trackers and qol.
+Shows you what an enchantment does the moment you hover over it, adding a description of the enchant
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dyeaddons/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dyeaddons}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ench-tell/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ench-tell}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ A mod for hypixel skyblock that focuses on dye trackers and qol.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Iron Armor](https://minecraft.wiki/Iron_Armor)
+📖 **Wiki 推荐**：[Java Edition 14w27a](https://minecraft.wiki/Java_Edition_14w27a)
 
-⏰ 更新时间：2026-07-24 06:33:33
+⏰ 更新时间：2026-07-24 14:01:24
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
