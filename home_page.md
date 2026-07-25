@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-25 03:26:56
+// 生成时间：2026-07-25 06:24:48
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"侯非侯，王非王，千乘万骑走北芒。"*
+> *"越想贴近事实，不明白的事情就越多。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{侯非侯，王非王，千乘万骑走北芒。}"
+...button-text text="📋 复制" event="copy{越想贴近事实，不明白的事情就越多。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft%3A_The_End%2F3CHP}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Water_Lake}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ Adds "The Wardencore" weapon dropped by Wardens.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Minecraft: The End/3CHP](https://minecraft.wiki/Minecraft%3A_The_End%2F3CHP)
+📖 **Wiki 推荐**：[Water Lake](https://minecraft.wiki/Water_Lake)
 
-⏰ 更新时间：2026-07-25 03:26:56
+⏰ 更新时间：2026-07-25 06:24:48
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
