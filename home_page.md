@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-25 06:24:48
+// 生成时间：2026-07-25 13:51:31
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"越想贴近事实，不明白的事情就越多。"*
+> *"参差荇菜，左右采之。窈窕淑女，琴瑟友之。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{越想贴近事实，不明白的事情就越多。}"
+...button-text text="📋 复制" event="copy{参差荇菜，左右采之。窈窕淑女，琴瑟友之。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Water_Lake}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Potion_of_Slowness}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/vxJbizDU/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/2fu4gSQ6/c0f176e3207830522efe4f4a24688d5173c06c03_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="LShiftFix" event="url{https://modrinth.com/mod/lshiftfix}"
+...button-text text="No Tidal Class Water-float!" event="url{https://modrinth.com/mod/no-tidal-class-water-float}"
 
-👤 NinefYu | 📅 2026-07-25
+👤 freetop498 | 📅 2026-07-25
 
-Fixed an issue where holding the left shift key wouldn't let you jump when playing MC 1.8.9 while us
+This mod makes it so floodfangs,bewilderbeasts,purple deaths and seashockers from Alpha's rise and D
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lshiftfix/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lshiftfix}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/no-tidal-class-water-float/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/no-tidal-class-water-float}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/qPIMRgh0/779bc388f64f44959f94fba3c2f9705b461201c0_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/DGoJhlsb/0964def381ed122702675da41b7aa1b985e1c396_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Endless Elytra" event="url{https://modrinth.com/mod/endless-elytra}"
+...button-text text="SimpleAttackIndicator" event="url{https://modrinth.com/mod/simpleattackindicator}"
 
-👤 notenlish | 📅 2026-07-25
+👤 LOY091 | 📅 2026-07-25
 
-Infinite elytra durability. The skies are yours to fly in.
+A mod that adds a simple tiny version of your weapon above your crosshair to help you attack :)
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/endless-elytra/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/endless-elytra}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simpleattackindicator/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simpleattackindicator}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/rrVZM24u/cc195eb425f92558d9fbc06689afeabd9299ffa6.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/kRBvomTP/5c332619a82b92fa18c1218d5f16229cf50f1adb_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="TangLanFansIdea" event="url{https://modrinth.com/mod/tanglanfansidea}"
+...button-text text="Model Blueprint" event="url{https://modrinth.com/mod/model-blueprint}"
 
-👤 LanlanTanglan | 📅 2026-07-25
+👤 pise4ku | 📅 2026-07-25
 
-You say, I code — what's your idea today?
+Import .obj models into Minecraft as non-collidable wireframe blueprints for effortless building gui
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tanglanfansidea/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tanglanfansidea}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/model-blueprint/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/model-blueprint}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/vr9yUGBk/429199de438b2a54c702b27ff0984b81748bbd8f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/NpJ2PyIs/9ac26ee4ab94bbbdbcf93e5f95c948b9971e8ecc_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Block Staff (Fanmade Replica)" event="url{https://modrinth.com/mod/block-staff-fanmade-replica}"
+...button-text text="Easy Drop" event="url{https://modrinth.com/mod/easy-drop}"
 
-👤 daviddavinchi211 | 📅 2026-07-25
+👤 Unkoburiburi | 📅 2026-07-25
 
-An unofficial fanmade replica of the legendary Block Staff from Alan Becker's "Animation vs. Minecra
+Drop items in a batch(Shift+Q)
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/block-staff-fanmade-replica/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/block-staff-fanmade-replica}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/easy-drop/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/easy-drop}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/XBv78hRh/57676c47ea77f70fc1aeff3e04a9008d338cbbb1_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/NAcgUh6C/990d2cc0d67a5cc386ba4c6065c9663f8c82cec1.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="The Wardencore" event="url{https://modrinth.com/mod/the-wardencore}"
+...button-text text="JEI Unhidden" event="url{https://modrinth.com/mod/jei-unhidden}"
 
-👤 MayTid | 📅 2026-07-25
+👤 ProstoChel_ | 📅 2026-07-25
 
-Adds "The Wardencore" weapon dropped by Wardens.
+Reveals every registered item in JEI, including items hidden by mods or omitted from creative tabs.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-wardencore/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-wardencore}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jei-unhidden/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jei-unhidden}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Adds "The Wardencore" weapon dropped by Wardens.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Water Lake](https://minecraft.wiki/Water_Lake)
+📖 **Wiki 推荐**：[Potion of Slowness](https://minecraft.wiki/Potion_of_Slowness)
 
-⏰ 更新时间：2026-07-25 06:24:48
+⏰ 更新时间：2026-07-25 13:51:31
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
