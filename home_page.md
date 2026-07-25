@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-24 14:01:24
+// 生成时间：2026-07-25 03:26:56
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.GalapagosFlamingos_ZH-CN1152519387_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.GaliciaBeach_ZH-CN1246611659_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"赢得了时间就是赢得了一切。"*
+> *"侯非侯，王非王，千乘万骑走北芒。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{赢得了时间就是赢得了一切。}"
+...button-text text="📋 复制" event="copy{侯非侯，王非王，千乘万骑走北芒。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_14w27a}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft%3A_The_End%2F3CHP}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ih1srQ9d/55c66c492cf8f75c35d97f0f4dcc79837b79906c.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vxJbizDU/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Better Paint" event="url{https://modrinth.com/mod/better-paint-mod}"
+...button-text text="LShiftFix" event="url{https://modrinth.com/mod/lshiftfix}"
 
-👤 _375_ | 📅 2026-07-24
+👤 NinefYu | 📅 2026-07-25
 
-Enhances Minecraft's painting system with selection GUI, locking, and transformations.
+Fixed an issue where holding the left shift key wouldn't let you jump when playing MC 1.8.9 while us
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-paint-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-paint-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lshiftfix/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lshiftfix}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/na2nvuBV/7f668ffac702251128e3f9db4103e30e53182e51.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/qPIMRgh0/779bc388f64f44959f94fba3c2f9705b461201c0_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="EnderSwordmod" event="url{https://modrinth.com/mod/enderswordmod}"
+...button-text text="Endless Elytra" event="url{https://modrinth.com/mod/endless-elytra}"
 
-👤 Sonkixo | 📅 2026-07-24
+👤 notenlish | 📅 2026-07-25
 
-This mod adds an Ender Sword with balanced stats.
+Infinite elytra durability. The skies are yours to fly in.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/enderswordmod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/enderswordmod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/endless-elytra/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/endless-elytra}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/YEn2DV27/35f9f8da1500e35f900758278e69555a5fa43cbc_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/rrVZM24u/cc195eb425f92558d9fbc06689afeabd9299ffa6.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="斗蛐蛐 (Cricket Fight)" event="url{https://modrinth.com/mod/cricket-fight}"
+...button-text text="TangLanFansIdea" event="url{https://modrinth.com/mod/tanglanfansidea}"
 
-👤 kuangmoge9 | 📅 2026-07-24
+👤 LanlanTanglan | 📅 2026-07-25
 
-把你喜欢的生物请上擂台！看红队与蓝队在封闭战场里正面交锋；挑选原版或模组生物，分配队伍、施加药水强化，然后等着胜负揭晓！ Bring your favorite mobs into the arena
+You say, I code — what's your idea today?
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cricket-fight/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cricket-fight}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tanglanfansidea/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tanglanfansidea}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/weUamDSm/20f17cf41c87fbe6b992134c2851823bfd504485_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vr9yUGBk/429199de438b2a54c702b27ff0984b81748bbd8f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Zombie Waves" event="url{https://modrinth.com/mod/zombie-waves}"
+...button-text text="Block Staff (Fanmade Replica)" event="url{https://modrinth.com/mod/block-staff-fanmade-replica}"
 
-👤 VLAD9_9 | 📅 2026-07-24
+👤 daviddavinchi211 | 📅 2026-07-25
 
-This mod includes zombie invasions in your Minecraft world.
+An unofficial fanmade replica of the legendary Block Staff from Alan Becker's "Animation vs. Minecra
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/zombie-waves/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/zombie-waves}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/block-staff-fanmade-replica/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/block-staff-fanmade-replica}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/gzQnA6Ae/5b46a3c7b92bbbfa8a682e0ef59c7dfcb53b5ed9.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/XBv78hRh/57676c47ea77f70fc1aeff3e04a9008d338cbbb1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ench Tell" event="url{https://modrinth.com/mod/ench-tell}"
+...button-text text="The Wardencore" event="url{https://modrinth.com/mod/the-wardencore}"
 
-👤 TheSmoothRere | 📅 2026-07-24
+👤 MayTid | 📅 2026-07-25
 
-Shows you what an enchantment does the moment you hover over it, adding a description of the enchant
+Adds "The Wardencore" weapon dropped by Wardens.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ench-tell/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ench-tell}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-wardencore/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-wardencore}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Shows you what an enchantment does the moment you hover over it, adding a descri
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：缤纷多彩的一家人
-© 美洲红鹳群在伊莎贝拉岛，加拉帕戈斯群岛，厄瓜多尔 (© Tui De Roy/Nature Picture Library)
+🖼️ 壁纸：加境幽廊
+© 大教堂海滩，加利西亚，西班牙 (© Tui De Roy/Amazing Aerial Agency/Abobe Stock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 14w27a](https://minecraft.wiki/Java_Edition_14w27a)
+📖 **Wiki 推荐**：[Minecraft: The End/3CHP](https://minecraft.wiki/Minecraft%3A_The_End%2F3CHP)
 
-⏰ 更新时间：2026-07-24 14:01:24
+⏰ 更新时间：2026-07-25 03:26:56
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
