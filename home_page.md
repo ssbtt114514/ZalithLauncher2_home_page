@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-26 06:42:43
+// 生成时间：2026-07-26 13:44:17
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"隔着屏幕轻易产生感情的你，肯定很孤独吧。"*
+> *"看看人间的苦难，听听人民的呐喊！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{隔着屏幕轻易产生感情的你，肯定很孤独吧。}"
+...button-text text="📋 复制" event="copy{看看人间的苦难，听听人民的呐喊！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Entity_format%2FVehicle}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Legacy_Console_Edition_block_render_history%2FFarmland}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/yBE4Ycsl/2db795b6e3a39c28145302796a127e9857c9e241_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/qZV9ygRR/8b93a34fc3b479558f6790574478f37c44504de1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="WhereWasI" event="url{https://modrinth.com/mod/wherewasi}"
+...button-text text="Dragon Barrel Roll" event="url{https://modrinth.com/mod/dragon-barrel-roll}"
 
-👤 NokhXyr | 📅 2026-07-25
+👤 Tangwenjun910 | 📅 2026-07-26
 
-Never ask "where was I?" again. This client-side mod automatically journals your playthrough — build
+Dragon Barrel Roll is a NeoForge port and rework of enjarai's "Do A Barrel Roll" mod, rebuilt from t
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wherewasi/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wherewasi}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dragon-barrel-roll/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dragon-barrel-roll}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/hTzwY5Z7/aea41647029da57ffd3eb4dbacd9f1dab6a6b172.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/yNKK46Q4/5f4216ce65af6e943123d12d69d1e30acd40dc03_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Engineer's Decor Re:Vived" event="url{https://modrinth.com/mod/engineers-decor-revived}"
+...button-text text="Improved Genetics" event="url{https://modrinth.com/mod/improved-genetics}"
 
-👤 Hojosa | 📅 2026-07-25
+👤 CreepSkeet | 📅 2026-07-26
 
-Adds cosmetic blocks for the engineer's factory, workshop, and home. Continued Version of Engineer's
+This mod basically adding DNA mechanic for every Living Entity and let users to create modified offs
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/engineers-decor-revived/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/engineers-decor-revived}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/improved-genetics/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/improved-genetics}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/c9DC0GFs/e7288567fa3f5767c477c1890fe14f47fd8d0c5a.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/KwfVq2Lb/ab5c3a83b7360379b7c7def74bc0f86eb9d7f96a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Music disks+" event="url{https://modrinth.com/mod/music-disks}"
+...button-text text="DMZ Jack class" event="url{https://modrinth.com/mod/dmz-jack-class}"
 
-👤 4C3D | 📅 2026-07-25
+👤 Goniel9604 | 📅 2026-07-26
 
-This is a community driven project of mine that adds any song into minecraft through music discs
+Adds a extra class with a new passive to DMZ
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/music-disks/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/music-disks}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dmz-jack-class/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dmz-jack-class}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/fG2scDWI/0082ffa9727128e429269f9b4902e959a26ac033_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/WK6jBnoO/548f8305e324d04bdfbb7d8b4fa2d57c91849847.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ren's Timber" event="url{https://modrinth.com/mod/rens-timber}"
+...button-text text="Unified Storage" event="url{https://modrinth.com/mod/unified-storage}"
 
-👤 _ren | 📅 2026-07-25
+👤 OxedPixel | 📅 2026-07-26
 
-An multiloader timber mod for every kind of vanilla tree!
+Access all your chests, barrels, etc from a single unfied interface. Entierly server side.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/rens-timber/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/rens-timber}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/unified-storage/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/unified-storage}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/pdlJXMBf/d4226645e3b54bf7aea29a7667b05f4c0bc1315a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/FVARjyKR/c480fa269aac71730d9cbe0a81b7cef7eaa5db2d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="TrueBuckets" event="url{https://modrinth.com/mod/truebuckets}"
+...button-text text="Villagers' Inventory" event="url{https://modrinth.com/mod/villagers-inventory}"
 
-👤 marcsanz-dev | 📅 2026-07-25
+👤 CreepSkeet | 📅 2026-07-26
 
-Scoop up your favorite mobs into cute, color-coded cubes — capture, collect, display, and release cr
+This mod allows you to view the villager's hidden 8-slot inventory.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/truebuckets/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/truebuckets}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/villagers-inventory/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/villagers-inventory}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Scoop up your favorite mobs into cute, color-coded cubes — capture, collect, d
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Entity format/Vehicle](https://minecraft.wiki/Entity_format%2FVehicle)
+📖 **Wiki 推荐**：[Legacy Console Edition block render history/Farmland](https://minecraft.wiki/Legacy_Console_Edition_block_render_history%2FFarmland)
 
-⏰ 更新时间：2026-07-26 06:42:43
+⏰ 更新时间：2026-07-26 13:44:17
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
