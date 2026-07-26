@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-25 13:51:31
+// 生成时间：2026-07-26 03:40:26
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.GaliciaBeach_ZH-CN1246611659_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.RedMangroveSunrise_ZH-CN7940335392_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"参差荇菜，左右采之。窈窕淑女，琴瑟友之。"*
+> *"我又不是因为你们的评价才去当的英雄，是因为我想当才去当的。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{参差荇菜，左右采之。窈窕淑女，琴瑟友之。}"
+...button-text text="📋 复制" event="copy{我又不是因为你们的评价才去当的英雄，是因为我想当才去当的。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Potion_of_Slowness}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/MinecraftEdu_1.5.1_Build_9}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/2fu4gSQ6/c0f176e3207830522efe4f4a24688d5173c06c03_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/yBE4Ycsl/2db795b6e3a39c28145302796a127e9857c9e241_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="No Tidal Class Water-float!" event="url{https://modrinth.com/mod/no-tidal-class-water-float}"
+...button-text text="WhereWasI" event="url{https://modrinth.com/mod/wherewasi}"
 
-👤 freetop498 | 📅 2026-07-25
+👤 NokhXyr | 📅 2026-07-25
 
-This mod makes it so floodfangs,bewilderbeasts,purple deaths and seashockers from Alpha's rise and D
+Never ask "where was I?" again. This client-side mod automatically journals your playthrough — build
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/no-tidal-class-water-float/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/no-tidal-class-water-float}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wherewasi/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wherewasi}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/DGoJhlsb/0964def381ed122702675da41b7aa1b985e1c396_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/hTzwY5Z7/aea41647029da57ffd3eb4dbacd9f1dab6a6b172.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="SimpleAttackIndicator" event="url{https://modrinth.com/mod/simpleattackindicator}"
+...button-text text="Engineer's Decor Re:Vived" event="url{https://modrinth.com/mod/engineers-decor-revived}"
 
-👤 LOY091 | 📅 2026-07-25
+👤 Hojosa | 📅 2026-07-25
 
-A mod that adds a simple tiny version of your weapon above your crosshair to help you attack :)
+Adds cosmetic blocks for the engineer's factory, workshop, and home. Continued Version of Engineer's
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simpleattackindicator/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simpleattackindicator}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/engineers-decor-revived/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/engineers-decor-revived}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/kRBvomTP/5c332619a82b92fa18c1218d5f16229cf50f1adb_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/c9DC0GFs/e7288567fa3f5767c477c1890fe14f47fd8d0c5a.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Model Blueprint" event="url{https://modrinth.com/mod/model-blueprint}"
+...button-text text="Music disks+" event="url{https://modrinth.com/mod/music-disks}"
 
-👤 pise4ku | 📅 2026-07-25
+👤 4C3D | 📅 2026-07-25
 
-Import .obj models into Minecraft as non-collidable wireframe blueprints for effortless building gui
+This is a community driven project of mine that adds any song into minecraft through music discs
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/model-blueprint/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/model-blueprint}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/music-disks/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/music-disks}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/NpJ2PyIs/9ac26ee4ab94bbbdbcf93e5f95c948b9971e8ecc_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/fG2scDWI/0082ffa9727128e429269f9b4902e959a26ac033_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Easy Drop" event="url{https://modrinth.com/mod/easy-drop}"
+...button-text text="Ren's Timber" event="url{https://modrinth.com/mod/rens-timber}"
 
-👤 Unkoburiburi | 📅 2026-07-25
+👤 _ren | 📅 2026-07-25
 
-Drop items in a batch(Shift+Q)
+An multiloader timber mod for every kind of vanilla tree!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/easy-drop/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/easy-drop}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/rens-timber/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/rens-timber}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/NAcgUh6C/990d2cc0d67a5cc386ba4c6065c9663f8c82cec1.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/pdlJXMBf/d4226645e3b54bf7aea29a7667b05f4c0bc1315a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="JEI Unhidden" event="url{https://modrinth.com/mod/jei-unhidden}"
+...button-text text="TrueBuckets" event="url{https://modrinth.com/mod/truebuckets}"
 
-👤 ProstoChel_ | 📅 2026-07-25
+👤 marcsanz-dev | 📅 2026-07-25
 
-Reveals every registered item in JEI, including items hidden by mods or omitted from creative tabs.
+Scoop up your favorite mobs into cute, color-coded cubes — capture, collect, display, and release cr
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jei-unhidden/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jei-unhidden}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/truebuckets/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/truebuckets}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Reveals every registered item in JEI, including items hidden by mods or omitted 
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：加境幽廊
-© 大教堂海滩，加利西亚，西班牙 (© Tui De Roy/Amazing Aerial Agency/Abobe Stock)
+🖼️ 壁纸：海陆际会，生机肇始
+© 红树上的日出在小猪群岛，洪都拉斯 (© Mac Stone/Tandem Stills + Motion)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Potion of Slowness](https://minecraft.wiki/Potion_of_Slowness)
+📖 **Wiki 推荐**：[MinecraftEdu 1.5.1 Build 9](https://minecraft.wiki/MinecraftEdu_1.5.1_Build_9)
 
-⏰ 更新时间：2026-07-25 13:51:31
+⏰ 更新时间：2026-07-26 03:40:26
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
