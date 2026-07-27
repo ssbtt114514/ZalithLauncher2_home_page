@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-27 03:50:12
+// 生成时间：2026-07-27 07:40:04
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"就像是一场华尔街的阴谋，透露着优雅的杀戮。"*
+> *"当然，孤独的科学家仍然通过多种途径在研究天空和宇宙。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{就像是一场华尔街的阴谋，透露着优雅的杀戮。}"
+...button-text text="📋 复制" event="copy{当然，孤独的科学家仍然通过多种途径在研究天空和宇宙。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Ffetchprofile}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_Alpha_server_0.2.0_01}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ Remove Copper Ore from your worldgen without suffering consequences for it. Clea
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Commands/fetchprofile](https://minecraft.wiki/Commands%2Ffetchprofile)
+📖 **Wiki 推荐**：[Java Edition Alpha server 0.2.0 01](https://minecraft.wiki/Java_Edition_Alpha_server_0.2.0_01)
 
-⏰ 更新时间：2026-07-27 03:50:12
+⏰ 更新时间：2026-07-27 07:40:04
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
