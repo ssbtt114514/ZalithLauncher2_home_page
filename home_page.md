@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-26 13:44:17
+// 生成时间：2026-07-27 03:50:12
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.RedMangroveSunrise_ZH-CN7940335392_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.ChicagoTiffany_ZH-CN9860688834_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"看看人间的苦难，听听人民的呐喊！"*
+> *"就像是一场华尔街的阴谋，透露着优雅的杀戮。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{看看人间的苦难，听听人民的呐喊！}"
+...button-text text="📋 复制" event="copy{就像是一场华尔街的阴谋，透露着优雅的杀戮。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Legacy_Console_Edition_block_render_history%2FFarmland}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Ffetchprofile}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/qZV9ygRR/8b93a34fc3b479558f6790574478f37c44504de1_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/KP1dO2Wi/7fba8b5302c2cc1ad3b5f6365caf3a9253d915e7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Dragon Barrel Roll" event="url{https://modrinth.com/mod/dragon-barrel-roll}"
+...button-text text="Item Model Spawner" event="url{https://modrinth.com/mod/item-model-spawner}"
 
-👤 Tangwenjun910 | 📅 2026-07-26
+👤 Irisufus | 📅 2026-07-26
 
-Dragon Barrel Roll is a NeoForge port and rework of enjarai's "Do A Barrel Roll" mod, rebuilt from t
+Lets you spawn an item display using an item model
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dragon-barrel-roll/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dragon-barrel-roll}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/item-model-spawner/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/item-model-spawner}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/yNKK46Q4/5f4216ce65af6e943123d12d69d1e30acd40dc03_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/p7JKPmOx/3ca36870238b5640c3e255322846e3a0d97260e8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Improved Genetics" event="url{https://modrinth.com/mod/improved-genetics}"
+...button-text text="Exosuits" event="url{https://modrinth.com/mod/exosuits}"
 
-👤 CreepSkeet | 📅 2026-07-26
+👤 Empireofawesome2525 | 📅 2026-07-26
 
-This mod basically adding DNA mechanic for every Living Entity and let users to create modified offs
+Exosuits add a new traversal type to Minecraft
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/improved-genetics/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/improved-genetics}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/exosuits/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/exosuits}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/KwfVq2Lb/ab5c3a83b7360379b7c7def74bc0f86eb9d7f96a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/fzC22w27/b5ea5b052624daa465c7a4e45cfe764885b4aa89_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="DMZ Jack class" event="url{https://modrinth.com/mod/dmz-jack-class}"
+...button-text text="Bear's bizarre adventure" event="url{https://modrinth.com/mod/bears-bizarre-adventure}"
 
-👤 Goniel9604 | 📅 2026-07-26
+👤 Empireofawesome2525 | 📅 2026-07-26
 
-Adds a extra class with a new passive to DMZ
+A random mod with loads of new things
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dmz-jack-class/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dmz-jack-class}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bears-bizarre-adventure/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bears-bizarre-adventure}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/WK6jBnoO/548f8305e324d04bdfbb7d8b4fa2d57c91849847.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/z20blT18/06cfc28a0ad125c8f59a5e24fa0170bc3de91e29.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Unified Storage" event="url{https://modrinth.com/mod/unified-storage}"
+...button-text text="InfWorld" event="url{https://modrinth.com/mod/infworld}"
 
-👤 OxedPixel | 📅 2026-07-26
+👤 WatchfulBand | 📅 2026-07-26
 
-Access all your chests, barrels, etc from a single unfied interface. Entierly server side.
+Removes hardcoded world limits and fixes crashes (lighting & structure) at extreme coordinates. Requ
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/unified-storage/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/unified-storage}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/infworld/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/infworld}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/FVARjyKR/c480fa269aac71730d9cbe0a81b7cef7eaa5db2d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ofEFQOI7/6b579da0f3c626b2296945d8b2a7deaa47e6d030_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Villagers' Inventory" event="url{https://modrinth.com/mod/villagers-inventory}"
+...button-text text="No Copper" event="url{https://modrinth.com/mod/no-copper}"
 
-👤 CreepSkeet | 📅 2026-07-26
+👤 protoncracker | 📅 2026-07-26
 
-This mod allows you to view the villager's hidden 8-slot inventory.
+Remove Copper Ore from your worldgen without suffering consequences for it. Cleaner mining, and no m
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/villagers-inventory/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/villagers-inventory}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/no-copper/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/no-copper}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ This mod allows you to view the villager's hidden 8-slot inventory.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：海陆际会，生机肇始
-© 红树上的日出在小猪群岛，洪都拉斯 (© Mac Stone/Tandem Stills + Motion)
+🖼️ 壁纸：仰望芝城，流光溢彩
+© 蒂芙尼穹顶，芝加哥文化中心，伊利诺伊州，美国 (© Felix Lipov/Shutterstock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Legacy Console Edition block render history/Farmland](https://minecraft.wiki/Legacy_Console_Edition_block_render_history%2FFarmland)
+📖 **Wiki 推荐**：[Commands/fetchprofile](https://minecraft.wiki/Commands%2Ffetchprofile)
 
-⏰ 更新时间：2026-07-26 13:44:17
+⏰ 更新时间：2026-07-27 03:50:12
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
