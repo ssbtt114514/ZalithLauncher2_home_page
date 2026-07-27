@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-27 07:40:04
+// 生成时间：2026-07-27 14:52:33
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"当然，孤独的科学家仍然通过多种途径在研究天空和宇宙。"*
+> *"他有属于他自己的孤独，所谓的心心相通， 都只是一场误会。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{当然，孤独的科学家仍然通过多种途径在研究天空和宇宙。}"
+...button-text text="📋 复制" event="copy{他有属于他自己的孤独，所谓的心心相通， 都只是一场误会。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_Alpha_server_0.2.0_01}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Pocket_Edition_v0.8.0_alpha_build_7}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/KP1dO2Wi/7fba8b5302c2cc1ad3b5f6365caf3a9253d915e7_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/470o9RGN/c1b8f9ed9d2945bd9c2a65a33e88e9f70db3c8c8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Item Model Spawner" event="url{https://modrinth.com/mod/item-model-spawner}"
+...button-text text="Tailmod" event="url{https://modrinth.com/mod/tailmod}"
 
-👤 Irisufus | 📅 2026-07-26
+👤 Marker284 | 📅 2026-07-27
 
-Lets you spawn an item display using an item model
+Connect to Minecraft servers on your Tailscale network — no port forwarding needed
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/item-model-spawner/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/item-model-spawner}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tailmod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tailmod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/p7JKPmOx/3ca36870238b5640c3e255322846e3a0d97260e8_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/yEvRGnUX/91c8a18f03e86775b32a5df71ac3983076a5af01_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Exosuits" event="url{https://modrinth.com/mod/exosuits}"
+...button-text text="Juni Emu" event="url{https://modrinth.com/mod/juni-emu}"
 
-👤 Empireofawesome2525 | 📅 2026-07-26
+👤 JuniperBear | 📅 2026-07-27
 
-Exosuits add a new traversal type to Minecraft
+An emulator mod that attempts to use Minecraft as a platform for emulators
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/exosuits/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/exosuits}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/juni-emu/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/juni-emu}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/fzC22w27/b5ea5b052624daa465c7a4e45cfe764885b4aa89_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/AcKqmzq6/5efd08857500590365bc3136a183525d27221f89_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Bear's bizarre adventure" event="url{https://modrinth.com/mod/bears-bizarre-adventure}"
+...button-text text="Charcoal to Coal Block recipe" event="url{https://modrinth.com/mod/charcoal-to-coal-block-recipe}"
 
-👤 Empireofawesome2525 | 📅 2026-07-26
+👤 giggity2990 | 📅 2026-07-27
 
-A random mod with loads of new things
+adds a recipe for charcoal into a coal block
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bears-bizarre-adventure/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bears-bizarre-adventure}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/charcoal-to-coal-block-recipe/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/charcoal-to-coal-block-recipe}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/z20blT18/06cfc28a0ad125c8f59a5e24fa0170bc3de91e29.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/IsjgzpLP/a50974fb1e773dcea2be3adb99a389824ae240d7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="InfWorld" event="url{https://modrinth.com/mod/infworld}"
+...button-text text="ShareLife" event="url{https://modrinth.com/mod/sharelife}"
 
-👤 WatchfulBand | 📅 2026-07-26
+👤 Thymebeastmode | 📅 2026-07-27
 
-Removes hardcoded world limits and fixes crashes (lighting & structure) at extreme coordinates. Requ
+Share your Inventory, XP, Health and Hunger with others!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/infworld/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/infworld}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sharelife/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sharelife}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ofEFQOI7/6b579da0f3c626b2296945d8b2a7deaa47e6d030_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/SVnEDDdc/15015e1da0a7190afdb3b3b6ee515a72641cb54f.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="No Copper" event="url{https://modrinth.com/mod/no-copper}"
+...button-text text="Simple Progression" event="url{https://modrinth.com/mod/simple-progression}"
 
-👤 protoncracker | 📅 2026-07-26
+👤 ixogqng | 📅 2026-07-27
 
-Remove Copper Ore from your worldgen without suffering consequences for it. Cleaner mining, and no m
+Adds simple sidegrade ores that promote exploration.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/no-copper/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/no-copper}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simple-progression/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simple-progression}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Remove Copper Ore from your worldgen without suffering consequences for it. Clea
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition Alpha server 0.2.0 01](https://minecraft.wiki/Java_Edition_Alpha_server_0.2.0_01)
+📖 **Wiki 推荐**：[Pocket Edition v0.8.0 alpha build 7](https://minecraft.wiki/Pocket_Edition_v0.8.0_alpha_build_7)
 
-⏰ 更新时间：2026-07-27 07:40:04
+⏰ 更新时间：2026-07-27 14:52:33
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
