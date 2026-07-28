@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-28 06:33:40
+// 生成时间：2026-07-28 14:26:54
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"善语结善缘，恶言伤人心。"*
+> *"为了能体面地死去而狼狈地活着。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{善语结善缘，恶言伤人心。}"
+...button-text text="📋 复制" event="copy{为了能体面地死去而狼狈地活着。}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.2
-**最新快照**: 26.3-snapshot-5
+**最新快照**: 26.3-snapshot-6
 
 近期版本：
 - **26.2** (2026-06-16)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Generated_loot}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Trading%2FBefore_Java_Edition_1.8}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/C7rd1XBh/b1784ceb1b94689a85f649ae4b7b8629de8bb01d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/4e6muK07/f3e8799f676bfc06f0fed7f6df4941e6853271b2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="[TaCZ] CS+" event="url{https://modrinth.com/mod/tacz-cs}"
+...button-text text="Vulkan Reforged" event="url{https://modrinth.com/mod/vulkan-reforged}"
 
-👤 lolokeia | 📅 2026-07-27
+👤 rindw | 📅 2026-07-28
 
-CS+ is a counter-strike gunpack for tacz
+Bring Vulkan to Minecraft now on neoforge! (Forge version, backports, other versions coming soon)
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tacz-cs/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tacz-cs}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/vulkan-reforged/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/vulkan-reforged}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/hlHTgS8w/b422574db6f5dbe6cdd4b705cd3c3aad6f1a9cb3.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vY3ysdL3/d9107bab17358d563d7dee410b76cf53e74797bb_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Biel's Backpacks" event="url{https://modrinth.com/mod/biels-backpacks}"
+...button-text text="World Finder" event="url{https://modrinth.com/mod/world-finder}"
 
-👤 BielszaBiel | 📅 2026-07-27
+👤 Asashiin | 📅 2026-07-28
 
-Adds new item to Minecraft which is a Backpack
+World Finder is a client-side seed map and structure finder for vanilla Minecraft worlds, built as a
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/biels-backpacks/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/biels-backpacks}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/world-finder/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/world-finder}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/WumprHHt/e9e21a94bd00d137e4561ee462bf94be1b49ea5a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/idJgRLlX/144d981eac1825335f78fd0ed36de9a7a85b5958_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="ServerPackOverlay" event="url{https://modrinth.com/mod/serverpackoverlay}"
+...button-text text="Recource Pack Updater" event="url{https://modrinth.com/mod/recource-pack-updater}"
 
-👤 kazut0 | 📅 2026-07-27
+👤 noahssparkilingstars | 📅 2026-07-28
 
-Reorder specially-marked resource packs above the pinned server pack, with automatic reload.
+This is for the Minecraft 1.20.4 MTR Let’s Play Server. It’ll be useful most of the time, and it als
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/serverpackoverlay/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/serverpackoverlay}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/recource-pack-updater/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/recource-pack-updater}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/WF9YE7g7/36d4d24ed6997919cc2cec7e04d42d465c77222f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ypffFjbR/d7a1606c0ed02c2d0a9850af357150127507d166_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Applied Smelting" event="url{https://modrinth.com/mod/appliedsmelting}"
+...button-text text="Super Sampling" event="url{https://modrinth.com/mod/super-sampling}"
 
-👤 Excal1bur | 📅 2026-07-27
+👤 ResonantLake | 📅 2026-07-28
 
-Smelt items directly from your ME network with a dedicated network-powered smelter and control termi
+This mod integrates Intel XeSS technology into Minecraft.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/appliedsmelting/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/appliedsmelting}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/super-sampling/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/super-sampling}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/RPC7Wkrl/7992423725ab79910099cc53a3288da644b9b36a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/tYQRHiMS/bedbbd01012b28c65f73ed04384eff92cee8ae54_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="I Found My House" event="url{https://modrinth.com/mod/i-found-my-house}"
+...button-text text="Inside The System zh-cn 简体中文汉化" event="url{https://modrinth.com/mod/inside-the-system-zh-cn}"
 
-👤 ChinoMC1 | 📅 2026-07-27
+👤 SJWDSJ | 📅 2026-07-28
 
-Don't let anyone find your house.
+A Simplified Chinese localization mod for Inside The System, authorized by the original author. | In
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/i-found-my-house/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/i-found-my-house}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/inside-the-system-zh-cn/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/inside-the-system-zh-cn}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Don't let anyone find your house.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Generated loot](https://minecraft.wiki/Generated_loot)
+📖 **Wiki 推荐**：[Trading/Before Java Edition 1.8](https://minecraft.wiki/Trading%2FBefore_Java_Edition_1.8)
 
-⏰ 更新时间：2026-07-28 06:33:40
+⏰ 更新时间：2026-07-28 14:26:54
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
