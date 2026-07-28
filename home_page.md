@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-27 14:52:33
+// 生成时间：2026-07-28 03:20:45
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.ChicagoTiffany_ZH-CN9860688834_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.ChannelKelp_ZH-CN8732903732_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"他有属于他自己的孤独，所谓的心心相通， 都只是一场误会。"*
+> *"人类的赞歌就是勇气的赞歌。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{他有属于他自己的孤独，所谓的心心相通， 都只是一场误会。}"
+...button-text text="📋 复制" event="copy{人类的赞歌就是勇气的赞歌。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Pocket_Edition_v0.8.0_alpha_build_7}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Ftptosuitabletree}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/470o9RGN/c1b8f9ed9d2945bd9c2a65a33e88e9f70db3c8c8_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/C7rd1XBh/b1784ceb1b94689a85f649ae4b7b8629de8bb01d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Tailmod" event="url{https://modrinth.com/mod/tailmod}"
+...button-text text="[TaCZ] CS+" event="url{https://modrinth.com/mod/tacz-cs}"
 
-👤 Marker284 | 📅 2026-07-27
+👤 lolokeia | 📅 2026-07-27
 
-Connect to Minecraft servers on your Tailscale network — no port forwarding needed
+CS+ is a counter-strike gunpack for tacz
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tailmod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tailmod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tacz-cs/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tacz-cs}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/yEvRGnUX/91c8a18f03e86775b32a5df71ac3983076a5af01_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/hlHTgS8w/b422574db6f5dbe6cdd4b705cd3c3aad6f1a9cb3.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Juni Emu" event="url{https://modrinth.com/mod/juni-emu}"
+...button-text text="Biel's Backpacks" event="url{https://modrinth.com/mod/biels-backpacks}"
 
-👤 JuniperBear | 📅 2026-07-27
+👤 BielszaBiel | 📅 2026-07-27
 
-An emulator mod that attempts to use Minecraft as a platform for emulators
+Adds new item to Minecraft which is a Backpack
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/juni-emu/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/juni-emu}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/biels-backpacks/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/biels-backpacks}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/AcKqmzq6/5efd08857500590365bc3136a183525d27221f89_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/WumprHHt/e9e21a94bd00d137e4561ee462bf94be1b49ea5a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Charcoal to Coal Block recipe" event="url{https://modrinth.com/mod/charcoal-to-coal-block-recipe}"
+...button-text text="ServerPackOverlay" event="url{https://modrinth.com/mod/serverpackoverlay}"
 
-👤 giggity2990 | 📅 2026-07-27
+👤 kazut0 | 📅 2026-07-27
 
-adds a recipe for charcoal into a coal block
+Reorder specially-marked resource packs above the pinned server pack, with automatic reload.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/charcoal-to-coal-block-recipe/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/charcoal-to-coal-block-recipe}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/serverpackoverlay/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/serverpackoverlay}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/IsjgzpLP/a50974fb1e773dcea2be3adb99a389824ae240d7_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/WF9YE7g7/36d4d24ed6997919cc2cec7e04d42d465c77222f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="ShareLife" event="url{https://modrinth.com/mod/sharelife}"
+...button-text text="Applied Smelting" event="url{https://modrinth.com/mod/appliedsmelting}"
 
-👤 Thymebeastmode | 📅 2026-07-27
+👤 Excal1bur | 📅 2026-07-27
 
-Share your Inventory, XP, Health and Hunger with others!
+Smelt items directly from your ME network with a dedicated network-powered smelter and control termi
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sharelife/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sharelife}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/appliedsmelting/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/appliedsmelting}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/SVnEDDdc/15015e1da0a7190afdb3b3b6ee515a72641cb54f.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/RPC7Wkrl/7992423725ab79910099cc53a3288da644b9b36a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Simple Progression" event="url{https://modrinth.com/mod/simple-progression}"
+...button-text text="I Found My House" event="url{https://modrinth.com/mod/i-found-my-house}"
 
-👤 ixogqng | 📅 2026-07-27
+👤 ChinoMC1 | 📅 2026-07-27
 
-Adds simple sidegrade ores that promote exploration.
+Don't let anyone find your house.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simple-progression/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simple-progression}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/i-found-my-house/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/i-found-my-house}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Adds simple sidegrade ores that promote exploration.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：仰望芝城，流光溢彩
-© 蒂芙尼穹顶，芝加哥文化中心，伊利诺伊州，美国 (© Felix Lipov/Shutterstock)
+🖼️ 壁纸：生机律动，恒久之衡
+© 一片海藻林在安纳卡帕岛附近，海峡群岛国家公园，加利福尼亚州，美国 (© Ian Shive/Tandem Stills + Motion)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Pocket Edition v0.8.0 alpha build 7](https://minecraft.wiki/Pocket_Edition_v0.8.0_alpha_build_7)
+📖 **Wiki 推荐**：[Commands/tptosuitabletree](https://minecraft.wiki/Commands%2Ftptosuitabletree)
 
-⏰ 更新时间：2026-07-27 14:52:33
+⏰ 更新时间：2026-07-28 03:20:45
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
