@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-29 06:38:49
+// 生成时间：2026-07-29 14:25:19
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我拒绝，再一次和你分开。"*
+> *"若是遇见从前的我，请带他回来。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我拒绝，再一次和你分开。}"
+...button-text text="📋 复制" event="copy{若是遇见从前的我，请带他回来。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Evan}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FIron_Shovel}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/mqryg5KA/096a7955fcd9ad77ae695fabd6d0cd61a37a8a31_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6St2MaPz/17c356fe28afd70038cbc8493be6f512a29788d7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mining Session" event="url{https://modrinth.com/mod/miningsession}"
+...button-text text="Lottery Mod" event="url{https://modrinth.com/mod/lotterymod}"
 
-👤 Mr_Lan123 | 📅 2026-07-29
+👤 qindt2022 | 📅 2026-07-29
 
-Shows real-time session statistics (mining, kills, deaths, distance) on a configurable HUD panel.
+This mod adds a gacha (Lottery) system to Minecraft. When this mod is loaded, mining diamond ore wil
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/miningsession/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/miningsession}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lotterymod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lotterymod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/hcjL6IkG/ac4b99e2f5088a2f18c520fc345e8e20d86c8963_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/JTphqlbU/cdac0ed5c72945e6e453730767a0a3f99a211140_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="FPV Drones" event="url{https://modrinth.com/mod/fpv-drones}"
+...button-text text="Ancient diamonds" event="url{https://modrinth.com/mod/ancient-diamonds}"
 
-👤 marden14111 | 📅 2026-07-28
+👤 shumai0928 | 📅 2026-07-29
 
-Adds a controllable FPV drone with realistic WASD and mouse controls.
+Let's build a diamond house in the oldest version!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fpv-drones/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fpv-drones}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ancient-diamonds/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ancient-diamonds}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/otfCJmHw/eb50f42613ce7d22914d52a7db0b9e8e0efe92d7_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ENWEtfIW/b7b8645805a022ac4764e99470ba69156e1dbac9_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Hologram Hider" event="url{https://modrinth.com/mod/hologram-hider}"
+...button-text text="Cobblemon True Pickup" event="url{https://modrinth.com/mod/cobblemon-true-pickup}"
 
-👤 RonnyLearn | 📅 2026-07-28
+👤 zmoonmaru | 📅 2026-07-29
 
-The Armour Stand Hologram Hider
+Brings the Pickup ability's real mainline mechanic to Cobblemon: your lead party Pokémon has a chanc
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hologram-hider/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hologram-hider}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cobblemon-true-pickup/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cobblemon-true-pickup}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/BjtFJzY9/757fb7c9a4484969caeca6bcec560fb08f5d9e5d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8luerlRt/716b6b64c4d8e04e8018635f65a3e2aa0cd7343d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Simple Voicechat Commands" event="url{https://modrinth.com/mod/simple-voicechat-commands}"
+...button-text text="player outlines (not esp)" event="url{https://modrinth.com/mod/player-outlines-not-esp}"
 
-👤 IV12 | 📅 2026-07-28
+👤 notyocheas | 📅 2026-07-29
 
-Addon to Simple Voice Chat that adds  a few helpful commands to make actions such as muting players 
+a player outline mod that outlines players, this mod is not esp it does not show through wall. it ha
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simple-voicechat-commands/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simple-voicechat-commands}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/player-outlines-not-esp/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/player-outlines-not-esp}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/dbhsTZw7/b30c1a8710e66b3a8c30836f5b6fbe5ec915f32b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/81WYKWKQ/30f06b0f0562e705023fc5de269938b6ec42f940_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Random Entity Names" event="url{https://modrinth.com/mod/random-entity-names-zerw}"
+...button-text text="Locked and Loaded" event="url{https://modrinth.com/mod/locked-and-loaded}"
 
-👤 Zerw | 📅 2026-07-28
+👤 NebulaBC | 📅 2026-07-29
 
-Gives every mob its own random name that appears above its head.
+A simple, server-side, deny by default chest locking mod for BTA! 8.0.1.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/random-entity-names-zerw/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/random-entity-names-zerw}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/locked-and-loaded/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/locked-and-loaded}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Gives every mob its own random name that appears above its head.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Evan](https://minecraft.wiki/Evan)
+📖 **Wiki 推荐**：[Bedrock Edition item texture history/Iron Shovel](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FIron_Shovel)
 
-⏰ 更新时间：2026-07-29 06:38:49
+⏰ 更新时间：2026-07-29 14:25:19
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
