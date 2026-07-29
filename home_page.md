@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-29 03:23:02
+// 生成时间：2026-07-29 06:38:49
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我来做最不想做的事情了。"*
+> *"我拒绝，再一次和你分开。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我来做最不想做的事情了。}"
+...button-text text="📋 复制" event="copy{我拒绝，再一次和你分开。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FJungle_Door}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Evan}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ Gives every mob its own random name that appears above its head.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition block render history/Jungle Door](https://minecraft.wiki/Java_Edition_block_render_history%2FJungle_Door)
+📖 **Wiki 推荐**：[Evan](https://minecraft.wiki/Evan)
 
-⏰ 更新时间：2026-07-29 03:23:02
+⏰ 更新时间：2026-07-29 06:38:49
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
