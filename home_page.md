@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-28 14:26:54
+// 生成时间：2026-07-29 03:23:02
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.ChannelKelp_ZH-CN8732903732_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.TigerFamily_ZH-CN9064744163_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"为了能体面地死去而狼狈地活着。"*
+> *"我来做最不想做的事情了。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{为了能体面地死去而狼狈地活着。}"
+...button-text text="📋 复制" event="copy{我来做最不想做的事情了。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Trading%2FBefore_Java_Edition_1.8}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FJungle_Door}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/4e6muK07/f3e8799f676bfc06f0fed7f6df4941e6853271b2_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/mqryg5KA/096a7955fcd9ad77ae695fabd6d0cd61a37a8a31_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Vulkan Reforged" event="url{https://modrinth.com/mod/vulkan-reforged}"
+...button-text text="Mining Session" event="url{https://modrinth.com/mod/miningsession}"
 
-👤 rindw | 📅 2026-07-28
+👤 Mr_Lan123 | 📅 2026-07-29
 
-Bring Vulkan to Minecraft now on neoforge! (Forge version, backports, other versions coming soon)
+Shows real-time session statistics (mining, kills, deaths, distance) on a configurable HUD panel.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/vulkan-reforged/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/vulkan-reforged}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/miningsession/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/miningsession}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/vY3ysdL3/d9107bab17358d563d7dee410b76cf53e74797bb_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/hcjL6IkG/ac4b99e2f5088a2f18c520fc345e8e20d86c8963_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="World Finder" event="url{https://modrinth.com/mod/world-finder}"
+...button-text text="FPV Drones" event="url{https://modrinth.com/mod/fpv-drones}"
 
-👤 Asashiin | 📅 2026-07-28
+👤 marden14111 | 📅 2026-07-28
 
-World Finder is a client-side seed map and structure finder for vanilla Minecraft worlds, built as a
+Adds a controllable FPV drone with realistic WASD and mouse controls.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/world-finder/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/world-finder}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fpv-drones/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fpv-drones}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/idJgRLlX/144d981eac1825335f78fd0ed36de9a7a85b5958_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/otfCJmHw/eb50f42613ce7d22914d52a7db0b9e8e0efe92d7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Recource Pack Updater" event="url{https://modrinth.com/mod/recource-pack-updater}"
+...button-text text="Hologram Hider" event="url{https://modrinth.com/mod/hologram-hider}"
 
-👤 noahssparkilingstars | 📅 2026-07-28
+👤 RonnyLearn | 📅 2026-07-28
 
-This is for the Minecraft 1.20.4 MTR Let’s Play Server. It’ll be useful most of the time, and it als
+The Armour Stand Hologram Hider
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/recource-pack-updater/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/recource-pack-updater}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hologram-hider/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hologram-hider}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ypffFjbR/d7a1606c0ed02c2d0a9850af357150127507d166_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/BjtFJzY9/757fb7c9a4484969caeca6bcec560fb08f5d9e5d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Super Sampling" event="url{https://modrinth.com/mod/super-sampling}"
+...button-text text="Simple Voicechat Commands" event="url{https://modrinth.com/mod/simple-voicechat-commands}"
 
-👤 ResonantLake | 📅 2026-07-28
+👤 IV12 | 📅 2026-07-28
 
-This mod integrates Intel XeSS technology into Minecraft.
+Addon to Simple Voice Chat that adds  a few helpful commands to make actions such as muting players 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/super-sampling/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/super-sampling}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simple-voicechat-commands/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simple-voicechat-commands}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/tYQRHiMS/bedbbd01012b28c65f73ed04384eff92cee8ae54_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/dbhsTZw7/b30c1a8710e66b3a8c30836f5b6fbe5ec915f32b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Inside The System zh-cn 简体中文汉化" event="url{https://modrinth.com/mod/inside-the-system-zh-cn}"
+...button-text text="Random Entity Names" event="url{https://modrinth.com/mod/random-entity-names-zerw}"
 
-👤 SJWDSJ | 📅 2026-07-28
+👤 Zerw | 📅 2026-07-28
 
-A Simplified Chinese localization mod for Inside The System, authorized by the original author. | In
+Gives every mob its own random name that appears above its head.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/inside-the-system-zh-cn/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/inside-the-system-zh-cn}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/random-entity-names-zerw/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/random-entity-names-zerw}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ A Simplified Chinese localization mod for Inside The System, authorized by the o
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：生机律动，恒久之衡
-© 一片海藻林在安纳卡帕岛附近，海峡群岛国家公园，加利福尼亚州，美国 (© Ian Shive/Tandem Stills + Motion)
+🖼️ 壁纸：虎啸归来，锐爪重临
+© 孟加拉虎一家在兰坦博尔国家公园，拉贾斯坦邦，印度 (© Archna Singh/Shutterstock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Trading/Before Java Edition 1.8](https://minecraft.wiki/Trading%2FBefore_Java_Edition_1.8)
+📖 **Wiki 推荐**：[Java Edition block render history/Jungle Door](https://minecraft.wiki/Java_Edition_block_render_history%2FJungle_Door)
 
-⏰ 更新时间：2026-07-28 14:26:54
+⏰ 更新时间：2026-07-29 03:23:02
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
