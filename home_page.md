@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-30 02:56:00
+// 生成时间：2026-07-30 06:33:57
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"对青少年的坏影响，不可计量。"*
+> *"愿万般熙攘化为清风明月，四方梦想变成未来可期。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{对青少年的坏影响，不可计量。}"
+...button-text text="📋 复制" event="copy{愿万般熙攘化为清风明月，四方梦想变成未来可期。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Toasts}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft%3A_Woodsword_Chronicles%2FIntoTheGame2CHP}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ A chaotic multiplayer survival challenge featuring a synchronized shared health 
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Toasts](https://minecraft.wiki/Toasts)
+📖 **Wiki 推荐**：[Minecraft: Woodsword Chronicles/IntoTheGame2CHP](https://minecraft.wiki/Minecraft%3A_Woodsword_Chronicles%2FIntoTheGame2CHP)
 
-⏰ 更新时间：2026-07-30 02:56:00
+⏰ 更新时间：2026-07-30 06:33:57
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
