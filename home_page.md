@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-30 06:33:57
+// 生成时间：2026-07-30 14:22:34
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"愿万般熙攘化为清风明月，四方梦想变成未来可期。"*
+> *"要是追不上光，那就变成光吧。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{愿万般熙攘化为清风明月，四方梦想变成未来可期。}"
+...button-text text="📋 复制" event="copy{要是追不上光，那就变成光吧。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft%3A_Woodsword_Chronicles%2FIntoTheGame2CHP}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Fgetchestcontents}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/r4RkgwL6/2d0f90699463bf3e65ccf83d645dde46409cc726_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zak1wIOR/7f3f9f9e2e7b852e1777e37de6844a1335aaad3d.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mind Palaces" event="url{https://modrinth.com/mod/mind-palaces}"
+...button-text text="Auto Torch" event="url{https://modrinth.com/mod/auto-torch-skr}"
 
-👤 Nischhelm | 📅 2026-07-29
+👤 sakurakugu | 📅 2026-07-30
 
-Every player gets a small bedrock box to dream in (Pocket Dimension)
+Automatically places torches in selected areas or near the player, with a client-side light level ov
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mind-palaces/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mind-palaces}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/auto-torch-skr/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/auto-torch-skr}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ZVJOBxQ3/bc81c643a392af721531e9235f5d4de29356adc2_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/bOcsYOPh/6c451db8b8911e0e76b0700fa6d5f7596093e2a1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Better Footage" event="url{https://modrinth.com/mod/better-footage}"
+...button-text text="Moderation Mod for Client" event="url{https://modrinth.com/mod/moderationmod}"
 
-👤 XiaoMianbaoya2 | 📅 2026-07-29
+👤 Bomba_wod | 📅 2026-07-30
 
-Add some green screen blocks for recording videos
+A convenient and simple client panel for Minecraft server moderators.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-footage/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-footage}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/moderationmod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/moderationmod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/sznyZ26h/92464dc9ae305f5c34199d1f87fdc296c185335b.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/mdRxbZQw/9bbc34b6fa7fef230df447c3be028340fed4d5ea.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Botania Backpack Upgrades" event="url{https://modrinth.com/mod/botania-backpack-upgrades}"
+...button-text text="Elytra Wind Brake" event="url{https://modrinth.com/mod/elytra-wind-brake}"
 
-👤 taisuiyileba | 📅 2026-07-29
+👤 OrkaMC | 📅 2026-07-30
 
-Botania Backpack Upgrades is a compatibility addon for Sophisticated Backpacks and Botaniaon Minecra
+Lets players slow down while flying with an Elytra and fly upward in Creative
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/botania-backpack-upgrades/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/botania-backpack-upgrades}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/elytra-wind-brake/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/elytra-wind-brake}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Qls1ckYk/7aed39f453b2c21c9dcc21f4428af13bdef682df_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/9PyVWEbi/47cfeb6e5076cc2dd566678e3b119df75be465b5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="lighter Golden Apples 26.2" event="url{https://modrinth.com/mod/lighter-golden-apples-26.2}"
+...button-text text="KeySplit" event="url{https://modrinth.com/mod/keysplit}"
 
-👤 lowmod | 📅 2026-07-29
+👤 Zyldros | 📅 2026-07-30
 
-this mod adds an easy recipe for golden apples for survival and competetive servers and for easier h
+Dedicate a second physical keyboard entirely to shortcuts and mod keybindings — zero conflict with y
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lighter-golden-apples-26.2/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lighter-golden-apples-26.2}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/keysplit/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/keysplit}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/3KhA2BZU/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/GFhrguir/3c19c0d85385a7de4267fef43f8efe5a110ea3a7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="yawane-test_mod" event="url{https://modrinth.com/mod/yawane-test_mod}"
+...button-text text="Backrooms FF Continued" event="url{https://modrinth.com/mod/backrooms-ff-continued}"
 
-👤 yoannh.hoarau974 | 📅 2026-07-29
+👤 ARBird | 📅 2026-07-30
 
-A chaotic multiplayer survival challenge featuring a synchronized shared health bar, random player p
+A mod that aims to turn Minecraft into the Backrooms.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/yawane-test_mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/yawane-test_mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/backrooms-ff-continued/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/backrooms-ff-continued}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ A chaotic multiplayer survival challenge featuring a synchronized shared health 
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Minecraft: Woodsword Chronicles/IntoTheGame2CHP](https://minecraft.wiki/Minecraft%3A_Woodsword_Chronicles%2FIntoTheGame2CHP)
+📖 **Wiki 推荐**：[Commands/getchestcontents](https://minecraft.wiki/Commands%2Fgetchestcontents)
 
-⏰ 更新时间：2026-07-30 06:33:57
+⏰ 更新时间：2026-07-30 14:22:34
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
