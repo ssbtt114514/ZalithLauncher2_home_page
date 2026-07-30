@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-29 14:25:19
+// 生成时间：2026-07-30 02:56:00
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.TigerFamily_ZH-CN9064744163_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.NavajoNation_ZH-CN9274387505_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"若是遇见从前的我，请带他回来。"*
+> *"对青少年的坏影响，不可计量。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{若是遇见从前的我，请带他回来。}"
+...button-text text="📋 复制" event="copy{对青少年的坏影响，不可计量。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FIron_Shovel}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Toasts}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6St2MaPz/17c356fe28afd70038cbc8493be6f512a29788d7_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/r4RkgwL6/2d0f90699463bf3e65ccf83d645dde46409cc726_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Lottery Mod" event="url{https://modrinth.com/mod/lotterymod}"
+...button-text text="Mind Palaces" event="url{https://modrinth.com/mod/mind-palaces}"
 
-👤 qindt2022 | 📅 2026-07-29
+👤 Nischhelm | 📅 2026-07-29
 
-This mod adds a gacha (Lottery) system to Minecraft. When this mod is loaded, mining diamond ore wil
+Every player gets a small bedrock box to dream in (Pocket Dimension)
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lotterymod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lotterymod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mind-palaces/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mind-palaces}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/JTphqlbU/cdac0ed5c72945e6e453730767a0a3f99a211140_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ZVJOBxQ3/bc81c643a392af721531e9235f5d4de29356adc2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ancient diamonds" event="url{https://modrinth.com/mod/ancient-diamonds}"
+...button-text text="Better Footage" event="url{https://modrinth.com/mod/better-footage}"
 
-👤 shumai0928 | 📅 2026-07-29
+👤 XiaoMianbaoya2 | 📅 2026-07-29
 
-Let's build a diamond house in the oldest version!
+Add some green screen blocks for recording videos
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ancient-diamonds/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ancient-diamonds}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-footage/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-footage}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ENWEtfIW/b7b8645805a022ac4764e99470ba69156e1dbac9_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/sznyZ26h/92464dc9ae305f5c34199d1f87fdc296c185335b.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Cobblemon True Pickup" event="url{https://modrinth.com/mod/cobblemon-true-pickup}"
+...button-text text="Botania Backpack Upgrades" event="url{https://modrinth.com/mod/botania-backpack-upgrades}"
 
-👤 zmoonmaru | 📅 2026-07-29
+👤 taisuiyileba | 📅 2026-07-29
 
-Brings the Pickup ability's real mainline mechanic to Cobblemon: your lead party Pokémon has a chanc
+Botania Backpack Upgrades is a compatibility addon for Sophisticated Backpacks and Botaniaon Minecra
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cobblemon-true-pickup/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cobblemon-true-pickup}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/botania-backpack-upgrades/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/botania-backpack-upgrades}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8luerlRt/716b6b64c4d8e04e8018635f65a3e2aa0cd7343d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Qls1ckYk/7aed39f453b2c21c9dcc21f4428af13bdef682df_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="player outlines (not esp)" event="url{https://modrinth.com/mod/player-outlines-not-esp}"
+...button-text text="lighter Golden Apples 26.2" event="url{https://modrinth.com/mod/lighter-golden-apples-26.2}"
 
-👤 notyocheas | 📅 2026-07-29
+👤 lowmod | 📅 2026-07-29
 
-a player outline mod that outlines players, this mod is not esp it does not show through wall. it ha
+this mod adds an easy recipe for golden apples for survival and competetive servers and for easier h
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/player-outlines-not-esp/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/player-outlines-not-esp}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lighter-golden-apples-26.2/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lighter-golden-apples-26.2}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/81WYKWKQ/30f06b0f0562e705023fc5de269938b6ec42f940_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/3KhA2BZU/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Locked and Loaded" event="url{https://modrinth.com/mod/locked-and-loaded}"
+...button-text text="yawane-test_mod" event="url{https://modrinth.com/mod/yawane-test_mod}"
 
-👤 NebulaBC | 📅 2026-07-29
+👤 yoannh.hoarau974 | 📅 2026-07-29
 
-A simple, server-side, deny by default chest locking mod for BTA! 8.0.1.
+A chaotic multiplayer survival challenge featuring a synchronized shared health bar, random player p
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/locked-and-loaded/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/locked-and-loaded}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/yawane-test_mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/yawane-test_mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ A simple, server-side, deny by default chest locking mod for BTA! 8.0.1.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：虎啸归来，锐爪重临
-© 孟加拉虎一家在兰坦博尔国家公园，拉贾斯坦邦，印度 (© Archna Singh/Shutterstock)
+🖼️ 壁纸：旷野无声，活态传承之境
+© 在纳瓦霍族保留地的纪念碑谷，亚利桑那州，美国 (© Westend61/Adobe Stock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition item texture history/Iron Shovel](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FIron_Shovel)
+📖 **Wiki 推荐**：[Toasts](https://minecraft.wiki/Toasts)
 
-⏰ 更新时间：2026-07-29 14:25:19
+⏰ 更新时间：2026-07-30 02:56:00
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
