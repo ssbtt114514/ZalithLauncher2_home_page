@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-31 06:50:32
+// 生成时间：2026-07-31 14:25:09
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"若没有离开海岸的勇气，就必然无法横跨大海。"*
+> *"一部春秋史，千年孤臣泪。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{若没有离开海岸的勇气，就必然无法横跨大海。}"
+...button-text text="📋 复制" event="copy{一部春秋史，千年孤臣泪。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FBlast_Furnace}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Wildfire}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ Removes first-person hand shake
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition block render history/Blast Furnace](https://minecraft.wiki/Java_Edition_block_render_history%2FBlast_Furnace)
+📖 **Wiki 推荐**：[Wildfire](https://minecraft.wiki/Wildfire)
 
-⏰ 更新时间：2026-07-31 06:50:32
+⏰ 更新时间：2026-07-31 14:25:09
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
