@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-01 03:37:50
+// 生成时间：2026-08-01 06:36:00
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"无论在哪里遇到你，我都会喜欢上你。"*
+> *"迢迢牵牛星，皎皎河汉女。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{无论在哪里遇到你，我都会喜欢上你。}"
+...button-text text="📋 复制" event="copy{迢迢牵牛星，皎皎河汉女。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FResin_Brick_Stairs}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.21.8%2FDevelopment_versions}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -179,9 +179,9 @@ Reduces the flame texture size on burning arrows and mobs.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition block render history/Resin Brick Stairs](https://minecraft.wiki/Java_Edition_block_render_history%2FResin_Brick_Stairs)
+📖 **Wiki 推荐**：[Java Edition 1.21.8/Development versions](https://minecraft.wiki/Java_Edition_1.21.8%2FDevelopment_versions)
 
-⏰ 更新时间：2026-08-01 03:37:50
+⏰ 更新时间：2026-08-01 06:36:00
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
