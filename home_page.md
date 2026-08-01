@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-01 06:36:00
+// 生成时间：2026-08-01 13:43:48
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"迢迢牵牛星，皎皎河汉女。"*
+> *"但愿玫瑰花会成精。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{迢迢牵牛星，皎皎河汉女。}"
+...button-text text="📋 复制" event="copy{但愿玫瑰花会成精。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.21.8%2FDevelopment_versions}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FAcacia_Door}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,82 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Y8LxiJTw/9709d5b8ef5090d5e64b5ba6c55217e18fff2a96_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/4Oh6wE1S/68b15ecc33da59e510a83ce9435e6e71c09a3c41_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="TrimEffects" event="url{https://modrinth.com/mod/trimeffects}"
+...button-text text="Dimension Bridge" event="url{https://modrinth.com/mod/dimension-bridge}"
 
-👤 ParroteX2 | 📅 2026-07-31
+👤 FoucaultLeon | 📅 2026-08-01
 
-Every Armor Trim gets a unique effect! Wear trimmed armor to gain powerful bonuses that scale with t
+DimensionBridge securely transfers players via Velocity commands from one registered backend server 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/trimeffects/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/trimeffects}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dimension-bridge/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dimension-bridge}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/FXhZqIbn/9d05b175ad37921f4be59dd857e888abfa524d38_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/DFDIVZ1O/5fd47b77010d6aea74473a04eadaf7de75b13943_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MCDriftHUD-Lite" event="url{https://modrinth.com/mod/mcdrifthud-lite}"
+...button-text text="Doorchestra" event="url{https://modrinth.com/mod/doorchestra}"
 
-👤 LogGamja | 📅 2026-07-31
+👤 1Dot | 📅 2026-08-01
 
-카트라이더: 마인크래프트의 공식 HUD 모드입니다.
-Official HUD mod for KartRider: Minecraft.
+Synchronized DOUBLE, TRIPLE, and even QUAD doors for Fabric—server-side, redstone-ready, and client-
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mcdrifthud-lite/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mcdrifthud-lite}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/doorchestra/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/doorchestra}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/tVQtC3Rx/9401afd76ea47d5763f3a706c73311392cd4b626_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8uysgPy7/65438d6784a53b70827d3d9b79f2187896a9e980_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Tab Optimizer" event="url{https://modrinth.com/mod/tab-optimizer}"
+...button-text text="old doggo shaders" event="url{https://modrinth.com/mod/old-doggo-shaders}"
 
-👤 rexone | 📅 2026-07-31
+👤 26kdogs | 📅 2026-08-01
 
-⚡ Tab Optimizer fix a lag when you open tab in big server
+a low end shaders for low end laptops or pc's low pc high graphics!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tab-optimizer/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tab-optimizer}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/old-doggo-shaders/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/old-doggo-shaders}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ikzMAJVF/b4b9f7bece7145410a9e44424d7456a77000d443_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/A07xPNkw/11a7db7a3bed972949faf5416bc178bda81ce466.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ryuu Crystal Optimizer" event="url{https://modrinth.com/mod/ryuu-crystal-optimizer}"
+...button-text text="Permanent Paintings" event="url{https://modrinth.com/mod/permanent-paintings}"
 
-👤 Ryuu7x_ | 📅 2026-07-31
+👤 Cassian | 📅 2026-08-01
 
-Ryuu Crystal Optimizer is a lightweight client-side mod that enhances the responsiveness of End Crys
+All paintings now drop the exact variant that was placed, and variants can be crafted in the stonecu
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ryuu-crystal-optimizer/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ryuu-crystal-optimizer}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/permanent-paintings/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/permanent-paintings}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/H2V89C4e/2a71b2c91ba6317f0da66474e3e507c05d4fd912.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/O7MRxzoO/635767d5f91df26aac449dedf4214c0fa26f9af9.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Better Flames" event="url{https://modrinth.com/mod/better-flames}"
+...button-text text="Unbarbed Bees" event="url{https://modrinth.com/mod/unbarbed-bees}"
 
-👤 Neuromuser | 📅 2026-07-31
+👤 DRECUBED | 📅 2026-08-01
 
-Reduces the flame texture size on burning arrows and mobs.
+Bees no longer lose their stingers nor die after attacking
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-flames/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-flames}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/unbarbed-bees/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/unbarbed-bees}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -179,9 +178,9 @@ Reduces the flame texture size on burning arrows and mobs.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 1.21.8/Development versions](https://minecraft.wiki/Java_Edition_1.21.8%2FDevelopment_versions)
+📖 **Wiki 推荐**：[Bedrock Edition block render history/Acacia Door](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FAcacia_Door)
 
-⏰ 更新时间：2026-08-01 06:36:00
+⏰ 更新时间：2026-08-01 13:43:48
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
