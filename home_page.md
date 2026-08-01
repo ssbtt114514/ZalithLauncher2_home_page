@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-07-31 14:25:09
+// 生成时间：2026-08-01 03:37:50
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.VirginiaTrail_ZH-CN2299501599_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.HawaiiLava_ZH-CN3257621771_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"一部春秋史，千年孤臣泪。"*
+> *"无论在哪里遇到你，我都会喜欢上你。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{一部春秋史，千年孤臣泪。}"
+...button-text text="📋 复制" event="copy{无论在哪里遇到你，我都会喜欢上你。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Wildfire}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FResin_Brick_Stairs}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,82 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/hoRGA0Xx/40217904e7d7d64cbd66664be9d57f91370ba933.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Y8LxiJTw/9709d5b8ef5090d5e64b5ba6c55217e18fff2a96_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Hhotbar Keeper" event="url{https://modrinth.com/mod/hhotbar-keeper}"
+...button-text text="TrimEffects" event="url{https://modrinth.com/mod/trimeffects}"
 
-👤 FlyingCoq | 📅 2026-07-30
+👤 ParroteX2 | 📅 2026-07-31
 
-pins hotbar slots to their items and refills them from your main inventory
+Every Armor Trim gets a unique effect! Wear trimmed armor to gain powerful bonuses that scale with t
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hhotbar-keeper/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hhotbar-keeper}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/trimeffects/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/trimeffects}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/MqNqKQe3/2430538acb0b48ad88a0306f8bcd7b4898dc9892_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/FXhZqIbn/9d05b175ad37921f4be59dd857e888abfa524d38_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="TNT More +" event="url{https://modrinth.com/mod/tnt-more-plus}"
+...button-text text="MCDriftHUD-Lite" event="url{https://modrinth.com/mod/mcdrifthud-lite}"
 
-👤 CubicoDevelopers | 📅 2026-07-30
+👤 LogGamja | 📅 2026-07-31
 
-Adds new TNTs, ores, tools, armor, blocks, materials, and custom mobs to enhance your Minecraft adve
+카트라이더: 마인크래프트의 공식 HUD 모드입니다.
+Official HUD mod for KartRider: Minecraft.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tnt-more-plus/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tnt-more-plus}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mcdrifthud-lite/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mcdrifthud-lite}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/umBVEjGf/d231dafe871c2e6e4cb3526d032b460d95a098e9_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/tVQtC3Rx/9401afd76ea47d5763f3a706c73311392cd4b626_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Rainbow Shulker Box!" event="url{https://modrinth.com/mod/rainbow-shulker-box}"
+...button-text text="Tab Optimizer" event="url{https://modrinth.com/mod/tab-optimizer}"
 
-👤 MrTokido | 📅 2026-07-30
+👤 rexone | 📅 2026-07-31
 
-Craft Rainbow Dye -> Add it to shulker box -> Rainbow Shulker Box
+⚡ Tab Optimizer fix a lag when you open tab in big server
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/rainbow-shulker-box/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/rainbow-shulker-box}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tab-optimizer/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tab-optimizer}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/GpbwEusn/6d8266c9f251b179ea448ed02839c0ea86c971f7_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ikzMAJVF/b4b9f7bece7145410a9e44424d7456a77000d443_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Outbound" event="url{https://modrinth.com/mod/outboundd}"
+...button-text text="Ryuu Crystal Optimizer" event="url{https://modrinth.com/mod/ryuu-crystal-optimizer}"
 
-👤 shxdnw | 📅 2026-07-30
+👤 Ryuu7x_ | 📅 2026-07-31
 
-Server-side random teleport (rtp) mod with configurable warmups and features
+Ryuu Crystal Optimizer is a lightweight client-side mod that enhances the responsiveness of End Crys
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/outboundd/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/outboundd}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ryuu-crystal-optimizer/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ryuu-crystal-optimizer}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/dJQtt3Ih/26413516c6e31672e2a2fccb88c7d04847b3f176_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/H2V89C4e/2a71b2c91ba6317f0da66474e3e507c05d4fd912.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="noshake" event="url{https://modrinth.com/mod/noshake}"
+...button-text text="Better Flames" event="url{https://modrinth.com/mod/better-flames}"
 
-👤 f1natory | 📅 2026-07-30
+👤 Neuromuser | 📅 2026-07-31
 
-Removes first-person hand shake
+Reduces the flame texture size on burning arrows and mobs.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/noshake/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/noshake}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-flames/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-flames}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +174,14 @@ Removes first-person hand shake
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：穿越时光的足迹
-© 鸟瞰弗吉尼亚爬山虎步道，达马斯克斯，弗吉尼亚州，美国 (© Eifel Kreutz/Getty Images)
+🖼️ 壁纸：基拉韦厄火山的威力
+© 大批熔岩流涌入大洋，大岛，夏威夷州，美国 (© Ken McCurdy/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Wildfire](https://minecraft.wiki/Wildfire)
+📖 **Wiki 推荐**：[Java Edition block render history/Resin Brick Stairs](https://minecraft.wiki/Java_Edition_block_render_history%2FResin_Brick_Stairs)
 
-⏰ 更新时间：2026-07-31 14:25:09
+⏰ 更新时间：2026-08-01 03:37:50
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
