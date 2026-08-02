@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-02 03:37:45
+// 生成时间：2026-08-02 06:39:30
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"一起去看星星吧。"*
+> *"虽然人生在世有种种不如意，但你仍可以在幸福与不幸中做选择。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{一起去看星星吧。}"
+...button-text text="📋 复制" event="copy{虽然人生在世有种种不如意，但你仍可以在幸福与不幸中做选择。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FSeamless_Stone_Slab}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Before_Times}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/YRETN7a4/f2bb790f7bd8f5eec1ada8243aea646447f8ad5f.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/484oRdqH/8a81da83a96b8d816812686a3a0ab967f168111a.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Gaaus Badges" event="url{https://modrinth.com/mod/gaaus-badges}"
+...button-text text="Ascend" event="url{https://modrinth.com/mod/totk-ascend}"
 
-👤 Gaaus | 📅 2026-08-01
+👤 Bombastiko | 📅 2026-08-02
 
-Quick mod to add badges from the original game into Cobblemon or Pixelmon. Currently have badges fro
+Rise through the ceiling with the Zelda Tears of the Kingdom ability "Ascend".
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/gaaus-badges/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/gaaus-badges}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/totk-ascend/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/totk-ascend}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/FM8BGYXb/6fd25c4e2bcb0d80fc225246d377ee7fe81d159a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/jeefln4C/dcc37f8e904c0348497062416715b543af246ede.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Many Boats" event="url{https://modrinth.com/mod/many-boats}"
+...button-text text="InSuvival" event="url{https://modrinth.com/mod/insuvival}"
 
-👤 CatTheDeveloper | 📅 2026-08-01
+👤 samuel.felix1600 | 📅 2026-08-02
 
-This mod adds five unique boats crafted from special Minecraft blocks—including Iron, Magma, Ice, TN
+Economy mod in Minecraft SOLO!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/many-boats/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/many-boats}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/insuvival/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/insuvival}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ETAmBBIQ/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/KLBCNhsn/3f6d7a33bb0c35cf997df7d18e9023a27e88c37f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Floatless" event="url{https://modrinth.com/mod/floatless}"
+...button-text text="JOJO - stone block crusaders" event="url{https://modrinth.com/mod/jojo-stone-block-crusaders}"
 
-👤 Sunroses | 📅 2026-08-01
+👤 tibr | 📅 2026-08-02
 
-Disables creative flight.
+Many features from the popular show jojo's bizzare adventure
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/floatless/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/floatless}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jojo-stone-block-crusaders/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jojo-stone-block-crusaders}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Q0fYEBsb/066372379f21dcf199e9abbe3b329680a7f2cdb5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/yrTgVV6k/867f9f7189439fce947452f4d6705cb2cb97a3b1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Summoners" event="url{https://modrinth.com/mod/summoners-mod}"
+...button-text text="Early Game Shulker" event="url{https://modrinth.com/mod/early-game-shulker}"
 
-👤 domkss | 📅 2026-08-01
+👤 erynith | 📅 2026-08-02
 
-Turns ordinary mobs into mini-bosses that summon reinforcements.
+A datapack that adds a simple recipe to craft a brown shulker box with 4 string, 4 leather, and 1 ch
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/summoners-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/summoners-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/early-game-shulker/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/early-game-shulker}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/VjXeHf8o/3fd202d4bcd75a2b6c0a64f60ec2c75f2b2c9232_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/pJDkKSAw/db758d27d27756adadea80381c921fed9d044e52_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Saro's Easy Lang Switcher" event="url{https://modrinth.com/mod/saros-easy-lang-switcher}"
+...button-text text="merchantmind" event="url{https://modrinth.com/mod/merchantmind}"
 
-👤 Sarocesch | 📅 2026-08-01
+👤 Mattrixthai9911 | 📅 2026-08-02
 
-Switch the in-game language instantly with a hotkey. Set up multiple toggles between your favorite l
+An AI-powered shopkeeper mod with a rotating catalog of 11 categories, smart barter trading, bulk-bo
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/saros-easy-lang-switcher/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/saros-easy-lang-switcher}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/merchantmind/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/merchantmind}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Switch the in-game language instantly with a hotkey. Set up multiple toggles bet
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition block render history/Seamless Stone Slab](https://minecraft.wiki/Java_Edition_block_render_history%2FSeamless_Stone_Slab)
+📖 **Wiki 推荐**：[Before Times](https://minecraft.wiki/Before_Times)
 
-⏰ 更新时间：2026-08-02 03:37:45
+⏰ 更新时间：2026-08-02 06:39:30
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
