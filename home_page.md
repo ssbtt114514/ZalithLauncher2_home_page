@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-02 06:39:30
+// 生成时间：2026-08-02 13:43:43
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"虽然人生在世有种种不如意，但你仍可以在幸福与不幸中做选择。"*
+> *"红豆生南国，春来发几枝。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{虽然人生在世有种种不如意，但你仍可以在幸福与不幸中做选择。}"
+...button-text text="📋 复制" event="copy{红豆生南国，春来发几枝。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Before_Times}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FMangrove_Roots}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ An AI-powered shopkeeper mod with a rotating catalog of 11 categories, smart bar
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Before Times](https://minecraft.wiki/Before_Times)
+📖 **Wiki 推荐**：[Java Edition block render history/Mangrove Roots](https://minecraft.wiki/Java_Edition_block_render_history%2FMangrove_Roots)
 
-⏰ 更新时间：2026-08-02 06:39:30
+⏰ 更新时间：2026-08-02 13:43:43
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
