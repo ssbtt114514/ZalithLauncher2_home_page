@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-01 13:43:48
+// 生成时间：2026-08-02 03:37:45
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.HawaiiLava_ZH-CN3257621771_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.HelsinkiBlue_ZH-CN3961551568_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"但愿玫瑰花会成精。"*
+> *"一起去看星星吧。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{但愿玫瑰花会成精。}"
+...button-text text="📋 复制" event="copy{一起去看星星吧。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FAcacia_Door}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FSeamless_Stone_Slab}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/4Oh6wE1S/68b15ecc33da59e510a83ce9435e6e71c09a3c41_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/YRETN7a4/f2bb790f7bd8f5eec1ada8243aea646447f8ad5f.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Dimension Bridge" event="url{https://modrinth.com/mod/dimension-bridge}"
+...button-text text="Gaaus Badges" event="url{https://modrinth.com/mod/gaaus-badges}"
 
-👤 FoucaultLeon | 📅 2026-08-01
+👤 Gaaus | 📅 2026-08-01
 
-DimensionBridge securely transfers players via Velocity commands from one registered backend server 
+Quick mod to add badges from the original game into Cobblemon or Pixelmon. Currently have badges fro
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dimension-bridge/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dimension-bridge}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/gaaus-badges/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/gaaus-badges}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/DFDIVZ1O/5fd47b77010d6aea74473a04eadaf7de75b13943_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/FM8BGYXb/6fd25c4e2bcb0d80fc225246d377ee7fe81d159a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Doorchestra" event="url{https://modrinth.com/mod/doorchestra}"
+...button-text text="Many Boats" event="url{https://modrinth.com/mod/many-boats}"
 
-👤 1Dot | 📅 2026-08-01
+👤 CatTheDeveloper | 📅 2026-08-01
 
-Synchronized DOUBLE, TRIPLE, and even QUAD doors for Fabric—server-side, redstone-ready, and client-
+This mod adds five unique boats crafted from special Minecraft blocks—including Iron, Magma, Ice, TN
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/doorchestra/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/doorchestra}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/many-boats/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/many-boats}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8uysgPy7/65438d6784a53b70827d3d9b79f2187896a9e980_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ETAmBBIQ/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="old doggo shaders" event="url{https://modrinth.com/mod/old-doggo-shaders}"
+...button-text text="Floatless" event="url{https://modrinth.com/mod/floatless}"
 
-👤 26kdogs | 📅 2026-08-01
+👤 Sunroses | 📅 2026-08-01
 
-a low end shaders for low end laptops or pc's low pc high graphics!
+Disables creative flight.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/old-doggo-shaders/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/old-doggo-shaders}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/floatless/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/floatless}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/A07xPNkw/11a7db7a3bed972949faf5416bc178bda81ce466.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Q0fYEBsb/066372379f21dcf199e9abbe3b329680a7f2cdb5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Permanent Paintings" event="url{https://modrinth.com/mod/permanent-paintings}"
+...button-text text="Summoners" event="url{https://modrinth.com/mod/summoners-mod}"
 
-👤 Cassian | 📅 2026-08-01
+👤 domkss | 📅 2026-08-01
 
-All paintings now drop the exact variant that was placed, and variants can be crafted in the stonecu
+Turns ordinary mobs into mini-bosses that summon reinforcements.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/permanent-paintings/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/permanent-paintings}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/summoners-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/summoners-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/O7MRxzoO/635767d5f91df26aac449dedf4214c0fa26f9af9.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/VjXeHf8o/3fd202d4bcd75a2b6c0a64f60ec2c75f2b2c9232_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Unbarbed Bees" event="url{https://modrinth.com/mod/unbarbed-bees}"
+...button-text text="Saro's Easy Lang Switcher" event="url{https://modrinth.com/mod/saros-easy-lang-switcher}"
 
-👤 DRECUBED | 📅 2026-08-01
+👤 Sarocesch | 📅 2026-08-01
 
-Bees no longer lose their stingers nor die after attacking
+Switch the in-game language instantly with a hotkey. Set up multiple toggles between your favorite l
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/unbarbed-bees/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/unbarbed-bees}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/saros-easy-lang-switcher/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/saros-easy-lang-switcher}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Bees no longer lose their stingers nor die after attacking
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：基拉韦厄火山的威力
-© 大批熔岩流涌入大洋，大岛，夏威夷州，美国 (© Ken McCurdy/Getty Images)
+🖼️ 壁纸：色彩鲜艳的船只，历久弥新的传统
+© 马尔萨什洛克港口五彩斑斓的渔船，马耳他 (© Klubovy/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition block render history/Acacia Door](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FAcacia_Door)
+📖 **Wiki 推荐**：[Java Edition block render history/Seamless Stone Slab](https://minecraft.wiki/Java_Edition_block_render_history%2FSeamless_Stone_Slab)
 
-⏰ 更新时间：2026-08-01 13:43:48
+⏰ 更新时间：2026-08-02 03:37:45
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
