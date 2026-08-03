@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-03 07:35:32
+// 生成时间：2026-08-03 14:56:54
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"龙宫里都是宝藏,而我恰恰是龙王。"*
+> *"一定没有问题的！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{龙宫里都是宝藏,而我恰恰是龙王。}"
+...button-text text="📋 复制" event="copy{一定没有问题的！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_2.3.449}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Redstone_circuits%2FClock%2FClock_multiplier}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ A Mekanism addon that adds methods for handling late-game radioactive materials.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Launcher 2.3.449](https://minecraft.wiki/Launcher_2.3.449)
+📖 **Wiki 推荐**：[Redstone circuits/Clock/Clock multiplier](https://minecraft.wiki/Redstone_circuits%2FClock%2FClock_multiplier)
 
-⏰ 更新时间：2026-08-03 07:35:32
+⏰ 更新时间：2026-08-03 14:56:54
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
