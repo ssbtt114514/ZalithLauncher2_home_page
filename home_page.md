@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-02 13:43:43
+// 生成时间：2026-08-03 03:40:04
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.HelsinkiBlue_ZH-CN3961551568_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.BoatsMalta_ZH-CN4708255775_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"红豆生南国，春来发几枝。"*
+> *"不要熄灭破墙而出的欲望，否则鼾声又起。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{红豆生南国，春来发几枝。}"
+...button-text text="📋 复制" event="copy{不要熄灭破墙而出的欲望，否则鼾声又起。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FMangrove_Roots}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Character_Creator%2FCommunity_Celebration}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/484oRdqH/8a81da83a96b8d816812686a3a0ab967f168111a.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/lJG7Fu46/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ascend" event="url{https://modrinth.com/mod/totk-ascend}"
+...button-text text="Armor Cap Remover" event="url{https://modrinth.com/mod/armor-cap-remover}"
 
-👤 Bombastiko | 📅 2026-08-02
+👤 GLDonutlord | 📅 2026-08-02
 
-Rise through the ceiling with the Zelda Tears of the Kingdom ability "Ascend".
+This mod removes the armour cap that makes armour reduce incoming dmg by only 80%
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/totk-ascend/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/totk-ascend}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/armor-cap-remover/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/armor-cap-remover}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/jeefln4C/dcc37f8e904c0348497062416715b543af246ede.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/eMSbM34C/78228dd41828759e80c1e544d669191ac639974e.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="InSuvival" event="url{https://modrinth.com/mod/insuvival}"
+...button-text text="Create: Rolling Tones" event="url{https://modrinth.com/mod/create-rolling-tones}"
 
-👤 samuel.felix1600 | 📅 2026-08-02
+👤 Mr_Mulle | 📅 2026-08-02
 
-Economy mod in Minecraft SOLO!
+Adds surface-based rolling and skidding sounds to Create: Aeronautics tires!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/insuvival/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/insuvival}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-rolling-tones/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-rolling-tones}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/KLBCNhsn/3f6d7a33bb0c35cf997df7d18e9023a27e88c37f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/T6xXAP3n/c94b7d9774fb61b6d1e3b553ba25ab0fb58fb2ef_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="JOJO - stone block crusaders" event="url{https://modrinth.com/mod/jojo-stone-block-crusaders}"
+...button-text text="Vault Reveal" event="url{https://modrinth.com/mod/vault-reveal}"
 
-👤 tibr | 📅 2026-08-02
+👤 ItzChoko | 📅 2026-08-02
 
-Many features from the popular show jojo's bizzare adventure
+Preview vault loot before wasting your Trial Keys. See exactly what's inside normal and ominous vaul
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jojo-stone-block-crusaders/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jojo-stone-block-crusaders}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/vault-reveal/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/vault-reveal}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/yrTgVV6k/867f9f7189439fce947452f4d6705cb2cb97a3b1_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ni9xFqn7/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Early Game Shulker" event="url{https://modrinth.com/mod/early-game-shulker}"
+...button-text text="Aeronautics: Dupe fix" event="url{https://modrinth.com/mod/aeronautics-dupe-fix}"
 
-👤 erynith | 📅 2026-08-02
+👤 F_ery_a | 📅 2026-08-02
 
-A datapack that adds a simple recipe to craft a brown shulker box with 4 string, 4 leather, and 1 ch
+Fixes an item duplication issue involving Create and Create: Aeronautics.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/early-game-shulker/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/early-game-shulker}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/aeronautics-dupe-fix/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/aeronautics-dupe-fix}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/pJDkKSAw/db758d27d27756adadea80381c921fed9d044e52_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/oiCDNRxD/b09b7973f4684258e31a5bd43bd93b1856b60190.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="merchantmind" event="url{https://modrinth.com/mod/merchantmind}"
+...button-text text="Breakable Blocks" event="url{https://modrinth.com/mod/breakable-block}"
 
-👤 Mattrixthai9911 | 📅 2026-08-02
+👤 TOP_G2026 | 📅 2026-08-02
 
-An AI-powered shopkeeper mod with a rotating catalog of 11 categories, smart barter trading, bulk-bo
+Breakable blocks is a configurable, high-performance server-side Fabric mod for Minecraft that lets 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/merchantmind/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/merchantmind}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/breakable-block/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/breakable-block}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ An AI-powered shopkeeper mod with a rotating catalog of 11 categories, smart bar
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition block render history/Mangrove Roots](https://minecraft.wiki/Java_Edition_block_render_history%2FMangrove_Roots)
+📖 **Wiki 推荐**：[Character Creator/Community Celebration](https://minecraft.wiki/Character_Creator%2FCommunity_Celebration)
 
-⏰ 更新时间：2026-08-02 13:43:43
+⏰ 更新时间：2026-08-03 03:40:04
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
