@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-03 03:40:04
+// 生成时间：2026-08-03 07:35:32
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"不要熄灭破墙而出的欲望，否则鼾声又起。"*
+> *"龙宫里都是宝藏,而我恰恰是龙王。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{不要熄灭破墙而出的欲望，否则鼾声又起。}"
+...button-text text="📋 复制" event="copy{龙宫里都是宝藏,而我恰恰是龙王。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Character_Creator%2FCommunity_Celebration}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_2.3.449}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/lJG7Fu46/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/sq97doni/c403f47b0cb579db4a54c35dbfe5edac18bbad4e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Armor Cap Remover" event="url{https://modrinth.com/mod/armor-cap-remover}"
+...button-text text="Duckedudle Mod" event="url{https://modrinth.com/mod/duckedudlemod}"
 
-👤 GLDonutlord | 📅 2026-08-02
+👤 Antara89 | 📅 2026-08-03
 
-This mod removes the armour cap that makes armour reduce incoming dmg by only 80%
+This mod adds the duckedudle mob.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/armor-cap-remover/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/armor-cap-remover}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/duckedudlemod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/duckedudlemod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/eMSbM34C/78228dd41828759e80c1e544d669191ac639974e.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/YT5K34AB/b279e8756761d8160f678ad20fb632d0a09b89b4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Rolling Tones" event="url{https://modrinth.com/mod/create-rolling-tones}"
+...button-text text="Corail Tombstone" event="url{https://modrinth.com/mod/corail-tombstone}"
 
-👤 Mr_Mulle | 📅 2026-08-02
+👤 Corail_31 | 📅 2026-08-03
 
-Adds surface-based rolling and skidding sounds to Create: Aeronautics tires!
+Keeps safe your inventory items in graves on death, with many features for better survivability and 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-rolling-tones/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-rolling-tones}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/corail-tombstone/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/corail-tombstone}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/T6xXAP3n/c94b7d9774fb61b6d1e3b553ba25ab0fb58fb2ef_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vs68fLpf/bc902297f2dd6ca355946e25b32abbf27664fd61_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Vault Reveal" event="url{https://modrinth.com/mod/vault-reveal}"
+...button-text text="Death Control" event="url{https://modrinth.com/mod/death-control}"
 
-👤 ItzChoko | 📅 2026-08-02
+👤 z7534 | 📅 2026-08-03
 
-Preview vault loot before wasting your Trial Keys. See exactly what's inside normal and ominous vaul
+New Death Mecanics for Forge!!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/vault-reveal/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/vault-reveal}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/death-control/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/death-control}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ni9xFqn7/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/qGroGqA4/3905a59fdbaf11ccb75a2ce4c6fe1640a73ba79b.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Aeronautics: Dupe fix" event="url{https://modrinth.com/mod/aeronautics-dupe-fix}"
+...button-text text="Boivindo" event="url{https://modrinth.com/mod/boivindo}"
 
-👤 F_ery_a | 📅 2026-08-02
+👤 daviteleste | 📅 2026-08-03
 
-Fixes an item duplication issue involving Create and Create: Aeronautics.
+A gaunt bovine humanoid that doesn't hunt you, it grades you. It picks the best-fed player, always k
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/aeronautics-dupe-fix/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/aeronautics-dupe-fix}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/boivindo/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/boivindo}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/oiCDNRxD/b09b7973f4684258e31a5bd43bd93b1856b60190.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/nzsJuPlL/c06421b872389726c290b416bb2f496a2bf8b8c9_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Breakable Blocks" event="url{https://modrinth.com/mod/breakable-block}"
+...button-text text="Isotope Logistics" event="url{https://modrinth.com/mod/isotope-logistics}"
 
-👤 TOP_G2026 | 📅 2026-08-02
+👤 MajorBonghits | 📅 2026-08-03
 
-Breakable blocks is a configurable, high-performance server-side Fabric mod for Minecraft that lets 
+A Mekanism addon that adds methods for handling late-game radioactive materials.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/breakable-block/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/breakable-block}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/isotope-logistics/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/isotope-logistics}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Breakable blocks is a configurable, high-performance server-side Fabric mod for 
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Character Creator/Community Celebration](https://minecraft.wiki/Character_Creator%2FCommunity_Celebration)
+📖 **Wiki 推荐**：[Launcher 2.3.449](https://minecraft.wiki/Launcher_2.3.449)
 
-⏰ 更新时间：2026-08-03 03:40:04
+⏰ 更新时间：2026-08-03 07:35:32
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
