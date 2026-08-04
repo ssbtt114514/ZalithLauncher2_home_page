@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-04 03:24:09
+// 生成时间：2026-08-04 06:34:28
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"此时此刻一切都是静寂的，只剩下我与你的世界，这就是爱？"*
+> *"恨君不似江楼月，南北东西，南北东西，只有相随无别离。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{此时此刻一切都是静寂的，只剩下我与你的世界，这就是爱？}"
+...button-text text="📋 复制" event="copy{恨君不似江楼月，南北东西，南北东西，只有相随无别离。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/The_Uncensored_Library}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Lava_(disambiguation)}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/V0AGvsvf/b7097c9fce72ffa801fe7cdbf67e2f530de1d6ba.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/QmcLJ4Zt/d6de2acf242fe21a2dd3fb0e95421d4937d4ac77_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="IOU Creative" event="url{https://modrinth.com/mod/ioucreative}"
+...button-text text="just the amulet" event="url{https://modrinth.com/mod/just-the-amulet}"
 
-👤 bdev42 | 📅 2026-08-03
+👤 wither_storm_fan | 📅 2026-08-04
 
-A Proof of Concept mod for a hybrid creative+survival game mode
+Adds the iconic Order of the Stone Amulet from Minecraft: Story Mode to Fabric 26.1.2 with a surviva
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ioucreative/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ioucreative}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/just-the-amulet/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/just-the-amulet}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/pE1m3OOe/2726a5bcf52a7078ddda07e686ca5bd440569349.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/bceShq0k/2945744a39654e1db971aaadfbecc2cacc46b158_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Seamly's Tiny Orbital" event="url{https://modrinth.com/mod/seamlys-tiny-orbital}"
+...button-text text="Emerald Equipment plus chainmail armor recipe" event="url{https://modrinth.com/mod/emerald-equipment-plus-chainmail-armor-recipe}"
 
-👤 SeamlyMC | 📅 2026-08-03
+👤 wither_storm_fan | 📅 2026-08-04
 
-Adds a tiny orbital strike cannon!
+Adds a complete set of emerald tools and armor plus craftable chainmail armor using Blaze Powder, gi
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/seamlys-tiny-orbital/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/seamlys-tiny-orbital}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/emerald-equipment-plus-chainmail-armor-recipe/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/emerald-equipment-plus-chainmail-armor-recipe}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/WpcP0H59/1e1ad50f2b3e7ca4fde3d35a4a2df446a35c9be3.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/3u6c2yuD/5b0852cbd68addae94bb1e3d8e32b0db53d7a0c9_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Better FireFlies" event="url{https://modrinth.com/mod/better-firefliesbff}"
+...button-text text="old recipes 3" event="url{https://modrinth.com/mod/old-recipes-3}"
 
-👤 At0m_W | 📅 2026-08-03
+👤 wither_storm_fan | 📅 2026-08-04
 
-Better FireFlies (BFF) is a client-side mod that add ambiant Fireflies.
+Restores two classic Minecraft crafting recipes: the original Enchanted Golden Apple recipe and the 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-firefliesbff/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-firefliesbff}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/old-recipes-3/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/old-recipes-3}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6NHdMk1X/94c08196aec707b93a58e08e1f2aa3bfa94f2beb_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xGneYgsi/aebfa2d426c2d3be9569a50142f5b66832c5c29d.jpeg" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Admin Watch" event="url{https://modrinth.com/mod/admin-watch}"
+...button-text text="story mode temple from the woods" event="url{https://modrinth.com/mod/story-mode-temple-from-the-woods}"
 
-👤 Zellybelly2017 | 📅 2026-08-03
+👤 wither_storm_fan | 📅 2026-08-04
 
-Server-side Forge command for admins to spectate players
+this mod adds the temple in the woods from mineraft story mode
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/admin-watch/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/admin-watch}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/story-mode-temple-from-the-woods/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/story-mode-temple-from-the-woods}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/oif6bbdY/e5883b366a28833e49f37dc4ab32a3c87a09cb72_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/PNNwmGC9/eca9b049b9168514b8705361cdbc6410c2f79fd1.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Half Night Skip" event="url{https://modrinth.com/mod/half-night-skip}"
+...button-text text="bedrock armor" event="url{https://modrinth.com/mod/bedrock-armor}"
 
-👤 Monsieur_Spok | 📅 2026-08-03
+👤 wither_storm_fan | 📅 2026-08-04
 
-Allow to control how many player need to sleep to skip the night
+Craft Bedrock in survival, forge a powerful Bedrock Armor set, and unlock a new late-game crafting p
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/half-night-skip/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/half-night-skip}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bedrock-armor/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bedrock-armor}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Allow to control how many player need to sleep to skip the night
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[The Uncensored Library](https://minecraft.wiki/The_Uncensored_Library)
+📖 **Wiki 推荐**：[Lava (disambiguation)](https://minecraft.wiki/Lava_(disambiguation))
 
-⏰ 更新时间：2026-08-04 03:24:09
+⏰ 更新时间：2026-08-04 06:34:28
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
