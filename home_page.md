@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-03 14:56:54
+// 生成时间：2026-08-04 03:24:09
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.BoatsMalta_ZH-CN4708255775_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.AdorableOwlet_ZH-CN6929234033_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"一定没有问题的！"*
+> *"此时此刻一切都是静寂的，只剩下我与你的世界，这就是爱？"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{一定没有问题的！}"
+...button-text text="📋 复制" event="copy{此时此刻一切都是静寂的，只剩下我与你的世界，这就是爱？}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Redstone_circuits%2FClock%2FClock_multiplier}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/The_Uncensored_Library}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/sq97doni/c403f47b0cb579db4a54c35dbfe5edac18bbad4e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/V0AGvsvf/b7097c9fce72ffa801fe7cdbf67e2f530de1d6ba.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Duckedudle Mod" event="url{https://modrinth.com/mod/duckedudlemod}"
+...button-text text="IOU Creative" event="url{https://modrinth.com/mod/ioucreative}"
 
-👤 Antara89 | 📅 2026-08-03
+👤 bdev42 | 📅 2026-08-03
 
-This mod adds the duckedudle mob.
+A Proof of Concept mod for a hybrid creative+survival game mode
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/duckedudlemod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/duckedudlemod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ioucreative/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ioucreative}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/YT5K34AB/b279e8756761d8160f678ad20fb632d0a09b89b4_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/pE1m3OOe/2726a5bcf52a7078ddda07e686ca5bd440569349.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Corail Tombstone" event="url{https://modrinth.com/mod/corail-tombstone}"
+...button-text text="Seamly's Tiny Orbital" event="url{https://modrinth.com/mod/seamlys-tiny-orbital}"
 
-👤 Corail_31 | 📅 2026-08-03
+👤 SeamlyMC | 📅 2026-08-03
 
-Keeps safe your inventory items in graves on death, with many features for better survivability and 
+Adds a tiny orbital strike cannon!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/corail-tombstone/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/corail-tombstone}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/seamlys-tiny-orbital/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/seamlys-tiny-orbital}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/vs68fLpf/bc902297f2dd6ca355946e25b32abbf27664fd61_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/WpcP0H59/1e1ad50f2b3e7ca4fde3d35a4a2df446a35c9be3.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Death Control" event="url{https://modrinth.com/mod/death-control}"
+...button-text text="Better FireFlies" event="url{https://modrinth.com/mod/better-firefliesbff}"
 
-👤 z7534 | 📅 2026-08-03
+👤 At0m_W | 📅 2026-08-03
 
-New Death Mecanics for Forge!!
+Better FireFlies (BFF) is a client-side mod that add ambiant Fireflies.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/death-control/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/death-control}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-firefliesbff/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-firefliesbff}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/qGroGqA4/3905a59fdbaf11ccb75a2ce4c6fe1640a73ba79b.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6NHdMk1X/94c08196aec707b93a58e08e1f2aa3bfa94f2beb_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Boivindo" event="url{https://modrinth.com/mod/boivindo}"
+...button-text text="Admin Watch" event="url{https://modrinth.com/mod/admin-watch}"
 
-👤 daviteleste | 📅 2026-08-03
+👤 Zellybelly2017 | 📅 2026-08-03
 
-A gaunt bovine humanoid that doesn't hunt you, it grades you. It picks the best-fed player, always k
+Server-side Forge command for admins to spectate players
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/boivindo/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/boivindo}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/admin-watch/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/admin-watch}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/nzsJuPlL/c06421b872389726c290b416bb2f496a2bf8b8c9_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/oif6bbdY/e5883b366a28833e49f37dc4ab32a3c87a09cb72_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Isotope Logistics" event="url{https://modrinth.com/mod/isotope-logistics}"
+...button-text text="Half Night Skip" event="url{https://modrinth.com/mod/half-night-skip}"
 
-👤 MajorBonghits | 📅 2026-08-03
+👤 Monsieur_Spok | 📅 2026-08-03
 
-A Mekanism addon that adds methods for handling late-game radioactive materials.
+Allow to control how many player need to sleep to skip the night
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/isotope-logistics/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/isotope-logistics}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/half-night-skip/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/half-night-skip}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ A Mekanism addon that adds methods for handling late-game radioactive materials.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：色彩鲜艳的船只，历久弥新的传统
-© 马尔萨什洛克港口五彩斑斓的渔船，马耳他 (© Klubovy/Getty Images)
+🖼️ 壁纸：呼呼，太棒了！
+© 佛罗里达穴鸮幼鸟，开普科拉尔，佛罗里达州，美国 (© mlorenzphotography/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Redstone circuits/Clock/Clock multiplier](https://minecraft.wiki/Redstone_circuits%2FClock%2FClock_multiplier)
+📖 **Wiki 推荐**：[The Uncensored Library](https://minecraft.wiki/The_Uncensored_Library)
 
-⏰ 更新时间：2026-08-03 14:56:54
+⏰ 更新时间：2026-08-04 03:24:09
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
