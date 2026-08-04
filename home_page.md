@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-04 06:34:28
+// 生成时间：2026-08-04 14:32:33
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"恨君不似江楼月，南北东西，南北东西，只有相随无别离。"*
+> *"风里有花香，身边有最爱的人。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{恨君不似江楼月，南北东西，南北东西，只有相随无别离。}"
+...button-text text="📋 复制" event="copy{风里有花香，身边有最爱的人。}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.2
-**最新快照**: 26.3-snapshot-6
+**最新快照**: 26.3-snapshot-7
 
 近期版本：
 - **26.2** (2026-06-16)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Lava_(disambiguation)}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FDesert%2FFarm_2}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ Craft Bedrock in survival, forge a powerful Bedrock Armor set, and unlock a new 
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Lava (disambiguation)](https://minecraft.wiki/Lava_(disambiguation))
+📖 **Wiki 推荐**：[Village/Structure/Blueprints/Desert/Farm 2](https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FDesert%2FFarm_2)
 
-⏰ 更新时间：2026-08-04 06:34:28
+⏰ 更新时间：2026-08-04 14:32:33
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
