@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-04 14:32:33
+// 生成时间：2026-08-05 03:19:22
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.AdorableOwlet_ZH-CN6929234033_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.FezMorocco_ZH-CN7662339428_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"风里有花香，身边有最爱的人。"*
+> *"种族不代表荣耀，我见过最高尚的兽人，也见过最卑劣的人类。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{风里有花香，身边有最爱的人。}"
+...button-text text="📋 复制" event="copy{种族不代表荣耀，我见过最高尚的兽人，也见过最卑劣的人类。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FDesert%2FFarm_2}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_18w16a}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/QmcLJ4Zt/d6de2acf242fe21a2dd3fb0e95421d4937d4ac77_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8WfGhe5L/10038e8562ab9d0e5faf9fe01e808d718caa7e94_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="just the amulet" event="url{https://modrinth.com/mod/just-the-amulet}"
+...button-text text="Blake's FNaF Mod" event="url{https://modrinth.com/mod/blakes-fnaf-mod}"
 
-👤 wither_storm_fan | 📅 2026-08-04
+👤 NemoWith2os | 📅 2026-08-05
 
-Adds the iconic Order of the Stone Amulet from Minecraft: Story Mode to Fabric 26.1.2 with a surviva
+A personal mod for my FNaF Minecraft Map... Blake's ALL FNaF Pizzeria's.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/just-the-amulet/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/just-the-amulet}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/blakes-fnaf-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/blakes-fnaf-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/bceShq0k/2945744a39654e1db971aaadfbecc2cacc46b158_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/LNaJaiQ0/8b923e4fbd9e6cff8ce72be544181223eb6d689d.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Emerald Equipment plus chainmail armor recipe" event="url{https://modrinth.com/mod/emerald-equipment-plus-chainmail-armor-recipe}"
+...button-text text="CookTime" event="url{https://modrinth.com/mod/cooktime}"
 
-👤 wither_storm_fan | 📅 2026-08-04
+👤 elfellx64 | 📅 2026-08-05
 
-Adds a complete set of emerald tools and armor plus craftable chainmail armor using Blaze Powder, gi
+This mod features various recipes designed to be as realistic as possible,such as doughs that need t
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/emerald-equipment-plus-chainmail-armor-recipe/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/emerald-equipment-plus-chainmail-armor-recipe}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cooktime/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cooktime}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/3u6c2yuD/5b0852cbd68addae94bb1e3d8e32b0db53d7a0c9_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/eoWkpAPh/371f28fd978cf836420705f25d0a681662cb693c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="old recipes 3" event="url{https://modrinth.com/mod/old-recipes-3}"
+...button-text text="RaiSoulForge" event="url{https://modrinth.com/mod/raisoulforge}"
 
-👤 wither_storm_fan | 📅 2026-08-04
+👤 raijinnishida | 📅 2026-08-04
 
-Restores two classic Minecraft crafting recipes: the original Enchanted Golden Apple recipe and the 
+RaiSoulForge adds a Soul Cage that captures a living mob, and the Material Soul Transformer — a mach
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/old-recipes-3/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/old-recipes-3}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/raisoulforge/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/raisoulforge}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xGneYgsi/aebfa2d426c2d3be9569a50142f5b66832c5c29d.jpeg" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/10VRsckd/dafaafe308beac4d9c368b7b149c48b444ebd6f3.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="story mode temple from the woods" event="url{https://modrinth.com/mod/story-mode-temple-from-the-woods}"
+...button-text text="Visible Sound" event="url{https://modrinth.com/mod/visible-sound}"
 
-👤 wither_storm_fan | 📅 2026-08-04
+👤 ElevenShoe | 📅 2026-08-04
 
-this mod adds the temple in the woods from mineraft story mode
+visualizes sounds from blocks and entities with glowing outlines and text labels
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/story-mode-temple-from-the-woods/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/story-mode-temple-from-the-woods}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/visible-sound/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/visible-sound}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/PNNwmGC9/eca9b049b9168514b8705361cdbc6410c2f79fd1.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/JULCEte8/5c9ffff5a89ef49913dc6193d3510b4a818d775f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="bedrock armor" event="url{https://modrinth.com/mod/bedrock-armor}"
+...button-text text="Texture Pack Switcher" event="url{https://modrinth.com/mod/texture-pack-switcher}"
 
-👤 wither_storm_fan | 📅 2026-08-04
+👤 justhalitt | 📅 2026-08-04
 
-Craft Bedrock in survival, forge a powerful Bedrock Armor set, and unlock a new late-game crafting p
+Save custom resource pack profiles and switch between them with a single click. The mod automaticall
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bedrock-armor/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bedrock-armor}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/texture-pack-switcher/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/texture-pack-switcher}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Craft Bedrock in survival, forge a powerful Bedrock Armor set, and unlock a new 
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：呼呼，太棒了！
-© 佛罗里达穴鸮幼鸟，开普科拉尔，佛罗里达州，美国 (© mlorenzphotography/Getty Images)
+🖼️ 壁纸：秘境之门，匠心传世
+© 非斯皇宫装饰华丽的大门，摩洛哥 (© cgst26/Shutterstock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Village/Structure/Blueprints/Desert/Farm 2](https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FDesert%2FFarm_2)
+📖 **Wiki 推荐**：[Java Edition 18w16a](https://minecraft.wiki/Java_Edition_18w16a)
 
-⏰ 更新时间：2026-08-04 14:32:33
+⏰ 更新时间：2026-08-05 03:19:22
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
