@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-05 06:35:19
+// 生成时间：2026-08-05 14:25:14
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"用我一生，换你十年天真无邪。"*
+> *"祈愿万家灯火熨烫过脉络，刀山与火海多深刻，都陪你渡过。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{用我一生，换你十年天真无邪。}"
+...button-text text="📋 复制" event="copy{祈愿万家灯火熨烫过脉络，刀山与火海多深刻，都陪你渡过。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Desert_(disambiguation)}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FSavanna%2FShepherd_1}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,49 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8LwUzpuE/7932bc67160afebd1c3aad56122391cd2d3dcb60.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/AANobbMI/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mining Speed Indicators" event="url{https://modrinth.com/mod/mining-speed-indicators}"
+...button-text text="钠模组" event="url{https://modrinth.com/mod/sodium}"
 
-👤 BrandonItaly | 📅 2026-08-05
+👤 JellySquid | 📅 2020-05-01
 
-Shows mining speeds of tools with mining capabilities on their tooltips.
+高性能渲染引擎，大幅提升FPS
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mining-speed-indicators/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mining-speed-indicators}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sodium/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sodium}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8WfGhe5L/10038e8562ab9d0e5faf9fe01e808d718caa7e94_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/YL57xq9U/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Blake's FNaF Mod" event="url{https://modrinth.com/mod/blakes-fnaf-mod}"
+...button-text text="虹膜光影" event="url{https://modrinth.com/mod/iris}"
 
-👤 NemoWith2os | 📅 2026-08-05
+👤 Iris Team | 📅 2021-04-15
 
-A personal mod for my FNaF Minecraft Map... Blake's ALL FNaF Pizzeria's.
+现代光影加载器
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/blakes-fnaf-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/blakes-fnaf-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/iris/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/iris}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/LNaJaiQ0/8b923e4fbd9e6cff8ce72be544181223eb6d689d.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/P7dR8mSH/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="CookTime" event="url{https://modrinth.com/mod/cooktime}"
+...button-text text="Fabric API" event="url{https://modrinth.com/mod/fabric-api}"
 
-👤 elfellx64 | 📅 2026-08-05
+👤 FabricMC | 📅 2018-12-10
 
-This mod features various recipes designed to be as realistic as possible,such as doughs that need t
+Fabric 模组加载器核心 API
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cooktime/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cooktime}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/eoWkpAPh/371f28fd978cf836420705f25d0a681662cb693c_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="RaiSoulForge" event="url{https://modrinth.com/mod/raisoulforge}"
-
-👤 raijinnishida | 📅 2026-08-04
-
-RaiSoulForge adds a Soul Cage that captures a living mob, and the Material Soul Transformer — a mach
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/raisoulforge/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/raisoulforge}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/10VRsckd/dafaafe308beac4d9c368b7b149c48b444ebd6f3.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Visible Sound" event="url{https://modrinth.com/mod/visible-sound}"
-
-👤 ElevenShoe | 📅 2026-08-04
-
-visualizes sounds from blocks and entities with glowing outlines and text labels
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/visible-sound/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/visible-sound}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fabric-api/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fabric-api}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +146,9 @@ visualizes sounds from blocks and entities with glowing outlines and text labels
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Desert (disambiguation)](https://minecraft.wiki/Desert_(disambiguation))
+📖 **Wiki 推荐**：[Village/Structure/Blueprints/Savanna/Shepherd 1](https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FSavanna%2FShepherd_1)
 
-⏰ 更新时间：2026-08-05 06:35:19
+⏰ 更新时间：2026-08-05 14:25:14
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
