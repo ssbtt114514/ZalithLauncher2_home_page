@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-05 03:19:22
+// 生成时间：2026-08-05 06:35:19
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"种族不代表荣耀，我见过最高尚的兽人，也见过最卑劣的人类。"*
+> *"用我一生，换你十年天真无邪。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{种族不代表荣耀，我见过最高尚的兽人，也见过最卑劣的人类。}"
+...button-text text="📋 复制" event="copy{用我一生，换你十年天真无邪。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_18w16a}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Desert_(disambiguation)}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -66,6 +66,22 @@
 // --- 🧩 Modrinth 最新模组 ---
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/8LwUzpuE/7932bc67160afebd1c3aad56122391cd2d3dcb60.png" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Mining Speed Indicators" event="url{https://modrinth.com/mod/mining-speed-indicators}"
+
+👤 BrandonItaly | 📅 2026-08-05
+
+Shows mining speeds of tools with mining capabilities on their tooltips.
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mining-speed-indicators/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mining-speed-indicators}" weight=(1)
+...row-end
+...column-end
+...row-end
+
 ...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/8WfGhe5L/10038e8562ab9d0e5faf9fe01e808d718caa7e94_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
@@ -130,22 +146,6 @@ visualizes sounds from blocks and entities with glowing outlines and text labels
 ...column-end
 ...row-end
 
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/JULCEte8/5c9ffff5a89ef49913dc6193d3510b4a818d775f_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Texture Pack Switcher" event="url{https://modrinth.com/mod/texture-pack-switcher}"
-
-👤 justhalitt | 📅 2026-08-04
-
-Save custom resource pack profiles and switch between them with a single click. The mod automaticall
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/texture-pack-switcher/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/texture-pack-switcher}" weight=(1)
-...row-end
-...column-end
-...row-end
-
 ...row-start horizontal=spacedBy(8)
 ...button text="📥 访问 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
 ...row-end
@@ -178,9 +178,9 @@ Save custom resource pack profiles and switch between them with a single click. 
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 18w16a](https://minecraft.wiki/Java_Edition_18w16a)
+📖 **Wiki 推荐**：[Desert (disambiguation)](https://minecraft.wiki/Desert_(disambiguation))
 
-⏰ 更新时间：2026-08-05 03:19:22
+⏰ 更新时间：2026-08-05 06:35:19
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
