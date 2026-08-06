@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-06 03:22:11
+// 生成时间：2026-08-06 06:38:24
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"你是我的文艺复兴。"*
+> *"这世界是为我存在的！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{你是我的文艺复兴。}"
+...button-text text="📋 复制" event="copy{这世界是为我存在的！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FTaiga%2FCartographer_House_1}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FPolished_Granite_Slab}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ Fixes Bee Related Bugs on both client and server side
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Village/Structure/Blueprints/Taiga/Cartographer House 1](https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FTaiga%2FCartographer_House_1)
+📖 **Wiki 推荐**：[Java Edition block render history/Polished Granite Slab](https://minecraft.wiki/Java_Edition_block_render_history%2FPolished_Granite_Slab)
 
-⏰ 更新时间：2026-08-06 03:22:11
+⏰ 更新时间：2026-08-06 06:38:24
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
