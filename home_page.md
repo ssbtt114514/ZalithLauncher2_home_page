@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-05 14:25:14
+// 生成时间：2026-08-06 03:22:11
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.FezMorocco_ZH-CN7662339428_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.MaraCrossing_ZH-CN8816902094_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"祈愿万家灯火熨烫过脉络，刀山与火海多深刻，都陪你渡过。"*
+> *"你是我的文艺复兴。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{祈愿万家灯火熨烫过脉络，刀山与火海多深刻，都陪你渡过。}"
+...button-text text="📋 复制" event="copy{你是我的文艺复兴。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FSavanna%2FShepherd_1}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FTaiga%2FCartographer_House_1}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,49 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/AANobbMI/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/4fFF2N5V/126221401dbbfc6184a1f3fff91674b7c13cb1d0_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="钠模组" event="url{https://modrinth.com/mod/sodium}"
+...button-text text="OakBot" event="url{https://modrinth.com/mod/oakbot}"
 
-👤 JellySquid | 📅 2020-05-01
+👤 Partially | 📅 2026-08-06
 
-高性能渲染引擎，大幅提升FPS
+OakBot lets you spawn smart server-side bots to practice PvP in multiple gamemodes: Carts, Sword, UH
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sodium/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sodium}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/oakbot/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/oakbot}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/YL57xq9U/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/2JWWdEgd/b1d0e0ac4efe63131c2ae9b6f06688500853f8bc.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="虹膜光影" event="url{https://modrinth.com/mod/iris}"
+...button-text text="Contents Director" event="url{https://modrinth.com/mod/contents-director}"
 
-👤 Iris Team | 📅 2021-04-15
+👤 LiquidCatMofu | 📅 2026-08-06
 
-现代光影加载器
+Runtime mod and file installer for Minecraft modpacks.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/iris/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/iris}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/contents-director/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/contents-director}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/P7dR8mSH/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/O2xams0X/bba2b83396132a8be1870eff3993a75976dcda6b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Fabric API" event="url{https://modrinth.com/mod/fabric-api}"
+...button-text text="MekDefender" event="url{https://modrinth.com/mod/mekdefender}"
 
-👤 FabricMC | 📅 2018-12-10
+👤 vicuna | 📅 2026-08-05
 
-Fabric 模组加载器核心 API
+A NeoForge server protection mod for Minecraft 1.21.1 + Mekanism. One mekdefender project and one JA
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fabric-api/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fabric-api}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mekdefender/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mekdefender}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/D8RfT2Ia/c4154d18ec1c29de5ffa12590209b3813286c407_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="PearlWind_chargeAnalysisDebug" event="url{https://modrinth.com/mod/pearlwind_chargeanalysisdebug}"
+
+👤 RideAnt | 📅 2026-08-05
+
+Singleplayer-only debug companion for PearlWind_chargeAnalysis, with P1/P2 camera locking, determini
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pearlwind_chargeanalysisdebug/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pearlwind_chargeanalysisdebug}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/iCL9EPjD/a09ae39ce41d25f14affac482018ab66c9c7caae_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="The Bee Fix" event="url{https://modrinth.com/mod/the-bee-fix}"
+
+👤 gbird84 | 📅 2026-08-05
+
+Fixes Bee Related Bugs on both client and server side
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-bee-fix/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-bee-fix}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -141,14 +173,14 @@ Fabric 模组加载器核心 API
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：秘境之门，匠心传世
-© 非斯皇宫装饰华丽的大门，摩洛哥 (© cgst26/Shutterstock)
+🖼️ 壁纸：生死渡口，勇者的史诗
+© 马赛马拉迁徙的角马群横渡马拉河, 肯尼亚 (© Manoj Shah/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Village/Structure/Blueprints/Savanna/Shepherd 1](https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FSavanna%2FShepherd_1)
+📖 **Wiki 推荐**：[Village/Structure/Blueprints/Taiga/Cartographer House 1](https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FTaiga%2FCartographer_House_1)
 
-⏰ 更新时间：2026-08-05 14:25:14
+⏰ 更新时间：2026-08-06 03:22:11
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
