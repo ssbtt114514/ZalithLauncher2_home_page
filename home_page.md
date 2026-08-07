@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-07 05:45:48
+// 生成时间：2026-08-07 13:19:13
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"海内存知己，天涯若比邻。"*
+> *"人总是贪婪的，就像最开始，我也只是想知道你的名字。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{海内存知己，天涯若比邻。}"
+...button-text text="📋 复制" event="copy{人总是贪婪的，就像最开始，我也只是想知道你的名字。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_20w30a}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_Preview_26.0.28}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/U3tmNrY5/983bcac6cf165763db71c42262c178ecfcdc9bcb.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/kCbtgaek/1bceced7c60abb444e6849a2e3b21156ea148452_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="IFC Reloaded" event="url{https://modrinth.com/mod/imageframeclient-reloaded}"
+...button-text text="Manual Labour" event="url{https://modrinth.com/mod/manual-labour}"
 
-👤 Wakcedon | 📅 2026-08-07
+👤 evanbones | 📅 2026-08-07
 
-Transform your Minecraft maps into stunning HD artwork with full RGB color support, and easily uploa
+A mod about bringing hands-on, hard work back to Minecraft!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/imageframeclient-reloaded/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/imageframeclient-reloaded}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/manual-labour/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/manual-labour}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/mREY9BBA/e6ba1c014c69ffa6aa2f61c14c58229b5e7a310a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Kiu6PDuY/f758f888f9a109436dc26b966a107c4183db1677_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Lightman's Currency:Claim Economy" event="url{https://modrinth.com/mod/lightmans-currencyclaim-economy}"
+...button-text text="vortexintegrityclient" event="url{https://modrinth.com/mod/vortexintegrityclient}"
 
-👤 Voidpulse | 📅 2026-08-07
+👤 modmusnikolas | 📅 2026-08-07
 
-Land isn't free — and on your server, it shouldn't be either.
+Initial release of the VortexIntegrity client mod for version 26.1.2 Fully working code.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lightmans-currencyclaim-economy/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lightmans-currencyclaim-economy}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/vortexintegrityclient/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/vortexintegrityclient}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6ZOO9yob/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/oUzgLWPy/e35efd750dc6412b30869c6ee4f315f889e08c08_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Pool Noodles" event="url{https://modrinth.com/mod/pool-noodles}"
+...button-text text="Powerful Pottery" event="url{https://modrinth.com/mod/powerful-pottery}"
 
-👤 kandykayne098 | 📅 2026-08-07
+👤 estudiossoja | 📅 2026-08-07
 
-Pool Noodles which you can whack your friends with. These bad boys will knock your friends back into
+New decorations, magic items, and useful things all made with a refined clay mixture!, also a new vi
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pool-noodles/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pool-noodles}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/powerful-pottery/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/powerful-pottery}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ceINwTTj/ad8e6748565895c648e7003c4fbf64830f835376.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/L4DxhPOr/0d940bbd17dc06b1c9c4d7169ca581b67d15512e.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Topaz armor" event="url{https://modrinth.com/mod/topaz-armor}"
+...button-text text="chiseledEnchants" event="url{https://modrinth.com/mod/chiseledenchants}"
 
-👤 ASushiLeg3nd | 📅 2026-08-07
+👤 lunixialive | 📅 2026-08-07
 
-This project adds topaz armor and swords that strike lightning when hit or hitting. There are topaz 
+Targeted enchanting via chiseled bookshelves — guarantee specific enchants at the enchanting table. 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/topaz-armor/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/topaz-armor}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chiseledenchants/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chiseledenchants}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/LO982n1N/556537c45aeb2e71788bd74f72bd4e48a6a5c47a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/JG9kYA1W/76a977f18f4ee74d445e9f2492854e6eddd898cf.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Vanilla-Skills" event="url{https://modrinth.com/mod/vanilla-skills}"
+...button-text text="Callable Horses" event="url{https://modrinth.com/mod/callable-horses}"
 
-👤 jonahsnotmyname | 📅 2026-08-07
+👤 Tschipp | 📅 2026-08-07
 
-A server-side RPG overhaul: a points-based skill tree, a two-currency bounty economy, and gated craf
+Callable Horses allows players to call their horse from anywhere, like in popular RPG games
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/vanilla-skills/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/vanilla-skills}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/callable-horses/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/callable-horses}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ A server-side RPG overhaul: a points-based skill tree, a two-currency bounty eco
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 20w30a](https://minecraft.wiki/Java_Edition_20w30a)
+📖 **Wiki 推荐**：[Bedrock Edition Preview 26.0.28](https://minecraft.wiki/Bedrock_Edition_Preview_26.0.28)
 
-⏰ 更新时间：2026-08-07 05:45:48
+⏰ 更新时间：2026-08-07 13:19:13
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
