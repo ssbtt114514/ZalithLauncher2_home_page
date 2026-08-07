@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-06 14:28:24
+// 生成时间：2026-08-07 03:09:23
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.MaraCrossing_ZH-CN8816902094_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.LimeKiln_ZH-CN5664152522_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"知道和感觉到是两码事。"*
+> *"明知道这颗种子不会发芽，却依然每天盼望它能长大。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{知道和感觉到是两码事。}"
+...button-text text="📋 复制" event="copy{明知道这颗种子不会发芽，却依然每天盼望它能长大。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_mob_render_history%2FPet_Axolotl}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FPotato_Fence_Gate}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/4fFF2N5V/126221401dbbfc6184a1f3fff91674b7c13cb1d0_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/U3tmNrY5/983bcac6cf165763db71c42262c178ecfcdc9bcb.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="OakBot" event="url{https://modrinth.com/mod/oakbot}"
+...button-text text="IFC Reloaded" event="url{https://modrinth.com/mod/imageframeclient-reloaded}"
 
-👤 Partially | 📅 2026-08-06
+👤 Wakcedon | 📅 2026-08-07
 
-OakBot lets you spawn smart server-side bots to practice PvP in multiple gamemodes: Carts, Sword, UH
+Transform your Minecraft maps into stunning HD artwork with full RGB color support, and easily uploa
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/oakbot/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/oakbot}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/imageframeclient-reloaded/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/imageframeclient-reloaded}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/2JWWdEgd/b1d0e0ac4efe63131c2ae9b6f06688500853f8bc.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/mREY9BBA/e6ba1c014c69ffa6aa2f61c14c58229b5e7a310a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Contents Director" event="url{https://modrinth.com/mod/contents-director}"
+...button-text text="Lightman's Currency:Claim Economy" event="url{https://modrinth.com/mod/lightmans-currencyclaim-economy}"
 
-👤 LiquidCatMofu | 📅 2026-08-06
+👤 Voidpulse | 📅 2026-08-07
 
-Runtime mod and file installer for Minecraft modpacks.
+Land isn't free — and on your server, it shouldn't be either.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/contents-director/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/contents-director}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lightmans-currencyclaim-economy/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lightmans-currencyclaim-economy}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/O2xams0X/bba2b83396132a8be1870eff3993a75976dcda6b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6ZOO9yob/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MekDefender" event="url{https://modrinth.com/mod/mekdefender}"
+...button-text text="Pool Noodles" event="url{https://modrinth.com/mod/pool-noodles}"
 
-👤 vicuna | 📅 2026-08-05
+👤 kandykayne098 | 📅 2026-08-07
 
-A NeoForge server protection mod for Minecraft 1.21.1 + Mekanism. One mekdefender project and one JA
+Pool Noodles which you can whack your friends with. These bad boys will knock your friends back into
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mekdefender/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mekdefender}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pool-noodles/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pool-noodles}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/D8RfT2Ia/c4154d18ec1c29de5ffa12590209b3813286c407_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ceINwTTj/ad8e6748565895c648e7003c4fbf64830f835376.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="PearlWind_chargeAnalysisDebug" event="url{https://modrinth.com/mod/pearlwind_chargeanalysisdebug}"
+...button-text text="Topaz armor" event="url{https://modrinth.com/mod/topaz-armor}"
 
-👤 RideAnt | 📅 2026-08-05
+👤 ASushiLeg3nd | 📅 2026-08-07
 
-Singleplayer-only debug companion for PearlWind_chargeAnalysis, with P1/P2 camera locking, determini
+This project adds topaz armor and swords that strike lightning when hit or hitting. There are topaz 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pearlwind_chargeanalysisdebug/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pearlwind_chargeanalysisdebug}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/topaz-armor/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/topaz-armor}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/iCL9EPjD/a09ae39ce41d25f14affac482018ab66c9c7caae_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/LO982n1N/556537c45aeb2e71788bd74f72bd4e48a6a5c47a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="The Bee Fix" event="url{https://modrinth.com/mod/the-bee-fix}"
+...button-text text="Vanilla-Skills" event="url{https://modrinth.com/mod/vanilla-skills}"
 
-👤 gbird84 | 📅 2026-08-05
+👤 jonahsnotmyname | 📅 2026-08-07
 
-Fixes Bee Related Bugs on both client and server side
+A server-side RPG overhaul: a points-based skill tree, a two-currency bounty economy, and gated craf
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-bee-fix/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-bee-fix}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/vanilla-skills/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/vanilla-skills}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Fixes Bee Related Bugs on both client and server side
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：生死渡口，勇者的史诗
-© 马赛马拉迁徙的角马群横渡马拉河, 肯尼亚 (© Manoj Shah/Getty Images)
+🖼️ 壁纸：指引船只穿越历史
+© 圣胡安岛石灰窑灯塔，华盛顿州，美国 (© Edmund Lowe Photography/Shutterstock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition mob render history/Pet Axolotl](https://minecraft.wiki/Java_Edition_mob_render_history%2FPet_Axolotl)
+📖 **Wiki 推荐**：[Java Edition block render history/Potato Fence Gate](https://minecraft.wiki/Java_Edition_block_render_history%2FPotato_Fence_Gate)
 
-⏰ 更新时间：2026-08-06 14:28:24
+⏰ 更新时间：2026-08-07 03:09:23
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
