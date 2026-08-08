@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-07 13:19:13
+// 生成时间：2026-08-08 02:06:02
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.LimeKiln_ZH-CN5664152522_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.StocktonInfinity_ZH-CN5941379745_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"人总是贪婪的，就像最开始，我也只是想知道你的名字。"*
+> *"人都有两面，一面天使，一面恶魔。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{人总是贪婪的，就像最开始，我也只是想知道你的名字。}"
+...button-text text="📋 复制" event="copy{人都有两面，一面天使，一面恶魔。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_Preview_26.0.28}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Copper_Horn}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/kCbtgaek/1bceced7c60abb444e6849a2e3b21156ea148452_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/SPwj3USf/8d3850dbf71ab52a6f016a7808c9aec43ae09fe8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Manual Labour" event="url{https://modrinth.com/mod/manual-labour}"
+...button-text text="VisualRatio-Metreon1k" event="url{https://modrinth.com/mod/visualratio-metreon1k}"
 
-👤 evanbones | 📅 2026-08-07
+👤 Metreon1k | 📅 2026-08-08
 
-A mod about bringing hands-on, hard work back to Minecraft!
+Visual Ratio — adjust the aspect ratio independently of the window resolution. Opens with Right Shif
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/manual-labour/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/manual-labour}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/visualratio-metreon1k/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/visualratio-metreon1k}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Kiu6PDuY/f758f888f9a109436dc26b966a107c4183db1677_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/LpgQ68pt/f2cddcb1e7ed0ee4c9c0657b8bee13d4006b8c2d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="vortexintegrityclient" event="url{https://modrinth.com/mod/vortexintegrityclient}"
+...button-text text="Fireball Predictor" event="url{https://modrinth.com/mod/fireball-predictor}"
 
-👤 modmusnikolas | 📅 2026-08-07
+👤 InternalError | 📅 2026-08-07
 
-Initial release of the VortexIntegrity client mod for version 26.1.2 Fully working code.
+Predicts and visualizes the trajectory and explosive impact of fireballs and wither skulls in real-t
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/vortexintegrityclient/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/vortexintegrityclient}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fireball-predictor/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fireball-predictor}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/oUzgLWPy/e35efd750dc6412b30869c6ee4f315f889e08c08_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/u6keAZw8/935c158574521c2c7b37cd2cacc79bfe2c987b65_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Powerful Pottery" event="url{https://modrinth.com/mod/powerful-pottery}"
+...button-text text="Where Winds Blow" event="url{https://modrinth.com/mod/where-winds-blow}"
 
-👤 estudiossoja | 📅 2026-08-07
+👤 jvn | 📅 2026-08-07
 
-New decorations, magic items, and useful things all made with a refined clay mixture!, also a new vi
+Interactive & swaying foliage, new grass types, & other effects!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/powerful-pottery/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/powerful-pottery}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/where-winds-blow/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/where-winds-blow}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/L4DxhPOr/0d940bbd17dc06b1c9c4d7169ca581b67d15512e.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/rDqMGzW4/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="chiseledEnchants" event="url{https://modrinth.com/mod/chiseledenchants}"
+...button-text text="G'Lib" event="url{https://modrinth.com/mod/glib}"
 
-👤 lunixialive | 📅 2026-08-07
+👤 greyifer | 📅 2026-08-07
 
-Targeted enchanting via chiseled bookshelves — guarantee specific enchants at the enchanting table. 
+The library mod used for other G' mods.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chiseledenchants/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chiseledenchants}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/glib/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/glib}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/JG9kYA1W/76a977f18f4ee74d445e9f2492854e6eddd898cf.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/IGVrnkhH/b920665440ebf5ebda8fbf5d89b563cb300245f1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Callable Horses" event="url{https://modrinth.com/mod/callable-horses}"
+...button-text text="Create: Flight Control" event="url{https://modrinth.com/mod/create-flight-control}"
 
-👤 Tschipp | 📅 2026-08-07
+👤 AceVolca | 📅 2026-08-07
 
-Callable Horses allows players to call their horse from anywhere, like in popular RPG games
+A Minecraft Create addon for physics-based flight control
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/callable-horses/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/callable-horses}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-flight-control/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-flight-control}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Callable Horses allows players to call their horse from anywhere, like in popula
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：指引船只穿越历史
-© 圣胡安岛石灰窑灯塔，华盛顿州，美国 (© Edmund Lowe Photography/Shutterstock)
+🖼️ 壁纸：迈向无限
+© 蒂斯河畔斯托克顿无限桥，英格兰 (© Bahadir Yeniceri/Shutterstock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition Preview 26.0.28](https://minecraft.wiki/Bedrock_Edition_Preview_26.0.28)
+📖 **Wiki 推荐**：[Copper Horn](https://minecraft.wiki/Copper_Horn)
 
-⏰ 更新时间：2026-08-07 13:19:13
+⏰ 更新时间：2026-08-08 02:06:02
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
