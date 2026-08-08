@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-08 02:06:02
+// 生成时间：2026-08-08 13:03:06
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"人都有两面，一面天使，一面恶魔。"*
+> *"要优秀啊，不然怎么遇见优秀的人！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{人都有两面，一面天使，一面恶魔。}"
+...button-text text="📋 复制" event="copy{要优秀啊，不然怎么遇见优秀的人！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Copper_Horn}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Vindicator_(disambiguation)}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -66,6 +66,38 @@
 // --- 🧩 Modrinth 最新模组 ---
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/mWSmwotH/fb6315134e83fb15c6f0a0b46b5a9e725bba2112_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="oldcraftallow plus" event="url{https://modrinth.com/mod/oldcraftallow-plus}"
+
+👤 PCniconi88 | 📅 2026-08-08
+
+An improved version of the mod that makes deleted elements, crafts, and items available again
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/oldcraftallow-plus/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/oldcraftallow-plus}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/8TVKynTx/238b1e807e109e0cbef03fbcf7dd344b3dbb3644_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Celestial Adventure" event="url{https://modrinth.com/mod/celestial_adventure}"
+
+👤 hde020812 | 📅 2026-08-08
+
+Explore a brand new celestial dimension filled with unique biomes, ancient ruins, mysterious structu
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/celestial_adventure/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/celestial_adventure}" weight=(1)
+...row-end
+...column-end
+...row-end
+
 ...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/SPwj3USf/8d3850dbf71ab52a6f016a7808c9aec43ae09fe8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
@@ -114,38 +146,6 @@ Interactive & swaying foliage, new grass types, & other effects!
 ...column-end
 ...row-end
 
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/rDqMGzW4/icon.png" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="G'Lib" event="url{https://modrinth.com/mod/glib}"
-
-👤 greyifer | 📅 2026-08-07
-
-The library mod used for other G' mods.
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/glib/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/glib}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/IGVrnkhH/b920665440ebf5ebda8fbf5d89b563cb300245f1_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Create: Flight Control" event="url{https://modrinth.com/mod/create-flight-control}"
-
-👤 AceVolca | 📅 2026-08-07
-
-A Minecraft Create addon for physics-based flight control
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-flight-control/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-flight-control}" weight=(1)
-...row-end
-...column-end
-...row-end
-
 ...row-start horizontal=spacedBy(8)
 ...button text="📥 访问 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
 ...row-end
@@ -178,9 +178,9 @@ A Minecraft Create addon for physics-based flight control
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Copper Horn](https://minecraft.wiki/Copper_Horn)
+📖 **Wiki 推荐**：[Vindicator (disambiguation)](https://minecraft.wiki/Vindicator_(disambiguation))
 
-⏰ 更新时间：2026-08-08 02:06:02
+⏰ 更新时间：2026-08-08 13:03:06
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
