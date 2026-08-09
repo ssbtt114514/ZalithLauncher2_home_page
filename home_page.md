@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-08 13:03:06
+// 生成时间：2026-08-09 02:17:25
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.StocktonInfinity_ZH-CN5941379745_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.JMTjibaou_ZH-CN6992670356_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"要优秀啊，不然怎么遇见优秀的人！"*
+> *"球可以输，人不能输。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{要优秀啊，不然怎么遇见优秀的人！}"
+...button-text text="📋 复制" event="copy{球可以输，人不能输。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Vindicator_(disambiguation)}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_17w16a}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/mWSmwotH/fb6315134e83fb15c6f0a0b46b5a9e725bba2112_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zE4DOCTu/d8d7caa608a9af3f86561b2c927c5bce6301830d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="oldcraftallow plus" event="url{https://modrinth.com/mod/oldcraftallow-plus}"
+...button-text text="DisplayPing-Metreon1k" event="url{https://modrinth.com/mod/displayping-metreon1k}"
 
-👤 PCniconi88 | 📅 2026-08-08
+👤 Metreon1k | 📅 2026-08-09
 
-An improved version of the mod that makes deleted elements, crafts, and items available again
+Allows you to see your ping and other players' ping in the TAB list.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/oldcraftallow-plus/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/oldcraftallow-plus}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/displayping-metreon1k/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/displayping-metreon1k}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8TVKynTx/238b1e807e109e0cbef03fbcf7dd344b3dbb3644_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/NJAejZya/47c83b1d9435fd442461ccc05d9b53cbeb17782e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Celestial Adventure" event="url{https://modrinth.com/mod/celestial_adventure}"
+...button-text text="Don't Touch The Color!!!" event="url{https://modrinth.com/mod/dont-touch-the-color}"
 
-👤 hde020812 | 📅 2026-08-08
+👤 Ryumin | 📅 2026-08-08
 
-Explore a brand new celestial dimension filled with unique biomes, ancient ruins, mysterious structu
+This Projects add a few items and Commands that let you play a minigame about Not toucing a specific
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/celestial_adventure/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/celestial_adventure}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dont-touch-the-color/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dont-touch-the-color}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/SPwj3USf/8d3850dbf71ab52a6f016a7808c9aec43ae09fe8_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wJNiyPCy/d33d831a360af9a81b0e3e5098df59b70094104d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="VisualRatio-Metreon1k" event="url{https://modrinth.com/mod/visualratio-metreon1k}"
+...button-text text="Data's Craftable Name Tags" event="url{https://modrinth.com/mod/datas-craftable-name-tags}"
 
-👤 Metreon1k | 📅 2026-08-08
+👤 DataGhost57 | 📅 2026-08-08
 
-Visual Ratio — adjust the aspect ratio independently of the window resolution. Opens with Right Shif
+Adds a recipe to craft name tags.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/visualratio-metreon1k/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/visualratio-metreon1k}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/datas-craftable-name-tags/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/datas-craftable-name-tags}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/LpgQ68pt/f2cddcb1e7ed0ee4c9c0657b8bee13d4006b8c2d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/KjntNZfF/1d354401cb035b065f0c8705d4d28a8a5440567d.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Fireball Predictor" event="url{https://modrinth.com/mod/fireball-predictor}"
+...button-text text="Wool & Concrete Backport (Polymer)" event="url{https://modrinth.com/mod/wool-backport-polymer}"
 
-👤 InternalError | 📅 2026-08-07
+👤 CraftyCorvid | 📅 2026-08-08
 
-Predicts and visualizes the trajectory and explosive impact of fireballs and wither skulls in real-t
+Backport of 26.3's wool & concrete stairs & slabs for 26.2. Using Polymer so it's only required on t
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fireball-predictor/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fireball-predictor}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wool-backport-polymer/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wool-backport-polymer}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/u6keAZw8/935c158574521c2c7b37cd2cacc79bfe2c987b65_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/fz80cC3P/ee4772b6bd61fc9fb88855059c67ce8fd9a25bc5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Where Winds Blow" event="url{https://modrinth.com/mod/where-winds-blow}"
+...button-text text="Reach Enchantment" event="url{https://modrinth.com/mod/reach_enchantment}"
 
-👤 jvn | 📅 2026-08-07
+👤 MinexInd | 📅 2026-08-08
 
-Interactive & swaying foliage, new grass types, & other effects!
+A vanilla datapack that adds a Reach enchantment, letting you hit mobs from further away.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/where-winds-blow/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/where-winds-blow}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/reach_enchantment/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/reach_enchantment}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Interactive & swaying foliage, new grass types, & other effects!
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：迈向无限
-© 蒂斯河畔斯托克顿无限桥，英格兰 (© Bahadir Yeniceri/Shutterstock)
+🖼️ 壁纸：身份认同的建筑表达
+© 让-马里·吉巴乌文化中心，新喀里多尼亚 (© Fabien Astre/Alamy)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Vindicator (disambiguation)](https://minecraft.wiki/Vindicator_(disambiguation))
+📖 **Wiki 推荐**：[Java Edition 17w16a](https://minecraft.wiki/Java_Edition_17w16a)
 
-⏰ 更新时间：2026-08-08 13:03:06
+⏰ 更新时间：2026-08-09 02:17:25
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
