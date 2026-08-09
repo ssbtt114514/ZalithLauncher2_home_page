@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-09 05:11:28
+// 生成时间：2026-08-09 13:05:43
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"憧憬是距离理解最遥远的感情。"*
+> *"生命如同寓言，其价值不在于长短，而在于内容。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{憧憬是距离理解最遥远的感情。}"
+...button-text text="📋 复制" event="copy{生命如同寓言，其价值不在于长短，而在于内容。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Around_the_Minecraft_World_in_80_Biomes}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Brickcraft}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,6 +67,22 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/QGGMCLrP/3fe39b6115a640415971a8c50dbcc65617ca9fe7_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="NetMusic CreateStorage Compat" event="url{https://modrinth.com/mod/netmusic-createstorage-compat}"
+
+👤 ximeng-y | 📅 2026-08-09
+
+A compatibility fix mod for NetMusic and Create:Storage: it allows NetMusic music discs (music_cd) t
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/netmusic-createstorage-compat/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/netmusic-createstorage-compat}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/PfOfZZZC/b83ff01e7917392ffafa9850a26aa973aa14e475_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
 ...button-text text="Factory Gauge Enhance" event="url{https://modrinth.com/mod/factory-gauge-enhance}"
@@ -78,6 +94,22 @@ Modify the Factory Gauge's maximum number of crafting‑material sets per reques
 ...row-start horizontal=spacedBy(8)
 ...button text="⬇️ 下载" event="url{https://modrinth.com/mod/factory-gauge-enhance/versions}" weight=(1)
 ...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/factory-gauge-enhance}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/ejz70OpZ/8779b39ba0a7bba16669e11c26211d1090640c7a.png" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Fishing Timer - Hypixel SkyBlock Gadget" event="url{https://modrinth.com/mod/hsgfishingtimer}"
+
+👤 NymNux | 📅 2026-08-09
+
+Custom Fishing Timer Sound & Texture! Ear Fishing!
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hsgfishingtimer/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hsgfishingtimer}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -114,38 +146,6 @@ This Projects add a few items and Commands that let you play a minigame about No
 ...column-end
 ...row-end
 
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wJNiyPCy/d33d831a360af9a81b0e3e5098df59b70094104d_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Data's Craftable Name Tags" event="url{https://modrinth.com/mod/datas-craftable-name-tags}"
-
-👤 DataGhost57 | 📅 2026-08-08
-
-Adds a recipe to craft name tags.
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/datas-craftable-name-tags/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/datas-craftable-name-tags}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/KjntNZfF/1d354401cb035b065f0c8705d4d28a8a5440567d.png" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Wool & Concrete Backport (Polymer)" event="url{https://modrinth.com/mod/wool-backport-polymer}"
-
-👤 CraftyCorvid | 📅 2026-08-08
-
-Backport of 26.3's wool & concrete stairs & slabs for 26.2. Using Polymer so it's only required on t
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wool-backport-polymer/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wool-backport-polymer}" weight=(1)
-...row-end
-...column-end
-...row-end
-
 ...row-start horizontal=spacedBy(8)
 ...button text="📥 访问 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
 ...row-end
@@ -178,9 +178,9 @@ Backport of 26.3's wool & concrete stairs & slabs for 26.2. Using Polymer so it'
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Around the Minecraft World in 80 Biomes](https://minecraft.wiki/Around_the_Minecraft_World_in_80_Biomes)
+📖 **Wiki 推荐**：[Brickcraft](https://minecraft.wiki/Brickcraft)
 
-⏰ 更新时间：2026-08-09 05:11:28
+⏰ 更新时间：2026-08-09 13:05:43
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
