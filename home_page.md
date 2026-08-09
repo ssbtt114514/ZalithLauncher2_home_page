@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-09 02:17:25
+// 生成时间：2026-08-09 05:11:28
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"球可以输，人不能输。"*
+> *"憧憬是距离理解最遥远的感情。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{球可以输，人不能输。}"
+...button-text text="📋 复制" event="copy{憧憬是距离理解最遥远的感情。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_17w16a}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Around_the_Minecraft_World_in_80_Biomes}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -66,6 +66,22 @@
 // --- 🧩 Modrinth 最新模组 ---
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/PfOfZZZC/b83ff01e7917392ffafa9850a26aa973aa14e475_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Factory Gauge Enhance" event="url{https://modrinth.com/mod/factory-gauge-enhance}"
+
+👤 Ender_Bryce | 📅 2026-08-09
+
+Modify the Factory Gauge's maximum number of crafting‑material sets per requested package to 64 when
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/factory-gauge-enhance/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/factory-gauge-enhance}" weight=(1)
+...row-end
+...column-end
+...row-end
+
 ...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/zE4DOCTu/d8d7caa608a9af3f86561b2c927c5bce6301830d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
@@ -130,22 +146,6 @@ Backport of 26.3's wool & concrete stairs & slabs for 26.2. Using Polymer so it'
 ...column-end
 ...row-end
 
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/fz80cC3P/ee4772b6bd61fc9fb88855059c67ce8fd9a25bc5_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Reach Enchantment" event="url{https://modrinth.com/mod/reach_enchantment}"
-
-👤 MinexInd | 📅 2026-08-08
-
-A vanilla datapack that adds a Reach enchantment, letting you hit mobs from further away.
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/reach_enchantment/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/reach_enchantment}" weight=(1)
-...row-end
-...column-end
-...row-end
-
 ...row-start horizontal=spacedBy(8)
 ...button text="📥 访问 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
 ...row-end
@@ -178,9 +178,9 @@ A vanilla datapack that adds a Reach enchantment, letting you hit mobs from furt
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 17w16a](https://minecraft.wiki/Java_Edition_17w16a)
+📖 **Wiki 推荐**：[Around the Minecraft World in 80 Biomes](https://minecraft.wiki/Around_the_Minecraft_World_in_80_Biomes)
 
-⏰ 更新时间：2026-08-09 02:17:25
+⏰ 更新时间：2026-08-09 05:11:28
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
