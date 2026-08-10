@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-10 05:38:38
+// 生成时间：2026-08-10 13:24:50
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"憧憬是距离理解最遥远的感情。"*
+> *"山川同一色，浩若涉大荒。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{憧憬是距离理解最遥远的感情。}"
+...button-text text="📋 复制" event="copy{山川同一色，浩若涉大荒。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/26.1}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Game_rule}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -66,6 +66,22 @@
 // --- 🧩 Modrinth 最新模组 ---
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/n3D4BPgL/9eba96c16900157377d36a20f16ddeddcc214c0d.png" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Cobblemon Black&White Battle Music" event="url{https://modrinth.com/mod/blackwhite-battle-music}"
+
+👤 calliestinks | 📅 2026-08-10
+
+Adds music from Pokémon Black&White to Cobblemon battles
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/blackwhite-battle-music/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/blackwhite-battle-music}" weight=(1)
+...row-end
+...column-end
+...row-end
+
 ...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/3QImuqE5/27897b1ed9c4d0ad6063387a674c6ae50c2fa597_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
@@ -130,22 +146,6 @@ Adds a variety of distinctive decorative plants that enrich Minecraft’s landsc
 ...column-end
 ...row-end
 
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/XlUfmkt6/7b65f986507713bf165ae8bb26f0069da8467bc4_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Reservoir" event="url{https://modrinth.com/mod/reservoir}"
-
-👤 LightDeficient | 📅 2026-08-09
-
-A survival friendly water filling block for quickly creating lakes, rivers, and other terraforming p
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/reservoir/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/reservoir}" weight=(1)
-...row-end
-...column-end
-...row-end
-
 ...row-start horizontal=spacedBy(8)
 ...button text="📥 访问 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
 ...row-end
@@ -178,9 +178,9 @@ A survival friendly water filling block for quickly creating lakes, rivers, and 
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[26.1](https://minecraft.wiki/26.1)
+📖 **Wiki 推荐**：[Game rule](https://minecraft.wiki/Game_rule)
 
-⏰ 更新时间：2026-08-10 05:38:38
+⏰ 更新时间：2026-08-10 13:24:50
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
