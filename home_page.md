@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-10 13:24:50
+// 生成时间：2026-08-11 02:14:08
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.SandPath_ZH-CN7820825668_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.ColorfulCop_ZH-CN8015611442_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"山川同一色，浩若涉大荒。"*
+> *"出入相友，守望相助。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{山川同一色，浩若涉大荒。}"
+...button-text text="📋 复制" event="copy{出入相友，守望相助。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Game_rule}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Crafting%2FRedstone}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/n3D4BPgL/9eba96c16900157377d36a20f16ddeddcc214c0d.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Tpbcfcgb/e27be55ad239a7ead36fbbebb9e29c9f6e66cab0_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Cobblemon Black&White Battle Music" event="url{https://modrinth.com/mod/blackwhite-battle-music}"
+...button-text text="JumpDuplicator" event="url{https://modrinth.com/mod/jumpduplicator}"
 
-👤 calliestinks | 📅 2026-08-10
+👤 MagicClutchYT | 📅 2026-08-11
 
-Adds music from Pokémon Black&White to Cobblemon battles
+Jump Duplicator is a server-side Fabric mod for Minecraft Java Edition 26.2. When a survival or adve
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/blackwhite-battle-music/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/blackwhite-battle-music}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jumpduplicator/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jumpduplicator}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/3QImuqE5/27897b1ed9c4d0ad6063387a674c6ae50c2fa597_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/7QGjUmqh/8f8573e50b9617109a476ed6a4a47aefcc61a9e4.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Pale Pumpkins" event="url{https://modrinth.com/mod/pale-pumpkins}"
+...button-text text="Server profiles" event="url{https://modrinth.com/mod/server-profiles}"
 
-👤 ZloyGvozd | 📅 2026-08-09
+👤 darkyontop0 | 📅 2026-08-11
 
-Pale pumpkins in a pale forest, adding a new throwable weapon and improved interaction with Pillager
+Automatically applies custom render distance, resource-pack, and chat settings for each Minecraft se
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pale-pumpkins/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pale-pumpkins}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/server-profiles/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/server-profiles}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/cup8dsJw/511cc40e274c37033d40150dcef8264a5fdac27b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/3lQ5Ap7Q/9dfdf2d41ef1f496ee973eff40eb3ef906624ca2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Drown Panic" event="url{https://modrinth.com/mod/drown-panic}"
+...button-text text="Live texuring" event="url{https://modrinth.com/mod/live-texuring}"
 
-👤 kulmustafa47 | 📅 2026-08-09
+👤 Creeperaction | 📅 2026-08-11
 
-"An immersive mod that enhances survival atmosphere underwater with a wide screen vignette (tunnel v
+With this mod you can create your very own texure pack while playing, and its so easy, you dont need
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/drown-panic/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/drown-panic}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/live-texuring/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/live-texuring}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/crAWISUi/1e5bf2fb21597a5d75e03a832ab74e6adc3bc708_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/x4EWnswA/c40afe552c9fae9de6523d11779ac8ba93f3706f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Chat Gags" event="url{https://modrinth.com/mod/chat-gags}"
+...button-text text="TikFinity 2" event="url{https://modrinth.com/mod/tikfinity2}"
 
-👤 AutisticPlush | 📅 2026-08-09
+👤 onlyarial | 📅 2026-08-10
 
-Custom filters to how you or your friends chat!
+Connects tikfinity to Minecraft without a server.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chat-gags/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chat-gags}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tikfinity2/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tikfinity2}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/kKNXXRMi/5a7c907a520248bcb527f7177f74c02e6163b554_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/oeu4tyCD/a645e0fb4c80835c367d6ccca131f05110bc37a8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Wild Flora" event="url{https://modrinth.com/mod/wild-flora}"
+...button-text text="OldMenu" event="url{https://modrinth.com/mod/oldmenu}"
 
-👤 LightDeficient | 📅 2026-08-09
+👤 RaiseEvent200 | 📅 2026-08-10
 
-Adds a variety of distinctive decorative plants that enrich Minecraft’s landscapes.
+Old Menu restores the compact Minecraft 26.1 title and pause-menu layouts in Minecraft Java Edition 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wild-flora/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wild-flora}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/oldmenu/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/oldmenu}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Adds a variety of distinctive decorative plants that enrich Minecraft’s landsc
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：两片沙漠交汇之地
-© 约书亚树国家公园，加利福尼亚州，美国 (© JJ Landscapes/Getty Images)
+🖼️ 壁纸：绚丽多彩的哥本哈根
+© 哥本哈根新港运河沿岸的彩色房屋，首都大区，丹麦 (© emicristea/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Game rule](https://minecraft.wiki/Game_rule)
+📖 **Wiki 推荐**：[Crafting/Redstone](https://minecraft.wiki/Crafting%2FRedstone)
 
-⏰ 更新时间：2026-08-10 13:24:50
+⏰ 更新时间：2026-08-11 02:14:08
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
