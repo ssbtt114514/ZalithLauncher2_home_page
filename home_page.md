@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-11 02:14:08
+// 生成时间：2026-08-11 05:14:54
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"出入相友，守望相助。"*
+> *"以后继续来一起练习打篮球"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{出入相友，守望相助。}"
+...button-text text="📋 复制" event="copy{以后继续来一起练习打篮球}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Crafting%2FRedstone}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_17w18a}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Tpbcfcgb/e27be55ad239a7ead36fbbebb9e29c9f6e66cab0_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/NyjdhzzA/9809f7d0667b8e6a65ca86fd7ecb3c1054fcb050_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="JumpDuplicator" event="url{https://modrinth.com/mod/jumpduplicator}"
+...button-text text="Elytra Lumina Mod" event="url{https://modrinth.com/mod/elytraluminamod}"
 
-👤 MagicClutchYT | 📅 2026-08-11
+👤 Antara89 | 📅 2026-08-11
 
-Jump Duplicator is a server-side Fabric mod for Minecraft Java Edition 26.2. When a survival or adve
+This mod adds new capabilities to the elytras looks.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jumpduplicator/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jumpduplicator}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/elytraluminamod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/elytraluminamod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7QGjUmqh/8f8573e50b9617109a476ed6a4a47aefcc61a9e4.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/bytR0t5X/f5c50587f82d54f5e239c23db9aac095d64b05ad_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Server profiles" event="url{https://modrinth.com/mod/server-profiles}"
+...button-text text="Entity Render Disabler" event="url{https://modrinth.com/mod/entity-render-disabler-notzorba}"
 
-👤 darkyontop0 | 📅 2026-08-11
+👤 notzorba | 📅 2026-08-11
 
-Automatically applies custom render distance, resource-pack, and chat settings for each Minecraft se
+This mod adds entity render disabling to prevent entity rendering from hindering your fps.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/server-profiles/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/server-profiles}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/entity-render-disabler-notzorba/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/entity-render-disabler-notzorba}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/3lQ5Ap7Q/9dfdf2d41ef1f496ee973eff40eb3ef906624ca2_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/D8m1bW6H/fcc3855e90f3be69ed60e4194d27df2f380224f1.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Live texuring" event="url{https://modrinth.com/mod/live-texuring}"
+...button-text text="Shule's Potions" event="url{https://modrinth.com/mod/shules-potions}"
 
-👤 Creeperaction | 📅 2026-08-11
+👤 Shule | 📅 2026-08-11
 
-With this mod you can create your very own texure pack while playing, and its so easy, you dont need
+A complete overhaul of the vanilla potion system, adding new mechanics, items, and effects.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/live-texuring/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/live-texuring}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/shules-potions/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/shules-potions}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/x4EWnswA/c40afe552c9fae9de6523d11779ac8ba93f3706f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/3qOpq5X8/4d1cb6f27a438e07ca48609802d532c53ea8ab51_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="TikFinity 2" event="url{https://modrinth.com/mod/tikfinity2}"
+...button-text text="Mythika: Creatures of Greek Myth" event="url{https://modrinth.com/mod/mythika}"
 
-👤 onlyarial | 📅 2026-08-10
+👤 Thrasos | 📅 2026-08-11
 
-Connects tikfinity to Minecraft without a server.
+Creatures of Greek myth, brought to life.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tikfinity2/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tikfinity2}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mythika/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mythika}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/oeu4tyCD/a645e0fb4c80835c367d6ccca131f05110bc37a8_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/p137cNuc/9b181c05d9e8cd25cd482b225ab17b40d1135012_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="OldMenu" event="url{https://modrinth.com/mod/oldmenu}"
+...button-text text="Auto Totem Pro" event="url{https://modrinth.com/mod/auto-totem-pro}"
 
-👤 RaiseEvent200 | 📅 2026-08-10
+👤 Loopix | 📅 2026-08-11
 
-Old Menu restores the compact Minecraft 26.1 title and pause-menu layouts in Minecraft Java Edition 
+A lightweight, client-side Fabric mod that automatically refills your offhand with a Totem of Undyin
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/oldmenu/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/oldmenu}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/auto-totem-pro/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/auto-totem-pro}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Old Menu restores the compact Minecraft 26.1 title and pause-menu layouts in Min
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Crafting/Redstone](https://minecraft.wiki/Crafting%2FRedstone)
+📖 **Wiki 推荐**：[Java Edition 17w18a](https://minecraft.wiki/Java_Edition_17w18a)
 
-⏰ 更新时间：2026-08-11 02:14:08
+⏰ 更新时间：2026-08-11 05:14:54
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
