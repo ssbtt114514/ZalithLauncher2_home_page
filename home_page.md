@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-12 02:31:19
+// 生成时间：2026-08-12 05:41:51
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我欣赏无头苍蝇的勇敢——勇往直前。"*
+> *"话说回来，现充还真是麻烦啊。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我欣赏无头苍蝇的勇敢——勇往直前。}"
+...button-text text="📋 复制" event="copy{话说回来，现充还真是麻烦啊。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/The_Wild_Update%3A_What_Will_You_Uncover%3F}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Fgetpos}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/4YLkeA5Z/266f43975e7550472305a0719df3a0688c266165.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/D0R0tRA4/5a239def9f8b22fb35b121b6fbceddd36e6c35f1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Coordinate Record Book" event="url{https://modrinth.com/mod/coordinate-record-book}"
+...button-text text="Escortation MC" event="url{https://modrinth.com/mod/escortation-mc}"
 
-👤 CherryBoooooooomb | 📅 2026-08-12
+👤 Dr.MEERKAT | 📅 2026-08-12
 
-A practical mod can help you record the coordinates
+Escort villagers in practical leash-style chains, form transport lines, and secure them to fences.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/coordinate-record-book/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/coordinate-record-book}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/escortation-mc/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/escortation-mc}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/PjYGDgNf/076812544d798a5179b056fa1e66c7cc1b078f69.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zYj2Fcym/aa749016adce6a1de20e2e4c33087501ccc35850_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Sunshine Grace" event="url{https://modrinth.com/mod/sunshine-grace}"
+...button-text text="Adrenalin" event="url{https://modrinth.com/mod/adrenalin}"
 
-👤 Sir_Cow | 📅 2026-08-11
+👤 bsonwza777 | 📅 2026-08-12
 
-Adds a "grace period" for players who are joining an existing world for the first time.
+This mod adds a bit of realism: when you have 2 hearts or less, an adrenaline effect activates for 2
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sunshine-grace/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sunshine-grace}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/adrenalin/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/adrenalin}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/TxZzehsQ/74a7306ca12419fdadb507b2d588de3055521fbd_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/W5pl6sYi/58e4708f499df9f09072a8a3155400e5dcaef9e4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Hide & Seek" event="url{https://modrinth.com/mod/stacik-s-hide-and-seek}"
+...button-text text="Boostation MC" event="url{https://modrinth.com/mod/boostation-mc}"
 
-👤 stacik_ | 📅 2026-08-11
+👤 Dr.MEERKAT | 📅 2026-08-12
 
-A mod that allows you to play Hide & Seek with your friends in Minecraft.
+Adds an infinitely reusable, rainbow-animated firework for Elytra flight.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/stacik-s-hide-and-seek/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/stacik-s-hide-and-seek}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/boostation-mc/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/boostation-mc}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/OirRngPn/3b69e3949f90d4a3eb6be69edbe35ef49f12fd92_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/BkFRMjOJ/3c4a063f8becb7ab35fec982024eec414db318c2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="KeyVision" event="url{https://modrinth.com/mod/keyvision}"
+...button-text text="Dramatic Trees - Pale Bloom (Cleanroom Patch)" event="url{https://modrinth.com/mod/dramatictrees-palebloom-cr}"
 
-👤 KriP1oH | 📅 2026-08-11
+👤 seeedl1ng | 📅 2026-08-12
 
-Visual keyboard for managing Minecraft keybinds, conflicts, and controls added by other mods.
+A Cleanroom port of Dynamic Trees - Pale Bloom
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/keyvision/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/keyvision}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dramatictrees-palebloom-cr/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dramatictrees-palebloom-cr}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/WoK9thlP/ccebb90b84caa8ce0c1ea79c4434800bf03d9d05_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vMKXlRAl/0eae9156cb5dab927a26d7845955aca88c697584_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Absolute Cinema Camera" event="url{https://modrinth.com/mod/absolute-cinema-camera}"
+...button-text text="Smart Item Highlight" event="url{https://modrinth.com/mod/smart-item-highlight}"
 
-👤 Glam_Ardor | 📅 2026-08-11
+👤 haittorr | 📅 2026-08-12
 
-Turns the game into a film: letterbox, colour grading, depth of field, and a director that shoots yo
+A client-side Minecraft mod that highlights matching items in open container screens.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/absolute-cinema-camera/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/absolute-cinema-camera}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/smart-item-highlight/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/smart-item-highlight}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Turns the game into a film: letterbox, colour grading, depth of field, and a dir
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[The Wild Update: What Will You Uncover?](https://minecraft.wiki/The_Wild_Update%3A_What_Will_You_Uncover%3F)
+📖 **Wiki 推荐**：[Commands/getpos](https://minecraft.wiki/Commands%2Fgetpos)
 
-⏰ 更新时间：2026-08-12 02:31:19
+⏰ 更新时间：2026-08-12 05:41:51
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
