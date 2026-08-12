@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-11 13:21:27
+// 生成时间：2026-08-12 02:31:19
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.ColorfulCop_ZH-CN8015611442_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.ElephantDay_ZH-CN8350171749_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"花，不知道自己就是春天。"*
+> *"我欣赏无头苍蝇的勇敢——勇往直前。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{花，不知道自己就是春天。}"
+...button-text text="📋 复制" event="copy{我欣赏无头苍蝇的勇敢——勇往直前。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FSmooth_Red_Sandstone_Slab}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/The_Wild_Update%3A_What_Will_You_Uncover%3F}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/NyjdhzzA/9809f7d0667b8e6a65ca86fd7ecb3c1054fcb050_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/4YLkeA5Z/266f43975e7550472305a0719df3a0688c266165.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Elytra Lumina Mod" event="url{https://modrinth.com/mod/elytraluminamod}"
+...button-text text="Coordinate Record Book" event="url{https://modrinth.com/mod/coordinate-record-book}"
 
-👤 Antara89 | 📅 2026-08-11
+👤 CherryBoooooooomb | 📅 2026-08-12
 
-This mod adds new capabilities to the elytras looks.
+A practical mod can help you record the coordinates
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/elytraluminamod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/elytraluminamod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/coordinate-record-book/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/coordinate-record-book}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/bytR0t5X/f5c50587f82d54f5e239c23db9aac095d64b05ad_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/PjYGDgNf/076812544d798a5179b056fa1e66c7cc1b078f69.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Entity Render Disabler" event="url{https://modrinth.com/mod/entity-render-disabler-notzorba}"
+...button-text text="Sunshine Grace" event="url{https://modrinth.com/mod/sunshine-grace}"
 
-👤 notzorba | 📅 2026-08-11
+👤 Sir_Cow | 📅 2026-08-11
 
-This mod adds entity render disabling to prevent entity rendering from hindering your fps.
+Adds a "grace period" for players who are joining an existing world for the first time.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/entity-render-disabler-notzorba/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/entity-render-disabler-notzorba}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sunshine-grace/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sunshine-grace}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/D8m1bW6H/fcc3855e90f3be69ed60e4194d27df2f380224f1.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/TxZzehsQ/74a7306ca12419fdadb507b2d588de3055521fbd_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Shule's Potions" event="url{https://modrinth.com/mod/shules-potions}"
+...button-text text="Hide & Seek" event="url{https://modrinth.com/mod/stacik-s-hide-and-seek}"
 
-👤 Shule | 📅 2026-08-11
+👤 stacik_ | 📅 2026-08-11
 
-A complete overhaul of the vanilla potion system, adding new mechanics, items, and effects.
+A mod that allows you to play Hide & Seek with your friends in Minecraft.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/shules-potions/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/shules-potions}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/stacik-s-hide-and-seek/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/stacik-s-hide-and-seek}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/3qOpq5X8/4d1cb6f27a438e07ca48609802d532c53ea8ab51_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/OirRngPn/3b69e3949f90d4a3eb6be69edbe35ef49f12fd92_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mythika: Creatures of Greek Myth" event="url{https://modrinth.com/mod/mythika}"
+...button-text text="KeyVision" event="url{https://modrinth.com/mod/keyvision}"
 
-👤 Thrasos | 📅 2026-08-11
+👤 KriP1oH | 📅 2026-08-11
 
-Creatures of Greek myth, brought to life.
+Visual keyboard for managing Minecraft keybinds, conflicts, and controls added by other mods.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mythika/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mythika}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/keyvision/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/keyvision}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/p137cNuc/9b181c05d9e8cd25cd482b225ab17b40d1135012_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/WoK9thlP/ccebb90b84caa8ce0c1ea79c4434800bf03d9d05_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Auto Totem Pro" event="url{https://modrinth.com/mod/auto-totem-pro}"
+...button-text text="Absolute Cinema Camera" event="url{https://modrinth.com/mod/absolute-cinema-camera}"
 
-👤 Loopix | 📅 2026-08-11
+👤 Glam_Ardor | 📅 2026-08-11
 
-A lightweight, client-side Fabric mod that automatically refills your offhand with a Totem of Undyin
+Turns the game into a film: letterbox, colour grading, depth of field, and a director that shoots yo
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/auto-totem-pro/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/auto-totem-pro}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/absolute-cinema-camera/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/absolute-cinema-camera}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ A lightweight, client-side Fabric mod that automatically refills your offhand wi
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：绚丽多彩的哥本哈根
-© 哥本哈根新港运河沿岸的彩色房屋，首都大区，丹麦 (© emicristea/Getty Images)
+🖼️ 壁纸：值得守护的巨兽
+© 安博塞利国家公园的非洲草原象群，卡贾多郡，肯尼亚 (© Ibrahim Suha Derbent/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition block render history/Smooth Red Sandstone Slab](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FSmooth_Red_Sandstone_Slab)
+📖 **Wiki 推荐**：[The Wild Update: What Will You Uncover?](https://minecraft.wiki/The_Wild_Update%3A_What_Will_You_Uncover%3F)
 
-⏰ 更新时间：2026-08-11 13:21:27
+⏰ 更新时间：2026-08-12 02:31:19
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
