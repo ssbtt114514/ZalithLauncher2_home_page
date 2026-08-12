@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-12 05:41:51
+// 生成时间：2026-08-12 13:25:22
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"话说回来，现充还真是麻烦啊。"*
+> *"百无聊赖的白日与长夜，总有一天会化为回忆远置吧。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{话说回来，现充还真是麻烦啊。}"
+...button-text text="📋 复制" event="copy{百无聊赖的白日与长夜，总有一天会化为回忆远置吧。}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.2
-**最新快照**: 26.3-snapshot-7
+**最新快照**: 26.3-snapshot-8
 
 近期版本：
 - **26.2** (2026-06-16)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Fgetpos}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FArrow_of_Strength}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -66,6 +66,22 @@
 // --- 🧩 Modrinth 最新模组 ---
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/Hk1s7y0m/bdb829cb6b6db13f67039c5e1ab9a328555d51d2_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Nebusic Engine" event="url{https://modrinth.com/mod/nebusicengine}"
+
+👤 NebulaCommunity | 📅 2026-08-12
+
+A tool that allows you to access a new audio/music engine within Minecraft.
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nebusicengine/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nebusicengine}" weight=(1)
+...row-end
+...column-end
+...row-end
+
 ...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/D0R0tRA4/5a239def9f8b22fb35b121b6fbceddd36e6c35f1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
@@ -130,22 +146,6 @@ A Cleanroom port of Dynamic Trees - Pale Bloom
 ...column-end
 ...row-end
 
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/vMKXlRAl/0eae9156cb5dab927a26d7845955aca88c697584_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Smart Item Highlight" event="url{https://modrinth.com/mod/smart-item-highlight}"
-
-👤 haittorr | 📅 2026-08-12
-
-A client-side Minecraft mod that highlights matching items in open container screens.
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/smart-item-highlight/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/smart-item-highlight}" weight=(1)
-...row-end
-...column-end
-...row-end
-
 ...row-start horizontal=spacedBy(8)
 ...button text="📥 访问 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
 ...row-end
@@ -178,9 +178,9 @@ A client-side Minecraft mod that highlights matching items in open container scr
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Commands/getpos](https://minecraft.wiki/Commands%2Fgetpos)
+📖 **Wiki 推荐**：[Java Edition item texture history/Arrow of Strength](https://minecraft.wiki/Java_Edition_item_texture_history%2FArrow_of_Strength)
 
-⏰ 更新时间：2026-08-12 05:41:51
+⏰ 更新时间：2026-08-12 13:25:22
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
