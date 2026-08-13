@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-13 05:44:34
+// 生成时间：2026-08-13 13:27:17
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"赢得了时间就是赢得了一切。"*
+> *"要优秀啊，不然怎么遇见优秀的人！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{赢得了时间就是赢得了一切。}"
+...button-text text="📋 复制" event="copy{要优秀啊，不然怎么遇见优秀的人！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Debug_mode%2FGrid%2F26w14a}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FSlime_Spawn_Egg}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ Use a spyglass to look at as many mobs as you can! Adds almost 2,000 achievement
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Debug mode/Grid/26w14a](https://minecraft.wiki/Debug_mode%2FGrid%2F26w14a)
+📖 **Wiki 推荐**：[Java Edition item texture history/Slime Spawn Egg](https://minecraft.wiki/Java_Edition_item_texture_history%2FSlime_Spawn_Egg)
 
-⏰ 更新时间：2026-08-13 05:44:34
+⏰ 更新时间：2026-08-13 13:27:17
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
