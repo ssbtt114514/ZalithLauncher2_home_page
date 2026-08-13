@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-12 13:25:22
+// 生成时间：2026-08-13 02:32:54
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.ElephantDay_ZH-CN8350171749_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.PerseidasTenerife_ZH-CN8520379683_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"百无聊赖的白日与长夜，总有一天会化为回忆远置吧。"*
+> *"我曾试着销声匿迹，才发现真的无人问津。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{百无聊赖的白日与长夜，总有一天会化为回忆远置吧。}"
+...button-text text="📋 复制" event="copy{我曾试着销声匿迹，才发现真的无人问津。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FArrow_of_Strength}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Chiseled_Red_Sandstone}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Hk1s7y0m/bdb829cb6b6db13f67039c5e1ab9a328555d51d2_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/YVmhbwLt/611079d69cce0fc1365566951db3fdc3a57e7ee6_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Nebusic Engine" event="url{https://modrinth.com/mod/nebusicengine}"
+...button-text text="Mimix's Minerals" event="url{https://modrinth.com/mod/mimixs-minerals}"
 
-👤 NebulaCommunity | 📅 2026-08-12
+👤 JustAMimikyu | 📅 2026-08-13
 
-A tool that allows you to access a new audio/music engine within Minecraft.
+This mod adds more minerals to minecraft.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nebusicengine/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nebusicengine}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mimixs-minerals/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mimixs-minerals}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/D0R0tRA4/5a239def9f8b22fb35b121b6fbceddd36e6c35f1_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/UB5YDD2g/b784a8ab40d49ce2424d3663ef49ca4200c5a574_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Escortation MC" event="url{https://modrinth.com/mod/escortation-mc}"
+...button-text text="Sinplem-Combat Mode" event="url{https://modrinth.com/mod/sinplem-combat-mode}"
 
-👤 Dr.MEERKAT | 📅 2026-08-12
+👤 Sinplem | 📅 2026-08-13
 
-Escort villagers in practical leash-style chains, form transport lines, and secure them to fences.
+在Minecraft Fabric 1.21.11 版本中新增了战斗模式 / A combat mode has been added in Minecraft Fabric version 1.21
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/escortation-mc/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/escortation-mc}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sinplem-combat-mode/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sinplem-combat-mode}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/zYj2Fcym/aa749016adce6a1de20e2e4c33087501ccc35850_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/WLgvM0jn/eed8df03ab7095044157dd938e3e9f3c547bdea5.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Adrenalin" event="url{https://modrinth.com/mod/adrenalin}"
+...button-text text="ControllerPlus" event="url{https://modrinth.com/mod/controllerplus}"
 
-👤 bsonwza777 | 📅 2026-08-12
+👤 Excal1bur | 📅 2026-08-12
 
-This mod adds a bit of realism: when you have 2 hearts or less, an adrenaline effect activates for 2
+Controller+ is a lightweight Applied Energistics 2 addon that introduces a brand new, high-capacity 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/adrenalin/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/adrenalin}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/controllerplus/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/controllerplus}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/W5pl6sYi/58e4708f499df9f09072a8a3155400e5dcaef9e4_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xG1rYaqo/c800798dcd0d0f36f0e49dd349fc977397a41760_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Boostation MC" event="url{https://modrinth.com/mod/boostation-mc}"
+...button-text text="Locate Plus" event="url{https://modrinth.com/mod/locate-plus}"
 
-👤 Dr.MEERKAT | 📅 2026-08-12
+👤 forest_mask | 📅 2026-08-12
 
-Adds an infinitely reusable, rainbow-animated firework for Elytra flight.
+Find any block or entity with /locate, not just structures. Survey areas, inspect any position, and 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/boostation-mc/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/boostation-mc}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/locate-plus/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/locate-plus}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/BkFRMjOJ/3c4a063f8becb7ab35fec982024eec414db318c2_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/sS4HJXcL/eecc3e9d3c80853bba2221208e17e9fc0e984867_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Dramatic Trees - Pale Bloom (Cleanroom Patch)" event="url{https://modrinth.com/mod/dramatictrees-palebloom-cr}"
+...button-text text="Mob Watching" event="url{https://modrinth.com/mod/mob-watching}"
 
-👤 seeedl1ng | 📅 2026-08-12
+👤 cabooseisneat | 📅 2026-08-12
 
-A Cleanroom port of Dynamic Trees - Pale Bloom
+Use a spyglass to look at as many mobs as you can! Adds almost 2,000 achievements to keep track of w
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dramatictrees-palebloom-cr/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dramatictrees-palebloom-cr}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mob-watching/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mob-watching}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ A Cleanroom port of Dynamic Trees - Pale Bloom
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：值得守护的巨兽
-© 安博塞利国家公园的非洲草原象群，卡贾多郡，肯尼亚 (© Ibrahim Suha Derbent/Getty Images)
+🖼️ 壁纸：许个愿吧
+© 泰德天文台上空的英仙座流星，加那利群岛，西班牙 (© Westend61/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition item texture history/Arrow of Strength](https://minecraft.wiki/Java_Edition_item_texture_history%2FArrow_of_Strength)
+📖 **Wiki 推荐**：[Chiseled Red Sandstone](https://minecraft.wiki/Chiseled_Red_Sandstone)
 
-⏰ 更新时间：2026-08-12 13:25:22
+⏰ 更新时间：2026-08-13 02:32:54
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
