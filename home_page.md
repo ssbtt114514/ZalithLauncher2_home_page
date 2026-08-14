@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-13 13:27:17
+// 生成时间：2026-08-14 02:30:52
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.PerseidasTenerife_ZH-CN8520379683_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.WildlifeCrossingPoland_ZH-CN9439167246_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"要优秀啊，不然怎么遇见优秀的人！"*
+> *"我们感到不满的原因就在于我们试图不断地提高自己的要求。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{要优秀啊，不然怎么遇见优秀的人！}"
+...button-text text="📋 复制" event="copy{我们感到不满的原因就在于我们试图不断地提高自己的要求。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FSlime_Spawn_Egg}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Xbox_360_gamerpics}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/YVmhbwLt/611079d69cce0fc1365566951db3fdc3a57e7ee6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/RCKjxIHj/dd480feb16d3b1ee22d2cb3857a5cfd5f6eb6763_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mimix's Minerals" event="url{https://modrinth.com/mod/mimixs-minerals}"
+...button-text text="BBaS (Bitten By a Spider)" event="url{https://modrinth.com/mod/bbas}"
 
-👤 JustAMimikyu | 📅 2026-08-13
+👤 47Term0Pa2ta | 📅 2026-08-13
 
-This mod adds more minerals to minecraft.
+This project adds spiderman into your game!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mimixs-minerals/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mimixs-minerals}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bbas/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bbas}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/UB5YDD2g/b784a8ab40d49ce2424d3663ef49ca4200c5a574_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wCpQk5R7/acf732bebba6a0107cb734e3b176acce414444d7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Sinplem-Combat Mode" event="url{https://modrinth.com/mod/sinplem-combat-mode}"
+...button-text text="QuitKeybind" event="url{https://modrinth.com/mod/quitkeybind}"
 
-👤 Sinplem | 📅 2026-08-13
+👤 periklis20m | 📅 2026-08-13
 
-在Minecraft Fabric 1.21.11 版本中新增了战斗模式 / A combat mode has been added in Minecraft Fabric version 1.21
+Disconnect from any server or leave a singleplayer world instantly with one customizable keybind.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sinplem-combat-mode/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sinplem-combat-mode}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/quitkeybind/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/quitkeybind}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/WLgvM0jn/eed8df03ab7095044157dd938e3e9f3c547bdea5.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/5YURhtLb/c9073961cdb5f62fc5e86021ee5784167c1278e0.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="ControllerPlus" event="url{https://modrinth.com/mod/controllerplus}"
+...button-text text="Ender Dragon Rewards" event="url{https://modrinth.com/mod/ender-dragon-rewards}"
 
-👤 Excal1bur | 📅 2026-08-12
+👤 karfakiaspsn | 📅 2026-08-13
 
-Controller+ is a lightweight Applied Energistics 2 addon that introduces a brand new, high-capacity 
+Server-side Ender Dragon rewards with owner-only chests, scaling drop chances, and optional Discord-
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/controllerplus/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/controllerplus}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ender-dragon-rewards/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ender-dragon-rewards}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xG1rYaqo/c800798dcd0d0f36f0e49dd349fc977397a41760_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Ej6f1bsY/6f75621ca327a90ecbeb1f479ffabdfff8b21ba5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Locate Plus" event="url{https://modrinth.com/mod/locate-plus}"
+...button-text text="BD Spawneggs" event="url{https://modrinth.com/mod/bd-spawneggs}"
 
-👤 forest_mask | 📅 2026-08-12
+👤 JuliBiddeWer | 📅 2026-08-13
 
-Find any block or entity with /locate, not just structures. Survey areas, inspect any position, and 
+Use the spawn commands from block display in survival
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/locate-plus/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/locate-plus}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bd-spawneggs/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bd-spawneggs}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/sS4HJXcL/eecc3e9d3c80853bba2221208e17e9fc0e984867_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/emwCsPCb/50e08f42f3132c156b466915b7b31e4655e6f716_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mob Watching" event="url{https://modrinth.com/mod/mob-watching}"
+...button-text text="Yet Some Other Backrooms Mod" event="url{https://modrinth.com/mod/yetsomeotherbackroomsmod}"
 
-👤 cabooseisneat | 📅 2026-08-12
+👤 ThirdLoyalty | 📅 2026-08-13
 
-Use a spyglass to look at as many mobs as you can! Adds almost 2,000 achievements to keep track of w
+This is a backrooms mod. It's Yet Some Other Backrooms mod, among many others.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mob-watching/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mob-watching}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/yetsomeotherbackroomsmod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/yetsomeotherbackroomsmod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Use a spyglass to look at as many mobs as you can! Adds almost 2,000 achievement
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：许个愿吧
-© 泰德天文台上空的英仙座流星，加那利群岛，西班牙 (© Westend61/Getty Images)
+🖼️ 壁纸：为动物脚掌而建，而非行人
+© 扎克舒夫附近的野生动物通道，波兰 (© bbsferrari/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition item texture history/Slime Spawn Egg](https://minecraft.wiki/Java_Edition_item_texture_history%2FSlime_Spawn_Egg)
+📖 **Wiki 推荐**：[Xbox 360 gamerpics](https://minecraft.wiki/Xbox_360_gamerpics)
 
-⏰ 更新时间：2026-08-13 13:27:17
+⏰ 更新时间：2026-08-14 02:30:52
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
