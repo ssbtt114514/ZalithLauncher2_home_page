@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-14 05:41:41
+// 生成时间：2026-08-14 13:21:43
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"世界真可怕，想回到妈妈的肚子里。"*
+> *"万事开头难，然后中间难，最后结尾难。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{世界真可怕，想回到妈妈的肚子里。}"
+...button-text text="📋 复制" event="copy{万事开头难，然后中间难，最后结尾难。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Pink_Petals}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_beta_1.2.6.2}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ This is a backrooms mod. It's Yet Some Other Backrooms mod, among many others.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Pink Petals](https://minecraft.wiki/Pink_Petals)
+📖 **Wiki 推荐**：[Bedrock Edition beta 1.2.6.2](https://minecraft.wiki/Bedrock_Edition_beta_1.2.6.2)
 
-⏰ 更新时间：2026-08-14 05:41:41
+⏰ 更新时间：2026-08-14 13:21:43
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
