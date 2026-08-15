@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-15 01:41:02
+// 生成时间：2026-08-15 04:38:04
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"那天，我听到了种子破土的声音，又细微又坚定。"*
+> *"爱,其实很简单，困难的是去接受它。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{那天，我听到了种子破土的声音，又细微又坚定。}"
+...button-text text="📋 复制" event="copy{爱,其实很简单，困难的是去接受它。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Warped_Fungus_on_a_Stick}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_structure_render_history%2FRuined_Portal}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ A lightweight client-side mod that changes your crosshair color to green when ai
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Warped Fungus on a Stick](https://minecraft.wiki/Warped_Fungus_on_a_Stick)
+📖 **Wiki 推荐**：[Java Edition structure render history/Ruined Portal](https://minecraft.wiki/Java_Edition_structure_render_history%2FRuined_Portal)
 
-⏰ 更新时间：2026-08-15 01:41:02
+⏰ 更新时间：2026-08-15 04:38:04
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
