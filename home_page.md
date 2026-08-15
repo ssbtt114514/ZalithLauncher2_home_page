@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-15 04:38:04
+// 生成时间：2026-08-15 12:51:01
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"爱,其实很简单，困难的是去接受它。"*
+> *"你背朝太阳，就只能看到自己的影子。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{爱,其实很简单，困难的是去接受它。}"
+...button-text text="📋 复制" event="copy{你背朝太阳，就只能看到自己的影子。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_structure_render_history%2FRuined_Portal}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bastion_Remnant%2FStructure%2FBlueprints%2Fbastion-hoglin_stable-large_stables-outer_3}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -117,7 +117,7 @@ No more searching for hours to find a Bastion now you can just craft a Netherite
 ...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/5Bocb2ll/817eddbbea41f71fcf23c371a88d160025d95a89_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="dialogautologin" event="url{https://modrinth.com/mod/dialogautologin}"
+...button-text text="dialog auto login" event="url{https://modrinth.com/mod/dialogautologin}"
 
 👤 Anthony4933Meow | 📅 2026-08-14
 
@@ -178,9 +178,9 @@ A lightweight client-side mod that changes your crosshair color to green when ai
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition structure render history/Ruined Portal](https://minecraft.wiki/Java_Edition_structure_render_history%2FRuined_Portal)
+📖 **Wiki 推荐**：[Bastion Remnant/Structure/Blueprints/bastion-hoglin stable-large stables-outer 3](https://minecraft.wiki/Bastion_Remnant%2FStructure%2FBlueprints%2Fbastion-hoglin_stable-large_stables-outer_3)
 
-⏰ 更新时间：2026-08-15 04:38:04
+⏰ 更新时间：2026-08-15 12:51:01
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
