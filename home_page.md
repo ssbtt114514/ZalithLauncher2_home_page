@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-14 13:21:43
+// 生成时间：2026-08-15 01:41:02
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.WildlifeCrossingPoland_ZH-CN9439167246_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.ValleyDreams_ZH-CN9689713135_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"万事开头难，然后中间难，最后结尾难。"*
+> *"那天，我听到了种子破土的声音，又细微又坚定。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{万事开头难，然后中间难，最后结尾难。}"
+...button-text text="📋 复制" event="copy{那天，我听到了种子破土的声音，又细微又坚定。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_beta_1.2.6.2}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Warped_Fungus_on_a_Stick}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/RCKjxIHj/dd480feb16d3b1ee22d2cb3857a5cfd5f6eb6763_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Y0rTddDQ/b8aa955b1644db5e9563e8a1812f3bb5c95b48e6.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="BBaS (Bitten By a Spider)" event="url{https://modrinth.com/mod/bbas}"
+...button-text text="Realistic Oceans" event="url{https://modrinth.com/mod/realistic-oceans}"
 
-👤 47Term0Pa2ta | 📅 2026-08-13
+👤 LLD-000 | 📅 2026-08-14
 
-This project adds spiderman into your game!
+Adds realistic & deep oceans to minecraft
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bbas/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bbas}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/realistic-oceans/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/realistic-oceans}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wCpQk5R7/acf732bebba6a0107cb734e3b176acce414444d7_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/nJoZr6Nq/e476ad3a3e614903793b1d70a1f3e6512093dd60.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="QuitKeybind" event="url{https://modrinth.com/mod/quitkeybind}"
+...button-text text="Real Axolotl Buckets" event="url{https://modrinth.com/mod/real-axolotl-buckets}"
 
-👤 periklis20m | 📅 2026-08-13
+👤 DavyyGuy | 📅 2026-08-14
 
-Disconnect from any server or leave a singleplayer world instantly with one customizable keybind.
+Makes the bucket of Axolotl have the Axolotol's name and texture
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/quitkeybind/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/quitkeybind}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/real-axolotl-buckets/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/real-axolotl-buckets}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/5YURhtLb/c9073961cdb5f62fc5e86021ee5784167c1278e0.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ZyMqzgCg/23b31b3b2417df106d4adccaec4f3e8d3adf96a4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ender Dragon Rewards" event="url{https://modrinth.com/mod/ender-dragon-rewards}"
+...button-text text="Easy Netherite Upgrade (Neoforge)" event="url{https://modrinth.com/mod/easy-netherite-upgrade-neoforge}"
 
-👤 karfakiaspsn | 📅 2026-08-13
+👤 manakoro | 📅 2026-08-14
 
-Server-side Ender Dragon rewards with owner-only chests, scaling drop chances, and optional Discord-
+No more searching for hours to find a Bastion now you can just craft a Netherite Upgrade.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ender-dragon-rewards/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ender-dragon-rewards}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/easy-netherite-upgrade-neoforge/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/easy-netherite-upgrade-neoforge}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Ej6f1bsY/6f75621ca327a90ecbeb1f479ffabdfff8b21ba5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/5Bocb2ll/817eddbbea41f71fcf23c371a88d160025d95a89_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="BD Spawneggs" event="url{https://modrinth.com/mod/bd-spawneggs}"
+...button-text text="dialogautologin" event="url{https://modrinth.com/mod/dialogautologin}"
 
-👤 JuliBiddeWer | 📅 2026-08-13
+👤 Anthony4933Meow | 📅 2026-08-14
 
-Use the spawn commands from block display in survival
+client-side autologin mod for servers using the new authme dialog system
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bd-spawneggs/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bd-spawneggs}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dialogautologin/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dialogautologin}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/emwCsPCb/50e08f42f3132c156b466915b7b31e4655e6f716_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/RqFRCV5U/f2204f6ef3e9c968637c3496c8247dc904d191ea.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Yet Some Other Backrooms Mod" event="url{https://modrinth.com/mod/yetsomeotherbackroomsmod}"
+...button-text text="Advanced Player Crosshair" event="url{https://modrinth.com/mod/advanced-player-crosshair}"
 
-👤 ThirdLoyalty | 📅 2026-08-13
+👤 imreppofficial | 📅 2026-08-14
 
-This is a backrooms mod. It's Yet Some Other Backrooms mod, among many others.
+A lightweight client-side mod that changes your crosshair color to green when aiming at a player and
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/yetsomeotherbackroomsmod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/yetsomeotherbackroomsmod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/advanced-player-crosshair/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/advanced-player-crosshair}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ This is a backrooms mod. It's Yet Some Other Backrooms mod, among many others.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：为动物脚掌而建，而非行人
-© 扎克舒夫附近的野生动物通道，波兰 (© bbsferrari/Getty Images)
+🖼️ 壁纸：绝妙的平衡术
+© 圣胡安县阿什斯利帕荒野地的奇岩柱，新墨西哥州，美国 (© Westend61/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition beta 1.2.6.2](https://minecraft.wiki/Bedrock_Edition_beta_1.2.6.2)
+📖 **Wiki 推荐**：[Warped Fungus on a Stick](https://minecraft.wiki/Warped_Fungus_on_a_Stick)
 
-⏰ 更新时间：2026-08-14 13:21:43
+⏰ 更新时间：2026-08-15 01:41:02
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
