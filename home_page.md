@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-16 04:42:10
+// 生成时间：2026-08-16 12:52:23
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"火车是往前开的，去哪并不重要，重要的是窗外的风景。"*
+> *"我今天就是要带她走，我看哪个敢拦我。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{火车是往前开的，去哪并不重要，重要的是窗外的风景。}"
+...button-text text="📋 复制" event="copy{我今天就是要带她走，我看哪个敢拦我。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_26.2}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_guides%2FBeta_1.6_releases}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,6 +67,70 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/buzK5Cwd/06d6d334125c37c11b345bc11f7530b70332d92d.gif" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Copper Reborn" event="url{https://modrinth.com/mod/copper-reborn}"
+
+👤 ItsLivex | 📅 2026-08-16
+
+Ads More Copper Equip and Tools
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/copper-reborn/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/copper-reborn}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/KPxaEsee/20b2e6b84a07711389a220d71a7885dab262e1d7_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Chat Hide X" event="url{https://modrinth.com/mod/chat-hide-x}"
+
+👤 imRyzek | 📅 2026-08-16
+
+Chat Hide X is a simple and lightweight Minecraft mod that lets you hide chat for a cleaner screen a
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chat-hide-x/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chat-hide-x}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/soNUVArK/ab577d2c38e62ecde1097c4b561888a62ecc71b8.png" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="More Breeze Rods" event="url{https://modrinth.com/mod/more-breeze-rods}"
+
+👤 ParroteX2 | 📅 2026-08-16
+
+This project makes that a breeze now tropps more breeze rods.Very usefull
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/more-breeze-rods/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/more-breeze-rods}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/oSjkVADK/a5859c8a608278afac7642a9af79e8c9783956ad.png" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Chat Reworked" event="url{https://modrinth.com/mod/chat-reworked}"
+
+👤 Le0nia | 📅 2026-08-16
+
+Enhances Minecraft's chat with modern features inspired by messaging apps.
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chat-reworked/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chat-reworked}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/TkIw1SER/2612448a71320c3cb7e823be5b2c20d08936f7d1.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
 ...button-text text="Item Alchemy Expansion" event="url{https://modrinth.com/mod/item-alchemy-expansion}"
@@ -78,70 +142,6 @@ Added NBT item support and shulker box support to the Transmutation Table in Ite
 ...row-start horizontal=spacedBy(8)
 ...button text="⬇️ 下载" event="url{https://modrinth.com/mod/item-alchemy-expansion/versions}" weight=(1)
 ...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/item-alchemy-expansion}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/kjd419wj/7f02534d02b89da4c2a985fa449021198e88adba.png" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Kordex" event="url{https://modrinth.com/mod/kordex}"
-
-👤 Fireburst_GG | 📅 2026-08-16
-
-Expands gear options with new equipment, extra slots, offhand changes, and harder gameplay.
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kordex/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kordex}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/q5k48P0F/738a0a3472043159c897de68728b8174b82b232f_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="ReNeighborly" event="url{https://modrinth.com/mod/reneighborly}"
-
-👤 Cherry_Dev | 📅 2026-08-16
-
-A vibrant remake of the original Animal Crossing style neighbors mod, with 350+ lines of dialog!
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/reneighborly/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/reneighborly}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/oNAc8fRU/902e3d06aff628cb40b551ba87e881dc6effd7e5_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Five Nights at Freddy's:Freddy & Friends  | FNAF F&F" event="url{https://modrinth.com/mod/five-nights-at-freddysfreddy-friends-fnaf-ff}"
-
-👤 Liren_YT | 📅 2026-08-16
-
-Brings the world of Five Nights at Freddy's into Minecraft with tiny versions of the characters!
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/five-nights-at-freddysfreddy-friends-fnaf-ff/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/five-nights-at-freddysfreddy-friends-fnaf-ff}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Zr4lCUIJ/b8d6646ce1c2e5c15075514257427dfd47a7f2a3_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Farm Friendly Mob Stacking" event="url{https://modrinth.com/mod/farm-friendly-mob-stacking}"
-
-👤 ThirtyFangs | 📅 2026-08-16
-
-This datapack optimizes the server by stacking mobs without penalizing players! Farms will have less
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/farm-friendly-mob-stacking/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/farm-friendly-mob-stacking}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ This datapack optimizes the server by stacking mobs without penalizing players! 
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 26.2](https://minecraft.wiki/Java_Edition_26.2)
+📖 **Wiki 推荐**：[Java Edition guides/Beta 1.6 releases](https://minecraft.wiki/Java_Edition_guides%2FBeta_1.6_releases)
 
-⏰ 更新时间：2026-08-16 04:42:10
+⏰ 更新时间：2026-08-16 12:52:23
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
