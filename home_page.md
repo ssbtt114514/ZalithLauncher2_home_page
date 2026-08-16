@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-16 01:48:16
+// 生成时间：2026-08-16 04:42:10
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"在床上蠕动了一下表达我对这首歌的喜欢。"*
+> *"火车是往前开的，去哪并不重要，重要的是窗外的风景。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{在床上蠕动了一下表达我对这首歌的喜欢。}"
+...button-text text="📋 复制" event="copy{火车是往前开的，去哪并不重要，重要的是窗外的风景。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bastion_Remnant%2FOutdated_loot_tables_in_Java_Edition}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_26.2}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,6 +67,70 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/TkIw1SER/2612448a71320c3cb7e823be5b2c20d08936f7d1.png" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Item Alchemy Expansion" event="url{https://modrinth.com/mod/item-alchemy-expansion}"
+
+👤 luckfun233 | 📅 2026-08-16
+
+Added NBT item support and shulker box support to the Transmutation Table in Item Alchemy
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/item-alchemy-expansion/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/item-alchemy-expansion}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/kjd419wj/7f02534d02b89da4c2a985fa449021198e88adba.png" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Kordex" event="url{https://modrinth.com/mod/kordex}"
+
+👤 Fireburst_GG | 📅 2026-08-16
+
+Expands gear options with new equipment, extra slots, offhand changes, and harder gameplay.
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kordex/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kordex}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/q5k48P0F/738a0a3472043159c897de68728b8174b82b232f_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="ReNeighborly" event="url{https://modrinth.com/mod/reneighborly}"
+
+👤 Cherry_Dev | 📅 2026-08-16
+
+A vibrant remake of the original Animal Crossing style neighbors mod, with 350+ lines of dialog!
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/reneighborly/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/reneighborly}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/oNAc8fRU/902e3d06aff628cb40b551ba87e881dc6effd7e5_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Five Nights at Freddy's:Freddy & Friends  | FNAF F&F" event="url{https://modrinth.com/mod/five-nights-at-freddysfreddy-friends-fnaf-ff}"
+
+👤 Liren_YT | 📅 2026-08-16
+
+Brings the world of Five Nights at Freddy's into Minecraft with tiny versions of the characters!
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/five-nights-at-freddysfreddy-friends-fnaf-ff/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/five-nights-at-freddysfreddy-friends-fnaf-ff}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/Zr4lCUIJ/b8d6646ce1c2e5c15075514257427dfd47a7f2a3_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
 ...button-text text="Farm Friendly Mob Stacking" event="url{https://modrinth.com/mod/farm-friendly-mob-stacking}"
@@ -78,70 +142,6 @@ This datapack optimizes the server by stacking mobs without penalizing players! 
 ...row-start horizontal=spacedBy(8)
 ...button text="⬇️ 下载" event="url{https://modrinth.com/mod/farm-friendly-mob-stacking/versions}" weight=(1)
 ...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/farm-friendly-mob-stacking}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/AiLFBsTM/5a5de1121122f3eacaffa95858538adb9a6cfe2a_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Chromaglow" event="url{https://modrinth.com/mod/chromaglow}"
-
-👤 Smidul | 📅 2026-08-15
-
-Automatically grants every player a glowing effect, allowing them to customize their outline color u
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chromaglow/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chromaglow}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/mtWmJVW1/f734ac1fdfe907f3b8a0d896853b2cc7bad4e281.png" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Modern TPA" event="url{https://modrinth.com/mod/modern-tpa-pack}"
-
-👤 tryashtar | 📅 2026-08-15
-
-Modern data pack for teleport requests, like /tpa and /tpahere
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/modern-tpa-pack/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/modern-tpa-pack}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/jedU5NNR/f24078b45f2878314c533d508970f17abf909dd2_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Spawnable Torterra Variants [Cobblemon]" event="url{https://modrinth.com/mod/spawnable-torterra-variants-cobblemon}"
-
-👤 gamingreseller | 📅 2026-08-15
-
-Torterra variants now spawn naturally!
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/spawnable-torterra-variants-cobblemon/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/spawnable-torterra-variants-cobblemon}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/j9jxyR07/656d68665dd3a03f91dd741022d74a0d9c81ffa3_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Yahiraft" event="url{https://modrinth.com/mod/yahiraft}"
-
-👤 yahiamice | 📅 2026-08-15
-
-Functional mod that helps with my "Raft Tuah" challenge; it adds blocks, revamps loot tables and pre
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/yahiraft/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/yahiraft}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Functional mod that helps with my "Raft Tuah" challenge; it adds blocks, revamps
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bastion Remnant/Outdated loot tables in Java Edition](https://minecraft.wiki/Bastion_Remnant%2FOutdated_loot_tables_in_Java_Edition)
+📖 **Wiki 推荐**：[Java Edition 26.2](https://minecraft.wiki/Java_Edition_26.2)
 
-⏰ 更新时间：2026-08-16 01:48:16
+⏰ 更新时间：2026-08-16 04:42:10
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
