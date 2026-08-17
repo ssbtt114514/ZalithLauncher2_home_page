@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-16 12:52:23
+// 生成时间：2026-08-17 01:46:11
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.RossErrillyRuins_ZH-CN9986322001_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.CabilaoClowns_ZH-CN0147033898_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我今天就是要带她走，我看哪个敢拦我。"*
+> *"没有任何力量能毁了下一代，除了不懂时代的上一代。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我今天就是要带她走，我看哪个敢拦我。}"
+...button-text text="📋 复制" event="copy{没有任何力量能毁了下一代，除了不懂时代的上一代。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_guides%2FBeta_1.6_releases}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FSnowy_Tundra%2FMedium_House_3}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,82 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/buzK5Cwd/06d6d334125c37c11b345bc11f7530b70332d92d.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/RsI44iIL/3e57523c4c29b4694d9abcd1267029271ef4d0cf_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Copper Reborn" event="url{https://modrinth.com/mod/copper-reborn}"
+...button-text text="Hostile babies to adults" event="url{https://modrinth.com/mod/hostile-babies-to-adults}"
 
-👤 ItsLivex | 📅 2026-08-16
+👤 RealReakMR | 📅 2026-08-16
 
-Ads More Copper Equip and Tools
+Why do only peacefull baby mobs grow? then why can't hostile baby mobs?
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/copper-reborn/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/copper-reborn}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hostile-babies-to-adults/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hostile-babies-to-adults}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/KPxaEsee/20b2e6b84a07711389a220d71a7885dab262e1d7_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/UyMhzIus/8d2c53a3492e32101788cc4c5e1ff2347f936604_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Chat Hide X" event="url{https://modrinth.com/mod/chat-hide-x}"
+...button-text text="hangeulkeyfixmod" event="url{https://modrinth.com/mod/hangeulkeyfixmod}"
 
-👤 imRyzek | 📅 2026-08-16
+👤 Mol3_3 | 📅 2026-08-16
 
-Chat Hide X is a simple and lightweight Minecraft mod that lets you hide chat for a cleaner screen a
+한글(IME) 입력 상태에서도 마인크래프트의 이동, 작업, 단축키 등 게임 조작키가 항상 작동하도록 합니다.
+Keeps all Minecraft controls working no
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chat-hide-x/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chat-hide-x}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hangeulkeyfixmod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hangeulkeyfixmod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/soNUVArK/ab577d2c38e62ecde1097c4b561888a62ecc71b8.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/dCdYX0qT/962b14d94d630c7aca5a29dbdb57c74ce6488bc6_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="More Breeze Rods" event="url{https://modrinth.com/mod/more-breeze-rods}"
+...button-text text="VideoCmd" event="url{https://modrinth.com/mod/videocmd}"
 
-👤 ParroteX2 | 📅 2026-08-16
+👤 KekovichTeamStory | 📅 2026-08-16
 
-This project makes that a breeze now tropps more breeze rods.Very usefull
+The mod adds a new command /video, which allows you to display a video on the player’s screen.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/more-breeze-rods/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/more-breeze-rods}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/videocmd/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/videocmd}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/oSjkVADK/a5859c8a608278afac7642a9af79e8c9783956ad.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/WRu5Nu2Q/9a68865db8d0065b57d7368fe8a354673ce47001_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Chat Reworked" event="url{https://modrinth.com/mod/chat-reworked}"
+...button-text text="VCoasters" event="url{https://modrinth.com/mod/vcoasters}"
 
-👤 Le0nia | 📅 2026-08-16
+👤 WeiseSchokolade | 📅 2026-08-16
 
-Enhances Minecraft's chat with modern features inspired by messaging apps.
+A mod allowing you to create roller coasters that can be exported as a datapack.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chat-reworked/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chat-reworked}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/vcoasters/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/vcoasters}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/TkIw1SER/2612448a71320c3cb7e823be5b2c20d08936f7d1.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/RFvSp8uj/568f1b21f176e7985cf8daf420f6c389da450f98_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Item Alchemy Expansion" event="url{https://modrinth.com/mod/item-alchemy-expansion}"
+...button-text text="Legendary Tabs" event="url{https://modrinth.com/mod/legendary-tabs}"
 
-👤 luckfun233 | 📅 2026-08-16
+👤 Legendary_Workshop | 📅 2026-08-16
 
-Added NBT item support and shulker box support to the Transmutation Table in Item Alchemy
+Introduce tabs in minecraft screens to easily switch between them.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/item-alchemy-expansion/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/item-alchemy-expansion}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/legendary-tabs/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/legendary-tabs}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +174,14 @@ Added NBT item support and shulker box support to the Transmutation Table in Ite
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：天鹅开启传奇之处
-© 戈尔韦郡罗斯埃里利方济各会修道院遗址，康诺特省，爱尔兰 (© Maria Janus/Shutterstock)
+🖼️ 壁纸：珊瑚礁上的黄金地段
+© 海葵中的三条眼斑双锯鱼，卡比劳岛，薄荷省，菲律宾 (© Franco Banfi/Nature Picture Library)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition guides/Beta 1.6 releases](https://minecraft.wiki/Java_Edition_guides%2FBeta_1.6_releases)
+📖 **Wiki 推荐**：[Village/Structure/Blueprints/Snowy Tundra/Medium House 3](https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FSnowy_Tundra%2FMedium_House_3)
 
-⏰ 更新时间：2026-08-16 12:52:23
+⏰ 更新时间：2026-08-17 01:46:11
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
