@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-17 01:46:11
+// 生成时间：2026-08-17 04:51:10
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"没有任何力量能毁了下一代，除了不懂时代的上一代。"*
+> *"impossible的完整形式是i'm possible"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{没有任何力量能毁了下一代，除了不懂时代的上一代。}"
+...button-text text="📋 复制" event="copy{impossible的完整形式是i'm possible}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FSnowy_Tundra%2FMedium_House_3}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FRedstone_Lamp}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -66,6 +66,38 @@
 // --- 🧩 Modrinth 最新模组 ---
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/7Gz1dUJt/7054b2ade5e1b480f8e168a0d2baf514d50cb185_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Better Cats Mod" event="url{https://modrinth.com/mod/better-cats-mod}"
+
+👤 katzenglueck.fragen | 📅 2026-08-17
+
+Cats are just the best animals in the world anyway... Well, at least for me. And this mod makes them
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-cats-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-cats-mod}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/MwXUeS08/3d22348acd816b9b7e35e301d85db6c6d4820b8c.png" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="PvPCore" event="url{https://modrinth.com/mod/pvpcores}"
+
+👤 AllanStrat | 📅 2026-08-17
+
+Identify friend and enemies easily with colored tags, global internal chats for clans.
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pvpcores/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pvpcores}" weight=(1)
+...row-end
+...column-end
+...row-end
+
 ...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/RsI44iIL/3e57523c4c29b4694d9abcd1267029271ef4d0cf_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
@@ -115,38 +147,6 @@ The mod adds a new command /video, which allows you to display a video on the pl
 ...column-end
 ...row-end
 
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/WRu5Nu2Q/9a68865db8d0065b57d7368fe8a354673ce47001_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="VCoasters" event="url{https://modrinth.com/mod/vcoasters}"
-
-👤 WeiseSchokolade | 📅 2026-08-16
-
-A mod allowing you to create roller coasters that can be exported as a datapack.
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/vcoasters/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/vcoasters}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/RFvSp8uj/568f1b21f176e7985cf8daf420f6c389da450f98_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Legendary Tabs" event="url{https://modrinth.com/mod/legendary-tabs}"
-
-👤 Legendary_Workshop | 📅 2026-08-16
-
-Introduce tabs in minecraft screens to easily switch between them.
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/legendary-tabs/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/legendary-tabs}" weight=(1)
-...row-end
-...column-end
-...row-end
-
 ...row-start horizontal=spacedBy(8)
 ...button text="📥 访问 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
 ...row-end
@@ -179,9 +179,9 @@ Introduce tabs in minecraft screens to easily switch between them.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Village/Structure/Blueprints/Snowy Tundra/Medium House 3](https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FSnowy_Tundra%2FMedium_House_3)
+📖 **Wiki 推荐**：[Java Edition block render history/Redstone Lamp](https://minecraft.wiki/Java_Edition_block_render_history%2FRedstone_Lamp)
 
-⏰ 更新时间：2026-08-17 01:46:11
+⏰ 更新时间：2026-08-17 04:51:10
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
