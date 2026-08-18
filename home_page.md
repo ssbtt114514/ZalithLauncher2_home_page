@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-17 12:57:05
+// 生成时间：2026-08-18 01:41:04
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.CabilaoClowns_ZH-CN0147033898_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.Palmanova_ZH-CN0378401592_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"倾盆雨，惊天雷，众里寻他而去。"*
+> *"不诱于誉，不恐于诽。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{倾盆雨，惊天雷，众里寻他而去。}"
+...button-text text="📋 复制" event="copy{不诱于誉，不恐于诽。}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.2
-**最新快照**: 26.3-snapshot-8
+**最新快照**: 26.3-snapshot-9
 
 近期版本：
 - **26.2** (2026-06-16)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bread_(disambiguation)}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FBaked_Potato}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,82 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7Gz1dUJt/7054b2ade5e1b480f8e168a0d2baf514d50cb185_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/iZX8RqTF/066577e53d2af7c77a0dd80020b10108bf082901_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Better Cats Mod" event="url{https://modrinth.com/mod/better-cats-mod}"
+...button-text text="BetterF3 - Spark Module" event="url{https://modrinth.com/mod/betterf3-spark-module}"
 
-👤 katzenglueck.fragen | 📅 2026-08-17
+👤 _zenith_ | 📅 2026-08-18
 
-Cats are just the best animals in the world anyway... Well, at least for me. And this mod makes them
+Adds spark TPS, MSPT, CPU and GC stats to BetterF3 screen
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-cats-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-cats-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/betterf3-spark-module/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/betterf3-spark-module}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/MwXUeS08/3d22348acd816b9b7e35e301d85db6c6d4820b8c.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/JIcdjqJ0/aca6c946d42cd0400016e28113127e3317371b96.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="PvPCore" event="url{https://modrinth.com/mod/pvpcores}"
+...button-text text="Random Block Selector Wand" event="url{https://modrinth.com/mod/random-block-selector-wand}"
 
-👤 AllanStrat | 📅 2026-08-17
+👤 Juicy-Beer | 📅 2026-08-18
 
-Identify friend and enemies easily with colored tags, global internal chats for clans.
+A custom item that allows random blocks picked from your inventory to be placed down, also works wit
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pvpcores/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pvpcores}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/random-block-selector-wand/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/random-block-selector-wand}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/RsI44iIL/3e57523c4c29b4694d9abcd1267029271ef4d0cf_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wek5ETuF/f62aadcb0c484e848af21f4a51c75dfe186399e2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Hostile babies to adults" event="url{https://modrinth.com/mod/hostile-babies-to-adults}"
+...button-text text="Create: Pipboy" event="url{https://modrinth.com/mod/create-pipboy}"
 
-👤 RealReakMR | 📅 2026-08-16
+👤 JxstCris_ | 📅 2026-08-18
 
-Why do only peacefull baby mobs grow? then why can't hostile baby mobs?
+Revamped version of the fallout based mod  -new vegas pipboy- [WIP]
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hostile-babies-to-adults/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hostile-babies-to-adults}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-pipboy/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-pipboy}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/UyMhzIus/8d2c53a3492e32101788cc4c5e1ff2347f936604_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/VqQ4ORV1/f127fdc0bdf6c1b99fe9b3b11b192a3d6cb502d1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="hangeulkeyfixmod" event="url{https://modrinth.com/mod/hangeulkeyfixmod}"
+...button-text text="Blankstare mod" event="url{https://modrinth.com/mod/blankstare-mod}"
 
-👤 Mol3_3 | 📅 2026-08-16
+👤 Ago2020 | 📅 2026-08-18
 
-한글(IME) 입력 상태에서도 마인크래프트의 이동, 작업, 단축키 등 게임 조작키가 항상 작동하도록 합니다.
-Keeps all Minecraft controls working no
+Removes Blankstare from the game
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hangeulkeyfixmod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hangeulkeyfixmod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/blankstare-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/blankstare-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/dCdYX0qT/962b14d94d630c7aca5a29dbdb57c74ce6488bc6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/gmLk3QRy/1ad054c4a0cd7063aa4e453c0df3acc98f6ba47a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="VideoCmd" event="url{https://modrinth.com/mod/videocmd}"
+...button-text text="Photo Screen" event="url{https://modrinth.com/mod/photo-screen}"
 
-👤 KekovichTeamStory | 📅 2026-08-16
+👤 tempis335 | 📅 2026-08-18
 
-The mod adds a new command /video, which allows you to display a video on the player’s screen.
+Photograph the Yeti without waking it: camera, photo traps, golden shots, yeti fur armor, and a mob 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/videocmd/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/videocmd}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/photo-screen/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/photo-screen}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -174,14 +173,14 @@ The mod adds a new command /video, which allows you to display a video on the pl
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：珊瑚礁上的黄金地段
-© 海葵中的三条眼斑双锯鱼，卡比劳岛，薄荷省，菲律宾 (© Franco Banfi/Nature Picture Library)
+🖼️ 壁纸：星形城市的几何之美
+© 弗留利要塞城市帕尔马诺瓦航拍图，意大利 (© Riccardo Saponi/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bread (disambiguation)](https://minecraft.wiki/Bread_(disambiguation))
+📖 **Wiki 推荐**：[Java Edition item texture history/Baked Potato](https://minecraft.wiki/Java_Edition_item_texture_history%2FBaked_Potato)
 
-⏰ 更新时间：2026-08-17 12:57:05
+⏰ 更新时间：2026-08-18 01:41:04
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
