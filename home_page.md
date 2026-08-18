@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-18 01:41:04
+// 生成时间：2026-08-18 04:41:54
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"不诱于誉，不恐于诽。"*
+> *"我们的征途是星辰大海。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{不诱于誉，不恐于诽。}"
+...button-text text="📋 复制" event="copy{我们的征途是星辰大海。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FBaked_Potato}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_1.2.1}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/iZX8RqTF/066577e53d2af7c77a0dd80020b10108bf082901_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/FBDydTuO/4886b13510528c6f4295ba268dea46a01b7f8674_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="BetterF3 - Spark Module" event="url{https://modrinth.com/mod/betterf3-spark-module}"
+...button-text text="CursedFate: Register" event="url{https://modrinth.com/mod/cursedfate-register}"
 
-👤 _zenith_ | 📅 2026-08-18
+👤 lmaolmaolmaolmaolmao | 📅 2026-08-18
 
-Adds spark TPS, MSPT, CPU and GC stats to BetterF3 screen
+A cursedfate addon mod, based on Reggie Star's ability from JJK. This CT was loosely modeled after J
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/betterf3-spark-module/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/betterf3-spark-module}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cursedfate-register/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cursedfate-register}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/JIcdjqJ0/aca6c946d42cd0400016e28113127e3317371b96.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/fgrSuPMN/0fe9e554cd6f86b616fa00efcf6559fe2c4389e3_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Random Block Selector Wand" event="url{https://modrinth.com/mod/random-block-selector-wand}"
+...button-text text="Mekanism: More Fission" event="url{https://modrinth.com/mod/mekanism-more-fission}"
 
-👤 Juicy-Beer | 📅 2026-08-18
+👤 Retrac860616 | 📅 2026-08-18
 
-A custom item that allows random blocks picked from your inventory to be placed down, also works wit
+Adds crafting recipes recipes for Mekanism uranium ore and flourite ore, which can be automated and 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/random-block-selector-wand/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/random-block-selector-wand}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mekanism-more-fission/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mekanism-more-fission}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wek5ETuF/f62aadcb0c484e848af21f4a51c75dfe186399e2_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vnLRyIXD/72722e2f64a658a6d92b2ae5933f39c7d0012fe7.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Pipboy" event="url{https://modrinth.com/mod/create-pipboy}"
+...button-text text="Simple Killbind" event="url{https://modrinth.com/mod/simple-killbind-denisdungeon}"
 
-👤 JxstCris_ | 📅 2026-08-18
+👤 Denis_Dungeon | 📅 2026-08-18
 
-Revamped version of the fallout based mod  -new vegas pipboy- [WIP]
+A lightweight mod that adds a customizable killbind. Fabric Only for now.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-pipboy/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-pipboy}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simple-killbind-denisdungeon/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simple-killbind-denisdungeon}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/VqQ4ORV1/f127fdc0bdf6c1b99fe9b3b11b192a3d6cb502d1_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Xfc4jqO7/0e39a278299614768ac848b3d5a8bc1b0ff703f9_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Blankstare mod" event="url{https://modrinth.com/mod/blankstare-mod}"
+...button-text text="Tacz:Recruits" event="url{https://modrinth.com/mod/taczrecruits}"
 
-👤 Ago2020 | 📅 2026-08-18
+👤 Zeorez | 📅 2026-08-18
 
-Removes Blankstare from the game
+A small mod that provides compatibility between Tacz mod and Recruits mod.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/blankstare-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/blankstare-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/taczrecruits/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/taczrecruits}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/gmLk3QRy/1ad054c4a0cd7063aa4e453c0df3acc98f6ba47a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/oo1KpY3g/3d0c02b6cbf44c484593a6d1ae79c02cce8d110f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Photo Screen" event="url{https://modrinth.com/mod/photo-screen}"
+...button-text text="silly hotdogs" event="url{https://modrinth.com/mod/silly-hotdogs}"
 
-👤 tempis335 | 📅 2026-08-18
+👤 lilsmilejr | 📅 2026-08-18
 
-Photograph the Yeti without waking it: camera, photo traps, golden shots, yeti fur armor, and a mob 
+this mod adds hot dogs and also a this mod adds a new pet to your world
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/photo-screen/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/photo-screen}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/silly-hotdogs/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/silly-hotdogs}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Photograph the Yeti without waking it: camera, photo traps, golden shots, yeti f
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition item texture history/Baked Potato](https://minecraft.wiki/Java_Edition_item_texture_history%2FBaked_Potato)
+📖 **Wiki 推荐**：[Bedrock Edition 1.2.1](https://minecraft.wiki/Bedrock_Edition_1.2.1)
 
-⏰ 更新时间：2026-08-18 01:41:04
+⏰ 更新时间：2026-08-18 04:41:54
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
