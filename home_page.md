@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-18 04:41:54
+// 生成时间：2026-08-18 12:59:00
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我们的征途是星辰大海。"*
+> *"明月也不曾记得它点亮过世界！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我们的征途是星辰大海。}"
+...button-text text="📋 复制" event="copy{明月也不曾记得它点亮过世界！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_1.2.1}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FPlains%2FMeeting_Point_5}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ this mod adds hot dogs and also a this mod adds a new pet to your world
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition 1.2.1](https://minecraft.wiki/Bedrock_Edition_1.2.1)
+📖 **Wiki 推荐**：[Village/Structure/Blueprints/Plains/Meeting Point 5](https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FPlains%2FMeeting_Point_5)
 
-⏰ 更新时间：2026-08-18 04:41:54
+⏰ 更新时间：2026-08-18 12:59:00
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
