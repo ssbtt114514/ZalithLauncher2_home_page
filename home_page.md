@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-19 01:43:11
+// 生成时间：2026-08-19 04:43:44
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"恶魔离开你的那一天，天使也会离开。"*
+> *"此生此夜不长好，明月明年何处看。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{恶魔离开你的那一天，天使也会离开。}"
+...button-text text="📋 复制" event="copy{此生此夜不长好，明月明年何处看。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Redstone_Comparator}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_20w08a}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/eolKiaOU/a7910a0d939be8a7d1e88841a09fc7cbe9232b2e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/yj61UkI0/34c1a39c3445883a7ac14f5ae6ad83f8a15d692f.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Woalk Datafixer" event="url{https://modrinth.com/mod/woalk-datafixer}"
+...button-text text="Silverfish Particles" event="url{https://modrinth.com/mod/silverfish-particles}"
 
-👤 woalk | 📅 2026-08-19
+👤 TheKingOfNerds | 📅 2026-08-19
 
-Configurable DataFixer implementation to replace blocks, items and biomes according to a CSV mapping
+Puts stone particles around silverfish
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/woalk-datafixer/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/woalk-datafixer}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/silverfish-particles/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/silverfish-particles}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/nZMnPhfd/d8936b7487c9d33a962ee25df7d95094e1fa63af.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/qpfR7udt/b74ebf9f8098d40c930fba1163a0e2db1cd8a027.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Decorative Blocks Rewalked" event="url{https://modrinth.com/mod/decorative-blocks-rewalked}"
+...button-text text="Netherite Fire Res" event="url{https://modrinth.com/mod/netherite-fire-res}"
 
-👤 woalk | 📅 2026-08-19
+👤 TheKingOfNerds | 📅 2026-08-19
 
-Some new blocks to build with. Updated to 26.2
+Full Netherite gives a set bonus of fire resistance
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/decorative-blocks-rewalked/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/decorative-blocks-rewalked}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/netherite-fire-res/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/netherite-fire-res}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/XsoB04ez/5915196c73ea2fc471142f98b180f548e4bba60d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8ySUgwHG/3bc2c26231ac699c846bec1a6bfa0305f0b763c2.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Better Signals" event="url{https://modrinth.com/mod/bettersignals}"
+...button-text text="Spider Web Attack" event="url{https://modrinth.com/mod/spider-web-attack}"
 
-👤 tommmmm | 📅 2026-08-19
+👤 TheKingOfNerds | 📅 2026-08-19
 
-Better signals for create. Add some logics inspired by the french railways regulation.
+Getting close to a spider will put you in a web.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bettersignals/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bettersignals}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/spider-web-attack/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/spider-web-attack}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/cpwXMr1q/f5fc86076bbf33b9ccdbe59b75ebf038630f40bd_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/gMELH6Gk/3ae43849f10f0c85ea75e26e37d84ee2873a87c6.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mob Animations" event="url{https://modrinth.com/mod/mob-animations}"
+...button-text text="Torch Damage" event="url{https://modrinth.com/mod/torch-damage}"
 
-👤 JosiahSchatz | 📅 2026-08-19
+👤 TheKingOfNerds | 📅 2026-08-19
 
-This mod adds various signiture actions for mobs using the /mobanim command.
+Makes torches damage you because they are hot.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mob-animations/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mob-animations}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/torch-damage/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/torch-damage}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/RgFJxobe/324268be04d49d2dc3fc2a7e1d5b432528553abe_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Hzfqab1d/d0149a2ee4056dc8ec22989632113e6025e45043.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="FarmerChaos" event="url{https://modrinth.com/mod/farmerchaos}"
+...button-text text="Consistent Cauldrons" event="url{https://modrinth.com/mod/consistent-cauldrons}"
 
-👤 FimeFire | 📅 2026-08-19
+👤 TheKingOfNerds | 📅 2026-08-19
 
-Cozy cooking, unique crops, and aesthetic dishes for your home
+Cauldrons now damage Endermen and allow you to ignore fall damage
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/farmerchaos/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/farmerchaos}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/consistent-cauldrons/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/consistent-cauldrons}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Cozy cooking, unique crops, and aesthetic dishes for your home
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Redstone Comparator](https://minecraft.wiki/Redstone_Comparator)
+📖 **Wiki 推荐**：[Java Edition 20w08a](https://minecraft.wiki/Java_Edition_20w08a)
 
-⏰ 更新时间：2026-08-19 01:43:11
+⏰ 更新时间：2026-08-19 04:43:44
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
