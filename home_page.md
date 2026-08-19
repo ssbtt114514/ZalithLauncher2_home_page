@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-19 04:43:44
+// 生成时间：2026-08-19 12:59:32
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"此生此夜不长好，明月明年何处看。"*
+> *"相遇不一定有结果，但一定有意义。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{此生此夜不长好，明月明年何处看。}"
+...button-text text="📋 复制" event="copy{相遇不一定有结果，但一定有意义。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_20w08a}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/PlayStation_3_Edition_1.18}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/yj61UkI0/34c1a39c3445883a7ac14f5ae6ad83f8a15d692f.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Rxg5piNV/5400952c8f4ebfd1e58e8e7ab36fc8e80be0af59.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Silverfish Particles" event="url{https://modrinth.com/mod/silverfish-particles}"
+...button-text text="Trinkets Lantern Support" event="url{https://modrinth.com/mod/trinkets-lantern-support}"
 
-👤 TheKingOfNerds | 📅 2026-08-19
+👤 Patbox | 📅 2026-08-19
 
-Puts stone particles around silverfish
+A datapack enabling Lantern support for Trinkets Updated slots (works with LambDynamicLights!)
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/silverfish-particles/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/silverfish-particles}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/trinkets-lantern-support/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/trinkets-lantern-support}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/qpfR7udt/b74ebf9f8098d40c930fba1163a0e2db1cd8a027.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/tY8Aoimh/3e876cbd6e5eb044567a3a0687476fd6a99ebf1c.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Netherite Fire Res" event="url{https://modrinth.com/mod/netherite-fire-res}"
+...button-text text="Special Armor Pieces" event="url{https://modrinth.com/mod/special-armor-pieces}"
 
 👤 TheKingOfNerds | 📅 2026-08-19
 
-Full Netherite gives a set bonus of fire resistance
+Lets you wear glass and end rods on your head.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/netherite-fire-res/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/netherite-fire-res}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/special-armor-pieces/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/special-armor-pieces}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8ySUgwHG/3bc2c26231ac699c846bec1a6bfa0305f0b763c2.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/L4cQ60qd/852a8f3b397d77177b8115adfe798a062dbd6bcf.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Spider Web Attack" event="url{https://modrinth.com/mod/spider-web-attack}"
+...button-text text="More and Better Tools" event="url{https://modrinth.com/mod/more-and-better-tools}"
 
-👤 TheKingOfNerds | 📅 2026-08-19
+👤 retroad1 | 📅 2026-08-19
 
-Getting close to a spider will put you in a web.
+More and better tools for better gameplay
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/spider-web-attack/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/spider-web-attack}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/more-and-better-tools/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/more-and-better-tools}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/gMELH6Gk/3ae43849f10f0c85ea75e26e37d84ee2873a87c6.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/2dmD3P3q/3f19220f8fbbbea4436c6545ed577f877c58854e.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Torch Damage" event="url{https://modrinth.com/mod/torch-damage}"
+...button-text text="End Crystal Particles" event="url{https://modrinth.com/mod/end-crystal-particles}"
 
 👤 TheKingOfNerds | 📅 2026-08-19
 
-Makes torches damage you because they are hot.
+Puts particles around End Crystals
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/torch-damage/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/torch-damage}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/end-crystal-particles/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/end-crystal-particles}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Hzfqab1d/d0149a2ee4056dc8ec22989632113e6025e45043.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/7gePekp1/80dd90258c7dab20b650d65803267401caca146f.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Consistent Cauldrons" event="url{https://modrinth.com/mod/consistent-cauldrons}"
+...button-text text="Leather Overheating" event="url{https://modrinth.com/mod/leather-overheating}"
 
 👤 TheKingOfNerds | 📅 2026-08-19
 
-Cauldrons now damage Endermen and allow you to ignore fall damage
+Going in hot biomes with full leather is not a good idea.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/consistent-cauldrons/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/consistent-cauldrons}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/leather-overheating/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/leather-overheating}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Cauldrons now damage Endermen and allow you to ignore fall damage
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 20w08a](https://minecraft.wiki/Java_Edition_20w08a)
+📖 **Wiki 推荐**：[PlayStation 3 Edition 1.18](https://minecraft.wiki/PlayStation_3_Edition_1.18)
 
-⏰ 更新时间：2026-08-19 04:43:44
+⏰ 更新时间：2026-08-19 12:59:32
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
