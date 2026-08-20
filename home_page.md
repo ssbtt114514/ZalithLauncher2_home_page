@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-20 04:43:47
+// 生成时间：2026-08-20 13:02:12
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"世事变幻无常，而近乎永恒不变者，唯你我头上的同一片星空。"*
+> *"最阴险的敌人往往都站在最光明的角落里。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{世事变幻无常，而近乎永恒不变者，唯你我头上的同一片星空。}"
+...button-text text="📋 复制" event="copy{最阴险的敌人往往都站在最光明的角落里。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Pocket_Edition_server_software}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.19.1%2FDevelopment_versions}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,82 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/iNnpWb19/0da5e348cad78edf22899062c4757f1c16507d4a.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/hn3E5eJo/09f8a1379b2dfafd77f345e8fbb780231574d1da.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Starbits" event="url{https://modrinth.com/mod/starbits}"
+...button-text text="Pinguinmike,s Commands (MVC)" event="url{https://modrinth.com/mod/pinguinmikes-commands-mvc}"
 
-👤 Thalastro | 📅 2026-08-20
+👤 Pinguinmike | 📅 2026-08-20
 
-Light up the night sky with meteors!
+A Utility mod with new lightwight commands and shortcut commands
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/starbits/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/starbits}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pinguinmikes-commands-mvc/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pinguinmikes-commands-mvc}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/yHJW82SR/6a1789812903dfc344cc2f3661655b7d83dad50d.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/HclYpKH6/833ede62a0f6b800ad4813f60eda6c34bbcf6131.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="FreezeX" event="url{https://modrinth.com/mod/frezze-datapack}"
+...button-text text="More Backpack Upgrades Neoforge" event="url{https://modrinth.com/mod/more-backpack-upgrades-neoforge}"
 
-👤 Twobie | 📅 2026-08-20
+👤 terryset | 📅 2026-08-20
 
-A frezze Datapack made for Admins 
-/function frezze:
+More Backpack Upgrades is an addon for Sophisticated Backpacks that bridges the gap between your por
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/frezze-datapack/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/frezze-datapack}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/more-backpack-upgrades-neoforge/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/more-backpack-upgrades-neoforge}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/VSGtHEJM/0b3e9ebf53ffb46656feb8808e63ed8e9737647d.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/3AHZhnEt/5d1d61713223b6223453d33d0ec965925c99b09c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Climbable Powder Snow" event="url{https://modrinth.com/mod/climbable-powder-snow}"
+...button-text text="Deku's Forgotten Secrets" event="url{https://modrinth.com/mod/dekus-forgotten-secrets}"
 
-👤 subzeroditto | 📅 2026-08-20
+👤 Aft0n | 📅 2026-08-20
 
-makes it so you can climb powder snow
+Addon for Nastia's Miracle Stones that adds some cannon Miraculouses
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/climbable-powder-snow/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/climbable-powder-snow}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dekus-forgotten-secrets/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dekus-forgotten-secrets}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/E8L4tPVM/35db6295a406fdcef12b50e2b1b20ca8e2a04538_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/7aHqRydf/32a0bb663161fe923346dab5ebb54d274aa44398.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Balance Silverfishes" event="url{https://modrinth.com/mod/balance-silverfishes}"
+...button-text text="COH (Chat Over Heads)" event="url{https://modrinth.com/mod/coh-mc}"
 
-👤 Cr0cke | 📅 2026-08-20
+👤 Earu | 📅 2026-08-20
 
-Makes some small tweaks to the silverfishes
+Shows what a player is typing above their head in real time and sticks around for a few seconds when
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/balance-silverfishes/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/balance-silverfishes}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/coh-mc/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/coh-mc}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/RR9ybzEz/b0bf258dbe073abb1fbef33d5f9bed8cd22c8ba1.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/GFrLqjh0/5fda2df2aa73704d47b86d991149901fdfdfadb7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Extendable Maps" event="url{https://modrinth.com/mod/extendable-maps}"
+...button-text text="MirrorMod" event="url{https://modrinth.com/mod/mirrormod}"
 
-👤 Smidul | 📅 2026-08-20
+👤 K1lSofix | 📅 2026-08-20
 
-Restores extension to all maps missing it.
+Mirrors block placements, breaks, and interactions across all chunks in real-time. Perfect for megab
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/extendable-maps/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/extendable-maps}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mirrormod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mirrormod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -179,9 +178,9 @@ Restores extension to all maps missing it.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Pocket Edition server software](https://minecraft.wiki/Pocket_Edition_server_software)
+📖 **Wiki 推荐**：[Java Edition 1.19.1/Development versions](https://minecraft.wiki/Java_Edition_1.19.1%2FDevelopment_versions)
 
-⏰ 更新时间：2026-08-20 04:43:47
+⏰ 更新时间：2026-08-20 13:02:12
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
