@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-20 01:41:46
+// 生成时间：2026-08-20 04:43:47
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"刚好知交，刚好欢笑，刚好闪耀。"*
+> *"世事变幻无常，而近乎永恒不变者，唯你我头上的同一片星空。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{刚好知交，刚好欢笑，刚好闪耀。}"
+...button-text text="📋 复制" event="copy{世事变幻无常，而近乎永恒不变者，唯你我头上的同一片星空。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_installation_files}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Pocket_Edition_server_software}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,82 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/LVcXNRWR/e6fe0d1242ec6d4ce07423ce9554538c213f6c67.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/iNnpWb19/0da5e348cad78edf22899062c4757f1c16507d4a.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Salt & pepper" event="url{https://modrinth.com/mod/salt-pepper}"
+...button-text text="Starbits" event="url{https://modrinth.com/mod/starbits}"
 
-👤 Fiskerz | 📅 2026-08-20
+👤 Thalastro | 📅 2026-08-20
 
-Adds salt and pepper to enhance the taste of your food a bit
+Light up the night sky with meteors!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/salt-pepper/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/salt-pepper}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/starbits/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/starbits}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/IEGPyOaE/a3a638e1cad5ecdd52cec9e8288542225f1a3a21_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/yHJW82SR/6a1789812903dfc344cc2f3661655b7d83dad50d.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Stronger Farmland" event="url{https://modrinth.com/mod/stronger-farmland}"
+...button-text text="FreezeX" event="url{https://modrinth.com/mod/frezze-datapack}"
 
-👤 Lothrazar | 📅 2026-08-20
+👤 Twobie | 📅 2026-08-20
 
-Prevent players, horses, dogs, Iron Golems from trampling farmland
+A frezze Datapack made for Admins 
+/function frezze:
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/stronger-farmland/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/stronger-farmland}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/frezze-datapack/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/frezze-datapack}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/bvbqz583/35bdc898eefc1301d7ee726cb901b139517d47cc_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/VSGtHEJM/0b3e9ebf53ffb46656feb8808e63ed8e9737647d.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Scraps and Shards" event="url{https://modrinth.com/mod/scraps-and-shards}"
+...button-text text="Climbable Powder Snow" event="url{https://modrinth.com/mod/climbable-powder-snow}"
 
-👤 Lothrazar | 📅 2026-08-20
+👤 subzeroditto | 📅 2026-08-20
 
-Scrap junk piles in worldgen, bone shards, flint shards, for early game crafting and recycling, and 
+makes it so you can climb powder snow
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/scraps-and-shards/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/scraps-and-shards}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/climbable-powder-snow/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/climbable-powder-snow}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/a2osys8Q/ca4b68c8a9ac03818b7d62ec37a4407b65b56ed9_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/E8L4tPVM/35db6295a406fdcef12b50e2b1b20ca8e2a04538_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Catalysts" event="url{https://modrinth.com/mod/scarrins-catalysts}"
+...button-text text="Balance Silverfishes" event="url{https://modrinth.com/mod/balance-silverfishes}"
 
-👤 ScarRin | 📅 2026-08-20
+👤 Cr0cke | 📅 2026-08-20
 
-A Fabric ability mod where players choose catalysts that grant unique powers and playstyles. Current
+Makes some small tweaks to the silverfishes
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/scarrins-catalysts/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/scarrins-catalysts}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/balance-silverfishes/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/balance-silverfishes}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/JoQr4rxu/ccea4326144f9d0af2db5d70dac7ae678cd441df_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/RR9ybzEz/b0bf258dbe073abb1fbef33d5f9bed8cd22c8ba1.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mushroom Island Plants" event="url{https://modrinth.com/mod/mushroomislandplants}"
+...button-text text="Extendable Maps" event="url{https://modrinth.com/mod/extendable-maps}"
 
-👤 paultomohio | 📅 2026-08-19
+👤 Smidul | 📅 2026-08-20
 
-Adds 3 plants to make the mushroom island more detailed.
+Restores extension to all maps missing it.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mushroomislandplants/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mushroomislandplants}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/extendable-maps/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/extendable-maps}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +179,9 @@ Adds 3 plants to make the mushroom island more detailed.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition installation files](https://minecraft.wiki/Bedrock_Edition_installation_files)
+📖 **Wiki 推荐**：[Pocket Edition server software](https://minecraft.wiki/Pocket_Edition_server_software)
 
-⏰ 更新时间：2026-08-20 01:41:46
+⏰ 更新时间：2026-08-20 04:43:47
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
