@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-21 04:47:02
+// 生成时间：2026-08-21 13:01:09
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,12 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"深处暖春 ，才会怕冷。
-"*
+> *"既然等不到青城的日落，那就从朝阳开始。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{深处暖春 ，才会怕冷。
-}"
+...button-text text="📋 复制" event="copy{既然等不到青城的日落，那就从朝阳开始。}"
 ...row-end
 ...column-end
 ...card-end
@@ -56,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.8-pre1}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Happy_Ghast_Music_Video}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -69,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/TfrbaP0k/edb750b67dd6b5d062be61972d24eed881377d64_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/x9cew9E4/0eb2a14c014ae20c052c7de5110dc500e44cc8bc_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="So Many Paintings" event="url{https://modrinth.com/mod/so-many-paintings}"
+...button-text text="PvPTime" event="url{https://modrinth.com/mod/pvptime}"
 
-👤 alex.plays.stuff.16 | 📅 2026-08-21
+👤 Guichaguri | 📅 2026-08-21
 
-Tons of paintings added into your game
+Lets you choose what in-game hours you want PvP enabled. Perhaps you want to give the players yet an
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/so-many-paintings/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/so-many-paintings}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pvptime/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pvptime}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/up8htK5I/29cce281f3b3e071733f95c7b73f7ced91005316_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/iS1hR7C1/5d32c0b87689b07f310b89f029cd9bd98557d619_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Farmer's Delight: Meal Mastery" event="url{https://modrinth.com/mod/farmers-delight-meal-mastery}"
+...button-text text="[WBCA]WillowBranchCarpetAddition" event="url{https://modrinth.com/mod/wbcawillowbranchcarpetaddition}"
 
-👤 Xirc | 📅 2026-08-21
+👤 WillowBranch127 | 📅 2026-08-21
 
-Per-recipe mastery, recipe discovery and a culinary journal for Farmer's Delight. Cook faster, plate
+Adds useful Carpet rules and HUD loggers for Vanilla technical servers, including automatic startup 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/farmers-delight-meal-mastery/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/farmers-delight-meal-mastery}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wbcawillowbranchcarpetaddition/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wbcawillowbranchcarpetaddition}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ck90Zohh/09f8d51016829a9995ef6eda72b93adad9cc1c47_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/33VrLtl6/c282a296de7d7263115b081db8a63ed7ed226a3c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Play Doom on screen" event="url{https://modrinth.com/mod/play-doom-on-screen}"
+...button-text text="Fatfingert" event="url{https://modrinth.com/mod/fatfingert}"
 
-👤 kadirmert0035 | 📅 2026-08-21
+👤 AlmondsMilk | 📅 2026-08-21
 
-This mod allows you to play Doom in Minecraft.
+Vanilla PvP mod that prevents yourself from fat fingering and equipping items in certain slots.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/play-doom-on-screen/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/play-doom-on-screen}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fatfingert/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fatfingert}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Hz49aDGM/91475906c0c22132d3b753b9593a57f225f48644.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/opoIssrt/4cecd1a6850ee153373fdc48a5f9c00d77d30d65_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Wool Decorations" event="url{https://modrinth.com/mod/wool-decorations}"
+...button-text text="copper furnaces" event="url{https://modrinth.com/mod/copper-furnaces}"
 
-👤 Soulwarden | 📅 2026-08-21
+👤 shenFNX | 📅 2026-08-21
 
-Wool decor adds the wool stairs and slabs from 26.4 into previous versions.
+Copper Furnace is a vanilla-style NeoForge mod that adds a family of copper furnaces with 4 oxidatio
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wool-decorations/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wool-decorations}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/copper-furnaces/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/copper-furnaces}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/OSjQaUJN/ec4074fee36431c82e520d863c946b7b6d546320_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vkF3wHJJ/b9e3082f2f0b966cb0f455186f142372cd3c83dd_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Stop Giving Me Stacks" event="url{https://modrinth.com/mod/stop-giving-me-stacks}"
+...button-text text="MobHealthBar" event="url{https://modrinth.com/mod/mobhealthbar}"
 
-👤 theklared | 📅 2026-08-21
+👤 hooneybAdgers | 📅 2026-08-21
 
-Hotkeying items from the creative menu gives only 1 item instead of 64
+This mod adds classic Minecraft health bars above mobs, showing their remaining life.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/stop-giving-me-stacks/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/stop-giving-me-stacks}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mobhealthbar/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mobhealthbar}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -180,9 +178,9 @@ Hotkeying items from the creative menu gives only 1 item instead of 64
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 1.8-pre1](https://minecraft.wiki/Java_Edition_1.8-pre1)
+📖 **Wiki 推荐**：[Happy Ghast Music Video](https://minecraft.wiki/Happy_Ghast_Music_Video)
 
-⏰ 更新时间：2026-08-21 04:47:02
+⏰ 更新时间：2026-08-21 13:01:09
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
