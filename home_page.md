@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-21 01:47:05
+// 生成时间：2026-08-21 04:47:02
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,12 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"枝上柳绵吹又少。天涯何处无芳草。"*
+> *"深处暖春 ，才会怕冷。
+"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{枝上柳绵吹又少。天涯何处无芳草。}"
+...button-text text="📋 复制" event="copy{深处暖春 ，才会怕冷。
+}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +56,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FArrow_of_Weaving}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.8-pre1}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +69,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/iUGLCJTI/7f7b6d1f09287b791477157ed1b2a5e99252cfbd_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/TfrbaP0k/edb750b67dd6b5d062be61972d24eed881377d64_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Distant Horizons SeedGen" event="url{https://modrinth.com/mod/distant-horizons-seedgen}"
+...button-text text="So Many Paintings" event="url{https://modrinth.com/mod/so-many-paintings}"
 
-👤 mobiusmeansbusiness | 📅 2026-08-21
+👤 alex.plays.stuff.16 | 📅 2026-08-21
 
-Faster and more optimized terrain generator for the popular LoD mod Distant Horizons
+Tons of paintings added into your game
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/distant-horizons-seedgen/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/distant-horizons-seedgen}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/so-many-paintings/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/so-many-paintings}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/l0W5JAJg/73a074bb4f9b0674c7a50d4efa3a6967468ab894.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/up8htK5I/29cce281f3b3e071733f95c7b73f7ced91005316_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Modern Paintings Backport BTA" event="url{https://modrinth.com/mod/modern-paintings-backport-bta}"
+...button-text text="Farmer's Delight: Meal Mastery" event="url{https://modrinth.com/mod/farmers-delight-meal-mastery}"
 
-👤 DaveyL2013 | 📅 2026-08-21
+👤 Xirc | 📅 2026-08-21
 
-Backports every modern painting into the BTA! system.
+Per-recipe mastery, recipe discovery and a culinary journal for Farmer's Delight. Cook faster, plate
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/modern-paintings-backport-bta/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/modern-paintings-backport-bta}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/farmers-delight-meal-mastery/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/farmers-delight-meal-mastery}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/dYdHJqFN/36021b4896b8eb603465f43789e39f5d339b4523.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ck90Zohh/09f8d51016829a9995ef6eda72b93adad9cc1c47_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MonsterMod" event="url{https://modrinth.com/mod/monstermod}"
+...button-text text="Play Doom on screen" event="url{https://modrinth.com/mod/play-doom-on-screen}"
 
-👤 qiuym | 📅 2026-08-21
+👤 kadirmert0035 | 📅 2026-08-21
 
-Modified Minecraft mod that tweaks certain vanilla mechanics.
+This mod allows you to play Doom in Minecraft.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/monstermod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/monstermod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/play-doom-on-screen/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/play-doom-on-screen}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/OGjw0nSe/ea935c65a9dab283fc7ca222706ee50d06ed4d15_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Hz49aDGM/91475906c0c22132d3b753b9593a57f225f48644.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Simple dirt tools" event="url{https://modrinth.com/mod/simple-dirt-tools}"
+...button-text text="Wool Decorations" event="url{https://modrinth.com/mod/wool-decorations}"
 
-👤 ghostzeets22 | 📅 2026-08-21
+👤 Soulwarden | 📅 2026-08-21
 
-Add a humorous and useful twist to your early-game experience with Simple Dirt Tools! This mod intro
+Wool decor adds the wool stairs and slabs from 26.4 into previous versions.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simple-dirt-tools/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simple-dirt-tools}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wool-decorations/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wool-decorations}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/C5Iggxd5/1adc15ba8365111f8443c1e9077865237e3a99ad_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/OSjQaUJN/ec4074fee36431c82e520d863c946b7b6d546320_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Factory HUD Goggles" event="url{https://modrinth.com/mod/create-factory-hud-goggles}"
+...button-text text="Stop Giving Me Stacks" event="url{https://modrinth.com/mod/stop-giving-me-stacks}"
 
-👤 z33awa | 📅 2026-08-21
+👤 theklared | 📅 2026-08-21
 
-Persistent, editable Create goggle data dashboard for Minecraft 1.21.1 NeoForge.
+Hotkeying items from the creative menu gives only 1 item instead of 64
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-factory-hud-goggles/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-factory-hud-goggles}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/stop-giving-me-stacks/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/stop-giving-me-stacks}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +180,9 @@ Persistent, editable Create goggle data dashboard for Minecraft 1.21.1 NeoForge.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition item texture history/Arrow of Weaving](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FArrow_of_Weaving)
+📖 **Wiki 推荐**：[Java Edition 1.8-pre1](https://minecraft.wiki/Java_Edition_1.8-pre1)
 
-⏰ 更新时间：2026-08-21 01:47:05
+⏰ 更新时间：2026-08-21 04:47:02
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
