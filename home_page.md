@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-20 13:02:12
+// 生成时间：2026-08-21 01:47:05
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.LynnCanalOrca_ZH-CN0719217908_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.JulierPass_ZH-CN3064797820_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"最阴险的敌人往往都站在最光明的角落里。"*
+> *"枝上柳绵吹又少。天涯何处无芳草。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{最阴险的敌人往往都站在最光明的角落里。}"
+...button-text text="📋 复制" event="copy{枝上柳绵吹又少。天涯何处无芳草。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.19.1%2FDevelopment_versions}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FArrow_of_Weaving}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/hn3E5eJo/09f8a1379b2dfafd77f345e8fbb780231574d1da.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/iUGLCJTI/7f7b6d1f09287b791477157ed1b2a5e99252cfbd_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Pinguinmike,s Commands (MVC)" event="url{https://modrinth.com/mod/pinguinmikes-commands-mvc}"
+...button-text text="Distant Horizons SeedGen" event="url{https://modrinth.com/mod/distant-horizons-seedgen}"
 
-👤 Pinguinmike | 📅 2026-08-20
+👤 mobiusmeansbusiness | 📅 2026-08-21
 
-A Utility mod with new lightwight commands and shortcut commands
+Faster and more optimized terrain generator for the popular LoD mod Distant Horizons
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pinguinmikes-commands-mvc/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pinguinmikes-commands-mvc}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/distant-horizons-seedgen/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/distant-horizons-seedgen}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/HclYpKH6/833ede62a0f6b800ad4813f60eda6c34bbcf6131.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/l0W5JAJg/73a074bb4f9b0674c7a50d4efa3a6967468ab894.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="More Backpack Upgrades Neoforge" event="url{https://modrinth.com/mod/more-backpack-upgrades-neoforge}"
+...button-text text="Modern Paintings Backport BTA" event="url{https://modrinth.com/mod/modern-paintings-backport-bta}"
 
-👤 terryset | 📅 2026-08-20
+👤 DaveyL2013 | 📅 2026-08-21
 
-More Backpack Upgrades is an addon for Sophisticated Backpacks that bridges the gap between your por
+Backports every modern painting into the BTA! system.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/more-backpack-upgrades-neoforge/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/more-backpack-upgrades-neoforge}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/modern-paintings-backport-bta/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/modern-paintings-backport-bta}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/3AHZhnEt/5d1d61713223b6223453d33d0ec965925c99b09c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/dYdHJqFN/36021b4896b8eb603465f43789e39f5d339b4523.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Deku's Forgotten Secrets" event="url{https://modrinth.com/mod/dekus-forgotten-secrets}"
+...button-text text="MonsterMod" event="url{https://modrinth.com/mod/monstermod}"
 
-👤 Aft0n | 📅 2026-08-20
+👤 qiuym | 📅 2026-08-21
 
-Addon for Nastia's Miracle Stones that adds some cannon Miraculouses
+Modified Minecraft mod that tweaks certain vanilla mechanics.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dekus-forgotten-secrets/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dekus-forgotten-secrets}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/monstermod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/monstermod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7aHqRydf/32a0bb663161fe923346dab5ebb54d274aa44398.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/OGjw0nSe/ea935c65a9dab283fc7ca222706ee50d06ed4d15_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="COH (Chat Over Heads)" event="url{https://modrinth.com/mod/coh-mc}"
+...button-text text="Simple dirt tools" event="url{https://modrinth.com/mod/simple-dirt-tools}"
 
-👤 Earu | 📅 2026-08-20
+👤 ghostzeets22 | 📅 2026-08-21
 
-Shows what a player is typing above their head in real time and sticks around for a few seconds when
+Add a humorous and useful twist to your early-game experience with Simple Dirt Tools! This mod intro
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/coh-mc/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/coh-mc}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simple-dirt-tools/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simple-dirt-tools}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/GFrLqjh0/5fda2df2aa73704d47b86d991149901fdfdfadb7_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/C5Iggxd5/1adc15ba8365111f8443c1e9077865237e3a99ad_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MirrorMod" event="url{https://modrinth.com/mod/mirrormod}"
+...button-text text="Create: Factory HUD Goggles" event="url{https://modrinth.com/mod/create-factory-hud-goggles}"
 
-👤 K1lSofix | 📅 2026-08-20
+👤 z33awa | 📅 2026-08-21
 
-Mirrors block placements, breaks, and interactions across all chunks in real-time. Perfect for megab
+Persistent, editable Create goggle data dashboard for Minecraft 1.21.1 NeoForge.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mirrormod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mirrormod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-factory-hud-goggles/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-factory-hud-goggles}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Mirrors block placements, breaks, and interactions across all chunks in real-tim
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：鲸群之声
-© 林恩运河中浮出水面的虎鲸，奇尔卡特山脉附近，阿拉斯加州，美国 (© John Hyde/Alamy)
+🖼️ 壁纸：攀登在召唤
+© 尤利尔山口蜿蜒的公路，瑞士 (© Westend61/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 1.19.1/Development versions](https://minecraft.wiki/Java_Edition_1.19.1%2FDevelopment_versions)
+📖 **Wiki 推荐**：[Bedrock Edition item texture history/Arrow of Weaving](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FArrow_of_Weaving)
 
-⏰ 更新时间：2026-08-20 13:02:12
+⏰ 更新时间：2026-08-21 01:47:05
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
