@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-22 04:40:10
+// 生成时间：2026-08-22 12:52:18
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"悟已往之不谏，知来者之可追。"*
+> *"千古是非输蝶梦，一轮风雨属渔舟。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{悟已往之不谏，知来者之可追。}"
+...button-text text="📋 复制" event="copy{千古是非输蝶梦，一轮风雨属渔舟。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_beta_1.13.0.9}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Mine_Travelling_Block}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -178,9 +178,9 @@ Always-accessible pocket room for storage or other utilities
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition beta 1.13.0.9](https://minecraft.wiki/Bedrock_Edition_beta_1.13.0.9)
+📖 **Wiki 推荐**：[Mine Travelling Block](https://minecraft.wiki/Mine_Travelling_Block)
 
-⏰ 更新时间：2026-08-22 04:40:10
+⏰ 更新时间：2026-08-22 12:52:18
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
