@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-21 13:01:09
+// 生成时间：2026-08-22 01:40:01
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.JulierPass_ZH-CN3064797820_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.CommonBlue_ZH-CN8521430009_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"既然等不到青城的日落，那就从朝阳开始。"*
+> *"当你足够期待失望时，你就永远不会失望。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{既然等不到青城的日落，那就从朝阳开始。}"
+...button-text text="📋 复制" event="copy{当你足够期待失望时，你就永远不会失望。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Happy_Ghast_Music_Video}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.17.1_Release_Candidate_2}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/x9cew9E4/0eb2a14c014ae20c052c7de5110dc500e44cc8bc_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Vt81aed3/9e65232241d708b8d8a01648133c7e9962f5a5df_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="PvPTime" event="url{https://modrinth.com/mod/pvptime}"
+...button-text text="Pocket Storage" event="url{https://modrinth.com/mod/pocket-storage}"
 
-👤 Guichaguri | 📅 2026-08-21
+👤 Jackzmc | 📅 2026-08-22
 
-Lets you choose what in-game hours you want PvP enabled. Perhaps you want to give the players yet an
+Always-accessible pocket room for storage or other utilities
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pvptime/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pvptime}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pocket-storage/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pocket-storage}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/iS1hR7C1/5d32c0b87689b07f310b89f029cd9bd98557d619_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/a73QkAye/99ec1f3b7bce26602a68485bb5dab49f1e469b95_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="[WBCA]WillowBranchCarpetAddition" event="url{https://modrinth.com/mod/wbcawillowbranchcarpetaddition}"
+...button-text text="Friendly Pets" event="url{https://modrinth.com/mod/friendly_pets}"
 
-👤 WillowBranch127 | 📅 2026-08-21
+👤 NarcissoOrigin | 📅 2026-08-22
 
-Adds useful Carpet rules and HUD loggers for Vanilla technical servers, including automatic startup 
+Prevents tamed pets from attacking players or other tamed pets.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wbcawillowbranchcarpetaddition/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wbcawillowbranchcarpetaddition}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/friendly_pets/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/friendly_pets}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/33VrLtl6/c282a296de7d7263115b081db8a63ed7ed226a3c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/YgJ0NdVI/f7fb3f9bb3765305cf17bf1c72784632e89cbdc4.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Fatfingert" event="url{https://modrinth.com/mod/fatfingert}"
+...button-text text="Mod but my Friends decided what's in it" event="url{https://modrinth.com/mod/mod-but-my-friends-decided-whats-in-it}"
 
-👤 AlmondsMilk | 📅 2026-08-21
+👤 Ncarpgamer | 📅 2026-08-22
 
-Vanilla PvP mod that prevents yourself from fat fingering and equipping items in certain slots.
+lots of stuff, a huescape dimension, dragons, epic cave biome with game-changing mob, eldritch horro
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fatfingert/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fatfingert}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mod-but-my-friends-decided-whats-in-it/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mod-but-my-friends-decided-whats-in-it}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/opoIssrt/4cecd1a6850ee153373fdc48a5f9c00d77d30d65_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/kd92fWk7/837e8ab888a6840a17c0a575f3e665138be612be.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="copper furnaces" event="url{https://modrinth.com/mod/copper-furnaces}"
+...button-text text="Reforged Modifiers" event="url{https://modrinth.com/mod/reforged-modifiers}"
 
-👤 shenFNX | 📅 2026-08-21
+👤 SylvanSerenity | 📅 2026-08-21
 
-Copper Furnace is a vanilla-style NeoForge mod that adds a family of copper furnaces with 4 oxidatio
+Reforged Modifiers adds equipment modifiers based on Terraria's modifiers.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/copper-furnaces/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/copper-furnaces}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/reforged-modifiers/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/reforged-modifiers}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/vkF3wHJJ/b9e3082f2f0b966cb0f455186f142372cd3c83dd_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Kj7AynLb/4c4a5e4222433dfbf532ddbf076724cb9409e22f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MobHealthBar" event="url{https://modrinth.com/mod/mobhealthbar}"
+...button-text text="Party Boat" event="url{https://modrinth.com/mod/partyboat}"
 
-👤 hooneybAdgers | 📅 2026-08-21
+👤 SaintGeorgee | 📅 2026-08-21
 
-This mod adds classic Minecraft health bars above mobs, showing their remaining life.
+Let more people control the same boat/boats through a party
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mobhealthbar/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mobhealthbar}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/partyboat/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/partyboat}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ This mod adds classic Minecraft health bars above mobs, showing their remaining 
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：攀登在召唤
-© 尤利尔山口蜿蜒的公路，瑞士 (© Westend61/Getty Images)
+🖼️ 壁纸：天蓝色的翅膀
+© 普通蓝灰蝶，德文郡，英格兰 (© Ross Hoddinott/Nature Picture Library)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Happy Ghast Music Video](https://minecraft.wiki/Happy_Ghast_Music_Video)
+📖 **Wiki 推荐**：[Java Edition 1.17.1 Release Candidate 2](https://minecraft.wiki/Java_Edition_1.17.1_Release_Candidate_2)
 
-⏰ 更新时间：2026-08-21 13:01:09
+⏰ 更新时间：2026-08-22 01:40:01
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
