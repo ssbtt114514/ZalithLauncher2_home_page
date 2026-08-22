@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-22 01:40:01
+// 生成时间：2026-08-22 04:40:10
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"当你足够期待失望时，你就永远不会失望。"*
+> *"悟已往之不谏，知来者之可追。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{当你足够期待失望时，你就永远不会失望。}"
+...button-text text="📋 复制" event="copy{悟已往之不谏，知来者之可追。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.17.1_Release_Candidate_2}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_beta_1.13.0.9}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,6 +67,70 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/zKuZLuvF/8cf160aa5c9b2cd56e7c64ff17777ae334164baa_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="BetterKoreanChat" event="url{https://modrinth.com/mod/better-korean-chat}"
+
+👤 kb019840 | 📅 2026-08-22
+
+A Windows client-side mod for Minecraft 1.8.9 that lets you switch between Korean and English with t
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-korean-chat/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-korean-chat}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/hEazeeIK/23a430c49ad7033360a91088be30713552f5de50_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Limitless Command" event="url{https://modrinth.com/mod/limitless_command}"
+
+👤 NarcissoOrigin | 📅 2026-08-22
+
+Removes the 32,768 limit for Command Block characters and /fill commands.
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/limitless_command/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/limitless_command}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/MCbQXb3t/53dc124234fdac35c28aedbd90085ee60792cf8e.png" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="AreaX" event="url{https://modrinth.com/mod/areax}"
+
+👤 anmao | 📅 2026-08-22
+
+Add new game mechanics:area suppression
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/areax/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/areax}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/rzeCOPNf/a6e11a7204d1bd181db86d9ea8d9347800c44cb3_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Anti crystal/anchor damage" event="url{https://modrinth.com/mod/anti-crystalanchor-damage}"
+
+👤 PuddingCoded | 📅 2026-08-22
+
+This mod makes it so that end crystals and respawn anchor explosions don't deal any damage whilst pr
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/anti-crystalanchor-damage/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/anti-crystalanchor-damage}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/Vt81aed3/9e65232241d708b8d8a01648133c7e9962f5a5df_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
 ...button-text text="Pocket Storage" event="url{https://modrinth.com/mod/pocket-storage}"
@@ -78,70 +142,6 @@ Always-accessible pocket room for storage or other utilities
 ...row-start horizontal=spacedBy(8)
 ...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pocket-storage/versions}" weight=(1)
 ...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pocket-storage}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/a73QkAye/99ec1f3b7bce26602a68485bb5dab49f1e469b95_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Friendly Pets" event="url{https://modrinth.com/mod/friendly_pets}"
-
-👤 NarcissoOrigin | 📅 2026-08-22
-
-Prevents tamed pets from attacking players or other tamed pets.
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/friendly_pets/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/friendly_pets}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/YgJ0NdVI/f7fb3f9bb3765305cf17bf1c72784632e89cbdc4.png" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Mod but my Friends decided what's in it" event="url{https://modrinth.com/mod/mod-but-my-friends-decided-whats-in-it}"
-
-👤 Ncarpgamer | 📅 2026-08-22
-
-lots of stuff, a huescape dimension, dragons, epic cave biome with game-changing mob, eldritch horro
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mod-but-my-friends-decided-whats-in-it/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mod-but-my-friends-decided-whats-in-it}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/kd92fWk7/837e8ab888a6840a17c0a575f3e665138be612be.png" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Reforged Modifiers" event="url{https://modrinth.com/mod/reforged-modifiers}"
-
-👤 SylvanSerenity | 📅 2026-08-21
-
-Reforged Modifiers adds equipment modifiers based on Terraria's modifiers.
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/reforged-modifiers/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/reforged-modifiers}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Kj7AynLb/4c4a5e4222433dfbf532ddbf076724cb9409e22f_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Party Boat" event="url{https://modrinth.com/mod/partyboat}"
-
-👤 SaintGeorgee | 📅 2026-08-21
-
-Let more people control the same boat/boats through a party
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/partyboat/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/partyboat}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Let more people control the same boat/boats through a party
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 1.17.1 Release Candidate 2](https://minecraft.wiki/Java_Edition_1.17.1_Release_Candidate_2)
+📖 **Wiki 推荐**：[Bedrock Edition beta 1.13.0.9](https://minecraft.wiki/Bedrock_Edition_beta_1.13.0.9)
 
-⏰ 更新时间：2026-08-22 01:40:01
+⏰ 更新时间：2026-08-22 04:40:10
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
