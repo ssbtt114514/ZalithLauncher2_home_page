@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-22 12:52:18
+// 生成时间：2026-08-23 01:50:08
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.CommonBlue_ZH-CN8521430009_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.EndofHeatY26_ZH-CN8936468848_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"千古是非输蝶梦，一轮风雨属渔舟。"*
+> *"我把石田君努力建立起来的一切全毁了。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{千古是非输蝶梦，一轮风雨属渔舟。}"
+...button-text text="📋 复制" event="copy{我把石田君努力建立起来的一切全毁了。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Mine_Travelling_Block}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/MINECON_Earth_2018}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/zKuZLuvF/8cf160aa5c9b2cd56e7c64ff17777ae334164baa_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wBlTZgTP/6c3f0181ef4a8b0ebcffee13e1322f1d57c6cafe_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="BetterKoreanChat" event="url{https://modrinth.com/mod/better-korean-chat}"
+...button-text text="rien mod" event="url{https://modrinth.com/mod/rien-mod}"
 
-👤 kb019840 | 📅 2026-08-22
+👤 itooaminthisepisode | 📅 2026-08-23
 
-A Windows client-side mod for Minecraft 1.8.9 that lets you switch between Korean and English with t
+this mod adds riens mask and weapon from limbus its not balanced in the slightest
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-korean-chat/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-korean-chat}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/rien-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/rien-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/hEazeeIK/23a430c49ad7033360a91088be30713552f5de50_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wPeFyNAf/1e88e326824a50d21200a407c538e6dfdf12549b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Limitless Command" event="url{https://modrinth.com/mod/limitless_command}"
+...button-text text="saddle" event="url{https://modrinth.com/mod/saddle-datapack-debugger}"
 
-👤 NarcissoOrigin | 📅 2026-08-22
+👤 d1n-0 | 📅 2026-08-23
 
-Removes the 32,768 limit for Command Block characters and /fill commands.
+Saddle: A Datapack Debugger for Live Editing
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/limitless_command/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/limitless_command}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/saddle-datapack-debugger/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/saddle-datapack-debugger}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/MCbQXb3t/53dc124234fdac35c28aedbd90085ee60792cf8e.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/AhmItAqY/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="AreaX" event="url{https://modrinth.com/mod/areax}"
+...button-text text="F3 Spec Changer" event="url{https://modrinth.com/mod/f3-spec-changer}"
 
-👤 anmao | 📅 2026-08-22
+👤 live-by-linux | 📅 2026-08-23
 
-Add new game mechanics:area suppression
+Customize the hardware information displayed in the F3 menu.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/areax/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/areax}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/f3-spec-changer/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/f3-spec-changer}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/rzeCOPNf/a6e11a7204d1bd181db86d9ea8d9347800c44cb3_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/fu5Ucr6m/cb8f179fdc0355923b6e31d0a21b26c327d74402.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Anti crystal/anchor damage" event="url{https://modrinth.com/mod/anti-crystalanchor-damage}"
+...button-text text="Repair My Anvil!" event="url{https://modrinth.com/mod/repair-my-anvil}"
 
-👤 PuddingCoded | 📅 2026-08-22
+👤 MarbledNull | 📅 2026-08-22
 
-This mod makes it so that end crystals and respawn anchor explosions don't deal any damage whilst pr
+A mod that adds a simple repairing mechanic to Anvils.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/anti-crystalanchor-damage/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/anti-crystalanchor-damage}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/repair-my-anvil/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/repair-my-anvil}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Vt81aed3/9e65232241d708b8d8a01648133c7e9962f5a5df_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/L4nzzBhm/cd9e1577e04aeb9f53bb9150aad15ba88bf522fa.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Pocket Storage" event="url{https://modrinth.com/mod/pocket-storage}"
+...button-text text="Withered Nylium" event="url{https://modrinth.com/mod/withered-nylium}"
 
-👤 Jackzmc | 📅 2026-08-22
+👤 TheLunarAlien | 📅 2026-08-22
 
-Always-accessible pocket room for storage or other utilities
+A mod that adds a new Nether biome: The Withered Forest.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pocket-storage/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pocket-storage}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/withered-nylium/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/withered-nylium}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Always-accessible pocket room for storage or other utilities
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：天蓝色的翅膀
-© 普通蓝灰蝶，德文郡，英格兰 (© Ross Hoddinott/Nature Picture Library)
+🖼️ 壁纸：暑气渐消，金秋已至
+© 在处暑时节的村庄田野与寺庙佛塔，江阴市，江苏省，中国 (© jia yu/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Mine Travelling Block](https://minecraft.wiki/Mine_Travelling_Block)
+📖 **Wiki 推荐**：[MINECON Earth 2018](https://minecraft.wiki/MINECON_Earth_2018)
 
-⏰ 更新时间：2026-08-22 12:52:18
+⏰ 更新时间：2026-08-23 01:50:08
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
