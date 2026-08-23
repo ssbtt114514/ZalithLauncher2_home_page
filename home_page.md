@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-23 04:44:36
+// 生成时间：2026-08-23 12:53:24
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"牵着你手的时候，世界属于我。"*
+> *"我们这个世界，从不会给一个伤心的落伍者颁发奖牌。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{牵着你手的时候，世界属于我。}"
+...button-text text="📋 复制" event="copy{我们这个世界，从不会给一个伤心的落伍者颁发奖牌。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FCinnabar}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Fpermission}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -66,6 +66,22 @@
 // --- 🧩 Modrinth 最新模组 ---
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/l1FE96PK/f5cc65dd2c93ac40880859cc00b89b1f89c27d89.png" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Law & Order" event="url{https://modrinth.com/mod/law-order-simple-restraints}"
+
+👤 blob_d | 📅 2026-08-23
+
+A tactical Minecraft mod for capturing, binding, and tracking players. Restrain targets with ropes, 
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/law-order-simple-restraints/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/law-order-simple-restraints}" weight=(1)
+...row-end
+...column-end
+...row-end
+
 ...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/T5EvdJgp/28a89212cbb5ffcd93ff133a4724303e84b44fe7.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
@@ -130,22 +146,6 @@ AMTJMTGMA - a mod that just makes the game more annoying (ragebait)
 ...column-end
 ...row-end
 
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/vsO838vn/3bbc2458e264039d03c66e427a21d773cd21a80a_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Create: Flashback" event="url{https://modrinth.com/mod/create-flashback}"
-
-👤 tatuto | 📅 2026-08-23
-
-Create mod compatibility for Flashback running on NeoForge via Sinytra Connector
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-flashback/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-flashback}" weight=(1)
-...row-end
-...column-end
-...row-end
-
 ...row-start horizontal=spacedBy(8)
 ...button text="📥 访问 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
 ...row-end
@@ -178,9 +178,9 @@ Create mod compatibility for Flashback running on NeoForge via Sinytra Connector
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition block render history/Cinnabar](https://minecraft.wiki/Java_Edition_block_render_history%2FCinnabar)
+📖 **Wiki 推荐**：[Commands/permission](https://minecraft.wiki/Commands%2Fpermission)
 
-⏰ 更新时间：2026-08-23 04:44:36
+⏰ 更新时间：2026-08-23 12:53:24
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
