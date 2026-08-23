@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-23 01:50:08
+// 生成时间：2026-08-23 04:44:36
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我把石田君努力建立起来的一切全毁了。"*
+> *"牵着你手的时候，世界属于我。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我把石田君努力建立起来的一切全毁了。}"
+...button-text text="📋 复制" event="copy{牵着你手的时候，世界属于我。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/MINECON_Earth_2018}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FCinnabar}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wBlTZgTP/6c3f0181ef4a8b0ebcffee13e1322f1d57c6cafe_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/T5EvdJgp/28a89212cbb5ffcd93ff133a4724303e84b44fe7.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="rien mod" event="url{https://modrinth.com/mod/rien-mod}"
+...button-text text="HealthTag" event="url{https://modrinth.com/mod/healthtag}"
 
-👤 itooaminthisepisode | 📅 2026-08-23
+👤 kriptonitex3d | 📅 2026-08-23
 
-this mod adds riens mask and weapon from limbus its not balanced in the slightest
+A simple client-side mod that displays player health below their name tag with a heart icon.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/rien-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/rien-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/healthtag/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/healthtag}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wPeFyNAf/1e88e326824a50d21200a407c538e6dfdf12549b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/z8bpudXi/562fc169e6420da59373d1491b0b272c6c723617_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="saddle" event="url{https://modrinth.com/mod/saddle-datapack-debugger}"
+...button-text text="Extravachanted" event="url{https://modrinth.com/mod/extravachanted}"
 
-👤 d1n-0 | 📅 2026-08-23
+👤 Astrazoey | 📅 2026-08-23
 
-Saddle: A Datapack Debugger for Live Editing
+Highly configurable enchanting rework focused on alleviating limitations
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/saddle-datapack-debugger/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/saddle-datapack-debugger}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/extravachanted/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/extravachanted}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/AhmItAqY/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/y7s0VmbK/2cb956c50409d48408392375625c27a8e7273c60_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="F3 Spec Changer" event="url{https://modrinth.com/mod/f3-spec-changer}"
+...button-text text="Create: Aeronautics Flashback" event="url{https://modrinth.com/mod/create-aeronautics-flashback}"
 
-👤 live-by-linux | 📅 2026-08-23
+👤 tatuto | 📅 2026-08-23
 
-Customize the hardware information displayed in the F3 menu.
+Create: Aeronautics (Sable physics) compatibility for Flashback on NeoForge
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/f3-spec-changer/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/f3-spec-changer}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-aeronautics-flashback/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-aeronautics-flashback}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/fu5Ucr6m/cb8f179fdc0355923b6e31d0a21b26c327d74402.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/BzubNVwf/caff295a258b7a279344338d33cade6ceb4fd8fb_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Repair My Anvil!" event="url{https://modrinth.com/mod/repair-my-anvil}"
+...button-text text="Minecraft: Ragebait Edition (AMTJMTGMA)" event="url{https://modrinth.com/mod/amtjmtgma}"
 
-👤 MarbledNull | 📅 2026-08-22
+👤 0x5F_ | 📅 2026-08-23
 
-A mod that adds a simple repairing mechanic to Anvils.
+AMTJMTGMA - a mod that just makes the game more annoying (ragebait)
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/repair-my-anvil/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/repair-my-anvil}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/amtjmtgma/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/amtjmtgma}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/L4nzzBhm/cd9e1577e04aeb9f53bb9150aad15ba88bf522fa.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vsO838vn/3bbc2458e264039d03c66e427a21d773cd21a80a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Withered Nylium" event="url{https://modrinth.com/mod/withered-nylium}"
+...button-text text="Create: Flashback" event="url{https://modrinth.com/mod/create-flashback}"
 
-👤 TheLunarAlien | 📅 2026-08-22
+👤 tatuto | 📅 2026-08-23
 
-A mod that adds a new Nether biome: The Withered Forest.
+Create mod compatibility for Flashback running on NeoForge via Sinytra Connector
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/withered-nylium/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/withered-nylium}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-flashback/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-flashback}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ A mod that adds a new Nether biome: The Withered Forest.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[MINECON Earth 2018](https://minecraft.wiki/MINECON_Earth_2018)
+📖 **Wiki 推荐**：[Java Edition block render history/Cinnabar](https://minecraft.wiki/Java_Edition_block_render_history%2FCinnabar)
 
-⏰ 更新时间：2026-08-23 01:50:08
+⏰ 更新时间：2026-08-23 04:44:36
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
