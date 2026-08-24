@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-23 12:53:24
+// 生成时间：2026-08-24 01:47:44
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.EndofHeatY26_ZH-CN8936468848_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.BKBridge_ZH-CN3870511222_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我们这个世界，从不会给一个伤心的落伍者颁发奖牌。"*
+> *"黑色世界唯有东方的曙光。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我们这个世界，从不会给一个伤心的落伍者颁发奖牌。}"
+...button-text text="📋 复制" event="copy{黑色世界唯有东方的曙光。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Fpermission}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Creeper_Head%2FAsset_history}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/l1FE96PK/f5cc65dd2c93ac40880859cc00b89b1f89c27d89.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/g0H66NDT/53e911e89fc535681274d75c40ac987c49dbe70b.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Law & Order" event="url{https://modrinth.com/mod/law-order-simple-restraints}"
+...button-text text="Ringo's Terraria Fishing" event="url{https://modrinth.com/mod/ringos-terraria-fishing}"
 
-👤 blob_d | 📅 2026-08-23
+👤 ringoway | 📅 2026-08-23
 
-A tactical Minecraft mod for capturing, binding, and tracking players. Restrain targets with ropes, 
+Adding Terraria fish to Minecraft
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/law-order-simple-restraints/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/law-order-simple-restraints}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ringos-terraria-fishing/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ringos-terraria-fishing}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/T5EvdJgp/28a89212cbb5ffcd93ff133a4724303e84b44fe7.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/SbCYQ91J/744a55f34470d79c466cb5691045e17c4beb32ea_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="HealthTag" event="url{https://modrinth.com/mod/healthtag}"
+...button-text text="Create: More Cogwheels" event="url{https://modrinth.com/mod/create-more-cogwheels}"
 
-👤 kriptonitex3d | 📅 2026-08-23
+👤 Nikrecs | 📅 2026-08-23
 
-A simple client-side mod that displays player health below their name tag with a heart icon.
+Adds new material variants of Create cogwheels, encased variants, Ponder support, and optional per-m
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/healthtag/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/healthtag}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-more-cogwheels/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-more-cogwheels}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/z8bpudXi/562fc169e6420da59373d1491b0b272c6c723617_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/DvdmuWPu/15ff98fc077564ff87f86c7a0e152ec8000c5fa5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Extravachanted" event="url{https://modrinth.com/mod/extravachanted}"
+...button-text text="Functional Storage: Create & Aero" event="url{https://modrinth.com/mod/functional-storage-create-aero}"
 
-👤 Astrazoey | 📅 2026-08-23
+👤 buuz135 | 📅 2026-08-23
 
-Highly configurable enchanting rework focused on alleviating limitations
+Adds compat between Functional Storage and Create & Create: Aero
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/extravachanted/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/extravachanted}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/functional-storage-create-aero/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/functional-storage-create-aero}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/y7s0VmbK/2cb956c50409d48408392375625c27a8e7273c60_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/QHce5PbN/dc544ee17d6073add8da9c289b7a5df442d47306_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Aeronautics Flashback" event="url{https://modrinth.com/mod/create-aeronautics-flashback}"
+...button-text text="Horde Moon 2" event="url{https://modrinth.com/mod/horde-moon-2}"
 
-👤 tatuto | 📅 2026-08-23
+👤 DraconicArcher | 📅 2026-08-23
 
-Create: Aeronautics (Sable physics) compatibility for Flashback on NeoForge
+Adds a Zombie Horde Mood to Enhanced Celestials 2
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-aeronautics-flashback/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-aeronautics-flashback}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/horde-moon-2/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/horde-moon-2}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/BzubNVwf/caff295a258b7a279344338d33cade6ceb4fd8fb_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/tasFtZEL/f7e912c401b3b5d6358fd12e45a473356b57411b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Minecraft: Ragebait Edition (AMTJMTGMA)" event="url{https://modrinth.com/mod/amtjmtgma}"
+...button-text text="Peaceful Moon 2" event="url{https://modrinth.com/mod/peaceful-moon-2}"
 
-👤 0x5F_ | 📅 2026-08-23
+👤 DraconicArcher | 📅 2026-08-23
 
-AMTJMTGMA - a mod that just makes the game more annoying (ragebait)
+Adds a Peaceful Moon to Enhanced Celestials 2
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/amtjmtgma/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/amtjmtgma}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/peaceful-moon-2/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/peaceful-moon-2}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ AMTJMTGMA - a mod that just makes the game more annoying (ragebait)
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：暑气渐消，金秋已至
-© 在处暑时节的村庄田野与寺庙佛塔，江阴市，江苏省，中国 (© jia yu/Getty Images)
+🖼️ 壁纸：跨越历史
+© 布鲁克林大桥，纽约市，美国 (© shayes17/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Commands/permission](https://minecraft.wiki/Commands%2Fpermission)
+📖 **Wiki 推荐**：[Creeper Head/Asset history](https://minecraft.wiki/Creeper_Head%2FAsset_history)
 
-⏰ 更新时间：2026-08-23 12:53:24
+⏰ 更新时间：2026-08-24 01:47:44
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
