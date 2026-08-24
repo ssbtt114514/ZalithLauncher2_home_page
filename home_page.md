@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-24 01:47:44
+// 生成时间：2026-08-24 04:53:02
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"黑色世界唯有东方的曙光。"*
+> *"落黄昏，三更雨，临行密密缝，离愁丝丝苦。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{黑色世界唯有东方的曙光。}"
+...button-text text="📋 复制" event="copy{落黄昏，三更雨，临行密密缝，离愁丝丝苦。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Creeper_Head%2FAsset_history}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_19w41a}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/g0H66NDT/53e911e89fc535681274d75c40ac987c49dbe70b.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Cr4i2NOo/a82ee4f131a4badbb14eadddbbe1684b7e837eaa_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ringo's Terraria Fishing" event="url{https://modrinth.com/mod/ringos-terraria-fishing}"
+...button-text text="Slimes Everywhere" event="url{https://modrinth.com/mod/slimes-everywhere}"
 
-👤 ringoway | 📅 2026-08-23
+👤 EpicSUS | 📅 2026-08-24
 
-Adding Terraria fish to Minecraft
+Allows Slimes to spawn at night in any biome
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ringos-terraria-fishing/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ringos-terraria-fishing}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/slimes-everywhere/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/slimes-everywhere}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/SbCYQ91J/744a55f34470d79c466cb5691045e17c4beb32ea_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/YCfVVcqH/96285e9d701fcc517d6e06d9e4d0341675774d89_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: More Cogwheels" event="url{https://modrinth.com/mod/create-more-cogwheels}"
+...button-text text="LegacyWorldBorder 5120x" event="url{https://modrinth.com/mod/legacywb-5120x}"
 
-👤 Nikrecs | 📅 2026-08-23
+👤 bushman59 | 📅 2026-08-24
 
-Adds new material variants of Create cogwheels, encased variants, Ponder support, and optional per-m
+Moves the world border to match the legacy console large world size
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-more-cogwheels/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-more-cogwheels}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/legacywb-5120x/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/legacywb-5120x}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/DvdmuWPu/15ff98fc077564ff87f86c7a0e152ec8000c5fa5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ihqk5x2K/af05f95a09021e6ec38bbd9f066e8d2d5bbe3575_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Functional Storage: Create & Aero" event="url{https://modrinth.com/mod/functional-storage-create-aero}"
+...button-text text="LegacyWorldBorder 1024x" event="url{https://modrinth.com/mod/legacywb-1024x}"
 
-👤 buuz135 | 📅 2026-08-23
+👤 bushman59 | 📅 2026-08-24
 
-Adds compat between Functional Storage and Create & Create: Aero
+Moves the world border to match the legacy console edition small world size
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/functional-storage-create-aero/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/functional-storage-create-aero}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/legacywb-1024x/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/legacywb-1024x}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/QHce5PbN/dc544ee17d6073add8da9c289b7a5df442d47306_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/YHNTAq6c/77a2ead351db4527e539f123c69359e8b9935cd0_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Horde Moon 2" event="url{https://modrinth.com/mod/horde-moon-2}"
+...button-text text="LegacyWorldBorder 256x" event="url{https://modrinth.com/mod/legacywb-256x}"
 
-👤 DraconicArcher | 📅 2026-08-23
+👤 bushman59 | 📅 2026-08-24
 
-Adds a Zombie Horde Mood to Enhanced Celestials 2
+Moves the world border to match the old pocket edition world size
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/horde-moon-2/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/horde-moon-2}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/legacywb-256x/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/legacywb-256x}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/tasFtZEL/f7e912c401b3b5d6358fd12e45a473356b57411b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/qHxCUweJ/27a27e408e373c3bdc7cf834edda8fd169280d11_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Peaceful Moon 2" event="url{https://modrinth.com/mod/peaceful-moon-2}"
+...button-text text="Bellows" event="url{https://modrinth.com/mod/smithed-bellows}"
 
-👤 DraconicArcher | 📅 2026-08-23
+👤 ICY105 | 📅 2026-08-24
 
-Adds a Peaceful Moon to Enhanced Celestials 2
+No-compromises drop-in Fabric mod that applies targeted optimizations to Minecraft Commands/Datapack
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/peaceful-moon-2/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/peaceful-moon-2}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/smithed-bellows/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/smithed-bellows}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Adds a Peaceful Moon to Enhanced Celestials 2
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Creeper Head/Asset history](https://minecraft.wiki/Creeper_Head%2FAsset_history)
+📖 **Wiki 推荐**：[Java Edition 19w41a](https://minecraft.wiki/Java_Edition_19w41a)
 
-⏰ 更新时间：2026-08-24 01:47:44
+⏰ 更新时间：2026-08-24 04:53:02
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
