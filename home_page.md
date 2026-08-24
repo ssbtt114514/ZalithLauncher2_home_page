@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-24 04:53:02
+// 生成时间：2026-08-24 13:03:41
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"落黄昏，三更雨，临行密密缝，离愁丝丝苦。"*
+> *"其实美丽的故事都是没有结局的，只因为它没有结局所以才会美丽。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{落黄昏，三更雨，临行密密缝，离愁丝丝苦。}"
+...button-text text="📋 复制" event="copy{其实美丽的故事都是没有结局的，只因为它没有结局所以才会美丽。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_19w41a}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_version_history%2Fdisclaimer}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -78,6 +78,22 @@ Allows Slimes to spawn at night in any biome
 ...row-start horizontal=spacedBy(8)
 ...button text="⬇️ 下载" event="url{https://modrinth.com/mod/slimes-everywhere/versions}" weight=(1)
 ...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/slimes-everywhere}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/O9l7PGOP/b8dc57df6d4da0dc1288b99a217c191cd5da6894_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Create: Rare Package Tags" event="url{https://modrinth.com/mod/rarepackagetags}"
+
+👤 WarpTheDragon | 📅 2026-08-24
+
+Datapack that adds an Item Tag to Rare Packages for Create Forge 1.20.1 to allow for attribute filte
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/rarepackagetags/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/rarepackagetags}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -130,22 +146,6 @@ Moves the world border to match the old pocket edition world size
 ...column-end
 ...row-end
 
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/qHxCUweJ/27a27e408e373c3bdc7cf834edda8fd169280d11_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Bellows" event="url{https://modrinth.com/mod/smithed-bellows}"
-
-👤 ICY105 | 📅 2026-08-24
-
-No-compromises drop-in Fabric mod that applies targeted optimizations to Minecraft Commands/Datapack
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/smithed-bellows/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/smithed-bellows}" weight=(1)
-...row-end
-...column-end
-...row-end
-
 ...row-start horizontal=spacedBy(8)
 ...button text="📥 访问 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
 ...row-end
@@ -178,9 +178,9 @@ No-compromises drop-in Fabric mod that applies targeted optimizations to Minecra
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 19w41a](https://minecraft.wiki/Java_Edition_19w41a)
+📖 **Wiki 推荐**：[Java Edition version history/disclaimer](https://minecraft.wiki/Java_Edition_version_history%2Fdisclaimer)
 
-⏰ 更新时间：2026-08-24 04:53:02
+⏰ 更新时间：2026-08-24 13:03:41
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
