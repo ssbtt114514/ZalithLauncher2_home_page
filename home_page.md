@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-24 13:03:41
+// 生成时间：2026-08-25 01:41:59
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.BKBridge_ZH-CN3870511222_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.RedwoodPark_ZH-CN9513051062_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"其实美丽的故事都是没有结局的，只因为它没有结局所以才会美丽。"*
+> *"猫是可爱的，狼是很帅的。就是说，孤独又可爱又帅。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{其实美丽的故事都是没有结局的，只因为它没有结局所以才会美丽。}"
+...button-text text="📋 复制" event="copy{猫是可爱的，狼是很帅的。就是说，孤独又可爱又帅。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_version_history%2Fdisclaimer}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Friendly_Update}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Cr4i2NOo/a82ee4f131a4badbb14eadddbbe1684b7e837eaa_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/UjAzrNGi/74e8a0ba854a12bf29c54c74d86f2ddc7709ede2.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Slimes Everywhere" event="url{https://modrinth.com/mod/slimes-everywhere}"
+...button-text text="AE2 Powerless" event="url{https://modrinth.com/mod/ae2-powerless}"
 
-👤 EpicSUS | 📅 2026-08-24
+👤 NotSupport | 📅 2026-08-24
 
-Allows Slimes to spawn at night in any biome
+Make AE2 Controller powerless and vanilla-friendly
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/slimes-everywhere/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/slimes-everywhere}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ae2-powerless/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ae2-powerless}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/O9l7PGOP/b8dc57df6d4da0dc1288b99a217c191cd5da6894_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Z9MFtNXd/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Rare Package Tags" event="url{https://modrinth.com/mod/rarepackagetags}"
+...button-text text="Perfect Aiming Position Indicator" event="url{https://modrinth.com/mod/perfect-aiming-position-indicator}"
 
-👤 WarpTheDragon | 📅 2026-08-24
+👤 dingdongji | 📅 2026-08-24
 
-Datapack that adds an Item Tag to Rare Packages for Create Forge 1.20.1 to allow for attribute filte
+This mod indicates the optimal aiming position and the range of the attack collision box.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/rarepackagetags/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/rarepackagetags}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/perfect-aiming-position-indicator/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/perfect-aiming-position-indicator}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/YCfVVcqH/96285e9d701fcc517d6e06d9e4d0341675774d89_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/FxnXlZnL/7a810c58a312d0f455d2dcae51719e81a08e788c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="LegacyWorldBorder 5120x" event="url{https://modrinth.com/mod/legacywb-5120x}"
+...button-text text="进度奖杯（Achievement Trophies）" event="url{https://modrinth.com/mod/achievement-trophies}"
 
-👤 bushman59 | 📅 2026-08-24
+👤 carrotlegend123 | 📅 2026-08-24
 
-Moves the world border to match the legacy console large world size
+Add placeable trophies to vanilla achievements.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/legacywb-5120x/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/legacywb-5120x}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/achievement-trophies/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/achievement-trophies}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ihqk5x2K/af05f95a09021e6ec38bbd9f066e8d2d5bbe3575_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vNX2HQuJ/21c3d1ea623c0069dbd915406573cb621a9a1fbf_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="LegacyWorldBorder 1024x" event="url{https://modrinth.com/mod/legacywb-1024x}"
+...button-text text="Ender Sword" event="url{https://modrinth.com/mod/ender-sword}"
 
-👤 bushman59 | 📅 2026-08-24
+👤 babuin66754 | 📅 2026-08-24
 
-Moves the world border to match the legacy console edition small world size
+Adds an Ender-themed sword that teleports the wielder forward with a right-click ability.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/legacywb-1024x/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/legacywb-1024x}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ender-sword/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ender-sword}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/YHNTAq6c/77a2ead351db4527e539f123c69359e8b9935cd0_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/alnsIM21/e01b00315c52bcea69e6cac5846af65a7ed3f22c.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="LegacyWorldBorder 256x" event="url{https://modrinth.com/mod/legacywb-256x}"
+...button-text text="Faster Block Entities" event="url{https://modrinth.com/mod/faster-block-entities}"
 
-👤 bushman59 | 📅 2026-08-24
+👤 kvxd | 📅 2026-08-24
 
-Moves the world border to match the old pocket edition world size
+Renders some block entities as ordinary block models instead of per-frame block entity renderers. Po
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/legacywb-256x/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/legacywb-256x}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/faster-block-entities/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/faster-block-entities}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Moves the world border to match the old pocket edition world size
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：跨越历史
-© 布鲁克林大桥，纽约市，美国 (© shayes17/Getty Images)
+🖼️ 壁纸：守护美国瑰宝
+© 红木国家与州立公园的日出，加利福尼亚州，美国 (© HadelProductions/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition version history/disclaimer](https://minecraft.wiki/Java_Edition_version_history%2Fdisclaimer)
+📖 **Wiki 推荐**：[Friendly Update](https://minecraft.wiki/Friendly_Update)
 
-⏰ 更新时间：2026-08-24 13:03:41
+⏰ 更新时间：2026-08-25 01:41:59
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
