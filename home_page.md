@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-25 04:46:31
+// 生成时间：2026-08-25 13:00:06
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"为遇一人而入红尘，人去我亦去，此生不留尘"*
+> *"就像那句狠话：有一天，我一定会后悔的。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{为遇一人而入红尘，人去我亦去，此生不留尘}"
+...button-text text="📋 复制" event="copy{就像那句狠话：有一天，我一定会后悔的。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Player_Unlocks}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FTaiga}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/hgPqopXJ/c21f531b8c73fb5b2e801283f4f472d424b924da_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/M2uTCQfy/32b437ae93fdb453471e0014fe7af3eebc77ee70.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Solar Grid Link" event="url{https://modrinth.com/mod/create-solar-grid-link}"
+...button-text text="Bell Craft" event="url{https://modrinth.com/mod/bell-craft-from-stonecutting}"
 
-👤 Trawka246 | 📅 2026-08-25
+👤 EpicSUS | 📅 2026-08-25
 
-The compatibility interface that enables Create Solar Powered panels to be connected to Create Power
+Now you can craft Bell from stonecutting!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-solar-grid-link/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-solar-grid-link}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bell-craft-from-stonecutting/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bell-craft-from-stonecutting}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Y6anvs7J/52c43940a701fd1b0defbb6ce82741e7c1883809_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/cirPFEzH/3f989198c63e4ff7ee0eb023b430ae97b1780a5b.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Genji" event="url{https://modrinth.com/mod/genji}"
+...button-text text="Magma Cream Craft" event="url{https://modrinth.com/mod/magma-cream-craft}"
 
-👤 gwnarend | 📅 2026-08-25
+👤 EpicSUS | 📅 2026-08-25
 
-Genji Shimada mod, it ports Genji abilities, shurikens, dragonblade and nanoboost to Minecraft :)
+Now you can craft Magma Cream from stonecutting!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/genji/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/genji}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/magma-cream-craft/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/magma-cream-craft}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6MynsGmM/cd195fd4acf6e00f88fab84b2da9d0fb6cd44e5f.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/frj6Lss5/c92ee80f380a0be2384d9fd9d15466d7492fbd78_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Sophisticated Discs" event="url{https://modrinth.com/mod/sophisticated-discs}"
+...button-text text="PVP Rank" event="url{https://modrinth.com/mod/pvp-rank}"
 
-👤 ivadsiulsmods | 📅 2026-08-25
+👤 Twobie | 📅 2026-08-25
 
-Compatibility mod between Sophisticated Backpacks and Custom Discs.
+A datapack where you can see which players have the most kills.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sophisticated-discs/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sophisticated-discs}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pvp-rank/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pvp-rank}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/dgaDBtU1/5438aff39120603e4a4f9a9176cdbce519cce636_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/JxkSX83E/5768b9b9f009bf764092cbef18ae2f665568695d.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Cave Dweller NeoForged" event="url{https://modrinth.com/mod/cave-dweller-neoforged}"
+...button-text text="RELanguage" event="url{https://modrinth.com/mod/relanguage}"
 
-👤 Magician_DEV | 📅 2026-08-25
+👤 VacuusKeeper | 📅 2026-08-25
 
-Adds a horrifying monster, and some cave sounds to NeoForge 1.21.1
+Multilingual item search in Creative Inventory Tab and JEI. Select multiple languages ​​and find wha
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cave-dweller-neoforged/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cave-dweller-neoforged}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/relanguage/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/relanguage}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/sdZNl1Pi/f590b4d7adc1d8e34a2f5520055d755f3a5ef526_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Y885ih7m/830d02f530520e12b6787f99bea6aba269dde09a.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Poly's Pink Cows" event="url{https://modrinth.com/mod/polys-pink-cows}"
+...button-text text="Parry" event="url{https://modrinth.com/mod/parry-ciservermodding}"
 
-👤 ThePolymath | 📅 2026-08-25
+👤 CIServerModding | 📅 2026-08-25
 
-Adds rare pink variants of Minecraft's warm, temperate, and cold cows.
+Timing-based combat parry — whoever hits FIRST gets the parry! Hit an enemy, then it hits you (or vi
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/polys-pink-cows/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/polys-pink-cows}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/parry-ciservermodding/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/parry-ciservermodding}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Adds rare pink variants of Minecraft's warm, temperate, and cold cows.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Player Unlocks](https://minecraft.wiki/Player_Unlocks)
+📖 **Wiki 推荐**：[Village/Structure/Blueprints/Taiga](https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FTaiga)
 
-⏰ 更新时间：2026-08-25 04:46:31
+⏰ 更新时间：2026-08-25 13:00:06
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
