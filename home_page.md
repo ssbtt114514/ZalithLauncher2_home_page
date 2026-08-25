@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-25 01:41:59
+// 生成时间：2026-08-25 04:46:31
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"猫是可爱的，狼是很帅的。就是说，孤独又可爱又帅。"*
+> *"为遇一人而入红尘，人去我亦去，此生不留尘"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{猫是可爱的，狼是很帅的。就是说，孤独又可爱又帅。}"
+...button-text text="📋 复制" event="copy{为遇一人而入红尘，人去我亦去，此生不留尘}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Friendly_Update}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Player_Unlocks}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/UjAzrNGi/74e8a0ba854a12bf29c54c74d86f2ddc7709ede2.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/hgPqopXJ/c21f531b8c73fb5b2e801283f4f472d424b924da_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="AE2 Powerless" event="url{https://modrinth.com/mod/ae2-powerless}"
+...button-text text="Create: Solar Grid Link" event="url{https://modrinth.com/mod/create-solar-grid-link}"
 
-👤 NotSupport | 📅 2026-08-24
+👤 Trawka246 | 📅 2026-08-25
 
-Make AE2 Controller powerless and vanilla-friendly
+The compatibility interface that enables Create Solar Powered panels to be connected to Create Power
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ae2-powerless/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ae2-powerless}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-solar-grid-link/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-solar-grid-link}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Z9MFtNXd/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Y6anvs7J/52c43940a701fd1b0defbb6ce82741e7c1883809_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Perfect Aiming Position Indicator" event="url{https://modrinth.com/mod/perfect-aiming-position-indicator}"
+...button-text text="Genji" event="url{https://modrinth.com/mod/genji}"
 
-👤 dingdongji | 📅 2026-08-24
+👤 gwnarend | 📅 2026-08-25
 
-This mod indicates the optimal aiming position and the range of the attack collision box.
+Genji Shimada mod, it ports Genji abilities, shurikens, dragonblade and nanoboost to Minecraft :)
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/perfect-aiming-position-indicator/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/perfect-aiming-position-indicator}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/genji/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/genji}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/FxnXlZnL/7a810c58a312d0f455d2dcae51719e81a08e788c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6MynsGmM/cd195fd4acf6e00f88fab84b2da9d0fb6cd44e5f.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="进度奖杯（Achievement Trophies）" event="url{https://modrinth.com/mod/achievement-trophies}"
+...button-text text="Sophisticated Discs" event="url{https://modrinth.com/mod/sophisticated-discs}"
 
-👤 carrotlegend123 | 📅 2026-08-24
+👤 ivadsiulsmods | 📅 2026-08-25
 
-Add placeable trophies to vanilla achievements.
+Compatibility mod between Sophisticated Backpacks and Custom Discs.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/achievement-trophies/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/achievement-trophies}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sophisticated-discs/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sophisticated-discs}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/vNX2HQuJ/21c3d1ea623c0069dbd915406573cb621a9a1fbf_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/dgaDBtU1/5438aff39120603e4a4f9a9176cdbce519cce636_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ender Sword" event="url{https://modrinth.com/mod/ender-sword}"
+...button-text text="Cave Dweller NeoForged" event="url{https://modrinth.com/mod/cave-dweller-neoforged}"
 
-👤 babuin66754 | 📅 2026-08-24
+👤 Magician_DEV | 📅 2026-08-25
 
-Adds an Ender-themed sword that teleports the wielder forward with a right-click ability.
+Adds a horrifying monster, and some cave sounds to NeoForge 1.21.1
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ender-sword/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ender-sword}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cave-dweller-neoforged/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cave-dweller-neoforged}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/alnsIM21/e01b00315c52bcea69e6cac5846af65a7ed3f22c.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/sdZNl1Pi/f590b4d7adc1d8e34a2f5520055d755f3a5ef526_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Faster Block Entities" event="url{https://modrinth.com/mod/faster-block-entities}"
+...button-text text="Poly's Pink Cows" event="url{https://modrinth.com/mod/polys-pink-cows}"
 
-👤 kvxd | 📅 2026-08-24
+👤 ThePolymath | 📅 2026-08-25
 
-Renders some block entities as ordinary block models instead of per-frame block entity renderers. Po
+Adds rare pink variants of Minecraft's warm, temperate, and cold cows.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/faster-block-entities/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/faster-block-entities}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/polys-pink-cows/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/polys-pink-cows}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Renders some block entities as ordinary block models instead of per-frame block 
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Friendly Update](https://minecraft.wiki/Friendly_Update)
+📖 **Wiki 推荐**：[Player Unlocks](https://minecraft.wiki/Player_Unlocks)
 
-⏰ 更新时间：2026-08-25 01:41:59
+⏰ 更新时间：2026-08-25 04:46:31
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
