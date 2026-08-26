@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-26 04:48:06
+// 生成时间：2026-08-26 13:05:30
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"长亭外，古道边，芳草碧连天，晚风拂柳笛声残，夕阳山外山。"*
+> *"这瓜多少钱一斤？"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{长亭外，古道边，芳草碧连天，晚风拂柳笛声残，夕阳山外山。}"
+...button-text text="📋 复制" event="copy{这瓜多少钱一斤？}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Pocket_Edition_alpha_0.17.0.2}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.18%2FDevelopment_versions}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/JPaM1LqT/f7b06f69f589fe1959a7502977ed7e8adc73ddcc.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/fuzRNl2L/c7e9f47aef393e10354ccba44b300b2dd1c91c82_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Custom Caret" event="url{https://modrinth.com/mod/custom-caret}"
+...button-text text="TFMG Converter Fix" event="url{https://modrinth.com/mod/tfmg-converter-fix}"
 
-👤 hx7kz | 📅 2026-08-26
+👤 Aneemonas | 📅 2026-08-26
 
-This project lets you customize the caret in every gui.
+Unofficial patch for Create: The Factory Must Grow (TFMG) fixing the Converter's zero voltage/curren
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/custom-caret/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/custom-caret}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tfmg-converter-fix/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tfmg-converter-fix}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/HcrCAIPH/a58e773ca5b57734cb03f9656e46e2a1994eaa6b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/PZ1ixnZ1/749b9c64f189b1b333898612dc66b5ed322cef01.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ultraborder" event="url{https://modrinth.com/mod/ultraborder}"
+...button-text text="Ore's a'plenty" event="url{https://modrinth.com/mod/ores-aplenty}"
 
-👤 Aleyz | 📅 2026-08-26
+👤 climberrhino | 📅 2026-08-26
 
-A Minecraft Plugin that allows you to create custom worldborders and walls!
+The mod adds more ores to the game while still feeling vanilla. It is a great mod to add to you mine
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ultraborder/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ultraborder}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ores-aplenty/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ores-aplenty}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/W3nJJ0Uu/946230dff9dc8cfed658fcf0e710a2989f0a5abf_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/R07T9uYx/532d0b0472e7574c263480ca3a11150b2c674c99.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="AutoFishS" event="url{https://modrinth.com/mod/autofishs}"
+...button-text text="Feine Gürkchen" event="url{https://modrinth.com/mod/feine-grkchen}"
 
-👤 HsMourait | 📅 2026-08-26
+👤 OneFallenRose | 📅 2026-08-26
 
-A fishing helper mod for Starcatcher.
+Tired of "normal" food and farming mods? Try Feine Gürkchen!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/autofishs/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/autofishs}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/feine-grkchen/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/feine-grkchen}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/v7D8RDaX/0785efe6f912141e048e3edb9361bea4cded2128_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/uthyLZ7y/7ed1ce7cbea44d782968ed84b7f832e3ba68bbad_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Shulkernity" event="url{https://modrinth.com/mod/shulkernity}"
+...button-text text="The Fallen Star +" event="url{https://modrinth.com/mod/the-fallen-star-}"
 
-👤 Janicek_250 | 📅 2026-08-26
+👤 OneFallenRose | 📅 2026-08-26
 
-You can now put shulker boxes into shulker boxes.
+A big Mod, that adds lots of things focused around Stars, Meteors and even adds a new Dimension: InA
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/shulkernity/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/shulkernity}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-fallen-star-/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-fallen-star-}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/9l7xjyFW/1b6c40754e3ecee543d2476a529f03a79031ed57_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/W12qYV3Z/a2a75247141f133acc673e091e7f8adcc762270d.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="KakureOni" event="url{https://modrinth.com/mod/kakureoni}"
+...button-text text="The Fallen Star" event="url{https://modrinth.com/mod/the-fallen-star}"
 
-👤 youhuzuishen | 📅 2026-08-26
+👤 OneFallenRose | 📅 2026-08-26
 
-A Fabric multiplayer hide-and-seek game mod with role management, game events, commands, world backu
+A Mod made by Nono_Spike & MrPlantera. It includes Weapons & Items all around Stars and the Universe
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kakureoni/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kakureoni}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-fallen-star/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-fallen-star}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ A Fabric multiplayer hide-and-seek game mod with role management, game events, c
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Pocket Edition alpha 0.17.0.2](https://minecraft.wiki/Pocket_Edition_alpha_0.17.0.2)
+📖 **Wiki 推荐**：[Java Edition 1.18/Development versions](https://minecraft.wiki/Java_Edition_1.18%2FDevelopment_versions)
 
-⏰ 更新时间：2026-08-26 04:48:06
+⏰ 更新时间：2026-08-26 13:05:30
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
