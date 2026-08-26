@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-26 01:47:24
+// 生成时间：2026-08-26 04:48:06
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"如果你没有做好准备，你就是在准备失败。"*
+> *"长亭外，古道边，芳草碧连天，晚风拂柳笛声残，夕阳山外山。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{如果你没有做好准备，你就是在准备失败。}"
+...button-text text="📋 复制" event="copy{长亭外，古道边，芳草碧连天，晚风拂柳笛声残，夕阳山外山。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Sonic_Texture_Pack}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Pocket_Edition_alpha_0.17.0.2}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/fR8JmckM/e01719b12facd6a5d9616ea23b1993265c72805c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/JPaM1LqT/f7b06f69f589fe1959a7502977ed7e8adc73ddcc.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="GodMineYT's Siren Head mod" event="url{https://modrinth.com/mod/godmineyts-siren-head-mod}"
+...button-text text="Custom Caret" event="url{https://modrinth.com/mod/custom-caret}"
 
-👤 godmine | 📅 2026-08-26
+👤 hx7kz | 📅 2026-08-26
 
-GodMineYT's Siren Head mod - Absolute new Siren-Head mod. This mod adds the legendary Siren-Head, cr
+This project lets you customize the caret in every gui.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/godmineyts-siren-head-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/godmineyts-siren-head-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/custom-caret/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/custom-caret}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/JNgtyZXx/c53ecbb3781cbd3eabe2f6ac2b935cd810959a1c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/HcrCAIPH/a58e773ca5b57734cb03f9656e46e2a1994eaa6b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Funny Blocks Mod" event="url{https://modrinth.com/mod/funny-blocks-mod}"
+...button-text text="Ultraborder" event="url{https://modrinth.com/mod/ultraborder}"
 
-👤 Thecoolll | 📅 2026-08-26
+👤 Aleyz | 📅 2026-08-26
 
-This mod adds 10 new blocks 3 new items and 1 new tool.
+A Minecraft Plugin that allows you to create custom worldborders and walls!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/funny-blocks-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/funny-blocks-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ultraborder/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ultraborder}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/NCbigzrh/4426dc1176f6fb3b24f2234d0b1ea32800cbc6b2_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/W3nJJ0Uu/946230dff9dc8cfed658fcf0e710a2989f0a5abf_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Human Hunger" event="url{https://modrinth.com/mod/human-hunger}"
+...button-text text="AutoFishS" event="url{https://modrinth.com/mod/autofishs}"
 
-👤 marblyyy | 📅 2026-08-26
+👤 HsMourait | 📅 2026-08-26
 
-Looking at anything even remotely edible depletes your hunger faster.
+A fishing helper mod for Starcatcher.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/human-hunger/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/human-hunger}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/autofishs/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/autofishs}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/81GIihjH/6a155267b97918b79e91148c8a943fc398f756d5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/v7D8RDaX/0785efe6f912141e048e3edb9361bea4cded2128_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="SnapClip" event="url{https://modrinth.com/mod/snapclip}"
+...button-text text="Shulkernity" event="url{https://modrinth.com/mod/shulkernity}"
 
-👤 Thoria | 📅 2026-08-26
+👤 Janicek_250 | 📅 2026-08-26
 
-SnapClip! - Performance friendly, instantaneous Minecraft Replay/Clipping mod.
+You can now put shulker boxes into shulker boxes.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/snapclip/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/snapclip}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/shulkernity/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/shulkernity}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/yrZrdgy6/2d74572afb6d4f0bbbc3a735b23bf7cd9592beae_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/9l7xjyFW/1b6c40754e3ecee543d2476a529f03a79031ed57_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Khoi's Things" event="url{https://modrinth.com/mod/khois-things}"
+...button-text text="KakureOni" event="url{https://modrinth.com/mod/kakureoni}"
 
-👤 KhoiCookie | 📅 2026-08-26
+👤 youhuzuishen | 📅 2026-08-26
 
-Elevate your builds with 130+ decorative items, animated artwork, custom consumables, and undergroun
+A Fabric multiplayer hide-and-seek game mod with role management, game events, commands, world backu
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/khois-things/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/khois-things}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kakureoni/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kakureoni}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Elevate your builds with 130+ decorative items, animated artwork, custom consuma
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Sonic Texture Pack](https://minecraft.wiki/Sonic_Texture_Pack)
+📖 **Wiki 推荐**：[Pocket Edition alpha 0.17.0.2](https://minecraft.wiki/Pocket_Edition_alpha_0.17.0.2)
 
-⏰ 更新时间：2026-08-26 01:47:24
+⏰ 更新时间：2026-08-26 04:48:06
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
