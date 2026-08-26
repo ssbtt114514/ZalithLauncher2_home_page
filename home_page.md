@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-25 13:00:06
+// 生成时间：2026-08-26 01:47:24
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.RedwoodPark_ZH-CN9513051062_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.AurorasIceland_ZH-CN9781322454_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"就像那句狠话：有一天，我一定会后悔的。"*
+> *"如果你没有做好准备，你就是在准备失败。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{就像那句狠话：有一天，我一定会后悔的。}"
+...button-text text="📋 复制" event="copy{如果你没有做好准备，你就是在准备失败。}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.2
-**最新快照**: 26.3-snapshot-9
+**最新快照**: 26.3-snapshot-10
 
 近期版本：
 - **26.2** (2026-06-16)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FTaiga}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Sonic_Texture_Pack}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/M2uTCQfy/32b437ae93fdb453471e0014fe7af3eebc77ee70.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/fR8JmckM/e01719b12facd6a5d9616ea23b1993265c72805c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Bell Craft" event="url{https://modrinth.com/mod/bell-craft-from-stonecutting}"
+...button-text text="GodMineYT's Siren Head mod" event="url{https://modrinth.com/mod/godmineyts-siren-head-mod}"
 
-👤 EpicSUS | 📅 2026-08-25
+👤 godmine | 📅 2026-08-26
 
-Now you can craft Bell from stonecutting!
+GodMineYT's Siren Head mod - Absolute new Siren-Head mod. This mod adds the legendary Siren-Head, cr
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bell-craft-from-stonecutting/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bell-craft-from-stonecutting}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/godmineyts-siren-head-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/godmineyts-siren-head-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/cirPFEzH/3f989198c63e4ff7ee0eb023b430ae97b1780a5b.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/JNgtyZXx/c53ecbb3781cbd3eabe2f6ac2b935cd810959a1c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Magma Cream Craft" event="url{https://modrinth.com/mod/magma-cream-craft}"
+...button-text text="Funny Blocks Mod" event="url{https://modrinth.com/mod/funny-blocks-mod}"
 
-👤 EpicSUS | 📅 2026-08-25
+👤 Thecoolll | 📅 2026-08-26
 
-Now you can craft Magma Cream from stonecutting!
+This mod adds 10 new blocks 3 new items and 1 new tool.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/magma-cream-craft/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/magma-cream-craft}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/funny-blocks-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/funny-blocks-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/frj6Lss5/c92ee80f380a0be2384d9fd9d15466d7492fbd78_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/NCbigzrh/4426dc1176f6fb3b24f2234d0b1ea32800cbc6b2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="PVP Rank" event="url{https://modrinth.com/mod/pvp-rank}"
+...button-text text="Human Hunger" event="url{https://modrinth.com/mod/human-hunger}"
 
-👤 Twobie | 📅 2026-08-25
+👤 marblyyy | 📅 2026-08-26
 
-A datapack where you can see which players have the most kills.
+Looking at anything even remotely edible depletes your hunger faster.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pvp-rank/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pvp-rank}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/human-hunger/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/human-hunger}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/JxkSX83E/5768b9b9f009bf764092cbef18ae2f665568695d.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/81GIihjH/6a155267b97918b79e91148c8a943fc398f756d5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="RELanguage" event="url{https://modrinth.com/mod/relanguage}"
+...button-text text="SnapClip" event="url{https://modrinth.com/mod/snapclip}"
 
-👤 VacuusKeeper | 📅 2026-08-25
+👤 Thoria | 📅 2026-08-26
 
-Multilingual item search in Creative Inventory Tab and JEI. Select multiple languages ​​and find wha
+SnapClip! - Performance friendly, instantaneous Minecraft Replay/Clipping mod.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/relanguage/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/relanguage}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/snapclip/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/snapclip}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Y885ih7m/830d02f530520e12b6787f99bea6aba269dde09a.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/yrZrdgy6/2d74572afb6d4f0bbbc3a735b23bf7cd9592beae_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Parry" event="url{https://modrinth.com/mod/parry-ciservermodding}"
+...button-text text="Khoi's Things" event="url{https://modrinth.com/mod/khois-things}"
 
-👤 CIServerModding | 📅 2026-08-25
+👤 KhoiCookie | 📅 2026-08-26
 
-Timing-based combat parry — whoever hits FIRST gets the parry! Hit an enemy, then it hits you (or vi
+Elevate your builds with 130+ decorative items, animated artwork, custom consumables, and undergroun
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/parry-ciservermodding/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/parry-ciservermodding}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/khois-things/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/khois-things}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Timing-based combat parry — whoever hits FIRST gets the parry! Hit an enemy, t
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：守护美国瑰宝
-© 红木国家与州立公园的日出，加利福尼亚州，美国 (© HadelProductions/Getty Images)
+🖼️ 壁纸：流光溢彩的天空
+© 基尔丘山上空的极光，冰岛 (© Cavan Images/Alamy)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Village/Structure/Blueprints/Taiga](https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FTaiga)
+📖 **Wiki 推荐**：[Sonic Texture Pack](https://minecraft.wiki/Sonic_Texture_Pack)
 
-⏰ 更新时间：2026-08-25 13:00:06
+⏰ 更新时间：2026-08-26 01:47:24
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
