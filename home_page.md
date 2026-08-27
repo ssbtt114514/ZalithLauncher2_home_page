@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-26 13:05:30
+// 生成时间：2026-08-27 08:53:13
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.AurorasIceland_ZH-CN9781322454_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.LakeMagadi_ZH-CN0601527009_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"这瓜多少钱一斤？"*
+> *"眼泪无法洗去痛苦，但岁月可以抹去一切。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{这瓜多少钱一斤？}"
+...button-text text="📋 复制" event="copy{眼泪无法洗去痛苦，但岁月可以抹去一切。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.18%2FDevelopment_versions}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Flying_Bark_Productions}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/fuzRNl2L/c7e9f47aef393e10354ccba44b300b2dd1c91c82_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/i55x4ROn/5516878bc461e5a25f32753bfa2ece5f89a1e340_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="TFMG Converter Fix" event="url{https://modrinth.com/mod/tfmg-converter-fix}"
+...button-text text="Backrooms Cubed" event="url{https://modrinth.com/mod/backrooms-cubed}"
 
-👤 Aneemonas | 📅 2026-08-26
+👤 Robmeplz | 📅 2026-08-27
 
-Unofficial patch for Create: The Factory Must Grow (TFMG) fixing the Converter's zero voltage/curren
+Adds Backrooms blocks and possibly entities in the future!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tfmg-converter-fix/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tfmg-converter-fix}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/backrooms-cubed/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/backrooms-cubed}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/PZ1ixnZ1/749b9c64f189b1b333898612dc66b5ed322cef01.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/jJzNv7ll/61a4b7fea584022e5012cba9a853645a59356027_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ore's a'plenty" event="url{https://modrinth.com/mod/ores-aplenty}"
+...button-text text="Easy Experience Bottles" event="url{https://modrinth.com/mod/easy-experience-bottles}"
 
-👤 climberrhino | 📅 2026-08-26
+👤 VoidyCat_ | 📅 2026-08-27
 
-The mod adds more ores to the game while still feeling vanilla. It is a great mod to add to you mine
+This project adds a easier way to get experience bottles, using the player experience.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ores-aplenty/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ores-aplenty}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/easy-experience-bottles/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/easy-experience-bottles}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/R07T9uYx/532d0b0472e7574c263480ca3a11150b2c674c99.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/50k2I3UC/23027842caec4963c1a6a2af3e41345cc41e4af7.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Feine Gürkchen" event="url{https://modrinth.com/mod/feine-grkchen}"
+...button-text text="Sugar Expansions" event="url{https://modrinth.com/mod/sugar-expansions}"
 
-👤 OneFallenRose | 📅 2026-08-26
+👤 Xenon54_ | 📅 2026-08-27
 
-Tired of "normal" food and farming mods? Try Feine Gürkchen!
+A Light Mod That Adds New Sugar Uses
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/feine-grkchen/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/feine-grkchen}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sugar-expansions/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sugar-expansions}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/uthyLZ7y/7ed1ce7cbea44d782968ed84b7f832e3ba68bbad_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/DnKbj79R/4224f436a78bec1f3239ee2518f6696b4d934904_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="The Fallen Star +" event="url{https://modrinth.com/mod/the-fallen-star-}"
+...button-text text="Portalmod: Glacier" event="url{https://modrinth.com/mod/portalmod-glacier}"
 
-👤 OneFallenRose | 📅 2026-08-26
+👤 axogamez | 📅 2026-08-27
 
-A big Mod, that adds lots of things focused around Stars, Meteors and even adds a new Dimension: InA
+This is a mod for portalmod that adds a bunch of new stuff from various portal games and mods aswell
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-fallen-star-/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-fallen-star-}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/portalmod-glacier/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/portalmod-glacier}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/W12qYV3Z/a2a75247141f133acc673e091e7f8adcc762270d.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xucr84EQ/645ff3bcaa7f4ddac3081bcee270230f04b7e3c3.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="The Fallen Star" event="url{https://modrinth.com/mod/the-fallen-star}"
+...button-text text="Bucket Fixes" event="url{https://modrinth.com/mod/bucket-fixes}"
 
-👤 OneFallenRose | 📅 2026-08-26
+👤 jaguarbuilder | 📅 2026-08-27
 
-A Mod made by Nono_Spike & MrPlantera. It includes Weapons & Items all around Stars and the Universe
+Prevent client from displaying buckets as full without server validation.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-fallen-star/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-fallen-star}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bucket-fixes/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bucket-fixes}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ A Mod made by Nono_Spike & MrPlantera. It includes Weapons & Items all around St
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：流光溢彩的天空
-© 基尔丘山上空的极光，冰岛 (© Cavan Images/Alamy)
+🖼️ 壁纸：湖水、野生动物与奇景
+© 日出时的小红鹳群，马加迪湖，肯尼亚 (© Denis-Huot/Nature Picture Library)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 1.18/Development versions](https://minecraft.wiki/Java_Edition_1.18%2FDevelopment_versions)
+📖 **Wiki 推荐**：[Flying Bark Productions](https://minecraft.wiki/Flying_Bark_Productions)
 
-⏰ 更新时间：2026-08-26 13:05:30
+⏰ 更新时间：2026-08-27 08:53:13
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
