@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-27 08:53:13
+// 生成时间：2026-08-27 22:09:51
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.LakeMagadi_ZH-CN0601527009_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.MichelSunset_ZH-CN0822968543_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"眼泪无法洗去痛苦，但岁月可以抹去一切。"*
+> *"当然，孤独的科学家仍然通过多种途径在研究天空和宇宙。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{眼泪无法洗去痛苦，但岁月可以抹去一切。}"
+...button-text text="📋 复制" event="copy{当然，孤独的科学家仍然通过多种途径在研究天空和宇宙。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Flying_Bark_Productions}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/New_Nintendo_3DS_Edition_history_of_textures%2FPaintings}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/i55x4ROn/5516878bc461e5a25f32753bfa2ece5f89a1e340_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/jniA5r9t/4b4b0749a8309a3542591f1fb1dd386fe120f8f2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Backrooms Cubed" event="url{https://modrinth.com/mod/backrooms-cubed}"
+...button-text text="VulkanCompat" event="url{https://modrinth.com/mod/vulkancompat}"
 
-👤 Robmeplz | 📅 2026-08-27
+👤 1Yuqas | 📅 2026-08-27
 
-Adds Backrooms blocks and possibly entities in the future!
+VulkanCompat is a Fabric mod that lets Minecraft Vulkan run on older GPUs without dynamic rendering 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/backrooms-cubed/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/backrooms-cubed}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/vulkancompat/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/vulkancompat}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/jJzNv7ll/61a4b7fea584022e5012cba9a853645a59356027_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Z3WK8OHk/69f014081c650deb45f87570573b6f1b70f3554f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Easy Experience Bottles" event="url{https://modrinth.com/mod/easy-experience-bottles}"
+...button-text text="Ghost Sky" event="url{https://modrinth.com/mod/ghost-sky}"
 
-👤 VoidyCat_ | 📅 2026-08-27
+👤 korosuke | 📅 2026-08-27
 
-This project adds a easier way to get experience bottles, using the player experience.
+A vanilla-respecting skyblock where structures generate as ghosts — invisible, but their spawning ru
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/easy-experience-bottles/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/easy-experience-bottles}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ghost-sky/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ghost-sky}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/50k2I3UC/23027842caec4963c1a6a2af3e41345cc41e4af7.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/PtmJm1KW/8812872bbcc36a69149b5701c767408e9f4e2f1e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Sugar Expansions" event="url{https://modrinth.com/mod/sugar-expansions}"
+...button-text text="OritechDefender" event="url{https://modrinth.com/mod/oritechdefender}"
 
-👤 Xenon54_ | 📅 2026-08-27
+👤 vicuna | 📅 2026-08-27
 
-A Light Mod That Adds New Sugar Uses
+OritechDefender is a server-side NeoForge performance mod that reduces redundant encoding and delive
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sugar-expansions/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sugar-expansions}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/oritechdefender/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/oritechdefender}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/DnKbj79R/4224f436a78bec1f3239ee2518f6696b4d934904_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/waeoLNjy/cbb7dbea21a56faa1c46f3f461e82e7813833bf2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Portalmod: Glacier" event="url{https://modrinth.com/mod/portalmod-glacier}"
+...button-text text="MusicCraft" event="url{https://modrinth.com/mod/musiccraft}"
 
-👤 axogamez | 📅 2026-08-27
+👤 aresinhoo | 📅 2026-08-27
 
-This is a mod for portalmod that adds a bunch of new stuff from various portal games and mods aswell
+Control Spotify playback in-game — search, play, pause, skip, and queue tracks straight from chat!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/portalmod-glacier/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/portalmod-glacier}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/musiccraft/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/musiccraft}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xucr84EQ/645ff3bcaa7f4ddac3081bcee270230f04b7e3c3.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/JLSYG7TJ/1f0f07bb291a0b60ebb35ee3cdc6568be93498b1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Bucket Fixes" event="url{https://modrinth.com/mod/bucket-fixes}"
+...button-text text="Hotbar Chaos" event="url{https://modrinth.com/mod/hotbar-chaos}"
 
-👤 jaguarbuilder | 📅 2026-08-27
+👤 AtomicSky | 📅 2026-08-27
 
-Prevent client from displaying buckets as full without server validation.
+randomizing hotbar features to complicate pvp
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bucket-fixes/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bucket-fixes}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hotbar-chaos/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hotbar-chaos}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Prevent client from displaying buckets as full without server validation.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：湖水、野生动物与奇景
-© 日出时的小红鹳群，马加迪湖，肯尼亚 (© Denis-Huot/Nature Picture Library)
+🖼️ 壁纸：潮汐塑造的传奇
+© 涨潮时的圣米歇尔山，芒什省，诺曼底，法国 (© Clement LEONARD/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Flying Bark Productions](https://minecraft.wiki/Flying_Bark_Productions)
+📖 **Wiki 推荐**：[New Nintendo 3DS Edition history of textures/Paintings](https://minecraft.wiki/New_Nintendo_3DS_Edition_history_of_textures%2FPaintings)
 
-⏰ 更新时间：2026-08-27 08:53:13
+⏰ 更新时间：2026-08-27 22:09:51
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
