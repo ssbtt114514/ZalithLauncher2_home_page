@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-27 22:09:51
+// 生成时间：2026-08-28 11:06:12
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"当然，孤独的科学家仍然通过多种途径在研究天空和宇宙。"*
+> *"一代锤子一代皇，代代锤子教做人！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{当然，孤独的科学家仍然通过多种途径在研究天空和宇宙。}"
+...button-text text="📋 复制" event="copy{一代锤子一代皇，代代锤子教做人！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/New_Nintendo_3DS_Edition_history_of_textures%2FPaintings}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FDiamond_Ore}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/jniA5r9t/4b4b0749a8309a3542591f1fb1dd386fe120f8f2_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6EpBCHxR/aea4873195e74849a7a8687aaab4dcdcf2413a12.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="VulkanCompat" event="url{https://modrinth.com/mod/vulkancompat}"
+...button-text text="Force Battles" event="url{https://modrinth.com/mod/force-battles}"
 
-👤 1Yuqas | 📅 2026-08-27
+👤 marbrueck | 📅 2026-08-28
 
-VulkanCompat is a Fabric mod that lets Minecraft Vulkan run on older GPUs without dynamic rendering 
+This datapack/mod adds various Force Battles: Item, Mob, Structure, and Biome. Play them individuall
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/vulkancompat/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/vulkancompat}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/force-battles/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/force-battles}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Z3WK8OHk/69f014081c650deb45f87570573b6f1b70f3554f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/lIn7oRFm/c4001a9ae0b4eb7fbf654fbfd5a10919ddba2489.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ghost Sky" event="url{https://modrinth.com/mod/ghost-sky}"
+...button-text text="Cobblemon Poke Power" event="url{https://modrinth.com/mod/cobblemon-poke-power}"
 
-👤 korosuke | 📅 2026-08-27
+👤 Adammatthiesen | 📅 2026-08-28
 
-A vanilla-respecting skyblock where structures generate as ghosts — invisible, but their spawning ru
+Adds a Pokemon based powersource for your tech mods that uses your Pokemon to power it!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ghost-sky/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ghost-sky}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cobblemon-poke-power/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cobblemon-poke-power}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/PtmJm1KW/8812872bbcc36a69149b5701c767408e9f4e2f1e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/jn3yCCDl/ac6bb113def7551f72cfe352f4ceed5fe18b738d.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="OritechDefender" event="url{https://modrinth.com/mod/oritechdefender}"
+...button-text text="Bathymetry" event="url{https://modrinth.com/mod/bathymetry}"
 
-👤 vicuna | 📅 2026-08-27
+👤 ZipeStudio | 📅 2026-08-28
 
-OritechDefender is a server-side NeoForge performance mod that reduces redundant encoding and delive
+Visualizes underwater terrain depth through water color.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/oritechdefender/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/oritechdefender}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bathymetry/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bathymetry}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/waeoLNjy/cbb7dbea21a56faa1c46f3f461e82e7813833bf2_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8w4oBCX6/b9c772dd5ee65bb443dec038c1e4c2056435903f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MusicCraft" event="url{https://modrinth.com/mod/musiccraft}"
+...button-text text="Another Dynamics" event="url{https://modrinth.com/mod/another-dynamics}"
 
-👤 aresinhoo | 📅 2026-08-27
+👤 Unfamily | 📅 2026-08-28
 
-Control Spotify playback in-game — search, play, pause, skip, and queue tracks straight from chat!
+A mod that introduces simple Ducts with the most extensive logic possible
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/musiccraft/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/musiccraft}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/another-dynamics/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/another-dynamics}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/JLSYG7TJ/1f0f07bb291a0b60ebb35ee3cdc6568be93498b1_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/1olixhHi/271b8f2c87aebd4a599bf2cf4c57b55a643bd1e5.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Hotbar Chaos" event="url{https://modrinth.com/mod/hotbar-chaos}"
+...button-text text="Draw In Books" event="url{https://modrinth.com/mod/draw-in-books}"
 
-👤 AtomicSky | 📅 2026-08-27
+👤 zZzZOBRA | 📅 2026-08-28
 
-randomizing hotbar features to complicate pvp
+Draw inside Book & Quill. Vanilla feel!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hotbar-chaos/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hotbar-chaos}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/draw-in-books/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/draw-in-books}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ randomizing hotbar features to complicate pvp
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[New Nintendo 3DS Edition history of textures/Paintings](https://minecraft.wiki/New_Nintendo_3DS_Edition_history_of_textures%2FPaintings)
+📖 **Wiki 推荐**：[Java Edition block render history/Diamond Ore](https://minecraft.wiki/Java_Edition_block_render_history%2FDiamond_Ore)
 
-⏰ 更新时间：2026-08-27 22:09:51
+⏰ 更新时间：2026-08-28 11:06:12
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
