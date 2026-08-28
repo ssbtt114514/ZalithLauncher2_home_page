@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-28 11:06:12
+// 生成时间：2026-08-28 22:09:35
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.MichelSunset_ZH-CN0822968543_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.SantaCatarina_ZH-CN4170292043_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"一代锤子一代皇，代代锤子教做人！"*
+> *"吵死了吵死了!"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{一代锤子一代皇，代代锤子教做人！}"
+...button-text text="📋 复制" event="copy{吵死了吵死了!}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FDiamond_Ore}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Aquatic_(disambiguation)}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6EpBCHxR/aea4873195e74849a7a8687aaab4dcdcf2413a12.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/mKMIyvbp/5f148de55eefb9a9ed20648a1e6209c6e0afab2a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Force Battles" event="url{https://modrinth.com/mod/force-battles}"
+...button-text text="BuildCraft: Community Edition" event="url{https://modrinth.com/mod/buildcraft-ce}"
 
-👤 marbrueck | 📅 2026-08-28
+👤 siromgitsyou | 📅 2026-08-28
 
-This datapack/mod adds various Force Battles: Item, Mob, Structure, and Biome. Play them individuall
+BuildCraft brought to the modern age by the community
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/force-battles/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/force-battles}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/buildcraft-ce/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/buildcraft-ce}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/lIn7oRFm/c4001a9ae0b4eb7fbf654fbfd5a10919ddba2489.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/oxS4g78O/67cfb2f78d8e71e12190d1a949fdfd46dac2fabe_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Cobblemon Poke Power" event="url{https://modrinth.com/mod/cobblemon-poke-power}"
+...button-text text="Dropvision" event="url{https://modrinth.com/mod/dropvision}"
 
-👤 Adammatthiesen | 📅 2026-08-28
+👤 fatfih67 | 📅 2026-08-28
 
-Adds a Pokemon based powersource for your tech mods that uses your Pokemon to power it!
+A configurable Hypixel SkyBlock rare drop overlay with price estimates.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cobblemon-poke-power/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cobblemon-poke-power}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dropvision/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dropvision}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/jn3yCCDl/ac6bb113def7551f72cfe352f4ceed5fe18b738d.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/PUC3uAqh/03189b28b55f1d4c1089998e7cb080b354d14e58_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Bathymetry" event="url{https://modrinth.com/mod/bathymetry}"
+...button-text text="Colored Obsidian Plus" event="url{https://modrinth.com/mod/colored-obsidian-plus}"
 
-👤 ZipeStudio | 📅 2026-08-28
+👤 AJBruner77 | 📅 2026-08-28
 
-Visualizes underwater terrain depth through water color.
+This mod adds 16 Colors of Obsidian, 16 Colors of Crying Obsidian, and 16 Colors of Reinforced Deeps
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bathymetry/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bathymetry}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/colored-obsidian-plus/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/colored-obsidian-plus}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8w4oBCX6/b9c772dd5ee65bb443dec038c1e4c2056435903f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/fzJqnjMs/381ed2008551a78d80821b472923d2242f0c8030.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Another Dynamics" event="url{https://modrinth.com/mod/another-dynamics}"
+...button-text text="Player Panel" event="url{https://modrinth.com/mod/player-panel}"
 
-👤 Unfamily | 📅 2026-08-28
+👤 linkzeld17 | 📅 2026-08-28
 
-A mod that introduces simple Ducts with the most extensive logic possible
+A self-hosted web panel for managing Minecraft Java servers, players, Crafty Controller, Fabric, Blu
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/another-dynamics/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/another-dynamics}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/player-panel/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/player-panel}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/1olixhHi/271b8f2c87aebd4a599bf2cf4c57b55a643bd1e5.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/4b33pWXP/1b57aea2e54fba2772b842bdca5abcf41ce1ee9d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Draw In Books" event="url{https://modrinth.com/mod/draw-in-books}"
+...button-text text="Boshys BTE Utils" event="url{https://modrinth.com/mod/boshys-bte-utils}"
 
-👤 zZzZOBRA | 📅 2026-08-28
+👤 boshywashy8 | 📅 2026-08-28
 
-Draw inside Book & Quill. Vanilla feel!
+Boshys BTE Utils is a mod that makes building inside of the Build the Earth project easier by allowi
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/draw-in-books/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/draw-in-books}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/boshys-bte-utils/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/boshys-bte-utils}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Draw inside Book & Quill. Vanilla feel!
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：潮汐塑造的传奇
-© 涨潮时的圣米歇尔山，芒什省，诺曼底，法国 (© Clement LEONARD/Getty Images)
+🖼️ 壁纸：读懂浪涛之间的讯息
+© 冲浪者航拍图，圣卡塔琳娜州，巴西 (© Wonderful Nature/Shutterstock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition block render history/Diamond Ore](https://minecraft.wiki/Java_Edition_block_render_history%2FDiamond_Ore)
+📖 **Wiki 推荐**：[Aquatic (disambiguation)](https://minecraft.wiki/Aquatic_(disambiguation))
 
-⏰ 更新时间：2026-08-28 11:06:12
+⏰ 更新时间：2026-08-28 22:09:35
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
