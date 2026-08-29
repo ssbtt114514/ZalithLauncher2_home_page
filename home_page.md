@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-28 22:09:35
+// 生成时间：2026-08-29 06:51:14
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"吵死了吵死了!"*
+> *"生活，就是生出来活下去，其它都是浮云，活的潇洒一点。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{吵死了吵死了!}"
+...button-text text="📋 复制" event="copy{生活，就是生出来活下去，其它都是浮云，活的潇洒一点。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Aquatic_(disambiguation)}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Client.json}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/mKMIyvbp/5f148de55eefb9a9ed20648a1e6209c6e0afab2a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8rmXltlU/148157616c1f8c781ac0dcff4cb94c8f9df77880_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="BuildCraft: Community Edition" event="url{https://modrinth.com/mod/buildcraft-ce}"
+...button-text text="Planetracker/radarforMTR4" event="url{https://modrinth.com/mod/planetrackerradarformtr4}"
 
-👤 siromgitsyou | 📅 2026-08-28
+👤 Customworldproject | 📅 2026-08-29
 
-BuildCraft brought to the modern age by the community
+Phone to track planes on MTR4+
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/buildcraft-ce/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/buildcraft-ce}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/planetrackerradarformtr4/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/planetrackerradarformtr4}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/oxS4g78O/67cfb2f78d8e71e12190d1a949fdfd46dac2fabe_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/4mTA3jIa/74816191cc81c6388e1ee9049cb26fa0252dd33b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Dropvision" event="url{https://modrinth.com/mod/dropvision}"
+...button-text text="Gamerule Defaults" event="url{https://modrinth.com/mod/gamerule-defaults}"
 
-👤 fatfih67 | 📅 2026-08-28
+👤 Biem | 📅 2026-08-29
 
-A configurable Hypixel SkyBlock rare drop overlay with price estimates.
+Configure default values for gamerules (including modded ones) that apply automatically to new world
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dropvision/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dropvision}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/gamerule-defaults/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/gamerule-defaults}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/PUC3uAqh/03189b28b55f1d4c1089998e7cb080b354d14e58_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/DUb6Qpgc/9e94e0159f2875ed845ad6050d5692c351779cd2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Colored Obsidian Plus" event="url{https://modrinth.com/mod/colored-obsidian-plus}"
+...button-text text="Terrifying Creaking" event="url{https://modrinth.com/mod/terrifying_creaking}"
 
-👤 AJBruner77 | 📅 2026-08-28
+👤 TeamGarniture | 📅 2026-08-29
 
-This mod adds 16 Colors of Obsidian, 16 Colors of Crying Obsidian, and 16 Colors of Reinforced Deeps
+Ever thought the creaking was a lame mob? they just aren't dangerous enough? This gives them a Speed
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/colored-obsidian-plus/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/colored-obsidian-plus}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/terrifying_creaking/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/terrifying_creaking}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/fzJqnjMs/381ed2008551a78d80821b472923d2242f0c8030.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Bg7QUYsQ/1c1bcbdf4c849c2e232f30267bc20055933c5159.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Player Panel" event="url{https://modrinth.com/mod/player-panel}"
+...button-text text="WaLL Teams" event="url{https://modrinth.com/mod/wall-teams}"
 
-👤 linkzeld17 | 📅 2026-08-28
+👤 TheBrokenWaLL | 📅 2026-08-29
 
-A self-hosted web panel for managing Minecraft Java servers, players, Crafty Controller, Fabric, Blu
+It allows players to create and manage teams, invite other players, use private team chat, and acces
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/player-panel/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/player-panel}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wall-teams/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wall-teams}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/4b33pWXP/1b57aea2e54fba2772b842bdca5abcf41ce1ee9d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/DhE7Nkac/5c468ffdfc0f3e422151d7be5ce57ef1d1eaef0a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Boshys BTE Utils" event="url{https://modrinth.com/mod/boshys-bte-utils}"
+...button-text text="HighlightMobs" event="url{https://modrinth.com/mod/highlightmobs}"
 
-👤 boshywashy8 | 📅 2026-08-28
+👤 deanxbox | 📅 2026-08-29
 
-Boshys BTE Utils is a mod that makes building inside of the Build the Earth project easier by allowi
+A client-side Fabric mod for Minecraft 26.2 that outlines selected entity types
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/boshys-bte-utils/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/boshys-bte-utils}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/highlightmobs/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/highlightmobs}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Boshys BTE Utils is a mod that makes building inside of the Build the Earth proj
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Aquatic (disambiguation)](https://minecraft.wiki/Aquatic_(disambiguation))
+📖 **Wiki 推荐**：[Client.json](https://minecraft.wiki/Client.json)
 
-⏰ 更新时间：2026-08-28 22:09:35
+⏰ 更新时间：2026-08-29 06:51:14
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
