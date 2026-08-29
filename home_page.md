@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-29 06:51:14
+// 生成时间：2026-08-29 16:37:11
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.SantaCatarina_ZH-CN4170292043_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.YellowShark_ZH-CN1570569826_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"生活，就是生出来活下去，其它都是浮云，活的潇洒一点。"*
+> *"总有一天，我们可以不用在剑锋上寻找公义。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{生活，就是生出来活下去，其它都是浮云，活的潇洒一点。}"
+...button-text text="📋 复制" event="copy{总有一天，我们可以不用在剑锋上寻找公义。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Client.json}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FWildflowers}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8rmXltlU/148157616c1f8c781ac0dcff4cb94c8f9df77880_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/QElZcad9/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Planetracker/radarforMTR4" event="url{https://modrinth.com/mod/planetrackerradarformtr4}"
+...button-text text="old-gui" event="url{https://modrinth.com/mod/old-gui}"
 
-👤 Customworldproject | 📅 2026-08-29
+👤 FourTerms2 | 📅 2026-08-29
 
-Phone to track planes on MTR4+
+this adds the old Gui look to it
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/planetrackerradarformtr4/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/planetrackerradarformtr4}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/old-gui/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/old-gui}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/4mTA3jIa/74816191cc81c6388e1ee9049cb26fa0252dd33b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/44kw6qVx/87d3345ed25362978c40419b931c5320436bbb5d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Gamerule Defaults" event="url{https://modrinth.com/mod/gamerule-defaults}"
+...button-text text="Flight Potions" event="url{https://modrinth.com/mod/flight-potions}"
 
-👤 Biem | 📅 2026-08-29
+👤 ExodusOTH | 📅 2026-08-29
 
-Configure default values for gamerules (including modded ones) that apply automatically to new world
+Various potions enabling creative style flight, for the survival mode. Fall damage optional.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/gamerule-defaults/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/gamerule-defaults}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/flight-potions/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/flight-potions}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/DUb6Qpgc/9e94e0159f2875ed845ad6050d5692c351779cd2_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/p8rKyKSM/e99ce96e170737f4b1eeb2c28d6ce4189f01cbf3_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Terrifying Creaking" event="url{https://modrinth.com/mod/terrifying_creaking}"
+...button-text text="Better Bites: Expanded" event="url{https://modrinth.com/mod/better-bites-expanded}"
 
-👤 TeamGarniture | 📅 2026-08-29
+👤 ZamyMods | 📅 2026-08-29
 
-Ever thought the creaking was a lame mob? they just aren't dangerous enough? This gives them a Speed
+🍔 Expand Minecraft with new foods, crops, ingredients, desserts, and drinks — all while keeping the
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/terrifying_creaking/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/terrifying_creaking}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-bites-expanded/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-bites-expanded}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Bg7QUYsQ/1c1bcbdf4c849c2e232f30267bc20055933c5159.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/1Nidj0uc/4f4d71ee2b145b0821006fa046e6c0133a37ee44_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="WaLL Teams" event="url{https://modrinth.com/mod/wall-teams}"
+...button-text text="Harvest Enchantment Mod" event="url{https://modrinth.com/mod/harvest-enchantment-mod}"
 
-👤 TheBrokenWaLL | 📅 2026-08-29
+👤 shinyvoid | 📅 2026-08-29
 
-It allows players to create and manage teams, invite other players, use private team chat, and acces
+Simplified harvesting and replanting thanks to this enchantment
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wall-teams/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wall-teams}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/harvest-enchantment-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/harvest-enchantment-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/DhE7Nkac/5c468ffdfc0f3e422151d7be5ce57ef1d1eaef0a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/uFd6cFu3/eeecf20aee7cfc70daececc2f074860f3ccc6c92_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="HighlightMobs" event="url{https://modrinth.com/mod/highlightmobs}"
+...button-text text="Reservoir Fluid API" event="url{https://modrinth.com/mod/rfapi}"
 
-👤 deanxbox | 📅 2026-08-29
+👤 redColmula55 | 📅 2026-08-29
 
-A client-side Fabric mod for Minecraft 26.2 that outlines selected entity types
+This is a lib mod which makes creating fluids in Fabric easier.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/highlightmobs/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/highlightmobs}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/rfapi/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/rfapi}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ A client-side Fabric mod for Minecraft 26.2 that outlines selected entity types
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：读懂浪涛之间的讯息
-© 冲浪者航拍图，圣卡塔琳娜州，巴西 (© Wonderful Nature/Shutterstock)
+🖼️ 壁纸：名为鲨鱼的巨型鱼类
+© 鲸鲨与黄金鲹，极乐鸟湾，西巴布亚，印度尼西亚 (© Pete Oxford/Nature Picture Library)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Client.json](https://minecraft.wiki/Client.json)
+📖 **Wiki 推荐**：[Java Edition block render history/Wildflowers](https://minecraft.wiki/Java_Edition_block_render_history%2FWildflowers)
 
-⏰ 更新时间：2026-08-29 06:51:14
+⏰ 更新时间：2026-08-29 16:37:11
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
