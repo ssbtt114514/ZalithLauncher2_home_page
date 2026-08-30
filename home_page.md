@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-30 05:04:37
+// 生成时间：2026-08-30 16:32:34
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.YellowShark_ZH-CN1570569826_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.SamarkandCeiling_ZH-CN1818913296_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"末将于禁，愿为曹家世代赴汤蹈火。"*
+> *"眺望星空，你来自爱的宇宙，我们约定再重逢。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{末将于禁，愿为曹家世代赴汤蹈火。}"
+...button-text text="📋 复制" event="copy{眺望星空，你来自爱的宇宙，我们约定再重逢。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/The_Traveling_Trader}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Music_Disc_blocks}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/SzbgXZBB/65efabd08c82adb76441666aba29fa4fff689011.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/pOPlriXw/672f895c13b3fe4519069f76353a6326d856854c.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="LemmeCutTrees" event="url{https://modrinth.com/mod/lemmecuttrees}"
+...button-text text="Serverside Chest + Inventory sort" event="url{https://modrinth.com/mod/serverside-chest-inventory-sort}"
 
-👤 tantaihaha4487 | 📅 2026-08-30
+👤 koutsie | 📅 2026-08-30
 
-Fell whole trees with one axe swing-speed follows your enchantments and effects, keeping it fast but
+A simple serverside chest + inventory sorter!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lemmecuttrees/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lemmecuttrees}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/serverside-chest-inventory-sort/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/serverside-chest-inventory-sort}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/4Z4FQANL/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/e8QrMuLD/b17f6ec648cfc2f5feee11189c1cf3e0f391380c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Glitch" event="url{https://modrinth.com/mod/glitch-ananyevvp1}"
+...button-text text="Facing Wand" event="url{https://modrinth.com/mod/facing_wand}"
 
-👤 ananyevvp1 | 📅 2026-08-30
+👤 NarcissoOrigin | 📅 2026-08-30
 
-A Forge-exclusive mod for 1.20.1 that introduces a corrupted glitch biome made of reality-bending bl
+A handy tool for content creators to control mob rotations, toggle AI, and manage entities for cinem
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/glitch-ananyevvp1/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/glitch-ananyevvp1}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/facing_wand/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/facing_wand}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/197EFLHs/11ef24cae14e3b5c7530488a18305cde8192508f.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/92UKwpBU/e9388c66df62e25566f8181624fd3f29954c839a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Pizza Roll" event="url{https://modrinth.com/mod/pizza-roll}"
+...button-text text="Amalgamation" event="url{https://modrinth.com/mod/amalgamation}"
 
-👤 doggybehappy | 📅 2026-08-30
+👤 MythicGooseStudios | 📅 2026-08-30
 
-Adds Pizza Rolls with a crafting recipie, Raw and Baked version.
+An Library System Currently Supporting Fabric & Neoforge
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pizza-roll/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pizza-roll}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/amalgamation/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/amalgamation}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/cHcsF8bk/e1f5fd7b9129c77aa289db18ebd3daa178bbcaf8_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/5i3BO6Hz/ecdbef522b325e07f49b190370c553ef2a5f0923_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mystical Overgrowth" event="url{https://modrinth.com/mod/mystical-overgrowth}"
+...button-text text="FXClear Items" event="url{https://modrinth.com/mod/fxclear-items}"
 
-👤 NotTouchedGrass | 📅 2026-08-30
+👤 brizaz | 📅 2026-08-30
 
-An addon to Mystical Agriculture that adds more crops and provides better compability with other mod
+A lightweight and configurable automatic item cleaner for NeoForge servers.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mystical-overgrowth/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mystical-overgrowth}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fxclear-items/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fxclear-items}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/GtCbr1US/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/pVjLi1yT/29924923853f7953290652b69f27b699e1e252f9_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MuddyWaters" event="url{https://modrinth.com/mod/muddywaters}"
+...button-text text="Ube" event="url{https://modrinth.com/mod/ube}"
 
-👤 DiT-Dev | 📅 2026-08-30
+👤 glso | 📅 2026-08-30
 
-A simple mod to convert dirt blocks to mud when covered by water.
+Scratch-esque client-side scripting engine.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/muddywaters/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/muddywaters}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ube/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ube}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ A simple mod to convert dirt blocks to mud when covered by water.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：名为鲨鱼的巨型鱼类
-© 鲸鲨与黄金鲹，极乐鸟湾，西巴布亚，印度尼西亚 (© Pete Oxford/Nature Picture Library)
+🖼️ 壁纸：图案艺术的典范
+© 雷吉斯坦广场的建筑细节，撒马尔罕，乌兹别克斯坦 (© Piero M. Bianchi/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[The Traveling Trader](https://minecraft.wiki/The_Traveling_Trader)
+📖 **Wiki 推荐**：[Music Disc blocks](https://minecraft.wiki/Music_Disc_blocks)
 
-⏰ 更新时间：2026-08-30 05:04:37
+⏰ 更新时间：2026-08-30 16:32:34
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
