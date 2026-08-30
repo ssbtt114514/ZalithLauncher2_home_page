@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-29 16:37:11
+// 生成时间：2026-08-30 05:04:37
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"总有一天，我们可以不用在剑锋上寻找公义。"*
+> *"末将于禁，愿为曹家世代赴汤蹈火。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{总有一天，我们可以不用在剑锋上寻找公义。}"
+...button-text text="📋 复制" event="copy{末将于禁，愿为曹家世代赴汤蹈火。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FWildflowers}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/The_Traveling_Trader}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/QElZcad9/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/SzbgXZBB/65efabd08c82adb76441666aba29fa4fff689011.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="old-gui" event="url{https://modrinth.com/mod/old-gui}"
+...button-text text="LemmeCutTrees" event="url{https://modrinth.com/mod/lemmecuttrees}"
 
-👤 FourTerms2 | 📅 2026-08-29
+👤 tantaihaha4487 | 📅 2026-08-30
 
-this adds the old Gui look to it
+Fell whole trees with one axe swing-speed follows your enchantments and effects, keeping it fast but
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/old-gui/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/old-gui}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lemmecuttrees/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lemmecuttrees}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/44kw6qVx/87d3345ed25362978c40419b931c5320436bbb5d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/4Z4FQANL/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Flight Potions" event="url{https://modrinth.com/mod/flight-potions}"
+...button-text text="Glitch" event="url{https://modrinth.com/mod/glitch-ananyevvp1}"
 
-👤 ExodusOTH | 📅 2026-08-29
+👤 ananyevvp1 | 📅 2026-08-30
 
-Various potions enabling creative style flight, for the survival mode. Fall damage optional.
+A Forge-exclusive mod for 1.20.1 that introduces a corrupted glitch biome made of reality-bending bl
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/flight-potions/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/flight-potions}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/glitch-ananyevvp1/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/glitch-ananyevvp1}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/p8rKyKSM/e99ce96e170737f4b1eeb2c28d6ce4189f01cbf3_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/197EFLHs/11ef24cae14e3b5c7530488a18305cde8192508f.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Better Bites: Expanded" event="url{https://modrinth.com/mod/better-bites-expanded}"
+...button-text text="Pizza Roll" event="url{https://modrinth.com/mod/pizza-roll}"
 
-👤 ZamyMods | 📅 2026-08-29
+👤 doggybehappy | 📅 2026-08-30
 
-🍔 Expand Minecraft with new foods, crops, ingredients, desserts, and drinks — all while keeping the
+Adds Pizza Rolls with a crafting recipie, Raw and Baked version.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-bites-expanded/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-bites-expanded}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pizza-roll/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pizza-roll}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/1Nidj0uc/4f4d71ee2b145b0821006fa046e6c0133a37ee44_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/cHcsF8bk/e1f5fd7b9129c77aa289db18ebd3daa178bbcaf8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Harvest Enchantment Mod" event="url{https://modrinth.com/mod/harvest-enchantment-mod}"
+...button-text text="Mystical Overgrowth" event="url{https://modrinth.com/mod/mystical-overgrowth}"
 
-👤 shinyvoid | 📅 2026-08-29
+👤 NotTouchedGrass | 📅 2026-08-30
 
-Simplified harvesting and replanting thanks to this enchantment
+An addon to Mystical Agriculture that adds more crops and provides better compability with other mod
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/harvest-enchantment-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/harvest-enchantment-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mystical-overgrowth/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mystical-overgrowth}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/uFd6cFu3/eeecf20aee7cfc70daececc2f074860f3ccc6c92_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/GtCbr1US/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Reservoir Fluid API" event="url{https://modrinth.com/mod/rfapi}"
+...button-text text="MuddyWaters" event="url{https://modrinth.com/mod/muddywaters}"
 
-👤 redColmula55 | 📅 2026-08-29
+👤 DiT-Dev | 📅 2026-08-30
 
-This is a lib mod which makes creating fluids in Fabric easier.
+A simple mod to convert dirt blocks to mud when covered by water.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/rfapi/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/rfapi}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/muddywaters/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/muddywaters}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ This is a lib mod which makes creating fluids in Fabric easier.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition block render history/Wildflowers](https://minecraft.wiki/Java_Edition_block_render_history%2FWildflowers)
+📖 **Wiki 推荐**：[The Traveling Trader](https://minecraft.wiki/The_Traveling_Trader)
 
-⏰ 更新时间：2026-08-29 16:37:11
+⏰ 更新时间：2026-08-30 05:04:37
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
