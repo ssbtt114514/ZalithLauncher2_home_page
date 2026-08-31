@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-31 05:11:59
+// 生成时间：2026-08-31 19:04:08
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.SamarkandCeiling_ZH-CN1818913296_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.HorseHairShroom_ZH-CN2241458451_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"可是爱怎么能靠旁人判定。"*
+> *"借岁月一瓢酒，潇洒饮春秋。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{可是爱怎么能靠旁人判定。}"
+...button-text text="📋 复制" event="copy{借岁月一瓢酒，潇洒饮春秋。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Shelf}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.7.2}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/gnDmedAw/db485612754f5d235f4ba4390a759c5379d249c6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/2MGKwNp7/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Explosive Items" event="url{https://modrinth.com/mod/explosive-items}"
+...button-text text="WhatYourPronouns" event="url{https://modrinth.com/mod/whatyourpronouns}"
 
-👤 kiwiKcz | 📅 2026-08-31
+👤 enimaloc | 📅 2026-08-31
 
-When you approach an item, it generates an invisible bomb.
+Minecraft PronounDB reworked integration - Shows player pronouns in chat, tab, social interaction an
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/explosive-items/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/explosive-items}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/whatyourpronouns/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/whatyourpronouns}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/g1Ul1iCn/89c516253a8aba04785fdab3898a9bedfe366314.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/cei3237m/c7378400dcedf42b34db2d14d3441f78a69fa303_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ghosts" event="url{https://modrinth.com/mod/ghosts-notblazon}"
+...button-text text="AutoNick" event="url{https://modrinth.com/mod/autonick}"
 
-👤 NotBlazon | 📅 2026-08-31
+👤 abdullahdarawsheh174 | 📅 2026-08-31
 
-Changes the respawn system to make it more unique.
+AutoNick is a mod that changes the targets appearance and name using a simple command.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ghosts-notblazon/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ghosts-notblazon}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/autonick/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/autonick}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Z7qj1tOq/3a1b59f72db321b759db0ce2b6a1feab3c0665eb.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/7hkZh6Kd/71d945a426aab679f382b19809c036ef10ddf813_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Playing with fire (nuke)" event="url{https://modrinth.com/mod/nuclear-explosives}"
+...button-text text="Limbus-E.G.O" event="url{https://modrinth.com/mod/limbus-e.g.o}"
 
-👤 tibr | 📅 2026-08-31
+👤 Yi_Sang | 📅 2026-08-31
 
-completly replaces tnt with a nuclear bomb of mass destruction
+Limbus E.G.O Fabric is a mod for Limbus Company that adds new and reworked E.G.O equipment, offering
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nuclear-explosives/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nuclear-explosives}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/limbus-e.g.o/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/limbus-e.g.o}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/KIKQXizB/108521a03234690b7c2015645bf4b12c18ac3034_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/92OED8mq/3a3d4bebd2f8efe08ff41f3f78db3d71e8e3b01d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Terraria Alchemy" event="url{https://modrinth.com/mod/create-terraria-alchemy}"
+...button-text text="Voids and Treasures" event="url{https://modrinth.com/mod/voids-and-treasures}"
 
-👤 ringoway | 📅 2026-08-31
+👤 Timon4ikRU | 📅 2026-08-31
 
-It is an addon for the Create and Ringo's Terraria Alchemy mods.
+Voids and Treasures is a adventure mod with parts of medical simulator mod for Minecraft 1.20.1. It 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-terraria-alchemy/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-terraria-alchemy}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/voids-and-treasures/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/voids-and-treasures}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/AlnMBXDh/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/kWsfpaax/1e5be366a168d6b2647e8c4ff5c107e1366acd4a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="YouDiedReforged" event="url{https://modrinth.com/mod/youdiedreforged}"
+...button-text text="Stackable Items 64" event="url{https://modrinth.com/mod/stackable-items-64}"
 
-👤 commonplace | 📅 2026-08-31
+👤 QXIK_mIJ | 📅 2026-08-31
 
-Adds a Dark Souls inspired death screen for Minecraft 1.21+.
+Configure the stack size of enchanted books, totems, potions, boats, minecarts, saddles, horse armor
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/youdiedreforged/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/youdiedreforged}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/stackable-items-64/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/stackable-items-64}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Adds a Dark Souls inspired death screen for Minecraft 1.21+.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：图案艺术的典范
-© 雷吉斯坦广场的建筑细节，撒马尔罕，乌兹别克斯坦 (© Piero M. Bianchi/Getty Images)
+🖼️ 壁纸：脚下的世界
+© 马鬃小皮伞，白俄罗斯 (© Máté/Nature Picture Library)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Shelf](https://minecraft.wiki/Shelf)
+📖 **Wiki 推荐**：[Java Edition 1.7.2](https://minecraft.wiki/Java_Edition_1.7.2)
 
-⏰ 更新时间：2026-08-31 05:11:59
+⏰ 更新时间：2026-08-31 19:04:08
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
