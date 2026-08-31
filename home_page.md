@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-30 16:32:34
+// 生成时间：2026-08-31 05:11:59
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"眺望星空，你来自爱的宇宙，我们约定再重逢。"*
+> *"可是爱怎么能靠旁人判定。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{眺望星空，你来自爱的宇宙，我们约定再重逢。}"
+...button-text text="📋 复制" event="copy{可是爱怎么能靠旁人判定。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Music_Disc_blocks}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Shelf}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/pOPlriXw/672f895c13b3fe4519069f76353a6326d856854c.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/gnDmedAw/db485612754f5d235f4ba4390a759c5379d249c6_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Serverside Chest + Inventory sort" event="url{https://modrinth.com/mod/serverside-chest-inventory-sort}"
+...button-text text="Explosive Items" event="url{https://modrinth.com/mod/explosive-items}"
 
-👤 koutsie | 📅 2026-08-30
+👤 kiwiKcz | 📅 2026-08-31
 
-A simple serverside chest + inventory sorter!
+When you approach an item, it generates an invisible bomb.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/serverside-chest-inventory-sort/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/serverside-chest-inventory-sort}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/explosive-items/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/explosive-items}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/e8QrMuLD/b17f6ec648cfc2f5feee11189c1cf3e0f391380c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/g1Ul1iCn/89c516253a8aba04785fdab3898a9bedfe366314.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Facing Wand" event="url{https://modrinth.com/mod/facing_wand}"
+...button-text text="Ghosts" event="url{https://modrinth.com/mod/ghosts-notblazon}"
 
-👤 NarcissoOrigin | 📅 2026-08-30
+👤 NotBlazon | 📅 2026-08-31
 
-A handy tool for content creators to control mob rotations, toggle AI, and manage entities for cinem
+Changes the respawn system to make it more unique.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/facing_wand/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/facing_wand}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ghosts-notblazon/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ghosts-notblazon}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/92UKwpBU/e9388c66df62e25566f8181624fd3f29954c839a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Z7qj1tOq/3a1b59f72db321b759db0ce2b6a1feab3c0665eb.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Amalgamation" event="url{https://modrinth.com/mod/amalgamation}"
+...button-text text="Playing with fire (nuke)" event="url{https://modrinth.com/mod/nuclear-explosives}"
 
-👤 MythicGooseStudios | 📅 2026-08-30
+👤 tibr | 📅 2026-08-31
 
-An Library System Currently Supporting Fabric & Neoforge
+completly replaces tnt with a nuclear bomb of mass destruction
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/amalgamation/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/amalgamation}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nuclear-explosives/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nuclear-explosives}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/5i3BO6Hz/ecdbef522b325e07f49b190370c553ef2a5f0923_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/KIKQXizB/108521a03234690b7c2015645bf4b12c18ac3034_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="FXClear Items" event="url{https://modrinth.com/mod/fxclear-items}"
+...button-text text="Create: Terraria Alchemy" event="url{https://modrinth.com/mod/create-terraria-alchemy}"
 
-👤 brizaz | 📅 2026-08-30
+👤 ringoway | 📅 2026-08-31
 
-A lightweight and configurable automatic item cleaner for NeoForge servers.
+It is an addon for the Create and Ringo's Terraria Alchemy mods.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fxclear-items/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fxclear-items}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-terraria-alchemy/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-terraria-alchemy}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/pVjLi1yT/29924923853f7953290652b69f27b699e1e252f9_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/AlnMBXDh/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ube" event="url{https://modrinth.com/mod/ube}"
+...button-text text="YouDiedReforged" event="url{https://modrinth.com/mod/youdiedreforged}"
 
-👤 glso | 📅 2026-08-30
+👤 commonplace | 📅 2026-08-31
 
-Scratch-esque client-side scripting engine.
+Adds a Dark Souls inspired death screen for Minecraft 1.21+.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ube/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ube}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/youdiedreforged/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/youdiedreforged}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Scratch-esque client-side scripting engine.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Music Disc blocks](https://minecraft.wiki/Music_Disc_blocks)
+📖 **Wiki 推荐**：[Shelf](https://minecraft.wiki/Shelf)
 
-⏰ 更新时间：2026-08-30 16:32:34
+⏰ 更新时间：2026-08-31 05:11:59
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
