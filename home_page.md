@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-01 04:47:58
+// 生成时间：2026-09-01 16:28:16
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.HorseHairShroom_ZH-CN2241458451_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.SuffolkHuts_ZH-CN2463818981_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"人类把最精密的保密系统，都用在了自我毁灭上。"*
+> *"好男儿胸怀像大海"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{人类把最精密的保密系统，都用在了自我毁灭上。}"
+...button-text text="📋 复制" event="copy{好男儿胸怀像大海}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.2
-**最新快照**: 26.3-snapshot-10
+**最新快照**: 26.3-pre-1
 
 近期版本：
 - **26.2** (2026-06-16)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_guides%2FThe_Copper_Age}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/PlayStation_3_Edition_1.05}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/I2D9R4qL/f1f08fa9a09cd432a380babb2e3d9c6e3249978e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zcXWXnhQ/7d82a43f31ae41724d3034677387f608ea891288_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Expression Delight" event="url{https://modrinth.com/mod/expression-delight}"
+...button-text text="MLua" event="url{https://modrinth.com/mod/mlua}"
 
-👤 toastydoll | 📅 2026-09-01
+👤 EncData | 📅 2026-09-01
 
-Expression Delight adds Expression compat to Farmer's Delight
+Pure Java Lua-style scripting library mod for Minecraft.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/expression-delight/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/expression-delight}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mlua/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mlua}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/FBK8xgm9/6242bac25436b425d124be6f25fe61f456ffaffc_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/hsvlvlYs/387c1d6bdd4a50c81698f36a91af7a74653eda53_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Curious Chests" event="url{https://modrinth.com/mod/curious-chests}"
+...button-text text="Just AI Villagers" event="url{https://modrinth.com/mod/just-ai-villagers}"
 
-👤 ouheaddd | 📅 2026-09-01
+👤 fedortelephon | 📅 2026-09-01
 
-Curious Chests adds ten unique magical chests, each with its own special storage ability, from sorti
+AI-powered villager dialogs via local Ollama. Villagers have unique personalities, speech styles, an
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/curious-chests/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/curious-chests}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/just-ai-villagers/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/just-ai-villagers}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/F8MnovVn/2b189a3d5ceb58128e830867daf80e634d74db8e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/UE6jLeXE/7f6f4972c2a9242078028e493efa4fc4e9dbe346_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Extended Molecular Assembler" event="url{https://modrinth.com/mod/extended-molecular-assembler}"
+...button-text text="EchoChoke" event="url{https://modrinth.com/mod/echochoke}"
 
-👤 myogoo | 📅 2026-09-01
+👤 axioms25u | 📅 2026-09-01
 
-Adds 9x9 Extended Molecular assembler in AE2
+Adds a cool feature that sends clips of ur deaths to a webhook
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/extended-molecular-assembler/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/extended-molecular-assembler}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/echochoke/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/echochoke}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/2nlauTbx/7f2e45e15caf32832daccf7d8951bb0fbf79fd82_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/BqdrjTih/590e349db74a6fb111f6c2e50d9bc8d0950b3222_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="BoneSkeleton" event="url{https://modrinth.com/mod/boneskeleton}"
+...button-text text="JEJ" event="url{https://modrinth.com/mod/jej-japanese-config}"
 
-👤 jingqi_ohhh | 📅 2026-09-01
+👤 duckerahiruquack | 📅 2026-09-01
 
-This mod turns all skeletons into melee mobs: bones, fish, poisoned arrows and dead bushes. No more 
+This is a config mod created by a Japanese developer (including an AI assistant), dedicated to all J
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/boneskeleton/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/boneskeleton}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jej-japanese-config/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jej-japanese-config}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/aI7Fiy1n/d0eed4c6c4e51ac2aba78490eb5a13dd265c5cf2_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/JAYrup4Y/afe5409fee4ed91f0b4981a11fc53a5438922d28_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Colonias DC" event="url{https://modrinth.com/mod/colonias-dc}"
+...button-text text="Life-Incinerator" event="url{https://modrinth.com/mod/life-incinerator}"
 
-👤 jhinfort | 📅 2026-09-01
+👤 ByteForge | 📅 2026-09-01
 
-Bug fixes for the Dungeons and Combat mod, integration with Minecolonies, and much more.
+A cinematic Fabric boss mod featuring a powerful custom boss, underground arena, energy pylons, crys
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/colonias-dc/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/colonias-dc}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/life-incinerator/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/life-incinerator}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Bug fixes for the Dungeons and Combat mod, integration with Minecolonies, and mu
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：脚下的世界
-© 马鬃小皮伞，白俄罗斯 (© Máté/Nature Picture Library)
+🖼️ 壁纸：海岸边的缤纷色彩
+© 传统海滩小屋，索思沃尔德，萨福克遗产海岸，英格兰 (© stevendocwra/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition guides/The Copper Age](https://minecraft.wiki/Bedrock_Edition_guides%2FThe_Copper_Age)
+📖 **Wiki 推荐**：[PlayStation 3 Edition 1.05](https://minecraft.wiki/PlayStation_3_Edition_1.05)
 
-⏰ 更新时间：2026-09-01 04:47:58
+⏰ 更新时间：2026-09-01 16:28:16
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
