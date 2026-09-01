@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-08-31 19:04:08
+// 生成时间：2026-09-01 04:47:58
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"借岁月一瓢酒，潇洒饮春秋。"*
+> *"人类把最精密的保密系统，都用在了自我毁灭上。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{借岁月一瓢酒，潇洒饮春秋。}"
+...button-text text="📋 复制" event="copy{人类把最精密的保密系统，都用在了自我毁灭上。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.7.2}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_guides%2FThe_Copper_Age}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/2MGKwNp7/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/I2D9R4qL/f1f08fa9a09cd432a380babb2e3d9c6e3249978e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="WhatYourPronouns" event="url{https://modrinth.com/mod/whatyourpronouns}"
+...button-text text="Expression Delight" event="url{https://modrinth.com/mod/expression-delight}"
 
-👤 enimaloc | 📅 2026-08-31
+👤 toastydoll | 📅 2026-09-01
 
-Minecraft PronounDB reworked integration - Shows player pronouns in chat, tab, social interaction an
+Expression Delight adds Expression compat to Farmer's Delight
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/whatyourpronouns/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/whatyourpronouns}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/expression-delight/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/expression-delight}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/cei3237m/c7378400dcedf42b34db2d14d3441f78a69fa303_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/FBK8xgm9/6242bac25436b425d124be6f25fe61f456ffaffc_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="AutoNick" event="url{https://modrinth.com/mod/autonick}"
+...button-text text="Curious Chests" event="url{https://modrinth.com/mod/curious-chests}"
 
-👤 abdullahdarawsheh174 | 📅 2026-08-31
+👤 ouheaddd | 📅 2026-09-01
 
-AutoNick is a mod that changes the targets appearance and name using a simple command.
+Curious Chests adds ten unique magical chests, each with its own special storage ability, from sorti
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/autonick/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/autonick}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/curious-chests/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/curious-chests}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7hkZh6Kd/71d945a426aab679f382b19809c036ef10ddf813_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/F8MnovVn/2b189a3d5ceb58128e830867daf80e634d74db8e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Limbus-E.G.O" event="url{https://modrinth.com/mod/limbus-e.g.o}"
+...button-text text="Extended Molecular Assembler" event="url{https://modrinth.com/mod/extended-molecular-assembler}"
 
-👤 Yi_Sang | 📅 2026-08-31
+👤 myogoo | 📅 2026-09-01
 
-Limbus E.G.O Fabric is a mod for Limbus Company that adds new and reworked E.G.O equipment, offering
+Adds 9x9 Extended Molecular assembler in AE2
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/limbus-e.g.o/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/limbus-e.g.o}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/extended-molecular-assembler/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/extended-molecular-assembler}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/92OED8mq/3a3d4bebd2f8efe08ff41f3f78db3d71e8e3b01d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/2nlauTbx/7f2e45e15caf32832daccf7d8951bb0fbf79fd82_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Voids and Treasures" event="url{https://modrinth.com/mod/voids-and-treasures}"
+...button-text text="BoneSkeleton" event="url{https://modrinth.com/mod/boneskeleton}"
 
-👤 Timon4ikRU | 📅 2026-08-31
+👤 jingqi_ohhh | 📅 2026-09-01
 
-Voids and Treasures is a adventure mod with parts of medical simulator mod for Minecraft 1.20.1. It 
+This mod turns all skeletons into melee mobs: bones, fish, poisoned arrows and dead bushes. No more 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/voids-and-treasures/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/voids-and-treasures}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/boneskeleton/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/boneskeleton}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/kWsfpaax/1e5be366a168d6b2647e8c4ff5c107e1366acd4a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/aI7Fiy1n/d0eed4c6c4e51ac2aba78490eb5a13dd265c5cf2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Stackable Items 64" event="url{https://modrinth.com/mod/stackable-items-64}"
+...button-text text="Colonias DC" event="url{https://modrinth.com/mod/colonias-dc}"
 
-👤 QXIK_mIJ | 📅 2026-08-31
+👤 jhinfort | 📅 2026-09-01
 
-Configure the stack size of enchanted books, totems, potions, boats, minecarts, saddles, horse armor
+Bug fixes for the Dungeons and Combat mod, integration with Minecolonies, and much more.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/stackable-items-64/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/stackable-items-64}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/colonias-dc/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/colonias-dc}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Configure the stack size of enchanted books, totems, potions, boats, minecarts, 
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 1.7.2](https://minecraft.wiki/Java_Edition_1.7.2)
+📖 **Wiki 推荐**：[Bedrock Edition guides/The Copper Age](https://minecraft.wiki/Bedrock_Edition_guides%2FThe_Copper_Age)
 
-⏰ 更新时间：2026-08-31 19:04:08
+⏰ 更新时间：2026-09-01 04:47:58
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
