@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-01 16:28:16
+// 生成时间：2026-09-02 04:09:04
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"好男儿胸怀像大海"*
+> *"向前看，不要胆怯，不要在原地停留。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{好男儿胸怀像大海}"
+...button-text text="📋 复制" event="copy{向前看，不要胆怯，不要在原地停留。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/PlayStation_3_Edition_1.05}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_Indev_0.31_20100122-2251}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/zcXWXnhQ/7d82a43f31ae41724d3034677387f608ea891288_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/e697Zz65/ecdcbb5df0a9c08d378384ba650e91b0f414e826_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MLua" event="url{https://modrinth.com/mod/mlua}"
+...button-text text="TFC Maritime Travelers" event="url{https://modrinth.com/mod/tfc-maritime-travelers}"
 
-👤 EncData | 📅 2026-09-01
+👤 commandodonut | 📅 2026-09-02
 
-Pure Java Lua-style scripting library mod for Minecraft.
+item barrels for tfc that allow you to transport and store items in a different way. Also adds a new
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mlua/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mlua}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tfc-maritime-travelers/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tfc-maritime-travelers}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/hsvlvlYs/387c1d6bdd4a50c81698f36a91af7a74653eda53_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/55ptFNGH/1ca18fc25e2d1b040a1c84d097ca47536aafa129.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Just AI Villagers" event="url{https://modrinth.com/mod/just-ai-villagers}"
+...button-text text="Mapa" event="url{https://modrinth.com/mod/mapa}"
 
-👤 fedortelephon | 📅 2026-09-01
+👤 Mr-Lapa | 📅 2026-09-02
 
-AI-powered villager dialogs via local Ollama. Villagers have unique personalities, speech styles, an
+World map and mini map for Better than Adventure
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/just-ai-villagers/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/just-ai-villagers}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mapa/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mapa}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/UE6jLeXE/7f6f4972c2a9242078028e493efa4fc4e9dbe346_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/EcJHzZvG/ec570af298f78ef2aa2ce937190735a775b02b3d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="EchoChoke" event="url{https://modrinth.com/mod/echochoke}"
+...button-text text="auto-reg" event="url{https://modrinth.com/mod/auto-reg}"
 
-👤 axioms25u | 📅 2026-09-01
+👤 6uxoi_Angel | 📅 2026-09-02
 
-Adds a cool feature that sends clips of ur deaths to a webhook
+Reg - a lightweight Fabric mod for auto-login and password management on auth servers.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/echochoke/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/echochoke}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/auto-reg/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/auto-reg}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/BqdrjTih/590e349db74a6fb111f6c2e50d9bc8d0950b3222_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/qEl8Xl3P/7873a10ee1318951162f898b01aec601535977c9_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="JEJ" event="url{https://modrinth.com/mod/jej-japanese-config}"
+...button-text text="MineTranslator" event="url{https://modrinth.com/mod/minetranslator}"
 
-👤 duckerahiruquack | 📅 2026-09-01
+👤 NotKing_Choka | 📅 2026-09-02
 
-This is a config mod created by a Japanese developer (including an AI assistant), dedicated to all J
+A smart client-side Minecraft translator for chat, player messages, NPC dialogue, item names, and to
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jej-japanese-config/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jej-japanese-config}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/minetranslator/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/minetranslator}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/JAYrup4Y/afe5409fee4ed91f0b4981a11fc53a5438922d28_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Vq9tuT3n/2367f514e085c85612d5b8f37e8b2eba2e4b381a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Life-Incinerator" event="url{https://modrinth.com/mod/life-incinerator}"
+...button-text text="InstantSkin" event="url{https://modrinth.com/mod/instantskin}"
 
-👤 ByteForge | 📅 2026-09-01
+👤 halilkaanay | 📅 2026-09-02
 
-A cinematic Fabric boss mod featuring a powerful custom boss, underground arena, energy pylons, crys
+Instantly change any player's skin server-wide via simple commands. Copy another player's skin, appl
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/life-incinerator/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/life-incinerator}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/instantskin/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/instantskin}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ A cinematic Fabric boss mod featuring a powerful custom boss, underground arena,
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[PlayStation 3 Edition 1.05](https://minecraft.wiki/PlayStation_3_Edition_1.05)
+📖 **Wiki 推荐**：[Java Edition Indev 0.31 20100122-2251](https://minecraft.wiki/Java_Edition_Indev_0.31_20100122-2251)
 
-⏰ 更新时间：2026-09-01 16:28:16
+⏰ 更新时间：2026-09-02 04:09:04
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
