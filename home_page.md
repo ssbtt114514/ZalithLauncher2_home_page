@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-03 04:05:46
+// 生成时间：2026-09-03 16:16:39
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.AZWilderness_ZH-CN2664566131_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.Westerheversand_ZH-CN0517707643_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"无限接近于零，却又不等于零的可能性。"*
+> *"要走的，不挽留。留下的，我珍惜。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{无限接近于零，却又不等于零的可能性。}"
+...button-text text="📋 复制" event="copy{要走的，不挽留。留下的，我珍惜。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FHeartbreak_Pottery_Sherd}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Mineral}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/4o4yBaUe/dffde0adb2063134cefbfcf6c51c47dba6355d68_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/VNFKk79a/4f3a699e6bbcd0bb76a7f6c251da940b1cefe8a9_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Jurassic Saga More" event="url{https://modrinth.com/mod/jurassic-saga-more}"
+...button-text text="Batch Repairing" event="url{https://modrinth.com/mod/plasmapuffs-batch-repairing}"
 
-👤 Palos | 📅 2026-09-03
+👤 PlasmaPuffs | 📅 2026-09-03
 
-An add-on mod created for Jurassic Saga, introducing a range of additional gameplay features such as
+Allows item repairing with more than two items on the crafting grid
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jurassic-saga-more/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jurassic-saga-more}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/plasmapuffs-batch-repairing/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/plasmapuffs-batch-repairing}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/kES3jsQP/d68f25234e2089c10c227a3195f4c847bf3e8774_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/KPS1DZwV/e32857e6d3e4e0a418e2911b189f4f936c0c2b1d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="ChatTweaks for Hypixel Skyblock" event="url{https://modrinth.com/mod/chatmodifications}"
+...button-text text="Pearl Counter" event="url{https://modrinth.com/mod/epearl-counter}"
 
-👤 Kappu | 📅 2026-09-03
+👤 5Sig | 📅 2026-09-03
 
-Peek and scroll chat without opening it, with configurable extended history.
+A mod that tracks how many pearls people have thrown.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chatmodifications/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chatmodifications}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/epearl-counter/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/epearl-counter}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ovG4lvsf/e4db493b7aae70ce46ba0fb5f5dfbc538b83f51b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/rtAUMpnX/e94e30479e4ef63cb5f8ef995242d4c17c65f0a6.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Clan Alert" event="url{https://modrinth.com/mod/clan-alert}"
+...button-text text="Pickaxer" event="url{https://modrinth.com/mod/pickaxer}"
 
-👤 IGNITEyt | 📅 2026-09-03
+👤 tymannblidenb | 📅 2026-09-03
 
-Clan Alert is a lightweight multiplayer utility mod that provides fast command-based notifications t
+Powerful swords, durable pickaxes, and area mining enchantments! Dig 5x5 with one click!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/clan-alert/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/clan-alert}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pickaxer/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pickaxer}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/WFnAtTj5/754d0564b14cafb7abb529a50d698dd2711d83ff_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/FeG9TeJw/a44453fcd9c7adb76488369d8c95970e4a3b60f1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Runal" event="url{https://modrinth.com/mod/runal}"
+...button-text text="BetterClue-b" event="url{https://modrinth.com/mod/betterclue-b}"
 
-👤 lunahpvp2 | 📅 2026-09-03
+👤 ErinDax | 📅 2026-09-03
 
-Runal, a lightweight utility mod adding custom waypoints with visible beams and name labels, a playe
+Added book categorization, so you no longer need to worry about occupying inventory slots or not bei
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/runal/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/runal}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/betterclue-b/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/betterclue-b}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/won5JE07/3968cf90028d85d8d948b65413068d4c14fca22e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/eVxkzQCG/490270fd9d499757d9987b16e1de2529806093cd.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Custom totems" event="url{https://modrinth.com/mod/custom-totems-uxine}"
+...button-text text="NavaroneeCore" event="url{https://modrinth.com/mod/navaroneecore}"
 
-👤 uxine | 📅 2026-09-03
+👤 navaronee | 📅 2026-09-03
 
-Client-side Fabric mod that lets you replace the Totem of Undying with your own Image/GIF and option
+Core for some of my mods, change camera in nvs motors, for version 1.20.1 some improve and player mo
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/custom-totems-uxine/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/custom-totems-uxine}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/navaroneecore/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/navaroneecore}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Client-side Fabric mod that lets you replace the Totem of Undying with your own 
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：一部守护荒野的法案
-© 郊狼丘，朱红悬崖国家纪念区，亚利桑那州，美国 (© James Hager/Getty Images)
+🖼️ 壁纸：地平线上的红与白
+© 韦斯特黑弗的韦斯特黑弗桑德灯塔，石勒苏益格-荷尔斯泰因州，德国 (© bluejayphoto/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition item texture history/Heartbreak Pottery Sherd](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FHeartbreak_Pottery_Sherd)
+📖 **Wiki 推荐**：[Mineral](https://minecraft.wiki/Mineral)
 
-⏰ 更新时间：2026-09-03 04:05:46
+⏰ 更新时间：2026-09-03 16:16:39
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
