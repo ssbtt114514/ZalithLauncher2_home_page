@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-02 16:26:14
+// 生成时间：2026-09-03 04:05:46
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"你为了你的正义，我为了我的正义。"*
+> *"无限接近于零，却又不等于零的可能性。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{你为了你的正义，我为了我的正义。}"
+...button-text text="📋 复制" event="copy{无限接近于零，却又不等于零的可能性。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_25w09a}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FHeartbreak_Pottery_Sherd}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/lS5xwTPN/0b381661500d02ff7a97eae6d6cd85dd3b9fb0e6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/4o4yBaUe/dffde0adb2063134cefbfcf6c51c47dba6355d68_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Nuclear Age" event="url{https://modrinth.com/mod/create-nuclear-age}"
+...button-text text="Jurassic Saga More" event="url{https://modrinth.com/mod/jurassic-saga-more}"
 
-👤 SiliconCarbideCube | 📅 2026-09-02
+👤 Palos | 📅 2026-09-03
 
-A fork of Create: New Age without all the electrical stuff. Only nuclear and thermal stuff!
+An add-on mod created for Jurassic Saga, introducing a range of additional gameplay features such as
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-nuclear-age/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-nuclear-age}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jurassic-saga-more/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jurassic-saga-more}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/r3Sh0rIm/2ab8a0e762e30cab5aa00743efbf380d178cc229_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/kES3jsQP/d68f25234e2089c10c227a3195f4c847bf3e8774_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="The Static below....." event="url{https://modrinth.com/mod/the-static-below.....}"
+...button-text text="ChatTweaks for Hypixel Skyblock" event="url{https://modrinth.com/mod/chatmodifications}"
 
-👤 87_CREATIONS | 📅 2026-09-02
+👤 Kappu | 📅 2026-09-03
 
-A Entity consumed by his own static is brought to this world to erase YOU and your SINS.......
+Peek and scroll chat without opening it, with configurable extended history.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-static-below...../versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-static-below.....}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chatmodifications/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chatmodifications}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/13gpJzcX/9cdb3c9525a5ede469cfdf8d7126f95441767904_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ovG4lvsf/e4db493b7aae70ce46ba0fb5f5dfbc538b83f51b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Sculk is Yummy" event="url{https://modrinth.com/mod/sculk-is-yummy}"
+...button-text text="Clan Alert" event="url{https://modrinth.com/mod/clan-alert}"
 
-👤 TheBestLoyalist | 📅 2026-09-02
+👤 IGNITEyt | 📅 2026-09-03
 
-You can eat Sculk and Sculk Veins "It truely is REALLY REALLY YUMMY" -Insomniacorvid
+Clan Alert is a lightweight multiplayer utility mod that provides fast command-based notifications t
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sculk-is-yummy/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sculk-is-yummy}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/clan-alert/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/clan-alert}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/hC1xYvnS/1c9eac61811d6405d8b772395d4eb9d5a12e5983_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/WFnAtTj5/754d0564b14cafb7abb529a50d698dd2711d83ff_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: TFMG Community Edition" event="url{https://modrinth.com/mod/tfmg-community-edition}"
+...button-text text="Runal" event="url{https://modrinth.com/mod/runal}"
 
-👤 PouffyDev | 📅 2026-09-02
+👤 lunahpvp2 | 📅 2026-09-03
 
-Create: TFMG Community Edition is a fork of Create: TFMG by DrMangoTea that aims to fix as many bugs
+Runal, a lightweight utility mod adding custom waypoints with visible beams and name labels, a playe
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tfmg-community-edition/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tfmg-community-edition}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/runal/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/runal}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/NdkfKEUi/7a755801b2845d88d79e715ee1ba91b2b8c0317a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/won5JE07/3968cf90028d85d8d948b65413068d4c14fca22e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="TooMuchSafety" event="url{https://modrinth.com/mod/toomuchsafety}"
+...button-text text="Custom totems" event="url{https://modrinth.com/mod/custom-totems-uxine}"
 
-👤 Ypuf | 📅 2026-09-02
+👤 uxine | 📅 2026-09-03
 
-This makes every minecraft:player entity brigette
+Client-side Fabric mod that lets you replace the Totem of Undying with your own Image/GIF and option
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/toomuchsafety/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/toomuchsafety}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/custom-totems-uxine/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/custom-totems-uxine}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ This makes every minecraft:player entity brigette
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 25w09a](https://minecraft.wiki/Java_Edition_25w09a)
+📖 **Wiki 推荐**：[Bedrock Edition item texture history/Heartbreak Pottery Sherd](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FHeartbreak_Pottery_Sherd)
 
-⏰ 更新时间：2026-09-02 16:26:14
+⏰ 更新时间：2026-09-03 04:05:46
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
