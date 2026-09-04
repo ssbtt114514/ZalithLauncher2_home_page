@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-03 16:16:39
+// 生成时间：2026-09-04 04:16:51
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"要走的，不挽留。留下的，我珍惜。"*
+> *"很多事只是最初看起来有意义，但经过多次重复就慢慢失去了意义。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{要走的，不挽留。留下的，我珍惜。}"
+...button-text text="📋 复制" event="copy{很多事只是最初看起来有意义，但经过多次重复就慢慢失去了意义。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Mineral}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Fgetactivescreen}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/VNFKk79a/4f3a699e6bbcd0bb76a7f6c251da940b1cefe8a9_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/fLxYhEAS/6a33e1fd769eaa54266c462863b9ed6e279cf539_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Batch Repairing" event="url{https://modrinth.com/mod/plasmapuffs-batch-repairing}"
+...button-text text="KarmancosGen 2.5" event="url{https://modrinth.com/mod/karmancosgen-2.5}"
 
-👤 PlasmaPuffs | 📅 2026-09-03
+👤 Spinnin34 | 📅 2026-09-04
 
-Allows item repairing with more than two items on the crafting grid
+KarmancosGen2.5 is a Fabric mod that turns the Minecraft client into a web-enabled graphics engine f
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/plasmapuffs-batch-repairing/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/plasmapuffs-batch-repairing}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/karmancosgen-2.5/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/karmancosgen-2.5}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/KPS1DZwV/e32857e6d3e4e0a418e2911b189f4f936c0c2b1d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/5g6g01eu/50b8d158aabaa7e625cf827a1c6c6d01346254a3.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Pearl Counter" event="url{https://modrinth.com/mod/epearl-counter}"
+...button-text text="MysticMC Pinata Tracker" event="url{https://modrinth.com/mod/mysticmc-pinata-tracker}"
 
-👤 5Sig | 📅 2026-09-03
+👤 Sooperbloo | 📅 2026-09-04
 
-A mod that tracks how many pearls people have thrown.
+Creates a global UI for players to remotely see pinata counts.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/epearl-counter/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/epearl-counter}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mysticmc-pinata-tracker/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mysticmc-pinata-tracker}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/rtAUMpnX/e94e30479e4ef63cb5f8ef995242d4c17c65f0a6.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/nirrdVSQ/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Pickaxer" event="url{https://modrinth.com/mod/pickaxer}"
+...button-text text="LiveChat" event="url{https://modrinth.com/mod/live-chat}"
 
-👤 tymannblidenb | 📅 2026-09-03
+👤 createview | 📅 2026-09-04
 
-Powerful swords, durable pickaxes, and area mining enchantments! Dig 5x5 with one click!
+View the chat in your browser, in realtime.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pickaxer/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pickaxer}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/live-chat/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/live-chat}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/FeG9TeJw/a44453fcd9c7adb76488369d8c95970e4a3b60f1_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/YfhLlJko/ffcd839cfb62b9756ab1b94233976a556a5980e2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="BetterClue-b" event="url{https://modrinth.com/mod/betterclue-b}"
+...button-text text="SkyHUD for Hypixel Skyblock" event="url{https://modrinth.com/mod/skyblockhud}"
 
-👤 ErinDax | 📅 2026-09-03
+👤 Kappu | 📅 2026-09-04
 
-Added book categorization, so you no longer need to worry about occupying inventory slots or not bei
+Clean, searchable interfaces for Hypixel SkyBlock's Ender Chest, Loadouts, Wardrobe, and Equipment m
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/betterclue-b/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/betterclue-b}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/skyblockhud/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/skyblockhud}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/eVxkzQCG/490270fd9d499757d9987b16e1de2529806093cd.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/eoPAutxq/e4313e64198bdab60b1590a071b6d2e372e8fc3c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="NavaroneeCore" event="url{https://modrinth.com/mod/navaroneecore}"
+...button-text text="Butter Bot AI - Rick and Morty" event="url{https://modrinth.com/mod/butter-bot-ai-rick-and-morty}"
 
-👤 navaronee | 📅 2026-09-03
+👤 ESKIM | 📅 2026-09-04
 
-Core for some of my mods, change camera in nvs motors, for version 1.20.1 some improve and player mo
+Adds a robot worker you command from a control panel. It hunts down ores, digs tunnels, gathers ingr
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/navaroneecore/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/navaroneecore}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/butter-bot-ai-rick-and-morty/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/butter-bot-ai-rick-and-morty}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Core for some of my mods, change camera in nvs motors, for version 1.20.1 some i
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Mineral](https://minecraft.wiki/Mineral)
+📖 **Wiki 推荐**：[Commands/getactivescreen](https://minecraft.wiki/Commands%2Fgetactivescreen)
 
-⏰ 更新时间：2026-09-03 16:16:39
+⏰ 更新时间：2026-09-04 04:16:51
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
