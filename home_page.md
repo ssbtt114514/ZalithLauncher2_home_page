@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-05 04:07:38
+// 生成时间：2026-09-05 14:59:59
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"独属于盛夏的梦，跌宕了多少春秋。"*
+> *"梦想不会逃跑，会逃跑的只有人"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{独属于盛夏的梦，跌宕了多少春秋。}"
+...button-text text="📋 复制" event="copy{梦想不会逃跑，会逃跑的只有人}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Point_of_interest_type_tag_(Java_Edition)}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Squid_(disambiguation)}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/PgUC2bJ6/9235fef1ce75817defe940b62da95c67935e6231_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/cNSbbGpt/d58106b9628b9e19e4cccaf99fccf85f97421923_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="YunbeiUC: Ocelot Sign" event="url{https://modrinth.com/mod/ocelotsignyunbei}"
+...button-text text="Donut stream stuff" event="url{https://modrinth.com/mod/donut-stream-stuff}"
 
-👤 Beigu | 📅 2026-09-05
+👤 a9zd | 📅 2026-09-05
 
-This mod focuses on road traffic guidance. It features standard road signs from the Chinese Mainland
+this is a donutsmp stream stuff mod featuring auctions floding and draining teams and droper game wi
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ocelotsignyunbei/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ocelotsignyunbei}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/donut-stream-stuff/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/donut-stream-stuff}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/TNjPI06m/923ce275870b444936544691cbe53006eaaca41d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Hx6mGf0Y/94ac8e2087ffb1c418ae554b1000f50f562bf2ed_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="LazyStats" event="url{https://modrinth.com/mod/lazystats}"
+...button-text text="Found Footage With AI" event="url{https://modrinth.com/mod/found-footage-with-ai}"
 
-👤 Vituss | 📅 2026-09-05
+👤 pablo.elias.miranda.292003 | 📅 2026-09-05
 
-This is a Hypixel Bedwars overlay to see the stats of your opponents ingame.
+Immerse yourself in the world of backrooms with some AI-powered monsters capable of answering questi
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lazystats/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lazystats}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/found-footage-with-ai/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/found-footage-with-ai}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/PMlTjclm/c93317ea3ed331762a3514a9a52a55fafcba79dc_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8fsxLDqM/0a25064978ef1b97cfec7dcc4849ae52ece63cb5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="CoordSave" event="url{https://modrinth.com/mod/coordsave}"
+...button-text text="Tier View" event="url{https://modrinth.com/mod/tierview}"
 
-👤 IMakeModsWOW | 📅 2026-09-05
+👤 Ifuto | 📅 2026-09-05
 
-Coord Save saves your coordinates to your discord webhook, instantly.
+Display player's PvP Tiers in their nametag! (PvPTiers and JPTiers and MCTiers)
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/coordsave/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/coordsave}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tierview/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tierview}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/lAChJ4eh/94e523a3dc76bcc4f0210e82cda708fc668c3dcc_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/79TQDfZN/94f2f18903df84b8a5a3faf64e899c3b34cede2d.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Vigils Anti-Cheat" event="url{https://modrinth.com/mod/kons-anti-cheat}"
+...button-text text="WoM" event="url{https://modrinth.com/mod/wom}"
 
-👤 konner.prah | 📅 2026-09-05
+👤 __Hantu__ | 📅 2026-09-05
 
-Anticheat for freecam and x-ray best one
+Whitelist of Mods. A robust server-side mod whitelist/blacklist checker with anti-spoofing protectio
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kons-anti-cheat/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kons-anti-cheat}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wom/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wom}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xro7IeGF/56d6f15c632822de2bcb4f33255f092964c03192_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/JjiZs3B7/3981c0b561d061ed7d9c8b9bf100c91933c798b1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Magneutica | Aeronautics Addon" event="url{https://modrinth.com/mod/create-magneutica}"
+...button-text text="Fleinsopp Delight (A Farmer's Delight Add-on)" event="url{https://modrinth.com/mod/fleinsopp-delight-a-farmers-delight-add-on}"
 
-👤 doza_nuch | 📅 2026-09-05
+👤 steezjr | 📅 2026-09-05
 
-A simple Create: Aeronautics Addon that adds hover lifting block.
+All it adds is the Norwegian Fleinsopp
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-magneutica/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-magneutica}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fleinsopp-delight-a-farmers-delight-add-on/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fleinsopp-delight-a-farmers-delight-add-on}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ A simple Create: Aeronautics Addon that adds hover lifting block.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Point of interest type tag (Java Edition)](https://minecraft.wiki/Point_of_interest_type_tag_(Java_Edition))
+📖 **Wiki 推荐**：[Squid (disambiguation)](https://minecraft.wiki/Squid_(disambiguation))
 
-⏰ 更新时间：2026-09-05 04:07:38
+⏰ 更新时间：2026-09-05 14:59:59
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
