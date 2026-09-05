@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-04 16:12:06
+// 生成时间：2026-09-05 04:07:38
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"你知道的都是真相。只可惜那些并不是真相的全部。"*
+> *"独属于盛夏的梦，跌宕了多少春秋。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{你知道的都是真相。只可惜那些并不是真相的全部。}"
+...button-text text="📋 复制" event="copy{独属于盛夏的梦，跌宕了多少春秋。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_2.0.80x}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Point_of_interest_type_tag_(Java_Edition)}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/WvBQBFQ8/b7918e62cbdeae2927fc9f7104d2c3bb7dc2ba74.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/PgUC2bJ6/9235fef1ce75817defe940b62da95c67935e6231_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="ItemFlexer Modern [FORK]" event="url{https://modrinth.com/mod/itemflexer-modern}"
+...button-text text="YunbeiUC: Ocelot Sign" event="url{https://modrinth.com/mod/ocelotsignyunbei}"
 
-👤 TeamJEM | 📅 2026-09-04
+👤 Beigu | 📅 2026-09-05
 
-Simple server-side mod that allows you to flex you items [UNOFFICIAL UPDATED FORK]
+This mod focuses on road traffic guidance. It features standard road signs from the Chinese Mainland
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/itemflexer-modern/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/itemflexer-modern}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ocelotsignyunbei/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ocelotsignyunbei}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/heURuyDB/b4386a6a06fb7ea8fcae399b5b62dddd192305d4_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/TNjPI06m/923ce275870b444936544691cbe53006eaaca41d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="deadly coca cola weapon" event="url{https://modrinth.com/mod/deadly-coca-cola-weapon}"
+...button-text text="LazyStats" event="url{https://modrinth.com/mod/lazystats}"
 
-👤 MarkinDark | 📅 2026-09-04
+👤 Vituss | 📅 2026-09-05
 
-this mod has a weapon called coca cola and it deals infinite amount of damage, it also lets you brea
+This is a Hypixel Bedwars overlay to see the stats of your opponents ingame.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/deadly-coca-cola-weapon/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/deadly-coca-cola-weapon}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lazystats/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lazystats}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/On66g32P/cf2f72a1915016f4aba5221c73c5655cf0136ae9.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/PMlTjclm/c93317ea3ed331762a3514a9a52a55fafcba79dc_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="UnstableSMP Death Sound" event="url{https://modrinth.com/mod/unstablesmp-death-sound}"
+...button-text text="CoordSave" event="url{https://modrinth.com/mod/coordsave}"
 
-👤 Zymetry | 📅 2026-09-04
+👤 IMakeModsWOW | 📅 2026-09-05
 
-This Mod adds the Iconic UnstableSMP Death Sound when a Player gets killed.
+Coord Save saves your coordinates to your discord webhook, instantly.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/unstablesmp-death-sound/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/unstablesmp-death-sound}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/coordsave/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/coordsave}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/9g79uGGr/a713878204beaac15d1d294742e4ea505ce344a9_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/lAChJ4eh/94e523a3dc76bcc4f0210e82cda708fc668c3dcc_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mekanism: Mass Storage" event="url{https://modrinth.com/mod/mekanism-mass-storage}"
+...button-text text="Vigils Anti-Cheat" event="url{https://modrinth.com/mod/kons-anti-cheat}"
 
-👤 sethpecl | 📅 2026-09-04
+👤 konner.prah | 📅 2026-09-05
 
-tiers of storage/muti type of block
+Anticheat for freecam and x-ray best one
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mekanism-mass-storage/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mekanism-mass-storage}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kons-anti-cheat/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kons-anti-cheat}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Kqy5Xhq5/d6e253e314318ccdf755e505738bbc11de8b20ec_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xro7IeGF/56d6f15c632822de2bcb4f33255f092964c03192_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="TheBackroomsMod" event="url{https://modrinth.com/mod/thebackroomsmod}"
+...button-text text="Create: Magneutica | Aeronautics Addon" event="url{https://modrinth.com/mod/create-magneutica}"
 
-👤 TheCj | 📅 2026-09-04
+👤 doza_nuch | 📅 2026-09-05
 
-Adds Backrooms Blocks A New Dimension Everyones favorite thing entities and much more
+A simple Create: Aeronautics Addon that adds hover lifting block.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/thebackroomsmod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/thebackroomsmod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-magneutica/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-magneutica}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Adds Backrooms Blocks A New Dimension Everyones favorite thing entities and much
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Launcher 2.0.80x](https://minecraft.wiki/Launcher_2.0.80x)
+📖 **Wiki 推荐**：[Point of interest type tag (Java Edition)](https://minecraft.wiki/Point_of_interest_type_tag_(Java_Edition))
 
-⏰ 更新时间：2026-09-04 16:12:06
+⏰ 更新时间：2026-09-05 04:07:38
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
