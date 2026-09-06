@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-06 04:15:35
+// 生成时间：2026-09-06 15:20:42
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"明明是个视观者，却以主角的观念活着！"*
+> *"长大了，就要自己做决定，哪怕是艰难的决定。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{明明是个视观者，却以主角的观念活着！}"
+...button-text text="📋 复制" event="copy{长大了，就要自己做决定，哪怕是艰难的决定。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_2.1.1584x}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Mushroom_Stew}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/yVkT4PDb/4edff6d1ec625aa6febc7d0bdc7f0a7c57f8a3ac.jpeg" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/UXJsdXUh/934230da583e7dfc762f2f814d876c050774a644.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Armor Statues Extra Datapack" event="url{https://modrinth.com/mod/armor-statues-extra-datapack}"
+...button-text text="Moss everywhere" event="url{https://modrinth.com/mod/moss-everywhere}"
 
-👤 Tarquitet_2002 | 📅 2026-09-06
+👤 HiZzyM0 | 📅 2026-09-06
 
-Extra addon for Armor Statues Datapack but with new options to use with building, decoration or mini
+This mod adds ability to spread moss and cave vines on the walls and roof.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/armor-statues-extra-datapack/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/armor-statues-extra-datapack}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/moss-everywhere/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/moss-everywhere}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/cNSbbGpt/d58106b9628b9e19e4cccaf99fccf85f97421923_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/h0IDTSdb/72570b282fd97f557bd0c861afcbdf14a6192c65.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Donut stream stuff" event="url{https://modrinth.com/mod/donut-stream-stuff}"
+...button-text text="FFItemWeight" event="url{https://modrinth.com/mod/ffitemweight}"
 
-👤 a9zd | 📅 2026-09-05
+👤 Fyxe | 📅 2026-09-06
 
-this is a donutsmp stream stuff mod featuring auctions floding and draining teams and droper game wi
+Adds weight and encumbrance built from crafting recipes and data. Insanely configurable.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/donut-stream-stuff/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/donut-stream-stuff}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ffitemweight/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ffitemweight}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Hx6mGf0Y/94ac8e2087ffb1c418ae554b1000f50f562bf2ed_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ov4lntnz/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Found Footage With AI" event="url{https://modrinth.com/mod/found-footage-with-ai}"
+...button-text text="ChatGame Helper" event="url{https://modrinth.com/mod/chatgame-helper}"
 
-👤 pablo.elias.miranda.292003 | 📅 2026-09-05
+👤 MPshayan | 📅 2026-09-06
 
-Immerse yourself in the world of backrooms with some AI-powered monsters capable of answering questi
+Automatically solve Minecraft ChatGames with customizable answer delays and smart challenge detectio
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/found-footage-with-ai/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/found-footage-with-ai}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chatgame-helper/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chatgame-helper}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8fsxLDqM/0a25064978ef1b97cfec7dcc4849ae52ece63cb5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/SYjvUdhN/943279e7d6182706f735b5bb1a1cbf47d36f3013_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Tier View" event="url{https://modrinth.com/mod/tierview}"
+...button-text text="Infinity - Absolute Defense" event="url{https://modrinth.com/mod/infininty-absolute-defense}"
 
-👤 Ifuto | 📅 2026-09-05
+👤 tibr | 📅 2026-09-06
 
-Display player's PvP Tiers in their nametag! (PvPTiers and JPTiers and MCTiers)
+This project is an attempt to recreate satoru gojo's infinity from jujutsu kaisen.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tierview/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tierview}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/infininty-absolute-defense/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/infininty-absolute-defense}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/79TQDfZN/94f2f18903df84b8a5a3faf64e899c3b34cede2d.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/tufcKcge/9c743bc35b7755c5183574f79fc009965362910e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="WoM" event="url{https://modrinth.com/mod/wom}"
+...button-text text="DNDLN's Craftable Cobweb" event="url{https://modrinth.com/mod/dndlns-craftable-cobweb}"
 
-👤 __Hantu__ | 📅 2026-09-05
+👤 dandelion_ua | 📅 2026-09-06
 
-Whitelist of Mods. A robust server-side mod whitelist/blacklist checker with anti-spoofing protectio
+This mod/datapack adds a simple vegan-friendly craft for cobwebs using 5 strings arranged in a cross
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wom/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wom}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dndlns-craftable-cobweb/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dndlns-craftable-cobweb}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Whitelist of Mods. A robust server-side mod whitelist/blacklist checker with ant
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Launcher 2.1.1584x](https://minecraft.wiki/Launcher_2.1.1584x)
+📖 **Wiki 推荐**：[Mushroom Stew](https://minecraft.wiki/Mushroom_Stew)
 
-⏰ 更新时间：2026-09-06 04:15:35
+⏰ 更新时间：2026-09-06 15:20:42
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
