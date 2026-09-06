@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-05 14:59:59
+// 生成时间：2026-09-06 04:15:35
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.GreenCrowned_ZH-CN0697075036_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.LakeFyans_ZH-CN1067187791_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"梦想不会逃跑，会逃跑的只有人"*
+> *"明明是个视观者，却以主角的观念活着！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{梦想不会逃跑，会逃跑的只有人}"
+...button-text text="📋 复制" event="copy{明明是个视观者，却以主角的观念活着！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Squid_(disambiguation)}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_2.1.1584x}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -66,6 +66,22 @@
 // --- 🧩 Modrinth 最新模组 ---
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/yVkT4PDb/4edff6d1ec625aa6febc7d0bdc7f0a7c57f8a3ac.jpeg" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Armor Statues Extra Datapack" event="url{https://modrinth.com/mod/armor-statues-extra-datapack}"
+
+👤 Tarquitet_2002 | 📅 2026-09-06
+
+Extra addon for Armor Statues Datapack but with new options to use with building, decoration or mini
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/armor-statues-extra-datapack/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/armor-statues-extra-datapack}" weight=(1)
+...row-end
+...column-end
+...row-end
+
 ...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/cNSbbGpt/d58106b9628b9e19e4cccaf99fccf85f97421923_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
@@ -130,22 +146,6 @@ Whitelist of Mods. A robust server-side mod whitelist/blacklist checker with ant
 ...column-end
 ...row-end
 
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/JjiZs3B7/3981c0b561d061ed7d9c8b9bf100c91933c798b1_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Fleinsopp Delight (A Farmer's Delight Add-on)" event="url{https://modrinth.com/mod/fleinsopp-delight-a-farmers-delight-add-on}"
-
-👤 steezjr | 📅 2026-09-05
-
-All it adds is the Norwegian Fleinsopp
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fleinsopp-delight-a-farmers-delight-add-on/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fleinsopp-delight-a-farmers-delight-add-on}" weight=(1)
-...row-end
-...column-end
-...row-end
-
 ...row-start horizontal=spacedBy(8)
 ...button text="📥 访问 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
 ...row-end
@@ -173,14 +173,14 @@ All it adds is the Norwegian Fleinsopp
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：小小鸟儿，巨大影响
-© 龙虾爪花上取食的绿顶辉蜂鸟，哥斯达黎加 (© Paul Hobson/Nature Picture Library)
+🖼️ 壁纸：倒影满湖的水库
+© 菲安斯湖，格兰屏国家公园，维多利亚州，澳大利亚 (© tracielouise/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Squid (disambiguation)](https://minecraft.wiki/Squid_(disambiguation))
+📖 **Wiki 推荐**：[Launcher 2.1.1584x](https://minecraft.wiki/Launcher_2.1.1584x)
 
-⏰ 更新时间：2026-09-05 14:59:59
+⏰ 更新时间：2026-09-06 04:15:35
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
