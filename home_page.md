@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-07 04:14:42
+// 生成时间：2026-09-07 17:40:00
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.BambergTownhall_ZH-CN1407954732_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.BeechEngland_ZH-CN1807343872_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我忘记了所有苦痛，眼前所见皆是奇迹。"*
+> *"不要总想着谁会带你逃跑，大家都有自己的沼泽。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我忘记了所有苦痛，眼前所见皆是奇迹。}"
+...button-text text="📋 复制" event="copy{不要总想着谁会带你逃跑，大家都有自己的沼泽。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FGoat_Horn}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FCrafting_Table}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/59i62i2m/656e27767eb6935edad06e8b2f64e11d4b847860_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/TJGdtgTQ/31cd73f077a3e4168375fdce33b641ba5995c578.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="microDurability Upgraded" event="url{https://modrinth.com/mod/microdurability-upgraded}"
+...button-text text="SwetLick" event="url{https://modrinth.com/mod/swetlick}"
 
-👤 erikcool3 | 📅 2026-09-07
+👤 sweetpeps1 | 📅 2026-09-07
 
-A minimal durability viewer that shows the durability bars of your armor right above the hotbar, wit
+Its a mod that in future will have a lot of items and more interensted the game
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/microdurability-upgraded/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/microdurability-upgraded}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/swetlick/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/swetlick}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/YDVe3mRy/ba171ff4fdbea8a3f2d5934b460e6856acbf4ddc.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/up7Sq4ym/c2ef19c22a1927b81751cf41695d29bc1aa194e9_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Zoey's Expanded Vanilla" event="url{https://modrinth.com/mod/zoeys-expanded-vanilla}"
+...button-text text="Escape from the abyss" event="url{https://modrinth.com/mod/escape-from-the-abyss}"
 
-👤 ZoeyHuntsman | 📅 2026-09-07
+👤 Shoujou_Masao | 📅 2026-09-07
 
-Adds a number of QoL changes, fills out block sets, and adds few features for equipment while trying
+This is a mod that aims to escape from the labyrinth.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/zoeys-expanded-vanilla/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/zoeys-expanded-vanilla}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/escape-from-the-abyss/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/escape-from-the-abyss}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/4q0pyKoz/14ab73a7c94cd619ea9047c6cbd73f9b51e5cfce_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/luhMP6dA/f63762e3cc53a2a8085e04f46c5b23ec51bdcc5b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Draconic Simulations Assets" event="url{https://modrinth.com/mod/draconic-simulations-assets}"
+...button-text text="Firearms Weapons" event="url{https://modrinth.com/mod/firearms-weapons}"
 
-👤 DraconicStudios | 📅 2026-09-07
+👤 Shoujou_Masao | 📅 2026-09-07
 
-This is a dynamically changing mod containing custom-block assets for all Draconic Simulations event
+This mod adds simple and easy-to-use firearms.One-handed guns can be used in both the main hand and 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/draconic-simulations-assets/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/draconic-simulations-assets}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/firearms-weapons/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/firearms-weapons}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/OoHmoH6U/980d7fd3616fef9aa5cf83d5022bf03f09edd915_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/DYEIuSAH/f7b842ee292d3c41e6eba18355e5584c317b243f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="CC: Atmos" event="url{https://modrinth.com/mod/cc-atmos}"
+...button-text text="immobilize happy ghast" event="url{https://modrinth.com/mod/immobilize-happy-ghast}"
 
-👤 Xylopia | 📅 2026-09-07
+👤 RealMikoto | 📅 2026-09-07
 
-A programmable robot companion for ComputerCraft: Tweaked — script the Atmo to scan, navigate, mine,
+Stay. Even when you walk away.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cc-atmos/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cc-atmos}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/immobilize-happy-ghast/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/immobilize-happy-ghast}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/O1sqMzAf/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ujoHXAxh/7bd9463abf0d0a246ca65f7f1ba152cf97516ce2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="AIOrder" event="url{https://modrinth.com/mod/aiorder}"
+...button-text text="Shaderpack_KaiGuan" event="url{https://modrinth.com/mod/shaderpack_kaiguan}"
 
-👤 FreshCool | 📅 2026-09-07
+👤 TKC_Aether | 📅 2026-09-07
 
-Instantly sort and organize your inventory using custom visual slot presets, hotkeys, and fallback p
+THE Toggle Shaders with Commands
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/aiorder/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/aiorder}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/shaderpack_kaiguan/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/shaderpack_kaiguan}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Instantly sort and organize your inventory using custom visual slot presets, hot
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：历史沿运河流淌之地
-© 老市政厅，班贝格，德国 (© SCStock/Getty Images)
+🖼️ 壁纸：金色田野
+© 东米恩南唐斯国家公园谷物田中的山毛榉树，汉普郡，英格兰 (© Guy Edwardes/Minden Pictures)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition item texture history/Goat Horn](https://minecraft.wiki/Java_Edition_item_texture_history%2FGoat_Horn)
+📖 **Wiki 推荐**：[Java Edition block render history/Crafting Table](https://minecraft.wiki/Java_Edition_block_render_history%2FCrafting_Table)
 
-⏰ 更新时间：2026-09-07 04:14:42
+⏰ 更新时间：2026-09-07 17:40:00
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
