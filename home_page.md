@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-06 15:20:42
+// 生成时间：2026-09-07 04:14:42
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.LakeFyans_ZH-CN1067187791_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.BambergTownhall_ZH-CN1407954732_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"长大了，就要自己做决定，哪怕是艰难的决定。"*
+> *"我忘记了所有苦痛，眼前所见皆是奇迹。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{长大了，就要自己做决定，哪怕是艰难的决定。}"
+...button-text text="📋 复制" event="copy{我忘记了所有苦痛，眼前所见皆是奇迹。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Mushroom_Stew}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FGoat_Horn}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/UXJsdXUh/934230da583e7dfc762f2f814d876c050774a644.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/59i62i2m/656e27767eb6935edad06e8b2f64e11d4b847860_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Moss everywhere" event="url{https://modrinth.com/mod/moss-everywhere}"
+...button-text text="microDurability Upgraded" event="url{https://modrinth.com/mod/microdurability-upgraded}"
 
-👤 HiZzyM0 | 📅 2026-09-06
+👤 erikcool3 | 📅 2026-09-07
 
-This mod adds ability to spread moss and cave vines on the walls and roof.
+A minimal durability viewer that shows the durability bars of your armor right above the hotbar, wit
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/moss-everywhere/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/moss-everywhere}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/microdurability-upgraded/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/microdurability-upgraded}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/h0IDTSdb/72570b282fd97f557bd0c861afcbdf14a6192c65.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/YDVe3mRy/ba171ff4fdbea8a3f2d5934b460e6856acbf4ddc.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="FFItemWeight" event="url{https://modrinth.com/mod/ffitemweight}"
+...button-text text="Zoey's Expanded Vanilla" event="url{https://modrinth.com/mod/zoeys-expanded-vanilla}"
 
-👤 Fyxe | 📅 2026-09-06
+👤 ZoeyHuntsman | 📅 2026-09-07
 
-Adds weight and encumbrance built from crafting recipes and data. Insanely configurable.
+Adds a number of QoL changes, fills out block sets, and adds few features for equipment while trying
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ffitemweight/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ffitemweight}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/zoeys-expanded-vanilla/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/zoeys-expanded-vanilla}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ov4lntnz/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/4q0pyKoz/14ab73a7c94cd619ea9047c6cbd73f9b51e5cfce_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="ChatGame Helper" event="url{https://modrinth.com/mod/chatgame-helper}"
+...button-text text="Draconic Simulations Assets" event="url{https://modrinth.com/mod/draconic-simulations-assets}"
 
-👤 MPshayan | 📅 2026-09-06
+👤 DraconicStudios | 📅 2026-09-07
 
-Automatically solve Minecraft ChatGames with customizable answer delays and smart challenge detectio
+This is a dynamically changing mod containing custom-block assets for all Draconic Simulations event
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chatgame-helper/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chatgame-helper}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/draconic-simulations-assets/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/draconic-simulations-assets}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/SYjvUdhN/943279e7d6182706f735b5bb1a1cbf47d36f3013_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/OoHmoH6U/980d7fd3616fef9aa5cf83d5022bf03f09edd915_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Infinity - Absolute Defense" event="url{https://modrinth.com/mod/infininty-absolute-defense}"
+...button-text text="CC: Atmos" event="url{https://modrinth.com/mod/cc-atmos}"
 
-👤 tibr | 📅 2026-09-06
+👤 Xylopia | 📅 2026-09-07
 
-This project is an attempt to recreate satoru gojo's infinity from jujutsu kaisen.
+A programmable robot companion for ComputerCraft: Tweaked — script the Atmo to scan, navigate, mine,
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/infininty-absolute-defense/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/infininty-absolute-defense}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cc-atmos/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cc-atmos}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/tufcKcge/9c743bc35b7755c5183574f79fc009965362910e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/O1sqMzAf/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="DNDLN's Craftable Cobweb" event="url{https://modrinth.com/mod/dndlns-craftable-cobweb}"
+...button-text text="AIOrder" event="url{https://modrinth.com/mod/aiorder}"
 
-👤 dandelion_ua | 📅 2026-09-06
+👤 FreshCool | 📅 2026-09-07
 
-This mod/datapack adds a simple vegan-friendly craft for cobwebs using 5 strings arranged in a cross
+Instantly sort and organize your inventory using custom visual slot presets, hotkeys, and fallback p
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dndlns-craftable-cobweb/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dndlns-craftable-cobweb}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/aiorder/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/aiorder}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ This mod/datapack adds a simple vegan-friendly craft for cobwebs using 5 strings
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：倒影满湖的水库
-© 菲安斯湖，格兰屏国家公园，维多利亚州，澳大利亚 (© tracielouise/Getty Images)
+🖼️ 壁纸：历史沿运河流淌之地
+© 老市政厅，班贝格，德国 (© SCStock/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Mushroom Stew](https://minecraft.wiki/Mushroom_Stew)
+📖 **Wiki 推荐**：[Java Edition item texture history/Goat Horn](https://minecraft.wiki/Java_Edition_item_texture_history%2FGoat_Horn)
 
-⏰ 更新时间：2026-09-06 15:20:42
+⏰ 更新时间：2026-09-07 04:14:42
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
