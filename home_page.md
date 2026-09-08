@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-07 17:40:00
+// 生成时间：2026-09-08 04:15:25
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"不要总想着谁会带你逃跑，大家都有自己的沼泽。"*
+> *"温柔正确的人总是难以生存，因为这世界既不温柔，也不正确。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{不要总想着谁会带你逃跑，大家都有自己的沼泽。}"
+...button-text text="📋 复制" event="copy{温柔正确的人总是难以生存，因为这世界既不温柔，也不正确。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FCrafting_Table}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/1.33}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/TJGdtgTQ/31cd73f077a3e4168375fdce33b641ba5995c578.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/npeIMydt/325e66a778894652076f0f26cbecb86208f42944_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="SwetLick" event="url{https://modrinth.com/mod/swetlick}"
+...button-text text="fart-pillow" event="url{https://modrinth.com/mod/fart-pillow}"
 
-👤 sweetpeps1 | 📅 2026-09-07
+👤 zaibalbliat_777 | 📅 2026-09-08
 
-Its a mod that in future will have a lot of items and more interensted the game
+Want to prank your friends? You need this mod!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/swetlick/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/swetlick}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fart-pillow/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fart-pillow}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/up7Sq4ym/c2ef19c22a1927b81751cf41695d29bc1aa194e9_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/S1waYAqb/44136f7c12e42d792ff624b7fdae2c49fd3ee254_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Escape from the abyss" event="url{https://modrinth.com/mod/escape-from-the-abyss}"
+...button-text text="Painter Mod" event="url{https://modrinth.com/mod/painter-mod}"
 
-👤 Shoujou_Masao | 📅 2026-09-07
+👤 leonidlikeow | 📅 2026-09-08
 
-This is a mod that aims to escape from the labyrinth.
+Tired of having the same texture on all sides of a block? Painter Mod introduces an intuitive, vanil
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/escape-from-the-abyss/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/escape-from-the-abyss}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/painter-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/painter-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/luhMP6dA/f63762e3cc53a2a8085e04f46c5b23ec51bdcc5b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/e4wDomN0/860a1ef432582b58602c70a1f435ab584c667fb3.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Firearms Weapons" event="url{https://modrinth.com/mod/firearms-weapons}"
+...button-text text="One Level Renaming" event="url{https://modrinth.com/mod/one-level-renaming}"
 
-👤 Shoujou_Masao | 📅 2026-09-07
+👤 deborn | 📅 2026-09-08
 
-This mod adds simple and easy-to-use firearms.One-handed guns can be used in both the main hand and 
+Renaming now always cost 1 level, regardless of the item's enchantments! Fixes MC-122763.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/firearms-weapons/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/firearms-weapons}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/one-level-renaming/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/one-level-renaming}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/DYEIuSAH/f7b842ee292d3c41e6eba18355e5584c317b243f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vPCNcz6z/f580f68933323bf00c779a576b8a26553d89cbb2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="immobilize happy ghast" event="url{https://modrinth.com/mod/immobilize-happy-ghast}"
+...button-text text="FlawyLaser" event="url{https://modrinth.com/mod/flawylaser}"
 
-👤 RealMikoto | 📅 2026-09-07
+👤 mehmetcraft1 | 📅 2026-09-08
 
-Stay. Even when you walk away.
+Customizable laser eyes, eye calibration, explosive lasers, Better Third Person camera and multiplay
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/immobilize-happy-ghast/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/immobilize-happy-ghast}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/flawylaser/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/flawylaser}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ujoHXAxh/7bd9463abf0d0a246ca65f7f1ba152cf97516ce2_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/rAfJnVgb/b113c61547e7efc5c9490a6c7af8fcce85fdc58c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Shaderpack_KaiGuan" event="url{https://modrinth.com/mod/shaderpack_kaiguan}"
+...button-text text="NoMoreDeadChunk" event="url{https://modrinth.com/mod/nomoredeadchunk}"
 
-👤 TKC_Aether | 📅 2026-09-07
+👤 DeadYee | 📅 2026-09-08
 
-THE Toggle Shaders with Commands
+bro all i can say for this mod is that there will no more dead chunk in ya's world
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/shaderpack_kaiguan/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/shaderpack_kaiguan}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nomoredeadchunk/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nomoredeadchunk}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ THE Toggle Shaders with Commands
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition block render history/Crafting Table](https://minecraft.wiki/Java_Edition_block_render_history%2FCrafting_Table)
+📖 **Wiki 推荐**：[1.33](https://minecraft.wiki/1.33)
 
-⏰ 更新时间：2026-09-07 17:40:00
+⏰ 更新时间：2026-09-08 04:15:25
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
