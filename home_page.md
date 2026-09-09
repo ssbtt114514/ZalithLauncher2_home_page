@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-08 16:29:25
+// 生成时间：2026-09-09 04:21:22
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"憧憬是距离理解最遥远的感情。"*
+> *"半墨荒唐留纸上，半梦清泪掩眸光。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{憧憬是距离理解最遥远的感情。}"
+...button-text text="📋 复制" event="copy{半墨荒唐留纸上，半梦清泪掩眸光。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FSky_Box}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/26.1}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/AMyNvQwm/63d0ee46a5dfe1f663324aa475b7a162c46eb330_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6xFYif5i/3fe56aebc5c63de0af1a3ab0a12c50b5cf0c6fc5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="FlightAssistant Continued" event="url{https://modrinth.com/mod/flightassistant-continued}"
+...button-text text="Creepy Horror Sounds" event="url{https://modrinth.com/mod/creepy-horror-sounds}"
 
-👤 Henner4746 | 📅 2026-09-08
+👤 arjon0281 | 📅 2026-09-09
 
-Unofficial community continuation of FlightAssistant for Minecraft 26.2+ with bug fixes.
+Adds creepy horror sounds to Minecraft 1.20.x for a more intense and unsettling atmosphere
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/flightassistant-continued/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/flightassistant-continued}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/creepy-horror-sounds/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/creepy-horror-sounds}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/9PyYwB18/bce222d6eb8f5a74a4e29d7677e006c4b1f1c251_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/5pGAtOT0/a00eae26331f4041c6f74cf606875b8a5b1bd511.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Dynamic Tweaker" event="url{https://modrinth.com/mod/dynamic-tweaker}"
+...button-text text="No Sneak Cancel" event="url{https://modrinth.com/mod/nosneakcancel}"
 
-👤 noshricardo | 📅 2026-09-08
+👤 Lilyy2565 | 📅 2026-09-09
 
-A simple gui recipe editor for neoforge 1.21.1 that applies changes immidiatly without /reload
+Prevents toggled sneaking from being cancelled in UI.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dynamic-tweaker/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dynamic-tweaker}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nosneakcancel/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nosneakcancel}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7MkoAXyj/2ee93ae7b0b13180a04ed44cbea4fe16b772c9fd.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/HrCGPXRQ/3beeee62beca16ad6177470d96f5d54eb2e61aa0_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Old Potions" event="url{https://modrinth.com/mod/old-potions}"
+...button-text text="NeoProtect" event="url{https://modrinth.com/mod/neoprotect}"
 
-👤 catsflex | 📅 2026-09-08
+👤 Sigismundsblade | 📅 2026-09-09
 
-Restores potion colors and enchantment glints from older Minecraft versions with flexible per-effect
+NeoProtect is a server-side logging mod that records block changes and player container interactions
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/old-potions/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/old-potions}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/neoprotect/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/neoprotect}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/npeIMydt/325e66a778894652076f0f26cbecb86208f42944_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/EfHl2veE/441939c620d5e93f8154466b51d7290a4e974746_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="fart-pillow" event="url{https://modrinth.com/mod/fart-pillow}"
+...button-text text="RadioMod" event="url{https://modrinth.com/mod/radiomod-akybeff}"
 
-👤 zaibalbliat_777 | 📅 2026-09-08
+👤 aKyBeFf | 📅 2026-09-09
 
-Want to prank your friends? You need this mod!
+Adds a radio feature that lets you listen to songs from YouTube and SoundCloud, as well as MP3s.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fart-pillow/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fart-pillow}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/radiomod-akybeff/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/radiomod-akybeff}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/S1waYAqb/44136f7c12e42d792ff624b7fdae2c49fd3ee254_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/yZZ7JQI4/ade4f6a34c4bc8f01319ecd7240540344a90d9cc_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Painter Mod" event="url{https://modrinth.com/mod/painter-mod}"
+...button-text text="LootRoulette" event="url{https://modrinth.com/mod/lootroulette}"
 
-👤 leonidlikeow | 📅 2026-09-08
+👤 aKyBeFf | 📅 2026-09-09
 
-Tired of having the same texture on all sides of a block? Painter Mod introduces an intuitive, vanil
+Every naturally generated chest or barrel spins like a roulette when opened, with a chance to roll b
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/painter-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/painter-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lootroulette/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lootroulette}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Tired of having the same texture on all sides of a block? Painter Mod introduces
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition item texture history/Sky Box](https://minecraft.wiki/Java_Edition_item_texture_history%2FSky_Box)
+📖 **Wiki 推荐**：[26.1](https://minecraft.wiki/26.1)
 
-⏰ 更新时间：2026-09-08 16:29:25
+⏰ 更新时间：2026-09-09 04:21:22
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
