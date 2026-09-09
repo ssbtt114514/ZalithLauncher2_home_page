@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-09 04:21:22
+// 生成时间：2026-09-09 16:25:59
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.GabitKeni_ZH-CN2314122948_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.Olvera_ZH-CN2727093856_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"半墨荒唐留纸上，半梦清泪掩眸光。"*
+> *"一定没有问题的！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{半墨荒唐留纸上，半梦清泪掩眸光。}"
+...button-text text="📋 复制" event="copy{一定没有问题的！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/26.1}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FFire}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6xFYif5i/3fe56aebc5c63de0af1a3ab0a12c50b5cf0c6fc5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/rGTyYNHz/cff26ac827fe0b48ac41dee28b78f84c60c66187.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Creepy Horror Sounds" event="url{https://modrinth.com/mod/creepy-horror-sounds}"
+...button-text text="TQQ" event="url{https://modrinth.com/mod/tqqs}"
 
-👤 arjon0281 | 📅 2026-09-09
+👤 SteDoom | 📅 2026-09-09
 
-Adds creepy horror sounds to Minecraft 1.20.x for a more intense and unsettling atmosphere
+This mod adds 5 girls from the anime The Quintessential Quintuplets and various variations.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/creepy-horror-sounds/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/creepy-horror-sounds}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tqqs/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tqqs}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/5pGAtOT0/a00eae26331f4041c6f74cf606875b8a5b1bd511.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/KG2rXgFv/b28ae20b91862975750e99f6b2304617877af506.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="No Sneak Cancel" event="url{https://modrinth.com/mod/nosneakcancel}"
+...button-text text="Litematica Bobby Fix Fork" event="url{https://modrinth.com/mod/litematica-bobby-fix-fork}"
 
-👤 Lilyy2565 | 📅 2026-09-09
+👤 Aell_ | 📅 2026-09-09
 
-Prevents toggled sneaking from being cancelled in UI.
+Litematica draws your schematic in Bobby's chunks — as far as you can see.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nosneakcancel/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nosneakcancel}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/litematica-bobby-fix-fork/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/litematica-bobby-fix-fork}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/HrCGPXRQ/3beeee62beca16ad6177470d96f5d54eb2e61aa0_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/3gYjtCHg/7d00e128981fc99b8c0031c48b0b93b6e2256934_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="NeoProtect" event="url{https://modrinth.com/mod/neoprotect}"
+...button-text text="Blocks-CIT" event="url{https://modrinth.com/mod/blocks-cit}"
 
-👤 Sigismundsblade | 📅 2026-09-09
+👤 J4ckD_ | 📅 2026-09-09
 
-NeoProtect is a server-side logging mod that records block changes and player container interactions
+You can change any mining stage texture for any specific block
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/neoprotect/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/neoprotect}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/blocks-cit/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/blocks-cit}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/EfHl2veE/441939c620d5e93f8154466b51d7290a4e974746_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ATX2NaJR/6bf1601fed889e7ce76a43bd742a901f0cef44f8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="RadioMod" event="url{https://modrinth.com/mod/radiomod-akybeff}"
+...button-text text="VO: Camera Culling" event="url{https://modrinth.com/mod/vo-camera-culling}"
 
-👤 aKyBeFf | 📅 2026-09-09
+👤 dasikigaijin | 📅 2026-09-09
 
-Adds a radio feature that lets you listen to songs from YouTube and SoundCloud, as well as MP3s.
+Unrender the unseen. Lightweight, zero-allocation camera occlusion culling, 2-sided sign text cullin
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/radiomod-akybeff/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/radiomod-akybeff}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/vo-camera-culling/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/vo-camera-culling}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/yZZ7JQI4/ade4f6a34c4bc8f01319ecd7240540344a90d9cc_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/XKLHPTex/9048722d0b943901a8dd4d3f93a421b7d431e047_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="LootRoulette" event="url{https://modrinth.com/mod/lootroulette}"
+...button-text text="Do I Reload?" event="url{https://modrinth.com/mod/do-i-reload}"
 
-👤 aKyBeFf | 📅 2026-09-09
+👤 bikkypuff | 📅 2026-09-09
 
-Every naturally generated chest or barrel spins like a roulette when opened, with a chance to roll b
+Only reload the Resource Packs if a change was actually made! The fix for MC-267868.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lootroulette/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lootroulette}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/do-i-reload/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/do-i-reload}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Every naturally generated chest or barrel spins like a roulette when opened, wit
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：印度西海岸的生活
-© 安科拉附近的加比特凯尼海滩，卡纳塔克邦，印度 (© Amith Nag Photography/Getty Images)
+🖼️ 壁纸：俯瞰大地拼图
+© 奥尔韦拉航拍图，安达卢西亚，西班牙 (© Marco Bottigelli/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[26.1](https://minecraft.wiki/26.1)
+📖 **Wiki 推荐**：[Java Edition block render history/Fire](https://minecraft.wiki/Java_Edition_block_render_history%2FFire)
 
-⏰ 更新时间：2026-09-09 04:21:22
+⏰ 更新时间：2026-09-09 16:25:59
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
