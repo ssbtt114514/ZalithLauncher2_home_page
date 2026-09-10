@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-10 04:18:39
+// 生成时间：2026-09-10 16:15:28
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.Olvera_ZH-CN2727093856_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.FrenchRivieraVillage_ZH-CN2888811422_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"闇を晴らして、あなたの言葉を胸に抱いて。"*
+> *"人，百年一世；龙，百年一岁。君生吾已老，君未变，而吾已老。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{闇を晴らして、あなたの言葉を胸に抱いて。}"
+...button-text text="📋 复制" event="copy{人，百年一世；龙，百年一岁。君生吾已老，君未变，而吾已老。}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.2
-**最新快照**: 26.3-pre-3
+**最新快照**: 26.3-rc-1
 
 近期版本：
 - **26.2** (2026-06-16)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_Classic_server_1.9}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_26.1.1}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/sFjT3XVq/1f6c991315c59cf3b8a09232cbbd87bda6c4f07f.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/AbPJVqJg/15bb12193822276345e2c1bdc37cf7c937053324_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Cursed Fate: Addon Patcher" event="url{https://modrinth.com/mod/cursed-fate-addon-patcher}"
+...button-text text="Remote Chests" event="url{https://modrinth.com/mod/remote-chests-fabric}"
 
-👤 Eraphious | 📅 2026-09-10
+👤 meow4sid | 📅 2026-09-10
 
-A libarary mod for minecraft 1.20.1 which Eraphious' Cursed Fate mods rely on.
+Bind and open chests, furnaces, shulker boxes, and other storage blocks from anywhere.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cursed-fate-addon-patcher/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cursed-fate-addon-patcher}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/remote-chests-fabric/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/remote-chests-fabric}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/R739P3j2/5f693357e0bf572a2f1aaeb4965862c63fd41d6f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/PXPHiO7m/e524885026c740da84b31347088e13bcb45f2401_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Cursed Fate: Brain Transplant" event="url{https://modrinth.com/mod/cursed-fate-brain-transplant}"
+...button-text text="AntiTree" event="url{https://modrinth.com/mod/antitree}"
 
-👤 Eraphious | 📅 2026-09-10
+👤 toastydoll | 📅 2026-09-10
 
-This addon introduces Kenjaku's Brain Transplant cursed technique to Cursed Fate.
+AntiTree disables tree punching and gives the beginning of the game more vanilla friendly mechanics.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cursed-fate-brain-transplant/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cursed-fate-brain-transplant}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/antitree/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/antitree}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/9SaxquZn/295451aa6f27f43c70e83a2153d4818abce42777_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ZfengLVm/1f6836fd42cc8fef0fb0b763a24c72d535b0e26a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Born to be Human" event="url{https://modrinth.com/mod/born-to-be-human}"
+...button-text text="SilentFight" event="url{https://modrinth.com/mod/silentfight}"
 
-👤 Prolet | 📅 2026-09-10
+👤 Th3Fuzzy | 📅 2026-09-10
 
-Addon for Wildfires Femal Gender Mod, which aims for a realistic Gender System
+SilentFight automatically hides configured HUD elements (BossBar, Chat, Scoreboard, Tab List, etc.) 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/born-to-be-human/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/born-to-be-human}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/silentfight/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/silentfight}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/HnUQhQBt/082ed11515056e945a3baab15779eee773cd6dd1.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/N0sRqDmX/477cab9f0697ad03086fa4d0c0fa9cd6d7890bff_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Prettier Decorated Pots" event="url{https://modrinth.com/mod/prettier-decorated-pots}"
+...button-text text="RaindayFanFeatures" event="url{https://modrinth.com/mod/raindayfanfeatures}"
 
-👤 TheRealRaphael | 📅 2026-09-10
+👤 EdvinNGU | 📅 2026-09-10
 
-Adds colorful, shaped and plantable Decorated Pots.
+Displays timer cooldowns for Rainyday Skyblock server using info taken from chat!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/prettier-decorated-pots/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/prettier-decorated-pots}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/raindayfanfeatures/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/raindayfanfeatures}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/rIjr3qq2/e3b96b71cac859484c44808803145b4839b1b350_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/KzAVckcR/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="DUATAR: Private Trade" event="url{https://modrinth.com/mod/duatar-private-trade}"
+...button-text text="YSM Equipment Render Patch" event="url{https://modrinth.com/mod/ysm-equipment-render-patch}"
 
-👤 Toxsin54 | 📅 2026-09-10
+👤 sakuraimikoto33 | 📅 2026-09-10
 
-A secure, server-authoritative private trading system for Minecraft. Players can send timed trade re
+This is a small patch to display supported equipment items when using the Yes Steve Model.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/duatar-private-trade/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/duatar-private-trade}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ysm-equipment-render-patch/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ysm-equipment-render-patch}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ A secure, server-authoritative private trading system for Minecraft. Players can
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：俯瞰大地拼图
-© 奥尔韦拉航拍图，安达卢西亚，西班牙 (© Marco Bottigelli/Getty Images)
+🖼️ 壁纸：地中海风情尽显
+© 滨海自由城，法国里维埃拉，法国 (© StockByM/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition Classic server 1.9](https://minecraft.wiki/Java_Edition_Classic_server_1.9)
+📖 **Wiki 推荐**：[Java Edition 26.1.1](https://minecraft.wiki/Java_Edition_26.1.1)
 
-⏰ 更新时间：2026-09-10 04:18:39
+⏰ 更新时间：2026-09-10 16:15:28
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
