@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-10 16:15:28
+// 生成时间：2026-09-11 04:18:25
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"人，百年一世；龙，百年一岁。君生吾已老，君未变，而吾已老。"*
+> *"不值得，但是，痛快。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{人，百年一世；龙，百年一岁。君生吾已老，君未变，而吾已老。}"
+...button-text text="📋 复制" event="copy{不值得，但是，痛快。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_26.1.1}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Item_format%2FBucket_of_Aquatic_Mob}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/AbPJVqJg/15bb12193822276345e2c1bdc37cf7c937053324_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/JcrRuIIX/5cee95de96862a9bb210f35e03e09ef44acb12dd.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Remote Chests" event="url{https://modrinth.com/mod/remote-chests-fabric}"
+...button-text text="Lantern Config" event="url{https://modrinth.com/mod/lantern-config}"
 
-👤 meow4sid | 📅 2026-09-10
+👤 masterteddy1112 | 📅 2026-09-11
 
-Bind and open chests, furnaces, shulker boxes, and other storage blocks from anywhere.
+Configure your in game lanterns.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/remote-chests-fabric/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/remote-chests-fabric}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lantern-config/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lantern-config}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/PXPHiO7m/e524885026c740da84b31347088e13bcb45f2401_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/AxygcDMZ/c26a983fb29db28dfe885dce9cf4ac48812c854a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="AntiTree" event="url{https://modrinth.com/mod/antitree}"
+...button-text text="Elysium" event="url{https://modrinth.com/mod/elysium}"
 
-👤 toastydoll | 📅 2026-09-10
+👤 Diansumods | 📅 2026-09-11
 
-AntiTree disables tree punching and gives the beginning of the game more vanilla friendly mechanics.
+As featured on CSMP, Elysium is a vanilla-inspired redstone, weapons, and technology mod, adding a n
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/antitree/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/antitree}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/elysium/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/elysium}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ZfengLVm/1f6836fd42cc8fef0fb0b763a24c72d535b0e26a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/QyIhOSai/f3e37fc69bc265edfd9f41f8bced4f6e88a41661_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="SilentFight" event="url{https://modrinth.com/mod/silentfight}"
+...button-text text="Sable: Weighted" event="url{https://modrinth.com/mod/sable-weighted}"
 
-👤 Th3Fuzzy | 📅 2026-09-10
+👤 viralhysteria | 📅 2026-09-11
 
-SilentFight automatically hides configured HUD elements (BossBar, Chat, Scoreboard, Tab List, etc.) 
+Adds Sable physics properties to an expanding list of mods
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/silentfight/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/silentfight}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sable-weighted/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sable-weighted}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/N0sRqDmX/477cab9f0697ad03086fa4d0c0fa9cd6d7890bff_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/g4SgS7Az/578bfd1d55fd136f1b8320f3b64ddbe9e46cf21d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="RaindayFanFeatures" event="url{https://modrinth.com/mod/raindayfanfeatures}"
+...button-text text="Inland Port" event="url{https://modrinth.com/mod/inland-port}"
 
-👤 EdvinNGU | 📅 2026-09-10
+👤 Gumillea | 📅 2026-09-10
 
-Displays timer cooldowns for Rainyday Skyblock server using info taken from chat!
+A library that provides utilities for registration, data generation, and mod compatibility.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/raindayfanfeatures/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/raindayfanfeatures}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/inland-port/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/inland-port}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/KzAVckcR/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/rPYEMYiB/5f1ca06e38d25c5325c30a257892338b83edc5b4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="YSM Equipment Render Patch" event="url{https://modrinth.com/mod/ysm-equipment-render-patch}"
+...button-text text="FollowCam" event="url{https://modrinth.com/mod/followcam}"
 
-👤 sakuraimikoto33 | 📅 2026-09-10
+👤 Thoria | 📅 2026-09-10
 
-This is a small patch to display supported equipment items when using the Yes Steve Model.
+Adds freelook view to other players. Great to use for Moderators, or for event/minigame based server
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ysm-equipment-render-patch/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ysm-equipment-render-patch}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/followcam/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/followcam}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ This is a small patch to display supported equipment items when using the Yes St
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 26.1.1](https://minecraft.wiki/Java_Edition_26.1.1)
+📖 **Wiki 推荐**：[Item format/Bucket of Aquatic Mob](https://minecraft.wiki/Item_format%2FBucket_of_Aquatic_Mob)
 
-⏰ 更新时间：2026-09-10 16:15:28
+⏰ 更新时间：2026-09-11 04:18:25
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
