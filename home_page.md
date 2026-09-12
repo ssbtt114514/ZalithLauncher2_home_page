@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-12 04:16:47
+// 生成时间：2026-09-12 15:25:08
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"属于我们的童话童年暑假那个他。"*
+> *"生不由己，不如不生。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{属于我们的童话童年暑假那个他。}"
+...button-text text="📋 复制" event="copy{生不由己，不如不生。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Poisonous_Potato_Plant}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Character_Creator%2FMinecraft_x_Superman}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/SI4rHRlM/86235fc71c5ccf4ddc9538b6da9f9513f2754df8_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/CMMFOWXV/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Zephyr Hauler" event="url{https://modrinth.com/mod/zephyr-hauler}"
+...button-text text="Performance HUD" event="url{https://modrinth.com/mod/performance-hud}"
 
-👤 K1chu | 📅 2026-09-12
+👤 FlubbyIG | 📅 2026-09-12
 
-Automated, immersive, and physics-driven aerial logistics! Transport your chests and machines across
+This Mod Display's your FPS, PING, CPU, GPU
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/zephyr-hauler/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/zephyr-hauler}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/performance-hud/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/performance-hud}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/s8chGgzt/ad809f49ff95ed68cb73fd9d3efc53d7f6a74c2f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/iTWNu9Nz/489b142ebefc32254f522fef04928b64fe3bb1f7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Colored Connections" event="url{https://modrinth.com/mod/create-colored-connections}"
+...button-text text="Skills Upgrader" event="url{https://modrinth.com/mod/skills-upgrader}"
 
-👤 Rlosking-C | 📅 2026-09-12
+👤 qqsgka | 📅 2026-09-12
 
-Colorize Factory Gauge recipe links with the 16 vanilla dyes to keep crossed connections readable.
+Simple mod that adds "Skills Diary" menu.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-colored-connections/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-colored-connections}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/skills-upgrader/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/skills-upgrader}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/zZ53QxeW/fbdf54e9fa35ed20cbe8752cdace824ffb6d6782.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/3BBL2Elp/68765792829ab40f37182497da897d0130cd5474_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Fornax" event="url{https://modrinth.com/mod/fornax}"
+...button-text text="RingWorld" event="url{https://modrinth.com/mod/ringworld}"
 
-👤 Icehunter | 📅 2026-09-12
+👤 Delaser | 📅 2026-09-12
 
-Fornax fixes a problem with high-resolution resource packs, and uses Vulkan. A 256x+ LabPBR pack can
+A map modification that turns the overworld into a finite, seamles loop.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fornax/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fornax}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ringworld/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ringworld}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wHlszYZN/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/4I5ZEvIJ/6ee2ebd08dfcbce9b08617fc5096f08055eab2cb_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Cobblemon Nuzlocke & Soul Link" event="url{https://modrinth.com/mod/cobblemon-nuzlocke-soul-link}"
+...button-text text="Spawn Camping Begone!" event="url{https://modrinth.com/mod/spawn-camping-begone}"
 
-👤 shiero | 📅 2026-09-12
+👤 NOchaev | 📅 2026-09-12
 
-A Hardcore Nuzlocke ruleset for Cobblemon: one catch per zone, permadeath, nicknames, shiny clause, 
+Tired of those vindicators in raid that kill you as soon as you spawn? Now you can pick up items nor
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cobblemon-nuzlocke-soul-link/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cobblemon-nuzlocke-soul-link}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/spawn-camping-begone/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/spawn-camping-begone}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/bA8TI0YO/16984da4b1a6c08330d0e7d8d54d64d9819a874b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/v6Jbnyu5/f2d70cdd3c7c1f5197ad29acb4c190787156751a.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="NoksCommands" event="url{https://modrinth.com/mod/nokscommands}"
+...button-text text="GuiPlus+" event="url{https://modrinth.com/mod/guiplus+}"
 
-👤 Noks12 | 📅 2026-09-12
+👤 monobao | 📅 2026-09-12
 
-Quita todas las sugerencias de comandos si no tienes op
+Adds HUD customization mod for Minecraft. Move, scale, lock and recolor the hotbar ,you can edit you
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nokscommands/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nokscommands}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/guiplus+/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/guiplus+}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Quita todas las sugerencias de comandos si no tienes op
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Poisonous Potato Plant](https://minecraft.wiki/Poisonous_Potato_Plant)
+📖 **Wiki 推荐**：[Character Creator/Minecraft x Superman](https://minecraft.wiki/Character_Creator%2FMinecraft_x_Superman)
 
-⏰ 更新时间：2026-09-12 04:16:47
+⏰ 更新时间：2026-09-12 15:25:08
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
