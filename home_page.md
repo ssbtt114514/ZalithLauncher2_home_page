@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-11 16:19:31
+// 生成时间：2026-09-12 04:16:47
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"方生方死，方死方生，方可方不可，方不可方可。"*
+> *"属于我们的童话童年暑假那个他。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{方生方死，方死方生，方可方不可，方不可方可。}"
+...button-text text="📋 复制" event="copy{属于我们的童话童年暑假那个他。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FSplash_Potion_of_Weaving}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Poisonous_Potato_Plant}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/O6oEXaKk/f2ba662e191afad54677f098b57646e370d6f384.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/SI4rHRlM/86235fc71c5ccf4ddc9538b6da9f9513f2754df8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MX Haptics" event="url{https://modrinth.com/mod/mx-haptics}"
+...button-text text="Zephyr Hauler" event="url{https://modrinth.com/mod/zephyr-hauler}"
 
-👤 mihaipaulorban | 📅 2026-09-11
+👤 K1chu | 📅 2026-09-12
 
-Haptic feedback on the Logitech MX Master 4 mouse for in-game events (damage, shield, air bubbles, b
+Automated, immersive, and physics-driven aerial logistics! Transport your chests and machines across
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mx-haptics/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mx-haptics}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/zephyr-hauler/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/zephyr-hauler}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/jz53z3Zl/e95b4e301c258cabe5c12a1017eea2f30c86d42b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/s8chGgzt/ad809f49ff95ed68cb73fd9d3efc53d7f6a74c2f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Signed Jukeboxes" event="url{https://modrinth.com/mod/signed-jukeboxes}"
+...button-text text="Create: Colored Connections" event="url{https://modrinth.com/mod/create-colored-connections}"
 
-👤 morgana | 📅 2026-09-11
+👤 Rlosking-C | 📅 2026-09-12
 
-Play custom songs on jukeboxes, with signs!
+Colorize Factory Gauge recipe links with the 16 vanilla dyes to keep crossed connections readable.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/signed-jukeboxes/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/signed-jukeboxes}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-colored-connections/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-colored-connections}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/vbsHcrR4/e91b709fa9d90408111c973c9862c0288c1dfa0a.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zZ53QxeW/fbdf54e9fa35ed20cbe8752cdace824ffb6d6782.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="PotionControl" event="url{https://modrinth.com/mod/potioncontrol}"
+...button-text text="Fornax" event="url{https://modrinth.com/mod/fornax}"
 
-👤 Nischhelm | 📅 2026-09-11
+👤 Icehunter | 📅 2026-09-12
 
-Allows to modify all properties of vanilla & modded potions & potion types, adds additional properti
+Fornax fixes a problem with high-resolution resource packs, and uses Vulkan. A 256x+ LabPBR pack can
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/potioncontrol/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/potioncontrol}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fornax/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fornax}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/kMxsmTLv/f6956f526c7bcfab655398d346d9d971c9ff6475_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wHlszYZN/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Relay" event="url{https://modrinth.com/mod/relay}"
+...button-text text="Cobblemon Nuzlocke & Soul Link" event="url{https://modrinth.com/mod/cobblemon-nuzlocke-soul-link}"
 
-👤 Spog | 📅 2026-09-11
+👤 shiero | 📅 2026-09-12
 
-A team communications mod easily allowing teams to locate one another, share information and communi
+A Hardcore Nuzlocke ruleset for Cobblemon: one catch per zone, permadeath, nicknames, shiny clause, 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/relay/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/relay}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cobblemon-nuzlocke-soul-link/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cobblemon-nuzlocke-soul-link}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/x6JOJ1sf/a9452ac46b694abaa77cf5f0ae9fbc47461d8c92.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/bA8TI0YO/16984da4b1a6c08330d0e7d8d54d64d9819a874b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Archive World Downloader" event="url{https://modrinth.com/mod/wdl}"
+...button-text text="NoksCommands" event="url{https://modrinth.com/mod/nokscommands}"
 
-👤 terbin | 📅 2026-09-11
+👤 Noks12 | 📅 2026-09-12
 
-A Minecraft World Download mod. Save a multiplayer world as a singleplayer world you can open offlin
+Quita todas las sugerencias de comandos si no tienes op
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wdl/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wdl}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nokscommands/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nokscommands}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ A Minecraft World Download mod. Save a multiplayer world as a singleplayer world
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition item texture history/Splash Potion of Weaving](https://minecraft.wiki/Java_Edition_item_texture_history%2FSplash_Potion_of_Weaving)
+📖 **Wiki 推荐**：[Poisonous Potato Plant](https://minecraft.wiki/Poisonous_Potato_Plant)
 
-⏰ 更新时间：2026-09-11 16:19:31
+⏰ 更新时间：2026-09-12 04:16:47
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
