@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-12 15:25:08
+// 生成时间：2026-09-13 04:29:54
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.SardineBait_ZH-CN3256234033_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.MisurinaPeak_ZH-CN3877105161_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"生不由己，不如不生。"*
+> *"压力不会转化成动力。热情才会转化成动力，压力只会转化成病历。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{生不由己，不如不生。}"
+...button-text text="📋 复制" event="copy{压力不会转化成动力。热情才会转化成动力，压力只会转化成病历。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Character_Creator%2FMinecraft_x_Superman}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_effect_texture_history%2FBlindness}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/CMMFOWXV/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/LfPY2Doq/0aa54fba17b304e4430ef77de3548d15d93e2cab_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Performance HUD" event="url{https://modrinth.com/mod/performance-hud}"
+...button-text text="Kindly Components" event="url{https://modrinth.com/mod/kindly-components}"
 
-👤 FlubbyIG | 📅 2026-09-12
+👤 LemmaEOF | 📅 2026-09-13
 
-This Mod Display's your FPS, PING, CPU, GPU
+Useful server-utility item components for Minecraft 1.21.1
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/performance-hud/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/performance-hud}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kindly-components/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kindly-components}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/iTWNu9Nz/489b142ebefc32254f522fef04928b64fe3bb1f7_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/w5WPDqOo/0deea87e5fd3e95a58cee87fa8bbc8debf636356.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Skills Upgrader" event="url{https://modrinth.com/mod/skills-upgrader}"
+...button-text text="BSDHacks" event="url{https://modrinth.com/mod/bsdhacks}"
 
-👤 qqsgka | 📅 2026-09-12
+👤 exaptations | 📅 2026-09-13
 
-Simple mod that adds "Skills Diary" menu.
+Hacks to make Minecraft run better on FreeBSD and with mismatched LWJGL versions. Probably also help
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/skills-upgrader/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/skills-upgrader}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bsdhacks/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bsdhacks}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/3BBL2Elp/68765792829ab40f37182497da897d0130cd5474_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/BvAqO1wt/540765a853b498774fa3847067dfee56049d93c9.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="RingWorld" event="url{https://modrinth.com/mod/ringworld}"
+...button-text text="A7LEX's Mode" event="url{https://modrinth.com/mod/a7lexs-mode}"
 
-👤 Delaser | 📅 2026-09-12
+👤 Lesha001 | 📅 2026-09-13
 
-A map modification that turns the overworld into a finite, seamles loop.
+New platinum ore, armor & tools, mojang book with superpower. New black magic stick, new music disc 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ringworld/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ringworld}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/a7lexs-mode/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/a7lexs-mode}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/4I5ZEvIJ/6ee2ebd08dfcbce9b08617fc5096f08055eab2cb_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/HMcx2r7b/f30abde34a83b5459496618e9a2f1545b4c9d3cb_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Spawn Camping Begone!" event="url{https://modrinth.com/mod/spawn-camping-begone}"
+...button-text text="More Detailed Keep Inventory" event="url{https://modrinth.com/mod/more-detailed-keep-inventory}"
 
-👤 NOchaev | 📅 2026-09-12
+👤 Lesungend | 📅 2026-09-13
 
-Tired of those vindicators in raid that kill you as soon as you spawn? Now you can pick up items nor
+A mod used to implement the keepInventory true rule for individual players.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/spawn-camping-begone/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/spawn-camping-begone}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/more-detailed-keep-inventory/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/more-detailed-keep-inventory}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/v6Jbnyu5/f2d70cdd3c7c1f5197ad29acb4c190787156751a.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/MuoFWV6F/158919733d13fe9afa9c92a5efe0f3a14b06465e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="GuiPlus+" event="url{https://modrinth.com/mod/guiplus+}"
+...button-text text="Bond of the Beast - Shape Shifter Curse Addon" event="url{https://modrinth.com/mod/bond-of-the-beast}"
 
-👤 monobao | 📅 2026-09-12
+👤 Cleanin | 📅 2026-09-13
 
-Adds HUD customization mod for Minecraft. Move, scale, lock and recolor the hotbar ,you can edit you
+An addon for Shape Shifter Curse that introduces player taming mechanics! Turn your friend into a pe
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/guiplus+/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/guiplus+}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bond-of-the-beast/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bond-of-the-beast}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Adds HUD customization mod for Minecraft. Move, scale, lock and recolor the hotb
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：海浪与海岸的高手
-© 墨西哥近海围猎沙丁鱼饵球的加州海狮，太平洋 (© Henley Spiers/Nature Picture Library)
+🖼️ 壁纸：高处的珊瑚礁
+© 米苏里纳群峰，多洛米蒂山脉，威尼托大区，意大利 (© Vithun Khamsong/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Character Creator/Minecraft x Superman](https://minecraft.wiki/Character_Creator%2FMinecraft_x_Superman)
+📖 **Wiki 推荐**：[Bedrock Edition effect texture history/Blindness](https://minecraft.wiki/Bedrock_Edition_effect_texture_history%2FBlindness)
 
-⏰ 更新时间：2026-09-12 15:25:08
+⏰ 更新时间：2026-09-13 04:29:54
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
