@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-13 04:29:54
+// 生成时间：2026-09-13 16:04:04
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.MisurinaPeak_ZH-CN3877105161_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.KochiaChina_ZH-CN4719995421_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"压力不会转化成动力。热情才会转化成动力，压力只会转化成病历。"*
+> *"Stay hungry, Stay foolish."*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{压力不会转化成动力。热情才会转化成动力，压力只会转化成病历。}"
+...button-text text="📋 复制" event="copy{Stay hungry, Stay foolish.}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_effect_texture_history%2FBlindness}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.8.1-pre1}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/LfPY2Doq/0aa54fba17b304e4430ef77de3548d15d93e2cab_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ud9AZO85/9cb992e6d068fba32a6d2bd184f2a67cbc32d120_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Kindly Components" event="url{https://modrinth.com/mod/kindly-components}"
+...button-text text="Player Uploader" event="url{https://modrinth.com/mod/player-uploader}"
 
-👤 LemmaEOF | 📅 2026-09-13
+👤 MinecraftMS | 📅 2026-09-13
 
-Useful server-utility item components for Minecraft 1.21.1
+A simple mod that allows you to send the host player's coordinates to a specified HTTP server, with 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kindly-components/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kindly-components}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/player-uploader/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/player-uploader}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/w5WPDqOo/0deea87e5fd3e95a58cee87fa8bbc8debf636356.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/AGAuT5Ae/2d6c1d2581685ac792838148c8b3c984a837c001_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="BSDHacks" event="url{https://modrinth.com/mod/bsdhacks}"
+...button-text text="Media Controls" event="url{https://modrinth.com/mod/media-controls}"
 
-👤 exaptations | 📅 2026-09-13
+👤 CoolGamer999540 | 📅 2026-09-13
 
-Hacks to make Minecraft run better on FreeBSD and with mismatched LWJGL versions. Probably also help
+A simple mod that adds controls to the pause menu to control media that is playing on your computer.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bsdhacks/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bsdhacks}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/media-controls/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/media-controls}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/BvAqO1wt/540765a853b498774fa3847067dfee56049d93c9.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/dyrt0U7U/c35a5fd5bc9ec9b271a8772547eace62cf9f6e78_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="A7LEX's Mode" event="url{https://modrinth.com/mod/a7lexs-mode}"
+...button-text text="Velochat" event="url{https://modrinth.com/mod/velochat}"
 
-👤 Lesha001 | 📅 2026-09-13
+👤 harveyhmb | 📅 2026-09-13
 
-New platinum ore, armor & tools, mojang book with superpower. New black magic stick, new music disc 
+This plugin adds cross-server chat, is highly configurable and has a bunch of other useful things.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/a7lexs-mode/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/a7lexs-mode}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/velochat/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/velochat}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/HMcx2r7b/f30abde34a83b5459496618e9a2f1545b4c9d3cb_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ocbOUiHH/b6438e2381404ad81ee2708f49ffba5f28a738d2.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="More Detailed Keep Inventory" event="url{https://modrinth.com/mod/more-detailed-keep-inventory}"
+...button-text text="Capes Mod" event="url{https://modrinth.com/mod/capes-mod}"
 
-👤 Lesungend | 📅 2026-09-13
+👤 SWKGAMING_ | 📅 2026-09-13
 
-A mod used to implement the keepInventory true rule for individual players.
+This Mod adds the ability to add custom capes to your player including gifs and normal images with a
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/more-detailed-keep-inventory/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/more-detailed-keep-inventory}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/capes-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/capes-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/MuoFWV6F/158919733d13fe9afa9c92a5efe0f3a14b06465e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/RZXBLyAM/dc743293535060509e0b400ac21ec879a1f1fad4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Bond of the Beast - Shape Shifter Curse Addon" event="url{https://modrinth.com/mod/bond-of-the-beast}"
+...button-text text="Simple Card Memo" event="url{https://modrinth.com/mod/simple-card-memo}"
 
-👤 Cleanin | 📅 2026-09-13
+👤 RunicDolphin806 | 📅 2026-09-13
 
-An addon for Shape Shifter Curse that introduces player taming mechanics! Turn your friend into a pe
+Preview texts anytime and anywhere in the Minecraft game.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bond-of-the-beast/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bond-of-the-beast}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simple-card-memo/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simple-card-memo}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ An addon for Shape Shifter Curse that introduces player taming mechanics! Turn y
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：高处的珊瑚礁
-© 米苏里纳群峰，多洛米蒂山脉，威尼托大区，意大利 (© Vithun Khamsong/Getty Images)
+🖼️ 壁纸：坚韧在此扎根
+© 地肤田，中国 (© lingqi xie/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition effect texture history/Blindness](https://minecraft.wiki/Bedrock_Edition_effect_texture_history%2FBlindness)
+📖 **Wiki 推荐**：[Java Edition 1.8.1-pre1](https://minecraft.wiki/Java_Edition_1.8.1-pre1)
 
-⏰ 更新时间：2026-09-13 04:29:54
+⏰ 更新时间：2026-09-13 16:04:04
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
