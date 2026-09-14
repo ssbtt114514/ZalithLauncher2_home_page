@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-13 16:04:04
+// 生成时间：2026-09-14 04:36:07
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"Stay hungry, Stay foolish."*
+> *"今天，仁者暗帝就要战他的最后一战！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{Stay hungry, Stay foolish.}"
+...button-text text="📋 复制" event="copy{今天，仁者暗帝就要战他的最后一战！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.8.1-pre1}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_18w33a}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ud9AZO85/9cb992e6d068fba32a6d2bd184f2a67cbc32d120_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zDikNCiV/ecd16ea572dfab2908f2940f18d51fbecc582a7e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Player Uploader" event="url{https://modrinth.com/mod/player-uploader}"
+...button-text text="Biome Kingdom" event="url{https://modrinth.com/mod/biome-kingdom}"
 
-👤 MinecraftMS | 📅 2026-09-13
+👤 kushaldeep9560 | 📅 2026-09-14
 
-A simple mod that allows you to send the host player's coordinates to a specified HTTP server, with 
+Adds an rare Tropical Rainforest biome to your world.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/player-uploader/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/player-uploader}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/biome-kingdom/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/biome-kingdom}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/AGAuT5Ae/2d6c1d2581685ac792838148c8b3c984a837c001_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/GB6Vqqr1/e478e6274fe9175807105dd12346e15c48083345.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Media Controls" event="url{https://modrinth.com/mod/media-controls}"
+...button-text text="Disable Anything" event="url{https://modrinth.com/mod/disable-anything}"
 
-👤 CoolGamer999540 | 📅 2026-09-13
+👤 Argis | 📅 2026-09-14
 
-A simple mod that adds controls to the pause menu to control media that is playing on your computer.
+Disable items, blocks, recipes, mechanics, structures and mobs.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/media-controls/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/media-controls}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/disable-anything/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/disable-anything}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/dyrt0U7U/c35a5fd5bc9ec9b271a8772547eace62cf9f6e78_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/gPTXn82f/555178ba684ca85c535c0bc8ed8a7a0cf4d2d580.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Velochat" event="url{https://modrinth.com/mod/velochat}"
+...button-text text="craftyl" event="url{https://modrinth.com/mod/craftyl}"
 
-👤 harveyhmb | 📅 2026-09-13
+👤 gabemonkeytv | 📅 2026-09-14
 
-This plugin adds cross-server chat, is highly configurable and has a bunch of other useful things.
+Welcome to Craftyl! ✨Craftyl is a unique expansion mod built for Minecraft NeoForge that introduces 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/velochat/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/velochat}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/craftyl/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/craftyl}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ocbOUiHH/b6438e2381404ad81ee2708f49ffba5f28a738d2.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/GQvGLDgA/98b1a87f0588659a22f2e290e9e0df3778282879.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Capes Mod" event="url{https://modrinth.com/mod/capes-mod}"
+...button-text text="Redstone Track" event="url{https://modrinth.com/mod/redstone-track}"
 
-👤 SWKGAMING_ | 📅 2026-09-13
+👤 reffler | 📅 2026-09-14
 
-This Mod adds the ability to add custom capes to your player including gifs and normal images with a
+Allows all Redstone Dust to be precisely placed on floors, walls, and ceilings!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/capes-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/capes-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/redstone-track/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/redstone-track}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/RZXBLyAM/dc743293535060509e0b400ac21ec879a1f1fad4_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/7tEfOcA7/afd8afef2372805ff11f89425284129eebf87a1c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Simple Card Memo" event="url{https://modrinth.com/mod/simple-card-memo}"
+...button-text text="MezzConfig" event="url{https://modrinth.com/mod/mezzconfig}"
 
-👤 RunicDolphin806 | 📅 2026-09-13
+👤 mezz | 📅 2026-09-14
 
-Preview texts anytime and anywhere in the Minecraft game.
+Simple configuration library for Minecraft Mods
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simple-card-memo/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simple-card-memo}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mezzconfig/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mezzconfig}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Preview texts anytime and anywhere in the Minecraft game.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 1.8.1-pre1](https://minecraft.wiki/Java_Edition_1.8.1-pre1)
+📖 **Wiki 推荐**：[Java Edition 18w33a](https://minecraft.wiki/Java_Edition_18w33a)
 
-⏰ 更新时间：2026-09-13 16:04:04
+⏰ 更新时间：2026-09-14 04:36:07
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
