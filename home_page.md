@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-14 04:36:07
+// 生成时间：2026-09-14 18:00:15
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.KochiaChina_ZH-CN4719995421_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.RedMacawsFlight_ZH-CN5045822113_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"今天，仁者暗帝就要战他的最后一战！"*
+> *"昔去雪如花，今来花似雪。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{今天，仁者暗帝就要战他的最后一战！}"
+...button-text text="📋 复制" event="copy{昔去雪如花，今来花似雪。}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.2
-**最新快照**: 26.3-rc-2
+**最新快照**: 26.3-rc-3
 
 近期版本：
 - **26.2** (2026-06-16)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_18w33a}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Xbox_One_Edition_CU26}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/zDikNCiV/ecd16ea572dfab2908f2940f18d51fbecc582a7e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/4pprH24R/34aa089142353d1fc1acc915932d930735098f33_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Biome Kingdom" event="url{https://modrinth.com/mod/biome-kingdom}"
+...button-text text="Kleene Builds" event="url{https://modrinth.com/mod/kleene-builds}"
 
-👤 kushaldeep9560 | 📅 2026-09-14
+👤 csclub05 | 📅 2026-09-14
 
-Adds an rare Tropical Rainforest biome to your world.
+A mod that helps with building.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/biome-kingdom/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/biome-kingdom}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kleene-builds/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kleene-builds}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/GB6Vqqr1/e478e6274fe9175807105dd12346e15c48083345.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Hh1wQCDn/37e038eaa84fdb0f7890673f0bf68a86e57d104e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Disable Anything" event="url{https://modrinth.com/mod/disable-anything}"
+...button-text text="TAOV Weapons" event="url{https://modrinth.com/mod/taov-weapons}"
 
-👤 Argis | 📅 2026-09-14
+👤 Rew1nd | 📅 2026-09-14
 
-Disable items, blocks, recipes, mechanics, structures and mobs.
+The physical-body weapon extension mod for TAOV-X mod series
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/disable-anything/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/disable-anything}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/taov-weapons/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/taov-weapons}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/gPTXn82f/555178ba684ca85c535c0bc8ed8a7a0cf4d2d580.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/dquZ44eK/15766e91880dc243f4642dafeac16f5c345dc5e7.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="craftyl" event="url{https://modrinth.com/mod/craftyl}"
+...button-text text="Griefer Manhunt Tools" event="url{https://modrinth.com/mod/griefer-manhunt-tools}"
 
-👤 gabemonkeytv | 📅 2026-09-14
+👤 EzAlex2010 | 📅 2026-09-14
 
-Welcome to Craftyl! ✨Craftyl is a unique expansion mod built for Minecraft NeoForge that introduces 
+A mod to help with manhunts in anyway possible.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/craftyl/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/craftyl}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/griefer-manhunt-tools/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/griefer-manhunt-tools}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/GQvGLDgA/98b1a87f0588659a22f2e290e9e0df3778282879.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/z9DYuJmJ/856d74c70de140a57ca422742be168b198d21aaf_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Redstone Track" event="url{https://modrinth.com/mod/redstone-track}"
+...button-text text="Ars QOL" event="url{https://modrinth.com/mod/ars-qol}"
 
-👤 reffler | 📅 2026-09-14
+👤 KodaNotABear | 📅 2026-09-14
 
-Allows all Redstone Dust to be precisely placed on floors, walls, and ceilings!
+Quality of life additions for Ars Nouveau. Curios slot for spellbooks and full spellbook dyeing
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/redstone-track/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/redstone-track}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ars-qol/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ars-qol}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7tEfOcA7/afd8afef2372805ff11f89425284129eebf87a1c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/o2L1eSKt/a00791c72582579c5852d83aa3dc6b9ea1d38587_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MezzConfig" event="url{https://modrinth.com/mod/mezzconfig}"
+...button-text text="Create: Tobacconery" event="url{https://modrinth.com/mod/create-tobacconery}"
 
-👤 mezz | 📅 2026-09-14
+👤 Nekkka | 📅 2026-09-14
 
-Simple configuration library for Minecraft Mods
+An immersive Create addon that introduces automated tobacco production. Grow crops, blend mixtures, 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mezzconfig/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mezzconfig}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-tobacconery/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-tobacconery}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Simple configuration library for Minecraft Mods
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：坚韧在此扎根
-© 地肤田，中国 (© lingqi xie/Getty Images)
+🖼️ 壁纸：最炫者生存
+© 红绿金刚鹦鹉 (© markes51/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 18w33a](https://minecraft.wiki/Java_Edition_18w33a)
+📖 **Wiki 推荐**：[Xbox One Edition CU26](https://minecraft.wiki/Xbox_One_Edition_CU26)
 
-⏰ 更新时间：2026-09-14 04:36:07
+⏰ 更新时间：2026-09-14 18:00:15
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
