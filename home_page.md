@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-15 04:36:18
+// 生成时间：2026-09-15 16:46:50
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.RedMacawsFlight_ZH-CN5045822113_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.IcyCubs_ZH-CN5287408951_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"人生充斥着谎言,我又岂能独善其身!"*
+> *"不要露出这样的表情，我们还会再见的，真嗣。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{人生充斥着谎言,我又岂能独善其身!}"
+...button-text text="📋 复制" event="copy{不要露出这样的表情，我们还会再见的，真嗣。}"
 ...row-end
 ...column-end
 ...card-end
@@ -31,17 +31,17 @@
 // --- 📦 MC 版本信息 ---
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
-**最新正式版**: 26.2
-**最新快照**: 26.3-rc-3
+**最新正式版**: 26.3
+**最新快照**: 26.3
 
 近期版本：
+- **26.3** (2026-09-15)
 - **26.2** (2026-06-16)
 - **26.1.2** (2026-04-09)
-- **26.1.1** (2026-04-01)
 
 ...row-start horizontal=spacedBy(8)
 ...button text="📥 官方下载" event="url{https://www.minecraft.net/zh-hans/download}" weight=(1)
-...button text="📋 复制版本号" event="copy{26.2}" weight=(1)
+...button text="📋 复制版本号" event="copy{26.3}" weight=(1)
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_1.20.0%2FDevelopment_versions}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Locked_chest}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/2B5ZuOlS/e41ce29cca153f319af05ef2596525e3c26c0059_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/9fN8C7pL/87ccf9f070ca4ab8b2e759b1ccefca86196b28af_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="SCP Blocks By Xikex321" event="url{https://modrinth.com/mod/scp-blocks-by-xikex321}"
+...button-text text="Mayonaise of Bread" event="url{https://modrinth.com/mod/mayonaiseofbread}"
 
-👤 Xikex321 | 📅 2026-09-15
+👤 GDsher729 | 📅 2026-09-15
 
-Mod Add SCP CB-stylized Blocks to minecraft.
+this mod adds mayonaise,bread, and other food!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/scp-blocks-by-xikex321/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/scp-blocks-by-xikex321}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mayonaiseofbread/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mayonaiseofbread}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/qNfGTimz/a3cfe902c381bde2b037a92692a36a49d6fc9b7c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/TFC70trp/046bdd45f1e8f8154eb1593eab320493ba7e258c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Dimension of Warden" event="url{https://modrinth.com/mod/dimension-of-warden}"
+...button-text text="Auto Sprint+" event="url{https://modrinth.com/mod/auto-sprintplus}"
 
-👤 ArthurTheDev | 📅 2026-09-15
+👤 febreze.gamerz | 📅 2026-09-15
 
-A sculk-corrupted dimension accessed by defeating the Warden and lighting a portal with its key — ex
+A Minecraft mod that adds auto sprint, no need to press or hold ctrl any more.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dimension-of-warden/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dimension-of-warden}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/auto-sprintplus/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/auto-sprintplus}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/P222yxDS/bd5c450757265d8487deed5fe552c1ef95acb54a.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/fszIasTa/f2b2b29c6252627e5d4a4491b9997faef824b3d9_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="ProjectE: EMC for L_Ender's Cataclysm" event="url{https://modrinth.com/mod/projecte-emc-for-cataclysm}"
+...button-text text="Calcraft" event="url{https://modrinth.com/mod/calcraft}"
 
-👤 KURONAMI | 📅 2026-09-15
+👤 AdhamMohamedKhairy | 📅 2026-09-15
 
-Hand-balanced conversion values so boss loot, dungeon metals and ruin blocks finally work with Equiv
+A mod that helps u with math :D
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/projecte-emc-for-cataclysm/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/projecte-emc-for-cataclysm}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/calcraft/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/calcraft}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/jEPqUkhG/52b41cac7c67038336babd2cdafc3f79b196e9f6.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Ad9CUkb8/04a952a49b8a7e0cf5cb07229cc0b8fe3077a667_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="EasyPlaceWind" event="url{https://modrinth.com/mod/easyplacewind}"
+...button-text text="Project Hail Mary - Dimensions Mod" event="url{https://modrinth.com/mod/project-hail-mary-dimensions}"
 
-👤 Cna4ik | 📅 2026-09-15
+👤 cfig0219 | 📅 2026-09-15
 
-A Litematica addon that bypasses EasyPlace restrictions when throwing a Wind Charge.
+This is the first release of Minecraft's space exploration mod Project Hail Mary. This mod features 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/easyplacewind/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/easyplacewind}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/project-hail-mary-dimensions/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/project-hail-mary-dimensions}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/vNqBuWN5/be14b9b1d89e7a9cd7bb6b36a1828e6107c5bfb0_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/eVukdmJi/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Smelt Touch" event="url{https://modrinth.com/mod/smelt-touch-invalidjoker}"
+...button-text text="SmartMending" event="url{https://modrinth.com/mod/smartmending}"
 
-👤 InvalidJoker | 📅 2026-09-15
+👤 aammour722 | 📅 2026-09-15
 
-Mined blocks are smelted automatically, so the items can be picked up in their processed state, as i
+Optimized Xp Distribution Mend efficiently/Equally
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/smelt-touch-invalidjoker/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/smelt-touch-invalidjoker}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/smartmending/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/smartmending}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Mined blocks are smelted automatically, so the items can be picked up in their p
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：最炫者生存
-© 红绿金刚鹦鹉 (© markes51/Getty Images)
+🖼️ 壁纸：北极的新晋探索者
+© 斯瓦尔巴群岛玩耍的北极熊幼崽，挪威 (© Danny Green/Nature Picture Library)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition 1.20.0/Development versions](https://minecraft.wiki/Bedrock_Edition_1.20.0%2FDevelopment_versions)
+📖 **Wiki 推荐**：[Locked chest](https://minecraft.wiki/Locked_chest)
 
-⏰ 更新时间：2026-09-15 04:36:18
+⏰ 更新时间：2026-09-15 16:46:50
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
