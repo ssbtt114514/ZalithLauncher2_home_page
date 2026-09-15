@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-14 18:00:15
+// 生成时间：2026-09-15 04:36:18
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"昔去雪如花，今来花似雪。"*
+> *"人生充斥着谎言,我又岂能独善其身!"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{昔去雪如花，今来花似雪。}"
+...button-text text="📋 复制" event="copy{人生充斥着谎言,我又岂能独善其身!}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Xbox_One_Edition_CU26}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_1.20.0%2FDevelopment_versions}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/4pprH24R/34aa089142353d1fc1acc915932d930735098f33_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/2B5ZuOlS/e41ce29cca153f319af05ef2596525e3c26c0059_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Kleene Builds" event="url{https://modrinth.com/mod/kleene-builds}"
+...button-text text="SCP Blocks By Xikex321" event="url{https://modrinth.com/mod/scp-blocks-by-xikex321}"
 
-👤 csclub05 | 📅 2026-09-14
+👤 Xikex321 | 📅 2026-09-15
 
-A mod that helps with building.
+Mod Add SCP CB-stylized Blocks to minecraft.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kleene-builds/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kleene-builds}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/scp-blocks-by-xikex321/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/scp-blocks-by-xikex321}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Hh1wQCDn/37e038eaa84fdb0f7890673f0bf68a86e57d104e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/qNfGTimz/a3cfe902c381bde2b037a92692a36a49d6fc9b7c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="TAOV Weapons" event="url{https://modrinth.com/mod/taov-weapons}"
+...button-text text="Dimension of Warden" event="url{https://modrinth.com/mod/dimension-of-warden}"
 
-👤 Rew1nd | 📅 2026-09-14
+👤 ArthurTheDev | 📅 2026-09-15
 
-The physical-body weapon extension mod for TAOV-X mod series
+A sculk-corrupted dimension accessed by defeating the Warden and lighting a portal with its key — ex
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/taov-weapons/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/taov-weapons}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dimension-of-warden/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dimension-of-warden}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/dquZ44eK/15766e91880dc243f4642dafeac16f5c345dc5e7.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/P222yxDS/bd5c450757265d8487deed5fe552c1ef95acb54a.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Griefer Manhunt Tools" event="url{https://modrinth.com/mod/griefer-manhunt-tools}"
+...button-text text="ProjectE: EMC for L_Ender's Cataclysm" event="url{https://modrinth.com/mod/projecte-emc-for-cataclysm}"
 
-👤 EzAlex2010 | 📅 2026-09-14
+👤 KURONAMI | 📅 2026-09-15
 
-A mod to help with manhunts in anyway possible.
+Hand-balanced conversion values so boss loot, dungeon metals and ruin blocks finally work with Equiv
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/griefer-manhunt-tools/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/griefer-manhunt-tools}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/projecte-emc-for-cataclysm/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/projecte-emc-for-cataclysm}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/z9DYuJmJ/856d74c70de140a57ca422742be168b198d21aaf_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/jEPqUkhG/52b41cac7c67038336babd2cdafc3f79b196e9f6.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ars QOL" event="url{https://modrinth.com/mod/ars-qol}"
+...button-text text="EasyPlaceWind" event="url{https://modrinth.com/mod/easyplacewind}"
 
-👤 KodaNotABear | 📅 2026-09-14
+👤 Cna4ik | 📅 2026-09-15
 
-Quality of life additions for Ars Nouveau. Curios slot for spellbooks and full spellbook dyeing
+A Litematica addon that bypasses EasyPlace restrictions when throwing a Wind Charge.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ars-qol/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ars-qol}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/easyplacewind/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/easyplacewind}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/o2L1eSKt/a00791c72582579c5852d83aa3dc6b9ea1d38587_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vNqBuWN5/be14b9b1d89e7a9cd7bb6b36a1828e6107c5bfb0_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Tobacconery" event="url{https://modrinth.com/mod/create-tobacconery}"
+...button-text text="Smelt Touch" event="url{https://modrinth.com/mod/smelt-touch-invalidjoker}"
 
-👤 Nekkka | 📅 2026-09-14
+👤 InvalidJoker | 📅 2026-09-15
 
-An immersive Create addon that introduces automated tobacco production. Grow crops, blend mixtures, 
+Mined blocks are smelted automatically, so the items can be picked up in their processed state, as i
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-tobacconery/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-tobacconery}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/smelt-touch-invalidjoker/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/smelt-touch-invalidjoker}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ An immersive Create addon that introduces automated tobacco production. Grow cro
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Xbox One Edition CU26](https://minecraft.wiki/Xbox_One_Edition_CU26)
+📖 **Wiki 推荐**：[Bedrock Edition 1.20.0/Development versions](https://minecraft.wiki/Bedrock_Edition_1.20.0%2FDevelopment_versions)
 
-⏰ 更新时间：2026-09-14 18:00:15
+⏰ 更新时间：2026-09-15 04:36:18
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
