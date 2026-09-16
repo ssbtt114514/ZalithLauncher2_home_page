@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-15 16:46:50
+// 生成时间：2026-09-16 04:31:52
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"不要露出这样的表情，我们还会再见的，真嗣。"*
+> *"人这辈子没法做太多事情，所以每一件都要做到精彩绝伦。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{不要露出这样的表情，我们还会再见的，真嗣。}"
+...button-text text="📋 复制" event="copy{人这辈子没法做太多事情，所以每一件都要做到精彩绝伦。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Locked_chest}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FBlue_Ice}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/9fN8C7pL/87ccf9f070ca4ab8b2e759b1ccefca86196b28af_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/euLisiB5/99e921e0e573386715e291175b0f67afa82524cc.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mayonaise of Bread" event="url{https://modrinth.com/mod/mayonaiseofbread}"
+...button-text text="Flint Quests" event="url{https://modrinth.com/mod/flint-quests}"
 
-👤 GDsher729 | 📅 2026-09-15
+👤 kas | 📅 2026-09-16
 
-this mod adds mayonaise,bread, and other food!
+This project is a free-to-use questing system built for Project Flint, but made accessible with a ni
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mayonaiseofbread/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mayonaiseofbread}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/flint-quests/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/flint-quests}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/TFC70trp/046bdd45f1e8f8154eb1593eab320493ba7e258c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/tgd9OZqD/599be74c35c68b3f563a14a58c3f5b21fb459df7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Auto Sprint+" event="url{https://modrinth.com/mod/auto-sprintplus}"
+...button-text text="ImGui Blaze3D" event="url{https://modrinth.com/mod/imguib3d}"
 
-👤 febreze.gamerz | 📅 2026-09-15
+👤 Tobiazsh | 📅 2026-09-16
 
-A Minecraft mod that adds auto sprint, no need to press or hold ctrl any more.
+An easy-to-use library for using ImGui in Minecraft with Blaze3D support (works 26.2+) and convenien
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/auto-sprintplus/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/auto-sprintplus}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/imguib3d/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/imguib3d}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/fszIasTa/f2b2b29c6252627e5d4a4491b9997faef824b3d9_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/SvM9m1SS/2dd7b94202701a2f7c1d2c90c7a47b46949432f6_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Calcraft" event="url{https://modrinth.com/mod/calcraft}"
+...button-text text="NexusSync" event="url{https://modrinth.com/mod/nexussync}"
 
-👤 AdhamMohamedKhairy | 📅 2026-09-15
+👤 seno_poleno | 📅 2026-09-16
 
-A mod that helps u with math :D
+Seamless client-server mod synchronization with automatic downloads, optional mods support, and serv
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/calcraft/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/calcraft}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nexussync/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nexussync}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Ad9CUkb8/04a952a49b8a7e0cf5cb07229cc0b8fe3077a667_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8FttNl6P/8f9656ffa12aef702b51298e108cc073f86a745a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Project Hail Mary - Dimensions Mod" event="url{https://modrinth.com/mod/project-hail-mary-dimensions}"
+...button-text text="Spotify Hud" event="url{https://modrinth.com/mod/spotify-hud}"
 
-👤 cfig0219 | 📅 2026-09-15
+👤 arenzya_26588 | 📅 2026-09-16
 
-This is the first release of Minecraft's space exploration mod Project Hail Mary. This mod features 
+A lightweight Minecraft mod that displays your currently playing Spotify track in-game with a clean 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/project-hail-mary-dimensions/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/project-hail-mary-dimensions}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/spotify-hud/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/spotify-hud}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/eVukdmJi/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/OMMeXSnk/a8688590efda11b8984f31e7fa33c528be245e2a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="SmartMending" event="url{https://modrinth.com/mod/smartmending}"
+...button-text text="Valence Benchmark" event="url{https://modrinth.com/mod/valence-benchmark}"
 
-👤 aammour722 | 📅 2026-09-15
+👤 ceketrumdev | 📅 2026-09-16
 
-Optimized Xp Distribution Mend efficiently/Equally
+A benchmark that costs nothing to run. Records 10 minutes of frametimes, chunks, entities, CPU/GPU/R
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/smartmending/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/smartmending}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/valence-benchmark/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/valence-benchmark}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Optimized Xp Distribution Mend efficiently/Equally
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Locked chest](https://minecraft.wiki/Locked_chest)
+📖 **Wiki 推荐**：[Java Edition block render history/Blue Ice](https://minecraft.wiki/Java_Edition_block_render_history%2FBlue_Ice)
 
-⏰ 更新时间：2026-09-15 16:46:50
+⏰ 更新时间：2026-09-16 04:31:52
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
