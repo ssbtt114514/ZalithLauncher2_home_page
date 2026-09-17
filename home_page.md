@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-16 16:39:44
+// 生成时间：2026-09-17 04:37:29
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"对不起，风太大了，我听不清。"*
+> *"仁不行商、义不守财；情不立威，善不居官；慈不掌兵，柔不监国。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{对不起，风太大了，我听不清。}"
+...button-text text="📋 复制" event="copy{仁不行商、义不守财；情不立威，善不居官；慈不掌兵，柔不监国。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Scarred_Enderman}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Super_Duper_Graphics_Pack}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,84 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/qF1ZkdRA/3d0ff5280e7f596b6727ac789def0544ced7c221_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/r3iymZhv/9f2e3e51592a7cdb683809a3c1fac1a14b588985.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="save_icon.ico" event="url{https://modrinth.com/mod/save_icon.ico}"
+...button-text text="Paper Patterns" event="url{https://modrinth.com/mod/paper-patterns}"
 
-👤 stilsyy | 📅 2026-09-16
+👤 CrazM13 | 📅 2026-09-17
 
-Adds a diskette item, which lets you save
+This mod adds wallpapers for easy decoration in both blocks and panels
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/save_icon.ico/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/save_icon.ico}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/paper-patterns/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/paper-patterns}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/BlOrbFes/19baafe4c83d399ad0f2adfc0ef741d62700cc9e.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/s6X42L5R/4cc48b6314cae1c71468bdb17441ef795cba8ef5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Kiwe's Undertale Death Screen" event="url{https://modrinth.com/mod/kiwes-undertale-death-screen}"
+...button-text text="Relic Fusion: Archaelogy Expansion" event="url{https://modrinth.com/mod/relic-fusion-archaelogy-expansion}"
 
-👤 Kiwe147 | 📅 2026-09-16
+👤 holy_buckets | 📅 2026-09-17
 
-A fork of the original Undertale Death Screen mod, updated to work with Minecraft 1.21.11 Fabric.
+Adds new Dig Sites and a host of new Relics to discover. Relics can be fused to ANY tool or weapon t
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kiwes-undertale-death-screen/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kiwes-undertale-death-screen}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/relic-fusion-archaelogy-expansion/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/relic-fusion-archaelogy-expansion}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/SC3EpUGr/3cb554f564bba37755bfe81c64df58237a51454f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/345m3fxN/9164a729becbd93f90bcffc3edec1d579b761225_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Trueshield" event="url{https://modrinth.com/mod/trueshield}"
+...button-text text="Chaos Moon 2" event="url{https://modrinth.com/mod/chaos-moon-2}"
 
-👤 Nimfor | 📅 2026-09-16
+👤 DraconicArcher | 📅 2026-09-17
 
-Configures shield block activation speed. Delay threshold is changed with /trueshield  <value>
-
-
-Нас
+Adds a moon that enhances Born in Chaos mobs to Enhanced Celestials 2
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/trueshield/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/trueshield}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chaos-moon-2/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chaos-moon-2}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/yIerZIBi/0e316c524b11167ebba2ca5f75e059c969d14d1b.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/VEFhu3Ox/d5c6a0a8d3ee20cd4479d3d772aa9e4e8fb58f7f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Fair Fletching" event="url{https://modrinth.com/mod/fair-fletching}"
+...button-text text="Baby Horde Moon 2" event="url{https://modrinth.com/mod/baby-horde-moon-2}"
 
-👤 Macol | 📅 2026-09-16
+👤 DraconicArcher | 📅 2026-09-17
 
-A balanced usage for Fletching Table, Nicer Tipped Arrow crafting!
+Adds a Baby Zombie Horde to Enhanced Celestials 2
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fair-fletching/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fair-fletching}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/baby-horde-moon-2/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/baby-horde-moon-2}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/funkd2Dz/d3af1b9cb48b8247036c3dfa26172321c03c9d01_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Adph7xj9/a3fbec0dd3b768edea34e71449422f99760efd7d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Astral Dimension" event="url{https://modrinth.com/mod/astral-dimension-mrsculk222}"
+...button-text text="Create: Mechanical Eels" event="url{https://modrinth.com/mod/create-mechanical-eels}"
 
-👤 mrsculk222 | 📅 2026-09-16
+👤 TheMightyEva | 📅 2026-09-16
 
-Explore magical dimensions shaped by the will of a multidimensional being.
+This mod adds Create inspired mechanical eels to fly around and help in your world.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/astral-dimension-mrsculk222/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/astral-dimension-mrsculk222}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-mechanical-eels/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-mechanical-eels}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -181,9 +178,9 @@ Explore magical dimensions shaped by the will of a multidimensional being.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Scarred Enderman](https://minecraft.wiki/Scarred_Enderman)
+📖 **Wiki 推荐**：[Super Duper Graphics Pack](https://minecraft.wiki/Super_Duper_Graphics_Pack)
 
-⏰ 更新时间：2026-09-16 16:39:44
+⏰ 更新时间：2026-09-17 04:37:29
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
