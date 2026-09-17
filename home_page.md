@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-17 04:37:29
+// 生成时间：2026-09-17 16:46:59
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.Santenay_ZH-CN5676942384_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.WinnatsPassPeak_ZH-CN4443458412_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"仁不行商、义不守财；情不立威，善不居官；慈不掌兵，柔不监国。"*
+> *"就像那句狠话：有一天，我一定会后悔的。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{仁不行商、义不守财；情不立威，善不居官；慈不掌兵，柔不监国。}"
+...button-text text="📋 复制" event="copy{就像那句狠话：有一天，我一定会后悔的。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Super_Duper_Graphics_Pack}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Quick_Charge}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -66,6 +66,22 @@
 // --- 🧩 Modrinth 最新模组 ---
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/o6zZLlQF/f0a483573f1534ead7ee17dd67d3c66a7bd0912a_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="PvP Training Mod" event="url{https://modrinth.com/mod/pvptraining-mod}"
+
+👤 Luisin4343 | 📅 2026-09-17
+
+Train your PvP skills against configurable bots or other players using custom kits and temporary are
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pvptraining-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pvptraining-mod}" weight=(1)
+...row-end
+...column-end
+...row-end
+
 ...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/r3iymZhv/9f2e3e51592a7cdb683809a3c1fac1a14b588985.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
@@ -130,22 +146,6 @@ Adds a Baby Zombie Horde to Enhanced Celestials 2
 ...column-end
 ...row-end
 
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Adph7xj9/a3fbec0dd3b768edea34e71449422f99760efd7d_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Create: Mechanical Eels" event="url{https://modrinth.com/mod/create-mechanical-eels}"
-
-👤 TheMightyEva | 📅 2026-09-16
-
-This mod adds Create inspired mechanical eels to fly around and help in your world.
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-mechanical-eels/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-mechanical-eels}" weight=(1)
-...row-end
-...column-end
-...row-end
-
 ...row-start horizontal=spacedBy(8)
 ...button text="📥 访问 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
 ...row-end
@@ -173,14 +173,14 @@ This mod adds Create inspired mechanical eels to fly around and help in your wor
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：为丰收举杯
-© 桑特奈葡萄酒产区葡萄园中的索林风车，伯恩丘，勃艮第，法国 (© Marco Bottigelli/Getty Images)
+🖼️ 壁纸：穿越山口腹地
+© 温纳茨山口，峰区国家公园，英格兰 (© Daniel_Kay/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Super Duper Graphics Pack](https://minecraft.wiki/Super_Duper_Graphics_Pack)
+📖 **Wiki 推荐**：[Quick Charge](https://minecraft.wiki/Quick_Charge)
 
-⏰ 更新时间：2026-09-17 04:37:29
+⏰ 更新时间：2026-09-17 16:46:59
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
