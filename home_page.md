@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-17 16:46:59
+// 生成时间：2026-09-18 04:22:57
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"就像那句狠话：有一天，我一定会后悔的。"*
+> *"倘若穷途末路，那便势如破竹。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{就像那句狠话：有一天，我一定会后悔的。}"
+...button-text text="📋 复制" event="copy{倘若穷途末路，那便势如破竹。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Quick_Charge}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_23w51a}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,82 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/o6zZLlQF/f0a483573f1534ead7ee17dd67d3c66a7bd0912a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/m2JSIfCu/69452290cb8c6284f2ecb906e1edfdcf00c8ca61.jpeg" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="PvP Training Mod" event="url{https://modrinth.com/mod/pvptraining-mod}"
+...button-text text="JetSet! Hits" event="url{https://modrinth.com/mod/jetset-hits}"
 
-👤 Luisin4343 | 📅 2026-09-17
+👤 LIXD | 📅 2026-09-18
 
-Train your PvP skills against configurable bots or other players using custom kits and temporary are
+This Mod adds JetSet! hit sound effect to your Combos!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pvptraining-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pvptraining-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jetset-hits/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jetset-hits}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/r3iymZhv/9f2e3e51592a7cdb683809a3c1fac1a14b588985.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ch5RIJLx/df45e8f40320fe25bd54f4f32e54b3705f10bb5a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Paper Patterns" event="url{https://modrinth.com/mod/paper-patterns}"
+...button-text text="WAR_SMP" event="url{https://modrinth.com/mod/war_smp}"
 
-👤 CrazM13 | 📅 2026-09-17
+👤 Player3 | 📅 2026-09-18
 
-This mod adds wallpapers for easy decoration in both blocks and panels
+Adds the MAZEHEART from Abyss SMP
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/paper-patterns/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/paper-patterns}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/war_smp/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/war_smp}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/s6X42L5R/4cc48b6314cae1c71468bdb17441ef795cba8ef5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8kCG7JBd/fb8414a2893b2407f04c26d9ac7466b75c4f2c4e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Relic Fusion: Archaelogy Expansion" event="url{https://modrinth.com/mod/relic-fusion-archaelogy-expansion}"
+...button-text text="Cinematic Subtitles" event="url{https://modrinth.com/mod/cinematic-subtitles}"
 
-👤 holy_buckets | 📅 2026-09-17
+👤 pr1xv3e.jar | 📅 2026-09-18
 
-Adds new Dig Sites and a host of new Relics to discover. Relics can be fused to ANY tool or weapon t
+Adds subtitles like tipewriters. with noise and everything.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/relic-fusion-archaelogy-expansion/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/relic-fusion-archaelogy-expansion}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cinematic-subtitles/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cinematic-subtitles}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/345m3fxN/9164a729becbd93f90bcffc3edec1d579b761225_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/V4m4d57a/2a87698ad6584de06d8d45892bb6f085e0b3851b.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Chaos Moon 2" event="url{https://modrinth.com/mod/chaos-moon-2}"
+...button-text text="FFModSubfolders" event="url{https://modrinth.com/mod/ffmodsubfolders}"
 
-👤 DraconicArcher | 📅 2026-09-17
+👤 Fyxe | 📅 2026-09-18
 
-Adds a moon that enhances Born in Chaos mobs to Enhanced Celestials 2
+Allows users to place mods within subfolders.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chaos-moon-2/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chaos-moon-2}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ffmodsubfolders/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ffmodsubfolders}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/VEFhu3Ox/d5c6a0a8d3ee20cd4479d3d772aa9e4e8fb58f7f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/mlXeE4j8/73fa82db165ff7efb82d2e98aa1954227496ad85_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Baby Horde Moon 2" event="url{https://modrinth.com/mod/baby-horde-moon-2}"
+...button-text text="Scalable Sables" event="url{https://modrinth.com/mod/scalable-sables}"
 
-👤 DraconicArcher | 📅 2026-09-17
+👤 Atomic-Mods | 📅 2026-09-18
 
-Adds a Baby Zombie Horde to Enhanced Celestials 2
+Scale your sable ships just how you like.
+And connect them properly.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/baby-horde-moon-2/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/baby-horde-moon-2}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/scalable-sables/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/scalable-sables}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +179,9 @@ Adds a Baby Zombie Horde to Enhanced Celestials 2
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Quick Charge](https://minecraft.wiki/Quick_Charge)
+📖 **Wiki 推荐**：[Java Edition 23w51a](https://minecraft.wiki/Java_Edition_23w51a)
 
-⏰ 更新时间：2026-09-17 16:46:59
+⏰ 更新时间：2026-09-18 04:22:57
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
