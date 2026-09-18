@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-18 04:22:57
+// 生成时间：2026-09-18 16:15:19
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.WinnatsPassPeak_ZH-CN4443458412_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.AlphornBavaria_ZH-CN5896237112_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"倘若穷途末路，那便势如破竹。"*
+> *"我为我喜爱的东西大费周章，所以我才能快乐如斯。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{倘若穷途末路，那便势如破竹。}"
+...button-text text="📋 复制" event="copy{我为我喜爱的东西大费周章，所以我才能快乐如斯。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_23w51a}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft_Education_1.20.12}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -174,14 +174,14 @@ And connect them properly.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：穿越山口腹地
-© 温纳茨山口，峰区国家公园，英格兰 (© Daniel_Kay/Getty Images)
+🖼️ 壁纸：慕尼黑啤酒节的阿尔卑斯之声
+© 阿尔卑斯长号演奏者，巴伐利亚州，德国 (© U. J. Alexander/Shutterstock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 23w51a](https://minecraft.wiki/Java_Edition_23w51a)
+📖 **Wiki 推荐**：[Minecraft Education 1.20.12](https://minecraft.wiki/Minecraft_Education_1.20.12)
 
-⏰ 更新时间：2026-09-18 04:22:57
+⏰ 更新时间：2026-09-18 16:15:19
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
