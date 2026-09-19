@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-18 16:15:19
+// 生成时间：2026-09-19 04:19:32
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我为我喜爱的东西大费周章，所以我才能快乐如斯。"*
+> *"恰同学少年，风华正茂；书生意气，挥斥方遒。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我为我喜爱的东西大费周章，所以我才能快乐如斯。}"
+...button-text text="📋 复制" event="copy{恰同学少年，风华正茂；书生意气，挥斥方遒。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft_Education_1.20.12}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_17w47b}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,82 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/m2JSIfCu/69452290cb8c6284f2ecb906e1edfdcf00c8ca61.jpeg" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/5yMyq4qM/b0542d85334b69b86511375d42a8b3e0ccfe092a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="JetSet! Hits" event="url{https://modrinth.com/mod/jetset-hits}"
+...button-text text="Herzium" event="url{https://modrinth.com/mod/herzium}"
 
-👤 LIXD | 📅 2026-09-18
+👤 zymery_dria | 📅 2026-09-19
 
-This Mod adds JetSet! hit sound effect to your Combos!
+Faster visual hotbar feedback, with Vanilla gameplay unchanged.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jetset-hits/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jetset-hits}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/herzium/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/herzium}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ch5RIJLx/df45e8f40320fe25bd54f4f32e54b3705f10bb5a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/1QnqY6oI/32f44e3b9be18c6ac8e603af82d8fcfd52fa0848_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="WAR_SMP" event="url{https://modrinth.com/mod/war_smp}"
+...button-text text="RebirthAsCreatures" event="url{https://modrinth.com/mod/rebirth-as-creatures}"
 
-👤 Player3 | 📅 2026-09-18
+👤 ChongYu668 | 📅 2026-09-19
 
-Adds the MAZEHEART from Abyss SMP
+You will randomly transform into various creatures within the game, inheriting new abilities, size, 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/war_smp/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/war_smp}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/rebirth-as-creatures/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/rebirth-as-creatures}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8kCG7JBd/fb8414a2893b2407f04c26d9ac7466b75c4f2c4e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/G9LKq77O/78c49c0c867cdb76bc99732ab532f3366f91db94_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Cinematic Subtitles" event="url{https://modrinth.com/mod/cinematic-subtitles}"
+...button-text text="ThrexionCore" event="url{https://modrinth.com/mod/threxioncore}"
 
-👤 pr1xv3e.jar | 📅 2026-09-18
+👤 Threxion | 📅 2026-09-19
 
-Adds subtitles like tipewriters. with noise and everything.
+A Lib mod for my Threxion mods.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cinematic-subtitles/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cinematic-subtitles}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/threxioncore/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/threxioncore}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/V4m4d57a/2a87698ad6584de06d8d45892bb6f085e0b3851b.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/QaOcZcLU/84d07f73b75ff91cf116a18a7a4bfad2b58ea1ce.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="FFModSubfolders" event="url{https://modrinth.com/mod/ffmodsubfolders}"
+...button-text text="Flashback Neoforge Fixed" event="url{https://modrinth.com/mod/flashback-neoforge-fixed}"
 
-👤 Fyxe | 📅 2026-09-18
+👤 tatuto | 📅 2026-09-19
 
-Allows users to place mods within subfolders.
+Compatibility fixes for running Flashback on NeoForge 1.21.1 through Sinytra Connector.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ffmodsubfolders/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ffmodsubfolders}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/flashback-neoforge-fixed/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/flashback-neoforge-fixed}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/mlXeE4j8/73fa82db165ff7efb82d2e98aa1954227496ad85_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/mAirKo87/8b3a703b29a9686aeb9897e723fe863013f680cb.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Scalable Sables" event="url{https://modrinth.com/mod/scalable-sables}"
+...button-text text="AnvilCraft: Twenty Minute Ionocraft" event="url{https://modrinth.com/mod/anvilcraft-twenty-minute-ionocraft}"
 
-👤 Atomic-Mods | 📅 2026-09-18
+👤 Tu_shen2023 | 📅 2026-09-19
 
-Scale your sable ships just how you like.
-And connect them properly.
+Restores the AnvilCraft Ionocraft Backpack to 20 minutes of flight time and makes its capacity and e
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/scalable-sables/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/scalable-sables}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/anvilcraft-twenty-minute-ionocraft/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/anvilcraft-twenty-minute-ionocraft}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -179,9 +178,9 @@ And connect them properly.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Minecraft Education 1.20.12](https://minecraft.wiki/Minecraft_Education_1.20.12)
+📖 **Wiki 推荐**：[Java Edition 17w47b](https://minecraft.wiki/Java_Edition_17w47b)
 
-⏰ 更新时间：2026-09-18 16:15:19
+⏰ 更新时间：2026-09-19 04:19:32
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
