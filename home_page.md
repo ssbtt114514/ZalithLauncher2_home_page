@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-20 04:38:09
+// 生成时间：2026-09-20 15:54:30
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"不愿勾起相思，不敢出门看月；偏偏月进窗来，害我相思一夜。"*
+> *"人生本就是一场穿透黑暗的白色飞行。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{不愿勾起相思，不敢出门看月；偏偏月进窗来，害我相思一夜。}"
+...button-text text="📋 复制" event="copy{人生本就是一场穿透黑暗的白色飞行。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FRaw_Copper}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Birthday}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,83 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/RIkWHTfj/1fd5821c9b307d794216aba5c183e9edb33aae2c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/G3fc1L7b/d30cb399671bb4768ae698b6775b8f2fabfc0cc6_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Phonolith" event="url{https://modrinth.com/mod/phonolith}"
+...button-text text="Dynamics seasons and crop cycle" event="url{https://modrinth.com/mod/dynamics-seasons-and-crop-cycle}"
 
-👤 Un1k | 📅 2026-09-20
+👤 Error6119 | 📅 2026-09-20
 
-The mod expands the potential of sniffers by adding ancient plants, decorative blocks, and elements 
+This datapack introduces a fully automated, four-season cycle(includes effect on environment) that g
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/phonolith/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/phonolith}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dynamics-seasons-and-crop-cycle/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dynamics-seasons-and-crop-cycle}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ZZxOe21T/36a6cf6a0cbc6dfc7e4cea9b5e3b24b51654dd9f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/kQT86tnj/22d0866088b6c958386dba8546d8a7f08f92039a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="FruitFly Brain" event="url{https://modrinth.com/mod/flyproject-mod}"
+...button-text text="Leave Decay" event="url{https://modrinth.com/mod/leave-decay}"
 
-👤 Ro0oney | 📅 2026-09-20
+👤 quillphen | 📅 2026-09-20
 
-A real fruit fly's brain, running live inside Minecraft. Every reaction, escape, fear, movement, com
+addon used to bounded leaf cleanup for TreeVeinMiner and VeinMiner projects
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/flyproject-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/flyproject-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/leave-decay/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/leave-decay}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/JNZrextO/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/uxv0I30o/31eb2109d3bad121500bb489a23fa15c57c2035c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MillenaireVillagerExpansion" event="url{https://modrinth.com/mod/millenairevillagerexpansion}"
+...button-text text="Sophisticated Tactical Backpacks" event="url{https://modrinth.com/mod/sophisticated-tactical-backpacks}"
 
-👤 momomomo | 📅 2026-09-20
+👤 vomiter | 📅 2026-09-20
 
-Can render the villagers of a millennium village as other biological models.
-可以让千年村庄的村民被渲染为其他的生物模型。
+Adding tactical camouflages to Sophisticated Backpack
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/millenairevillagerexpansion/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/millenairevillagerexpansion}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sophisticated-tactical-backpacks/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sophisticated-tactical-backpacks}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6EGjJIR1/39868b5746af9de3cfcee0fd16f2dc8bfabc1802_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/dQnfBXve/4a8fe24efbeea79bd1da8908820ba0919a94229e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="The GREAT GREEN Gaster!" event="url{https://modrinth.com/mod/the-greet-gaster}"
+...button-text text="MCPlus: Food" event="url{https://modrinth.com/mod/mcplus-food}"
 
-👤 IvanSand260 | 📅 2026-09-20
+👤 mastergatito23 | 📅 2026-09-20
 
-An open-source meme mod about the Great Mighty Green Gaster. No animations, pure majesty, pure suspe
+Realistic food, drinks, recipes and more!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-greet-gaster/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-greet-gaster}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mcplus-food/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mcplus-food}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/EdBr2D9H/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/fJ6AYGIM/246b35febebe3d030cb213581675b1f07a7a1a06_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mo Localized Signs" event="url{https://modrinth.com/mod/mo-localized-signs}"
+...button-text text="minifigures" event="url{https://modrinth.com/mod/minifigures}"
 
-👤 momomomo | 📅 2026-09-20
+👤 timeforfunandgames | 📅 2026-09-20
 
-When<key>is written on each line of the billboard, it can be translated.
-告示牌每行写入<key>时，可以被翻译。
+This adds minifigures like Steve, Creeper, Zombie, and more
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mo-localized-signs/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mo-localized-signs}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/minifigures/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/minifigures}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -180,9 +178,9 @@ When<key>is written on each line of the billboard, it can be translated.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition item texture history/Raw Copper](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FRaw_Copper)
+📖 **Wiki 推荐**：[Birthday](https://minecraft.wiki/Birthday)
 
-⏰ 更新时间：2026-09-20 04:38:09
+⏰ 更新时间：2026-09-20 15:54:30
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
