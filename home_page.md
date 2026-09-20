@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-19 15:46:06
+// 生成时间：2026-09-20 04:38:09
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.AlphornBavaria_ZH-CN5896237112_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.ParisSunset_ZH-CN6050686638_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"愿你晴雨无伤。"*
+> *"不愿勾起相思，不敢出门看月；偏偏月进窗来，害我相思一夜。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{愿你晴雨无伤。}"
+...button-text text="📋 复制" event="copy{不愿勾起相思，不敢出门看月；偏偏月进窗来，害我相思一夜。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Firework_Star}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FRaw_Copper}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,83 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/5yMyq4qM/b0542d85334b69b86511375d42a8b3e0ccfe092a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/RIkWHTfj/1fd5821c9b307d794216aba5c183e9edb33aae2c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Herzium" event="url{https://modrinth.com/mod/herzium}"
+...button-text text="Phonolith" event="url{https://modrinth.com/mod/phonolith}"
 
-👤 zymery_dria | 📅 2026-09-19
+👤 Un1k | 📅 2026-09-20
 
-Faster visual hotbar feedback, with Vanilla gameplay unchanged.
+The mod expands the potential of sniffers by adding ancient plants, decorative blocks, and elements 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/herzium/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/herzium}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/phonolith/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/phonolith}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/1QnqY6oI/32f44e3b9be18c6ac8e603af82d8fcfd52fa0848_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ZZxOe21T/36a6cf6a0cbc6dfc7e4cea9b5e3b24b51654dd9f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="RebirthAsCreatures" event="url{https://modrinth.com/mod/rebirth-as-creatures}"
+...button-text text="FruitFly Brain" event="url{https://modrinth.com/mod/flyproject-mod}"
 
-👤 ChongYu668 | 📅 2026-09-19
+👤 Ro0oney | 📅 2026-09-20
 
-You will randomly transform into various creatures within the game, inheriting new abilities, size, 
+A real fruit fly's brain, running live inside Minecraft. Every reaction, escape, fear, movement, com
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/rebirth-as-creatures/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/rebirth-as-creatures}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/flyproject-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/flyproject-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/G9LKq77O/78c49c0c867cdb76bc99732ab532f3366f91db94_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/JNZrextO/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="ThrexionCore" event="url{https://modrinth.com/mod/threxioncore}"
+...button-text text="MillenaireVillagerExpansion" event="url{https://modrinth.com/mod/millenairevillagerexpansion}"
 
-👤 Threxion | 📅 2026-09-19
+👤 momomomo | 📅 2026-09-20
 
-A Lib mod for my Threxion mods.
+Can render the villagers of a millennium village as other biological models.
+可以让千年村庄的村民被渲染为其他的生物模型。
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/threxioncore/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/threxioncore}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/millenairevillagerexpansion/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/millenairevillagerexpansion}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/QaOcZcLU/84d07f73b75ff91cf116a18a7a4bfad2b58ea1ce.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6EGjJIR1/39868b5746af9de3cfcee0fd16f2dc8bfabc1802_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Flashback Neoforge Fixed" event="url{https://modrinth.com/mod/flashback-neoforge-fixed}"
+...button-text text="The GREAT GREEN Gaster!" event="url{https://modrinth.com/mod/the-greet-gaster}"
 
-👤 tatuto | 📅 2026-09-19
+👤 IvanSand260 | 📅 2026-09-20
 
-Compatibility fixes for running Flashback on NeoForge 1.21.1 through Sinytra Connector.
+An open-source meme mod about the Great Mighty Green Gaster. No animations, pure majesty, pure suspe
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/flashback-neoforge-fixed/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/flashback-neoforge-fixed}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-greet-gaster/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-greet-gaster}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/mAirKo87/8b3a703b29a9686aeb9897e723fe863013f680cb.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/EdBr2D9H/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="AnvilCraft: Twenty Minute Ionocraft" event="url{https://modrinth.com/mod/anvilcraft-twenty-minute-ionocraft}"
+...button-text text="Mo Localized Signs" event="url{https://modrinth.com/mod/mo-localized-signs}"
 
-👤 Tu_shen2023 | 📅 2026-09-19
+👤 momomomo | 📅 2026-09-20
 
-Restores the AnvilCraft Ionocraft Backpack to 20 minutes of flight time and makes its capacity and e
+When<key>is written on each line of the billboard, it can be translated.
+告示牌每行写入<key>时，可以被翻译。
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/anvilcraft-twenty-minute-ionocraft/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/anvilcraft-twenty-minute-ionocraft}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mo-localized-signs/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mo-localized-signs}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +175,14 @@ Restores the AnvilCraft Ionocraft Backpack to 20 minutes of flight time and make
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：慕尼黑啤酒节的阿尔卑斯之声
-© 阿尔卑斯长号演奏者，巴伐利亚州，德国 (© U. J. Alexander/Shutterstock)
+🖼️ 壁纸：终获巴黎青睐的铁塔
+© 日落时分的埃菲尔铁塔，巴黎，法国 (© Alexander Spatari/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Firework Star](https://minecraft.wiki/Firework_Star)
+📖 **Wiki 推荐**：[Bedrock Edition item texture history/Raw Copper](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FRaw_Copper)
 
-⏰ 更新时间：2026-09-19 15:46:06
+⏰ 更新时间：2026-09-20 04:38:09
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
