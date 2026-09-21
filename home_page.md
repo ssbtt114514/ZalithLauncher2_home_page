@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-21 04:36:26
+// 生成时间：2026-09-21 18:08:49
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.GroomingOtter_ZH-CN6969472572_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.FallAspens_ZH-CN7235054933_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"五感働いて。"*
+> *"循此苦旅，终抵繁星。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{五感働いて。}"
+...button-text text="📋 复制" event="copy{循此苦旅，终抵繁星。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_guides%2FChaos_Cubed}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_2.2.74xx}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/yCXRPahg/4939aed17af0065f28906747b2117b8671be6bd4.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/UM7cWG12/9644a38f87f27f941c4317a720f27304bbd9b4bb.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Voltify" event="url{https://modrinth.com/mod/voltify}"
+...button-text text="Madketplace X Just a Loach Fish" event="url{https://modrinth.com/mod/madketplace-x-just-a-loach-fish}"
 
-👤 joao_cruz | 📅 2026-09-21
+👤 MrBenjaroo | 📅 2026-09-21
 
-Adds easy-to-use electric machines, power generation, and automation without needing massive tutoria
+This mod adds compatibility between the mods Madketplace and Just a Loach Fish.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/voltify/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/voltify}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/madketplace-x-just-a-loach-fish/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/madketplace-x-just-a-loach-fish}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ZviggAMk/748d7ca919e68dd0881386781309061ec5ada290_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/sztFsn8Y/a2335ff361a87e0b711f281204f4f8de369ff738.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Tractor Beam Lock" event="url{https://modrinth.com/mod/tractor-beam-lock}"
+...button-text text="FLAME's Zombie Lib" event="url{https://modrinth.com/mod/flames-zombie-lib}"
 
-👤 wither_storm_fan | 📅 2026-09-21
+👤 FLAMEBRINGER808 | 📅 2026-09-21
 
-Once a player or mob is caught by the Wither Storm's tractor beam, it can't simply fall or escape ba
+FLAME's Zombie Lib is a lightweight library that provides shared systems for zombie-focused mods, in
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tractor-beam-lock/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tractor-beam-lock}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/flames-zombie-lib/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/flames-zombie-lib}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/kpBoS0iS/243029f813f90069bf476db6dddb589b2d71e47b.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/FFQXRXv7/de3ed7a72a644a47911c51bd4e0527625483656b.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Food Vendors" event="url{https://modrinth.com/mod/food-vendors}"
+...button-text text="AE2 Objects" event="url{https://modrinth.com/mod/ae2-objects}"
 
-👤 williamvargo16 | 📅 2026-09-21
+👤 Chiloven945 | 📅 2026-09-21
 
-Build a food stall out of item frames and hungry villagers turn up with cravings over their heads. S
+Introduces high-density Deep Storage Cells with no type limits. A continuation and derivative work b
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/food-vendors/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/food-vendors}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ae2-objects/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ae2-objects}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/VVB8qcKb/8ea82dbc53214abd0a5a5edcd956bd7ffa32f27b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/nxsZR8Gv/530f889b564d224fc1661aac40fe33f0e01cbb99.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Storm Reclamation" event="url{https://modrinth.com/mod/storm-reclamation}"
+...button-text text="Bronze N' Steel" event="url{https://modrinth.com/mod/bronze-n-steel}"
 
-👤 wither_storm_fan | 📅 2026-09-21
+👤 elidhan | 📅 2026-09-21
 
-Recover the blocks swallowed by a Wither Storm when that Wither Storm is finally defeated.
+Adds Bronze and Steel to Minecraft
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/storm-reclamation/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/storm-reclamation}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bronze-n-steel/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bronze-n-steel}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/oLhhHBO6/7165b90fd2d76559c73a6d078a53f1e5bdb3ecf3.jpeg" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/n4BEXj8v/e32d83a4e51c1f35d223af691881692793bd1630_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Wither Storm Extra Nether Stars" event="url{https://modrinth.com/mod/wither-storm-extra-nether-stars}"
+...button-text text="Eymistaken's Potion HUD" event="url{https://modrinth.com/mod/eymistakens-potion-hud}"
 
-👤 wither_storm_fan | 📅 2026-09-21
+👤 Eymistaken | 📅 2026-09-21
 
-Makes Cracker’s Wither Storm drop 4 regular Nether Stars alongside its normal Wither Storm Star, so 
+A Potion HUD that works deeply integrated with Eymistaken's HUD.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wither-storm-extra-nether-stars/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wither-storm-extra-nether-stars}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/eymistakens-potion-hud/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/eymistakens-potion-hud}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Makes Cracker’s Wither Storm drop 4 regular Nether Stars alongside its normal 
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：皮毛与海洋之间的生命
-© 正在梳理皮毛的海獭，蒙特雷湾，加利福尼亚州，美国 (© Suzi Eszterhas/Minden Pictures)
+🖼️ 壁纸：金色时节
+© 瓜兹曼山口附近的秋日山杨林，犹他州，美国 (© Danita Delimont/Shutterstock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition guides/Chaos Cubed](https://minecraft.wiki/Java_Edition_guides%2FChaos_Cubed)
+📖 **Wiki 推荐**：[Launcher 2.2.74xx](https://minecraft.wiki/Launcher_2.2.74xx)
 
-⏰ 更新时间：2026-09-21 04:36:26
+⏰ 更新时间：2026-09-21 18:08:49
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
