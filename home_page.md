@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-20 15:54:30
+// 生成时间：2026-09-21 04:36:26
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.ParisSunset_ZH-CN6050686638_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.GroomingOtter_ZH-CN6969472572_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"人生本就是一场穿透黑暗的白色飞行。"*
+> *"五感働いて。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{人生本就是一场穿透黑暗的白色飞行。}"
+...button-text text="📋 复制" event="copy{五感働いて。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Birthday}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_guides%2FChaos_Cubed}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/G3fc1L7b/d30cb399671bb4768ae698b6775b8f2fabfc0cc6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/yCXRPahg/4939aed17af0065f28906747b2117b8671be6bd4.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Dynamics seasons and crop cycle" event="url{https://modrinth.com/mod/dynamics-seasons-and-crop-cycle}"
+...button-text text="Voltify" event="url{https://modrinth.com/mod/voltify}"
 
-👤 Error6119 | 📅 2026-09-20
+👤 joao_cruz | 📅 2026-09-21
 
-This datapack introduces a fully automated, four-season cycle(includes effect on environment) that g
+Adds easy-to-use electric machines, power generation, and automation without needing massive tutoria
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dynamics-seasons-and-crop-cycle/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dynamics-seasons-and-crop-cycle}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/voltify/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/voltify}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/kQT86tnj/22d0866088b6c958386dba8546d8a7f08f92039a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ZviggAMk/748d7ca919e68dd0881386781309061ec5ada290_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Leave Decay" event="url{https://modrinth.com/mod/leave-decay}"
+...button-text text="Tractor Beam Lock" event="url{https://modrinth.com/mod/tractor-beam-lock}"
 
-👤 quillphen | 📅 2026-09-20
+👤 wither_storm_fan | 📅 2026-09-21
 
-addon used to bounded leaf cleanup for TreeVeinMiner and VeinMiner projects
+Once a player or mob is caught by the Wither Storm's tractor beam, it can't simply fall or escape ba
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/leave-decay/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/leave-decay}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tractor-beam-lock/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tractor-beam-lock}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/uxv0I30o/31eb2109d3bad121500bb489a23fa15c57c2035c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/kpBoS0iS/243029f813f90069bf476db6dddb589b2d71e47b.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Sophisticated Tactical Backpacks" event="url{https://modrinth.com/mod/sophisticated-tactical-backpacks}"
+...button-text text="Food Vendors" event="url{https://modrinth.com/mod/food-vendors}"
 
-👤 vomiter | 📅 2026-09-20
+👤 williamvargo16 | 📅 2026-09-21
 
-Adding tactical camouflages to Sophisticated Backpack
+Build a food stall out of item frames and hungry villagers turn up with cravings over their heads. S
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sophisticated-tactical-backpacks/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sophisticated-tactical-backpacks}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/food-vendors/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/food-vendors}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/dQnfBXve/4a8fe24efbeea79bd1da8908820ba0919a94229e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/VVB8qcKb/8ea82dbc53214abd0a5a5edcd956bd7ffa32f27b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MCPlus: Food" event="url{https://modrinth.com/mod/mcplus-food}"
+...button-text text="Storm Reclamation" event="url{https://modrinth.com/mod/storm-reclamation}"
 
-👤 mastergatito23 | 📅 2026-09-20
+👤 wither_storm_fan | 📅 2026-09-21
 
-Realistic food, drinks, recipes and more!
+Recover the blocks swallowed by a Wither Storm when that Wither Storm is finally defeated.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mcplus-food/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mcplus-food}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/storm-reclamation/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/storm-reclamation}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/fJ6AYGIM/246b35febebe3d030cb213581675b1f07a7a1a06_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/oLhhHBO6/7165b90fd2d76559c73a6d078a53f1e5bdb3ecf3.jpeg" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="minifigures" event="url{https://modrinth.com/mod/minifigures}"
+...button-text text="Wither Storm Extra Nether Stars" event="url{https://modrinth.com/mod/wither-storm-extra-nether-stars}"
 
-👤 timeforfunandgames | 📅 2026-09-20
+👤 wither_storm_fan | 📅 2026-09-21
 
-This adds minifigures like Steve, Creeper, Zombie, and more
+Makes Cracker’s Wither Storm drop 4 regular Nether Stars alongside its normal Wither Storm Star, so 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/minifigures/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/minifigures}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wither-storm-extra-nether-stars/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wither-storm-extra-nether-stars}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ This adds minifigures like Steve, Creeper, Zombie, and more
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：终获巴黎青睐的铁塔
-© 日落时分的埃菲尔铁塔，巴黎，法国 (© Alexander Spatari/Getty Images)
+🖼️ 壁纸：皮毛与海洋之间的生命
+© 正在梳理皮毛的海獭，蒙特雷湾，加利福尼亚州，美国 (© Suzi Eszterhas/Minden Pictures)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Birthday](https://minecraft.wiki/Birthday)
+📖 **Wiki 推荐**：[Java Edition guides/Chaos Cubed](https://minecraft.wiki/Java_Edition_guides%2FChaos_Cubed)
 
-⏰ 更新时间：2026-09-20 15:54:30
+⏰ 更新时间：2026-09-21 04:36:26
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
