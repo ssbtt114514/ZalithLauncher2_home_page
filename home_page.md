@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-21 18:08:49
+// 生成时间：2026-09-22 04:32:21
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"循此苦旅，终抵繁星。"*
+> *"我怀念你的时间已经超过你陪伴我的时间了。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{循此苦旅，终抵繁星。}"
+...button-text text="📋 复制" event="copy{我怀念你的时间已经超过你陪伴我的时间了。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_2.2.74xx}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_removed_blocks%2FMetadata_variants}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/UM7cWG12/9644a38f87f27f941c4317a720f27304bbd9b4bb.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/bgp04XyM/3f1ddbf095f4aef74a9f85adf1567c127a8ed2b8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Madketplace X Just a Loach Fish" event="url{https://modrinth.com/mod/madketplace-x-just-a-loach-fish}"
+...button-text text="The_WIndows.json" event="url{https://modrinth.com/mod/the_windows-json}"
 
-👤 MrBenjaroo | 📅 2026-09-21
+👤 Nex0riz0n | 📅 2026-09-21
 
-This mod adds compatibility between the mods Madketplace and Just a Loach Fish.
+The creature looks like a window, it's chasing you, watch out...
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/madketplace-x-just-a-loach-fish/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/madketplace-x-just-a-loach-fish}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the_windows-json/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the_windows-json}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/sztFsn8Y/a2335ff361a87e0b711f281204f4f8de369ff738.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/oEsWLY0P/18456d94fa81a09e04b44d7b0b73a20275e03353_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="FLAME's Zombie Lib" event="url{https://modrinth.com/mod/flames-zombie-lib}"
+...button-text text="CartCam" event="url{https://modrinth.com/mod/cartcam}"
 
-👤 FLAMEBRINGER808 | 📅 2026-09-21
+👤 snoozyhotdog123 | 📅 2026-09-21
 
-FLAME's Zombie Lib is a lightweight library that provides shared systems for zombie-focused mods, in
+This mod makes your head turn with the minecart you're riding, so you're always facing the direction
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/flames-zombie-lib/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/flames-zombie-lib}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cartcam/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cartcam}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/FFQXRXv7/de3ed7a72a644a47911c51bd4e0527625483656b.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/7mawGKlP/d184e97214a76238d56381322345801fce4bc24d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="AE2 Objects" event="url{https://modrinth.com/mod/ae2-objects}"
+...button-text text="Critter Mod" event="url{https://modrinth.com/mod/critter-mod}"
 
-👤 Chiloven945 | 📅 2026-09-21
+👤 MrCloudy2 | 📅 2026-09-21
 
-Introduces high-density Deep Storage Cells with no type limits. A continuation and derivative work b
+Per-run progress for Hypixel SkyBlock's Critter Safari: what you and your party have caught and othe
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ae2-objects/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ae2-objects}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/critter-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/critter-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/nxsZR8Gv/530f889b564d224fc1661aac40fe33f0e01cbb99.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/WMXcBjen/d8bd1c2104306a83651703d1db60347524d3beb2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Bronze N' Steel" event="url{https://modrinth.com/mod/bronze-n-steel}"
+...button-text text="Howling Werewolf" event="url{https://modrinth.com/mod/howling-werewolf}"
 
-👤 elidhan | 📅 2026-09-21
+👤 R-Eatch | 📅 2026-09-21
 
-Adds Bronze and Steel to Minecraft
+Become a werewolf, master multiple forms and skills, survive Hunters armed with Silver, and conquer 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bronze-n-steel/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bronze-n-steel}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/howling-werewolf/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/howling-werewolf}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/n4BEXj8v/e32d83a4e51c1f35d223af691881692793bd1630_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/iWhg8P1K/f5e981d3ea3955331db5dc402b7a4cee6898823b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Eymistaken's Potion HUD" event="url{https://modrinth.com/mod/eymistakens-potion-hud}"
+...button-text text="Nexus Infection" event="url{https://modrinth.com/mod/nexus-infection-mrsculk222}"
 
-👤 Eymistaken | 📅 2026-09-21
+👤 mrsculk222 | 📅 2026-09-21
 
-A Potion HUD that works deeply integrated with Eymistaken's HUD.
+Makes your world significantly more dangerous with a vile infection, infested structures, and mobs.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/eymistakens-potion-hud/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/eymistakens-potion-hud}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nexus-infection-mrsculk222/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nexus-infection-mrsculk222}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ A Potion HUD that works deeply integrated with Eymistaken's HUD.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Launcher 2.2.74xx](https://minecraft.wiki/Launcher_2.2.74xx)
+📖 **Wiki 推荐**：[Java Edition removed blocks/Metadata variants](https://minecraft.wiki/Java_Edition_removed_blocks%2FMetadata_variants)
 
-⏰ 更新时间：2026-09-21 18:08:49
+⏰ 更新时间：2026-09-22 04:32:21
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
