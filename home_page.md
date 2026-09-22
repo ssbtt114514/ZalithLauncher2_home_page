@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-22 04:32:21
+// 生成时间：2026-09-22 16:45:15
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.FallAspens_ZH-CN7235054933_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.AutumnEquinoxY26_ZH-CN7957453091_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我怀念你的时间已经超过你陪伴我的时间了。"*
+> *"没问题，绝对没问题。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我怀念你的时间已经超过你陪伴我的时间了。}"
+...button-text text="📋 复制" event="copy{没问题，绝对没问题。}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.3
-**最新快照**: 26.3
+**最新快照**: 26.4-snapshot-1
 
 近期版本：
 - **26.3** (2026-09-15)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_removed_blocks%2FMetadata_variants}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Desert_(disambiguation)}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/bgp04XyM/3f1ddbf095f4aef74a9f85adf1567c127a8ed2b8_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/qSbxHA4z/1ebb3959989acf745fb0715a5644fc114b389813_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="The_WIndows.json" event="url{https://modrinth.com/mod/the_windows-json}"
+...button-text text="Hide Sun/Moon" event="url{https://modrinth.com/mod/hide-sun}"
 
-👤 Nex0riz0n | 📅 2026-09-21
+👤 PanchoConFlow | 📅 2026-09-22
 
-The creature looks like a window, it's chasing you, watch out...
+Hides the sun and moon from the Minecraft sky without affecting daylight, lighting, or the day-night
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the_windows-json/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the_windows-json}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hide-sun/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hide-sun}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/oEsWLY0P/18456d94fa81a09e04b44d7b0b73a20275e03353_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zkSIo5Ge/99abf5cbba06425073dff26c024cf6bafb4ed31b.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="CartCam" event="url{https://modrinth.com/mod/cartcam}"
+...button-text text="Villager Refugeed" event="url{https://modrinth.com/mod/villager-refugeed}"
 
-👤 snoozyhotdog123 | 📅 2026-09-21
+👤 LegacyOnTheHorizon | 📅 2026-09-22
 
-This mod makes your head turn with the minecart you're riding, so you're always facing the direction
+This mod in inspired by the refugee mechanic from matcha flavoured minecraft, and adds a few simple 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cartcam/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cartcam}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/villager-refugeed/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/villager-refugeed}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7mawGKlP/d184e97214a76238d56381322345801fce4bc24d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/APKJUZ8z/f18a016d907e836a2678445dbbf74ac804d9848b.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Critter Mod" event="url{https://modrinth.com/mod/critter-mod}"
+...button-text text="Adventurous Trinkets" event="url{https://modrinth.com/mod/adventurous-trinkets}"
 
-👤 MrCloudy2 | 📅 2026-09-21
+👤 Macol | 📅 2026-09-22
 
-Per-run progress for Hypixel SkyBlock's Critter Safari: what you and your party have caught and othe
+Equip your Spyglass and Bundle quiver and embark on a journey!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/critter-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/critter-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/adventurous-trinkets/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/adventurous-trinkets}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/WMXcBjen/d8bd1c2104306a83651703d1db60347524d3beb2_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/lsiVA0dt/65c7e5fef1eea9864d03135a32748c9038a5c96b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Howling Werewolf" event="url{https://modrinth.com/mod/howling-werewolf}"
+...button-text text="RMTierTagger" event="url{https://modrinth.com/mod/rmtiertagger}"
 
-👤 R-Eatch | 📅 2026-09-21
+👤 goldenegg9454 | 📅 2026-09-22
 
-Become a werewolf, master multiple forms and skills, survive Hunters armed with Silver, and conquer 
+A Rocket Mace TierTagger mod that displays the tiers of tested players in Rocket Mace.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/howling-werewolf/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/howling-werewolf}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/rmtiertagger/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/rmtiertagger}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/iWhg8P1K/f5e981d3ea3955331db5dc402b7a4cee6898823b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/LxTH1V8U/71e9c91fa64119ffedee6eb8165d88084ad1b7ce_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Nexus Infection" event="url{https://modrinth.com/mod/nexus-infection-mrsculk222}"
+...button-text text="SpotiHUD" event="url{https://modrinth.com/mod/spotihud}"
 
-👤 mrsculk222 | 📅 2026-09-21
+👤 Kalata | 📅 2026-09-22
 
-Makes your world significantly more dangerous with a vile infection, infested structures, and mobs.
+Yet another Minecraft mod that connects Spotify to you're game.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nexus-infection-mrsculk222/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nexus-infection-mrsculk222}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/spotihud/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/spotihud}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Makes your world significantly more dangerous with a vile infection, infested st
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：金色时节
-© 瓜兹曼山口附近的秋日山杨林，犹他州，美国 (© Danita Delimont/Shutterstock)
+🖼️ 壁纸：金秋平分，地坛染黄
+© 地坛公园秋日美景，北京，中国 (© by Wei/Adobestock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition removed blocks/Metadata variants](https://minecraft.wiki/Java_Edition_removed_blocks%2FMetadata_variants)
+📖 **Wiki 推荐**：[Desert (disambiguation)](https://minecraft.wiki/Desert_(disambiguation))
 
-⏰ 更新时间：2026-09-22 04:32:21
+⏰ 更新时间：2026-09-22 16:45:15
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
