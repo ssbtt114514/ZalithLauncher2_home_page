@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-23 04:28:50
+// 生成时间：2026-09-23 16:41:35
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.AutumnEquinoxY26_ZH-CN7957453091_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.ElGolfo_ZH-CN8329995759_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"贾维斯，在我们学会走之前，要先学会跑！"*
+> *"我们要一直往上爬，总有一天抵达月亮吧。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{贾维斯，在我们学会走之前，要先学会跑！}"
+...button-text text="📋 复制" event="copy{我们要一直往上爬，总有一天抵达月亮吧。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Ftransform}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_mob_render_history%2FSalmon}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ZP9AnTaj/bfaa9ab6a65255b9c489746be1918848f9c95cc3_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/A2QoLvZm/338dee8a5af34dd86aa42a7264863fda24a4e3b2.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Pull My Pearl" event="url{https://modrinth.com/mod/pullmypearl}"
+...button-text text="Better Ping Display Remake" event="url{https://modrinth.com/mod/better-ping-display-remake}"
 
-👤 xMyas_ | 📅 2026-09-23
+👤 mrpiratexd-khun | 📅 2026-09-23
 
-A client-side mod that alerts your teammate with custom alarms and visual HUD notifications to pull 
+Adds a configurable numerical ping display to the player list.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pullmypearl/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pullmypearl}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-ping-display-remake/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-ping-display-remake}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/2Hv06je6/4ad88b81d71e8ebc84b40ae4f3d9110427b53350_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6cdXbIXF/25c29a49f814048fe3cbd00a34a12e94bb77ea9c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Donut Buy Confirm" event="url{https://modrinth.com/mod/donut-buy-confirm}"
+...button-text text="Kotatsu's Basic Blocks" event="url{https://modrinth.com/mod/kotatsus-basic-blocks}"
 
-👤 genizy | 📅 2026-09-23
+👤 KotatsuKun | 📅 2026-09-23
 
-Simple client mod to confirm huge auction house purchases.
+This mod adds a lot of coloured blocks for building!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/donut-buy-confirm/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/donut-buy-confirm}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kotatsus-basic-blocks/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kotatsus-basic-blocks}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/NlEtfugV/510f7661bf66671600d098c461816a617c7285fa.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ebJIxUNh/ac31452ff44deb1cb941d15752081aa74ea4d561_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Keystrokes HUD" event="url{https://modrinth.com/mod/keystrokes-hud}"
+...button-text text="Growth through nurturing" event="url{https://modrinth.com/mod/growth-through-nurturing}"
 
-👤 mimods | 📅 2026-09-23
+👤 HLBQ | 📅 2026-09-23
 
-A lightweight client-side HUD overlay that shows your keyboard and mouse inputs in real time, automa
+This mod can make you stronger, just turn your XP into levels and you'll boost your combat power
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/keystrokes-hud/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/keystrokes-hud}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/growth-through-nurturing/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/growth-through-nurturing}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/OoS7BeKt/c0561f8ca005425211686aa2595c5e90f888b778_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Y60Acsd8/6d7e5d7d36ae27a11e9116fa8f82455742d61271_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ay's Gutters" event="url{https://modrinth.com/mod/ays-gutters}"
+...button-text text="Elytra_X" event="url{https://modrinth.com/mod/elytra_x}"
 
-👤 Andreyovsky | 📅 2026-09-22
+👤 kurganbaevsarvar899 | 📅 2026-09-23
 
-A simple gutter decoration mod!
+Быстрый свап элитр (300мс) с авто-командой /fly для Fabric 1.21.4 / Fast elytra swap with auto /fly 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ays-gutters/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ays-gutters}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/elytra_x/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/elytra_x}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6lQNy8NN/f7e74c5e73113b9bfdc15f92c737c4f334099815.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/jeo3EZFJ/7e076044d6ce998f33828d9dbb7dabe974a420d9_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="RoadMarker" event="url{https://modrinth.com/mod/roadmarker}"
+...button-text text="Automobility: Autoradio" event="url{https://modrinth.com/mod/automobility-autoradio}"
 
-👤 Ievitan | 📅 2026-09-22
+👤 davidhasnexus | 📅 2026-09-23
 
-RoadMarker is a Minecraft Fabric utility for creating smooth subpixel curves, road markings, diagona
+Car radio, five ready-made stations, fifty tracks, Custom music and Party Speakers for Automobility.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/roadmarker/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/roadmarker}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/automobility-autoradio/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/automobility-autoradio}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ RoadMarker is a Minecraft Fabric utility for creating smooth subpixel curves, ro
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：金秋平分，地坛染黄
-© 地坛公园秋日美景，北京，中国 (© by Wei/Adobestock)
+🖼️ 壁纸：火山灰与浪花相遇
+© 黑色熔岩海滩鸟瞰图，埃尔戈尔福，兰萨罗特岛，加那利群岛，西班牙 (© Westend61/Adobe Stock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Commands/transform](https://minecraft.wiki/Commands%2Ftransform)
+📖 **Wiki 推荐**：[Bedrock Edition mob render history/Salmon](https://minecraft.wiki/Bedrock_Edition_mob_render_history%2FSalmon)
 
-⏰ 更新时间：2026-09-23 04:28:50
+⏰ 更新时间：2026-09-23 16:41:35
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
