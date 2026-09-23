@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-22 16:45:15
+// 生成时间：2026-09-23 04:28:50
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"没问题，绝对没问题。"*
+> *"贾维斯，在我们学会走之前，要先学会跑！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{没问题，绝对没问题。}"
+...button-text text="📋 复制" event="copy{贾维斯，在我们学会走之前，要先学会跑！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Desert_(disambiguation)}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Ftransform}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/qSbxHA4z/1ebb3959989acf745fb0715a5644fc114b389813_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ZP9AnTaj/bfaa9ab6a65255b9c489746be1918848f9c95cc3_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Hide Sun/Moon" event="url{https://modrinth.com/mod/hide-sun}"
+...button-text text="Pull My Pearl" event="url{https://modrinth.com/mod/pullmypearl}"
 
-👤 PanchoConFlow | 📅 2026-09-22
+👤 xMyas_ | 📅 2026-09-23
 
-Hides the sun and moon from the Minecraft sky without affecting daylight, lighting, or the day-night
+A client-side mod that alerts your teammate with custom alarms and visual HUD notifications to pull 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hide-sun/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hide-sun}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pullmypearl/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pullmypearl}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/zkSIo5Ge/99abf5cbba06425073dff26c024cf6bafb4ed31b.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/2Hv06je6/4ad88b81d71e8ebc84b40ae4f3d9110427b53350_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Villager Refugeed" event="url{https://modrinth.com/mod/villager-refugeed}"
+...button-text text="Donut Buy Confirm" event="url{https://modrinth.com/mod/donut-buy-confirm}"
 
-👤 LegacyOnTheHorizon | 📅 2026-09-22
+👤 genizy | 📅 2026-09-23
 
-This mod in inspired by the refugee mechanic from matcha flavoured minecraft, and adds a few simple 
+Simple client mod to confirm huge auction house purchases.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/villager-refugeed/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/villager-refugeed}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/donut-buy-confirm/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/donut-buy-confirm}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/APKJUZ8z/f18a016d907e836a2678445dbbf74ac804d9848b.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/NlEtfugV/510f7661bf66671600d098c461816a617c7285fa.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Adventurous Trinkets" event="url{https://modrinth.com/mod/adventurous-trinkets}"
+...button-text text="Keystrokes HUD" event="url{https://modrinth.com/mod/keystrokes-hud}"
 
-👤 Macol | 📅 2026-09-22
+👤 mimods | 📅 2026-09-23
 
-Equip your Spyglass and Bundle quiver and embark on a journey!
+A lightweight client-side HUD overlay that shows your keyboard and mouse inputs in real time, automa
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/adventurous-trinkets/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/adventurous-trinkets}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/keystrokes-hud/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/keystrokes-hud}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/lsiVA0dt/65c7e5fef1eea9864d03135a32748c9038a5c96b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/OoS7BeKt/c0561f8ca005425211686aa2595c5e90f888b778_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="RMTierTagger" event="url{https://modrinth.com/mod/rmtiertagger}"
+...button-text text="Ay's Gutters" event="url{https://modrinth.com/mod/ays-gutters}"
 
-👤 goldenegg9454 | 📅 2026-09-22
+👤 Andreyovsky | 📅 2026-09-22
 
-A Rocket Mace TierTagger mod that displays the tiers of tested players in Rocket Mace.
+A simple gutter decoration mod!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/rmtiertagger/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/rmtiertagger}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ays-gutters/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ays-gutters}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/LxTH1V8U/71e9c91fa64119ffedee6eb8165d88084ad1b7ce_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6lQNy8NN/f7e74c5e73113b9bfdc15f92c737c4f334099815.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="SpotiHUD" event="url{https://modrinth.com/mod/spotihud}"
+...button-text text="RoadMarker" event="url{https://modrinth.com/mod/roadmarker}"
 
-👤 Kalata | 📅 2026-09-22
+👤 Ievitan | 📅 2026-09-22
 
-Yet another Minecraft mod that connects Spotify to you're game.
+RoadMarker is a Minecraft Fabric utility for creating smooth subpixel curves, road markings, diagona
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/spotihud/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/spotihud}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/roadmarker/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/roadmarker}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Yet another Minecraft mod that connects Spotify to you're game.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Desert (disambiguation)](https://minecraft.wiki/Desert_(disambiguation))
+📖 **Wiki 推荐**：[Commands/transform](https://minecraft.wiki/Commands%2Ftransform)
 
-⏰ 更新时间：2026-09-22 16:45:15
+⏰ 更新时间：2026-09-23 04:28:50
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
