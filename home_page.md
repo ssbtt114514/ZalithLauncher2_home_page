@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-23 16:41:35
+// 生成时间：2026-09-24 04:25:52
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我们要一直往上爬，总有一天抵达月亮吧。"*
+> *"金钱和女人，是人生犯错的根源。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我们要一直往上爬，总有一天抵达月亮吧。}"
+...button-text text="📋 复制" event="copy{金钱和女人，是人生犯错的根源。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_mob_render_history%2FSalmon}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FHappy_Ghast_Spawn_Egg}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,82 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/A2QoLvZm/338dee8a5af34dd86aa42a7264863fda24a4e3b2.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/chYEBcTk/ceae05eb459e1c64a424ba494bfc70d9c5c1945f.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Better Ping Display Remake" event="url{https://modrinth.com/mod/better-ping-display-remake}"
+...button-text text="Decor Essential" event="url{https://modrinth.com/mod/decor-essential}"
 
-👤 mrpiratexd-khun | 📅 2026-09-23
+👤 RetroCat7 | 📅 2026-09-24
 
-Adds a configurable numerical ping display to the player list.
+Adds long-wanted blocks, many special ideas, and a new crafter, all for decorative purposes!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-ping-display-remake/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-ping-display-remake}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/decor-essential/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/decor-essential}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6cdXbIXF/25c29a49f814048fe3cbd00a34a12e94bb77ea9c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/qHy8dtyD/32b06e968bcb27614959469e813802de2450963e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Kotatsu's Basic Blocks" event="url{https://modrinth.com/mod/kotatsus-basic-blocks}"
+...button-text text="functional recipes analysis" event="url{https://modrinth.com/mod/functional-recipes-analysis}"
 
-👤 KotatsuKun | 📅 2026-09-23
+👤 XHYender | 📅 2026-09-23
 
-This mod adds a lot of coloured blocks for building!
+more  !?!? functional vanilla recipes analysis ?!?!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kotatsus-basic-blocks/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kotatsus-basic-blocks}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/functional-recipes-analysis/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/functional-recipes-analysis}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ebJIxUNh/ac31452ff44deb1cb941d15752081aa74ea4d561_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/5mb7bP73/6d42283802121e557d81a0fc474871585ad365b5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Growth through nurturing" event="url{https://modrinth.com/mod/growth-through-nurturing}"
+...button-text text="Create: Bulk Crafting" event="url{https://modrinth.com/mod/create-bulk-crafting}"
 
-👤 HLBQ | 📅 2026-09-23
+👤 JOKRisBest | 📅 2026-09-23
 
-This mod can make you stronger, just turn your XP into levels and you'll boost your combat power
+Create: Bulk Crafting is an addon for Create (NeoForge 1.21.1) that removes artificial bottlenecks o
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/growth-through-nurturing/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/growth-through-nurturing}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-bulk-crafting/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-bulk-crafting}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Y60Acsd8/6d7e5d7d36ae27a11e9116fa8f82455742d61271_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/qvL369jb/a28e05f5bb11788eadec1700d5c5a66d1a80a090_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Elytra_X" event="url{https://modrinth.com/mod/elytra_x}"
+...button-text text="Misaka's better experience" event="url{https://modrinth.com/mod/misaka-mod}"
 
-👤 kurganbaevsarvar899 | 📅 2026-09-23
+👤 Misakaikou | 📅 2026-09-23
 
-Быстрый свап элитр (300мс) с авто-командой /fly для Fabric 1.21.4 / Fast elytra swap with auto /fly 
+Sort chests with a single click, and keep your Elytra and Totem always ready in their own slots. Pot
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/elytra_x/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/elytra_x}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/misaka-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/misaka-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/jeo3EZFJ/7e076044d6ce998f33828d9dbb7dabe974a420d9_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/cc5yBkMc/80664dc3a6abdcd7fb49bec69fa23d9fa161e3ce_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Automobility: Autoradio" event="url{https://modrinth.com/mod/automobility-autoradio}"
+...button-text text="Ent's Flags" event="url{https://modrinth.com/mod/ents-flags}"
 
-👤 davidhasnexus | 📅 2026-09-23
+👤 TheFlyingEnt | 📅 2026-09-23
 
-Car radio, five ready-made stations, fifty tracks, Custom music and Party Speakers for Automobility.
+Ever wanted more Banner Types into Minecraft?
+This mod add that feature with WAR BANNERS!!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/automobility-autoradio/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/automobility-autoradio}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ents-flags/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ents-flags}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +179,9 @@ Car radio, five ready-made stations, fifty tracks, Custom music and Party Speake
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition mob render history/Salmon](https://minecraft.wiki/Bedrock_Edition_mob_render_history%2FSalmon)
+📖 **Wiki 推荐**：[Bedrock Edition item texture history/Happy Ghast Spawn Egg](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FHappy_Ghast_Spawn_Egg)
 
-⏰ 更新时间：2026-09-23 16:41:35
+⏰ 更新时间：2026-09-24 04:25:52
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
