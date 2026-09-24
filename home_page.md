@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-24 04:25:52
+// 生成时间：2026-09-24 16:59:00
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.ElGolfo_ZH-CN8329995759_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.MidAutumn2026_ZH-CN8947536773_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"金钱和女人，是人生犯错的根源。"*
+> *"憧憬，是距离了解最遥远的一种感情。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{金钱和女人，是人生犯错的根源。}"
+...button-text text="📋 复制" event="copy{憧憬，是距离了解最遥远的一种感情。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FHappy_Ghast_Spawn_Egg}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_level_format%2FEntity_format%2FComponents}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,6 +67,22 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/NxGVAmCj/b679d46f59f0a6fc7ce562ab047839c17f20050d_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Trickster Radial Menu" event="url{https://modrinth.com/mod/trickster-radial-menu}"
+
+👤 takenx2 | 📅 2026-09-24
+
+Trickster Addon that adds a radial menu for the Hats.
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/trickster-radial-menu/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/trickster-radial-menu}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/chYEBcTk/ceae05eb459e1c64a424ba494bfc70d9c5c1945f.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
 ...button-text text="Decor Essential" event="url{https://modrinth.com/mod/decor-essential}"
@@ -78,6 +94,22 @@ Adds long-wanted blocks, many special ideas, and a new crafter, all for decorati
 ...row-start horizontal=spacedBy(8)
 ...button text="⬇️ 下载" event="url{https://modrinth.com/mod/decor-essential/versions}" weight=(1)
 ...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/decor-essential}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/7CuJri95/eda8abd1adedf03d022e30e7c1a4543da6d4f609.png" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Max Enchantment Star" event="url{https://modrinth.com/mod/jahus-maxenchantstar}"
+
+👤 DarthJahus | 📅 2026-09-24
+
+Show a star (⭐) next to your enchantments if they are at their maximum level.
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jahus-maxenchantstar/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jahus-maxenchantstar}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -114,39 +146,6 @@ Create: Bulk Crafting is an addon for Create (NeoForge 1.21.1) that removes arti
 ...column-end
 ...row-end
 
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/qvL369jb/a28e05f5bb11788eadec1700d5c5a66d1a80a090_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Misaka's better experience" event="url{https://modrinth.com/mod/misaka-mod}"
-
-👤 Misakaikou | 📅 2026-09-23
-
-Sort chests with a single click, and keep your Elytra and Totem always ready in their own slots. Pot
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/misaka-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/misaka-mod}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/cc5yBkMc/80664dc3a6abdcd7fb49bec69fa23d9fa161e3ce_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Ent's Flags" event="url{https://modrinth.com/mod/ents-flags}"
-
-👤 TheFlyingEnt | 📅 2026-09-23
-
-Ever wanted more Banner Types into Minecraft?
-This mod add that feature with WAR BANNERS!!
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ents-flags/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ents-flags}" weight=(1)
-...row-end
-...column-end
-...row-end
-
 ...row-start horizontal=spacedBy(8)
 ...button text="📥 访问 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
 ...row-end
@@ -174,14 +173,14 @@ This mod add that feature with WAR BANNERS!!
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：火山灰与浪花相遇
-© 黑色熔岩海滩鸟瞰图，埃尔戈尔福，兰萨罗特岛，加那利群岛，西班牙 (© Westend61/Adobe Stock)
+🖼️ 壁纸：当月亮也来赴会
+© 庆祝中秋节的中国灯笼 (© LeeYiuTung/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition item texture history/Happy Ghast Spawn Egg](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FHappy_Ghast_Spawn_Egg)
+📖 **Wiki 推荐**：[Bedrock Edition level format/Entity format/Components](https://minecraft.wiki/Bedrock_Edition_level_format%2FEntity_format%2FComponents)
 
-⏰ 更新时间：2026-09-24 04:25:52
+⏰ 更新时间：2026-09-24 16:59:00
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
