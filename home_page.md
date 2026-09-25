@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-24 16:59:00
+// 生成时间：2026-09-25 04:37:28
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"憧憬，是距离了解最遥远的一种感情。"*
+> *"我只是不想再失去他——哪怕是仅存在一瞬的幻影！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{憧憬，是距离了解最遥远的一种感情。}"
+...button-text text="📋 复制" event="copy{我只是不想再失去他——哪怕是仅存在一瞬的幻影！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_level_format%2FEntity_format%2FComponents}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_17w48a}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/NxGVAmCj/b679d46f59f0a6fc7ce562ab047839c17f20050d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/uSbcKIdL/298122ccc76f4e003728fcd93371eb4041cf46e9.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Trickster Radial Menu" event="url{https://modrinth.com/mod/trickster-radial-menu}"
+...button-text text="Mine By Numbers" event="url{https://modrinth.com/mod/minebynumbers}"
 
-👤 takenx2 | 📅 2026-09-24
+👤 Potota | 📅 2026-09-25
 
-Trickster Addon that adds a radial menu for the Hats.
+Play endless nonograms/Picross puzzles based on your modpack!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/trickster-radial-menu/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/trickster-radial-menu}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/minebynumbers/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/minebynumbers}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/chYEBcTk/ceae05eb459e1c64a424ba494bfc70d9c5c1945f.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ja8XybLZ/3f7d36d2128c92f77ee157a624c2164f07beea72.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Decor Essential" event="url{https://modrinth.com/mod/decor-essential}"
+...button-text text="Compactable Wind Chargees" event="url{https://modrinth.com/mod/compactable-wind-chargees}"
 
-👤 RetroCat7 | 📅 2026-09-24
+👤 PlayerShorts | 📅 2026-09-25
 
-Adds long-wanted blocks, many special ideas, and a new crafter, all for decorative purposes!
+a crafting recipe for you to craft your wind charges into breeze rods
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/decor-essential/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/decor-essential}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/compactable-wind-chargees/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/compactable-wind-chargees}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7CuJri95/eda8abd1adedf03d022e30e7c1a4543da6d4f609.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/R8zyoQX1/b70e5de5dcb9b000ffb8f6812b0db6c265ce2f54.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Max Enchantment Star" event="url{https://modrinth.com/mod/jahus-maxenchantstar}"
+...button-text text="Chrono API" event="url{https://modrinth.com/mod/chronoapi}"
 
-👤 DarthJahus | 📅 2026-09-24
+👤 Rolmi | 📅 2026-09-25
 
-Show a star (⭐) next to your enchantments if they are at their maximum level.
+A prerequisite API mod for controlling the flow of in-game time.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jahus-maxenchantstar/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jahus-maxenchantstar}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chronoapi/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chronoapi}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/qHy8dtyD/32b06e968bcb27614959469e813802de2450963e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/QUBRbxNS/d557496eeb84d07879416b6c45e333935bc79376.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="functional recipes analysis" event="url{https://modrinth.com/mod/functional-recipes-analysis}"
+...button-text text="Doom Block" event="url{https://modrinth.com/mod/doom-block}"
 
-👤 XHYender | 📅 2026-09-23
+👤 MisterCosmos | 📅 2026-09-25
 
-more  !?!? functional vanilla recipes analysis ?!?!
+Doom Block adds a deadly block with instant damage to the game. Flexible settings and full compatibi
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/functional-recipes-analysis/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/functional-recipes-analysis}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/doom-block/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/doom-block}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/5mb7bP73/6d42283802121e557d81a0fc474871585ad365b5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/UBW4bpOx/d58a0ffc41e991db463b5e7280acc9e06cb27e12.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Bulk Crafting" event="url{https://modrinth.com/mod/create-bulk-crafting}"
+...button-text text="TotemDiscordBridge" event="url{https://modrinth.com/mod/totem-discord-bridge}"
 
-👤 JOKRisBest | 📅 2026-09-23
+👤 Yunitrish | 📅 2026-09-24
 
-Create: Bulk Crafting is an addon for Create (NeoForge 1.21.1) that removes artificial bottlenecks o
+Connect Minecraft chat and server events to Discord, link player accounts, and manage an optional ex
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-bulk-crafting/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-bulk-crafting}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/totem-discord-bridge/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/totem-discord-bridge}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Create: Bulk Crafting is an addon for Create (NeoForge 1.21.1) that removes arti
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition level format/Entity format/Components](https://minecraft.wiki/Bedrock_Edition_level_format%2FEntity_format%2FComponents)
+📖 **Wiki 推荐**：[Java Edition 17w48a](https://minecraft.wiki/Java_Edition_17w48a)
 
-⏰ 更新时间：2026-09-24 16:59:00
+⏰ 更新时间：2026-09-25 04:37:28
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
