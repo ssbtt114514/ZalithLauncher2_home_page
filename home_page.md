@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-25 04:37:28
+// 生成时间：2026-09-25 17:01:09
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.MidAutumn2026_ZH-CN8947536773_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.BearsEars_ZH-CN0496897450_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我只是不想再失去他——哪怕是仅存在一瞬的幻影！"*
+> *"纵然变化，依然故我。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我只是不想再失去他——哪怕是仅存在一瞬的幻影！}"
+...button-text text="📋 复制" event="copy{纵然变化，依然故我。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_17w48a}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_1.21.40}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/uSbcKIdL/298122ccc76f4e003728fcd93371eb4041cf46e9.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/YF79Cdm1/9e9e5af5320e9c4878e25af08c932902fcf1ed6e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mine By Numbers" event="url{https://modrinth.com/mod/minebynumbers}"
+...button-text text="Scorched Guns: Calls of The Wars" event="url{https://modrinth.com/mod/scorched-guns-calls-of-the-wars}"
 
-👤 Potota | 📅 2026-09-25
+👤 Daragetsu | 📅 2026-09-25
 
-Play endless nonograms/Picross puzzles based on your modpack!
+Scorched Guns 2 Addon that Adds new conflict grounds and mobs
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/minebynumbers/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/minebynumbers}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/scorched-guns-calls-of-the-wars/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/scorched-guns-calls-of-the-wars}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ja8XybLZ/3f7d36d2128c92f77ee157a624c2164f07beea72.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xTOUXGYU/469af8bf91b7b03d50d120738be4d1c718fe609e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Compactable Wind Chargees" event="url{https://modrinth.com/mod/compactable-wind-chargees}"
+...button-text text="Advanced Player Clothing" event="url{https://modrinth.com/mod/advanced-player-clothing}"
 
-👤 PlayerShorts | 📅 2026-09-25
+👤 tsgscraft | 📅 2026-09-25
 
-a crafting recipe for you to craft your wind charges into breeze rods
+Adds player customization via a Resource pack.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/compactable-wind-chargees/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/compactable-wind-chargees}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/advanced-player-clothing/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/advanced-player-clothing}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/R8zyoQX1/b70e5de5dcb9b000ffb8f6812b0db6c265ce2f54.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/9mfrgvps/4cc7052ff3d8902d4fb7aabce0fb68fda501601b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Chrono API" event="url{https://modrinth.com/mod/chronoapi}"
+...button-text text="BetterChatNarrator" event="url{https://modrinth.com/mod/betterchatnarrator}"
 
-👤 Rolmi | 📅 2026-09-25
+👤 WhisperingVale | 📅 2026-09-25
 
-A prerequisite API mod for controlling the flow of in-game time.
+A Regular Fabric mod that narrates chat messages, has a queue system, specific narration player, nar
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chronoapi/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chronoapi}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/betterchatnarrator/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/betterchatnarrator}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/QUBRbxNS/d557496eeb84d07879416b6c45e333935bc79376.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/5IlNnZiX/ac84e74c924f49729a61584b923fa16148201443.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Doom Block" event="url{https://modrinth.com/mod/doom-block}"
+...button-text text="Windowsnite" event="url{https://modrinth.com/mod/windowsnite}"
 
-👤 MisterCosmos | 📅 2026-09-25
+👤 Jorgetendero | 📅 2026-09-25
 
-Doom Block adds a deadly block with instant damage to the game. Flexible settings and full compatibi
+New Mineral inspired in windows 95 logo
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/doom-block/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/doom-block}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/windowsnite/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/windowsnite}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/UBW4bpOx/d58a0ffc41e991db463b5e7280acc9e06cb27e12.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zPh8TFdb/448f67cc0f98b7a194e5389f43d1ce45dbffc405_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="TotemDiscordBridge" event="url{https://modrinth.com/mod/totem-discord-bridge}"
+...button-text text="Create: Accelerate" event="url{https://modrinth.com/mod/create-accelerate}"
 
-👤 Yunitrish | 📅 2026-09-24
+👤 CircuitScout | 📅 2026-09-25
 
-Connect Minecraft chat and server events to Discord, link player accounts, and manage an optional ex
+Upgrade railways with faster tracks and the power of magnetic levitation
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/totem-discord-bridge/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/totem-discord-bridge}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-accelerate/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-accelerate}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Connect Minecraft chat and server events to Discord, link player accounts, and m
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：当月亮也来赴会
-© 庆祝中秋节的中国灯笼 (© LeeYiuTung/Getty Images)
+🖼️ 壁纸：写在大地上的故事
+© 熊耳国家纪念区附近的雪松台地和骡子角，犹他州，美国 (© Jeff Clay/Tandem Stills + Motion)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 17w48a](https://minecraft.wiki/Java_Edition_17w48a)
+📖 **Wiki 推荐**：[Bedrock Edition 1.21.40](https://minecraft.wiki/Bedrock_Edition_1.21.40)
 
-⏰ 更新时间：2026-09-25 04:37:28
+⏰ 更新时间：2026-09-25 17:01:09
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
