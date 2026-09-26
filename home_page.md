@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-26 04:40:25
+// 生成时间：2026-09-26 16:14:29
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.BearsEars_ZH-CN0496897450_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.DecoCrab_ZH-CN0973306994_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"后来，错过也成了人间常态。"*
+> *"一寸柔肠情几许？薄衾孤枕，梦回人静，彻晓潇潇雨。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{后来，错过也成了人间常态。}"
+...button-text text="📋 复制" event="copy{一寸柔肠情几许？薄衾孤枕，梦回人静，彻晓潇潇雨。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_2.1.5410%2FDevelopment_versions}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Table}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/HaBN9c9F/370eef5872ee6f2558d1225a914ed30c1e578654.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ESrQDKEw/f19bc6f59227a614e299db6e9da4622d21929c92_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Border Cull" event="url{https://modrinth.com/mod/border-cull}"
+...button-text text="Create: Physical Batteries" event="url{https://modrinth.com/mod/create-physical-batteries}"
 
-👤 BLOODWOOF | 📅 2026-09-25
+👤 TheNev | 📅 2026-09-26
 
-Stops rendering past a configurable distance beyond the world border.
+Adds batteries that keep overstressed networks running
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/border-cull/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/border-cull}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-physical-batteries/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-physical-batteries}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/gHzqEcjh/b437ef0b0a9b1b3255a455d9a39b3e66907eda41.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/DT0Z4ctZ/64561d682c468774dc459381af046633b9cf93f0_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Sincerelyuq's Pantry" event="url{https://modrinth.com/mod/sincerelyuqs-pantry}"
+...button-text text="The orb mod" event="url{https://modrinth.com/mod/isaksen-orb-mod}"
 
-👤 sincerelyuq | 📅 2026-09-25
+👤 isaksen119 | 📅 2026-09-26
 
-Sincerelyuq's Pantry is a NeoForge 1.21.8 content mod that expands food-related generation and craft
+A new ore added Orb ore Orb Ingot Crusher Orb Dust And more!!!!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sincerelyuqs-pantry/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sincerelyuqs-pantry}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/isaksen-orb-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/isaksen-orb-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/J48VfgFq/6af7ceee5228691e85b4bcf1ce756329802ed5f2_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ta7wdiWm/b4f5149a307a1a24e6ce4d59c6e3b6f50c3c02ce_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Prolins Universe" event="url{https://modrinth.com/mod/prolins-universe}"
+...button-text text="uttilus vein miner" event="url{https://modrinth.com/mod/uttilus-vein-miner}"
 
-👤 ProlinOfficial | 📅 2026-09-25
+👤 Uttilus | 📅 2026-09-26
 
-a collection of custom mobs, armors, tools, mechanics, and a few bosses into the game, heavily inspi
+Add a vein miner enchant in the game
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/prolins-universe/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/prolins-universe}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/uttilus-vein-miner/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/uttilus-vein-miner}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/coT9UtPV/f489ec01eabea73aa701b2d37c12d03107399a10_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/UUxTxHxL/a0fab541f3056ad3e4cf0a14086843e811d7977d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Oh My Biomes!" event="url{https://modrinth.com/mod/oh-my-biomes}"
+...button-text text="Phone Function" event="url{https://modrinth.com/mod/phone-function}"
 
-👤 buyukpoyraz1 | 📅 2026-09-25
+👤 Kn1Ghtf4ll-02 | 📅 2026-09-26
 
-This Mod Adds 2 New Biomes! Super Plains and Omega Trees, Yes i know this mod is so small! i am work
+Smartphone Function adds a functional and interactive smartphone to Minecraft! Open the phone, explo
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/oh-my-biomes/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/oh-my-biomes}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/phone-function/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/phone-function}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/2Ppz15f2/34461d0e55cd71d21f9f23112338b067a78391ec_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ewO2gegy/24e47ca283bcdcf6a69e026a7acd25a20d8d05b7.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Bitterballen - Villager Breeding Compatibility" event="url{https://modrinth.com/mod/create-bitterballen-villager-breeding-compatibility}"
+...button-text text="Hollow Snow" event="url{https://modrinth.com/mod/hollow-snow}"
 
-👤 hxneyL | 📅 2026-09-25
+👤 ketoshi | 📅 2026-09-26
 
-Lets villagers pick up, eat, and breed with food from Create: Bitterballen.
+A winter survival horror: cold you have to outlast, warmth you have to build, and something in the f
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-bitterballen-villager-breeding-compatibility/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-bitterballen-villager-breeding-compatibility}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hollow-snow/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hollow-snow}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Lets villagers pick up, eat, and breed with food from Create: Bitterballen.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：写在大地上的故事
-© 熊耳国家纪念区附近的雪松台地和骡子角，犹他州，美国 (© Jeff Clay/Tandem Stills + Motion)
+🖼️ 壁纸：深海夜花园
+© 海笔上的装饰蟹，科莫多国家公园，印度尼西亚 (© Alex Mustard/Nature Picture Library)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Launcher 2.1.5410/Development versions](https://minecraft.wiki/Launcher_2.1.5410%2FDevelopment_versions)
+📖 **Wiki 推荐**：[Table](https://minecraft.wiki/Table)
 
-⏰ 更新时间：2026-09-26 04:40:25
+⏰ 更新时间：2026-09-26 16:14:29
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
