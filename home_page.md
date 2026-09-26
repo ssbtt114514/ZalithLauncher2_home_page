@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-25 17:01:09
+// 生成时间：2026-09-26 04:40:25
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"纵然变化，依然故我。"*
+> *"后来，错过也成了人间常态。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{纵然变化，依然故我。}"
+...button-text text="📋 复制" event="copy{后来，错过也成了人间常态。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_1.21.40}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_2.1.5410%2FDevelopment_versions}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/YF79Cdm1/9e9e5af5320e9c4878e25af08c932902fcf1ed6e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/HaBN9c9F/370eef5872ee6f2558d1225a914ed30c1e578654.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Scorched Guns: Calls of The Wars" event="url{https://modrinth.com/mod/scorched-guns-calls-of-the-wars}"
+...button-text text="Border Cull" event="url{https://modrinth.com/mod/border-cull}"
 
-👤 Daragetsu | 📅 2026-09-25
+👤 BLOODWOOF | 📅 2026-09-25
 
-Scorched Guns 2 Addon that Adds new conflict grounds and mobs
+Stops rendering past a configurable distance beyond the world border.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/scorched-guns-calls-of-the-wars/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/scorched-guns-calls-of-the-wars}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/border-cull/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/border-cull}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xTOUXGYU/469af8bf91b7b03d50d120738be4d1c718fe609e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/gHzqEcjh/b437ef0b0a9b1b3255a455d9a39b3e66907eda41.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Advanced Player Clothing" event="url{https://modrinth.com/mod/advanced-player-clothing}"
+...button-text text="Sincerelyuq's Pantry" event="url{https://modrinth.com/mod/sincerelyuqs-pantry}"
 
-👤 tsgscraft | 📅 2026-09-25
+👤 sincerelyuq | 📅 2026-09-25
 
-Adds player customization via a Resource pack.
+Sincerelyuq's Pantry is a NeoForge 1.21.8 content mod that expands food-related generation and craft
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/advanced-player-clothing/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/advanced-player-clothing}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sincerelyuqs-pantry/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sincerelyuqs-pantry}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/9mfrgvps/4cc7052ff3d8902d4fb7aabce0fb68fda501601b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/J48VfgFq/6af7ceee5228691e85b4bcf1ce756329802ed5f2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="BetterChatNarrator" event="url{https://modrinth.com/mod/betterchatnarrator}"
+...button-text text="Prolins Universe" event="url{https://modrinth.com/mod/prolins-universe}"
 
-👤 WhisperingVale | 📅 2026-09-25
+👤 ProlinOfficial | 📅 2026-09-25
 
-A Regular Fabric mod that narrates chat messages, has a queue system, specific narration player, nar
+a collection of custom mobs, armors, tools, mechanics, and a few bosses into the game, heavily inspi
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/betterchatnarrator/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/betterchatnarrator}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/prolins-universe/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/prolins-universe}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/5IlNnZiX/ac84e74c924f49729a61584b923fa16148201443.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/coT9UtPV/f489ec01eabea73aa701b2d37c12d03107399a10_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Windowsnite" event="url{https://modrinth.com/mod/windowsnite}"
+...button-text text="Oh My Biomes!" event="url{https://modrinth.com/mod/oh-my-biomes}"
 
-👤 Jorgetendero | 📅 2026-09-25
+👤 buyukpoyraz1 | 📅 2026-09-25
 
-New Mineral inspired in windows 95 logo
+This Mod Adds 2 New Biomes! Super Plains and Omega Trees, Yes i know this mod is so small! i am work
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/windowsnite/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/windowsnite}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/oh-my-biomes/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/oh-my-biomes}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/zPh8TFdb/448f67cc0f98b7a194e5389f43d1ce45dbffc405_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/2Ppz15f2/34461d0e55cd71d21f9f23112338b067a78391ec_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Accelerate" event="url{https://modrinth.com/mod/create-accelerate}"
+...button-text text="Create: Bitterballen - Villager Breeding Compatibility" event="url{https://modrinth.com/mod/create-bitterballen-villager-breeding-compatibility}"
 
-👤 CircuitScout | 📅 2026-09-25
+👤 hxneyL | 📅 2026-09-25
 
-Upgrade railways with faster tracks and the power of magnetic levitation
+Lets villagers pick up, eat, and breed with food from Create: Bitterballen.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-accelerate/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-accelerate}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-bitterballen-villager-breeding-compatibility/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-bitterballen-villager-breeding-compatibility}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Upgrade railways with faster tracks and the power of magnetic levitation
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition 1.21.40](https://minecraft.wiki/Bedrock_Edition_1.21.40)
+📖 **Wiki 推荐**：[Launcher 2.1.5410/Development versions](https://minecraft.wiki/Launcher_2.1.5410%2FDevelopment_versions)
 
-⏰ 更新时间：2026-09-25 17:01:09
+⏰ 更新时间：2026-09-26 04:40:25
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
