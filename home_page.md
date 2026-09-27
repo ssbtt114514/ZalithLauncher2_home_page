@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-26 16:14:29
+// 生成时间：2026-09-27 05:01:33
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"一寸柔肠情几许？薄衾孤枕，梦回人静，彻晓潇潇雨。"*
+> *"多巴胺不等于爱情，爱情却一定有多巴胺！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{一寸柔肠情几许？薄衾孤枕，梦回人静，彻晓潇潇雨。}"
+...button-text text="📋 复制" event="copy{多巴胺不等于爱情，爱情却一定有多巴胺！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Table}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bee_(disambiguation)}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ESrQDKEw/f19bc6f59227a614e299db6e9da4622d21929c92_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/jA099XvV/e032c048499bb2ddd2c9cd61ece962c4bb55174b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Physical Batteries" event="url{https://modrinth.com/mod/create-physical-batteries}"
+...button-text text="Home Brewed" event="url{https://modrinth.com/mod/home-brewed}"
 
-👤 TheNev | 📅 2026-09-26
+👤 NovaWostra | 📅 2026-09-27
 
-Adds batteries that keep overstressed networks running
+A Potion Brewing System Overhaul, allowing players to create potions earlygame, mix potion power wit
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-physical-batteries/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-physical-batteries}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/home-brewed/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/home-brewed}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/DT0Z4ctZ/64561d682c468774dc459381af046633b9cf93f0_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/SBOkoyYf/7d1cd21c6f0879c37e38e4064dc384faef4f2b18_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="The orb mod" event="url{https://modrinth.com/mod/isaksen-orb-mod}"
+...button-text text="Cave Mushroom Fix" event="url{https://modrinth.com/mod/cavemushroomfix}"
 
-👤 isaksen119 | 📅 2026-09-26
+👤 LevsidorovI | 📅 2026-09-26
 
-A new ore added Orb ore Orb Ingot Crusher Orb Dust And more!!!!
+This mod restores mushroom spawning in caves. Mushrooms will now spawn in caves as they did before v
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/isaksen-orb-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/isaksen-orb-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cavemushroomfix/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cavemushroomfix}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ta7wdiWm/b4f5149a307a1a24e6ce4d59c6e3b6f50c3c02ce_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8DqQbpPk/05d006c9575d1b79deef0b894bda309b5fb0da5e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="uttilus vein miner" event="url{https://modrinth.com/mod/uttilus-vein-miner}"
+...button-text text="The Next Generation" event="url{https://modrinth.com/mod/thenextgeneration}"
 
-👤 Uttilus | 📅 2026-09-26
+👤 MottBot | 📅 2026-09-26
 
-Add a vein miner enchant in the game
+The End update everyone wants
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/uttilus-vein-miner/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/uttilus-vein-miner}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/thenextgeneration/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/thenextgeneration}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/UUxTxHxL/a0fab541f3056ad3e4cf0a14086843e811d7977d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/te25156i/c6ed9ebc722e377bfa0e86a9cf217f776c35ddc4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Phone Function" event="url{https://modrinth.com/mod/phone-function}"
+...button-text text="NetherPortalLink" event="url{https://modrinth.com/mod/netherportallink}"
 
-👤 Kn1Ghtf4ll-02 | 📅 2026-09-26
+👤 laffs1 | 📅 2026-09-26
 
-Smartphone Function adds a functional and interactive smartphone to Minecraft! Open the phone, explo
+It links your portals together with the corner blocks
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/phone-function/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/phone-function}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/netherportallink/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/netherportallink}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ewO2gegy/24e47ca283bcdcf6a69e026a7acd25a20d8d05b7.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/B48LgY2U/60597aac94507945235b1c0a05aee864d72ad4aa_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Hollow Snow" event="url{https://modrinth.com/mod/hollow-snow}"
+...button-text text="Secret's Portal Gun" event="url{https://modrinth.com/mod/secrets-portal-gun}"
 
-👤 ketoshi | 📅 2026-09-26
+👤 its_a_secret_to_everyone | 📅 2026-09-26
 
-A winter survival horror: cold you have to outlast, warmth you have to build, and something in the f
+A portal gun from the game portal.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hollow-snow/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hollow-snow}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/secrets-portal-gun/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/secrets-portal-gun}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ A winter survival horror: cold you have to outlast, warmth you have to build, an
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Table](https://minecraft.wiki/Table)
+📖 **Wiki 推荐**：[Bee (disambiguation)](https://minecraft.wiki/Bee_(disambiguation))
 
-⏰ 更新时间：2026-09-26 16:14:29
+⏰ 更新时间：2026-09-27 05:01:33
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
