@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-27 05:01:33
+// 生成时间：2026-09-27 16:49:44
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.DecoCrab_ZH-CN0973306994_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.AmberHall_ZH-CN1223127100_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"多巴胺不等于爱情，爱情却一定有多巴胺！"*
+> *"谎言重复一千遍就成了真理。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{多巴胺不等于爱情，爱情却一定有多巴胺！}"
+...button-text text="📋 复制" event="copy{谎言重复一千遍就成了真理。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bee_(disambiguation)}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Spear_(disambiguation)}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/jA099XvV/e032c048499bb2ddd2c9cd61ece962c4bb55174b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/egCo6ejh/e344c14c8449de21d1153eeb11496f626074efba_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Home Brewed" event="url{https://modrinth.com/mod/home-brewed}"
+...button-text text="Veylith Laboratory" event="url{https://modrinth.com/mod/veylith-laboratory}"
 
-👤 NovaWostra | 📅 2026-09-27
+👤 SkyArchitec | 📅 2026-09-27
 
-A Potion Brewing System Overhaul, allowing players to create potions earlygame, mix potion power wit
+This datapack adds a unique structure belonging to the Veylith Scientists, bringing their distinctiv
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/home-brewed/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/home-brewed}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/veylith-laboratory/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/veylith-laboratory}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/SBOkoyYf/7d1cd21c6f0879c37e38e4064dc384faef4f2b18_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/cwmUol4M/666cec33c242287b9eb37b3f1e175989cbd46931_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Cave Mushroom Fix" event="url{https://modrinth.com/mod/cavemushroomfix}"
+...button-text text="Caleari Castle" event="url{https://modrinth.com/mod/caleari-castle}"
 
-👤 LevsidorovI | 📅 2026-09-26
+👤 SkyArchitec | 📅 2026-09-27
 
-This mod restores mushroom spawning in caves. Mushrooms will now spawn in caves as they did before v
+This datapack adds a unique structure belonging to the Caleari Castle, bringing their distinctive st
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cavemushroomfix/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cavemushroomfix}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/caleari-castle/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/caleari-castle}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8DqQbpPk/05d006c9575d1b79deef0b894bda309b5fb0da5e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/4TMdx78G/ef7be7101a77d545fb123252ac90dcb706dccd16.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="The Next Generation" event="url{https://modrinth.com/mod/thenextgeneration}"
+...button-text text="Biome Rebalance" event="url{https://modrinth.com/mod/biome-rebalance}"
 
-👤 MottBot | 📅 2026-09-26
+👤 crabbarition | 📅 2026-09-27
 
-The End update everyone wants
+A rework of biome placement that makes modern biomes much more prominent!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/thenextgeneration/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/thenextgeneration}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/biome-rebalance/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/biome-rebalance}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/te25156i/c6ed9ebc722e377bfa0e86a9cf217f776c35ddc4_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/BstXn2aq/b6f1a0addf49234c4ca864762e985de2120e42e3_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="NetherPortalLink" event="url{https://modrinth.com/mod/netherportallink}"
+...button-text text="KawaMood's Waystones in Modded Villages" event="url{https://modrinth.com/mod/kawamoods-waystones-in-modded-villages}"
 
-👤 laffs1 | 📅 2026-09-26
+👤 MeiaQuatru | 📅 2026-09-27
 
-It links your portals together with the corner blocks
+Addon that generates KawaMood's Waystones in modded villages
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/netherportallink/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/netherportallink}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kawamoods-waystones-in-modded-villages/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kawamoods-waystones-in-modded-villages}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/B48LgY2U/60597aac94507945235b1c0a05aee864d72ad4aa_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/UhRnm0nL/11941e371046d9055a44f835ef76b404a6d60513_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Secret's Portal Gun" event="url{https://modrinth.com/mod/secrets-portal-gun}"
+...button-text text="Immersive Swamps" event="url{https://modrinth.com/mod/immersive-swamps}"
 
-👤 its_a_secret_to_everyone | 📅 2026-09-26
+👤 RatDotJar | 📅 2026-09-27
 
-A portal gun from the game portal.
+Replaces standard swamp floors with natural mud.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/secrets-portal-gun/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/secrets-portal-gun}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/immersive-swamps/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/immersive-swamps}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ A portal gun from the game portal.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：深海夜花园
-© 海笔上的装饰蟹，科莫多国家公园，印度尼西亚 (© Alex Mustard/Nature Picture Library)
+🖼️ 壁纸：可览美景的历史胜地
+© 斋浦尔附近琥珀堡内的 Sattais Katcheri 大厅，拉贾斯坦邦，印度 (© R.M. Nunes/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bee (disambiguation)](https://minecraft.wiki/Bee_(disambiguation))
+📖 **Wiki 推荐**：[Spear (disambiguation)](https://minecraft.wiki/Spear_(disambiguation))
 
-⏰ 更新时间：2026-09-27 05:01:33
+⏰ 更新时间：2026-09-27 16:49:44
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
