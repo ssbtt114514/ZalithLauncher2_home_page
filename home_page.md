@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-28 05:03:00
+// 生成时间：2026-09-28 19:33:14
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.AmberHall_ZH-CN1223127100_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.KasilofRiver_ZH-CN2394091052_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"告诉你一个发现，你和我都会感动，世界很小是个家庭。"*
+> *"慢慢来，谁还没有一个努力的过程。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{告诉你一个发现，你和我都会感动，世界很小是个家庭。}"
+...button-text text="📋 复制" event="copy{慢慢来，谁还没有一个努力的过程。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_2.3.200}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Tuff}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/uPuIs6I7/a6a5da7ff101b9d9bf5c2589b60cccfee5266975_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/XORScBSo/703d2d875596b908e863df5482e34f853686d6cc_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Portable switchable workstations" event="url{https://modrinth.com/mod/portable-switchable-workstations}"
+...button-text text="GolemMechanic" event="url{https://modrinth.com/mod/golemmechanic}"
 
-👤 Alterkir | 📅 2026-09-27
+👤 LucasTHCR | 📅 2026-09-28
 
-All the workstations you need in one!
+Repair iron and snow golems with a dispenser. Plugin and mod.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/portable-switchable-workstations/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/portable-switchable-workstations}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/golemmechanic/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/golemmechanic}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/hL4PkF5I/093803c5da650a5bc08bd269309ff59fb255a519.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/XFqfMPFl/8a92049c9452aa06419931e3fffa42c851c24214.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="decapitation" event="url{https://modrinth.com/mod/decapitation}"
+...button-text text="Elytra Hub" event="url{https://modrinth.com/mod/elytra-hub}"
 
-👤 Maxitax1 | 📅 2026-09-27
+👤 dexedbone | 📅 2026-09-28
 
-Drops a player's head when killed by another player. By Maxitax1
+(shows an icon when elytra is equipped)
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/decapitation/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/decapitation}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/elytra-hub/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/elytra-hub}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7a1VoORi/4c57dba1ec9a89627bc276f1400d644951150341_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/mNKl9uIp/ad067ba0381d688fd573aade84fd965addcb02a7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Evolved Creepers" event="url{https://modrinth.com/mod/evolved-creepers}"
+...button-text text="Kaleidoscope  Jei Extension" event="url{https://modrinth.com/mod/kaleidoscope-jei-extension}"
 
-👤 PizzaEight | 📅 2026-09-27
+👤 chenjdy | 📅 2026-09-28
 
-A Configurable Mod/Datapack that adds Evolved Creepers! both Normal and Chargeed, Spawn Rate Adjusta
+Compatibility add‑on for Kaleidoscope Cookery & JEI, copy recipes to recipe sheets.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/evolved-creepers/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/evolved-creepers}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kaleidoscope-jei-extension/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kaleidoscope-jei-extension}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/CgssLSGm/6357db0009982c1f516ae0ff55fc90039abbaf30_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/IsxSBkIE/bd3c76341872c65a1afcc7999227b4df8326026b.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Get my blocks back" event="url{https://modrinth.com/mod/get-my-blocks-back}"
+...button-text text="Infinite Opportunities" event="url{https://modrinth.com/mod/infinite-opportunities}"
 
-👤 SozoKa | 📅 2026-09-27
+👤 Seamajesty | 📅 2026-09-28
 
-Craft back your stairs and slabs to blocks!
+A mod that adds a new type of bar to the game: The Rave Bar.  Beware of randomness!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/get-my-blocks-back/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/get-my-blocks-back}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/infinite-opportunities/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/infinite-opportunities}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/barR6ycU/8ad18192c112823fefa6acbc57c81a428e03fb5e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/qXCFgycG/b7d493568200bc155f3c386b545e9db285e6927a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Golf! - Minigames!" event="url{https://modrinth.com/mod/golf-minigames}"
+...button-text text="Terminus [Horror]" event="url{https://modrinth.com/mod/terminus-horror}"
 
-👤 aspectfromthetap | 📅 2026-09-27
+👤 dregir5 | 📅 2026-09-28
 
-This project adds a golf minigame!, Theres golf clubs, Golf holes. and golf balls!
+Welcome to Freylands! I hope you'll be with us for a long time
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/golf-minigames/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/golf-minigames}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/terminus-horror/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/terminus-horror}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ This project adds a golf minigame!, Theres golf clubs, Golf holes. and golf ball
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：可览美景的历史胜地
-© 斋浦尔附近琥珀堡内的 Sattais Katcheri 大厅，拉贾斯坦邦，印度 (© R.M. Nunes/Getty Images)
+🖼️ 壁纸：冰川孕育之河
+© 卡西洛夫河冰川融水滋养的湛蓝河水，阿拉斯加州，美国 (© jared lloyd/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Launcher 2.3.200](https://minecraft.wiki/Launcher_2.3.200)
+📖 **Wiki 推荐**：[Tuff](https://minecraft.wiki/Tuff)
 
-⏰ 更新时间：2026-09-28 05:03:00
+⏰ 更新时间：2026-09-28 19:33:14
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
