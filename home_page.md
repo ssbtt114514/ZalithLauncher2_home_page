@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-29 05:27:49
+// 生成时间：2026-09-29 17:59:39
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.KasilofRiver_ZH-CN2394091052_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.BeardReedling_ZH-CN2750632320_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"千古兴亡多少事？悠悠。不尽长江滚滚流。"*
+> *"今天，仁者暗帝就要战他的最后一战！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{千古兴亡多少事？悠悠。不尽长江滚滚流。}"
+...button-text text="📋 复制" event="copy{今天，仁者暗帝就要战他的最后一战！}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.3
-**最新快照**: 26.4-snapshot-1
+**最新快照**: 26.4-snapshot-2
 
 近期版本：
 - **26.3** (2026-09-15)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FWind_Wand}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_removed_blocks%2FMetadata_variants}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/i0Qn74b3/cceccc2e009f641db76a58bc3ee2a96756cdd96d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/yndw9NNO/ae85ca40e2e9c653b8e5ad9d4068c5f7761bd791_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Kdly Content" event="url{https://modrinth.com/mod/kdlycontent}"
+...button-text text="Totem Teleportation" event="url{https://modrinth.com/mod/teleportation-totem}"
 
-👤 LemmaEOF | 📅 2026-09-28
+👤 WJSunshine | 📅 2026-09-29
 
-A tool to define new blocks, items, and more statically in kdl.
+Adds Teleporting Totems Like The Ones In Unstable SMP
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kdlycontent/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kdlycontent}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/teleportation-totem/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/teleportation-totem}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/57UZcoAX/e92ce9f4277da8f8977e069b9417cd689046e0fd_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/BzllSVAb/26827149b990d7ae98f80c0a6df02d7ba4403a03.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Inventory Help" event="url{https://modrinth.com/mod/inventory-help}"
+...button-text text="Cave-Instability" event="url{https://modrinth.com/mod/cave-instability}"
 
-👤 enitondem | 📅 2026-09-28
+👤 ItinerantMods | 📅 2026-09-29
 
-The mod allows you to lock an item so that it cannot be discarded. It also adds an inventory filteri
+Adds realistic cave-ins to Minecraft. Unsupported blocks can collapse, debris slides downhill, float
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/inventory-help/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/inventory-help}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cave-instability/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cave-instability}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/zJULu324/fe929a722a3c79572b074bf38e6511648b71b3e7_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/w5s0SFDM/547a5ef8b4b180daf97fda954cfa423ffaa72a9a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create Distance Routing" event="url{https://modrinth.com/mod/create-distance-routing}"
+...button-text text="Invisible Inv Player Model - Vampires SMP Edition" event="url{https://modrinth.com/mod/invisible-inv-player-model-vampires-smp-edition}"
 
-👤 CryingRuby | 📅 2026-09-28
+👤 wtvcherrii | 📅 2026-09-29
 
-Add-on to improve Create's package sending system.
+This is a tweaked version of the No-Inventory-Character mod by Lunatic to work on 1.21.10 and be tog
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-distance-routing/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-distance-routing}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/invisible-inv-player-model-vampires-smp-edition/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/invisible-inv-player-model-vampires-smp-edition}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/S3JUY1oo/729ece301a385a044455385da389a5cf44e696b2_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/HZ0MhxDb/2149ec5243df896e1c5743162bf0437bd46287ef.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Strange Needles" event="url{https://modrinth.com/mod/strange-needles}"
+...button-text text="Nautrite Ore" event="url{https://modrinth.com/mod/nautrite-ore}"
 
-👤 Jack_7022 | 📅 2026-09-28
+👤 Ncarpgamer | 📅 2026-09-29
 
-Adds tweaking syringe needles.
+Unstable and Overpowered ore that can only be found in deep dark and it;s own 3 dimensions
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/strange-needles/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/strange-needles}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nautrite-ore/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nautrite-ore}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/WNBFmEan/b12f4ef570d9ffeb372b2731c72697b53ba5db65_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/dGbX4uK6/ab6f8a6a78473ea14ada159c99a493a5d567cfd6_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Inventory see" event="url{https://modrinth.com/mod/inventory-see}"
+...button-text text="dumb orange mod" event="url{https://modrinth.com/mod/dumb-orange-mod}"
 
-👤 proshiv85 | 📅 2026-09-28
+👤 reubenspaniel | 📅 2026-09-29
 
-server-side only mod, that allows to see and interact with inventory of other players
+Adds oranges and tools that shouldn't exist
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/inventory-see/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/inventory-see}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dumb-orange-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dumb-orange-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ server-side only mod, that allows to see and interact with inventory of other pl
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：冰川孕育之河
-© 卡西洛夫河冰川融水滋养的湛蓝河水，阿拉斯加州，美国 (© jared lloyd/Getty Images)
+🖼️ 壁纸：一张令人过目难忘的脸
+© 雄性文须雀，诺福克郡，英格兰 (© Andrew Sproule/Shutterstock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition item texture history/Wind Wand](https://minecraft.wiki/Java_Edition_item_texture_history%2FWind_Wand)
+📖 **Wiki 推荐**：[Bedrock Edition removed blocks/Metadata variants](https://minecraft.wiki/Bedrock_Edition_removed_blocks%2FMetadata_variants)
 
-⏰ 更新时间：2026-09-29 05:27:49
+⏰ 更新时间：2026-09-29 17:59:39
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
