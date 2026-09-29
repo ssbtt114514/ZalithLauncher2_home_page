@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-28 19:33:14
+// 生成时间：2026-09-29 05:27:49
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"慢慢来，谁还没有一个努力的过程。"*
+> *"千古兴亡多少事？悠悠。不尽长江滚滚流。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{慢慢来，谁还没有一个努力的过程。}"
+...button-text text="📋 复制" event="copy{千古兴亡多少事？悠悠。不尽长江滚滚流。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Tuff}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FWind_Wand}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/XORScBSo/703d2d875596b908e863df5482e34f853686d6cc_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/i0Qn74b3/cceccc2e009f641db76a58bc3ee2a96756cdd96d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="GolemMechanic" event="url{https://modrinth.com/mod/golemmechanic}"
+...button-text text="Kdly Content" event="url{https://modrinth.com/mod/kdlycontent}"
 
-👤 LucasTHCR | 📅 2026-09-28
+👤 LemmaEOF | 📅 2026-09-28
 
-Repair iron and snow golems with a dispenser. Plugin and mod.
+A tool to define new blocks, items, and more statically in kdl.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/golemmechanic/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/golemmechanic}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kdlycontent/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kdlycontent}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/XFqfMPFl/8a92049c9452aa06419931e3fffa42c851c24214.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/57UZcoAX/e92ce9f4277da8f8977e069b9417cd689046e0fd_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Elytra Hub" event="url{https://modrinth.com/mod/elytra-hub}"
+...button-text text="Inventory Help" event="url{https://modrinth.com/mod/inventory-help}"
 
-👤 dexedbone | 📅 2026-09-28
+👤 enitondem | 📅 2026-09-28
 
-(shows an icon when elytra is equipped)
+The mod allows you to lock an item so that it cannot be discarded. It also adds an inventory filteri
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/elytra-hub/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/elytra-hub}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/inventory-help/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/inventory-help}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/mNKl9uIp/ad067ba0381d688fd573aade84fd965addcb02a7_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zJULu324/fe929a722a3c79572b074bf38e6511648b71b3e7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Kaleidoscope  Jei Extension" event="url{https://modrinth.com/mod/kaleidoscope-jei-extension}"
+...button-text text="Create Distance Routing" event="url{https://modrinth.com/mod/create-distance-routing}"
 
-👤 chenjdy | 📅 2026-09-28
+👤 CryingRuby | 📅 2026-09-28
 
-Compatibility add‑on for Kaleidoscope Cookery & JEI, copy recipes to recipe sheets.
+Add-on to improve Create's package sending system.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kaleidoscope-jei-extension/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kaleidoscope-jei-extension}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-distance-routing/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-distance-routing}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/IsxSBkIE/bd3c76341872c65a1afcc7999227b4df8326026b.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/S3JUY1oo/729ece301a385a044455385da389a5cf44e696b2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Infinite Opportunities" event="url{https://modrinth.com/mod/infinite-opportunities}"
+...button-text text="Strange Needles" event="url{https://modrinth.com/mod/strange-needles}"
 
-👤 Seamajesty | 📅 2026-09-28
+👤 Jack_7022 | 📅 2026-09-28
 
-A mod that adds a new type of bar to the game: The Rave Bar.  Beware of randomness!
+Adds tweaking syringe needles.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/infinite-opportunities/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/infinite-opportunities}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/strange-needles/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/strange-needles}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/qXCFgycG/b7d493568200bc155f3c386b545e9db285e6927a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/WNBFmEan/b12f4ef570d9ffeb372b2731c72697b53ba5db65_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Terminus [Horror]" event="url{https://modrinth.com/mod/terminus-horror}"
+...button-text text="Inventory see" event="url{https://modrinth.com/mod/inventory-see}"
 
-👤 dregir5 | 📅 2026-09-28
+👤 proshiv85 | 📅 2026-09-28
 
-Welcome to Freylands! I hope you'll be with us for a long time
+server-side only mod, that allows to see and interact with inventory of other players
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/terminus-horror/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/terminus-horror}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/inventory-see/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/inventory-see}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Welcome to Freylands! I hope you'll be with us for a long time
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Tuff](https://minecraft.wiki/Tuff)
+📖 **Wiki 推荐**：[Java Edition item texture history/Wind Wand](https://minecraft.wiki/Java_Edition_item_texture_history%2FWind_Wand)
 
-⏰ 更新时间：2026-09-28 19:33:14
+⏰ 更新时间：2026-09-29 05:27:49
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
