@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-30 05:15:16
+// 生成时间：2026-09-30 17:55:22
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.BeardReedling_ZH-CN2750632320_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.OlmstedPoint_ZH-CN4182671075_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"人，百年一世；龙，百年一岁。君生吾已老，君未变，而吾已老。"*
+> *"如果可以，愿来生你不要忘记我，我也不要忘记你那熟悉的温柔。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{人，百年一世；龙，百年一岁。君生吾已老，君未变，而吾已老。}"
+...button-text text="📋 复制" event="copy{如果可以，愿来生你不要忘记我，我也不要忘记你那熟悉的温柔。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Termite}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FLingering_Potion_of_Water_Breathing}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Q73B9chm/4f5e84c6da15ddf0c06854446876e938acbacab6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/NUmW0wae/00fb412f8f7fbead64c3acd3b9f3ffed8477898a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Starfield Pastoral Shipping" event="url{https://modrinth.com/mod/starfield-pastoral-shipping}"
+...button-text text="Split Up!" event="url{https://modrinth.com/mod/split-up}"
 
-👤 zuzjak | 📅 2026-09-30
+👤 Conborg | 📅 2026-09-30
 
-A Shipping Bin overhaul addon for Starfield Pastoral that expands the single-slot Shipping Bin into 
+Turn your axe into a splitting machine!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/starfield-pastoral-shipping/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/starfield-pastoral-shipping}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/split-up/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/split-up}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/3lvilRXA/a132383e2d4d21860e106a36d9f8c41d8c82f84b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/rFHAOdxn/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Starfield Pastoral Elevator" event="url{https://modrinth.com/mod/starfield-pastoral-elevator}"
+...button-text text="Bedrock Elytra Brake" event="url{https://modrinth.com/mod/bedrock-elytra-brake}"
 
-👤 zuzjak | 📅 2026-09-30
+👤 jamesplays203 | 📅 2026-09-30
 
-An addon for Starfield Pastoral that adds an elevator to the Skull Cavern, letting you save your pro
+Client-side Fabric parity mod that brings Bedrock Edition’s Elytra braking to Java Edition.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/starfield-pastoral-elevator/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/starfield-pastoral-elevator}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bedrock-elytra-brake/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bedrock-elytra-brake}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/NrEUPadO/9809728864e875aaedd63e63f77d8c2cadc3ffb0_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6amRE4Jh/65e1667698708142fbe33ddd6365e005015e38dd_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Starfield Pastoral Automate" event="url{https://modrinth.com/mod/starfield-pastoral-automate}"
+...button-text text="What This?" event="url{https://modrinth.com/mod/what-this}"
 
-👤 zuzjak | 📅 2026-09-30
+👤 _Sculk_ | 📅 2026-09-30
 
-Place a chest next to a crafting machine (in any direction, including diagonally) to connect it. Mac
+This is a simple mod; it doesn't add anything... well, like, literally nothing. It's my first mod, a
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/starfield-pastoral-automate/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/starfield-pastoral-automate}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/what-this/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/what-this}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/pPtoUAiR/74fdf3bdfe3c636affb32f5c7e60cf2603dfa4ae_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/R8yd3pXA/c08105b40c7344a97aa167ab20c3ca40ad9b3a35.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Starfield Pastoral Almanac" event="url{https://modrinth.com/mod/starfield-pastoral-almanac}"
+...button-text text="SURVIVE A ROGUE AI" event="url{https://modrinth.com/mod/survive-a-rogue-ai}"
 
-👤 zuzjak | 📅 2026-09-30
+👤 kushisthecoolest | 📅 2026-09-30
 
-A lightweight HUD addon for Starfield Pastoral that shows small info icons next to the in-game clock
+A mod for 26.2 Minecraft fabric where you survive an Artificial intelligence.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/starfield-pastoral-almanac/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/starfield-pastoral-almanac}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/survive-a-rogue-ai/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/survive-a-rogue-ai}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/NMsKI3wZ/1383228851dcf829f18d25270427f22a865672d4.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Miq2s6N4/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Easier Dyes" event="url{https://modrinth.com/mod/easier-dyes}"
+...button-text text="Fast Place" event="url{https://modrinth.com/mod/fast-place}"
 
-👤 LavishAujla | 📅 2026-09-30
+👤 MrAssasain | 📅 2026-09-30
 
-adds more ways to craft dyes
+this mod modifies mouse architecture which gives the ability to place fast
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/easier-dyes/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/easier-dyes}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fast-place/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fast-place}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ adds more ways to craft dyes
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：一张令人过目难忘的脸
-© 雄性文须雀，诺福克郡，英格兰 (© Andrew Sproule/Shutterstock)
+🖼️ 壁纸：在花岗岩中读懂时间
+© 奥姆斯特德观景点的日落，优胜美地国家公园，加利福尼亚州，美国 (© Robb Hirsch/Tandem Stills + Motion)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Termite](https://minecraft.wiki/Termite)
+📖 **Wiki 推荐**：[Java Edition item texture history/Lingering Potion of Water Breathing](https://minecraft.wiki/Java_Edition_item_texture_history%2FLingering_Potion_of_Water_Breathing)
 
-⏰ 更新时间：2026-09-30 05:15:16
+⏰ 更新时间：2026-09-30 17:55:22
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
