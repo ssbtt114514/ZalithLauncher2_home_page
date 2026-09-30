@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-29 17:59:39
+// 生成时间：2026-09-30 05:15:16
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"今天，仁者暗帝就要战他的最后一战！"*
+> *"人，百年一世；龙，百年一岁。君生吾已老，君未变，而吾已老。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{今天，仁者暗帝就要战他的最后一战！}"
+...button-text text="📋 复制" event="copy{人，百年一世；龙，百年一岁。君生吾已老，君未变，而吾已老。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_removed_blocks%2FMetadata_variants}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Termite}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/yndw9NNO/ae85ca40e2e9c653b8e5ad9d4068c5f7761bd791_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Q73B9chm/4f5e84c6da15ddf0c06854446876e938acbacab6_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Totem Teleportation" event="url{https://modrinth.com/mod/teleportation-totem}"
+...button-text text="Starfield Pastoral Shipping" event="url{https://modrinth.com/mod/starfield-pastoral-shipping}"
 
-👤 WJSunshine | 📅 2026-09-29
+👤 zuzjak | 📅 2026-09-30
 
-Adds Teleporting Totems Like The Ones In Unstable SMP
+A Shipping Bin overhaul addon for Starfield Pastoral that expands the single-slot Shipping Bin into 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/teleportation-totem/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/teleportation-totem}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/starfield-pastoral-shipping/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/starfield-pastoral-shipping}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/BzllSVAb/26827149b990d7ae98f80c0a6df02d7ba4403a03.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/3lvilRXA/a132383e2d4d21860e106a36d9f8c41d8c82f84b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Cave-Instability" event="url{https://modrinth.com/mod/cave-instability}"
+...button-text text="Starfield Pastoral Elevator" event="url{https://modrinth.com/mod/starfield-pastoral-elevator}"
 
-👤 ItinerantMods | 📅 2026-09-29
+👤 zuzjak | 📅 2026-09-30
 
-Adds realistic cave-ins to Minecraft. Unsupported blocks can collapse, debris slides downhill, float
+An addon for Starfield Pastoral that adds an elevator to the Skull Cavern, letting you save your pro
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cave-instability/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cave-instability}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/starfield-pastoral-elevator/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/starfield-pastoral-elevator}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/w5s0SFDM/547a5ef8b4b180daf97fda954cfa423ffaa72a9a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/NrEUPadO/9809728864e875aaedd63e63f77d8c2cadc3ffb0_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Invisible Inv Player Model - Vampires SMP Edition" event="url{https://modrinth.com/mod/invisible-inv-player-model-vampires-smp-edition}"
+...button-text text="Starfield Pastoral Automate" event="url{https://modrinth.com/mod/starfield-pastoral-automate}"
 
-👤 wtvcherrii | 📅 2026-09-29
+👤 zuzjak | 📅 2026-09-30
 
-This is a tweaked version of the No-Inventory-Character mod by Lunatic to work on 1.21.10 and be tog
+Place a chest next to a crafting machine (in any direction, including diagonally) to connect it. Mac
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/invisible-inv-player-model-vampires-smp-edition/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/invisible-inv-player-model-vampires-smp-edition}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/starfield-pastoral-automate/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/starfield-pastoral-automate}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/HZ0MhxDb/2149ec5243df896e1c5743162bf0437bd46287ef.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/pPtoUAiR/74fdf3bdfe3c636affb32f5c7e60cf2603dfa4ae_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Nautrite Ore" event="url{https://modrinth.com/mod/nautrite-ore}"
+...button-text text="Starfield Pastoral Almanac" event="url{https://modrinth.com/mod/starfield-pastoral-almanac}"
 
-👤 Ncarpgamer | 📅 2026-09-29
+👤 zuzjak | 📅 2026-09-30
 
-Unstable and Overpowered ore that can only be found in deep dark and it;s own 3 dimensions
+A lightweight HUD addon for Starfield Pastoral that shows small info icons next to the in-game clock
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nautrite-ore/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nautrite-ore}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/starfield-pastoral-almanac/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/starfield-pastoral-almanac}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/dGbX4uK6/ab6f8a6a78473ea14ada159c99a493a5d567cfd6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/NMsKI3wZ/1383228851dcf829f18d25270427f22a865672d4.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="dumb orange mod" event="url{https://modrinth.com/mod/dumb-orange-mod}"
+...button-text text="Easier Dyes" event="url{https://modrinth.com/mod/easier-dyes}"
 
-👤 reubenspaniel | 📅 2026-09-29
+👤 LavishAujla | 📅 2026-09-30
 
-Adds oranges and tools that shouldn't exist
+adds more ways to craft dyes
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dumb-orange-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dumb-orange-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/easier-dyes/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/easier-dyes}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Adds oranges and tools that shouldn't exist
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition removed blocks/Metadata variants](https://minecraft.wiki/Bedrock_Edition_removed_blocks%2FMetadata_variants)
+📖 **Wiki 推荐**：[Termite](https://minecraft.wiki/Termite)
 
-⏰ 更新时间：2026-09-29 17:59:39
+⏰ 更新时间：2026-09-30 05:15:16
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
