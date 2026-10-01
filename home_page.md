@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-09-30 17:55:22
+// 生成时间：2026-10-01 05:30:37
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"如果可以，愿来生你不要忘记我，我也不要忘记你那熟悉的温柔。"*
+> *"寒蝉是盛夏死骸。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{如果可以，愿来生你不要忘记我，我也不要忘记你那熟悉的温柔。}"
+...button-text text="📋 复制" event="copy{寒蝉是盛夏死骸。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FLingering_Potion_of_Water_Breathing}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.15_Pre-release_6}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/NUmW0wae/00fb412f8f7fbead64c3acd3b9f3ffed8477898a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/SiWiUnEU/d845e40895ec0869ec924d6dc5e401adf1075aaa_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Split Up!" event="url{https://modrinth.com/mod/split-up}"
+...button-text text="Kuta Items" event="url{https://modrinth.com/mod/kuta-items}"
 
-👤 Conborg | 📅 2026-09-30
+👤 Motojuster702 | 📅 2026-09-30
 
-Turn your axe into a splitting machine!
+This mod adds away to evolve vanilla items in powerful or useful items
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/split-up/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/split-up}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kuta-items/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kuta-items}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/rFHAOdxn/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8hJW8jUs/1fb2e0bafb7e9d82478ada936507d17ffa98b717_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Bedrock Elytra Brake" event="url{https://modrinth.com/mod/bedrock-elytra-brake}"
+...button-text text="DeltaCombat" event="url{https://modrinth.com/mod/deltacombat-motojuster702}"
 
-👤 jamesplays203 | 📅 2026-09-30
+👤 Motojuster702 | 📅 2026-09-30
 
-Client-side Fabric parity mod that brings Bedrock Edition’s Elytra braking to Java Edition.
+This mod implements a RPG turn based combat system like a Deltarune + Undertale styled combat system
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bedrock-elytra-brake/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bedrock-elytra-brake}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/deltacombat-motojuster702/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/deltacombat-motojuster702}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6amRE4Jh/65e1667698708142fbe33ddd6365e005015e38dd_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/5UfkUt17/196496769181e29d86850163d58ec0caef7a71a5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="What This?" event="url{https://modrinth.com/mod/what-this}"
+...button-text text="RunLab" event="url{https://modrinth.com/mod/runlab}"
 
-👤 _Sculk_ | 📅 2026-09-30
+👤 vertexxx | 📅 2026-09-30
 
-This is a simple mod; it doesn't add anything... well, like, literally nothing. It's my first mod, a
+What it is: A Fabric mod for speedrunning in Minecraft . It automatically creates a world, finds a s
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/what-this/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/what-this}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/runlab/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/runlab}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/R8yd3pXA/c08105b40c7344a97aa167ab20c3ca40ad9b3a35.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/DlmPpRZK/0945852e2b724aa44ad3d67a48fed641d850760a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="SURVIVE A ROGUE AI" event="url{https://modrinth.com/mod/survive-a-rogue-ai}"
+...button-text text="No Pumpkin Overlay (MOD)" event="url{https://modrinth.com/mod/no-pumpkin-overlay-mod}"
 
-👤 kushisthecoolest | 📅 2026-09-30
+👤 dxomg | 📅 2026-09-30
 
-A mod for 26.2 Minecraft fabric where you survive an Artificial intelligence.
+Basically removes the pumkin overlay when you have a pumpkin on your head
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/survive-a-rogue-ai/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/survive-a-rogue-ai}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/no-pumpkin-overlay-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/no-pumpkin-overlay-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Miq2s6N4/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wFvvng10/09e22f85e74ddd9396a840f6f1ebae0c8a3897df.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Fast Place" event="url{https://modrinth.com/mod/fast-place}"
+...button-text text="Gravestone ZT" event="url{https://modrinth.com/mod/gravestone-zt}"
 
-👤 MrAssasain | 📅 2026-09-30
+👤 zeroteam | 📅 2026-09-30
 
-this mod modifies mouse architecture which gives the ability to place fast
+Automatically protects your inventory on player death by placing a safe 3D gravestone in the world.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fast-place/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fast-place}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/gravestone-zt/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/gravestone-zt}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ this mod modifies mouse architecture which gives the ability to place fast
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition item texture history/Lingering Potion of Water Breathing](https://minecraft.wiki/Java_Edition_item_texture_history%2FLingering_Potion_of_Water_Breathing)
+📖 **Wiki 推荐**：[Java Edition 1.15 Pre-release 6](https://minecraft.wiki/Java_Edition_1.15_Pre-release_6)
 
-⏰ 更新时间：2026-09-30 17:55:22
+⏰ 更新时间：2026-10-01 05:30:37
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
