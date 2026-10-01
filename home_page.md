@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-01 05:30:37
+// 生成时间：2026-10-01 18:20:47
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.OlmstedPoint_ZH-CN4182671075_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.ChattoogaRiver_ZH-CN9453791496_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"寒蝉是盛夏死骸。"*
+> *"所谓辉煌的人生，不过是欲望的囚徒。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{寒蝉是盛夏死骸。}"
+...button-text text="📋 复制" event="copy{所谓辉煌的人生，不过是欲望的囚徒。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.15_Pre-release_6}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_Preview_26.20.21}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,82 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/SiWiUnEU/d845e40895ec0869ec924d6dc5e401adf1075aaa_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/DwndSliU/e6fe598bf4a79b827d68e4407b1c89575245734f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Kuta Items" event="url{https://modrinth.com/mod/kuta-items}"
+...button-text text="Create: Connected (Fly Port)" event="url{https://modrinth.com/mod/create-connected-fly-port}"
 
-👤 Motojuster702 | 📅 2026-09-30
+👤 GravisLudio1 | 📅 2026-10-01
 
-This mod adds away to evolve vanilla items in powerful or useful items
+Unofficial port of Lysine's Create: Connected to Fabric 26.2, running on ZurrTum's Create Fly. Not m
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kuta-items/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kuta-items}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-connected-fly-port/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-connected-fly-port}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8hJW8jUs/1fb2e0bafb7e9d82478ada936507d17ffa98b717_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/foivEcnO/2b133cdc53d078ad57f7de2655b6d4fcd3a5224f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="DeltaCombat" event="url{https://modrinth.com/mod/deltacombat-motojuster702}"
+...button-text text="60 Seconds to Doom" event="url{https://modrinth.com/mod/60-seconds-to-doom}"
 
-👤 Motojuster702 | 📅 2026-09-30
+👤 canyuesama | 📅 2026-10-01
 
-This mod implements a RPG turn based combat system like a Deltarune + Undertale styled combat system
+A multiplayer survival mod inspired by the game 60 Seconds, set in a post-apocalyptic world.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/deltacombat-motojuster702/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/deltacombat-motojuster702}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/60-seconds-to-doom/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/60-seconds-to-doom}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/5UfkUt17/196496769181e29d86850163d58ec0caef7a71a5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/qY8JHmkS/263b4361b5f00b7f002f9db518f1cffa6de437b4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="RunLab" event="url{https://modrinth.com/mod/runlab}"
+...button-text text="PEAA-Evolution" event="url{https://modrinth.com/mod/peaa-evolution}"
 
-👤 vertexxx | 📅 2026-09-30
+👤 takoyaki3466 | 📅 2026-10-01
 
-What it is: A Fabric mod for speedrunning in Minecraft . It automatically creates a world, finds a s
+This mod is a port of the PEAA mod—originally from the 1.7.10 era—to the latest version.
+All the cod
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/runlab/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/runlab}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/peaa-evolution/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/peaa-evolution}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/DlmPpRZK/0945852e2b724aa44ad3d67a48fed641d850760a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/7QsJbz12/f92b79896e14388666903bd8aea9ce1b7d6007d5.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="No Pumpkin Overlay (MOD)" event="url{https://modrinth.com/mod/no-pumpkin-overlay-mod}"
+...button-text text="Pet Status" event="url{https://modrinth.com/mod/pet-status}"
 
-👤 dxomg | 📅 2026-09-30
+👤 zeroteam | 📅 2026-10-01
 
-Basically removes the pumkin overlay when you have a pumpkin on your head
+Track your pets' health, sitting state, location, and distance from one private remote dashboard.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/no-pumpkin-overlay-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/no-pumpkin-overlay-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pet-status/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pet-status}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wFvvng10/09e22f85e74ddd9396a840f6f1ebae0c8a3897df.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8P8bQzH3/c5cd7c12508f84fb742546245609253d5b0bff30.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Gravestone ZT" event="url{https://modrinth.com/mod/gravestone-zt}"
+...button-text text="Warden's Relics" event="url{https://modrinth.com/mod/wardens-relics}"
 
-👤 zeroteam | 📅 2026-09-30
+👤 2018_1_19 | 📅 2026-10-01
 
-Automatically protects your inventory on player death by placing a safe 3D gravestone in the world.
+Discover two unique armor trims forged from the power of the Warden: Crown template and Warrior temp
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/gravestone-zt/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/gravestone-zt}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wardens-relics/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wardens-relics}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +174,14 @@ Automatically protects your inventory on player death by placing a safe 3D grave
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：在花岗岩中读懂时间
-© 奥姆斯特德观景点的日落，优胜美地国家公园，加利福尼亚州，美国 (© Robb Hirsch/Tandem Stills + Motion)
+🖼️ 壁纸：一条值得保护的河流
+© 查图加河，阿巴拉契亚山脉，北卡罗来纳州，美国 (© mtilghma/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 1.15 Pre-release 6](https://minecraft.wiki/Java_Edition_1.15_Pre-release_6)
+📖 **Wiki 推荐**：[Bedrock Edition Preview 26.20.21](https://minecraft.wiki/Bedrock_Edition_Preview_26.20.21)
 
-⏰ 更新时间：2026-10-01 05:30:37
+⏰ 更新时间：2026-10-01 18:20:47
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
