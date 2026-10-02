@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-01 18:20:47
+// 生成时间：2026-10-02 05:17:57
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"所谓辉煌的人生，不过是欲望的囚徒。"*
+> *"后退一步，为的是前进两步。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{所谓辉煌的人生，不过是欲望的囚徒。}"
+...button-text text="📋 复制" event="copy{后退一步，为的是前进两步。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_Preview_26.20.21}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FAngler_Pottery_Sherd}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,82 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/DwndSliU/e6fe598bf4a79b827d68e4407b1c89575245734f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/iCKofzyn/a16ab119237e8e7da848a295d4026a5d0ae0019f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Connected (Fly Port)" event="url{https://modrinth.com/mod/create-connected-fly-port}"
+...button-text text="Fungal Footing" event="url{https://modrinth.com/mod/fungal-footing}"
 
-👤 GravisLudio1 | 📅 2026-10-01
+👤 Mrbysco | 📅 2026-10-02
 
-Unofficial port of Lysine's Create: Connected to Fabric 26.2, running on ZurrTum's Create Fly. Not m
+Adds Fungal Infection to minecraft that hurts you
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-connected-fly-port/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-connected-fly-port}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fungal-footing/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fungal-footing}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/foivEcnO/2b133cdc53d078ad57f7de2655b6d4fcd3a5224f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/OyX9kium/87ae2ee62e7b57548495ae04a6dbbef9ac46f331_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="60 Seconds to Doom" event="url{https://modrinth.com/mod/60-seconds-to-doom}"
+...button-text text="Elytra Limiter" event="url{https://modrinth.com/mod/elytra-limiter}"
 
-👤 canyuesama | 📅 2026-10-01
+👤 Mrbysco | 📅 2026-10-02
 
-A multiplayer survival mod inspired by the game 60 Seconds, set in a post-apocalyptic world.
+Allows restricting elytra flight in specified dimensions
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/60-seconds-to-doom/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/60-seconds-to-doom}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/elytra-limiter/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/elytra-limiter}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/qY8JHmkS/263b4361b5f00b7f002f9db518f1cffa6de437b4_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/nsK1gIMc/8f3af79da8e765953809e1513c991e39c37213e6_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="PEAA-Evolution" event="url{https://modrinth.com/mod/peaa-evolution}"
+...button-text text="Forced Emoting" event="url{https://modrinth.com/mod/forced-emoting}"
 
-👤 takoyaki3466 | 📅 2026-10-01
+👤 Mrbysco | 📅 2026-10-02
 
-This mod is a port of the PEAA mod—originally from the 1.7.10 era—to the latest version.
-All the cod
+Adds phrases that force nearby humanoid entities into emoting
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/peaa-evolution/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/peaa-evolution}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/forced-emoting/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/forced-emoting}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7QsJbz12/f92b79896e14388666903bd8aea9ce1b7d6007d5.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/kfau7nXS/a3204ddefaba5c766ced28eac2839540baa4d9b5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Pet Status" event="url{https://modrinth.com/mod/pet-status}"
+...button-text text="Ancient Tech" event="url{https://modrinth.com/mod/ancient-tech}"
 
-👤 zeroteam | 📅 2026-10-01
+👤 Mrbysco | 📅 2026-10-02
 
-Track your pets' health, sitting state, location, and distance from one private remote dashboard.
+This mod adds a bunch of Sculk related tech to the game
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pet-status/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pet-status}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ancient-tech/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ancient-tech}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8P8bQzH3/c5cd7c12508f84fb742546245609253d5b0bff30.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/7Iv0mGEN/997510d8cd68ed579ebbc2424ab043eaf56020ac.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Warden's Relics" event="url{https://modrinth.com/mod/wardens-relics}"
+...button-text text="Bloody Name Tag" event="url{https://modrinth.com/mod/bloody-name-tag}"
 
-👤 2018_1_19 | 📅 2026-10-01
+👤 Mrbysco | 📅 2026-10-02
 
-Discover two unique armor trims forged from the power of the Warden: Crown template and Warrior temp
+Adds a respawn mechanic for named mobs
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wardens-relics/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wardens-relics}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bloody-name-tag/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bloody-name-tag}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -179,9 +178,9 @@ Discover two unique armor trims forged from the power of the Warden: Crown templ
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition Preview 26.20.21](https://minecraft.wiki/Bedrock_Edition_Preview_26.20.21)
+📖 **Wiki 推荐**：[Bedrock Edition item texture history/Angler Pottery Sherd](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FAngler_Pottery_Sherd)
 
-⏰ 更新时间：2026-10-01 18:20:47
+⏰ 更新时间：2026-10-02 05:17:57
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
