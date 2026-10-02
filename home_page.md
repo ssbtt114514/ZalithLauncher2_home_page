@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-02 05:17:57
+// 生成时间：2026-10-02 17:46:17
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.ChattoogaRiver_ZH-CN9453791496_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.GrizzlySwim_ZH-CN1005455737_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"后退一步，为的是前进两步。"*
+> *"有时候你的视觉就是一场雨，我的伞不配对暴雨有所期待。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{后退一步，为的是前进两步。}"
+...button-text text="📋 复制" event="copy{有时候你的视觉就是一场雨，我的伞不配对暴雨有所期待。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FAngler_Pottery_Sherd}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FSnowy_Tundra%2FCartographer_House_1}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/iCKofzyn/a16ab119237e8e7da848a295d4026a5d0ae0019f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8zsKQb1f/90b670c9342f0c5e87b4ef15991eec84837c9d18_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Fungal Footing" event="url{https://modrinth.com/mod/fungal-footing}"
+...button-text text="Oreo Sushi" event="url{https://modrinth.com/mod/oreo-sushi}"
 
-👤 Mrbysco | 📅 2026-10-02
+👤 izay_odd | 📅 2026-10-02
 
-Adds Fungal Infection to minecraft that hurts you
+Adds Oreo Sushi to the game, a new edible dessert.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fungal-footing/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fungal-footing}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/oreo-sushi/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/oreo-sushi}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/OyX9kium/87ae2ee62e7b57548495ae04a6dbbef9ac46f331_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/V1qVM86W/bf8a0ff5482ab601c4f4fe7815cc56920a68a33b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Elytra Limiter" event="url{https://modrinth.com/mod/elytra-limiter}"
+...button-text text="Woodcarved" event="url{https://modrinth.com/mod/woodcarved}"
 
-👤 Mrbysco | 📅 2026-10-02
+👤 itsfirestorm | 📅 2026-10-02
 
-Allows restricting elytra flight in specified dimensions
+A mod that adds woodcarving to Minecraft.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/elytra-limiter/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/elytra-limiter}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/woodcarved/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/woodcarved}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/nsK1gIMc/8f3af79da8e765953809e1513c991e39c37213e6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zbKBIl2c/9229467d41997d59836bc874e604b1242f8ec82e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Forced Emoting" event="url{https://modrinth.com/mod/forced-emoting}"
+...button-text text="Anvil Insight" event="url{https://modrinth.com/mod/anvil-insights}"
 
-👤 Mrbysco | 📅 2026-10-02
+👤 Skyyyy1767 | 📅 2026-10-02
 
-Adds phrases that force nearby humanoid entities into emoting
+See exactly what your anvil is doing with detailed cost, enchantment, repair, and prior-work breakdo
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/forced-emoting/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/forced-emoting}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/anvil-insights/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/anvil-insights}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/kfau7nXS/a3204ddefaba5c766ced28eac2839540baa4d9b5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ci9lYVkV/64eef891ccacdfbd56143b0aeff1af96916ee1f3_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ancient Tech" event="url{https://modrinth.com/mod/ancient-tech}"
+...button-text text="Throw and Slingshot" event="url{https://modrinth.com/mod/throw-and-slingshot}"
 
-👤 Mrbysco | 📅 2026-10-02
+👤 Iney_FOL | 📅 2026-10-02
 
-This mod adds a bunch of Sculk related tech to the game
+This mod adds a slingshot and throwing. You can throw out everything.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ancient-tech/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ancient-tech}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/throw-and-slingshot/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/throw-and-slingshot}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7Iv0mGEN/997510d8cd68ed579ebbc2424ab043eaf56020ac.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/L1bnBNM9/19eb30675ea1037f604c53b9aca89fbe5fc546de_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Bloody Name Tag" event="url{https://modrinth.com/mod/bloody-name-tag}"
+...button-text text="Archer's Dream" event="url{https://modrinth.com/mod/archersdream}"
 
-👤 Mrbysco | 📅 2026-10-02
+👤 qinme9 | 📅 2026-10-02
 
-Adds a respawn mechanic for named mobs
+A NeoForge mod that lets arrows pass through gaps, door windows, and hollow bells instead of hitting
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bloody-name-tag/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bloody-name-tag}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/archersdream/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/archersdream}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Adds a respawn mechanic for named mobs
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：一条值得保护的河流
-© 查图加河，阿巴拉契亚山脉，北卡罗来纳州，美国 (© mtilghma/Getty Images)
+🖼️ 壁纸：捕捉、进食、重复
+© 美国阿拉斯加州克拉克湖国家公园和自然保护区银鲑溪中的棕熊 (© Danny Green/Nature Picture Library)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition item texture history/Angler Pottery Sherd](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FAngler_Pottery_Sherd)
+📖 **Wiki 推荐**：[Village/Structure/Blueprints/Snowy Tundra/Cartographer House 1](https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FSnowy_Tundra%2FCartographer_House_1)
 
-⏰ 更新时间：2026-10-02 05:17:57
+⏰ 更新时间：2026-10-02 17:46:17
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
