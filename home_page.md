@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-02 17:46:17
+// 生成时间：2026-10-03 05:00:52
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"有时候你的视觉就是一场雨，我的伞不配对暴雨有所期待。"*
+> *"作业忘写，因而立于廊，最上川。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{有时候你的视觉就是一场雨，我的伞不配对暴雨有所期待。}"
+...button-text text="📋 复制" event="copy{作业忘写，因而立于廊，最上川。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FSnowy_Tundra%2FCartographer_House_1}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_Classic_0.0.15a_01}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8zsKQb1f/90b670c9342f0c5e87b4ef15991eec84837c9d18_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/7bRDck83/5dd3458bf233df390776f908a65318908e075694_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Oreo Sushi" event="url{https://modrinth.com/mod/oreo-sushi}"
+...button-text text="UTDR Plushies" event="url{https://modrinth.com/mod/utdr-plushies}"
 
-👤 izay_odd | 📅 2026-10-02
+👤 Nuvaa | 📅 2026-10-03
 
-Adds Oreo Sushi to the game, a new edible dessert.
+Adds a bunch of plushies of UNDERTALE and DELTARUNE characters!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/oreo-sushi/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/oreo-sushi}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/utdr-plushies/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/utdr-plushies}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/V1qVM86W/bf8a0ff5482ab601c4f4fe7815cc56920a68a33b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/QimgLR9Y/c13c13575f6b20669407116adf99db75b2054923_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Woodcarved" event="url{https://modrinth.com/mod/woodcarved}"
+...button-text text="Emerald Uses" event="url{https://modrinth.com/mod/emerald-uses}"
 
-👤 itsfirestorm | 📅 2026-10-02
+👤 Fluff_Them | 📅 2026-10-03
 
-A mod that adds woodcarving to Minecraft.
+This mod adds more emerald Uses
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/woodcarved/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/woodcarved}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/emerald-uses/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/emerald-uses}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/zbKBIl2c/9229467d41997d59836bc874e604b1242f8ec82e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/gJ8oc1HS/12edbe292a84b7200a2e636a5f157f530b266eba_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Anvil Insight" event="url{https://modrinth.com/mod/anvil-insights}"
+...button-text text="RedPaw's Cookies & More!" event="url{https://modrinth.com/mod/redpaws-cookies-more}"
 
-👤 Skyyyy1767 | 📅 2026-10-02
+👤 redpaw564 | 📅 2026-10-03
 
-See exactly what your anvil is doing with detailed cost, enchantment, repair, and prior-work breakdo
+In this mod I added many cookie recipes of my own stream avatar cookies from my own streams! I also 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/anvil-insights/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/anvil-insights}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/redpaws-cookies-more/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/redpaws-cookies-more}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ci9lYVkV/64eef891ccacdfbd56143b0aeff1af96916ee1f3_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vwXIDHcR/ac7da14d3fead0e1d9548c5f7b787ac9aa2e1af6.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Throw and Slingshot" event="url{https://modrinth.com/mod/throw-and-slingshot}"
+...button-text text="Sedq's Invis Particle Exception" event="url{https://modrinth.com/mod/invis-particle-exception}"
 
-👤 Iney_FOL | 📅 2026-10-02
+👤 sedq | 📅 2026-10-03
 
-This mod adds a slingshot and throwing. You can throw out everything.
+Shows potion-effect particles from invisible entities even when particles are set to Minimal.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/throw-and-slingshot/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/throw-and-slingshot}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/invis-particle-exception/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/invis-particle-exception}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/L1bnBNM9/19eb30675ea1037f604c53b9aca89fbe5fc546de_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/aCnkA16l/71fb1bb017b6427866962df595b46c7146d42981.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Archer's Dream" event="url{https://modrinth.com/mod/archersdream}"
+...button-text text="X-tra Vehicles" event="url{https://modrinth.com/mod/x-tra-vehicles}"
 
-👤 qinme9 | 📅 2026-10-02
+👤 OscarThomas | 📅 2026-10-03
 
-A NeoForge mod that lets arrows pass through gaps, door windows, and hollow bells instead of hitting
+Six drivable vehicles for Minecraft — car, boat, plane, fighter jet and fire truck. Buy them from vi
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/archersdream/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/archersdream}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/x-tra-vehicles/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/x-tra-vehicles}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ A NeoForge mod that lets arrows pass through gaps, door windows, and hollow bell
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Village/Structure/Blueprints/Snowy Tundra/Cartographer House 1](https://minecraft.wiki/Village%2FStructure%2FBlueprints%2FSnowy_Tundra%2FCartographer_House_1)
+📖 **Wiki 推荐**：[Java Edition Classic 0.0.15a 01](https://minecraft.wiki/Java_Edition_Classic_0.0.15a_01)
 
-⏰ 更新时间：2026-10-02 17:46:17
+⏰ 更新时间：2026-10-03 05:00:52
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
