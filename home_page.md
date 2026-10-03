@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-03 05:00:52
+// 生成时间：2026-10-03 16:05:55
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.GrizzlySwim_ZH-CN1005455737_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.ArtemisRocket_ZH-CN1768541365_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"作业忘写，因而立于廊，最上川。"*
+> *"所谓觉悟，乃是在漆黑的荒原中，开辟出一条属于自己的星光大道！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{作业忘写，因而立于廊，最上川。}"
+...button-text text="📋 复制" event="copy{所谓觉悟，乃是在漆黑的荒原中，开辟出一条属于自己的星光大道！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_Classic_0.0.15a_01}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Furnace_(disambiguation)}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7bRDck83/5dd3458bf233df390776f908a65318908e075694_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/N63dUNZc/56b4e4cee81d2b1742a2df5ece975f45465d6ff3_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="UTDR Plushies" event="url{https://modrinth.com/mod/utdr-plushies}"
+...button-text text="Alpha Tweaks" event="url{https://modrinth.com/mod/alpha-tweaks}"
 
-👤 Nuvaa | 📅 2026-10-03
+👤 MeLlamoGamer | 📅 2026-10-03
 
-Adds a bunch of plushies of UNDERTALE and DELTARUNE characters!
+This mod adds QoL features to Minecraft Alpha to make it more playable in today standarts.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/utdr-plushies/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/utdr-plushies}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/alpha-tweaks/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/alpha-tweaks}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/QimgLR9Y/c13c13575f6b20669407116adf99db75b2054923_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/RM4GgEYC/91a801e397f505da2898d062d7b29ff02c2b2595.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Emerald Uses" event="url{https://modrinth.com/mod/emerald-uses}"
+...button-text text="Better Smelting" event="url{https://modrinth.com/mod/bettersmelting}"
 
-👤 Fluff_Them | 📅 2026-10-03
+👤 KeincraftTV | 📅 2026-10-03
 
-This mod adds more emerald Uses
+It improves smelting. yeah no. that was it.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/emerald-uses/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/emerald-uses}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bettersmelting/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bettersmelting}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/gJ8oc1HS/12edbe292a84b7200a2e636a5f157f530b266eba_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/JZ088I7v/5231060d4ae22f22a09ec417ea20eeebdda97196_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="RedPaw's Cookies & More!" event="url{https://modrinth.com/mod/redpaws-cookies-more}"
+...button-text text="Improvement Minecarts!" event="url{https://modrinth.com/mod/improvement-minecarts}"
 
-👤 redpaw564 | 📅 2026-10-03
+👤 DokkiTheOne | 📅 2026-10-03
 
-In this mod I added many cookie recipes of my own stream avatar cookies from my own streams! I also 
+Faster straight-track minecarts, chain-coupled trains, furnace locomotives, stations and vanilla red
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/redpaws-cookies-more/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/redpaws-cookies-more}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/improvement-minecarts/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/improvement-minecarts}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/vwXIDHcR/ac7da14d3fead0e1d9548c5f7b787ac9aa2e1af6.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6MdCN4bk/bb626e8d38f79c012ba43b6539cc87c812fd4cd4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Sedq's Invis Particle Exception" event="url{https://modrinth.com/mod/invis-particle-exception}"
+...button-text text="Unstrip Logs" event="url{https://modrinth.com/mod/unstriplogs}"
 
-👤 sedq | 📅 2026-10-03
+👤 person_coz | 📅 2026-10-03
 
-Shows potion-effect particles from invisible entities even when particles are set to Minimal.
+Adds a crafting recipe of stripped log surrounded by 4 sticks to unstrip it! All logs in that versio
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/invis-particle-exception/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/invis-particle-exception}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/unstriplogs/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/unstriplogs}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/aCnkA16l/71fb1bb017b6427866962df595b46c7146d42981.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/WMfrqhiq/2b602052b31ea32c9818edff158d6d165ba55242.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="X-tra Vehicles" event="url{https://modrinth.com/mod/x-tra-vehicles}"
+...button-text text="Player Death Count" event="url{https://modrinth.com/mod/player-death-count}"
 
-👤 OscarThomas | 📅 2026-10-03
+👤 Jodek | 📅 2026-10-03
 
-Six drivable vehicles for Minecraft — car, boat, plane, fighter jet and fire truck. Buy them from vi
+Shows the death count of players next to their name
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/x-tra-vehicles/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/x-tra-vehicles}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/player-death-count/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/player-death-count}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Six drivable vehicles for Minecraft — car, boat, plane, fighter jet and fire t
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：捕捉、进食、重复
-© 美国阿拉斯加州克拉克湖国家公园和自然保护区银鲑溪中的棕熊 (© Danny Green/Nature Picture Library)
+🖼️ 壁纸：宇宙在召唤
+© 阿尔忒弥斯1号月球火箭，39B发射台，肯尼迪航天中心，佛罗里达州，2022年6月15日 (© EVA MARIE UZCATEGUI/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition Classic 0.0.15a 01](https://minecraft.wiki/Java_Edition_Classic_0.0.15a_01)
+📖 **Wiki 推荐**：[Furnace (disambiguation)](https://minecraft.wiki/Furnace_(disambiguation))
 
-⏰ 更新时间：2026-10-03 05:00:52
+⏰ 更新时间：2026-10-03 16:05:55
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
