@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-04 05:33:22
+// 生成时间：2026-10-04 16:46:01
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.ArtemisRocket_ZH-CN1768541365_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.AdelieTeacher_ZH-CN2201820679_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"花开花落，再灿烂的星光也会消失。"*
+> *"每个人都是月亮，总有一个阴暗面，从来不让人看见。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{花开花落，再灿烂的星光也会消失。}"
+...button-text text="📋 复制" event="copy{每个人都是月亮，总有一个阴暗面，从来不让人看见。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FPolished_Blackstone}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/List_of_historical_block_textures}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -174,14 +174,14 @@ It improves smelting. yeah no. that was it.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：宇宙在召唤
-© 阿尔忒弥斯1号月球火箭，39B发射台，肯尼迪航天中心，佛罗里达州，2022年6月15日 (© EVA MARIE UZCATEGUI/Getty Images)
+🖼️ 壁纸：纵身一跃，一次一课
+© 南极洲的阿德利企鹅 (© Otto Plantema/Minden Pictures)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition block render history/Polished Blackstone](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FPolished_Blackstone)
+📖 **Wiki 推荐**：[List of historical block textures](https://minecraft.wiki/List_of_historical_block_textures)
 
-⏰ 更新时间：2026-10-04 05:33:22
+⏰ 更新时间：2026-10-04 16:46:01
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
