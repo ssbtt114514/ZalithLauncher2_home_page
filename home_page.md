@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-03 16:05:55
+// 生成时间：2026-10-04 05:33:22
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"所谓觉悟，乃是在漆黑的荒原中，开辟出一条属于自己的星光大道！"*
+> *"花开花落，再灿烂的星光也会消失。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{所谓觉悟，乃是在漆黑的荒原中，开辟出一条属于自己的星光大道！}"
+...button-text text="📋 复制" event="copy{花开花落，再灿烂的星光也会消失。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Furnace_(disambiguation)}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FPolished_Blackstone}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -66,6 +66,55 @@
 // --- 🧩 Modrinth 最新模组 ---
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/dmko4TIa/c1a8da127e6f7ecfd10e06b23ff5aae9e86e60ca_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="In RP" event="url{https://modrinth.com/mod/in-rp}"
+
+👤 Ti0NickZeus | 📅 2026-10-03
+
+A lightweight, server-side Roleplay mod — RP toggling, lives system, dice rolling, nametag indicator
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/in-rp/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/in-rp}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/H3gLwDNX/7d0cec0a020081a213c2125411ece1a5757e53fa_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Zoomyy" event="url{https://modrinth.com/mod/zoomyy}"
+
+👤 Izac7297_ | 📅 2026-10-03
+
+Another zoom in-n-out mod
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/zoomyy/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/zoomyy}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/SQcP6Vfq/c6d654d4644fea6a372e619e74548911cf4b47d4_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Do an Over Roll" event="url{https://modrinth.com/mod/do-an-over-roll}"
+
+👤 Colbaska02 | 📅 2026-10-03
+
+Smooth cinematic elytra flight: banking. Inertia and soft
+camera smoothing. Works on client and serv
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/do-an-over-roll/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/do-an-over-roll}" weight=(1)
+...row-end
+...column-end
+...row-end
+
 ...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/N63dUNZc/56b4e4cee81d2b1742a2df5ece975f45465d6ff3_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
@@ -94,54 +143,6 @@ It improves smelting. yeah no. that was it.
 ...row-start horizontal=spacedBy(8)
 ...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bettersmelting/versions}" weight=(1)
 ...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bettersmelting}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/JZ088I7v/5231060d4ae22f22a09ec417ea20eeebdda97196_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Improvement Minecarts!" event="url{https://modrinth.com/mod/improvement-minecarts}"
-
-👤 DokkiTheOne | 📅 2026-10-03
-
-Faster straight-track minecarts, chain-coupled trains, furnace locomotives, stations and vanilla red
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/improvement-minecarts/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/improvement-minecarts}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6MdCN4bk/bb626e8d38f79c012ba43b6539cc87c812fd4cd4_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Unstrip Logs" event="url{https://modrinth.com/mod/unstriplogs}"
-
-👤 person_coz | 📅 2026-10-03
-
-Adds a crafting recipe of stripped log surrounded by 4 sticks to unstrip it! All logs in that versio
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/unstriplogs/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/unstriplogs}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/WMfrqhiq/2b602052b31ea32c9818edff158d6d165ba55242.png" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Player Death Count" event="url{https://modrinth.com/mod/player-death-count}"
-
-👤 Jodek | 📅 2026-10-03
-
-Shows the death count of players next to their name
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/player-death-count/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/player-death-count}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +179,9 @@ Shows the death count of players next to their name
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Furnace (disambiguation)](https://minecraft.wiki/Furnace_(disambiguation))
+📖 **Wiki 推荐**：[Bedrock Edition block render history/Polished Blackstone](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FPolished_Blackstone)
 
-⏰ 更新时间：2026-10-03 16:05:55
+⏰ 更新时间：2026-10-04 05:33:22
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
