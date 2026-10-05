@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-04 16:46:01
+// 生成时间：2026-10-05 05:16:50
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"每个人都是月亮，总有一个阴暗面，从来不让人看见。"*
+> *"凝霜夜，幽香梦，枕边人赴烽火，吹起一帘牵挂。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{每个人都是月亮，总有一个阴暗面，从来不让人看见。}"
+...button-text text="📋 复制" event="copy{凝霜夜，幽香梦，枕边人赴烽火，吹起一帘牵挂。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/List_of_historical_block_textures}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Redstone_circuits%2FMemory%2FTFF_K}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,82 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/dmko4TIa/c1a8da127e6f7ecfd10e06b23ff5aae9e86e60ca_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/kCKwi7lp/75b7d156a35ae6ed1927e83f8b1aa6431aa648c5.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="In RP" event="url{https://modrinth.com/mod/in-rp}"
+...button-text text="Cobweb Customizer!" event="url{https://modrinth.com/mod/cobweb-customizer}"
 
-👤 Ti0NickZeus | 📅 2026-10-03
+👤 venzv | 📅 2026-10-04
 
-A lightweight, server-side Roleplay mod — RP toggling, lives system, dice rolling, nametag indicator
+This mod allows you to customise the look of your cobwebs! This allows you to change many things suc
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/in-rp/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/in-rp}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cobweb-customizer/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cobweb-customizer}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/H3gLwDNX/7d0cec0a020081a213c2125411ece1a5757e53fa_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/j6CTL5tN/10b1812b5b730fea66edbf30bc39d2b54be56ae5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Zoomyy" event="url{https://modrinth.com/mod/zoomyy}"
+...button-text text="[Let's Do] Smoker" event="url{https://modrinth.com/mod/lets-do-smoker}"
 
-👤 Izac7297_ | 📅 2026-10-03
+👤 satisfyu | 📅 2026-10-04
 
-Another zoom in-n-out mod
+The Smoker - an often overlooked, rarely used, yet versatile block. Feed the new Smoking Station dif
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/zoomyy/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/zoomyy}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lets-do-smoker/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lets-do-smoker}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/SQcP6Vfq/c6d654d4644fea6a372e619e74548911cf4b47d4_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/1QjX0z3d/f149e980af07165054763982c4a274d4820fbe12.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Do an Over Roll" event="url{https://modrinth.com/mod/do-an-over-roll}"
+...button-text text="Better Skies Datapack, Sunsets and Night Colours" event="url{https://modrinth.com/mod/better-skies-datapack}"
 
-👤 Colbaska02 | 📅 2026-10-03
+👤 MD22 | 📅 2026-10-04
 
-Smooth cinematic elytra flight: banking. Inertia and soft
-camera smoothing. Works on client and serv
+A deeper sky without a resource pack: richer sunsets, nearly twice the stars and a blue night instea
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/do-an-over-roll/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/do-an-over-roll}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-skies-datapack/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-skies-datapack}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/N63dUNZc/56b4e4cee81d2b1742a2df5ece975f45465d6ff3_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6OIQgkVw/ef4cdf9d0fb0425a29a7a16c87a80b37a52125b6_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Alpha Tweaks" event="url{https://modrinth.com/mod/alpha-tweaks}"
+...button-text text="Longer Days Datapack, Day and Night Length" event="url{https://modrinth.com/mod/longer-days-datapack}"
 
-👤 MeLlamoGamer | 📅 2026-10-03
+👤 MD22 | 📅 2026-10-04
 
-This mod adds QoL features to Minecraft Alpha to make it more playable in today standarts.
+Set how long the day and the night last - separately. Long days with normal nights, or any mix, with
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/alpha-tweaks/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/alpha-tweaks}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/longer-days-datapack/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/longer-days-datapack}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/RM4GgEYC/91a801e397f505da2898d062d7b29ff02c2b2595.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/plFUHWh4/17fd84bcadc2463816999fc3a6669ef7dc622222_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Better Smelting" event="url{https://modrinth.com/mod/bettersmelting}"
+...button-text text="WaysideFinds" event="url{https://modrinth.com/mod/waysidefinds}"
 
-👤 KeincraftTV | 📅 2026-10-03
+👤 pigeonescu | 📅 2026-10-04
 
-It improves smelting. yeah no. that was it.
+The farther you wander, the more you find.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bettersmelting/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bettersmelting}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/waysidefinds/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/waysidefinds}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -179,9 +178,9 @@ It improves smelting. yeah no. that was it.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[List of historical block textures](https://minecraft.wiki/List_of_historical_block_textures)
+📖 **Wiki 推荐**：[Redstone circuits/Memory/TFF K](https://minecraft.wiki/Redstone_circuits%2FMemory%2FTFF_K)
 
-⏰ 更新时间：2026-10-04 16:46:01
+⏰ 更新时间：2026-10-05 05:16:50
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
