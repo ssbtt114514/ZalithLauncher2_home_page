@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-06 18:15:09
+// 生成时间：2026-10-07 05:36:15
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"就连一直都无容身之地的我…也不是可以任意舍弃的生命。"*
+> *"如果有一个喜欢你的人出现，一定不要凶她哦！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{就连一直都无容身之地的我…也不是可以任意舍弃的生命。}"
+...button-text text="📋 复制" event="copy{如果有一个喜欢你的人出现，一定不要凶她哦！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FPotion_of_Harming}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Entity_format%2FDeathLootTable}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Xh3x2vCO/03a433e95bdcdb3227e301efd5ded3e87e53868f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/DP7M2DdM/05a2b58dec679b4110e5303667818da2482752bd_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Milkshake mania" event="url{https://modrinth.com/mod/milkshake-mania}"
+...button-text text="[Let's Do] Legacy" event="url{https://modrinth.com/mod/lets-do-legacy}"
 
-👤 ShdolCreit | 📅 2026-10-06
+👤 satisfyu | 📅 2026-10-06
 
-Milkshake Madness is a mod that allows you to create milkshakes with various abilities.
+Earn titles by playing and wear them above your name. Keep a personal journey of your first times an
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/milkshake-mania/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/milkshake-mania}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lets-do-legacy/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lets-do-legacy}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/mtk2daDL/86d05270429e8fc4d0b7ea3a5a97134bcf5de2cc_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/hEEywddE/fe658e089b7fa71e23a10b619a2d6cfbcff0d719.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Bedrock Allow Deny Border" event="url{https://modrinth.com/mod/minecraft-bedrock-adb}"
+...button-text text="OrnitheItemPhysicLite" event="url{https://modrinth.com/mod/ornitheitemphysiclite}"
 
-👤 zihan_ds | 📅 2026-10-06
+👤 Tryfle | 📅 2026-10-06
 
-Faithful client-side port of the Bedrock Edition Allow, Deny and Border blocks for Minecraft Fabric:
+Client-sided "physics" to dropped items for Fabric (Ornithe) 1.8
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/minecraft-bedrock-adb/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/minecraft-bedrock-adb}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ornitheitemphysiclite/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ornitheitemphysiclite}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7mLKAgbv/b8664e7884c8c6677a33cd446fe280d5f8a995df_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/lrXC1pxw/89cf99436b13c1e6311e15c5c940658ef671a0a8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="GUI Studio" event="url{https://modrinth.com/mod/gui-studio}"
+...button-text text="XP WORLD SIZE" event="url{https://modrinth.com/mod/xpzone}"
 
-👤 Taurt | 📅 2026-10-06
+👤 micrie | 📅 2026-10-06
 
-An advanced GUI mod for Minecraft that targets areas of the GUI most mods don't.
+XP World Size — a shared circular world that grows with team XP. The border damages players outside 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/gui-studio/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/gui-studio}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/xpzone/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/xpzone}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/1gDc4Bwd/1f78fd5908460ad9a28672f7a1373b25fa48446d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/KThfIVRl/2453d7eeac7896ae18542582623d4d01b721811a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Yukari's Spiriting Away" event="url{https://modrinth.com/mod/spiritingaway}"
+...button-text text="En Garde" event="url{https://modrinth.com/mod/engarde}"
 
-👤 EverlaPrismerAya4444 | 📅 2026-10-06
+👤 Groundbob | 📅 2026-10-06
 
-A mod to disable effects, entities and damage types.
+A vanilla style rework of Minecraft's PVP system.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/spiritingaway/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/spiritingaway}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/engarde/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/engarde}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/jkV3TcZs/145482bc41aa65e8339bf70ee51621adc75bd4bf.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/FF0lLdjj/e6566cbbd6f6f84c2012999d1f39a9e0b39111fa_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Server Reset On Any Player Death" event="url{https://modrinth.com/mod/server-reset-on-any-player-death}"
+...button-text text="Project Pillager" event="url{https://modrinth.com/mod/project-pillager}"
 
-👤 adotishere | 📅 2026-10-06
+👤 shreyanshbanerjee6 | 📅 2026-10-06
 
-Fabric server mod for shared hardcore runs with automatic, completely restartless world resets on pl
+The Project Pillager mod aims to update the pillager spawn and behavior logic. This version of the m
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/server-reset-on-any-player-death/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/server-reset-on-any-player-death}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/project-pillager/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/project-pillager}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Fabric server mod for shared hardcore runs with automatic, completely restartles
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition item texture history/Potion of Harming](https://minecraft.wiki/Java_Edition_item_texture_history%2FPotion_of_Harming)
+📖 **Wiki 推荐**：[Entity format/DeathLootTable](https://minecraft.wiki/Entity_format%2FDeathLootTable)
 
-⏰ 更新时间：2026-10-06 18:15:09
+⏰ 更新时间：2026-10-07 05:36:15
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
