@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-07 05:36:15
+// 生成时间：2026-10-07 18:47:44
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.ForestofDean_ZH-CN2654753621_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.MayotteOctopus_ZH-CN2837659998_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"如果有一个喜欢你的人出现，一定不要凶她哦！"*
+> *"沦为过客是最后结局。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{如果有一个喜欢你的人出现，一定不要凶她哦！}"
+...button-text text="📋 复制" event="copy{沦为过客是最后结局。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Entity_format%2FDeathLootTable}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FStripped_Crimson_Stem}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/DP7M2DdM/05a2b58dec679b4110e5303667818da2482752bd_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/3qNFqxNL/680d5bd8f43c410f26ab110758727670aacde134_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="[Let's Do] Legacy" event="url{https://modrinth.com/mod/lets-do-legacy}"
+...button-text text="Death blood screen" event="url{https://modrinth.com/mod/death-blood-screen}"
 
-👤 satisfyu | 📅 2026-10-06
+👤 ZazacTTV | 📅 2026-10-07
 
-Earn titles by playing and wear them above your name. Keep a personal journey of your first times an
+Add a blood screen effect when the player dies
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lets-do-legacy/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lets-do-legacy}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/death-blood-screen/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/death-blood-screen}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/hEEywddE/fe658e089b7fa71e23a10b619a2d6cfbcff0d719.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/GfkxGn5u/acdd25ef2e50e05eac473452a2f0215aca0d35e0_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="OrnitheItemPhysicLite" event="url{https://modrinth.com/mod/ornitheitemphysiclite}"
+...button-text text="macinterface" event="url{https://modrinth.com/mod/macinterface}"
 
-👤 Tryfle | 📅 2026-10-06
+👤 kiklomin | 📅 2026-10-07
 
-Client-sided "physics" to dropped items for Fabric (Ornithe) 1.8
+A sleek, interactive macOS-inspired desktop interface for the title screen with a magnified dock, co
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ornitheitemphysiclite/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ornitheitemphysiclite}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/macinterface/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/macinterface}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/lrXC1pxw/89cf99436b13c1e6311e15c5c940658ef671a0a8_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/MLAZPSSi/98d7499ac484ba5c71ba8702d9d68c4a86669ee0_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="XP WORLD SIZE" event="url{https://modrinth.com/mod/xpzone}"
+...button-text text="Flesh Symbiote" event="url{https://modrinth.com/mod/flesh-symbiote}"
 
-👤 micrie | 📅 2026-10-06
+👤 songhuquanyi | 📅 2026-10-07
 
-XP World Size — a shared circular world that grows with team XP. The border damages players outside 
+Flesh Symbiote is a Minecraft 1.20.1 Forge mod that lets players inject an artificially created symb
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/xpzone/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/xpzone}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/flesh-symbiote/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/flesh-symbiote}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/KThfIVRl/2453d7eeac7896ae18542582623d4d01b721811a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/576Q00cm/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="En Garde" event="url{https://modrinth.com/mod/engarde}"
+...button-text text="Datouu Claim & Waystone Sync" event="url{https://modrinth.com/mod/datouu-claim-waystone-sync}"
 
-👤 Groundbob | 📅 2026-10-06
+👤 Datouu0413 | 📅 2026-10-07
 
-A vanilla style rework of Minecraft's PVP system.
+Mod that integrates Open Parties and Claims, Waystones, and Xaero’s Minimap / World Map into a unifi
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/engarde/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/engarde}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/datouu-claim-waystone-sync/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/datouu-claim-waystone-sync}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/FF0lLdjj/e6566cbbd6f6f84c2012999d1f39a9e0b39111fa_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Dnr8lyF0/6d49df08d96feccfdeae1252e0ca5bc720978a2c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Project Pillager" event="url{https://modrinth.com/mod/project-pillager}"
+...button-text text="Totem Ghost Effect" event="url{https://modrinth.com/mod/totem-ghost-effect}"
 
-👤 shreyanshbanerjee6 | 📅 2026-10-06
+👤 imCinq | 📅 2026-10-07
 
-The Project Pillager mod aims to update the pillager spawn and behavior logic. This version of the m
+Adds smooth fading ghost afterimages behind the vanilla Totem of Undying animation, making every tot
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/project-pillager/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/project-pillager}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/totem-ghost-effect/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/totem-ghost-effect}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ The Project Pillager mod aims to update the pillager spawn and behavior logic. T
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：迷惑不解？沿着小径走
-© 覆满苔藓的岩石，英国格洛斯特郡谜林，迪恩森林，格洛斯特郡，英格兰 (© Fulcanelli_AOS/Getty Images)
+🖼️ 壁纸：现在你“海”能看见我……
+© 印度洋马约特岛，一只呈防御姿态的章鱼 (© Gabriel Barathieu/Minden Pictures)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Entity format/DeathLootTable](https://minecraft.wiki/Entity_format%2FDeathLootTable)
+📖 **Wiki 推荐**：[Bedrock Edition block render history/Stripped Crimson Stem](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FStripped_Crimson_Stem)
 
-⏰ 更新时间：2026-10-07 05:36:15
+⏰ 更新时间：2026-10-07 18:47:44
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
