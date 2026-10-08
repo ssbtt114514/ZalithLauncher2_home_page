@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-07 18:47:44
+// 生成时间：2026-10-08 05:44:57
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"沦为过客是最后结局。"*
+> *"看看人间的苦难，听听人民的呐喊！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{沦为过客是最后结局。}"
+...button-text text="📋 复制" event="copy{看看人间的苦难，听听人民的呐喊！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FStripped_Crimson_Stem}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Redstone_circuits%2FLogic%2FXOR}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/3qNFqxNL/680d5bd8f43c410f26ab110758727670aacde134_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/SoClIbtW/3c9a789da3c359665b57996ffeace7125c6f3869.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Death blood screen" event="url{https://modrinth.com/mod/death-blood-screen}"
+...button-text text="Music Viewer" event="url{https://modrinth.com/mod/music-viewer}"
 
-👤 ZazacTTV | 📅 2026-10-07
+👤 Equitice | 📅 2026-10-08
 
-Add a blood screen effect when the player dies
+Shows a live HUD for whatever music is playing on your PC right inside Minecraft. Appears as a small
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/death-blood-screen/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/death-blood-screen}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/music-viewer/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/music-viewer}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/GfkxGn5u/acdd25ef2e50e05eac473452a2f0215aca0d35e0_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/r4wQqTUk/ee160717d16c40aefbb03ec9304e404dfa6f12f7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="macinterface" event="url{https://modrinth.com/mod/macinterface}"
+...button-text text="Teleporter Technology" event="url{https://modrinth.com/mod/teleporter-technology}"
 
-👤 kiklomin | 📅 2026-10-07
+👤 Chukku | 📅 2026-10-08
 
-A sleek, interactive macOS-inspired desktop interface for the title screen with a magnified dock, co
+This mod adds Teleport pads wich you can teleport between when they are connected with end dust.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/macinterface/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/macinterface}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/teleporter-technology/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/teleporter-technology}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/MLAZPSSi/98d7499ac484ba5c71ba8702d9d68c4a86669ee0_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/LI4QKDjj/27bc1894596f02baca0ceb419b9847b917d49c09_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Flesh Symbiote" event="url{https://modrinth.com/mod/flesh-symbiote}"
+...button-text text="Ancient Gems" event="url{https://modrinth.com/mod/ancient-gems}"
 
-👤 songhuquanyi | 📅 2026-10-07
+👤 TravisplaysYT | 📅 2026-10-08
 
-Flesh Symbiote is a Minecraft 1.20.1 Forge mod that lets players inject an artificially created symb
+Adds many new ore types along side one new cave biome.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/flesh-symbiote/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/flesh-symbiote}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ancient-gems/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ancient-gems}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/576Q00cm/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/utWmHM18/b3b5320b7e72fc76b5916017c3b612bd15031f15.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Datouu Claim & Waystone Sync" event="url{https://modrinth.com/mod/datouu-claim-waystone-sync}"
+...button-text text="russkie Zabavy" event="url{https://modrinth.com/mod/cekushka}"
 
-👤 Datouu0413 | 📅 2026-10-07
+👤 pavlocerna709 | 📅 2026-10-08
 
-Mod that integrates Open Parties and Claims, Waystones, and Xaero’s Minimap / World Map into a unifi
+The mod adds items to the game: "beer," "whiskey," "kvass," as well as a brewing system with its own
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/datouu-claim-waystone-sync/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/datouu-claim-waystone-sync}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cekushka/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cekushka}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Dnr8lyF0/6d49df08d96feccfdeae1252e0ca5bc720978a2c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/MDBefN6y/3fe792c709838ef4cbb4a1bb359dcb9df8f0e927.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Totem Ghost Effect" event="url{https://modrinth.com/mod/totem-ghost-effect}"
+...button-text text="Online Friends" event="url{https://modrinth.com/mod/online-friends}"
 
-👤 imCinq | 📅 2026-10-07
+👤 DontiMonti | 📅 2026-10-08
 
-Adds smooth fading ghost afterimages behind the vanilla Totem of Undying animation, making every tot
+Allows you to add friends to a separate list.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/totem-ghost-effect/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/totem-ghost-effect}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/online-friends/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/online-friends}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Adds smooth fading ghost afterimages behind the vanilla Totem of Undying animati
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition block render history/Stripped Crimson Stem](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FStripped_Crimson_Stem)
+📖 **Wiki 推荐**：[Redstone circuits/Logic/XOR](https://minecraft.wiki/Redstone_circuits%2FLogic%2FXOR)
 
-⏰ 更新时间：2026-10-07 18:47:44
+⏰ 更新时间：2026-10-08 05:44:57
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
