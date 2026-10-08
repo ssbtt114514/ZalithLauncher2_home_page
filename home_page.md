@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-08 05:44:57
+// 生成时间：2026-10-08 18:45:43
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.MayotteOctopus_ZH-CN2837659998_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.IlesSanguinaires_ZH-CN3149346035_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"看看人间的苦难，听听人民的呐喊！"*
+> *"或许人和人之间的缘分，都是注定的。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{看看人间的苦难，听听人民的呐喊！}"
+...button-text text="📋 复制" event="copy{或许人和人之间的缘分，都是注定的。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Redstone_circuits%2FLogic%2FXOR}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Cold_Ocean_Ruins%2FStructure%2FRuin_2_Mossy}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/SoClIbtW/3c9a789da3c359665b57996ffeace7125c6f3869.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/lmipfnNa/7a22ddd2c5eda2af768a4859695763f642cb0640_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Music Viewer" event="url{https://modrinth.com/mod/music-viewer}"
+...button-text text="Wandering Builder" event="url{https://modrinth.com/mod/wandering-builder}"
 
-👤 Equitice | 📅 2026-10-08
+👤 nyvs | 📅 2026-10-08
 
-Shows a live HUD for whatever music is playing on your PC right inside Minecraft. Appears as a small
+A mod that adds wandering builders, who offer blueprints and can build structures.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/music-viewer/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/music-viewer}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wandering-builder/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wandering-builder}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/r4wQqTUk/ee160717d16c40aefbb03ec9304e404dfa6f12f7_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/QncCxi8d/ab7cdffd991d77c651733367b0366858c7607d68_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Teleporter Technology" event="url{https://modrinth.com/mod/teleporter-technology}"
+...button-text text="Legacy Of Iberia" event="url{https://modrinth.com/mod/legacy-of-iberia}"
 
-👤 Chukku | 📅 2026-10-08
+👤 MrFazCraft | 📅 2026-10-08
 
-This mod adds Teleport pads wich you can teleport between when they are connected with end dust.
+Experience Spain in Minecraft with historically inspired weapons, armor, structures, mobs, food, and
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/teleporter-technology/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/teleporter-technology}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/legacy-of-iberia/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/legacy-of-iberia}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/LI4QKDjj/27bc1894596f02baca0ceb419b9847b917d49c09_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/qWoiYCbs/610fc99ae4f01b42472cc74702e71a4913cea00b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ancient Gems" event="url{https://modrinth.com/mod/ancient-gems}"
+...button-text text="Accessories Compat: Elytra & Totem" event="url{https://modrinth.com/mod/accessories-compat-vanilla}"
 
-👤 TravisplaysYT | 📅 2026-10-08
+👤 aspctt | 📅 2026-10-08
 
-Adds many new ore types along side one new cave biome.
+Native Accessories support for the elytra and the Totem of Undying. Wear an elytra in the cape slot 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ancient-gems/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ancient-gems}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/accessories-compat-vanilla/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/accessories-compat-vanilla}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/utWmHM18/b3b5320b7e72fc76b5916017c3b612bd15031f15.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/isSnF43I/fb6f5824acd344dd2f917a55857d15e1c47854a5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="russkie Zabavy" event="url{https://modrinth.com/mod/cekushka}"
+...button-text text="Omni Wheel" event="url{https://modrinth.com/mod/omni-wheel}"
 
-👤 pavlocerna709 | 📅 2026-10-08
+👤 seniorendi | 📅 2026-10-08
 
-The mod adds items to the game: "beer," "whiskey," "kvass," as well as a brewing system with its own
+Client-side radial quick-action menu with configurable wheels, profiles, shortcuts, and multiplayer-
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cekushka/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cekushka}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/omni-wheel/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/omni-wheel}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/MDBefN6y/3fe792c709838ef4cbb4a1bb359dcb9df8f0e927.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/MJnVcNjr/92141dbd0c1e45066e33c0d7ad14df08e66c4093_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Online Friends" event="url{https://modrinth.com/mod/online-friends}"
+...button-text text="The Emissary" event="url{https://modrinth.com/mod/the-emissary}"
 
-👤 DontiMonti | 📅 2026-10-08
+👤 yazenn | 📅 2026-10-08
 
-Allows you to add friends to a separate list.
+A psychological horror mod centered around stalking, uncertainty, and constant paranoia.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/online-friends/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/online-friends}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-emissary/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-emissary}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Allows you to add friends to a separate list.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：现在你“海”能看见我……
-© 印度洋马约特岛，一只呈防御姿态的章鱼 (© Gabriel Barathieu/Minden Pictures)
+🖼️ 壁纸：科西嘉岛的岩石前哨
+© 桑吉奈尔群岛景观，摄自科西嘉岛，法国 (© Francesco Riccardo Iacomino/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Redstone circuits/Logic/XOR](https://minecraft.wiki/Redstone_circuits%2FLogic%2FXOR)
+📖 **Wiki 推荐**：[Cold Ocean Ruins/Structure/Ruin 2 Mossy](https://minecraft.wiki/Cold_Ocean_Ruins%2FStructure%2FRuin_2_Mossy)
 
-⏰ 更新时间：2026-10-08 05:44:57
+⏰ 更新时间：2026-10-08 18:45:43
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
