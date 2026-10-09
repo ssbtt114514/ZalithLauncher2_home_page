@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-09 05:48:43
+// 生成时间：2026-10-09 18:16:05
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.IlesSanguinaires_ZH-CN3149346035_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.CormorantsFlight_ZH-CN0770863330_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"人终其一生都是自我改善的过程。"*
+> *"生活不停殴打我，我一怒之下变成非常好吃的年糕。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{人终其一生都是自我改善的过程。}"
+...button-text text="📋 复制" event="copy{生活不停殴打我，我一怒之下变成非常好吃的年糕。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Stripped_Log%2FAsset_history}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_Preview_1.21.10.24}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/VwLrW8Dd/f13605b023a658e5092e9707211f41ce7ee9e449.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/tiQVyZMF/88047b9d438cb309d73c50012917f78846df8146_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="wUtilities" event="url{https://modrinth.com/mod/wutilities}"
+...button-text text="Applied Quantum Inscriber" event="url{https://modrinth.com/mod/applied-quantum-inscriber}"
 
-👤 wSmoothie | 📅 2026-10-08
+👤 whitergamingx1402 | 📅 2026-10-09
 
-Server-side configuration for wWaypoints and wWorld Map
+A 3x3x3 Quantum Inscriber multiblock that massively parallelizes AE2 processor crafting directly on 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wutilities/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wutilities}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/applied-quantum-inscriber/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/applied-quantum-inscriber}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wiEACoPU/252dfdb35aae358e5f8e0a459b04362206009792.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/l3uuRIcX/a94859c1b945cfaebc3d45f9b6cc8394a759f172_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Astral Cores" event="url{https://modrinth.com/mod/astral-cores}"
+...button-text text="Headlights" event="url{https://modrinth.com/mod/headlights}"
 
-👤 Mr_Panda | 📅 2026-10-08
+👤 peacefull02 | 📅 2026-10-09
 
-This serverside mod adds 12 custom items with powerful abilities.
+A Minecraft mod that adds headlights from the player's head, which also include FullBright
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/astral-cores/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/astral-cores}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/headlights/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/headlights}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/4JREJE5o/e27f2092a0a6d0b94929989d90602466f92a7669.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/lWJDSi0g/333658cebe88acf5a6a1307b221e240f6f93fd58_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ben's Titans ( Unoffical Neoforge Port )" event="url{https://modrinth.com/mod/bens-titans-unoffical-neoforge-port-}"
+...button-text text="Locator Chat Color" event="url{https://modrinth.com/mod/locator-chat-color}"
 
-👤 kulmustafa47 | 📅 2026-10-08
+👤 LyrenXh | 📅 2026-10-09
 
-An unofficial NeoForge port of Ben's Titans mod for Minecraft 1.21.1.
+Colors player names in chat to match their Locator Bar color, so you can instantly tell who's speaki
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bens-titans-unoffical-neoforge-port-/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bens-titans-unoffical-neoforge-port-}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/locator-chat-color/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/locator-chat-color}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/NphHTmMK/51345d06b8ee1c93a212f734486abea6f0ea80dd.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/IAjFsP5w/ae10c7a3e2e497bf8846e0083acc3885d21c593d.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Light Me Up" event="url{https://modrinth.com/mod/light-me-up}"
+...button-text text="PathTrack" event="url{https://modrinth.com/mod/pathtrack}"
 
-👤 Furzmund | 📅 2026-10-08
+👤 WeNeedFood | 📅 2026-10-09
 
-Light Me Up mod adds a torch arrow, allowing players to light up large areas faster.
+A mod to help you get home.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/light-me-up/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/light-me-up}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pathtrack/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pathtrack}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/lt5NmmQp/7ec7a66a6b92837c59b135dcb9552dadfd60268d.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xZZXqYNG/232207e82c93a91b7196a4533f320244e54d7acf_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="ItemEffects" event="url{https://modrinth.com/mod/itemeffects-randomnari}"
+...button-text text="Instrument++ Reborn" event="url{https://modrinth.com/mod/instrument-reborn}"
 
-👤 RandomNari | 📅 2026-10-08
+👤 MarzMan232 | 📅 2026-10-09
 
-When hitting other players/living entities with certain items, they get certain effects
+Adds custom noteblock instruments to Minecraft! A rebirth of the original Instrument++ mod!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/itemeffects-randomnari/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/itemeffects-randomnari}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/instrument-reborn/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/instrument-reborn}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ When hitting other players/living entities with certain items, they get certain 
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：科西嘉岛的岩石前哨
-© 桑吉奈尔群岛景观，摄自科西嘉岛，法国 (© Francesco Riccardo Iacomino/Getty Images)
+🖼️ 壁纸：迁飞路线上的生命
+© 蒙特雷湾上空的双冠鸬鹚，加利福尼亚州，美国 (© Hiroya Minakuchi/Minden Pictures)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Stripped Log/Asset history](https://minecraft.wiki/Stripped_Log%2FAsset_history)
+📖 **Wiki 推荐**：[Bedrock Edition Preview 1.21.10.24](https://minecraft.wiki/Bedrock_Edition_Preview_1.21.10.24)
 
-⏰ 更新时间：2026-10-09 05:48:43
+⏰ 更新时间：2026-10-09 18:16:05
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
