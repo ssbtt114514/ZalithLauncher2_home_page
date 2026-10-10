@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-10 05:31:43
+// 生成时间：2026-10-10 17:15:12
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.CormorantsFlight_ZH-CN0770863330_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.BabcockSP_ZH-CN5266848536_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"医院的墙听到了比教堂更多的祈祷。"*
+> *"终一生渡世人和终一世渡一人，为师觉得是一样的。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{医院的墙听到了比教堂更多的祈祷。}"
+...button-text text="📋 复制" event="copy{终一生渡世人和终一世渡一人，为师觉得是一样的。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FRedstone_Comparator}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Po}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -66,6 +66,39 @@
 // --- 🧩 Modrinth 最新模组 ---
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/PnQ3jjHB/7dd171099a622b06ad1f69d86ed58e1e512d2ccc_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Aditions" event="url{https://modrinth.com/mod/aditions-happymorphose}"
+
+👤 HappyMorphose | 📅 2026-10-10
+
+Aditions adds new vanilla-style building blocks and other cool Aditions.
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/aditions-happymorphose/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/aditions-happymorphose}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/jfiYZRhE/f36d22a0fa27ea5ee07c836c3586459250635986.png" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="chinesecanfly" event="url{https://modrinth.com/mod/chinesecanfly}"
+
+👤 lanlin | 📅 2026-10-10
+
+Added Chinese Flying to Minecraft
+为Minecraft添加了中国人能飞
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chinesecanfly/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chinesecanfly}" weight=(1)
+...row-end
+...column-end
+...row-end
+
 ...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/pHq2j7ZP/b9cd372c019de522b4d535955bab1636d8ab1597_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
@@ -114,39 +147,6 @@ Lets you skip the night even if not all players are sleeping
 ...column-end
 ...row-end
 
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/iWyS1xze/60719bda5d04479ab3f870666f15e76ff8eaeaf2_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Create: Placeable Blaze Cakes" event="url{https://modrinth.com/mod/placeable-blaze-cakes}"
-
-👤 Scrpt | 📅 2026-10-09
-
-My implementation of placing Blaze Cakes (Creative only); assumes you have Create: Deep Dark.
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/placeable-blaze-cakes/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/placeable-blaze-cakes}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Ch9kD0H2/icon.png" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Sculk Echo" event="url{https://modrinth.com/mod/sculk-echo}"
-
-👤 vladloptev | 📅 2026-10-09
-
-Sculk Echo adds a full echolocation survival-horror progression built around the sculk:
-a sonar puls
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sculk-echo/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sculk-echo}" weight=(1)
-...row-end
-...column-end
-...row-end
-
 ...row-start horizontal=spacedBy(8)
 ...button text="📥 访问 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
 ...row-end
@@ -174,14 +174,14 @@ a sonar puls
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：迁飞路线上的生命
-© 蒙特雷湾上空的双冠鸬鹚，加利福尼亚州，美国 (© Hiroya Minakuchi/Minden Pictures)
+🖼️ 壁纸：秋色中转动的水轮
+© 格莱德溪磨坊，巴布科克州立公园，西弗吉尼亚州，美国 (© dszc/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition block render history/Redstone Comparator](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FRedstone_Comparator)
+📖 **Wiki 推荐**：[Po](https://minecraft.wiki/Po)
 
-⏰ 更新时间：2026-10-10 05:31:43
+⏰ 更新时间：2026-10-10 17:15:12
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
