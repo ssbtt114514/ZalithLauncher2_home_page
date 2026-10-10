@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-09 18:16:05
+// 生成时间：2026-10-10 05:31:43
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"生活不停殴打我，我一怒之下变成非常好吃的年糕。"*
+> *"医院的墙听到了比教堂更多的祈祷。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{生活不停殴打我，我一怒之下变成非常好吃的年糕。}"
+...button-text text="📋 复制" event="copy{医院的墙听到了比教堂更多的祈祷。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_Preview_1.21.10.24}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FRedstone_Comparator}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,82 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/tiQVyZMF/88047b9d438cb309d73c50012917f78846df8146_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/pHq2j7ZP/b9cd372c019de522b4d535955bab1636d8ab1597_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Applied Quantum Inscriber" event="url{https://modrinth.com/mod/applied-quantum-inscriber}"
+...button-text text="Always Open Chests" event="url{https://modrinth.com/mod/always-open-chests}"
 
-👤 whitergamingx1402 | 📅 2026-10-09
+👤 TRC-AI | 📅 2026-10-09
 
-A 3x3x3 Quantum Inscriber multiblock that massively parallelizes AE2 processor crafting directly on 
+Always Open Chests is a Minecraft mod mod that allows players to open chests even when a solid block
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/applied-quantum-inscriber/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/applied-quantum-inscriber}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/always-open-chests/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/always-open-chests}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/l3uuRIcX/a94859c1b945cfaebc3d45f9b6cc8394a759f172_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/DpGfqQtj/9fa980e1c6a677dad87b5ac7b793fe24c8f49073_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Headlights" event="url{https://modrinth.com/mod/headlights}"
+...button-text text="Unobstructed" event="url{https://modrinth.com/mod/unobstructed}"
 
-👤 peacefull02 | 📅 2026-10-09
+👤 Buvtack | 📅 2026-10-09
 
-A Minecraft mod that adds headlights from the player's head, which also include FullBright
+Allows you to seamlessly open chests, barrels, and other containers right through mounted signs and 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/headlights/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/headlights}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/unobstructed/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/unobstructed}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/lWJDSi0g/333658cebe88acf5a6a1307b221e240f6f93fd58_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/3b47syCW/60daefe9a8e121a36b7ad796e1d9afc7bbea8c66_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Locator Chat Color" event="url{https://modrinth.com/mod/locator-chat-color}"
+...button-text text="Sleep Percentage" event="url{https://modrinth.com/mod/sleep-percentage}"
 
-👤 LyrenXh | 📅 2026-10-09
+👤 WoodEXPLOSIVE | 📅 2026-10-09
 
-Colors player names in chat to match their Locator Bar color, so you can instantly tell who's speaki
+Lets you skip the night even if not all players are sleeping
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/locator-chat-color/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/locator-chat-color}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sleep-percentage/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sleep-percentage}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/IAjFsP5w/ae10c7a3e2e497bf8846e0083acc3885d21c593d.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/iWyS1xze/60719bda5d04479ab3f870666f15e76ff8eaeaf2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="PathTrack" event="url{https://modrinth.com/mod/pathtrack}"
+...button-text text="Create: Placeable Blaze Cakes" event="url{https://modrinth.com/mod/placeable-blaze-cakes}"
 
-👤 WeNeedFood | 📅 2026-10-09
+👤 Scrpt | 📅 2026-10-09
 
-A mod to help you get home.
+My implementation of placing Blaze Cakes (Creative only); assumes you have Create: Deep Dark.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pathtrack/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pathtrack}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/placeable-blaze-cakes/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/placeable-blaze-cakes}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xZZXqYNG/232207e82c93a91b7196a4533f320244e54d7acf_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Ch9kD0H2/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Instrument++ Reborn" event="url{https://modrinth.com/mod/instrument-reborn}"
+...button-text text="Sculk Echo" event="url{https://modrinth.com/mod/sculk-echo}"
 
-👤 MarzMan232 | 📅 2026-10-09
+👤 vladloptev | 📅 2026-10-09
 
-Adds custom noteblock instruments to Minecraft! A rebirth of the original Instrument++ mod!
+Sculk Echo adds a full echolocation survival-horror progression built around the sculk:
+a sonar puls
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/instrument-reborn/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/instrument-reborn}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sculk-echo/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sculk-echo}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +179,9 @@ Adds custom noteblock instruments to Minecraft! A rebirth of the original Instru
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition Preview 1.21.10.24](https://minecraft.wiki/Bedrock_Edition_Preview_1.21.10.24)
+📖 **Wiki 推荐**：[Bedrock Edition block render history/Redstone Comparator](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FRedstone_Comparator)
 
-⏰ 更新时间：2026-10-09 18:16:05
+⏰ 更新时间：2026-10-10 05:31:43
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
