@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-10 17:15:12
+// 生成时间：2026-10-11 05:27:22
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"终一生渡世人和终一世渡一人，为师觉得是一样的。"*
+> *"清算，终将到来。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{终一生渡世人和终一世渡一人，为师觉得是一样的。}"
+...button-text text="📋 复制" event="copy{清算，终将到来。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Po}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FFurnace}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,82 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/PnQ3jjHB/7dd171099a622b06ad1f69d86ed58e1e512d2ccc_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/yefY9Nhi/3b049e3273f5040df7623adf3323cf461cfb38b6_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Aditions" event="url{https://modrinth.com/mod/aditions-happymorphose}"
+...button-text text="Clean Chit Chat" event="url{https://modrinth.com/mod/clean-chit-chat}"
 
-👤 HappyMorphose | 📅 2026-10-10
+👤 JustPetrov | 📅 2026-10-10
 
-Aditions adds new vanilla-style building blocks and other cool Aditions.
+Removes the <> from the Server Chat
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/aditions-happymorphose/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/aditions-happymorphose}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/clean-chit-chat/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/clean-chit-chat}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/jfiYZRhE/f36d22a0fa27ea5ee07c836c3586459250635986.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wiapEHNY/1386a632a1e2c104579ec9d0bf59d98acad4219b.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="chinesecanfly" event="url{https://modrinth.com/mod/chinesecanfly}"
+...button-text text="Kaupenjoe's Translated Pompous Paintings" event="url{https://modrinth.com/mod/kaupenjoes-translated-pompous-paintings}"
 
-👤 lanlin | 📅 2026-10-10
+👤 Kaupenjoe | 📅 2026-10-10
 
-Added Chinese Flying to Minecraft
-为Minecraft添加了中国人能飞
+An assortment of google translated paintings that actually look very nice!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chinesecanfly/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chinesecanfly}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kaupenjoes-translated-pompous-paintings/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kaupenjoes-translated-pompous-paintings}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/pHq2j7ZP/b9cd372c019de522b4d535955bab1636d8ab1597_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/kWFOrnCm/8349e448c70acc2ee0473d3173d19df8507ceeeb.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Always Open Chests" event="url{https://modrinth.com/mod/always-open-chests}"
+...button-text text="Enchanted Hearts+" event="url{https://modrinth.com/mod/enchanted-hearts}"
 
-👤 TRC-AI | 📅 2026-10-09
+👤 CostelBoYT | 📅 2026-10-10
 
-Always Open Chests is a Minecraft mod mod that allows players to open chests even when a solid block
+Each enchantment has its own heart texture
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/always-open-chests/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/always-open-chests}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/enchanted-hearts/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/enchanted-hearts}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/DpGfqQtj/9fa980e1c6a677dad87b5ac7b793fe24c8f49073_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/lvNetTR6/b63928ae60f1ef7557b67470c9f19552fcde81eb_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Unobstructed" event="url{https://modrinth.com/mod/unobstructed}"
+...button-text text="Breaking Blocks Spawns Mobs" event="url{https://modrinth.com/mod/breaking-blocks-spawns-mobs}"
 
-👤 Buvtack | 📅 2026-10-09
+👤 Bebu | 📅 2026-10-10
 
-Allows you to seamlessly open chests, barrels, and other containers right through mounted signs and 
+Break blocks and trigger the spawn of random mobs, turning every mining trip into an unpredictable c
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/unobstructed/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/unobstructed}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/breaking-blocks-spawns-mobs/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/breaking-blocks-spawns-mobs}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/3b47syCW/60daefe9a8e121a36b7ad796e1d9afc7bbea8c66_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/eFo7JE1z/1d309d369b52f938a8bb04a55f61615a0a740b19_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Sleep Percentage" event="url{https://modrinth.com/mod/sleep-percentage}"
+...button-text text="Flux's Fixes" event="url{https://modrinth.com/mod/fluxs-fixes}"
 
-👤 WoodEXPLOSIVE | 📅 2026-10-09
+👤 fluxp1 | 📅 2026-10-10
 
-Lets you skip the night even if not all players are sleeping
+A couple of different quality of life features for recording or just preference things that flux use
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sleep-percentage/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sleep-percentage}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fluxs-fixes/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fluxs-fixes}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -179,9 +178,9 @@ Lets you skip the night even if not all players are sleeping
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Po](https://minecraft.wiki/Po)
+📖 **Wiki 推荐**：[Java Edition block render history/Furnace](https://minecraft.wiki/Java_Edition_block_render_history%2FFurnace)
 
-⏰ 更新时间：2026-10-10 17:15:12
+⏰ 更新时间：2026-10-11 05:27:22
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
