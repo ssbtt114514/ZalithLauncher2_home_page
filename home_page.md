@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-11 17:37:35
+// 生成时间：2026-10-12 05:37:55
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"实践是检验真理的唯一标准。"*
+> *"幸福，就是找一个温暖的人过一辈子，然后一辈子都是温暖的。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{实践是检验真理的唯一标准。}"
+...button-text text="📋 复制" event="copy{幸福，就是找一个温暖的人过一辈子，然后一辈子都是温暖的。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_beta_1.11.0.7}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Golden_Armor}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/yefY9Nhi/3b049e3273f5040df7623adf3323cf461cfb38b6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8oWuVG5o/a01ed452511d17951f40f82af39db70ad28e5e2d.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Clean Chit Chat" event="url{https://modrinth.com/mod/clean-chit-chat}"
+...button-text text="Vibranium" event="url{https://modrinth.com/mod/vibranium-leiriadjenkins}"
 
-👤 JustPetrov | 📅 2026-10-10
+👤 leiriadjenkins | 📅 2026-10-12
 
-Removes the <> from the Server Chat
+This mod add Vibranium to Minecraft
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/clean-chit-chat/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/clean-chit-chat}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/vibranium-leiriadjenkins/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/vibranium-leiriadjenkins}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wiapEHNY/1386a632a1e2c104579ec9d0bf59d98acad4219b.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/QgQe0F3C/fbaa9d896a0d045820960eeec70a0acc5cefa8b7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Kaupenjoe's Translated Pompous Paintings" event="url{https://modrinth.com/mod/kaupenjoes-translated-pompous-paintings}"
+...button-text text="SANDCORE classic" event="url{https://modrinth.com/mod/sandcore-classic}"
 
-👤 Kaupenjoe | 📅 2026-10-10
+👤 emretmekvar | 📅 2026-10-11
 
-An assortment of google translated paintings that actually look very nice!
+Desert everywhere. Essential structures only. Can you beat the game?
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kaupenjoes-translated-pompous-paintings/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kaupenjoes-translated-pompous-paintings}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sandcore-classic/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sandcore-classic}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/kWFOrnCm/8349e448c70acc2ee0473d3173d19df8507ceeeb.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/MmJaTwVG/8aca67c1496b8103997902e86f154db24de0fc77_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Enchanted Hearts+" event="url{https://modrinth.com/mod/enchanted-hearts}"
+...button-text text="Unnatural Geophobia - Biome Overhaul" event="url{https://modrinth.com/mod/unnatural-geophobia}"
 
-👤 CostelBoYT | 📅 2026-10-10
+👤 knishle | 📅 2026-10-11
 
-Each enchantment has its own heart texture
+Overhauls the vegetation and layouts of the vanilla biomes.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/enchanted-hearts/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/enchanted-hearts}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/unnatural-geophobia/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/unnatural-geophobia}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/lvNetTR6/b63928ae60f1ef7557b67470c9f19552fcde81eb_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/X4RaBFw7/d426e2db79637cd597ab3cbd1d7510ff28eb4eaa_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Breaking Blocks Spawns Mobs" event="url{https://modrinth.com/mod/breaking-blocks-spawns-mobs}"
+...button-text text="Hallowed 'Mons" event="url{https://modrinth.com/mod/hallowed-mons}"
 
-👤 Bebu | 📅 2026-10-10
+👤 Pannda_ | 📅 2026-10-11
 
-Break blocks and trigger the spawn of random mobs, turning every mining trip into an unpredictable c
+Halloween inspired variations of a few Pokemon
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/breaking-blocks-spawns-mobs/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/breaking-blocks-spawns-mobs}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hallowed-mons/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hallowed-mons}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/eFo7JE1z/1d309d369b52f938a8bb04a55f61615a0a740b19_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/WxuVTE0Z/3dc71e4849cebad5cfd56fc1c86e1aecc5627086_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Flux's Fixes" event="url{https://modrinth.com/mod/fluxs-fixes}"
+...button-text text="Continental Dynamics" event="url{https://modrinth.com/mod/continental-dynamics}"
 
-👤 fluxp1 | 📅 2026-10-10
+👤 PearlArt | 📅 2026-10-11
 
-A couple of different quality of life features for recording or just preference things that flux use
+Improved continental world generation overhaul with support for modded biomes
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fluxs-fixes/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fluxs-fixes}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/continental-dynamics/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/continental-dynamics}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ A couple of different quality of life features for recording or just preference 
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition beta 1.11.0.7](https://minecraft.wiki/Bedrock_Edition_beta_1.11.0.7)
+📖 **Wiki 推荐**：[Golden Armor](https://minecraft.wiki/Golden_Armor)
 
-⏰ 更新时间：2026-10-11 17:37:35
+⏰ 更新时间：2026-10-12 05:37:55
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
