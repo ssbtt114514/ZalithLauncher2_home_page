@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-12 05:37:55
+// 生成时间：2026-10-12 21:11:17
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.MumblesSwansea2026_ZH-CN5419531039_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.PlitviceAutumn_ZH-CN5646237897_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"幸福，就是找一个温暖的人过一辈子，然后一辈子都是温暖的。"*
+> *"博观而约取，厚积而薄发"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{幸福，就是找一个温暖的人过一辈子，然后一辈子都是温暖的。}"
+...button-text text="📋 复制" event="copy{博观而约取，厚积而薄发}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Golden_Armor}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Winter_Drop}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8oWuVG5o/a01ed452511d17951f40f82af39db70ad28e5e2d.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/DofowZDW/851dd188e238e6abe834a4b3de914ea4eac2109f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Vibranium" event="url{https://modrinth.com/mod/vibranium-leiriadjenkins}"
+...button-text text="Project: Air System" event="url{https://modrinth.com/mod/air-system}"
 
-👤 leiriadjenkins | 📅 2026-10-12
+👤 pycodder | 📅 2026-10-12
 
-This mod add Vibranium to Minecraft
+Adds Shaheds and other drones.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/vibranium-leiriadjenkins/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/vibranium-leiriadjenkins}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/air-system/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/air-system}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/QgQe0F3C/fbaa9d896a0d045820960eeec70a0acc5cefa8b7_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ZQXq4lyh/966bf81c67304d63e9b802a8b11103499285d30c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="SANDCORE classic" event="url{https://modrinth.com/mod/sandcore-classic}"
+...button-text text="Colored Shulkers" event="url{https://modrinth.com/mod/colored-shulkers}"
 
-👤 emretmekvar | 📅 2026-10-11
+👤 jbredwards | 📅 2026-10-12
 
-Desert everywhere. Essential structures only. Can you beat the game?
+A small mod that improves colored shulkers and adds colored shulker shells!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sandcore-classic/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sandcore-classic}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/colored-shulkers/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/colored-shulkers}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/MmJaTwVG/8aca67c1496b8103997902e86f154db24de0fc77_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ZJfSUMc8/a630e1f0fffb8d1435a16571ee4ef433c3a0ff7f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Unnatural Geophobia - Biome Overhaul" event="url{https://modrinth.com/mod/unnatural-geophobia}"
+...button-text text="The 5ireMan Music Reimagined" event="url{https://modrinth.com/mod/t5mr}"
 
-👤 knishle | 📅 2026-10-11
+👤 5ireMan | 📅 2026-10-12
 
-Overhauls the vegetation and layouts of the vanilla biomes.
+Music mod. Original 5ireMan tracks + vanilla C418 — nothing else, fully configurable.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/unnatural-geophobia/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/unnatural-geophobia}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/t5mr/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/t5mr}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/X4RaBFw7/d426e2db79637cd597ab3cbd1d7510ff28eb4eaa_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wKcDSmVK/b76b4dc7f3e43e92fca3e79ab4eb217ec0561358.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Hallowed 'Mons" event="url{https://modrinth.com/mod/hallowed-mons}"
+...button-text text="Create: No Contraption Backpacks" event="url{https://modrinth.com/mod/no-contraption-backpacks}"
 
-👤 Pannda_ | 📅 2026-10-11
+👤 mollthecoder | 📅 2026-10-12
 
-Halloween inspired variations of a few Pokemon
+Minecart contraption item storage must be empty to pick it up as an item
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hallowed-mons/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hallowed-mons}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/no-contraption-backpacks/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/no-contraption-backpacks}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/WxuVTE0Z/3dc71e4849cebad5cfd56fc1c86e1aecc5627086_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wxFW9HkD/8b867d99d8850539441975086b02e7cba8297c14_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Continental Dynamics" event="url{https://modrinth.com/mod/continental-dynamics}"
+...button-text text="Numismatics treasury & Auction house" event="url{https://modrinth.com/mod/numismatics-treasury-auction-house}"
 
-👤 PearlArt | 📅 2026-10-11
+👤 Yassou | 📅 2026-10-12
 
-Improved continental world generation overhaul with support for modded biomes
+Numismatics Treasury expands Numismatics with direct bank transfers, server shops, player-owned shop
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/continental-dynamics/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/continental-dynamics}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/numismatics-treasury-auction-house/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/numismatics-treasury-auction-house}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Improved continental world generation overhaul with support for modded biomes
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：从铁轨到潮汐
-© 曼布尔斯码头，斯旺西，威尔士 (© Helen Hotson/Shutterstock)
+🖼️ 壁纸：蓝与绿的交响曲
+© 普利特维采湖群国家公园，克罗地亚 (© Jan Wlodarczyk/Alamy)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Golden Armor](https://minecraft.wiki/Golden_Armor)
+📖 **Wiki 推荐**：[Winter Drop](https://minecraft.wiki/Winter_Drop)
 
-⏰ 更新时间：2026-10-12 05:37:55
+⏰ 更新时间：2026-10-12 21:11:17
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
