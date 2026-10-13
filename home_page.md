@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-13 06:33:57
+// 生成时间：2026-10-13 19:10:04
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.PlitviceAutumn_ZH-CN5646237897_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.AmmoniteFossils_ZH-CN5825251327_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"任尘世繁华，唯有守护你的一切，才是我此生唯一的使命。"*
+> *"人心中混沌必有，才能孕育出星辰。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{任尘世繁华，唯有守护你的一切，才是我此生唯一的使命。}"
+...button-text text="📋 复制" event="copy{人心中混沌必有，才能孕育出星辰。}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.3
-**最新快照**: 26.4-snapshot-3
+**最新快照**: 26.4-snapshot-4
 
 近期版本：
 - **26.3** (2026-09-15)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Warm_Ocean_Ruins%2FStructure%2FRuin_4}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_1.2.13}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,83 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/sDYHrW3H/d07c057a188ba74dff68bc30c37ba518632388b3.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Tojtoj2r/b2a71dc8600e7533a9cc890ddcbefa33dec0dd09_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Armor Stand Skins" event="url{https://modrinth.com/mod/armorstandskins}"
+...button-text text="Cobblemon Ultra Space" event="url{https://modrinth.com/mod/cobblemon-ultra-space}"
 
-👤 BLOODWOOF | 📅 2026-10-12
+👤 Eliasmvw | 📅 2026-10-13
 
-Applies skins to armor stands based on the equipped player head
+An Addon for The Cobblemon Mod, Tested On Newest Version of Cobbleverse
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/armorstandskins/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/armorstandskins}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cobblemon-ultra-space/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cobblemon-ultra-space}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6hFdDLDO/23b950c32aba975da17190c7e42832f82a1734a6.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Vruf1IxO/9ed257860932980aca0eb91f2e669e64954b032a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Scarcity" event="url{https://modrinth.com/mod/scarcity-smp}"
+...button-text text="FairyFactionsRevived" event="url{https://modrinth.com/mod/fairyfactionsrevived}"
 
-👤 NotYelk | 📅 2026-10-12
+👤 HeyImAmethyst | 📅 2026-10-13
 
-Scarcity is a lightweight, server-side Fabric mod designed to rebalance Minecraft's survival economy
+A port of the wonderful fairy factions mod for versions 1.18.2+!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/scarcity-smp/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/scarcity-smp}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fairyfactionsrevived/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fairyfactionsrevived}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/kgA13GJP/a2f6d2a882ffc67e1f3f2ff813498856f25bdd6a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Y466l5tY/471634367714d594a54595675c08ad4e18bbba4a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Trolleybus Parts" event="url{https://modrinth.com/mod/create-trolleybus-parts}"
+...button-text text="Pilot-Visual" event="url{https://modrinth.com/mod/pilot-visuals}"
 
-👤 mironirDev | 📅 2026-10-12
+👤 Bosnight | 📅 2026-10-13
 
-Create: Trolleybus Parts adds things for making trolleybuses easier and better looking.
-
-This mod ai
+Pilot is a stylish Minecraft client featuring a clean HUD, visual enhancements, and an intuitive int
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-trolleybus-parts/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-trolleybus-parts}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pilot-visuals/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pilot-visuals}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/joQZ7EZn/ca371bd08dab161272ee42eb1337b1480d32b803_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Y5DAMwX3/be5ff1806048213606df571f21e132211faa2f5c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Auto Miner" event="url{https://modrinth.com/mod/auto-miner}"
+...button-text text="No Team Hit" event="url{https://modrinth.com/mod/no-team-hit}"
 
-👤 LilPwinc3ss | 📅 2026-10-12
+👤 imthefixpot | 📅 2026-10-13
 
-Simple, vanilla-friendly automatic mining using ordinary Minecraft tools -- no power systems, fuel, 
+Prevents you from accidentally hitting teammates in Minecraft PvP.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/auto-miner/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/auto-miner}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/no-team-hit/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/no-team-hit}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/gaU8knOl/9082b58521a1ef917f2aa654d6c07c77a35bb7d7_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/4fAXsHVF/67e3171a3c1f0124bfc7fcd3358259cb2938a475_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Inventory Drop" event="url{https://modrinth.com/mod/inventory-drop}"
+...button-text text="BowOptimizer" event="url{https://modrinth.com/mod/bowoptimizer}"
 
-👤 PuddingCoded | 📅 2026-10-12
+👤 BuHuIIyx_ | 📅 2026-10-13
 
-Double tap K to drop your whole inventory instantly.
+Allows you to simply hold down the right mouse button to fire the bow with minimal delay.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/inventory-drop/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/inventory-drop}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bowoptimizer/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bowoptimizer}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -175,14 +173,14 @@ Double tap K to drop your whole inventory instantly.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：蓝与绿的交响曲
-© 普利特维采湖群国家公园，克罗地亚 (© Jan Wlodarczyk/Alamy)
+🖼️ 壁纸：穿越时间的螺旋
+© 侏罗纪时期的菊石化石 (© J Nemchinova/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Warm Ocean Ruins/Structure/Ruin 4](https://minecraft.wiki/Warm_Ocean_Ruins%2FStructure%2FRuin_4)
+📖 **Wiki 推荐**：[Bedrock Edition 1.2.13](https://minecraft.wiki/Bedrock_Edition_1.2.13)
 
-⏰ 更新时间：2026-10-13 06:33:57
+⏰ 更新时间：2026-10-13 19:10:04
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
