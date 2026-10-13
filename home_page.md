@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-12 21:11:17
+// 生成时间：2026-10-13 06:33:57
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"博观而约取，厚积而薄发"*
+> *"任尘世繁华，唯有守护你的一切，才是我此生唯一的使命。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{博观而约取，厚积而薄发}"
+...button-text text="📋 复制" event="copy{任尘世繁华，唯有守护你的一切，才是我此生唯一的使命。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Winter_Drop}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Warm_Ocean_Ruins%2FStructure%2FRuin_4}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,83 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/DofowZDW/851dd188e238e6abe834a4b3de914ea4eac2109f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/sDYHrW3H/d07c057a188ba74dff68bc30c37ba518632388b3.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Project: Air System" event="url{https://modrinth.com/mod/air-system}"
+...button-text text="Armor Stand Skins" event="url{https://modrinth.com/mod/armorstandskins}"
 
-👤 pycodder | 📅 2026-10-12
+👤 BLOODWOOF | 📅 2026-10-12
 
-Adds Shaheds and other drones.
+Applies skins to armor stands based on the equipped player head
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/air-system/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/air-system}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/armorstandskins/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/armorstandskins}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ZQXq4lyh/966bf81c67304d63e9b802a8b11103499285d30c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6hFdDLDO/23b950c32aba975da17190c7e42832f82a1734a6.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Colored Shulkers" event="url{https://modrinth.com/mod/colored-shulkers}"
+...button-text text="Scarcity" event="url{https://modrinth.com/mod/scarcity-smp}"
 
-👤 jbredwards | 📅 2026-10-12
+👤 NotYelk | 📅 2026-10-12
 
-A small mod that improves colored shulkers and adds colored shulker shells!
+Scarcity is a lightweight, server-side Fabric mod designed to rebalance Minecraft's survival economy
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/colored-shulkers/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/colored-shulkers}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/scarcity-smp/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/scarcity-smp}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ZJfSUMc8/a630e1f0fffb8d1435a16571ee4ef433c3a0ff7f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/kgA13GJP/a2f6d2a882ffc67e1f3f2ff813498856f25bdd6a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="The 5ireMan Music Reimagined" event="url{https://modrinth.com/mod/t5mr}"
+...button-text text="Create: Trolleybus Parts" event="url{https://modrinth.com/mod/create-trolleybus-parts}"
 
-👤 5ireMan | 📅 2026-10-12
+👤 mironirDev | 📅 2026-10-12
 
-Music mod. Original 5ireMan tracks + vanilla C418 — nothing else, fully configurable.
+Create: Trolleybus Parts adds things for making trolleybuses easier and better looking.
+
+This mod ai
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/t5mr/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/t5mr}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-trolleybus-parts/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-trolleybus-parts}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wKcDSmVK/b76b4dc7f3e43e92fca3e79ab4eb217ec0561358.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/joQZ7EZn/ca371bd08dab161272ee42eb1337b1480d32b803_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: No Contraption Backpacks" event="url{https://modrinth.com/mod/no-contraption-backpacks}"
+...button-text text="Auto Miner" event="url{https://modrinth.com/mod/auto-miner}"
 
-👤 mollthecoder | 📅 2026-10-12
+👤 LilPwinc3ss | 📅 2026-10-12
 
-Minecart contraption item storage must be empty to pick it up as an item
+Simple, vanilla-friendly automatic mining using ordinary Minecraft tools -- no power systems, fuel, 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/no-contraption-backpacks/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/no-contraption-backpacks}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/auto-miner/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/auto-miner}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wxFW9HkD/8b867d99d8850539441975086b02e7cba8297c14_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/gaU8knOl/9082b58521a1ef917f2aa654d6c07c77a35bb7d7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Numismatics treasury & Auction house" event="url{https://modrinth.com/mod/numismatics-treasury-auction-house}"
+...button-text text="Inventory Drop" event="url{https://modrinth.com/mod/inventory-drop}"
 
-👤 Yassou | 📅 2026-10-12
+👤 PuddingCoded | 📅 2026-10-12
 
-Numismatics Treasury expands Numismatics with direct bank transfers, server shops, player-owned shop
+Double tap K to drop your whole inventory instantly.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/numismatics-treasury-auction-house/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/numismatics-treasury-auction-house}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/inventory-drop/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/inventory-drop}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +180,9 @@ Numismatics Treasury expands Numismatics with direct bank transfers, server shop
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Winter Drop](https://minecraft.wiki/Winter_Drop)
+📖 **Wiki 推荐**：[Warm Ocean Ruins/Structure/Ruin 4](https://minecraft.wiki/Warm_Ocean_Ruins%2FStructure%2FRuin_4)
 
-⏰ 更新时间：2026-10-12 21:11:17
+⏰ 更新时间：2026-10-13 06:33:57
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
