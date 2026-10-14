@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-13 19:10:04
+// 生成时间：2026-10-14 04:35:19
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"人心中混沌必有，才能孕育出星辰。"*
+> *"雨滴降落的速度是每秒十米，我该用怎么样的速度，才能将你挽留？"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{人心中混沌必有，才能孕育出星辰。}"
+...button-text text="📋 复制" event="copy{雨滴降落的速度是每秒十米，我该用怎么样的速度，才能将你挽留？}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_1.2.13}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FRib_Armor_Trim}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Tojtoj2r/b2a71dc8600e7533a9cc890ddcbefa33dec0dd09_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zcQGwe3J/bb7258afab3c86c4b714784c5d8b9e33425476e3.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Cobblemon Ultra Space" event="url{https://modrinth.com/mod/cobblemon-ultra-space}"
+...button-text text="Speed Grow" event="url{https://modrinth.com/mod/speed-grow}"
 
-👤 Eliasmvw | 📅 2026-10-13
+👤 Soviet_Spy651 | 📅 2026-10-14
 
-An Addon for The Cobblemon Mod, Tested On Newest Version of Cobbleverse
+Speed up vanilla crop growth and increase harvest yields with simple farming items.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cobblemon-ultra-space/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cobblemon-ultra-space}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/speed-grow/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/speed-grow}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Vruf1IxO/9ed257860932980aca0eb91f2e669e64954b032a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/RDZw7iiF/24cc411b5700b1409113085e655b8b8b76eab283_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="FairyFactionsRevived" event="url{https://modrinth.com/mod/fairyfactionsrevived}"
+...button-text text="Copper Fix" event="url{https://modrinth.com/mod/copper-fix}"
 
-👤 HeyImAmethyst | 📅 2026-10-13
+👤 DoTheWooley | 📅 2026-10-14
 
-A port of the wonderful fairy factions mod for versions 1.18.2+!
+Improves copper's integration into Minecraft progression
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fairyfactionsrevived/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fairyfactionsrevived}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/copper-fix/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/copper-fix}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Y466l5tY/471634367714d594a54595675c08ad4e18bbba4a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/IaE3mwWj/5151458ea27e93d75839c0488c063be62dfe4e1a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Pilot-Visual" event="url{https://modrinth.com/mod/pilot-visuals}"
+...button-text text="FlowerFinder" event="url{https://modrinth.com/mod/flowerfinder}"
 
-👤 Bosnight | 📅 2026-10-13
+👤 ItsHiJack | 📅 2026-10-14
 
-Pilot is a stylish Minecraft client featuring a clean HUD, visual enhancements, and an intuitive int
+A client-sided mod that predicts and shows specific flower spawn coordinates.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pilot-visuals/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pilot-visuals}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/flowerfinder/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/flowerfinder}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Y5DAMwX3/be5ff1806048213606df571f21e132211faa2f5c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/63a8hiOS/1288323b1360fdd58f8296973826347021fc0904_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="No Team Hit" event="url{https://modrinth.com/mod/no-team-hit}"
+...button-text text="Terrain Slabs Configured" event="url{https://modrinth.com/mod/terrain-slabs-configured}"
 
-👤 imthefixpot | 📅 2026-10-13
+👤 Lon4th | 📅 2026-10-14
 
-Prevents you from accidentally hitting teammates in Minecraft PvP.
+Addon for Countered's Terrain Slabs that provides better configurability for modpacks
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/no-team-hit/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/no-team-hit}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/terrain-slabs-configured/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/terrain-slabs-configured}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/4fAXsHVF/67e3171a3c1f0124bfc7fcd3358259cb2938a475_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/IDJ9aloY/62e1c85e5b26c233cd355637ba9fdcd715316867_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="BowOptimizer" event="url{https://modrinth.com/mod/bowoptimizer}"
+...button-text text="Upgrade Spawnquatic" event="url{https://modrinth.com/mod/upgrade-spawnquatic}"
 
-👤 BuHuIIyx_ | 📅 2026-10-13
+👤 cosmicgelatin1 | 📅 2026-10-13
 
-Allows you to simply hold down the right mouse button to fire the bow with minimal delay.
+Adds some constructive compatability between Upgrade Aquatic and Spawn.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bowoptimizer/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bowoptimizer}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/upgrade-spawnquatic/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/upgrade-spawnquatic}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Allows you to simply hold down the right mouse button to fire the bow with minim
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition 1.2.13](https://minecraft.wiki/Bedrock_Edition_1.2.13)
+📖 **Wiki 推荐**：[Java Edition item texture history/Rib Armor Trim](https://minecraft.wiki/Java_Edition_item_texture_history%2FRib_Armor_Trim)
 
-⏰ 更新时间：2026-10-13 19:10:04
+⏰ 更新时间：2026-10-14 04:35:19
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
