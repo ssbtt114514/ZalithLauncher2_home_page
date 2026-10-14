@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-14 04:35:19
+// 生成时间：2026-10-14 16:59:17
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.AmmoniteFossils_ZH-CN5825251327_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.WroclawPoland_ZH-CN6042428292_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"雨滴降落的速度是每秒十米，我该用怎么样的速度，才能将你挽留？"*
+> *"光明，制造瞎子。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{雨滴降落的速度是每秒十米，我该用怎么样的速度，才能将你挽留？}"
+...button-text text="📋 复制" event="copy{光明，制造瞎子。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FRib_Armor_Trim}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Basalt_Columns}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/zcQGwe3J/bb7258afab3c86c4b714784c5d8b9e33425476e3.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/gyTXdJCK/746134391b3fbea09c8762a44d8bfaa8dfa8fbca.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Speed Grow" event="url{https://modrinth.com/mod/speed-grow}"
+...button-text text="StatsSystem" event="url{https://modrinth.com/mod/statssystem}"
 
-👤 Soviet_Spy651 | 📅 2026-10-14
+👤 Rick4759 | 📅 2026-10-14
 
-Speed up vanilla crop growth and increase harvest yields with simple farming items.
+A customizable RPG system with leveling, stat allocation, skills, and region-based mob levels.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/speed-grow/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/speed-grow}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/statssystem/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/statssystem}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/RDZw7iiF/24cc411b5700b1409113085e655b8b8b76eab283_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/aUsoIv3x/40cb3b743d81039bb8834e9bc3ed0ce75755182b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Copper Fix" event="url{https://modrinth.com/mod/copper-fix}"
+...button-text text="Madoku Craft: Ecosystem" event="url{https://modrinth.com/mod/madoku-craft-ecosystem}"
 
-👤 DoTheWooley | 📅 2026-10-14
+👤 Monkeyopolis | 📅 2026-10-14
 
-Improves copper's integration into Minecraft progression
+Madoku Craft: Ecosystems allows the world to dynamically change overtime. These mechanics are config
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/copper-fix/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/copper-fix}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/madoku-craft-ecosystem/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/madoku-craft-ecosystem}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/IaE3mwWj/5151458ea27e93d75839c0488c063be62dfe4e1a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/KSwqRinA/139d42372df024e392363b4fbc159ac801336a99_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="FlowerFinder" event="url{https://modrinth.com/mod/flowerfinder}"
+...button-text text="Better Recipe Picker" event="url{https://modrinth.com/mod/better-recipe-picker}"
 
-👤 ItsHiJack | 📅 2026-10-14
+👤 MrStilu2k6 | 📅 2026-10-14
 
-A client-sided mod that predicts and shows specific flower spawn coordinates.
+Choose between multiple crafting outputs when the same ingredients match different recipes. Browse t
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/flowerfinder/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/flowerfinder}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-recipe-picker/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-recipe-picker}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/63a8hiOS/1288323b1360fdd58f8296973826347021fc0904_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/nEJaifgH/bd223e5d132aa2287b00864e914c55e09ffd35d1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Terrain Slabs Configured" event="url{https://modrinth.com/mod/terrain-slabs-configured}"
+...button-text text="Maize mod" event="url{https://modrinth.com/mod/maize-mod}"
 
-👤 Lon4th | 📅 2026-10-14
+👤 Nicusha | 📅 2026-10-14
 
-Addon for Countered's Terrain Slabs that provides better configurability for modpacks
+this mod adds corn. not much else. just corn
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/terrain-slabs-configured/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/terrain-slabs-configured}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/maize-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/maize-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/IDJ9aloY/62e1c85e5b26c233cd355637ba9fdcd715316867_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wUzE3EZq/cd731d0e1f467063398385bcf60d28f637958a53.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Upgrade Spawnquatic" event="url{https://modrinth.com/mod/upgrade-spawnquatic}"
+...button-text text="Dimensional Scratchpad" event="url{https://modrinth.com/mod/dimensional-scratchpad}"
 
-👤 cosmicgelatin1 | 📅 2026-10-13
+👤 realcowbandit | 📅 2026-10-14
 
-Adds some constructive compatability between Upgrade Aquatic and Spawn.
+This is Dimensional Scratchpad, a 3D Scratchpad for planning out builds and designs safely where you
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/upgrade-spawnquatic/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/upgrade-spawnquatic}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dimensional-scratchpad/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dimensional-scratchpad}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Adds some constructive compatability between Upgrade Aquatic and Spawn.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：穿越时间的螺旋
-© 侏罗纪时期的菊石化石 (© J Nemchinova/Getty Images)
+🖼️ 壁纸：桥梁、屋顶与暮色
+© 弗罗茨瓦夫集市广场景观，摄自女巫桥，弗罗茨瓦夫，波兰 (© Piotr Mitelski/Shutterstock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition item texture history/Rib Armor Trim](https://minecraft.wiki/Java_Edition_item_texture_history%2FRib_Armor_Trim)
+📖 **Wiki 推荐**：[Basalt Columns](https://minecraft.wiki/Basalt_Columns)
 
-⏰ 更新时间：2026-10-14 04:35:19
+⏰ 更新时间：2026-10-14 16:59:17
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
