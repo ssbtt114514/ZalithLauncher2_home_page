@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-14 16:59:17
+// 生成时间：2026-10-15 04:17:37
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"光明，制造瞎子。"*
+> *"Stay hungry, Stay foolish."*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{光明，制造瞎子。}"
+...button-text text="📋 复制" event="copy{Stay hungry, Stay foolish.}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Basalt_Columns}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/YouTube_Creators_Skin_Pack}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,82 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/gyTXdJCK/746134391b3fbea09c8762a44d8bfaa8dfa8fbca.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/J701DPPo/590c115e1b96f07f4e91fe488f12f38dde0f2a4c.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="StatsSystem" event="url{https://modrinth.com/mod/statssystem}"
+...button-text text="Modern Sounds for Beta" event="url{https://modrinth.com/mod/modernsoundsforbeta}"
 
-👤 Rick4759 | 📅 2026-10-14
+👤 JockeyPhilosopher | 📅 2026-10-14
 
-A customizable RPG system with leveling, stat allocation, skills, and region-based mob levels.
+A small mod that adds several sounds to Beta 1.7.3
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/statssystem/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/statssystem}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/modernsoundsforbeta/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/modernsoundsforbeta}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/aUsoIv3x/40cb3b743d81039bb8834e9bc3ed0ce75755182b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/JT0pk6CC/c03c868acd06cfa0b66b4d3a4647d5ae8337e781_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Madoku Craft: Ecosystem" event="url{https://modrinth.com/mod/madoku-craft-ecosystem}"
+...button-text text="Villagers Always Convert" event="url{https://modrinth.com/mod/villagers-always-convert}"
 
-👤 Monkeyopolis | 📅 2026-10-14
+👤 JamesLeDolphin | 📅 2026-10-14
 
-Madoku Craft: Ecosystems allows the world to dynamically change overtime. These mechanics are config
+Always convert villagers to zombie villagers when killed by a zombie - no matter the difficulty!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/madoku-craft-ecosystem/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/madoku-craft-ecosystem}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/villagers-always-convert/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/villagers-always-convert}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/KSwqRinA/139d42372df024e392363b4fbc159ac801336a99_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vmRB2Pp9/531f1aae8e8d1200536cc84195cea2978057c86c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Better Recipe Picker" event="url{https://modrinth.com/mod/better-recipe-picker}"
+...button-text text="LGCustomArmor" event="url{https://modrinth.com/mod/lgcustomarmor}"
 
-👤 MrStilu2k6 | 📅 2026-10-14
+👤 cooldadev | 📅 2026-10-14
 
-Choose between multiple crafting outputs when the same ingredients match different recipes. Browse t
+Adds custom armor functionality to LemonCloud's Cobblemon Server.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-recipe-picker/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-recipe-picker}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lgcustomarmor/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lgcustomarmor}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/nEJaifgH/bd223e5d132aa2287b00864e914c55e09ffd35d1_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/27DxYg8g/f7af5ad95e2b8075253d541cb4eff7be44ef3fbb_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Maize mod" event="url{https://modrinth.com/mod/maize-mod}"
+...button-text text="MGN's Witch Hat" event="url{https://modrinth.com/mod/mgn-witch-hat}"
 
-👤 Nicusha | 📅 2026-10-14
+👤 MagishanPixel | 📅 2026-10-14
 
-this mod adds corn. not much else. just corn
+Adds a cosmetic witch hat that is also customizable
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/maize-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/maize-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mgn-witch-hat/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mgn-witch-hat}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wUzE3EZq/cd731d0e1f467063398385bcf60d28f637958a53.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/NS53Ywps/1282a3fcbf774e488372f285496bab01e84a2bbf.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Dimensional Scratchpad" event="url{https://modrinth.com/mod/dimensional-scratchpad}"
+...button-text text="xpshop" event="url{https://modrinth.com/mod/xpshop}"
 
-👤 realcowbandit | 📅 2026-10-14
+👤 gvnther_ | 📅 2026-10-14
 
-This is Dimensional Scratchpad, a 3D Scratchpad for planning out builds and designs safely where you
+Buy Blocks using XP!
+Use with /shop
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dimensional-scratchpad/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dimensional-scratchpad}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/xpshop/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/xpshop}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +179,9 @@ This is Dimensional Scratchpad, a 3D Scratchpad for planning out builds and desi
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Basalt Columns](https://minecraft.wiki/Basalt_Columns)
+📖 **Wiki 推荐**：[YouTube Creators Skin Pack](https://minecraft.wiki/YouTube_Creators_Skin_Pack)
 
-⏰ 更新时间：2026-10-14 16:59:17
+⏰ 更新时间：2026-10-15 04:17:37
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
