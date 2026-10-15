@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-15 04:17:37
+// 生成时间：2026-10-15 16:46:47
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.WroclawPoland_ZH-CN6042428292_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.SneffelsAutumn_ZH-CN3002661429_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"Stay hungry, Stay foolish."*
+> *"每一个不曾起舞的日子，都是对生命的辜负。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{Stay hungry, Stay foolish.}"
+...button-text text="📋 复制" event="copy{每一个不曾起舞的日子，都是对生命的辜负。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/YouTube_Creators_Skin_Pack}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Merchant_(disambiguation)}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,82 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/J701DPPo/590c115e1b96f07f4e91fe488f12f38dde0f2a4c.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/QVMBv2tG/6bf819c38175049937ee2415ea57ac3c56032807_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Modern Sounds for Beta" event="url{https://modrinth.com/mod/modernsoundsforbeta}"
+...button-text text="BluesClient" event="url{https://modrinth.com/mod/bluesclient}"
 
-👤 JockeyPhilosopher | 📅 2026-10-14
+👤 blue0666 | 📅 2026-10-15
 
-A small mod that adds several sounds to Beta 1.7.3
+Some modifications and quality-of-life features for RLCraft
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/modernsoundsforbeta/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/modernsoundsforbeta}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bluesclient/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bluesclient}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/JT0pk6CC/c03c868acd06cfa0b66b4d3a4647d5ae8337e781_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/yC7xbBLu/610e72622b71910f7686125d6a9e1dcb2b64d509_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Villagers Always Convert" event="url{https://modrinth.com/mod/villagers-always-convert}"
+...button-text text="Geliştirilmiş Çelik" event="url{https://modrinth.com/mod/gelitirilmi-elik}"
 
-👤 JamesLeDolphin | 📅 2026-10-14
+👤 mesestudios | 📅 2026-10-15
 
-Always convert villagers to zombie villagers when killed by a zombie - no matter the difficulty!
+This mod adds a very powerful steel ore and armor to Minecraft.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/villagers-always-convert/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/villagers-always-convert}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/gelitirilmi-elik/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/gelitirilmi-elik}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/vmRB2Pp9/531f1aae8e8d1200536cc84195cea2978057c86c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/LdhuhI0P/7ef7b0d35ec3262101df9734fe94d69117d74c2f.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="LGCustomArmor" event="url{https://modrinth.com/mod/lgcustomarmor}"
+...button-text text="Sunflower" event="url{https://modrinth.com/mod/sunflower-_eeast}"
 
-👤 cooldadev | 📅 2026-10-14
+👤 _eeast | 📅 2026-10-15
 
-Adds custom armor functionality to LemonCloud's Cobblemon Server.
+This mod adds some QoL while keeping it in very vanilla style
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lgcustomarmor/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lgcustomarmor}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sunflower-_eeast/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sunflower-_eeast}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/27DxYg8g/f7af5ad95e2b8075253d541cb4eff7be44ef3fbb_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/lvxZ4WOZ/5c043c93bea69d231b67261ff096195650080974_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MGN's Witch Hat" event="url{https://modrinth.com/mod/mgn-witch-hat}"
+...button-text text="fixpot's Armor HUD" event="url{https://modrinth.com/mod/fixpots-armor-hud}"
 
-👤 MagishanPixel | 📅 2026-10-14
+👤 imthefixpot | 📅 2026-10-15
 
-Adds a cosmetic witch hat that is also customizable
+A vanilla-style armor HUD with durability warnings, multiple layouts and customization options. Requ
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mgn-witch-hat/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mgn-witch-hat}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fixpots-armor-hud/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fixpots-armor-hud}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/NS53Ywps/1282a3fcbf774e488372f285496bab01e84a2bbf.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Fb1ja13p/102fa527b56774f9d4a3eb305f2c80810208522a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="xpshop" event="url{https://modrinth.com/mod/xpshop}"
+...button-text text="Road Architect: Goosker's Patch" event="url{https://modrinth.com/mod/road-architect-gooskers-patch}"
 
-👤 gvnther_ | 📅 2026-10-14
+👤 Goosker | 📅 2026-10-15
 
-Buy Blocks using XP!
-Use with /shop
+This mod aims to optimize the mod Road Architect so that it runs smoothly and has less bugs.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/xpshop/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/xpshop}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/road-architect-gooskers-patch/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/road-architect-gooskers-patch}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -174,14 +173,14 @@ Use with /shop
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：桥梁、屋顶与暮色
-© 弗罗茨瓦夫集市广场景观，摄自女巫桥，弗罗茨瓦夫，波兰 (© Piotr Mitelski/Shutterstock)
+🖼️ 壁纸：一窥科罗拉多群峰
+© 斯奈费尔斯山，里奇韦附近的圣胡安山脉，科罗拉多州，美国 (© lightphoto/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[YouTube Creators Skin Pack](https://minecraft.wiki/YouTube_Creators_Skin_Pack)
+📖 **Wiki 推荐**：[Merchant (disambiguation)](https://minecraft.wiki/Merchant_(disambiguation))
 
-⏰ 更新时间：2026-10-15 04:17:37
+⏰ 更新时间：2026-10-15 16:46:47
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
