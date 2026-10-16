@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-16 04:13:15
+// 生成时间：2026-10-16 16:29:18
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.SneffelsAutumn_ZH-CN3002661429_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.ChauvetPaintingsFrance_ZH-CN3150703955_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"如果你在看，我就是你的风景。如果你在听，我该有多幸运。"*
+> *"我永远在这里，涌着爱面朝沧海"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{如果你在看，我就是你的风景。如果你在听，我该有多幸运。}"
+...button-text text="📋 复制" event="copy{我永远在这里，涌着爱面朝沧海}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Data_component_format%2Fbrewing_fuel}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Journal}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6CNzxq9s/6be57fa66244c64fe29f2cdafccd0dabe430c33d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/peFeF6AS/760c00e4964432d40354eec939a2ac92a7a83da9_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Nimari Magic Tower" event="url{https://modrinth.com/mod/nimari-magic-tower}"
+...button-text text="Fathomless Crimson" event="url{https://modrinth.com/mod/fathomless-crimson}"
 
-👤 SkyArchitec | 📅 2026-10-16
+👤 BrikNex | 📅 2026-10-16
 
-This datapack adds a unique structure belonging to the Nimari Magic Tower, bringing its distinctive 
+A horror mod with a focus on practical usage and providing equipment for general usage outside of th
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nimari-magic-tower/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nimari-magic-tower}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fathomless-crimson/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fathomless-crimson}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/HTNaPgCx/39bdfc21214ce5921cb16acdf39a3f5e6e2ba227_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/DvHuHssf/5627fa82b922c6bfc4a9d3de58199bb3495d0e81.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Charged Light's Miner" event="url{https://modrinth.com/mod/charged-lights-miner}"
+...button-text text="MythicWorldLib" event="url{https://modrinth.com/mod/mythicworldlib}"
 
-👤 chargedlight | 📅 2026-10-16
+👤 AndrewNg0629 | 📅 2026-10-16
 
-CL Miner is an automatic miner for NeoForge 1.21.1, inspired by the classic IC2 Miner.
+A shard library for MythicWorld mods.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/charged-lights-miner/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/charged-lights-miner}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mythicworldlib/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mythicworldlib}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/fKxEkSCn/aafa394c26ed4f58469b78da3b931bedc65fc73a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/KMvVDXMP/886b8f560dc3529bcdbd913c2a1e5d41421a5d66_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="The Aura" event="url{https://modrinth.com/mod/theaurasmod}"
+...button-text text="Adrift" event="url{https://modrinth.com/mod/adrift-sb}"
 
-👤 maticraftbrw7 | 📅 2026-10-16
+👤 cd043136 | 📅 2026-10-16
 
-The "Cars for the Ultimate Sigmas" mod is all about gaining and losing aura.
+Hypixel Skyblock mod focused on vampire slayer
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/theaurasmod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/theaurasmod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/adrift-sb/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/adrift-sb}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/bSQ5escX/5d9175581e5c65b5cc285efd75a7b0fe52b99739_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/lkSkdJn8/3e264be36f4699e29290e18258c093d24c0d347f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Advanced Interaction Events" event="url{https://modrinth.com/mod/advanced-interaction-events}"
+...button-text text="auto clicker" event="url{https://modrinth.com/mod/auto-clicker-keshabbt5}"
 
-👤 samuelh2005 | 📅 2026-10-16
+👤 keshabbt5 | 📅 2026-10-16
 
-A Minecraft library for registering and handling custom interaction events, including click actions 
+Lightweight AFK autoclicker with click/hold modes, configurable timing, and anti-AFK camera nudge.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/advanced-interaction-events/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/advanced-interaction-events}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/auto-clicker-keshabbt5/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/auto-clicker-keshabbt5}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/fgzREf1Q/baf4bc30f5f4ef1d24256f94e87b8d2676c3e558.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/UEWEVYL4/e0895c4e3ce6f44caed9e0d3ec8a4e3535a5abbd_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Breaking Femme" event="url{https://modrinth.com/mod/breaking-femme}"
+...button-text text="Hostile Mobs and Girls (HMaG)" event="url{https://modrinth.com/mod/hostile-mobs-and-girls}"
 
-👤 Enigma_ | 📅 2026-10-16
+👤 Mechalopa | 📅 2026-10-16
 
-Use soybeans, sugar, milk, kelp ashes, nickel sulfate and heat to have fun, create cool products, de
+Add slightly stronger hostile mobs and girl mobs!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/breaking-femme/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/breaking-femme}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hostile-mobs-and-girls/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hostile-mobs-and-girls}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Use soybeans, sugar, milk, kelp ashes, nickel sulfate and heat to have fun, crea
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：一窥科罗拉多群峰
-© 斯奈费尔斯山，里奇韦附近的圣胡安山脉，科罗拉多州，美国 (© lightphoto/Getty Images)
+🖼️ 壁纸：发掘尘封的过去
+© 肖维岩洞艺术作品等比例复制品，瓦隆蓬达尔克，法国 (© Audrey Poree/Alamy)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Data component format/brewing fuel](https://minecraft.wiki/Data_component_format%2Fbrewing_fuel)
+📖 **Wiki 推荐**：[Journal](https://minecraft.wiki/Journal)
 
-⏰ 更新时间：2026-10-16 04:13:15
+⏰ 更新时间：2026-10-16 16:29:18
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
