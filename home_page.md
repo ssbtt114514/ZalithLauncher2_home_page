@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-15 16:46:47
+// 生成时间：2026-10-16 04:13:15
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"每一个不曾起舞的日子，都是对生命的辜负。"*
+> *"如果你在看，我就是你的风景。如果你在听，我该有多幸运。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{每一个不曾起舞的日子，都是对生命的辜负。}"
+...button-text text="📋 复制" event="copy{如果你在看，我就是你的风景。如果你在听，我该有多幸运。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Merchant_(disambiguation)}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Data_component_format%2Fbrewing_fuel}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/QVMBv2tG/6bf819c38175049937ee2415ea57ac3c56032807_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6CNzxq9s/6be57fa66244c64fe29f2cdafccd0dabe430c33d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="BluesClient" event="url{https://modrinth.com/mod/bluesclient}"
+...button-text text="Nimari Magic Tower" event="url{https://modrinth.com/mod/nimari-magic-tower}"
 
-👤 blue0666 | 📅 2026-10-15
+👤 SkyArchitec | 📅 2026-10-16
 
-Some modifications and quality-of-life features for RLCraft
+This datapack adds a unique structure belonging to the Nimari Magic Tower, bringing its distinctive 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bluesclient/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bluesclient}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nimari-magic-tower/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nimari-magic-tower}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/yC7xbBLu/610e72622b71910f7686125d6a9e1dcb2b64d509_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/HTNaPgCx/39bdfc21214ce5921cb16acdf39a3f5e6e2ba227_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Geliştirilmiş Çelik" event="url{https://modrinth.com/mod/gelitirilmi-elik}"
+...button-text text="Charged Light's Miner" event="url{https://modrinth.com/mod/charged-lights-miner}"
 
-👤 mesestudios | 📅 2026-10-15
+👤 chargedlight | 📅 2026-10-16
 
-This mod adds a very powerful steel ore and armor to Minecraft.
+CL Miner is an automatic miner for NeoForge 1.21.1, inspired by the classic IC2 Miner.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/gelitirilmi-elik/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/gelitirilmi-elik}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/charged-lights-miner/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/charged-lights-miner}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/LdhuhI0P/7ef7b0d35ec3262101df9734fe94d69117d74c2f.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/fKxEkSCn/aafa394c26ed4f58469b78da3b931bedc65fc73a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Sunflower" event="url{https://modrinth.com/mod/sunflower-_eeast}"
+...button-text text="The Aura" event="url{https://modrinth.com/mod/theaurasmod}"
 
-👤 _eeast | 📅 2026-10-15
+👤 maticraftbrw7 | 📅 2026-10-16
 
-This mod adds some QoL while keeping it in very vanilla style
+The "Cars for the Ultimate Sigmas" mod is all about gaining and losing aura.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sunflower-_eeast/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sunflower-_eeast}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/theaurasmod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/theaurasmod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/lvxZ4WOZ/5c043c93bea69d231b67261ff096195650080974_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/bSQ5escX/5d9175581e5c65b5cc285efd75a7b0fe52b99739_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="fixpot's Armor HUD" event="url{https://modrinth.com/mod/fixpots-armor-hud}"
+...button-text text="Advanced Interaction Events" event="url{https://modrinth.com/mod/advanced-interaction-events}"
 
-👤 imthefixpot | 📅 2026-10-15
+👤 samuelh2005 | 📅 2026-10-16
 
-A vanilla-style armor HUD with durability warnings, multiple layouts and customization options. Requ
+A Minecraft library for registering and handling custom interaction events, including click actions 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fixpots-armor-hud/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fixpots-armor-hud}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/advanced-interaction-events/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/advanced-interaction-events}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Fb1ja13p/102fa527b56774f9d4a3eb305f2c80810208522a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/fgzREf1Q/baf4bc30f5f4ef1d24256f94e87b8d2676c3e558.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Road Architect: Goosker's Patch" event="url{https://modrinth.com/mod/road-architect-gooskers-patch}"
+...button-text text="Breaking Femme" event="url{https://modrinth.com/mod/breaking-femme}"
 
-👤 Goosker | 📅 2026-10-15
+👤 Enigma_ | 📅 2026-10-16
 
-This mod aims to optimize the mod Road Architect so that it runs smoothly and has less bugs.
+Use soybeans, sugar, milk, kelp ashes, nickel sulfate and heat to have fun, create cool products, de
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/road-architect-gooskers-patch/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/road-architect-gooskers-patch}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/breaking-femme/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/breaking-femme}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ This mod aims to optimize the mod Road Architect so that it runs smoothly and ha
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Merchant (disambiguation)](https://minecraft.wiki/Merchant_(disambiguation))
+📖 **Wiki 推荐**：[Data component format/brewing fuel](https://minecraft.wiki/Data_component_format%2Fbrewing_fuel)
 
-⏰ 更新时间：2026-10-15 16:46:47
+⏰ 更新时间：2026-10-16 04:13:15
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
