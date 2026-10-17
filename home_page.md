@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-16 16:29:18
+// 生成时间：2026-10-17 04:03:37
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我永远在这里，涌着爱面朝沧海"*
+> *"万物皆虚，万事皆允"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我永远在这里，涌着爱面朝沧海}"
+...button-text text="📋 复制" event="copy{万物皆虚，万事皆允}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Journal}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.5.2_(pre-release)}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/peFeF6AS/760c00e4964432d40354eec939a2ac92a7a83da9_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/fe1B3FmQ/6b026281aa948d9126b86d6bde55ad1606aa4167.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Fathomless Crimson" event="url{https://modrinth.com/mod/fathomless-crimson}"
+...button-text text="Pi's Cosmetics" event="url{https://modrinth.com/mod/piscosmetics}"
 
-👤 BrikNex | 📅 2026-10-16
+👤 Pi-Eta | 📅 2026-10-17
 
-A horror mod with a focus on practical usage and providing equipment for general usage outside of th
+Adds a custom renderer using Gecklib that allows cosmetics to be rendered on players, including anim
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fathomless-crimson/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fathomless-crimson}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/piscosmetics/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/piscosmetics}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/DvHuHssf/5627fa82b922c6bfc4a9d3de58199bb3495d0e81.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/fDIomi6C/6ebf0eee69a21996a06b602b5cd403f068668f0e.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MythicWorldLib" event="url{https://modrinth.com/mod/mythicworldlib}"
+...button-text text="Fancy Player Animation" event="url{https://modrinth.com/mod/fancy-player-animation}"
 
-👤 AndrewNg0629 | 📅 2026-10-16
+👤 DevSgod | 📅 2026-10-17
 
-A shard library for MythicWorld mods.
+Awesome player animations for your Minecraft world
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mythicworldlib/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mythicworldlib}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fancy-player-animation/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fancy-player-animation}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/KMvVDXMP/886b8f560dc3529bcdbd913c2a1e5d41421a5d66_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/dHAUbDDr/48ef078367619c02ead9f15007401d432e7935a4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Adrift" event="url{https://modrinth.com/mod/adrift-sb}"
+...button-text text="Sniffer Rework" event="url{https://modrinth.com/mod/sniffer-rework}"
 
-👤 cd043136 | 📅 2026-10-16
+👤 Moth_SKW | 📅 2026-10-17
 
-Hypixel Skyblock mod focused on vampire slayer
+A lightweight rework of how Sniffers work to make them more useful.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/adrift-sb/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/adrift-sb}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sniffer-rework/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sniffer-rework}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/lkSkdJn8/3e264be36f4699e29290e18258c093d24c0d347f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/PtKWXzEG/50a357aa258052defcf3aa25f4bd28a2d055dc0a.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="auto clicker" event="url{https://modrinth.com/mod/auto-clicker-keshabbt5}"
+...button-text text="Arcforge" event="url{https://modrinth.com/mod/arcforge}"
 
-👤 keshabbt5 | 📅 2026-10-16
+👤 Zagdrath | 📅 2026-10-17
 
-Lightweight AFK autoclicker with click/hold modes, configurable timing, and anti-AFK camera nudge.
+A tech mod of power, heat, and steel: build machines, automate production, and scale up to industria
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/auto-clicker-keshabbt5/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/auto-clicker-keshabbt5}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/arcforge/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/arcforge}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/UEWEVYL4/e0895c4e3ce6f44caed9e0d3ec8a4e3535a5abbd_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/SUO5nSik/001c1b07ba37e232687d6f6410c19144221ec557_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Hostile Mobs and Girls (HMaG)" event="url{https://modrinth.com/mod/hostile-mobs-and-girls}"
+...button-text text="Battery Level" event="url{https://modrinth.com/mod/battery-level}"
 
-👤 Mechalopa | 📅 2026-10-16
+👤 magicus | 📅 2026-10-16
 
-Add slightly stronger hostile mobs and girl mobs!
+Show information about the battery of your computer on the HUD, and toast notifications when the bat
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hostile-mobs-and-girls/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hostile-mobs-and-girls}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/battery-level/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/battery-level}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Add slightly stronger hostile mobs and girl mobs!
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Journal](https://minecraft.wiki/Journal)
+📖 **Wiki 推荐**：[Java Edition 1.5.2 (pre-release)](https://minecraft.wiki/Java_Edition_1.5.2_(pre-release))
 
-⏰ 更新时间：2026-10-16 16:29:18
+⏰ 更新时间：2026-10-17 04:03:37
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
