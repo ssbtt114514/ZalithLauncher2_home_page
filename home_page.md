@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-17 15:23:15
+// 生成时间：2026-10-18 04:11:03
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.ChauvetPaintingsFrance_ZH-CN3150703955_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.DolbadarnWales_ZH-CN3649667806_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我有一个小小的梦在田野飞奔。"*
+> *"求你，保护那孩子，消除灾厄，抹除祸事。哪怕⋯⋯那是我自己……"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我有一个小小的梦在田野飞奔。}"
+...button-text text="📋 复制" event="copy{求你，保护那孩子，消除灾厄，抹除祸事。哪怕⋯⋯那是我自己……}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Social}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FRaw_Iron}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,85 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/fe1B3FmQ/6b026281aa948d9126b86d6bde55ad1606aa4167.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/B2w7wF1e/d534db29ca693fcf58899f132b0fc46e8f44b177.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Pi's Cosmetics" event="url{https://modrinth.com/mod/piscosmetics}"
+...button-text text="True Stone Tools" event="url{https://modrinth.com/mod/true-stone-tools}"
 
-👤 Pi-Eta | 📅 2026-10-17
+👤 Cam3 | 📅 2026-10-18
 
-Adds a custom renderer using Gecklib that allows cosmetics to be rendered on players, including anim
+A small data pack that makes stone tools require real stone instead of cobblestone.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/piscosmetics/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/piscosmetics}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/true-stone-tools/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/true-stone-tools}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/fDIomi6C/6ebf0eee69a21996a06b602b5cd403f068668f0e.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/apfFXHUY/881fc19e358bcc1928642fecabe870593522df56.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Fancy Player Animation" event="url{https://modrinth.com/mod/fancy-player-animation}"
+...button-text text="CraftFlint" event="url{https://modrinth.com/mod/craftflint}"
 
-👤 DevSgod | 📅 2026-10-17
+👤 Cam3 | 📅 2026-10-18
 
-Awesome player animations for your Minecraft world
+A tiny data pack that adds a single shapeless crafting recipe:
+
+2 Gravel → 1 Flint
+
+Works in the 2×2
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fancy-player-animation/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fancy-player-animation}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/craftflint/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/craftflint}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/dHAUbDDr/48ef078367619c02ead9f15007401d432e7935a4_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/koTibmqV/3e7dd1a6432b841b4563dff4e03a04c4598eaaff_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Sniffer Rework" event="url{https://modrinth.com/mod/sniffer-rework}"
+...button-text text="Drew's Christmas Jukebox - Data Pack" event="url{https://modrinth.com/mod/drews-christmas-jukebox-data-pack}"
 
-👤 Moth_SKW | 📅 2026-10-17
+👤 DGXMASPACKS | 📅 2026-10-18
 
-A lightweight rework of how Sniffers work to make them more useful.
+The required data pack to the Resource Pack "Drew's Christmas Jukebox". It makes it so the songs pla
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sniffer-rework/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sniffer-rework}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/drews-christmas-jukebox-data-pack/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/drews-christmas-jukebox-data-pack}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/PtKWXzEG/50a357aa258052defcf3aa25f4bd28a2d055dc0a.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/WUM2EgJz/dfab3808a18b1076cee5c401ad739e1b7af77227.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Arcforge" event="url{https://modrinth.com/mod/arcforge}"
+...button-text text="Craftable Ores" event="url{https://modrinth.com/mod/craftable-ores-uiinpui}"
 
-👤 Zagdrath | 📅 2026-10-17
+👤 uiinpui | 📅 2026-10-18
 
-A tech mod of power, heat, and steel: build machines, automate production, and scale up to industria
+This datapack adds crafting recipes for ores (including deepslate and nether variants!)
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/arcforge/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/arcforge}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/craftable-ores-uiinpui/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/craftable-ores-uiinpui}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/SUO5nSik/001c1b07ba37e232687d6f6410c19144221ec557_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/S7acyZiI/fb47f578c439d6e1a56d4fd30368d5278ef44bfe_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Battery Level" event="url{https://modrinth.com/mod/battery-level}"
+...button-text text="daot - paradis spawn" event="url{https://modrinth.com/mod/daot-paradis-spawn}"
 
-👤 magicus | 📅 2026-10-16
+👤 tibr | 📅 2026-10-18
 
-Show information about the battery of your computer on the HUD, and toast notifications when the bat
+This project makes players instantly spawn in paradis using danny attack on titan mod.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/battery-level/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/battery-level}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/daot-paradis-spawn/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/daot-paradis-spawn}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +177,14 @@ Show information about the battery of your computer on the HUD, and toast notifi
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：发掘尘封的过去
-© 肖维岩洞艺术作品等比例复制品，瓦隆蓬达尔克，法国 (© Audrey Poree/Alamy)
+🖼️ 壁纸：75载，风华正茂
+© 多巴达恩城堡，兰贝里斯，斯诺登尼亚国家公园，威尔士 (© joe daniel price/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Social](https://minecraft.wiki/Social)
+📖 **Wiki 推荐**：[Bedrock Edition item texture history/Raw Iron](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FRaw_Iron)
 
-⏰ 更新时间：2026-10-17 15:23:15
+⏰ 更新时间：2026-10-18 04:11:03
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
