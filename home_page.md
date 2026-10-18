@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-18 04:11:03
+// 生成时间：2026-10-18 15:44:09
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"求你，保护那孩子，消除灾厄，抹除祸事。哪怕⋯⋯那是我自己……"*
+> *"对不起，风太大了，我听不清。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{求你，保护那孩子，消除灾厄，抹除祸事。哪怕⋯⋯那是我自己……}"
+...button-text text="📋 复制" event="copy{对不起，风太大了，我听不清。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FRaw_Iron}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FBee_Nest}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -66,6 +66,38 @@
 // --- 🧩 Modrinth 最新模组 ---
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/2l5OnFsL/404b1de92ec722f903d06d53c82dfad7664ca7b5_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Create: Love & War (FOR NEOFORGE!!!)" event="url{https://modrinth.com/mod/create-love-war-neoforge}"
+
+👤 PrettyBlackRat | 📅 2026-10-18
+
+Unofficial port of CREATE: LOVE & WAR (the gun mod where everything is made with Create machinery) F
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-love-war-neoforge/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-love-war-neoforge}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/Ghd3HFvP/a310fe146acf9cc8365ef96eeb4c4736e8e7173f_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="World Presets" event="url{https://modrinth.com/mod/world-presets}"
+
+👤 pawjwp | 📅 2026-10-18
+
+The World Presets mod allows defining world presets; templates that modpack authors can make to repl
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/world-presets/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/world-presets}" weight=(1)
+...row-end
+...column-end
+...row-end
+
 ...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/B2w7wF1e/d534db29ca693fcf58899f132b0fc46e8f44b177.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
@@ -118,38 +150,6 @@ The required data pack to the Resource Pack "Drew's Christmas Jukebox". It makes
 ...column-end
 ...row-end
 
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/WUM2EgJz/dfab3808a18b1076cee5c401ad739e1b7af77227.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Craftable Ores" event="url{https://modrinth.com/mod/craftable-ores-uiinpui}"
-
-👤 uiinpui | 📅 2026-10-18
-
-This datapack adds crafting recipes for ores (including deepslate and nether variants!)
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/craftable-ores-uiinpui/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/craftable-ores-uiinpui}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/S7acyZiI/fb47f578c439d6e1a56d4fd30368d5278ef44bfe_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="daot - paradis spawn" event="url{https://modrinth.com/mod/daot-paradis-spawn}"
-
-👤 tibr | 📅 2026-10-18
-
-This project makes players instantly spawn in paradis using danny attack on titan mod.
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/daot-paradis-spawn/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/daot-paradis-spawn}" weight=(1)
-...row-end
-...column-end
-...row-end
-
 ...row-start horizontal=spacedBy(8)
 ...button text="📥 访问 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
 ...row-end
@@ -182,9 +182,9 @@ This project makes players instantly spawn in paradis using danny attack on tita
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition item texture history/Raw Iron](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FRaw_Iron)
+📖 **Wiki 推荐**：[Java Edition block render history/Bee Nest](https://minecraft.wiki/Java_Edition_block_render_history%2FBee_Nest)
 
-⏰ 更新时间：2026-10-18 04:11:03
+⏰ 更新时间：2026-10-18 15:44:09
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
