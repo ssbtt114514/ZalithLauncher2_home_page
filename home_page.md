@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-19 04:20:15
+// 生成时间：2026-10-19 18:38:29
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.VeniceSunrise_ZH-CN5251815339_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.BrownSloth_ZH-CN5776383136_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我在最没有能力的年纪，遇见了最想照顾一生的人。"*
+> *"无暇为五条悟的死哀悼，被投入到战场的是……雷神，鹿紫云一。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我在最没有能力的年纪，遇见了最想照顾一生的人。}"
+...button-text text="📋 复制" event="copy{无暇为五条悟的死哀悼，被投入到战场的是……雷神，鹿紫云一。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Monsterized_Parrot}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Flist}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/HOyePjfY/eaecddd5ef2f7f7e4b2856046688e435d9836f7c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Ioit68PZ/0f2b0f9f006fc26a01f2aee287c7702677670fc6_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="The Meteorium" event="url{https://modrinth.com/mod/meteorium}"
+...button-text text="ChatCalculator" event="url{https://modrinth.com/mod/ccalculator}"
 
-👤 qwe0412 | 📅 2026-10-19
+👤 ItsPuffer | 📅 2026-10-19
 
-This mod is adds meteorite motief weapons & tools
+ChatCalculator adds a simple calculator in the Minecraft chat.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/meteorium/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/meteorium}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ccalculator/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ccalculator}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/1s4fDcLr/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/AYKq3STr/d98f8fc6cb5a62b4ee9a71f4138494c3a7c5dfff_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="ColaCraft" event="url{https://modrinth.com/mod/colacraft}"
+...button-text text="BetterPistons" event="url{https://modrinth.com/mod/betterpistons}"
 
-👤 lunstudiominecraft | 📅 2026-10-19
+👤 zayoon0o0 | 📅 2026-10-19
 
-Adds cola and energy drinks to Minecraft. In future updates, we’ll add 3D models and more drinks. Cr
+simple mod that makes the piston push limit a little too much ;D
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/colacraft/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/colacraft}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/betterpistons/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/betterpistons}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6yaSbIJZ/2ca5a6d62b1c767862699f94a91186d56472bac6.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/LGp6Dfwb/b1bc843dee41b80ae22bdc87c5dcaa53d9fd46a1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MaLiLib IME" event="url{https://modrinth.com/mod/malilib-ime}"
+...button-text text="Bowcasting" event="url{https://modrinth.com/mod/bowcasting}"
 
-👤 SHUNCHA | 📅 2026-10-19
+👤 tseileinn | 📅 2026-10-19
 
-Unofficial add-on that makes IME (Japanese/Chinese/Korean) input work in MaLiLib mods like Litematic
+A client-side Fabric mod that adds animated magical spell effects and dynamic lighting to bows
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/malilib-ime/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/malilib-ime}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bowcasting/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bowcasting}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/jHSfSvVA/cb184ab8bc8a141a2e1fc859b9e6c1dfccd5fefe_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/sSir1mAX/3f132e9d71447ea258327567919d19c101b85e66.jpeg" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Extended Dream" event="url{https://modrinth.com/mod/extended-dream}"
+...button-text text="aww" event="url{https://modrinth.com/mod/aww}"
 
-👤 Horrorboi | 📅 2026-10-19
+👤 TheEgyptianDido | 📅 2026-10-19
 
-A small WIP mod I'm making in Mcreator around features in the end you should have geckolib and curio
+this risugamis modloader mod kills your b1.7.3 client as soon as its loaded
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/extended-dream/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/extended-dream}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/aww/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/aww}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Jm7ePcKN/fc9503fa8aed5eb649b335aab6c402cbd9a1c7dd_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Uqz7o8tN/dbf5fa707ab0dd0b032490a626e4ba64ea4d7530_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Player Ping" event="url{https://modrinth.com/mod/player.ping}"
+...button-text text="Anti Crash Fix" event="url{https://modrinth.com/mod/anti-crash-fix}"
 
-👤 imRyzek | 📅 2026-10-19
+👤 tianhongya | 📅 2026-10-19
 
-PlayerPing is a lightweight Fabric client mod for Minecraft 26.2 that shows other players’ real late
+Fixes the startup crash caused by MC Load Crash. Install this mod and the game will work normally ag
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/player.ping/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/player.ping}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/anti-crash-fix/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/anti-crash-fix}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ PlayerPing is a lightweight Fabric client mod for Minecraft 26.2 that shows othe
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：水上通衢
-© 大运河，威尼斯，意大利 (© Juan Romero/Cavan Images)
+🖼️ 壁纸：慢节奏生活
+© 褐喉三趾树懒，塔拉曼卡旧港，哥斯达黎加 (© Suzi Eszterhas/Minden Pictures)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Monsterized Parrot](https://minecraft.wiki/Monsterized_Parrot)
+📖 **Wiki 推荐**：[Commands/list](https://minecraft.wiki/Commands%2Flist)
 
-⏰ 更新时间：2026-10-19 04:20:15
+⏰ 更新时间：2026-10-19 18:38:29
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
