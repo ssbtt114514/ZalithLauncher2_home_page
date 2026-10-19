@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-18 15:44:09
+// 生成时间：2026-10-19 04:20:15
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.DolbadarnWales_ZH-CN3649667806_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.VeniceSunrise_ZH-CN5251815339_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"对不起，风太大了，我听不清。"*
+> *"我在最没有能力的年纪，遇见了最想照顾一生的人。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{对不起，风太大了，我听不清。}"
+...button-text text="📋 复制" event="copy{我在最没有能力的年纪，遇见了最想照顾一生的人。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FBee_Nest}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Monsterized_Parrot}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,85 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/2l5OnFsL/404b1de92ec722f903d06d53c82dfad7664ca7b5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/HOyePjfY/eaecddd5ef2f7f7e4b2856046688e435d9836f7c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Love & War (FOR NEOFORGE!!!)" event="url{https://modrinth.com/mod/create-love-war-neoforge}"
+...button-text text="The Meteorium" event="url{https://modrinth.com/mod/meteorium}"
 
-👤 PrettyBlackRat | 📅 2026-10-18
+👤 qwe0412 | 📅 2026-10-19
 
-Unofficial port of CREATE: LOVE & WAR (the gun mod where everything is made with Create machinery) F
+This mod is adds meteorite motief weapons & tools
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-love-war-neoforge/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-love-war-neoforge}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/meteorium/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/meteorium}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Ghd3HFvP/a310fe146acf9cc8365ef96eeb4c4736e8e7173f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/1s4fDcLr/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="World Presets" event="url{https://modrinth.com/mod/world-presets}"
+...button-text text="ColaCraft" event="url{https://modrinth.com/mod/colacraft}"
 
-👤 pawjwp | 📅 2026-10-18
+👤 lunstudiominecraft | 📅 2026-10-19
 
-The World Presets mod allows defining world presets; templates that modpack authors can make to repl
+Adds cola and energy drinks to Minecraft. In future updates, we’ll add 3D models and more drinks. Cr
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/world-presets/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/world-presets}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/colacraft/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/colacraft}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/B2w7wF1e/d534db29ca693fcf58899f132b0fc46e8f44b177.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6yaSbIJZ/2ca5a6d62b1c767862699f94a91186d56472bac6.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="True Stone Tools" event="url{https://modrinth.com/mod/true-stone-tools}"
+...button-text text="MaLiLib IME" event="url{https://modrinth.com/mod/malilib-ime}"
 
-👤 Cam3 | 📅 2026-10-18
+👤 SHUNCHA | 📅 2026-10-19
 
-A small data pack that makes stone tools require real stone instead of cobblestone.
+Unofficial add-on that makes IME (Japanese/Chinese/Korean) input work in MaLiLib mods like Litematic
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/true-stone-tools/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/true-stone-tools}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/malilib-ime/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/malilib-ime}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/apfFXHUY/881fc19e358bcc1928642fecabe870593522df56.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/jHSfSvVA/cb184ab8bc8a141a2e1fc859b9e6c1dfccd5fefe_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="CraftFlint" event="url{https://modrinth.com/mod/craftflint}"
+...button-text text="Extended Dream" event="url{https://modrinth.com/mod/extended-dream}"
 
-👤 Cam3 | 📅 2026-10-18
+👤 Horrorboi | 📅 2026-10-19
 
-A tiny data pack that adds a single shapeless crafting recipe:
-
-2 Gravel → 1 Flint
-
-Works in the 2×2
+A small WIP mod I'm making in Mcreator around features in the end you should have geckolib and curio
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/craftflint/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/craftflint}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/extended-dream/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/extended-dream}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/koTibmqV/3e7dd1a6432b841b4563dff4e03a04c4598eaaff_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Jm7ePcKN/fc9503fa8aed5eb649b335aab6c402cbd9a1c7dd_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Drew's Christmas Jukebox - Data Pack" event="url{https://modrinth.com/mod/drews-christmas-jukebox-data-pack}"
+...button-text text="Player Ping" event="url{https://modrinth.com/mod/player.ping}"
 
-👤 DGXMASPACKS | 📅 2026-10-18
+👤 imRyzek | 📅 2026-10-19
 
-The required data pack to the Resource Pack "Drew's Christmas Jukebox". It makes it so the songs pla
+PlayerPing is a lightweight Fabric client mod for Minecraft 26.2 that shows other players’ real late
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/drews-christmas-jukebox-data-pack/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/drews-christmas-jukebox-data-pack}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/player.ping/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/player.ping}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -177,14 +173,14 @@ The required data pack to the Resource Pack "Drew's Christmas Jukebox". It makes
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：75载，风华正茂
-© 多巴达恩城堡，兰贝里斯，斯诺登尼亚国家公园，威尔士 (© joe daniel price/Getty Images)
+🖼️ 壁纸：水上通衢
+© 大运河，威尼斯，意大利 (© Juan Romero/Cavan Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition block render history/Bee Nest](https://minecraft.wiki/Java_Edition_block_render_history%2FBee_Nest)
+📖 **Wiki 推荐**：[Monsterized Parrot](https://minecraft.wiki/Monsterized_Parrot)
 
-⏰ 更新时间：2026-10-18 15:44:09
+⏰ 更新时间：2026-10-19 04:20:15
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
