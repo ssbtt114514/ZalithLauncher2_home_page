@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-20 04:31:13
+// 生成时间：2026-10-20 16:44:50
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.BrownSloth_ZH-CN5776383136_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.VietnamBridge_ZH-CN6134321119_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"所以还想再重来，我还想再重来，还想再重来。"*
+> *"忘掉生日，忘掉青涩的诗，忘掉他不厌其烦夜夜追逐他影子。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{所以还想再重来，我还想再重来，还想再重来。}"
+...button-text text="📋 复制" event="copy{忘掉生日，忘掉青涩的诗，忘掉他不厌其烦夜夜追逐他影子。}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.3
-**最新快照**: 26.4-snapshot-4
+**最新快照**: 26.4-snapshot-5
 
 近期版本：
 - **26.3** (2026-09-15)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FBamboo_Slab}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Calculators%2FInteractive_maps}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/IUrnhodo/3df51a378c0f23c73aa84e3324ea8d281857aa31_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wCNHukCo/2a804cc9753da5b054c133ed946628e21af797f1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Hotbar Block Shuffle" event="url{https://modrinth.com/mod/hotbar-block-shuffle}"
+...button-text text="Colorway" event="url{https://modrinth.com/mod/colorway}"
 
-👤 pa1ych_ | 📅 2026-10-20
+👤 X_TyFighter | 📅 2026-10-20
 
-Every click's a surprise. Shuffles blocks from your hotbar as you build.
+The new way to pretty up your game with new skies and guis without shaders!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hotbar-block-shuffle/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hotbar-block-shuffle}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/colorway/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/colorway}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/rFsM8Kvi/7a35b27934103dc7396a579325f173d898e2b1d8_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Yvv1skDK/9ed64bcdc24ce5d29a38b30bc6921f49cb5f0a23_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Slightly bigger Cliffs & Canyons" event="url{https://modrinth.com/mod/slightly-bigger-cliffs-canyons}"
+...button-text text="Aspen Grove: Continue" event="url{https://modrinth.com/mod/aspengrove-continue}"
 
-👤 ThirtyFangs | 📅 2026-10-20
+👤 StarmanMine142 | 📅 2026-10-20
 
-Cliffs and canyons will be taller and straighter
+Continuation of the original mod
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/slightly-bigger-cliffs-canyons/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/slightly-bigger-cliffs-canyons}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/aspengrove-continue/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/aspengrove-continue}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6rVYMwUf/3c154b6d56761fcce8b7bbff9a74bf3ad2128fa1.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/XK7ryf9y/a4b3158484575e306ae40b236a21754173ed2524_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Tostbrotis halloween" event="url{https://modrinth.com/mod/tostbrotis-halloween}"
+...button-text text="Blocklet" event="url{https://modrinth.com/mod/blocklet}"
 
-👤 Tostbroti | 📅 2026-10-20
+👤 Foccus | 📅 2026-10-20
 
-This Mod / Datapack to add some cozy and maybe spooky new features
+A fully client-side block pet that follows, orbits, or hovers around you — with 100+ customization o
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tostbrotis-halloween/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tostbrotis-halloween}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/blocklet/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/blocklet}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/gmLA7JuO/2d8aaeca5c200262eef7b24bcd76b0c8b98dbc50.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/WFeOVL3m/7b779ad3e034c59429cc1b9d2502f23d3126a16f.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Kirjuri" event="url{https://modrinth.com/mod/kirjuri}"
+...button-text text="growth_wand" event="url{https://modrinth.com/mod/growth_wand}"
 
-👤 jipes | 📅 2026-10-19
+👤 amirdj870 | 📅 2026-10-20
 
-Provides an animated typing indicator when used on a compatible server.
+A simple Minecraft mod with a custom item.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kirjuri/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kirjuri}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/growth_wand/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/growth_wand}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/1kMocT3A/144b6e7a94b00f64898fef2d7200569b2ebc1e7b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/o3BjjX7m/2a8c54b09a07d6cf91f93317fd711734fbbfac46_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Creative Companion" event="url{https://modrinth.com/mod/creative-companion}"
+...button-text text="ToTheMoon" event="url{https://modrinth.com/mod/tothemoon}"
 
-👤 _Lumu_ | 📅 2026-10-19
+👤 ArthurTheDev | 📅 2026-10-20
 
-Adds: Favorite tabs, flight speed slider, block variant swap, advanced tools for builders, mob maker
+Explore a low-gravity Moon reachable by rocket or elytra at night. Survive without oxygen unless you
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/creative-companion/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/creative-companion}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tothemoon/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tothemoon}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Adds: Favorite tabs, flight speed slider, block variant swap, advanced tools for
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：慢节奏生活
-© 褐喉三趾树懒，塔拉曼卡旧港，哥斯达黎加 (© Suzi Eszterhas/Minden Pictures)
+🖼️ 壁纸：飞掠河面
+© 香江上的阮潢桥，顺化，越南 (© VU PHAM VAN/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition block render history/Bamboo Slab](https://minecraft.wiki/Java_Edition_block_render_history%2FBamboo_Slab)
+📖 **Wiki 推荐**：[Calculators/Interactive maps](https://minecraft.wiki/Calculators%2FInteractive_maps)
 
-⏰ 更新时间：2026-10-20 04:31:13
+⏰ 更新时间：2026-10-20 16:44:50
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
