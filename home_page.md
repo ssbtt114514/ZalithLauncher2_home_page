@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-19 18:38:29
+// 生成时间：2026-10-20 04:31:13
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"无暇为五条悟的死哀悼，被投入到战场的是……雷神，鹿紫云一。"*
+> *"所以还想再重来，我还想再重来，还想再重来。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{无暇为五条悟的死哀悼，被投入到战场的是……雷神，鹿紫云一。}"
+...button-text text="📋 复制" event="copy{所以还想再重来，我还想再重来，还想再重来。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Flist}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FBamboo_Slab}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Ioit68PZ/0f2b0f9f006fc26a01f2aee287c7702677670fc6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/IUrnhodo/3df51a378c0f23c73aa84e3324ea8d281857aa31_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="ChatCalculator" event="url{https://modrinth.com/mod/ccalculator}"
+...button-text text="Hotbar Block Shuffle" event="url{https://modrinth.com/mod/hotbar-block-shuffle}"
 
-👤 ItsPuffer | 📅 2026-10-19
+👤 pa1ych_ | 📅 2026-10-20
 
-ChatCalculator adds a simple calculator in the Minecraft chat.
+Every click's a surprise. Shuffles blocks from your hotbar as you build.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ccalculator/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ccalculator}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hotbar-block-shuffle/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hotbar-block-shuffle}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/AYKq3STr/d98f8fc6cb5a62b4ee9a71f4138494c3a7c5dfff_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/rFsM8Kvi/7a35b27934103dc7396a579325f173d898e2b1d8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="BetterPistons" event="url{https://modrinth.com/mod/betterpistons}"
+...button-text text="Slightly bigger Cliffs & Canyons" event="url{https://modrinth.com/mod/slightly-bigger-cliffs-canyons}"
 
-👤 zayoon0o0 | 📅 2026-10-19
+👤 ThirtyFangs | 📅 2026-10-20
 
-simple mod that makes the piston push limit a little too much ;D
+Cliffs and canyons will be taller and straighter
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/betterpistons/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/betterpistons}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/slightly-bigger-cliffs-canyons/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/slightly-bigger-cliffs-canyons}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/LGp6Dfwb/b1bc843dee41b80ae22bdc87c5dcaa53d9fd46a1_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6rVYMwUf/3c154b6d56761fcce8b7bbff9a74bf3ad2128fa1.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Bowcasting" event="url{https://modrinth.com/mod/bowcasting}"
+...button-text text="Tostbrotis halloween" event="url{https://modrinth.com/mod/tostbrotis-halloween}"
 
-👤 tseileinn | 📅 2026-10-19
+👤 Tostbroti | 📅 2026-10-20
 
-A client-side Fabric mod that adds animated magical spell effects and dynamic lighting to bows
+This Mod / Datapack to add some cozy and maybe spooky new features
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bowcasting/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bowcasting}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tostbrotis-halloween/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tostbrotis-halloween}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/sSir1mAX/3f132e9d71447ea258327567919d19c101b85e66.jpeg" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/gmLA7JuO/2d8aaeca5c200262eef7b24bcd76b0c8b98dbc50.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="aww" event="url{https://modrinth.com/mod/aww}"
+...button-text text="Kirjuri" event="url{https://modrinth.com/mod/kirjuri}"
 
-👤 TheEgyptianDido | 📅 2026-10-19
+👤 jipes | 📅 2026-10-19
 
-this risugamis modloader mod kills your b1.7.3 client as soon as its loaded
+Provides an animated typing indicator when used on a compatible server.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/aww/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/aww}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kirjuri/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kirjuri}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Uqz7o8tN/dbf5fa707ab0dd0b032490a626e4ba64ea4d7530_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/1kMocT3A/144b6e7a94b00f64898fef2d7200569b2ebc1e7b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Anti Crash Fix" event="url{https://modrinth.com/mod/anti-crash-fix}"
+...button-text text="Creative Companion" event="url{https://modrinth.com/mod/creative-companion}"
 
-👤 tianhongya | 📅 2026-10-19
+👤 _Lumu_ | 📅 2026-10-19
 
-Fixes the startup crash caused by MC Load Crash. Install this mod and the game will work normally ag
+Adds: Favorite tabs, flight speed slider, block variant swap, advanced tools for builders, mob maker
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/anti-crash-fix/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/anti-crash-fix}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/creative-companion/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/creative-companion}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Fixes the startup crash caused by MC Load Crash. Install this mod and the game w
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Commands/list](https://minecraft.wiki/Commands%2Flist)
+📖 **Wiki 推荐**：[Java Edition block render history/Bamboo Slab](https://minecraft.wiki/Java_Edition_block_render_history%2FBamboo_Slab)
 
-⏰ 更新时间：2026-10-19 18:38:29
+⏰ 更新时间：2026-10-20 04:31:13
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
