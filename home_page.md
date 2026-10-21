@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-20 16:44:50
+// 生成时间：2026-10-21 04:23:18
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"忘掉生日，忘掉青涩的诗，忘掉他不厌其烦夜夜追逐他影子。"*
+> *"状若终末，然则复始。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{忘掉生日，忘掉青涩的诗，忘掉他不厌其烦夜夜追逐他影子。}"
+...button-text text="📋 复制" event="copy{状若终末，然则复始。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Calculators%2FInteractive_maps}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Redstone_circuit}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wCNHukCo/2a804cc9753da5b054c133ed946628e21af797f1_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/KsSHXPQp/000a5a662ff3455393020082e0cc91b9c34bf01d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Colorway" event="url{https://modrinth.com/mod/colorway}"
+...button-text text="Mob Grinder Helper" event="url{https://modrinth.com/mod/mob-grinder-helper}"
 
-👤 X_TyFighter | 📅 2026-10-20
+👤 thesuccubusqueenluna | 📅 2026-10-20
 
-The new way to pretty up your game with new skies and guis without shaders!
+Hostile Mob AI addon for useful help with Mob Grinders
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/colorway/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/colorway}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mob-grinder-helper/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mob-grinder-helper}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Yvv1skDK/9ed64bcdc24ce5d29a38b30bc6921f49cb5f0a23_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ZAOmQGkv/bc2231e40548034edf0c02f233c9f4d11c348b2d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Aspen Grove: Continue" event="url{https://modrinth.com/mod/aspengrove-continue}"
+...button-text text="Fancy Items" event="url{https://modrinth.com/mod/fancyitems}"
 
-👤 StarmanMine142 | 📅 2026-10-20
+👤 Fooze | 📅 2026-10-20
 
-Continuation of the original mod
+A Minecraft mod that adds fancy effects to items.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/aspengrove-continue/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/aspengrove-continue}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fancyitems/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fancyitems}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/XK7ryf9y/a4b3158484575e306ae40b236a21754173ed2524_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/IU7ylA3L/78ad144217cae73f0292eca4609955a3eb1cc3cb_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Blocklet" event="url{https://modrinth.com/mod/blocklet}"
+...button-text text="Not save exit" event="url{https://modrinth.com/mod/not-save-exit}"
 
-👤 Foccus | 📅 2026-10-20
+👤 Unkoburiburi | 📅 2026-10-20
 
-A fully client-side block pet that follows, orbits, or hovers around you — with 100+ customization o
+you can quit the game without save
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/blocklet/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/blocklet}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/not-save-exit/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/not-save-exit}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/WFeOVL3m/7b779ad3e034c59429cc1b9d2502f23d3126a16f.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/EiYSsVl8/eae205669d4e5dd4fd10742436fa129c3c87b8e8.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="growth_wand" event="url{https://modrinth.com/mod/growth_wand}"
+...button-text text="satoyama" event="url{https://modrinth.com/mod/satoyama}"
 
-👤 amirdj870 | 📅 2026-10-20
+👤 .watermint | 📅 2026-10-20
 
-A simple Minecraft mod with a custom item.
+A cozy Vanilla+ mod about Japanese countryside life: farm rice paddies, cook 170+ dishes like sushi 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/growth_wand/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/growth_wand}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/satoyama/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/satoyama}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/o3BjjX7m/2a8c54b09a07d6cf91f93317fd711734fbbfac46_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/io6m5BJZ/d6b13c6bff77d688aa4e2ff690baaed394cb2482_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="ToTheMoon" event="url{https://modrinth.com/mod/tothemoon}"
+...button-text text="Customworld" event="url{https://modrinth.com/mod/customworld}"
 
-👤 ArthurTheDev | 📅 2026-10-20
+👤 SpitzeCowboy | 📅 2026-10-20
 
-Explore a low-gravity Moon reachable by rocket or elytra at night. Survive without oxygen unless you
+This mod adds many different features and new items so that the game stays fun. The Minecraft gamepl
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tothemoon/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tothemoon}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/customworld/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/customworld}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Explore a low-gravity Moon reachable by rocket or elytra at night. Survive witho
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Calculators/Interactive maps](https://minecraft.wiki/Calculators%2FInteractive_maps)
+📖 **Wiki 推荐**：[红石电路](https://minecraft.wiki/Redstone_circuit)
 
-⏰ 更新时间：2026-10-20 16:44:50
+⏰ 更新时间：2026-10-21 04:23:18
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
