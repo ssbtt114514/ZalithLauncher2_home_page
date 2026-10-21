@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-21 04:23:18
+// 生成时间：2026-10-21 17:01:34
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.VietnamBridge_ZH-CN6134321119_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.NaejangsanNP_ZH-CN6538893004_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"状若终末，然则复始。"*
+> *"爱你所爱，行你所行，听从你心，无问西东。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{状若终末，然则复始。}"
+...button-text text="📋 复制" event="copy{爱你所爱，行你所行，听从你心，无问西东。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Redstone_circuit}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.7.10-pre1}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/KsSHXPQp/000a5a662ff3455393020082e0cc91b9c34bf01d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/AFWFy1md/45d68f14864cc0a757f3b25127f103264c8912e3_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mob Grinder Helper" event="url{https://modrinth.com/mod/mob-grinder-helper}"
+...button-text text="Moonhex Tiers Tiertagger" event="url{https://modrinth.com/mod/moonhextl-tiertagger}"
 
-👤 thesuccubusqueenluna | 📅 2026-10-20
+👤 helloguys98 | 📅 2026-10-21
 
-Hostile Mob AI addon for useful help with Mob Grinders
+Tiertagger for Moonhex Tiers
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mob-grinder-helper/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mob-grinder-helper}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/moonhextl-tiertagger/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/moonhextl-tiertagger}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ZAOmQGkv/bc2231e40548034edf0c02f233c9f4d11c348b2d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/omzSygsa/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Fancy Items" event="url{https://modrinth.com/mod/fancyitems}"
+...button-text text="Magic Shulker Boxes" event="url{https://modrinth.com/mod/magic-shulker-boxes}"
 
-👤 Fooze | 📅 2026-10-20
+👤 chenjicheng | 📅 2026-10-21
 
-A Minecraft mod that adds fancy effects to items.
+Automatically store pickups and refill building, crafting and IPN materials from carried shulker box
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fancyitems/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fancyitems}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/magic-shulker-boxes/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/magic-shulker-boxes}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/IU7ylA3L/78ad144217cae73f0292eca4609955a3eb1cc3cb_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/L7cI8p0P/ccef9453eadec762345040cb8c42c4298ba28a51_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Not save exit" event="url{https://modrinth.com/mod/not-save-exit}"
+...button-text text="Anthology: Time & Space API" event="url{https://modrinth.com/mod/anthology}"
 
-👤 Unkoburiburi | 📅 2026-10-20
+👤 craisinlord | 📅 2026-10-21
 
-you can quit the game without save
+Library/API for messing with time and space
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/not-save-exit/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/not-save-exit}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/anthology/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/anthology}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/EiYSsVl8/eae205669d4e5dd4fd10742436fa129c3c87b8e8.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/bOsfeOzN/2a8a4af9efc1ef7392568a6dd4f1c7cd107c6d4a.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="satoyama" event="url{https://modrinth.com/mod/satoyama}"
+...button-text text="Better Integrated Inventory" event="url{https://modrinth.com/mod/better-integrated-inventory}"
 
-👤 .watermint | 📅 2026-10-20
+👤 ZoniCraft | 📅 2026-10-21
 
-A cozy Vanilla+ mod about Japanese countryside life: farm rice paddies, cook 170+ dishes like sushi 
+Bring your Equipment, Curios, Cosmetic Armor, Crafting Grid and Attributes together in one
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/satoyama/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/satoyama}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-integrated-inventory/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-integrated-inventory}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/io6m5BJZ/d6b13c6bff77d688aa4e2ff690baaed394cb2482_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ujus3nbN/b7d775ec00afe4dec3f56a3bb67bd61b9553febd_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Customworld" event="url{https://modrinth.com/mod/customworld}"
+...button-text text="PulsePvP" event="url{https://modrinth.com/mod/pulsepvp}"
 
-👤 SpitzeCowboy | 📅 2026-10-20
+👤 zeewl | 📅 2026-10-21
 
-This mod adds many different features and new items so that the game stays fun. The Minecraft gamepl
+This is a Mod that that provides multiple features by using inspirations of other mods.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/customworld/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/customworld}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pulsepvp/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pulsepvp}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ This mod adds many different features and new items so that the game stays fun. 
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：飞掠河面
-© 香江上的阮潢桥，顺化，越南 (© VU PHAM VAN/Getty Images)
+🖼️ 壁纸：静水映斑斓
+© 内藏山国立公园的秋景，韩国 (© Twenty47studio/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[红石电路](https://minecraft.wiki/Redstone_circuit)
+📖 **Wiki 推荐**：[Java Edition 1.7.10-pre1](https://minecraft.wiki/Java_Edition_1.7.10-pre1)
 
-⏰ 更新时间：2026-10-21 04:23:18
+⏰ 更新时间：2026-10-21 17:01:34
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
