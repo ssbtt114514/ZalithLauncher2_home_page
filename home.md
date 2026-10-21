@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Minecraft 自定义主页
-// 生成时间：2026/10/21 10:52:55
+// 生成时间：2026/10/21 16:20:59
 // 数据来源：Minecraft Wiki | Mojang API
 // ============================================
 
 // --- 主视觉卡片 ---
 ...card-start title="" shape=large contentPadding=(0,0)
-...image url="https://zh.minecraft.wiki/images/Tiny_Takeover_Key_Art.png" width=100% shape=0dp
+...image url="/images/thumb/Tiny_Takeover_Key_Art.png/300px-Tiny_Takeover_Key_Art.png?7863a" width=100% shape=0dp
 ...card-end
 
 // --- 活动介绍卡片 ---
-...card-start title="📢 Tiny Takeover 小鬼当家" shape=medium contentPadding=(16,12)
+...card-start title="📢 小鬼当家" shape=medium contentPadding=(16,12)
     ...column-start vertical=spacedBy(8) horizontal=Center
 
-Tiny Takeover 活动现已上线！体验全新的幼年生物和特色内容。
+小鬼当家 发布时间 2026年3月24日 版本 Java版26.1 基岩版26.10 开发名称 2026年第1次小更新 参见 学习有方更新 ◄ ◄ 群骑纷争 混沌立方 ► ► 主视觉图 Wiki上有本次更新的指南！ 见 Java版指南/小鬼当家 以及 基岩版指南/小鬼当家 以查看小鬼当家的指南。 Wiki上有本次更新的指南！ 见 Java版指南/小鬼当家 以及 基岩版指南/小鬼当家 以查看小鬼当家的指南。 &#8220; 全新幼年生物变种，用可爱席卷所有生物群系与建筑。收集、陪伴这些可爱的小家伙，被它们的萌态治愈。
 
 **活动特色：**
         - 全新的幼年生物登场
@@ -153,7 +153,7 @@ Tiny Takeover 活动现已上线！体验全新的幼年生物和特色内容。
 **Minecraft 自定义主页**
 
 🖼️ 内容来源：Minecraft Wiki
-📅 更新时间：2026/10/21 10:52:55
+📅 更新时间：2026/10/21 16:20:59
 
         ...row-start horizontal=spacedBy(12)
             ...button-text text="📖 关注作者" event="url{https://space.bilibili.com/3546377567078479}"
