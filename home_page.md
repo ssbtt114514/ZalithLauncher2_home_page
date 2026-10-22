@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-22 04:21:58
+// 生成时间：2026-10-22 17:00:49
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.NaejangsanNP_ZH-CN6538893004_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.YellowstoneWolves_ZH-CN6767268961_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"起来！歌唱！我们走向胜利！"*
+> *"断剑重铸之日，骑士归来之时。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{起来！歌唱！我们走向胜利！}"
+...button-text text="📋 复制" event="copy{断剑重铸之日，骑士归来之时。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FCopper_Ore}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FAwkward_Tipped_Arrow}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -66,6 +66,54 @@
 // --- 🧩 Modrinth 最新模组 ---
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/2YVycKkR/6a1cd44d8d03b9283c2cafe20e604578065c852d_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="SkyWeeb" event="url{https://modrinth.com/mod/skyweeb}"
+
+👤 whyic | 📅 2026-10-22
+
+a weebified skyblock rpc mod! with 4 different anime you can choose from with its main cast icons to
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/skyweeb/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/skyweeb}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/XWElVR8c/5d1403f474839160fef1447bb02e5d38cfb51cde.png" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="ClownPierce's Scythe" event="url{https://modrinth.com/mod/clownscythe}"
+
+👤 MikrobeKran191 | 📅 2026-10-22
+
+A ClownPierce themed scythe mod with lifesteal, kill progression, Blood Beam, custom enchantments, a
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/clownscythe/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/clownscythe}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/PzNBY0IN/2244faf50f1a603d34887c9e8b92d88e712b6651_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="PvPHQ-Tiertagger-Addon" event="url{https://modrinth.com/mod/pvphq-tiertagger-addon}"
+
+👤 einekuh_machtmuh | 📅 2026-10-22
+
+Expands the TierTagger mod with official support for PvPHQ ranked tiers.
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pvphq-tiertagger-addon/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pvphq-tiertagger-addon}" weight=(1)
+...row-end
+...column-end
+...row-end
+
 ...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/3HO3APHb/1e8810b0b18a0adcb5322c7c0c7fb6c2c8105c0a.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
@@ -98,54 +146,6 @@ Crossy Road, but inside Minecraft.
 ...column-end
 ...row-end
 
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/bQAfLFc3/3e176f7b570bcbc0e2e792f0ee0596fe7f3633a7_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Tagvyn" event="url{https://modrinth.com/mod/tagvyn}"
-
-👤 aenco | 📅 2026-10-22
-
-Minecraft Player identity & display customization mod
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tagvyn/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tagvyn}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Mocj0FRP/icon.png" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Chipped Shapes" event="url{https://modrinth.com/mod/chipped-shapes}"
-
-👤 trollo_99_ | 📅 2026-10-22
-
-Slabs, stairs and walls for most chipped blocks variants
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chipped-shapes/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chipped-shapes}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7rGhCjXM/0e1c5aab92932d0f9ec2f42ad8a5a032cde0991e.png" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Hot Potato (Projectile)" event="url{https://modrinth.com/mod/hot-potato-projectile}"
-
-👤 TFT11 | 📅 2026-10-22
-
-Hot Potato adds a throwable potato crafted with a lava bucket and potato which sets the area around 
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hot-potato-projectile/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hot-potato-projectile}" weight=(1)
-...row-end
-...column-end
-...row-end
-
 ...row-start horizontal=spacedBy(8)
 ...button text="📥 访问 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
 ...row-end
@@ -173,14 +173,14 @@ Hot Potato adds a throwable potato crafted with a lava bucket and potato which s
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：静水映斑斓
-© 内藏山国立公园的秋景，韩国 (© Twenty47studio/Getty Images)
+🖼️ 壁纸：荒野伙伴
+© 两只灰狼，黄石国家公园，怀俄明州，美国 (© John Morrison/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition block render history/Copper Ore](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FCopper_Ore)
+📖 **Wiki 推荐**：[Java Edition item texture history/Awkward Tipped Arrow](https://minecraft.wiki/Java_Edition_item_texture_history%2FAwkward_Tipped_Arrow)
 
-⏰ 更新时间：2026-10-22 04:21:58
+⏰ 更新时间：2026-10-22 17:00:49
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
