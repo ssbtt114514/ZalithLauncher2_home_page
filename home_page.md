@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-21 17:01:34
+// 生成时间：2026-10-22 04:21:58
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"爱你所爱，行你所行，听从你心，无问西东。"*
+> *"起来！歌唱！我们走向胜利！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{爱你所爱，行你所行，听从你心，无问西东。}"
+...button-text text="📋 复制" event="copy{起来！歌唱！我们走向胜利！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.7.10-pre1}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FCopper_Ore}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/AFWFy1md/45d68f14864cc0a757f3b25127f103264c8912e3_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/3HO3APHb/1e8810b0b18a0adcb5322c7c0c7fb6c2c8105c0a.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Moonhex Tiers Tiertagger" event="url{https://modrinth.com/mod/moonhextl-tiertagger}"
+...button-text text="Neo ECO Prototype" event="url{https://modrinth.com/mod/neo-eco-prototype}"
 
-👤 helloguys98 | 📅 2026-10-21
+👤 reliqwq | 📅 2026-10-22
 
-Tiertagger for Moonhex Tiers
+Storage, computation and crafting extensions for Neo ECO AE Extension, with KubeJS integration for c
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/moonhextl-tiertagger/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/moonhextl-tiertagger}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/neo-eco-prototype/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/neo-eco-prototype}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/omzSygsa/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/cI45mTGT/ae9ec3b1665a58bbf17f5bf56f9dda7cd8170802_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Magic Shulker Boxes" event="url{https://modrinth.com/mod/magic-shulker-boxes}"
+...button-text text="Crossy Blocks" event="url{https://modrinth.com/mod/crossyblocks}"
 
-👤 chenjicheng | 📅 2026-10-21
+👤 ugyu | 📅 2026-10-22
 
-Automatically store pickups and refill building, crafting and IPN materials from carried shulker box
+Crossy Road, but inside Minecraft.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/magic-shulker-boxes/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/magic-shulker-boxes}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/crossyblocks/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/crossyblocks}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/L7cI8p0P/ccef9453eadec762345040cb8c42c4298ba28a51_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/bQAfLFc3/3e176f7b570bcbc0e2e792f0ee0596fe7f3633a7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Anthology: Time & Space API" event="url{https://modrinth.com/mod/anthology}"
+...button-text text="Tagvyn" event="url{https://modrinth.com/mod/tagvyn}"
 
-👤 craisinlord | 📅 2026-10-21
+👤 aenco | 📅 2026-10-22
 
-Library/API for messing with time and space
+Minecraft Player identity & display customization mod
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/anthology/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/anthology}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tagvyn/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tagvyn}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/bOsfeOzN/2a8a4af9efc1ef7392568a6dd4f1c7cd107c6d4a.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Mocj0FRP/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Better Integrated Inventory" event="url{https://modrinth.com/mod/better-integrated-inventory}"
+...button-text text="Chipped Shapes" event="url{https://modrinth.com/mod/chipped-shapes}"
 
-👤 ZoniCraft | 📅 2026-10-21
+👤 trollo_99_ | 📅 2026-10-22
 
-Bring your Equipment, Curios, Cosmetic Armor, Crafting Grid and Attributes together in one
+Slabs, stairs and walls for most chipped blocks variants
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-integrated-inventory/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-integrated-inventory}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chipped-shapes/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chipped-shapes}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ujus3nbN/b7d775ec00afe4dec3f56a3bb67bd61b9553febd_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/7rGhCjXM/0e1c5aab92932d0f9ec2f42ad8a5a032cde0991e.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="PulsePvP" event="url{https://modrinth.com/mod/pulsepvp}"
+...button-text text="Hot Potato (Projectile)" event="url{https://modrinth.com/mod/hot-potato-projectile}"
 
-👤 zeewl | 📅 2026-10-21
+👤 TFT11 | 📅 2026-10-22
 
-This is a Mod that that provides multiple features by using inspirations of other mods.
+Hot Potato adds a throwable potato crafted with a lava bucket and potato which sets the area around 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pulsepvp/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pulsepvp}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hot-potato-projectile/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hot-potato-projectile}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ This is a Mod that that provides multiple features by using inspirations of othe
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 1.7.10-pre1](https://minecraft.wiki/Java_Edition_1.7.10-pre1)
+📖 **Wiki 推荐**：[Bedrock Edition block render history/Copper Ore](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FCopper_Ore)
 
-⏰ 更新时间：2026-10-21 17:01:34
+⏰ 更新时间：2026-10-22 04:21:58
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
