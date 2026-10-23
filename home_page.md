@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-23 04:26:52
+// 生成时间：2026-10-23 16:53:28
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.YellowstoneWolves_ZH-CN6767268961_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.PortugueseLibrary_ZH-CN7096893027_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"明月松间照，清泉石上流。"*
+> *"自责要短暂，不过要长久铭记。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{明月松间照，清泉石上流。}"
+...button-text text="📋 复制" event="copy{自责要短暂，不过要长久铭记。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FSplash_Potion_of_the_Turtle_Master}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FStripped_Warped_Hyphae}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -66,6 +66,54 @@
 // --- 🧩 Modrinth 最新模组 ---
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/9gAczTy1/50f7c7fc292db6741f1eb6c678475ccc0a7d98a6_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="luminousFX" event="url{https://modrinth.com/mod/luminousfx}"
+
+👤 Asfell | 📅 2026-10-23
+
+A free, feature-rich client-side mod with visual enhancements.
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/luminousfx/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/luminousfx}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/u8eiln7X/a3874899730b0373c0726df701e6ed4482b17a4a_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Sand Shark" event="url{https://modrinth.com/mod/sand-shark}"
+
+👤 kulmustafa47 | 📅 2026-10-23
+
+"Adds dangerous sand sharks and alpha sand sharks that roam deserts and hunt players."
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sand-shark/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sand-shark}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/w8U96FVl/44e347f8f26372caa9b254857a71c6a7a1ea6bf9_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Create: mass producing" event="url{https://modrinth.com/mod/create-mass-producing}"
+
+👤 Slightly-oxidized-Copper | 📅 2026-10-23
+
+Create: mass producing is a continuation of create: mass production without random trash items
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-mass-producing/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-mass-producing}" weight=(1)
+...row-end
+...column-end
+...row-end
+
 ...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/lppAKstk/f88dc98cef20565e54481f0687677799444e57a5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
@@ -98,54 +146,6 @@ Polymer patch for More Axolotl Variants API
 ...column-end
 ...row-end
 
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/DJVsjgm4/ed1c46582735c3f665f08fba8ead5e1ebd3d95e3.png" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Booker (BookUtils)" event="url{https://modrinth.com/mod/booker}"
-
-👤 DevJG | 📅 2026-10-23
-
-Helpful utility to skip to the end of a editable/readable book using the UI back arrow on page 1
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/booker/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/booker}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/eik7sBuZ/f72b2c9415d41093ec14cd144082c3a52b1d7902.png" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="CustomBurger" event="url{https://modrinth.com/mod/customburger}"
-
-👤 finnfreitag | 📅 2026-10-23
-
-CustomBurger lets you combine multiple food items into a single burger so you can get all their effe
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/customburger/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/customburger}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/fVJnfGcO/0799d9a08fcff4f3e67dd887172456f71879f176_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="BeaconAudit" event="url{https://modrinth.com/mod/beaconaudit}"
-
-👤 SuffixHD | 📅 2026-10-23
-
-Find the first invalid beacon-base block or beam obstruction without changing the structure.
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/beaconaudit/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/beaconaudit}" weight=(1)
-...row-end
-...column-end
-...row-end
-
 ...row-start horizontal=spacedBy(8)
 ...button text="📥 访问 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
 ...row-end
@@ -173,14 +173,14 @@ Find the first invalid beacon-base block or beam obstruction without changing th
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：荒野伙伴
-© 两只灰狼，黄石国家公园，怀俄明州，美国 (© John Morrison/Getty Images)
+🖼️ 壁纸：书香里的极致华美
+© 皇家葡萄牙语阅览室，里约热内卢，巴西 (© Antonio Salaverry/Shutterstock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition item texture history/Splash Potion of the Turtle Master](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FSplash_Potion_of_the_Turtle_Master)
+📖 **Wiki 推荐**：[Bedrock Edition block render history/Stripped Warped Hyphae](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FStripped_Warped_Hyphae)
 
-⏰ 更新时间：2026-10-23 04:26:52
+⏰ 更新时间：2026-10-23 16:53:28
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
