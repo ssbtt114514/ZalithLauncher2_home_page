@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-22 17:00:49
+// 生成时间：2026-10-23 04:26:52
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"断剑重铸之日，骑士归来之时。"*
+> *"明月松间照，清泉石上流。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{断剑重铸之日，骑士归来之时。}"
+...button-text text="📋 复制" event="copy{明月松间照，清泉石上流。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_item_texture_history%2FAwkward_Tipped_Arrow}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FSplash_Potion_of_the_Turtle_Master}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/2YVycKkR/6a1cd44d8d03b9283c2cafe20e604578065c852d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/lppAKstk/f88dc98cef20565e54481f0687677799444e57a5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="SkyWeeb" event="url{https://modrinth.com/mod/skyweeb}"
+...button-text text="PotionBooks" event="url{https://modrinth.com/mod/potionbooks}"
 
-👤 whyic | 📅 2026-10-22
+👤 TheWhiteGuy | 📅 2026-10-23
 
-a weebified skyblock rpc mod! with 4 different anime you can choose from with its main cast icons to
+Adds powerful books to all loot tables that add an extra heart and give a potion effect.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/skyweeb/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/skyweeb}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/potionbooks/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/potionbooks}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/XWElVR8c/5d1403f474839160fef1447bb02e5d38cfb51cde.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/MS64Baf5/20fb6bd50e74e8ced3862138477ff5263a929663_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="ClownPierce's Scythe" event="url{https://modrinth.com/mod/clownscythe}"
+...button-text text="MAVAPI Polymer Patch" event="url{https://modrinth.com/mod/mavapi-polymerized}"
 
-👤 MikrobeKran191 | 📅 2026-10-22
+👤 icanhazsmard | 📅 2026-10-23
 
-A ClownPierce themed scythe mod with lifesteal, kill progression, Blood Beam, custom enchantments, a
+Polymer patch for More Axolotl Variants API
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/clownscythe/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/clownscythe}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mavapi-polymerized/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mavapi-polymerized}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/PzNBY0IN/2244faf50f1a603d34887c9e8b92d88e712b6651_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/DJVsjgm4/ed1c46582735c3f665f08fba8ead5e1ebd3d95e3.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="PvPHQ-Tiertagger-Addon" event="url{https://modrinth.com/mod/pvphq-tiertagger-addon}"
+...button-text text="Booker (BookUtils)" event="url{https://modrinth.com/mod/booker}"
 
-👤 einekuh_machtmuh | 📅 2026-10-22
+👤 DevJG | 📅 2026-10-23
 
-Expands the TierTagger mod with official support for PvPHQ ranked tiers.
+Helpful utility to skip to the end of a editable/readable book using the UI back arrow on page 1
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pvphq-tiertagger-addon/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pvphq-tiertagger-addon}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/booker/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/booker}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/3HO3APHb/1e8810b0b18a0adcb5322c7c0c7fb6c2c8105c0a.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/eik7sBuZ/f72b2c9415d41093ec14cd144082c3a52b1d7902.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Neo ECO Prototype" event="url{https://modrinth.com/mod/neo-eco-prototype}"
+...button-text text="CustomBurger" event="url{https://modrinth.com/mod/customburger}"
 
-👤 reliqwq | 📅 2026-10-22
+👤 finnfreitag | 📅 2026-10-23
 
-Storage, computation and crafting extensions for Neo ECO AE Extension, with KubeJS integration for c
+CustomBurger lets you combine multiple food items into a single burger so you can get all their effe
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/neo-eco-prototype/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/neo-eco-prototype}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/customburger/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/customburger}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/cI45mTGT/ae9ec3b1665a58bbf17f5bf56f9dda7cd8170802_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/fVJnfGcO/0799d9a08fcff4f3e67dd887172456f71879f176_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Crossy Blocks" event="url{https://modrinth.com/mod/crossyblocks}"
+...button-text text="BeaconAudit" event="url{https://modrinth.com/mod/beaconaudit}"
 
-👤 ugyu | 📅 2026-10-22
+👤 SuffixHD | 📅 2026-10-23
 
-Crossy Road, but inside Minecraft.
+Find the first invalid beacon-base block or beam obstruction without changing the structure.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/crossyblocks/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/crossyblocks}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/beaconaudit/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/beaconaudit}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Crossy Road, but inside Minecraft.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition item texture history/Awkward Tipped Arrow](https://minecraft.wiki/Java_Edition_item_texture_history%2FAwkward_Tipped_Arrow)
+📖 **Wiki 推荐**：[Bedrock Edition item texture history/Splash Potion of the Turtle Master](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FSplash_Potion_of_the_Turtle_Master)
 
-⏰ 更新时间：2026-10-22 17:00:49
+⏰ 更新时间：2026-10-23 04:26:52
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
