@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-23 16:53:28
+// 生成时间：2026-10-24 04:17:23
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"自责要短暂，不过要长久铭记。"*
+> *"极霸矛，湘阿痕响啊。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{自责要短暂，不过要长久铭记。}"
+...button-text text="📋 复制" event="copy{极霸矛，湘阿痕响啊。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FStripped_Warped_Hyphae}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_2.11.2}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/9gAczTy1/50f7c7fc292db6741f1eb6c678475ccc0a7d98a6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/whcoHyco/ebe893dd244f62b759ac10fe06e80149e64acc27.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="luminousFX" event="url{https://modrinth.com/mod/luminousfx}"
+...button-text text="Leaf Litter Critters" event="url{https://modrinth.com/mod/leaflittercritters}"
 
-👤 Asfell | 📅 2026-10-23
+👤 June | 📅 2026-10-23
 
-A free, feature-rich client-side mod with visual enhancements.
+critters skitter from leaf litter
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/luminousfx/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/luminousfx}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/leaflittercritters/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/leaflittercritters}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/u8eiln7X/a3874899730b0373c0726df701e6ed4482b17a4a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/oJ0rUyva/359a0440f4b29bec85dbcd7d59e934f999a2fa89.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Sand Shark" event="url{https://modrinth.com/mod/sand-shark}"
+...button-text text="Cherry On Top" event="url{https://modrinth.com/mod/cherryontop}"
 
-👤 kulmustafa47 | 📅 2026-10-23
+👤 Gumillea | 📅 2026-10-23
 
-"Adds dangerous sand sharks and alpha sand sharks that roam deserts and hunt players."
+Make vanilla food more diverse and fun
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sand-shark/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sand-shark}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cherryontop/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cherryontop}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/w8U96FVl/44e347f8f26372caa9b254857a71c6a7a1ea6bf9_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xFYtgzrQ/157ceea500cdc0f65aaacd613ac02f36a929d73d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: mass producing" event="url{https://modrinth.com/mod/create-mass-producing}"
+...button-text text="Fencers & Craft" event="url{https://modrinth.com/mod/fencers-and-craft}"
 
-👤 Slightly-oxidized-Copper | 📅 2026-10-23
+👤 subzeroditto | 📅 2026-10-23
 
-Create: mass producing is a continuation of create: mass production without random trash items
+a remake of the roblox game fencers & co in minecraft
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-mass-producing/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-mass-producing}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fencers-and-craft/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fencers-and-craft}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/lppAKstk/f88dc98cef20565e54481f0687677799444e57a5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/I3sH0Yi9/a742f81af80e894346d271c78f0265c64efdbe22_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="PotionBooks" event="url{https://modrinth.com/mod/potionbooks}"
+...button-text text="Overgrown's Origins: Classes" event="url{https://modrinth.com/mod/overgrowns-classes}"
 
-👤 TheWhiteGuy | 📅 2026-10-23
+👤 Overgrown | 📅 2026-10-23
 
-Adds powerful books to all loot tables that add an extra heart and give a potion effect.
+A data pack for Overgrown's Origins that adds 14 classes, with each class granting two small perks.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/potionbooks/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/potionbooks}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/overgrowns-classes/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/overgrowns-classes}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/MS64Baf5/20fb6bd50e74e8ced3862138477ff5263a929663_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/KNnbmSwb/1be0ec0b526560dda52e132e98633970ec70660d.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MAVAPI Polymer Patch" event="url{https://modrinth.com/mod/mavapi-polymerized}"
+...button-text text="Ground Works" event="url{https://modrinth.com/mod/ground-works}"
 
-👤 icanhazsmard | 📅 2026-10-23
+👤 dxxi3d | 📅 2026-10-23
 
-Polymer patch for More Axolotl Variants API
+Dirt path to dirt with hoe, and farmland to path with shovel
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mavapi-polymerized/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mavapi-polymerized}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ground-works/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ground-works}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Polymer patch for More Axolotl Variants API
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition block render history/Stripped Warped Hyphae](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FStripped_Warped_Hyphae)
+📖 **Wiki 推荐**：[Launcher 2.11.2](https://minecraft.wiki/Launcher_2.11.2)
 
-⏰ 更新时间：2026-10-23 16:53:28
+⏰ 更新时间：2026-10-24 04:17:23
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
