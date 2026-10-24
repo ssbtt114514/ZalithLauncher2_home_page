@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-24 04:17:23
+// 生成时间：2026-10-24 15:46:16
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"极霸矛，湘阿痕响啊。"*
+> *"伤害别人的人，就要有被伤害的觉悟！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{极霸矛，湘阿痕响啊。}"
+...button-text text="📋 复制" event="copy{伤害别人的人，就要有被伤害的觉悟！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_2.11.2}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_Preview_1.20.10.20}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/whcoHyco/ebe893dd244f62b759ac10fe06e80149e64acc27.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8kHJLzuQ/f4819ae0f42c960e7d3409a5289eb15b71504d74.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Leaf Litter Critters" event="url{https://modrinth.com/mod/leaflittercritters}"
+...button-text text="CrNOBr" event="url{https://modrinth.com/mod/crnobr}"
 
-👤 June | 📅 2026-10-23
+👤 IAmREGE | 📅 2026-10-24
 
-critters skitter from leaf litter
+Make creeper explosions not break blocks (unless you want)
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/leaflittercritters/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/leaflittercritters}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/crnobr/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/crnobr}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/oJ0rUyva/359a0440f4b29bec85dbcd7d59e934f999a2fa89.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/P2uo4NN8/41ad76919a627a44d43df4729bbe064e58869b94.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Cherry On Top" event="url{https://modrinth.com/mod/cherryontop}"
+...button-text text="Chorus Predict Mod" event="url{https://modrinth.com/mod/chorus-predict-mod}"
 
-👤 Gumillea | 📅 2026-10-23
+👤 razorbow | 📅 2026-10-24
 
-Make vanilla food more diverse and fun
+Chorus Preview is a client-side Fabric mod that displays the possible locations where a chorus fruit
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cherryontop/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cherryontop}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chorus-predict-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chorus-predict-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xFYtgzrQ/157ceea500cdc0f65aaacd613ac02f36a929d73d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/H2AmCaij/097b990df91af204b99b8da17b7965252acb12b4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Fencers & Craft" event="url{https://modrinth.com/mod/fencers-and-craft}"
+...button-text text="Creative killer" event="url{https://modrinth.com/mod/creative-killer}"
 
-👤 subzeroditto | 📅 2026-10-23
+👤 Novogodnich | 📅 2026-10-24
 
-a remake of the roblox game fencers & co in minecraft
+Adds a sword for admins which kills all players even in creative
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fencers-and-craft/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fencers-and-craft}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/creative-killer/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/creative-killer}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/I3sH0Yi9/a742f81af80e894346d271c78f0265c64efdbe22_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/X65VeKBn/a8da1fc568b283ddeab93c2509d61ecc0a027825_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Overgrown's Origins: Classes" event="url{https://modrinth.com/mod/overgrowns-classes}"
+...button-text text="Bright Client" event="url{https://modrinth.com/mod/bright-client}"
 
-👤 Overgrown | 📅 2026-10-23
+👤 Blibli | 📅 2026-10-24
 
-A data pack for Overgrown's Origins that adds 14 classes, with each class granting two small perks.
+A lightweight Fabric client mod focused on chat translation and useful client-side features.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/overgrowns-classes/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/overgrowns-classes}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bright-client/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bright-client}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/KNnbmSwb/1be0ec0b526560dda52e132e98633970ec70660d.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ISPVJPP4/277b395e08f81840fc7de2f45c73b2d9b15a439d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Ground Works" event="url{https://modrinth.com/mod/ground-works}"
+...button-text text="Extra Utilities Reborn Again" event="url{https://modrinth.com/mod/exura}"
 
-👤 dxxi3d | 📅 2026-10-23
+👤 kongzhongtitian | 📅 2026-10-24
 
-Dirt path to dirt with hoe, and farmland to path with shovel
+Unofficial mod that brings legacy Extra Utilities to the new minecraft versions!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ground-works/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ground-works}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/exura/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/exura}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Dirt path to dirt with hoe, and farmland to path with shovel
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Launcher 2.11.2](https://minecraft.wiki/Launcher_2.11.2)
+📖 **Wiki 推荐**：[Bedrock Edition Preview 1.20.10.20](https://minecraft.wiki/Bedrock_Edition_Preview_1.20.10.20)
 
-⏰ 更新时间：2026-10-24 04:17:23
+⏰ 更新时间：2026-10-24 15:46:16
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
