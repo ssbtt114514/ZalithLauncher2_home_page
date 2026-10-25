@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-24 15:46:16
+// 生成时间：2026-10-25 04:20:42
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.PortugueseLibrary_ZH-CN7096893027_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.MaligneFest_ZH-CN8343066766_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"伤害别人的人，就要有被伤害的觉悟！"*
+> *"你不能放弃，就算跛着脚也要爬上高峰。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{伤害别人的人，就要有被伤害的觉悟！}"
+...button-text text="📋 复制" event="copy{你不能放弃，就算跛着脚也要爬上高峰。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_Preview_1.20.10.20}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Dimension}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8kHJLzuQ/f4819ae0f42c960e7d3409a5289eb15b71504d74.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/B65LcZx0/988b91cd2d392ea345fa6483323e3c895911cbb8.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="CrNOBr" event="url{https://modrinth.com/mod/crnobr}"
+...button-text text="Death Counter 💀✅" event="url{https://modrinth.com/mod/death-counterr}"
 
-👤 IAmREGE | 📅 2026-10-24
+👤 hellojaviergarcia | 📅 2026-10-25
 
-Make creeper explosions not break blocks (unless you want)
+A simple death counter display above your hotbar that will tell you the current world death, useful 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/crnobr/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/crnobr}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/death-counterr/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/death-counterr}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/P2uo4NN8/41ad76919a627a44d43df4729bbe064e58869b94.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/su2xWAa2/056bd0a81f3ba76e40f8cf8883f42b5915dae7d5.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Chorus Predict Mod" event="url{https://modrinth.com/mod/chorus-predict-mod}"
+...button-text text="PVP Tiers" event="url{https://modrinth.com/mod/pvptiers}"
 
-👤 razorbow | 📅 2026-10-24
+👤 oculista1 | 📅 2026-10-25
 
-Chorus Preview is a client-side Fabric mod that displays the possible locations where a chorus fruit
+Hardcore mode tiers based on player kills/deaths/totem pops
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chorus-predict-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chorus-predict-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pvptiers/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pvptiers}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/H2AmCaij/097b990df91af204b99b8da17b7965252acb12b4_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/N8GKxbHj/fd554b5945f2e4fbe718d0b96f48235b58cc2fb2.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Creative killer" event="url{https://modrinth.com/mod/creative-killer}"
+...button-text text="Nuclear Fusion" event="url{https://modrinth.com/mod/nuclear-fusion}"
 
-👤 Novogodnich | 📅 2026-10-24
+👤 subzeroditto | 📅 2026-10-25
 
-Adds a sword for admins which kills all players even in creative
+the ability to preform nuclear fusion
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/creative-killer/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/creative-killer}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nuclear-fusion/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nuclear-fusion}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/X65VeKBn/a8da1fc568b283ddeab93c2509d61ecc0a027825_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/RZxE8cGd/612a45b6d8c5ad4014bba17dab847b68f353d10a.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Bright Client" event="url{https://modrinth.com/mod/bright-client}"
+...button-text text="Warden Nether Portals" event="url{https://modrinth.com/mod/warden-nether-portals}"
 
-👤 Blibli | 📅 2026-10-24
+👤 TheKingOfNerds | 📅 2026-10-25
 
-A lightweight Fabric client mod focused on chat translation and useful client-side features.
+Makes the deep dark portal usable as a Nether Portal
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bright-client/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bright-client}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/warden-nether-portals/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/warden-nether-portals}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ISPVJPP4/277b395e08f81840fc7de2f45c73b2d9b15a439d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/MDK2zYuj/369cd2da2760ada94eccbf4b68a87efcf032be5e.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Extra Utilities Reborn Again" event="url{https://modrinth.com/mod/exura}"
+...button-text text="Projectile Shield" event="url{https://modrinth.com/mod/projectile-shield}"
 
-👤 kongzhongtitian | 📅 2026-10-24
+👤 TheKingOfNerds | 📅 2026-10-25
 
-Unofficial mod that brings legacy Extra Utilities to the new minecraft versions!
+Makes projectiles just bounce off you.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/exura/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/exura}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/projectile-shield/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/projectile-shield}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Unofficial mod that brings legacy Extra Utilities to the new minecraft versions!
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：书香里的极致华美
-© 皇家葡萄牙语阅览室，里约热内卢，巴西 (© Antonio Salaverry/Shutterstock)
+🖼️ 壁纸：群峰与宁静相遇之地
+© 玛琳湖，贾斯珀国家公园，艾伯塔省，加拿大 (© Andrey Popov/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition Preview 1.20.10.20](https://minecraft.wiki/Bedrock_Edition_Preview_1.20.10.20)
+📖 **Wiki 推荐**：[Dimension](https://minecraft.wiki/Dimension)
 
-⏰ 更新时间：2026-10-24 15:46:16
+⏰ 更新时间：2026-10-25 04:20:42
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
