@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-25 04:20:42
+// 生成时间：2026-10-25 15:57:32
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"你不能放弃，就算跛着脚也要爬上高峰。"*
+> *"我很少回忆，却不代表那些过往不在。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{你不能放弃，就算跛着脚也要爬上高峰。}"
+...button-text text="📋 复制" event="copy{我很少回忆，却不代表那些过往不在。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Dimension}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Hammer_of_Destruction}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -78,6 +78,22 @@ A simple death counter display above your hotbar that will tell you the current 
 ...row-start horizontal=spacedBy(8)
 ...button text="⬇️ 下载" event="url{https://modrinth.com/mod/death-counterr/versions}" weight=(1)
 ...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/death-counterr}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/pHv8F8pB/0dac9acfca57c458f5b7645125d32b84ad2d8203_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Aeronautics: Craftable Levitite" event="url{https://modrinth.com/mod/aeronautics-craftable-levitite}"
+
+👤 GuSchu_Gaming | 📅 2026-10-25
+
+This datapack makes it possible to craft the Levitite block in a basin.
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/aeronautics-craftable-levitite/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/aeronautics-craftable-levitite}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -130,22 +146,6 @@ Makes the deep dark portal usable as a Nether Portal
 ...column-end
 ...row-end
 
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/MDK2zYuj/369cd2da2760ada94eccbf4b68a87efcf032be5e.png" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Projectile Shield" event="url{https://modrinth.com/mod/projectile-shield}"
-
-👤 TheKingOfNerds | 📅 2026-10-25
-
-Makes projectiles just bounce off you.
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/projectile-shield/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/projectile-shield}" weight=(1)
-...row-end
-...column-end
-...row-end
-
 ...row-start horizontal=spacedBy(8)
 ...button text="📥 访问 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
 ...row-end
@@ -178,9 +178,9 @@ Makes projectiles just bounce off you.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Dimension](https://minecraft.wiki/Dimension)
+📖 **Wiki 推荐**：[Hammer of Destruction](https://minecraft.wiki/Hammer_of_Destruction)
 
-⏰ 更新时间：2026-10-25 04:20:42
+⏰ 更新时间：2026-10-25 15:57:32
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
