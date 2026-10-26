@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-25 15:57:32
+// 生成时间：2026-10-26 04:24:01
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.MaligneFest_ZH-CN8343066766_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.SitovoWaterfall_ZH-CN8495214046_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我很少回忆，却不代表那些过往不在。"*
+> *"正于此地，愿您找到想要的书。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我很少回忆，却不代表那些过往不在。}"
+...button-text text="📋 复制" event="copy{正于此地，愿您找到想要的书。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Hammer_of_Destruction}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/PlayStation_Vita_Edition_1.34}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -99,6 +99,22 @@ This datapack makes it possible to craft the Levitite block in a basin.
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/pPOgGwVj/972ffb118f090322df8055d935929e26baee584c_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Pick your Ice Up!" event="url{https://modrinth.com/mod/pick-your-ice-up}"
+
+👤 Lxaur | 📅 2026-10-25
+
+Pick up Ice with your shovel!
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pick-your-ice-up/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pick-your-ice-up}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/su2xWAa2/056bd0a81f3ba76e40f8cf8883f42b5915dae7d5.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
 ...button-text text="PVP Tiers" event="url{https://modrinth.com/mod/pvptiers}"
@@ -130,22 +146,6 @@ the ability to preform nuclear fusion
 ...column-end
 ...row-end
 
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/RZxE8cGd/612a45b6d8c5ad4014bba17dab847b68f353d10a.png" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Warden Nether Portals" event="url{https://modrinth.com/mod/warden-nether-portals}"
-
-👤 TheKingOfNerds | 📅 2026-10-25
-
-Makes the deep dark portal usable as a Nether Portal
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/warden-nether-portals/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/warden-nether-portals}" weight=(1)
-...row-end
-...column-end
-...row-end
-
 ...row-start horizontal=spacedBy(8)
 ...button text="📥 访问 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
 ...row-end
@@ -173,14 +173,14 @@ Makes the deep dark portal usable as a Nether Portal
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：群峰与宁静相遇之地
-© 玛琳湖，贾斯珀国家公园，艾伯塔省，加拿大 (© Andrey Popov/Getty Images)
+🖼️ 壁纸：大自然的秋日乐章
+© 秋日瀑布，西托沃附近，普罗夫迪夫州，保加利亚 (© Nadya85/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Hammer of Destruction](https://minecraft.wiki/Hammer_of_Destruction)
+📖 **Wiki 推荐**：[PlayStation Vita Edition 1.34](https://minecraft.wiki/PlayStation_Vita_Edition_1.34)
 
-⏰ 更新时间：2026-10-25 15:57:32
+⏰ 更新时间：2026-10-26 04:24:01
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
