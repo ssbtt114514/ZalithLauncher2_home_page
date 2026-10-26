@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-26 04:24:01
+// 生成时间：2026-10-26 18:35:51
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.SitovoWaterfall_ZH-CN8495214046_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.PondCypress_ZH-CN9472607734_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"正于此地，愿您找到想要的书。"*
+> *"身为冒险者，如果安静的老死在床上，那简直就是耻辱！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{正于此地，愿您找到想要的书。}"
+...button-text text="📋 复制" event="copy{身为冒险者，如果安静的老死在床上，那简直就是耻辱！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/PlayStation_Vita_Edition_1.34}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FLight_Blue_Balloon}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/B65LcZx0/988b91cd2d392ea345fa6483323e3c895911cbb8.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/QYsG7M4E/9e0fad32b948aba329f841ba70ade6138350a135.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Death Counter 💀✅" event="url{https://modrinth.com/mod/death-counterr}"
+...button-text text="PaperCrown" event="url{https://modrinth.com/mod/papercrown}"
 
-👤 hellojaviergarcia | 📅 2026-10-25
+👤 GlacialSkyfarer | 📅 2026-10-26
 
-A simple death counter display above your hotbar that will tell you the current world death, useful 
+A simple skill-based leveling system for Minecraft.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/death-counterr/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/death-counterr}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/papercrown/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/papercrown}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/pHv8F8pB/0dac9acfca57c458f5b7645125d32b84ad2d8203_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/S5jMkkn3/c6a7bd5f5875d314eb7c567eb7c98381f6715998_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Aeronautics: Craftable Levitite" event="url{https://modrinth.com/mod/aeronautics-craftable-levitite}"
+...button-text text="Jay's weapons" event="url{https://modrinth.com/mod/jays-weapons}"
 
-👤 GuSchu_Gaming | 📅 2026-10-25
+👤 JayCChambers | 📅 2026-10-26
 
-This datapack makes it possible to craft the Levitite block in a basin.
+This project adds more weapon recipes to the game without going too over powered.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/aeronautics-craftable-levitite/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/aeronautics-craftable-levitite}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jays-weapons/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jays-weapons}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/pPOgGwVj/972ffb118f090322df8055d935929e26baee584c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Ey3OuBuM/adfc28c13a9ac077f41d2a70ec698051031cba3e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Pick your Ice Up!" event="url{https://modrinth.com/mod/pick-your-ice-up}"
+...button-text text="Voxy SeedGen" event="url{https://modrinth.com/mod/voxy-seedgen}"
 
-👤 Lxaur | 📅 2026-10-25
+👤 mobiusmeansbusiness | 📅 2026-10-26
 
-Pick up Ice with your shovel!
+Very fast seedmath based LOD generator for Voxy
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pick-your-ice-up/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pick-your-ice-up}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/voxy-seedgen/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/voxy-seedgen}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/su2xWAa2/056bd0a81f3ba76e40f8cf8883f42b5915dae7d5.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/OC5RbF9l/3e076718c4538f29d84e90342dd292f3a30d6f51_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="PVP Tiers" event="url{https://modrinth.com/mod/pvptiers}"
+...button-text text="Knock On Doors" event="url{https://modrinth.com/mod/knockondoors}"
 
-👤 oculista1 | 📅 2026-10-25
+👤 crimulus | 📅 2026-10-26
 
-Hardcore mode tiers based on player kills/deaths/totem pops
+Makes knocking sound (like a zombie breaking it down) when you attack a trap door or door. Based ori
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pvptiers/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pvptiers}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/knockondoors/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/knockondoors}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/N8GKxbHj/fd554b5945f2e4fbe718d0b96f48235b58cc2fb2.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/7w59EFfI/e91703ae44aac1d1d2abb0b4c6932037b90cb3c7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Nuclear Fusion" event="url{https://modrinth.com/mod/nuclear-fusion}"
+...button-text text="Yakisugi" event="url{https://modrinth.com/mod/yakisugi}"
 
-👤 subzeroditto | 📅 2026-10-25
+👤 Axperty | 📅 2026-10-26
 
-the ability to preform nuclear fusion
+A Japanese-inspired mod that adds charred wood planks, traditional blocks, items, and weapons!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nuclear-fusion/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nuclear-fusion}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/yakisugi/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/yakisugi}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ the ability to preform nuclear fusion
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：大自然的秋日乐章
-© 秋日瀑布，西托沃附近，普罗夫迪夫州，保加利亚 (© Nadya85/Getty Images)
+🖼️ 壁纸：大自然的金色明镜
+© 秋叶缤纷的池杉林，乔治亚州，美国 (© Chris Moore/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[PlayStation Vita Edition 1.34](https://minecraft.wiki/PlayStation_Vita_Edition_1.34)
+📖 **Wiki 推荐**：[Bedrock Edition item texture history/Light Blue Balloon](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FLight_Blue_Balloon)
 
-⏰ 更新时间：2026-10-26 04:24:01
+⏰ 更新时间：2026-10-26 18:35:51
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
