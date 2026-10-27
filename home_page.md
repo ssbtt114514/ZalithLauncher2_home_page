@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-26 18:35:51
+// 生成时间：2026-10-27 04:43:12
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"身为冒险者，如果安静的老死在床上，那简直就是耻辱！"*
+> *"不幸的是我们等了那么多年，幸运的我们那么多年过去还一直在一起"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{身为冒险者，如果安静的老死在床上，那简直就是耻辱！}"
+...button-text text="📋 复制" event="copy{不幸的是我们等了那么多年，幸运的我们那么多年过去还一直在一起}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FLight_Blue_Balloon}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Marc_Watson}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/QYsG7M4E/9e0fad32b948aba329f841ba70ade6138350a135.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/P20PztS7/08de8c1b0864ca01d289c05096478fb65aa024dc_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="PaperCrown" event="url{https://modrinth.com/mod/papercrown}"
+...button-text text="Tsuki" event="url{https://modrinth.com/mod/tsuki}"
 
-👤 GlacialSkyfarer | 📅 2026-10-26
+👤 GLDYM | 📅 2026-10-27
 
-A simple skill-based leveling system for Minecraft.
+Higher Minecraft Version Rework of Sakura mod
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/papercrown/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/papercrown}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tsuki/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tsuki}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/S5jMkkn3/c6a7bd5f5875d314eb7c567eb7c98381f6715998_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/U5F5oPwL/cfc232600fe51a0507194bbf33365ed495f2bf4c.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Jay's weapons" event="url{https://modrinth.com/mod/jays-weapons}"
+...button-text text="HELoutreImGuiPart" event="url{https://modrinth.com/mod/heloutreimguipart}"
 
-👤 JayCChambers | 📅 2026-10-26
+👤 SIZStan | 📅 2026-10-27
 
-This project adds more weapon recipes to the game without going too over powered.
+This is a dependency library. It allows you to use imgui to create menus and interfaces in your Mine
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jays-weapons/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jays-weapons}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/heloutreimguipart/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/heloutreimguipart}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Ey3OuBuM/adfc28c13a9ac077f41d2a70ec698051031cba3e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/I37QybfT/0dab184b0636e409ebcd16e9f65968469fa6e9e4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Voxy SeedGen" event="url{https://modrinth.com/mod/voxy-seedgen}"
+...button-text text="NameMC Mod" event="url{https://modrinth.com/mod/namemc-mod}"
 
-👤 mobiusmeansbusiness | 📅 2026-10-26
+👤 Galaxus_HD | 📅 2026-10-27
 
-Very fast seedmath based LOD generator for Voxy
+This Mod adds the command "/namemc [user]" which gives you a list of this user's previous names and 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/voxy-seedgen/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/voxy-seedgen}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/namemc-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/namemc-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/OC5RbF9l/3e076718c4538f29d84e90342dd292f3a30d6f51_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/XGXXPlc2/3293ad6129f7c84e78a0e0577eca28fa6294aed6_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Knock On Doors" event="url{https://modrinth.com/mod/knockondoors}"
+...button-text text="LqDFx's Peaceful Bliss" event="url{https://modrinth.com/mod/lqdfxs-peaceful-bliss}"
 
-👤 crimulus | 📅 2026-10-26
+👤 LqDFx | 📅 2026-10-27
 
-Makes knocking sound (like a zombie breaking it down) when you attack a trap door or door. Based ori
+Peaceful experience with Mob spawning.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/knockondoors/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/knockondoors}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lqdfxs-peaceful-bliss/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lqdfxs-peaceful-bliss}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7w59EFfI/e91703ae44aac1d1d2abb0b4c6932037b90cb3c7_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/s7uUSYtW/e39e1da924954d6ff97a8e984aad5ecd66c9aeb6_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Yakisugi" event="url{https://modrinth.com/mod/yakisugi}"
+...button-text text="Rand0m's infection's" event="url{https://modrinth.com/mod/rand0ms-infections}"
 
-👤 Axperty | 📅 2026-10-26
+👤 random_modding_yt | 📅 2026-10-27
 
-A Japanese-inspired mod that adds charred wood planks, traditional blocks, items, and weapons!
+this mod adds some infections to your world that you can play around with and ruin stuff for your fr
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/yakisugi/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/yakisugi}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/rand0ms-infections/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/rand0ms-infections}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ A Japanese-inspired mod that adds charred wood planks, traditional blocks, items
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition item texture history/Light Blue Balloon](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FLight_Blue_Balloon)
+📖 **Wiki 推荐**：[Marc Watson](https://minecraft.wiki/Marc_Watson)
 
-⏰ 更新时间：2026-10-26 18:35:51
+⏰ 更新时间：2026-10-27 04:43:12
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
