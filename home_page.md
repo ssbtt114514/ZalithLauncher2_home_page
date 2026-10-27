@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-27 04:43:12
+// 生成时间：2026-10-27 17:51:25
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.PondCypress_ZH-CN9472607734_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.KuneticeCastle_ZH-CN8895858920_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"不幸的是我们等了那么多年，幸运的我们那么多年过去还一直在一起"*
+> *"可能你现在不是别人的，但将来也不会是我的。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{不幸的是我们等了那么多年，幸运的我们那么多年过去还一直在一起}"
+...button-text text="📋 复制" event="copy{可能你现在不是别人的，但将来也不会是我的。}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.3
-**最新快照**: 26.4-snapshot-5
+**最新快照**: 26.4-snapshot-6
 
 近期版本：
 - **26.3** (2026-09-15)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Marc_Watson}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FLlama_Spawn_Egg}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/P20PztS7/08de8c1b0864ca01d289c05096478fb65aa024dc_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xs4n3r9g/e9b785d51e0d064880cbf3fdff2ddb4a5f7e4cb9_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Tsuki" event="url{https://modrinth.com/mod/tsuki}"
+...button-text text="Kossman's Renewable Lava" event="url{https://modrinth.com/mod/kossmans-renewable-lava}"
 
-👤 GLDYM | 📅 2026-10-27
+👤 dangeroni | 📅 2026-10-27
 
-Higher Minecraft Version Rework of Sakura mod
+Adds vanilla-style renewable lava source generation to Minecraft
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tsuki/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tsuki}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kossmans-renewable-lava/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kossmans-renewable-lava}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/U5F5oPwL/cfc232600fe51a0507194bbf33365ed495f2bf4c.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/3sru5xpt/473720ede12033835e867857b9031bcde086c5d2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="HELoutreImGuiPart" event="url{https://modrinth.com/mod/heloutreimguipart}"
+...button-text text="Multi-TerraForged" event="url{https://modrinth.com/mod/multi-terraforged}"
 
-👤 SIZStan | 📅 2026-10-27
+👤 Lofodras | 📅 2026-10-27
 
-This is a dependency library. It allows you to use imgui to create menus and interfaces in your Mine
+Terraforged ported to modern versions
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/heloutreimguipart/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/heloutreimguipart}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/multi-terraforged/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/multi-terraforged}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/I37QybfT/0dab184b0636e409ebcd16e9f65968469fa6e9e4_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8aE9UTWD/a9098226136110969cfb939a7685031a19d925fb_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="NameMC Mod" event="url{https://modrinth.com/mod/namemc-mod}"
+...button-text text="Player Journal Farming Pack" event="url{https://modrinth.com/mod/player-journal-farming-pack}"
 
-👤 Galaxus_HD | 📅 2026-10-27
+👤 So1o | 📅 2026-10-27
 
-This Mod adds the command "/namemc [user]" which gives you a list of this user's previous names and 
+Addon for Player Journal adding popular farming mod restrictions.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/namemc-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/namemc-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/player-journal-farming-pack/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/player-journal-farming-pack}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/XGXXPlc2/3293ad6129f7c84e78a0e0577eca28fa6294aed6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/W33mQ2aR/6a5dc9212be4d9972d5b39fb4a4943c9614fe330.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="LqDFx's Peaceful Bliss" event="url{https://modrinth.com/mod/lqdfxs-peaceful-bliss}"
+...button-text text="chk datapack link" event="url{https://modrinth.com/mod/chk-datapack-link}"
 
-👤 LqDFx | 📅 2026-10-27
+👤 ga170212 | 📅 2026-10-27
 
-Peaceful experience with Mob spawning.
+A Minecraft Fabric bridge mod that connects Chzzk (NAVER live streaming) chat & donation events dire
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lqdfxs-peaceful-bliss/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lqdfxs-peaceful-bliss}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chk-datapack-link/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chk-datapack-link}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/s7uUSYtW/e39e1da924954d6ff97a8e984aad5ecd66c9aeb6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/5tWpW74l/db6c7426fdedca69af5de8a918908db0879bd126_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Rand0m's infection's" event="url{https://modrinth.com/mod/rand0ms-infections}"
+...button-text text="Worldshaper Schematics" event="url{https://modrinth.com/mod/worldshaper-schematics}"
 
-👤 random_modding_yt | 📅 2026-10-27
+👤 e68735375 | 📅 2026-10-27
 
-this mod adds some infections to your world that you can play around with and ruin stuff for your fr
+Adds a Create-styled schematic browser and holographic placement mode to the Creative Worldshaper, w
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/rand0ms-infections/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/rand0ms-infections}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/worldshaper-schematics/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/worldshaper-schematics}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ this mod adds some infections to your world that you can play around with and ru
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：大自然的金色明镜
-© 秋叶缤纷的池杉林，乔治亚州，美国 (© Chris Moore/Getty Images)
+🖼️ 壁纸：历史守望之地
+© 库涅季采山城堡，波希米亚，捷克 (© Marek Saroch/Alamy)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Marc Watson](https://minecraft.wiki/Marc_Watson)
+📖 **Wiki 推荐**：[Bedrock Edition item texture history/Llama Spawn Egg](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FLlama_Spawn_Egg)
 
-⏰ 更新时间：2026-10-27 04:43:12
+⏰ 更新时间：2026-10-27 17:51:25
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
