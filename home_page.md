@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-28 05:17:01
+// 生成时间：2026-10-28 18:15:56
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.KuneticeCastle_ZH-CN8895858920_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.AveburyStones_ZH-CN9127100951_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"别同情尾气的耳朵了，因为同情心是把刀。"*
+> *"我在某一时刻突然发现，我是我一生中最后一个死的人。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{别同情尾气的耳朵了，因为同情心是把刀。}"
+...button-text text="📋 复制" event="copy{我在某一时刻突然发现，我是我一生中最后一个死的人。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft%3A_House_of_Horrors%2F5CHP}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_24w14a}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/VmxEUiAL/3db1d9028971435bd91f60b66eba9ce80349d50b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/a4KA8Gsv/3e3e5cc908f809f92fe5a40af1f952befa0d7f1b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Strength SMP - Season V" event="url{https://modrinth.com/mod/silvers_strength-smp-season-5}"
+...button-text text="Agritech Seasons Compat" event="url{https://modrinth.com/mod/agritech-seasons-compat}"
 
-👤 ShadowSilver- | 📅 2026-10-28
+👤 WarpGamesTV | 📅 2026-10-28
 
-Ever wanted to use the Strength SMP's season V plugin?
+Bridges the gaps between Agritech: Two and Serene Seasons and adds compatibility.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/silvers_strength-smp-season-5/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/silvers_strength-smp-season-5}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/agritech-seasons-compat/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/agritech-seasons-compat}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/b5QAEYju/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/x78epGkf/742876a08052c6febddb9bf2bcd8769b824188b0_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="3D Flat World" event="url{https://modrinth.com/mod/3d-flat-world}"
+...button-text text="All-powerful_Translator_Mod" event="url{https://modrinth.com/mod/all-powerful_translator_mod}"
 
-👤 ThirtyFangs | 📅 2026-10-28
+👤 xiaomiaoica | 📅 2026-10-28
 
-This datapack will turn your world into a 3D flat world
+This is a mod that uses AI to translate all in-game text.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/3d-flat-world/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/3d-flat-world}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/all-powerful_translator_mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/all-powerful_translator_mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/qtAqKBOf/f08d079066266a5067859d0a1fc855b1667abf28.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Sa8ceCIR/3669cdfb552fb20cd47bd1041268fcd4c2445478_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Bucketable Port" event="url{https://modrinth.com/mod/bucketable-port}"
+...button-text text="Backup (Straw) Beds" event="url{https://modrinth.com/mod/backup-straw-beds}"
 
-👤 zickit | 📅 2026-10-28
+👤 evanbones | 📅 2026-10-28
 
-This is a port of bucketable data pack from blockerlocker to newer versions.
+A mod backporting straw beds, with some new systems!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bucketable-port/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bucketable-port}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/backup-straw-beds/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/backup-straw-beds}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/CKHcsF1N/8fe9386ae47df5b40ae455c5887b015fa676b9d3.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/K1FWf0DA/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="No Shading" event="url{https://modrinth.com/mod/no-shading}"
+...button-text text="Slender Men & Ice Bucket" event="url{https://modrinth.com/mod/slender-men-ice-bucket}"
 
-👤 Nezo500 | 📅 2026-10-28
+👤 The_wither_storm_fan | 📅 2026-10-28
 
-Removes Minecraft's built-in geometry shading for a cleaner, flatter look while reducing some render
+Adds Slender Man and an Ice Bucket Mob to Minecraft, inspired by two of the internet's most recogniz
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/no-shading/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/no-shading}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/slender-men-ice-bucket/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/slender-men-ice-bucket}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/sATZPijH/6e67ec271c5c4f3361c88ea36c4670a93ecae5f6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/HEW2EJ0Q/3b65f055ffdefbd1932d9f5b53f28db817b478aa_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Caelari Knight Monument" event="url{https://modrinth.com/mod/caelari-knight-monument}"
+...button-text text="Pot" event="url{https://modrinth.com/mod/pot}"
 
-👤 SkyArchitec | 📅 2026-10-28
+👤 seb184 | 📅 2026-10-28
 
-This datapack adds a unique structure belonging to the Caelari Knight Monument, bringing their disti
+Decorative pots in 5 sizes for planting flowers, mushrooms, small trees, and other plants that grow 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/caelari-knight-monument/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/caelari-knight-monument}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pot/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pot}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ This datapack adds a unique structure belonging to the Caelari Knight Monument, 
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：历史守望之地
-© 库涅季采山城堡，波希米亚，捷克 (© Marek Saroch/Alamy)
+🖼️ 壁纸：薄雾邂逅千年时光
+© 立石，埃夫伯里，威尔特郡，英格兰 (© George W Johnson/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Minecraft: House of Horrors/5CHP](https://minecraft.wiki/Minecraft%3A_House_of_Horrors%2F5CHP)
+📖 **Wiki 推荐**：[Java Edition 24w14a](https://minecraft.wiki/Java_Edition_24w14a)
 
-⏰ 更新时间：2026-10-28 05:17:01
+⏰ 更新时间：2026-10-28 18:15:56
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
