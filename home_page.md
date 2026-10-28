@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-27 17:51:25
+// 生成时间：2026-10-28 05:17:01
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"可能你现在不是别人的，但将来也不会是我的。"*
+> *"别同情尾气的耳朵了，因为同情心是把刀。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{可能你现在不是别人的，但将来也不会是我的。}"
+...button-text text="📋 复制" event="copy{别同情尾气的耳朵了，因为同情心是把刀。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FLlama_Spawn_Egg}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft%3A_House_of_Horrors%2F5CHP}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xs4n3r9g/e9b785d51e0d064880cbf3fdff2ddb4a5f7e4cb9_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/VmxEUiAL/3db1d9028971435bd91f60b66eba9ce80349d50b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Kossman's Renewable Lava" event="url{https://modrinth.com/mod/kossmans-renewable-lava}"
+...button-text text="Strength SMP - Season V" event="url{https://modrinth.com/mod/silvers_strength-smp-season-5}"
 
-👤 dangeroni | 📅 2026-10-27
+👤 ShadowSilver- | 📅 2026-10-28
 
-Adds vanilla-style renewable lava source generation to Minecraft
+Ever wanted to use the Strength SMP's season V plugin?
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kossmans-renewable-lava/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kossmans-renewable-lava}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/silvers_strength-smp-season-5/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/silvers_strength-smp-season-5}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/3sru5xpt/473720ede12033835e867857b9031bcde086c5d2_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/b5QAEYju/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Multi-TerraForged" event="url{https://modrinth.com/mod/multi-terraforged}"
+...button-text text="3D Flat World" event="url{https://modrinth.com/mod/3d-flat-world}"
 
-👤 Lofodras | 📅 2026-10-27
+👤 ThirtyFangs | 📅 2026-10-28
 
-Terraforged ported to modern versions
+This datapack will turn your world into a 3D flat world
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/multi-terraforged/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/multi-terraforged}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/3d-flat-world/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/3d-flat-world}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8aE9UTWD/a9098226136110969cfb939a7685031a19d925fb_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/qtAqKBOf/f08d079066266a5067859d0a1fc855b1667abf28.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Player Journal Farming Pack" event="url{https://modrinth.com/mod/player-journal-farming-pack}"
+...button-text text="Bucketable Port" event="url{https://modrinth.com/mod/bucketable-port}"
 
-👤 So1o | 📅 2026-10-27
+👤 zickit | 📅 2026-10-28
 
-Addon for Player Journal adding popular farming mod restrictions.
+This is a port of bucketable data pack from blockerlocker to newer versions.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/player-journal-farming-pack/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/player-journal-farming-pack}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bucketable-port/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bucketable-port}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/W33mQ2aR/6a5dc9212be4d9972d5b39fb4a4943c9614fe330.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/CKHcsF1N/8fe9386ae47df5b40ae455c5887b015fa676b9d3.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="chk datapack link" event="url{https://modrinth.com/mod/chk-datapack-link}"
+...button-text text="No Shading" event="url{https://modrinth.com/mod/no-shading}"
 
-👤 ga170212 | 📅 2026-10-27
+👤 Nezo500 | 📅 2026-10-28
 
-A Minecraft Fabric bridge mod that connects Chzzk (NAVER live streaming) chat & donation events dire
+Removes Minecraft's built-in geometry shading for a cleaner, flatter look while reducing some render
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chk-datapack-link/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chk-datapack-link}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/no-shading/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/no-shading}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/5tWpW74l/db6c7426fdedca69af5de8a918908db0879bd126_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/sATZPijH/6e67ec271c5c4f3361c88ea36c4670a93ecae5f6_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Worldshaper Schematics" event="url{https://modrinth.com/mod/worldshaper-schematics}"
+...button-text text="Caelari Knight Monument" event="url{https://modrinth.com/mod/caelari-knight-monument}"
 
-👤 e68735375 | 📅 2026-10-27
+👤 SkyArchitec | 📅 2026-10-28
 
-Adds a Create-styled schematic browser and holographic placement mode to the Creative Worldshaper, w
+This datapack adds a unique structure belonging to the Caelari Knight Monument, bringing their disti
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/worldshaper-schematics/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/worldshaper-schematics}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/caelari-knight-monument/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/caelari-knight-monument}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Adds a Create-styled schematic browser and holographic placement mode to the Cre
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition item texture history/Llama Spawn Egg](https://minecraft.wiki/Bedrock_Edition_item_texture_history%2FLlama_Spawn_Egg)
+📖 **Wiki 推荐**：[Minecraft: House of Horrors/5CHP](https://minecraft.wiki/Minecraft%3A_House_of_Horrors%2F5CHP)
 
-⏰ 更新时间：2026-10-27 17:51:25
+⏰ 更新时间：2026-10-28 05:17:01
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
