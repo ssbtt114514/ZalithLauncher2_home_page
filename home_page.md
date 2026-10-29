@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-29 05:28:01
+// 生成时间：2026-10-29 18:21:27
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.AveburyStones_ZH-CN9127100951_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.AutumnCranes_ZH-CN5772055404_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"眼观全局，胜负不在一处。"*
+> *"悲时俗之迫阨兮，愿轻举而远游。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{眼观全局，胜负不在一处。}"
+...button-text text="📋 复制" event="copy{悲时俗之迫阨兮，愿轻举而远游。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Dialog}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FStripped_Jungle_Wood}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/f9GzLy8q/a343003f293e801b556da1657a8ef19746d764d5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Tl1DTs7E/e6e624b19a270d4c3e8e62a388e7d85647a00645_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Unstablesmp terrain generation" event="url{https://modrinth.com/mod/unstablesmp-terrain-generation}"
+...button-text text="Beasts of Yore" event="url{https://modrinth.com/mod/beasts-of-yore}"
 
-👤 potato.ahhh | 📅 2026-10-29
+👤 Themodone1 | 📅 2026-10-29
 
-It adds custom biomes and areas inspired by the SMP, including the Great Sea, Amplified, Underworld,
+Adds some beasts from the days of yore
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/unstablesmp-terrain-generation/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/unstablesmp-terrain-generation}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/beasts-of-yore/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/beasts-of-yore}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/oXnO4XrP/06234e412b16afc97dae94d695b6cb5fc25bfee9_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/mqlEubgZ/7340fbbcb8098aef519c37998740ded36c543707_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="PacketWard" event="url{https://modrinth.com/mod/packetward}"
+...button-text text="Regrowth: Revamped" event="url{https://modrinth.com/mod/regrowth-revamped}"
 
-👤 ThePaul_T | 📅 2026-10-29
+👤 alias.cairo | 📅 2026-10-29
 
-Stops known hostile connections before they reach Minecraft, saving your server's resources for actu
+Regrowth lets creatures affect nearby vegetation and gives villagers small jobs around their village
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/packetward/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/packetward}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/regrowth-revamped/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/regrowth-revamped}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/mkMzkyza/0dac70dd2ebb3112496cde666f7e049edc198815_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/7jTxKiJC/333ade865a26fd715f0aea07e5c85630b70f7832_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Jockey Radio" event="url{https://modrinth.com/mod/jockey-radio}"
+...button-text text="Create: Transcontinental" event="url{https://modrinth.com/mod/create-transcontinental}"
 
-👤 atwellpub | 📅 2026-10-29
+👤 DrEmixam | 📅 2026-10-29
 
-Mint live radio, streams, and custom audio on Minecraft music discs, then play them through jukeboxe
+Create: Transcontinental aims to automatically generate a performant, deterministic Create railway n
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jockey-radio/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jockey-radio}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-transcontinental/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-transcontinental}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Lo3p6BDk/ade559022dbcb4dcfa7c9d1b18bf59e4948086f9_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/VAAgQ9Sy/ff3acbc25afa6bf3c7452d1be1ab04e215a25092.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Lazify" event="url{https://modrinth.com/mod/lazify}"
+...button-text text="The Subanomaly Bug Spray {The Broken Script}" event="url{https://modrinth.com/mod/the-subanomaly-bug-spray-the-broken-script}"
 
-👤 abusez | 📅 2026-10-29
+👤 Bloom_Terra | 📅 2026-10-29
 
-A customizable Hypixel Bedwars stats overlay for Forge 1.8.9. Shows FKDR, blacklist tags, winstreaks
+An addon for The Broken Script that adds a bug spray for that pest Subanomaly1.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lazify/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lazify}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-subanomaly-bug-spray-the-broken-script/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-subanomaly-bug-spray-the-broken-script}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/yB4wqDdL/f7e69b3656561475b5e0587aec528932494bc487.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wea5bUyJ/2b8cae141a6579007e0cb217ce939a12cbd9e4ed_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="World Share" event="url{https://modrinth.com/mod/share-world}"
+...button-text text="Armor Styler" event="url{https://modrinth.com/mod/armor-styler}"
 
-👤 Thunks | 📅 2026-10-29
+👤 16zk | 📅 2026-10-29
 
-Lets you join your friend's world when they're not playing it.
+Customize your armor trims and shield designs locally with a simple and complete in-game interface.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/share-world/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/share-world}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/armor-styler/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/armor-styler}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Lets you join your friend's world when they're not playing it.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：薄雾邂逅千年时光
-© 立石，埃夫伯里，威尔特郡，英格兰 (© George W Johnson/Getty Images)
+🖼️ 壁纸：展翅高飞的时节
+© 沙丘鹤，博斯克德尔阿帕奇国家野生动物保护区，新墨西哥州，美国 (© Terry St.Louis/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Dialog](https://minecraft.wiki/Dialog)
+📖 **Wiki 推荐**：[Bedrock Edition block render history/Stripped Jungle Wood](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FStripped_Jungle_Wood)
 
-⏰ 更新时间：2026-10-29 05:28:01
+⏰ 更新时间：2026-10-29 18:21:27
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
