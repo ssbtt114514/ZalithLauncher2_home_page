@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-28 18:15:56
+// 生成时间：2026-10-29 05:28:01
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我在某一时刻突然发现，我是我一生中最后一个死的人。"*
+> *"眼观全局，胜负不在一处。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我在某一时刻突然发现，我是我一生中最后一个死的人。}"
+...button-text text="📋 复制" event="copy{眼观全局，胜负不在一处。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_24w14a}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Dialog}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/a4KA8Gsv/3e3e5cc908f809f92fe5a40af1f952befa0d7f1b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/f9GzLy8q/a343003f293e801b556da1657a8ef19746d764d5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Agritech Seasons Compat" event="url{https://modrinth.com/mod/agritech-seasons-compat}"
+...button-text text="Unstablesmp terrain generation" event="url{https://modrinth.com/mod/unstablesmp-terrain-generation}"
 
-👤 WarpGamesTV | 📅 2026-10-28
+👤 potato.ahhh | 📅 2026-10-29
 
-Bridges the gaps between Agritech: Two and Serene Seasons and adds compatibility.
+It adds custom biomes and areas inspired by the SMP, including the Great Sea, Amplified, Underworld,
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/agritech-seasons-compat/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/agritech-seasons-compat}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/unstablesmp-terrain-generation/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/unstablesmp-terrain-generation}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/x78epGkf/742876a08052c6febddb9bf2bcd8769b824188b0_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/oXnO4XrP/06234e412b16afc97dae94d695b6cb5fc25bfee9_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="All-powerful_Translator_Mod" event="url{https://modrinth.com/mod/all-powerful_translator_mod}"
+...button-text text="PacketWard" event="url{https://modrinth.com/mod/packetward}"
 
-👤 xiaomiaoica | 📅 2026-10-28
+👤 ThePaul_T | 📅 2026-10-29
 
-This is a mod that uses AI to translate all in-game text.
+Stops known hostile connections before they reach Minecraft, saving your server's resources for actu
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/all-powerful_translator_mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/all-powerful_translator_mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/packetward/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/packetward}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Sa8ceCIR/3669cdfb552fb20cd47bd1041268fcd4c2445478_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/mkMzkyza/0dac70dd2ebb3112496cde666f7e049edc198815_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Backup (Straw) Beds" event="url{https://modrinth.com/mod/backup-straw-beds}"
+...button-text text="Jockey Radio" event="url{https://modrinth.com/mod/jockey-radio}"
 
-👤 evanbones | 📅 2026-10-28
+👤 atwellpub | 📅 2026-10-29
 
-A mod backporting straw beds, with some new systems!
+Mint live radio, streams, and custom audio on Minecraft music discs, then play them through jukeboxe
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/backup-straw-beds/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/backup-straw-beds}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jockey-radio/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jockey-radio}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/K1FWf0DA/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Lo3p6BDk/ade559022dbcb4dcfa7c9d1b18bf59e4948086f9_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Slender Men & Ice Bucket" event="url{https://modrinth.com/mod/slender-men-ice-bucket}"
+...button-text text="Lazify" event="url{https://modrinth.com/mod/lazify}"
 
-👤 The_wither_storm_fan | 📅 2026-10-28
+👤 abusez | 📅 2026-10-29
 
-Adds Slender Man and an Ice Bucket Mob to Minecraft, inspired by two of the internet's most recogniz
+A customizable Hypixel Bedwars stats overlay for Forge 1.8.9. Shows FKDR, blacklist tags, winstreaks
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/slender-men-ice-bucket/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/slender-men-ice-bucket}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lazify/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lazify}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/HEW2EJ0Q/3b65f055ffdefbd1932d9f5b53f28db817b478aa_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/yB4wqDdL/f7e69b3656561475b5e0587aec528932494bc487.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Pot" event="url{https://modrinth.com/mod/pot}"
+...button-text text="World Share" event="url{https://modrinth.com/mod/share-world}"
 
-👤 seb184 | 📅 2026-10-28
+👤 Thunks | 📅 2026-10-29
 
-Decorative pots in 5 sizes for planting flowers, mushrooms, small trees, and other plants that grow 
+Lets you join your friend's world when they're not playing it.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pot/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pot}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/share-world/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/share-world}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Decorative pots in 5 sizes for planting flowers, mushrooms, small trees, and oth
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 24w14a](https://minecraft.wiki/Java_Edition_24w14a)
+📖 **Wiki 推荐**：[Dialog](https://minecraft.wiki/Dialog)
 
-⏰ 更新时间：2026-10-28 18:15:56
+⏰ 更新时间：2026-10-29 05:28:01
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
