@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-29 18:21:27
+// 生成时间：2026-10-30 05:27:45
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"悲时俗之迫阨兮，愿轻举而远游。"*
+> *"让我们构筑起一个不会遗弃弱者的乐园吧！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{悲时俗之迫阨兮，愿轻举而远游。}"
+...button-text text="📋 复制" event="copy{让我们构筑起一个不会遗弃弱者的乐园吧！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FStripped_Jungle_Wood}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Structure_file}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Tl1DTs7E/e6e624b19a270d4c3e8e62a388e7d85647a00645_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6fKWpxtf/872a7b95677972543608fbbe4ad1d784c61a8332.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Beasts of Yore" event="url{https://modrinth.com/mod/beasts-of-yore}"
+...button-text text="Wonder of U Addon (JCraft Addon)" event="url{https://modrinth.com/mod/wonder-of-u-addon}"
 
-👤 Themodone1 | 📅 2026-10-29
+👤 dammawa | 📅 2026-10-30
 
-Adds some beasts from the days of yore
+A JCraft addon featuring Wonder of U and D4C Love Train, adding stackable calamity levels, rideable 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/beasts-of-yore/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/beasts-of-yore}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wonder-of-u-addon/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wonder-of-u-addon}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/mqlEubgZ/7340fbbcb8098aef519c37998740ded36c543707_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/MLACDHpj/36e096f8d324b818ba9c557940901ade558c2bde.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Regrowth: Revamped" event="url{https://modrinth.com/mod/regrowth-revamped}"
+...button-text text="Shear Pocket" event="url{https://modrinth.com/mod/shear-pocket}"
 
-👤 alias.cairo | 📅 2026-10-29
+👤 Mrbysco | 📅 2026-10-30
 
-Regrowth lets creatures affect nearby vegetation and gives villagers small jobs around their village
+Adds a shear enchantment that allows pick-pocketing mobs
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/regrowth-revamped/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/regrowth-revamped}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/shear-pocket/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/shear-pocket}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7jTxKiJC/333ade865a26fd715f0aea07e5c85630b70f7832_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Qm8qDPDy/88181ebd7f3692a8d1d0a9f00fc02e92571f695a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Transcontinental" event="url{https://modrinth.com/mod/create-transcontinental}"
+...button-text text="Very Many Players (NeoForge)" event="url{https://modrinth.com/mod/very-many-players-neoforge}"
 
-👤 DrEmixam | 📅 2026-10-29
+👤 Jakobify | 📅 2026-10-30
 
-Create: Transcontinental aims to automatically generate a performant, deterministic Create railway n
+Unofficial NeoForge Port of Very Many Players.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-transcontinental/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-transcontinental}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/very-many-players-neoforge/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/very-many-players-neoforge}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/VAAgQ9Sy/ff3acbc25afa6bf3c7452d1be1ab04e215a25092.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wXqfoWRI/9c4a30683667fcaa3b80869e1dbe44645908170e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="The Subanomaly Bug Spray {The Broken Script}" event="url{https://modrinth.com/mod/the-subanomaly-bug-spray-the-broken-script}"
+...button-text text="San's Moon Mod" event="url{https://modrinth.com/mod/sans-moon-mod}"
 
-👤 Bloom_Terra | 📅 2026-10-29
+👤 Snan | 📅 2026-10-30
 
-An addon for The Broken Script that adds a bug spray for that pest Subanomaly1.
+San's moon mod is a relatively small mod adding the moon dimension.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-subanomaly-bug-spray-the-broken-script/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-subanomaly-bug-spray-the-broken-script}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sans-moon-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sans-moon-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wea5bUyJ/2b8cae141a6579007e0cb217ce939a12cbd9e4ed_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/hXK0Scc8/06653a7c7959e9343755991c5097eda74c83476a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Armor Styler" event="url{https://modrinth.com/mod/armor-styler}"
+...button-text text="jangshi" event="url{https://modrinth.com/mod/jangshi}"
 
-👤 16zk | 📅 2026-10-29
+👤 DasZahnrad | 📅 2026-10-30
 
-Customize your armor trims and shield designs locally with a simple and complete in-game interface.
+a tiny mod that adds jangshi, jangshi villager and new equipment related to them
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/armor-styler/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/armor-styler}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/jangshi/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/jangshi}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Customize your armor trims and shield designs locally with a simple and complete
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition block render history/Stripped Jungle Wood](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FStripped_Jungle_Wood)
+📖 **Wiki 推荐**：[Structure file](https://minecraft.wiki/Structure_file)
 
-⏰ 更新时间：2026-10-29 18:21:27
+⏰ 更新时间：2026-10-30 05:27:45
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
