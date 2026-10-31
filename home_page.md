@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-31 05:13:30
+// 生成时间：2026-10-31 17:08:53
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.FrankfurtHalloween_ZH-CN5998782698_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.SchwarzwaldAutumn_ZH-CN6323627599_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"You complete me !"*
+> *"明天的事，交给明天的我。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{You complete me !}"
+...button-text text="📋 复制" event="copy{明天的事，交给明天的我。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Azalea_Tree}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FCobblestone}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/PGuYAwqz/2a333c91246824ea01a889673d6af97e38ecadc4_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/1gnyFC0t/e8a59318db6b7e5076f7ba3b22c00d927dc92a7a.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Lite Config" event="url{https://modrinth.com/mod/liteconfig}"
+...button-text text="Underbloom" event="url{https://modrinth.com/mod/underbloom}"
 
-👤 Riser876 | 📅 2026-10-31
+👤 oxkitsune | 📅 2026-10-31
 
-A minecraft JSON5/TOML configuration library
+A glowing fungal cave biome full of giant mushrooms, truffle-hunting hogs and the spore-ridden thing
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/liteconfig/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/liteconfig}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/underbloom/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/underbloom}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/pmzEEeIf/fee5309cababdc9eb15ed1e78c972162e7629d82_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8AbDI1B3/4ffecd6d6978cf5d6775c44cfc8a9af1986e9d46_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Strength Restrictions - Season V" event="url{https://modrinth.com/mod/silvers_strength-restrictions-season-5}"
+...button-text text="Username Validation Disable" event="url{https://modrinth.com/mod/username-validation-disable}"
 
-👤 ShadowSilver- | 📅 2026-10-31
+👤 Fagamer999YT | 📅 2026-10-31
 
-Ever wanted to use the same Kit restrictions that they use inseason V of Strength SMP?
+Removes the Internal Exception: Illegal characters in chat and username to allow custom usernames wi
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/silvers_strength-restrictions-season-5/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/silvers_strength-restrictions-season-5}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/username-validation-disable/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/username-validation-disable}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/H3w5ipjV/99c3bb28ddc8663b51d6def2fa957de013444ffa_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/LKAMwhAw/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mosquito Menace" event="url{https://modrinth.com/mod/mosquito-menace}"
+...button-text text="easyRoad's" event="url{https://modrinth.com/mod/easyroads-karcari5}"
 
-👤 sltworld | 📅 2026-10-31
+👤 KarCari5 | 📅 2026-10-31
 
-Adds vicious mosquitoes into your world!
+Build smooth, realistic roads and highways effortlessly using procedural 3D curves and an interactiv
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mosquito-menace/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mosquito-menace}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/easyroads-karcari5/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/easyroads-karcari5}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/9YFvqrnQ/dd598b2e3a64b340bf237e91b1a6de2c012292b5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/bCqNEhe0/1223e8d4eba58bc20e9adba4982a50f3dccaf2eb.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Amethyst tools" event="url{https://modrinth.com/mod/amethyst-tools-kunamimc}"
+...button-text text="OK Integrated Dynamics" event="url{https://modrinth.com/mod/ok-integrated-dynamics}"
 
-👤 KunamiMC | 📅 2026-10-30
+👤 Shigure-Ruiseki | 📅 2026-10-31
 
-A new set of custom Amethyst Tools for Minecraft, featuring unique textures, custom crafting recipes
+A mod to take full and automated control of your appliances backport from Integrated Dynamics
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/amethyst-tools-kunamimc/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/amethyst-tools-kunamimc}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ok-integrated-dynamics/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ok-integrated-dynamics}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/2CyP1GSP/c7937fee55c30dc09ed01286415f953a6bcaddd1_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wC2pxfNH/cbc182d3db504d0ebcc6588c6220ae82de37d856.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Xisuma's Hermitcraft Music" event="url{https://modrinth.com/mod/xisumas-hermitcraft-music}"
+...button-text text="Spooky Sweets" event="url{https://modrinth.com/mod/spooky-sweets}"
 
-👤 Xisuma | 📅 2026-10-30
+👤 Cold_ket | 📅 2026-10-31
 
-Adds the Music Discs made by Xisuma for his fellow Hermits to your game.
+A Halloween-themed mod that brings spooky masks and a variety of unique candies to Minecraft
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/xisumas-hermitcraft-music/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/xisumas-hermitcraft-music}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/spooky-sweets/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/spooky-sweets}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Adds the Music Discs made by Xisuma for his fellow Hermits to your game.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：往昔帝国的幽影
-© 圣巴尔多禄茂教堂，法兰克福，德国 (© AlxeyPnferov/Getty Images)
+🖼️ 壁纸：林间迷雾
+© 黑森林，巴登-符腾堡州，德国 (© Britus/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Azalea Tree](https://minecraft.wiki/Azalea_Tree)
+📖 **Wiki 推荐**：[Java Edition block render history/Cobblestone](https://minecraft.wiki/Java_Edition_block_render_history%2FCobblestone)
 
-⏰ 更新时间：2026-10-31 05:13:30
+⏰ 更新时间：2026-10-31 17:08:53
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
