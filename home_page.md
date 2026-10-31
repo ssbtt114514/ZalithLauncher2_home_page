@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-30 17:56:00
+// 生成时间：2026-10-31 05:13:30
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"泪锋之剑，当弃即弃。云裂之剑，当立则立。"*
+> *"You complete me !"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{泪锋之剑，当弃即弃。云裂之剑，当立则立。}"
+...button-text text="📋 复制" event="copy{You complete me !}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Item_format%2FPlayer_Heads}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Azalea_Tree}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wdBYW71F/8a432c67eca7e4b4bd7f481c4a906eb724b597b8.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/PGuYAwqz/2a333c91246824ea01a889673d6af97e38ecadc4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Wither Storm @w Selector Backport" event="url{https://modrinth.com/mod/wither-storm-w-selector-backport}"
+...button-text text="Lite Config" event="url{https://modrinth.com/mod/liteconfig}"
 
-👤 The_wither_storm_fan | 📅 2026-10-30
+👤 Riser876 | 📅 2026-10-31
 
-Backports the useful @w entity selector from newer versions of Cracker's Wither Storm Mod to older v
+A minecraft JSON5/TOML configuration library
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wither-storm-w-selector-backport/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wither-storm-w-selector-backport}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/liteconfig/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/liteconfig}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/SlbOfING/39103e40023cd4cf4ef54d02bc87d86cc520a648_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/pmzEEeIf/fee5309cababdc9eb15ed1e78c972162e7629d82_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Spirit Companions" event="url{https://modrinth.com/mod/spirit-companions}"
+...button-text text="Strength Restrictions - Season V" event="url{https://modrinth.com/mod/silvers_strength-restrictions-season-5}"
 
-👤 Serilum | 📅 2026-10-30
+👤 ShadowSilver- | 📅 2026-10-31
 
-👻 SpookyJam 2026: Turn any mob into a translucent spirit companion that follows you!
+Ever wanted to use the same Kit restrictions that they use inseason V of Strength SMP?
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/spirit-companions/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/spirit-companions}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/silvers_strength-restrictions-season-5/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/silvers_strength-restrictions-season-5}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/VIiRf1ei/04676f5ad1c94508b0eabda06092e06564ef9e38_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/H3w5ipjV/99c3bb28ddc8663b51d6def2fa957de013444ffa_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Sarcio" event="url{https://modrinth.com/mod/sarcio}"
+...button-text text="Mosquito Menace" event="url{https://modrinth.com/mod/mosquito-menace}"
 
-👤 rdh | 📅 2026-10-30
+👤 sltworld | 📅 2026-10-31
 
-Targeted memory optimizations and bugfixes for Minecraft 1.8.9
+Adds vicious mosquitoes into your world!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sarcio/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sarcio}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mosquito-menace/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mosquito-menace}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/XDGYMuZ6/5fb83edaa9ab525c84c96e5ecc4759c9bb5a4be1_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/9YFvqrnQ/dd598b2e3a64b340bf237e91b1a6de2c012292b5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Slipstream" event="url{https://modrinth.com/mod/slipstream}"
+...button-text text="Amethyst tools" event="url{https://modrinth.com/mod/amethyst-tools-kunamimc}"
 
-👤 rdh | 📅 2026-10-30
+👤 KunamiMC | 📅 2026-10-30
 
-Optimized frame presentation
+A new set of custom Amethyst Tools for Minecraft, featuring unique textures, custom crafting recipes
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/slipstream/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/slipstream}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/amethyst-tools-kunamimc/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/amethyst-tools-kunamimc}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/bmH0aiUd/be95ccca1c6c322c584389ae146b5f7dbeb38463_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/2CyP1GSP/c7937fee55c30dc09ed01286415f953a6bcaddd1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="CodModes" event="url{https://modrinth.com/mod/codmodes}"
+...button-text text="Xisuma's Hermitcraft Music" event="url{https://modrinth.com/mod/xisumas-hermitcraft-music}"
 
-👤 Voidruler404 | 📅 2026-10-30
+👤 Xisuma | 📅 2026-10-30
 
-The CodModes mod adds multiplayer modes from the Call of Duty series to the game. These include Team
+Adds the Music Discs made by Xisuma for his fellow Hermits to your game.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/codmodes/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/codmodes}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/xisumas-hermitcraft-music/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/xisumas-hermitcraft-music}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ The CodModes mod adds multiplayer modes from the Call of Duty series to the game
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Item format/Player Heads](https://minecraft.wiki/Item_format%2FPlayer_Heads)
+📖 **Wiki 推荐**：[Azalea Tree](https://minecraft.wiki/Azalea_Tree)
 
-⏰ 更新时间：2026-10-30 17:56:00
+⏰ 更新时间：2026-10-31 05:13:30
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
