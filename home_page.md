@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-10-31 17:08:53
+// 生成时间：2026-11-01 17:51:12
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.SchwarzwaldAutumn_ZH-CN6323627599_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.HudsonBear_ZH-CN6630706907_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"明天的事，交给明天的我。"*
+> *"能雪藏的只能是过往。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{明天的事，交给明天的我。}"
+...button-text text="📋 复制" event="copy{能雪藏的只能是过往。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FCobblestone}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/PlayStation_4_Edition_1.95}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/1gnyFC0t/e8a59318db6b7e5076f7ba3b22c00d927dc92a7a.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/XPlPTN0u/eef5c9c8de9e74372a2e8b851cba07a1f27e7966_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Underbloom" event="url{https://modrinth.com/mod/underbloom}"
+...button-text text="TifWorldGen" event="url{https://modrinth.com/mod/tifworldgen}"
 
-👤 oxkitsune | 📅 2026-10-31
+👤 Modulak | 📅 2026-11-01
 
-A glowing fungal cave biome full of giant mushrooms, truffle-hunting hogs and the spore-ridden thing
+Build real-world terrain in Minecraft 1.20.1 from your own GIS GeoTIFF maps – heightmaps,
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/underbloom/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/underbloom}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tifworldgen/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tifworldgen}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8AbDI1B3/4ffecd6d6978cf5d6775c44cfc8a9af1986e9d46_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/a1TzEW6a/b1128c70e6bd429b7af2695c549691ef65c92f1e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Username Validation Disable" event="url{https://modrinth.com/mod/username-validation-disable}"
+...button-text text="Loot Beams Reforged" event="url{https://modrinth.com/mod/lb-reforged}"
 
-👤 Fagamer999YT | 📅 2026-10-31
+👤 RazorPlay01 | 📅 2026-11-01
 
-Removes the Internal Exception: Illegal characters in chat and username to allow custom usernames wi
+Renders highly configurable colored beams on dropped items!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/username-validation-disable/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/username-validation-disable}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lb-reforged/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lb-reforged}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/LKAMwhAw/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8DRXKsVh/4f15f958d4ad43339cad5378e242e0386b336d5f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="easyRoad's" event="url{https://modrinth.com/mod/easyroads-karcari5}"
+...button-text text="First Person PAL Expansion" event="url{https://modrinth.com/mod/fp_pal}"
 
-👤 KarCari5 | 📅 2026-10-31
+👤 RazorPlay01 | 📅 2026-10-31
 
-Build smooth, realistic roads and highways effortlessly using procedural 3D curves and an interactiv
+Animate the player's arms and held items in first-person view.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/easyroads-karcari5/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/easyroads-karcari5}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fp_pal/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fp_pal}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/bCqNEhe0/1223e8d4eba58bc20e9adba4982a50f3dccaf2eb.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Eun0SpiT/0cbd08b1039acd94d2eb0b6f091a786b40a75b4f.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="OK Integrated Dynamics" event="url{https://modrinth.com/mod/ok-integrated-dynamics}"
+...button-text text="Halloween Candy" event="url{https://modrinth.com/mod/halloween-candy}"
 
-👤 Shigure-Ruiseki | 📅 2026-10-31
+👤 midar1000 | 📅 2026-10-31
 
-A mod to take full and automated control of your appliances backport from Integrated Dynamics
+Halloween Candy adds 100 candies with mixed effects, 25 spooky snacks, a glowing pumpkin, a guide bo
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ok-integrated-dynamics/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ok-integrated-dynamics}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/halloween-candy/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/halloween-candy}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wC2pxfNH/cbc182d3db504d0ebcc6588c6220ae82de37d856.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zQtyfqgZ/dfacd03c354b03218f75513a4895e13b8b9d2b88_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Spooky Sweets" event="url{https://modrinth.com/mod/spooky-sweets}"
+...button-text text="Simulated Apothic Spawners" event="url{https://modrinth.com/mod/simulated-apothic-spawners}"
 
-👤 Cold_ket | 📅 2026-10-31
+👤 NotTouchedGrass | 📅 2026-10-31
 
-A Halloween-themed mod that brings spooky masks and a variety of unique candies to Minecraft
+Adds Spawner Rune that simulates mob killing to obtain their loot
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/spooky-sweets/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/spooky-sweets}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simulated-apothic-spawners/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simulated-apothic-spawners}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ A Halloween-themed mod that brings spooky masks and a variety of unique candies 
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：林间迷雾
-© 黑森林，巴登-符腾堡州，德国 (© Britus/Getty Images)
+🖼️ 壁纸：写在冰上的未来
+© 北极熊和幼崽，哈得孙湾畔，马尼托巴省，加拿大 (© Danita Delimont/Adobe Stock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition block render history/Cobblestone](https://minecraft.wiki/Java_Edition_block_render_history%2FCobblestone)
+📖 **Wiki 推荐**：[PlayStation 4 Edition 1.95](https://minecraft.wiki/PlayStation_4_Edition_1.95)
 
-⏰ 更新时间：2026-10-31 17:08:53
+⏰ 更新时间：2026-11-01 17:51:12
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
