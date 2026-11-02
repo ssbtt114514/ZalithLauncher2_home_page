@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-02 05:40:45
+// 生成时间：2026-11-02 21:38:41
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.HudsonBear_ZH-CN6630706907_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.AlpineBraies_ZH-CN7307997866_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"低山臭水遇知音，穷山恶水双子星。"*
+> *"恰沐春风共同游，终只叹，木已舟。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{低山臭水遇知音，穷山恶水双子星。}"
+...button-text text="📋 复制" event="copy{恰沐春风共同游，终只叹，木已舟。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Tumble}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_1.21.100%2FDevelopment_versions}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/PJiHrCkG/92bf9c10fd7506c952c91e9b44bb116f6c8eb7f0_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zlI99KCV/2dc57cd58ce00b391bd502994f0ac162e851f4c6.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Overgrown's Origins: Extra Origins" event="url{https://modrinth.com/mod/overgrowns-extra-origins}"
+...button-text text="itens supremos" event="url{https://modrinth.com/mod/itens-supremos}"
 
-👤 Overgrown | 📅 2026-11-02
+👤 rosianesdoc1 | 📅 2026-11-02
 
-Adds five origins to the origin layer: Floran, Truffle, Inchling, Piglin and Nucleon.
+A mod that adds colored (supreme) items is in beta.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/overgrowns-extra-origins/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/overgrowns-extra-origins}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/itens-supremos/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/itens-supremos}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/lviVgQTp/29c50d14cefebf8729997abe4ae4a2db59256b41_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/uSJcczT3/813b8a91d81c8de71cee5ce56a9d49e8563b5d96_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Iron ores require copper tool" event="url{https://modrinth.com/mod/iron-ores-require-copper-tool}"
+...button-text text="Sleep Vote Skip" event="url{https://modrinth.com/mod/sleep-vote-skip}"
 
-👤 Cam3 | 📅 2026-11-02
+👤 Aether_254 | 📅 2026-11-02
 
-Iron ores, blocks of raw iron and blocks of iron can no longer be harvested with a stone pickaxe: a 
+When a player goes to sleep, a vote to skip the night is automatically started. Players can cast the
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/iron-ores-require-copper-tool/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/iron-ores-require-copper-tool}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sleep-vote-skip/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sleep-vote-skip}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/hvBexm7F/3bd5ed4d9ca272766eebd57b31630e7d4fbdbce7_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/bjAG7o20/18e8152de0f0eb84a3150f40fad5fb7ef79cafdf_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Coal ores require stone tools" event="url{https://modrinth.com/mod/coal-ores-require-stone-tools}"
+...button-text text="Joe Cools Awesome mod" event="url{https://modrinth.com/mod/joe-cools-awesome-mod}"
 
-👤 Cam3 | 📅 2026-11-02
+👤 JoeCool6769 | 📅 2026-11-02
 
-Coal ores and blocks of coal can no longer be harvested with a wooden pickaxe: a stone pickaxe or be
+This mod adds cheese, poo, among us, and more.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/coal-ores-require-stone-tools/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/coal-ores-require-stone-tools}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/joe-cools-awesome-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/joe-cools-awesome-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xamjQ864/40129e5d2cc769ea0e03c09e0866619e5457a91a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Fzut8OrS/7c4dcabf74661774f47b0d4026a6a8fe46504548_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Stonecutter Tweaks" event="url{https://modrinth.com/mod/stonecutting-tweaks}"
+...button-text text="SkinPowers" event="url{https://modrinth.com/mod/skinpowers}"
 
-👤 TheLokin | 📅 2026-11-02
+👤 Yankalan | 📅 2026-11-02
 
-Adds missing stonecutting recipes for building blocks that can not be crafted using the vanilla Ston
+Gain unique powers based on your character skin! Upgrade your abilities with XP, quickly switch betw
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/stonecutting-tweaks/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/stonecutting-tweaks}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/skinpowers/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/skinpowers}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/J5gjlSDW/d9a8dd0cb43823ac0816783a97fa34c4edce194b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/oME3ymTz/fd4df8be9107eb48d36cf6757973a42dabc5a832_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Liberica Flavoured" event="url{https://modrinth.com/mod/liberica-flavoured}"
+...button-text text="Book of Dragons: Playable Dragons addon" event="url{https://modrinth.com/mod/bodplayabledragons}"
 
-👤 aemontdk | 📅 2026-11-02
+👤 V_Locke | 📅 2026-11-02
 
-A harder vanilla-style survival datapack that makes the world worth exploring and your equipment wor
+Play AS a wild Book of Dragons dragon — full genetics, real flight. Possess a wild dragon, hunt, dig
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/liberica-flavoured/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/liberica-flavoured}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bodplayabledragons/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bodplayabledragons}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ A harder vanilla-style survival datapack that makes the world worth exploring an
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：写在冰上的未来
-© 北极熊和幼崽，哈得孙湾畔，马尼托巴省，加拿大 (© Danita Delimont/Adobe Stock)
+🖼️ 壁纸：群峰间的宁静
+© 布莱埃斯湖，法内斯-塞内斯-布莱埃斯湖自然公园，多洛米蒂山脉，意大利 (© leonid_tit/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Tumble](https://minecraft.wiki/Tumble)
+📖 **Wiki 推荐**：[Bedrock Edition 1.21.100/Development versions](https://minecraft.wiki/Bedrock_Edition_1.21.100%2FDevelopment_versions)
 
-⏰ 更新时间：2026-11-02 05:40:45
+⏰ 更新时间：2026-11-02 21:38:41
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
