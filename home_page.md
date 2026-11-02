@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-01 17:51:12
+// 生成时间：2026-11-02 05:40:45
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"能雪藏的只能是过往。"*
+> *"低山臭水遇知音，穷山恶水双子星。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{能雪藏的只能是过往。}"
+...button-text text="📋 复制" event="copy{低山臭水遇知音，穷山恶水双子星。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/PlayStation_4_Edition_1.95}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Tumble}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/XPlPTN0u/eef5c9c8de9e74372a2e8b851cba07a1f27e7966_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/PJiHrCkG/92bf9c10fd7506c952c91e9b44bb116f6c8eb7f0_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="TifWorldGen" event="url{https://modrinth.com/mod/tifworldgen}"
+...button-text text="Overgrown's Origins: Extra Origins" event="url{https://modrinth.com/mod/overgrowns-extra-origins}"
 
-👤 Modulak | 📅 2026-11-01
+👤 Overgrown | 📅 2026-11-02
 
-Build real-world terrain in Minecraft 1.20.1 from your own GIS GeoTIFF maps – heightmaps,
+Adds five origins to the origin layer: Floran, Truffle, Inchling, Piglin and Nucleon.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tifworldgen/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tifworldgen}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/overgrowns-extra-origins/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/overgrowns-extra-origins}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/a1TzEW6a/b1128c70e6bd429b7af2695c549691ef65c92f1e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/lviVgQTp/29c50d14cefebf8729997abe4ae4a2db59256b41_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Loot Beams Reforged" event="url{https://modrinth.com/mod/lb-reforged}"
+...button-text text="Iron ores require copper tool" event="url{https://modrinth.com/mod/iron-ores-require-copper-tool}"
 
-👤 RazorPlay01 | 📅 2026-11-01
+👤 Cam3 | 📅 2026-11-02
 
-Renders highly configurable colored beams on dropped items!
+Iron ores, blocks of raw iron and blocks of iron can no longer be harvested with a stone pickaxe: a 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lb-reforged/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lb-reforged}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/iron-ores-require-copper-tool/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/iron-ores-require-copper-tool}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8DRXKsVh/4f15f958d4ad43339cad5378e242e0386b336d5f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/hvBexm7F/3bd5ed4d9ca272766eebd57b31630e7d4fbdbce7_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="First Person PAL Expansion" event="url{https://modrinth.com/mod/fp_pal}"
+...button-text text="Coal ores require stone tools" event="url{https://modrinth.com/mod/coal-ores-require-stone-tools}"
 
-👤 RazorPlay01 | 📅 2026-10-31
+👤 Cam3 | 📅 2026-11-02
 
-Animate the player's arms and held items in first-person view.
+Coal ores and blocks of coal can no longer be harvested with a wooden pickaxe: a stone pickaxe or be
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fp_pal/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fp_pal}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/coal-ores-require-stone-tools/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/coal-ores-require-stone-tools}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Eun0SpiT/0cbd08b1039acd94d2eb0b6f091a786b40a75b4f.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xamjQ864/40129e5d2cc769ea0e03c09e0866619e5457a91a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Halloween Candy" event="url{https://modrinth.com/mod/halloween-candy}"
+...button-text text="Stonecutter Tweaks" event="url{https://modrinth.com/mod/stonecutting-tweaks}"
 
-👤 midar1000 | 📅 2026-10-31
+👤 TheLokin | 📅 2026-11-02
 
-Halloween Candy adds 100 candies with mixed effects, 25 spooky snacks, a glowing pumpkin, a guide bo
+Adds missing stonecutting recipes for building blocks that can not be crafted using the vanilla Ston
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/halloween-candy/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/halloween-candy}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/stonecutting-tweaks/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/stonecutting-tweaks}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/zQtyfqgZ/dfacd03c354b03218f75513a4895e13b8b9d2b88_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/J5gjlSDW/d9a8dd0cb43823ac0816783a97fa34c4edce194b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Simulated Apothic Spawners" event="url{https://modrinth.com/mod/simulated-apothic-spawners}"
+...button-text text="Liberica Flavoured" event="url{https://modrinth.com/mod/liberica-flavoured}"
 
-👤 NotTouchedGrass | 📅 2026-10-31
+👤 aemontdk | 📅 2026-11-02
 
-Adds Spawner Rune that simulates mob killing to obtain their loot
+A harder vanilla-style survival datapack that makes the world worth exploring and your equipment wor
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simulated-apothic-spawners/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simulated-apothic-spawners}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/liberica-flavoured/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/liberica-flavoured}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Adds Spawner Rune that simulates mob killing to obtain their loot
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[PlayStation 4 Edition 1.95](https://minecraft.wiki/PlayStation_4_Edition_1.95)
+📖 **Wiki 推荐**：[Tumble](https://minecraft.wiki/Tumble)
 
-⏰ 更新时间：2026-11-01 17:51:12
+⏰ 更新时间：2026-11-02 05:40:45
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
