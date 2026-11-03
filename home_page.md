@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-02 21:38:41
+// 生成时间：2026-11-03 06:21:31
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"恰沐春风共同游，终只叹，木已舟。"*
+> *"如果你能从浪费时间中获得乐趣，就不是在浪费时间。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{恰沐春风共同游，终只叹，木已舟。}"
+...button-text text="📋 复制" event="copy{如果你能从浪费时间中获得乐趣，就不是在浪费时间。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_1.21.100%2FDevelopment_versions}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Fcleanroom}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/zlI99KCV/2dc57cd58ce00b391bd502994f0ac162e851f4c6.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/rPBDo9Bk/657bd23a3f4b1e2927dbb0b3182d9aa34c2963ba_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="itens supremos" event="url{https://modrinth.com/mod/itens-supremos}"
+...button-text text="Fast Leaf Decay Datapack, Treetops Clear in Seconds" event="url{https://modrinth.com/mod/fast-leaf-decay-datapack}"
 
-👤 rosianesdoc1 | 📅 2026-11-02
+👤 MD22 | 📅 2026-11-03
 
-A mod that adds colored (supreme) items is in beta.
+Floating treetops are gone seconds after the last log breaks. Vanilla drops, placed leaves untouched
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/itens-supremos/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/itens-supremos}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fast-leaf-decay-datapack/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fast-leaf-decay-datapack}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/uSJcczT3/813b8a91d81c8de71cee5ce56a9d49e8563b5d96_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/93YCaBJj/0133dee8aca77dd18ace7413714285dc62cede04_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Sleep Vote Skip" event="url{https://modrinth.com/mod/sleep-vote-skip}"
+...button-text text="Modest Meals" event="url{https://modrinth.com/mod/modest-meals}"
 
-👤 Aether_254 | 📅 2026-11-02
+👤 evanbones | 📅 2026-11-03
 
-When a player goes to sleep, a vote to skip the night is automatically started. Players can cast the
+A vanilla enhancing mod that aims to expand the food system with dynamic meals, while also adding st
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sleep-vote-skip/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sleep-vote-skip}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/modest-meals/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/modest-meals}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/bjAG7o20/18e8152de0f0eb84a3150f40fad5fb7ef79cafdf_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/VUdrrq5n/0a9ddb22f56ecefba286ce851d338dc1e1e15b4f.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Joe Cools Awesome mod" event="url{https://modrinth.com/mod/joe-cools-awesome-mod}"
+...button-text text="End City Slow Falling" event="url{https://modrinth.com/mod/end-city-slow-falling}"
 
-👤 JoeCool6769 | 📅 2026-11-02
+👤 TheKingOfNerds | 📅 2026-11-03
 
-This mod adds cheese, poo, among us, and more.
+Being inside an End City gives you the Slow Falling effect
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/joe-cools-awesome-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/joe-cools-awesome-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/end-city-slow-falling/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/end-city-slow-falling}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Fzut8OrS/7c4dcabf74661774f47b0d4026a6a8fe46504548_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Xj5CwacZ/e6cf82df0d0a8b9d2b73939975718f30f115fefa.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="SkinPowers" event="url{https://modrinth.com/mod/skinpowers}"
+...button-text text="SLT's Redstone Golems" event="url{https://modrinth.com/mod/redstone-golem}"
 
-👤 Yankalan | 📅 2026-11-02
+👤 sltworld | 📅 2026-11-03
 
-Gain unique powers based on your character skin! Upgrade your abilities with XP, quickly switch betw
+The Redstone Golems & Monstrosities from Minecraft Dungeons, brought into Minecraft!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/skinpowers/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/skinpowers}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/redstone-golem/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/redstone-golem}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/oME3ymTz/fd4df8be9107eb48d36cf6757973a42dabc5a832_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/VauQJgUP/0e277973a5b543aea0551f3fb835435f7317a25e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Book of Dragons: Playable Dragons addon" event="url{https://modrinth.com/mod/bodplayabledragons}"
+...button-text text="combat display" event="url{https://modrinth.com/mod/combat-display}"
 
-👤 V_Locke | 📅 2026-11-02
+👤 emretmekvar | 📅 2026-11-03
 
-Play AS a wild Book of Dragons dragon — full genetics, real flight. Possess a wild dragon, hunt, dig
+display kills, deaths, best combo, kill streak.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bodplayabledragons/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bodplayabledragons}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/combat-display/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/combat-display}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Play AS a wild Book of Dragons dragon — full genetics, real flight. Possess a 
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition 1.21.100/Development versions](https://minecraft.wiki/Bedrock_Edition_1.21.100%2FDevelopment_versions)
+📖 **Wiki 推荐**：[Commands/cleanroom](https://minecraft.wiki/Commands%2Fcleanroom)
 
-⏰ 更新时间：2026-11-02 21:38:41
+⏰ 更新时间：2026-11-03 06:21:31
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
