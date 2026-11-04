@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-03 19:23:24
+// 生成时间：2026-11-04 05:55:25
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"是未来我所有期待。"*
+> *"只是，想要做些什么而已。 觉得不做些什么就会死掉而已。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{是未来我所有期待。}"
+...button-text text="📋 复制" event="copy{只是，想要做些什么而已。 觉得不做些什么就会死掉而已。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Entity_format%2FVehicle}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Ftag}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6BzAKysS/2ab9fe0cc0d4226e1d09c51f8c5fb8bdb150c153_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/bLT3xd6G/d2937662ab70eacd3a5da5a82ff2cd9dedfc5870_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="tiramocos mod" event="url{https://modrinth.com/mod/tiramocos-mod}"
+...button-text text="Practical Enchantments" event="url{https://modrinth.com/mod/practical-enchantments}"
 
-👤 pukkaten83 | 📅 2026-11-03
+👤 Huziyang520 | 📅 2026-11-04
 
-this mod adds a variety of small tubes to shoot different projectiles from, good as a side mod.
+This mod adds a series of imaginative mods.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tiramocos-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tiramocos-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/practical-enchantments/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/practical-enchantments}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/EDGCbvBp/6a1c5fe6f40dd8fb0aad4dad8f8f027242b03f61.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/NCvzMYfG/a69d42157bf0cd4e6275d86ed9dc69ac84770511_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Project Moon Equipments Mod" event="url{https://modrinth.com/mod/pme}"
+...button-text text="DistantWynn" event="url{https://modrinth.com/mod/distantwynn}"
 
-👤 AyinLobotomy | 📅 2026-11-03
+👤 tunaflsh | 📅 2026-11-04
 
-Adds equipment featured in Project Moon titles.
+Dynamically adjust the visible region based on the player's location in Wynncraft.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pme/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pme}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/distantwynn/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/distantwynn}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/erjWxTNw/a0f870ea3bad1fe31536faccd02e913f73706711_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/2Hv7tWPF/7edadb47bab34bb7547cba744f442f25ee38d7d2.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Kama's Iron Man" event="url{https://modrinth.com/mod/kamas-iron-man}"
+...button-text text="red stone only door" event="url{https://modrinth.com/mod/red-stone-only-door}"
 
-👤 kamari11k | 📅 2026-11-03
+👤 catmaniscoollollol | 📅 2026-11-04
 
-A superhero addon for Palladium that adds content from the CGI-animated series Iron Man: Armored Adv
+It add (a redston door, crafting is 5 spruce planked and one iron)
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kamas-iron-man/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kamas-iron-man}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/red-stone-only-door/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/red-stone-only-door}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Am56K0XE/ce10f2c7e63b7c195f2d9bdc65d9dc504526be9e.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/5NOEHlxA/43e5ecb005d9f3301efe00417b37a45512fd4e36_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MC Studio" event="url{https://modrinth.com/mod/mc-studio}"
+...button-text text="Submerged Blocks" event="url{https://modrinth.com/mod/submerged-blocks}"
 
-👤 Yelo_AvecSonChapo | 📅 2026-11-03
+👤 qweren | 📅 2026-11-04
 
-A Minecraft mod that adds a fully functional DAW, letting you compose and play music directly in-gam
+Lets you place carpets and snow under non-full blocks!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mc-studio/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mc-studio}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/submerged-blocks/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/submerged-blocks}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/L8JAsBfC/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8LARQwxN/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Inventory Vault" event="url{https://modrinth.com/mod/inventoryvault}"
+...button-text text="Preset Binds" event="url{https://modrinth.com/mod/preset-binds}"
 
-👤 MintyMC.xyz | 📅 2026-11-03
+👤 1Mezo | 📅 2026-11-04
 
-Automatic and op-triggered inventory and echest snapshots
+Switch your entire Minecraft keybind setup in seconds.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/inventoryvault/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/inventoryvault}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/preset-binds/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/preset-binds}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Automatic and op-triggered inventory and echest snapshots
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Entity format/Vehicle](https://minecraft.wiki/Entity_format%2FVehicle)
+📖 **Wiki 推荐**：[Commands/tag](https://minecraft.wiki/Commands%2Ftag)
 
-⏰ 更新时间：2026-11-03 19:23:24
+⏰ 更新时间：2026-11-04 05:55:25
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
