@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-04 05:55:25
+// 生成时间：2026-11-04 19:38:43
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.AutumnChina_ZH-CN7665959692_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.StileCrossing_ZH-CN9811465935_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"只是，想要做些什么而已。 觉得不做些什么就会死掉而已。"*
+> *"物质与意识的辩证关系：物质决定意识，意识反作用于物质。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{只是，想要做些什么而已。 觉得不做些什么就会死掉而已。}"
+...button-text text="📋 复制" event="copy{物质与意识的辩证关系：物质决定意识，意识反作用于物质。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Ftag}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.19_Pre-release_3}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,82 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/bLT3xd6G/d2937662ab70eacd3a5da5a82ff2cd9dedfc5870_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/C7knFbss/6a0f34f6847ab1196bae23eaf5b6310244930e0f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Practical Enchantments" event="url{https://modrinth.com/mod/practical-enchantments}"
+...button-text text="Field Emitters" event="url{https://modrinth.com/mod/field-emitters}"
 
-👤 Huziyang520 | 📅 2026-11-04
+👤 ZeroTheAbsolute | 📅 2026-11-04
 
-This mod adds a series of imaginative mods.
+Terrain-following forcefields with entity filters, detection output and a handheld Field Tuner.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/practical-enchantments/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/practical-enchantments}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/field-emitters/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/field-emitters}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/NCvzMYfG/a69d42157bf0cd4e6275d86ed9dc69ac84770511_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/i4qAgTBB/5da966bc805c719a80fe8718163cd8b9cd0a1b0a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="DistantWynn" event="url{https://modrinth.com/mod/distantwynn}"
+...button-text text="Rise of The PKG Islands" event="url{https://modrinth.com/mod/rise-of-the-pkg-islands}"
 
-👤 tunaflsh | 📅 2026-11-04
+👤 PoyrazPKG | 📅 2026-11-04
 
-Dynamically adjust the visible region based on the player's location in Wynncraft.
+Rise of The PKG Islands is a Minecraft mod inspired by How to Train Your Dragon
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/distantwynn/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/distantwynn}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/rise-of-the-pkg-islands/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/rise-of-the-pkg-islands}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/2Hv7tWPF/7edadb47bab34bb7547cba744f442f25ee38d7d2.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/QDVUKssz/d9d1b7a0f7f5eddd7b7e3ce4a94fcd69b052d6ad_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="red stone only door" event="url{https://modrinth.com/mod/red-stone-only-door}"
+...button-text text="Strange Statue" event="url{https://modrinth.com/mod/strangestatue}"
 
-👤 catmaniscoollollol | 📅 2026-11-04
+👤 Speedythereal | 📅 2026-11-04
 
-It add (a redston door, crafting is 5 spruce planked and one iron)
+This mod ads an strange statue to the game...
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/red-stone-only-door/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/red-stone-only-door}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/strangestatue/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/strangestatue}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/5NOEHlxA/43e5ecb005d9f3301efe00417b37a45512fd4e36_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/LYyD2Cq3/e1f74df5e438eead167f57ead6419d28aaf66403_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Submerged Blocks" event="url{https://modrinth.com/mod/submerged-blocks}"
+...button-text text="dupe mod" event="url{https://modrinth.com/mod/dupem0d}"
 
-👤 qweren | 📅 2026-11-04
+👤 stormbeens@gmail.com | 📅 2026-11-04
 
-Lets you place carpets and snow under non-full blocks!
+Het voegt /dupe command toe je kan ook nog 1-64 erachter dacht ik.
+hij maakt een config aan daar kan
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/submerged-blocks/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/submerged-blocks}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dupem0d/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dupem0d}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8LARQwxN/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/JA1pGzZa/b6d89c6326a433886f72fa9feeff986fe2133e3b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Preset Binds" event="url{https://modrinth.com/mod/preset-binds}"
+...button-text text="Better Mob Combat Forked" event="url{https://modrinth.com/mod/better-mob-combat-forked}"
 
-👤 1Mezo | 📅 2026-11-04
+👤 x7bbbbbbb | 📅 2026-11-04
 
-Switch your entire Minecraft keybind setup in seconds.
+An add-on for Better Combat that allows it to work with (humanoid) mobs. A fork for 1.21.1 with smal
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/preset-binds/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/preset-binds}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-mob-combat-forked/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-mob-combat-forked}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +174,14 @@ Switch your entire Minecraft keybind setup in seconds.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：泛舟如画秋林
-© 五彩落羽杉间划船的人们，宣城，安徽省，中国 (© Jackal Pan/Getty Images)
+🖼️ 壁纸：向山巅再迈一步
+© 石墙边的木制翻越梯，黑岩，湖区，英格兰 (© Alex Treadway/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Commands/tag](https://minecraft.wiki/Commands%2Ftag)
+📖 **Wiki 推荐**：[Java Edition 1.19 Pre-release 3](https://minecraft.wiki/Java_Edition_1.19_Pre-release_3)
 
-⏰ 更新时间：2026-11-04 05:55:25
+⏰ 更新时间：2026-11-04 19:38:43
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
