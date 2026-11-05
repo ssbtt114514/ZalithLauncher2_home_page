@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-05 06:18:39
+// 生成时间：2026-11-05 19:48:20
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.StileCrossing_ZH-CN9811465935_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.PipiwaiTrail_ZH-CN1811194311_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"麻雀妈妈给小麻雀扎头发，问小麻雀要什么发型，小麻雀说：啾啾。"*
+> *"人类一思考，上帝就发笑。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{麻雀妈妈给小麻雀扎头发，问小麻雀要什么发型，小麻雀说：啾啾。}"
+...button-text text="📋 复制" event="copy{人类一思考，上帝就发笑。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_missing_tile_texture_uses}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Legacy_Console_Edition_version_history}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/fHOeh5nk/eb41a2a4302ee55d6098d18575b6591dc354ad1c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/yluNPPZM/7ce548c71da150fcf68419ed16ced375827ece67.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="FBA - Flashback For Android" event="url{https://modrinth.com/mod/flashback-redroided}"
+...button-text text="Unvapourized" event="url{https://modrinth.com/mod/unvapourized}"
 
-👤 WhalterMC | 📅 2026-11-05
+👤 Erapops | 📅 2026-11-05
 
-Android compatibility patches for Flashback
+Simple mod that adds ability to place water in the nether.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/flashback-redroided/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/flashback-redroided}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/unvapourized/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/unvapourized}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/SCL0Rszg/e91b7883d09bacd96e5aa15cfb95e83bf8d2084a.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/n2o0G7N7/bdac317c3300a489db08acd4382c8cb9b7c981f6.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="FESThrough" event="url{https://modrinth.com/mod/festhrough}"
+...button-text text="Fabristrate" event="url{https://modrinth.com/mod/fabristrate}"
 
-👤 FiLKoNd | 📅 2026-11-05
+👤 Infinities | 📅 2026-11-05
 
-A QOL mod that allows items to interact while ignoring entity hitboxes.
+Registration and Datagen library mod
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/festhrough/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/festhrough}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fabristrate/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fabristrate}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/hR4BwPwM/f54e39a1ab59076ded992f1663a179f26d945bd8_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/DX69PjZd/6eead2482dc3a33801639f57cf0b2e2835b7cae1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Auto Totem" event="url{https://modrinth.com/mod/autototemr}"
+...button-text text="Create: Netherracked" event="url{https://modrinth.com/mod/create-netherracked}"
 
-👤 ERTZ | 📅 2026-11-05
+👤 Jakobify | 📅 2026-11-05
 
-Auto totem is a tool that helps players use totem of undying.
+Blackstone + Lava Fan -> Netherrack -> Blaze Cake
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/autototemr/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/autototemr}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-netherracked/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-netherracked}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/JoioCpsG/dedc128c628cda40327bac440dce89d949f7be88_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/FIntIdyK/6f09e9bb8907e9c1ce430cbbbe8c45bb3a233d34_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Old PVP" event="url{https://modrinth.com/mod/old-pvp-legen_t}"
+...button-text text="Kane Apollo's Horse Equipment API" event="url{https://modrinth.com/mod/kane-apollos-horse-equipment-api}"
 
-👤 Legen_T | 📅 2026-11-05
+👤 KaneApollo | 📅 2026-11-05
 
-Now You Can Finally Play New Minecraft While Have Old PVP
+Kane Apollo's Horse Equipment API allows the mounts in Wings, Horns, and Hooves: The Ulimate Unicorn
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/old-pvp-legen_t/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/old-pvp-legen_t}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kane-apollos-horse-equipment-api/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kane-apollos-horse-equipment-api}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7tdgvNEA/016d27fcd4509f20dd5633c3139fd1b2ea95b742.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/LblPqZEJ/4ccd3d8b4aed12e67e9010b5c8342adfb5951991.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="It Fills Everything" event="url{https://modrinth.com/mod/it-fills-everything}"
+...button-text text="Sunset Torch" event="url{https://modrinth.com/mod/sunset-torch}"
 
-👤 HoneyStudio | 📅 2026-11-05
+👤 ebost2004 | 📅 2026-11-05
 
-This poject adds puzzle blocks that fill all the air with themselves
+Environmentally friendly torches that dim to embers in daylight and blaze back to full flame at nigh
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/it-fills-everything/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/it-fills-everything}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sunset-torch/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sunset-torch}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ This poject adds puzzle blocks that fill all the air with themselves
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：向山巅再迈一步
-© 石墙边的木制翻越梯，黑岩，湖区，英格兰 (© Alex Treadway/Getty Images)
+🖼️ 壁纸：穿越毛伊岛的绿色隧道
+© 竹林，皮皮维小径，哈莱亚卡拉国家公园，毛伊岛，夏威夷州，美国 (© MNStudio/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition missing tile texture uses](https://minecraft.wiki/Bedrock_Edition_missing_tile_texture_uses)
+📖 **Wiki 推荐**：[Legacy Console Edition version history](https://minecraft.wiki/Legacy_Console_Edition_version_history)
 
-⏰ 更新时间：2026-11-05 06:18:39
+⏰ 更新时间：2026-11-05 19:48:20
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
