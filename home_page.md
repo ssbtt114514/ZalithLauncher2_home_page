@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-04 19:38:43
+// 生成时间：2026-11-05 06:18:39
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"物质与意识的辩证关系：物质决定意识，意识反作用于物质。"*
+> *"麻雀妈妈给小麻雀扎头发，问小麻雀要什么发型，小麻雀说：啾啾。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{物质与意识的辩证关系：物质决定意识，意识反作用于物质。}"
+...button-text text="📋 复制" event="copy{麻雀妈妈给小麻雀扎头发，问小麻雀要什么发型，小麻雀说：啾啾。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.19_Pre-release_3}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_missing_tile_texture_uses}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,82 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/C7knFbss/6a0f34f6847ab1196bae23eaf5b6310244930e0f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/fHOeh5nk/eb41a2a4302ee55d6098d18575b6591dc354ad1c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Field Emitters" event="url{https://modrinth.com/mod/field-emitters}"
+...button-text text="FBA - Flashback For Android" event="url{https://modrinth.com/mod/flashback-redroided}"
 
-👤 ZeroTheAbsolute | 📅 2026-11-04
+👤 WhalterMC | 📅 2026-11-05
 
-Terrain-following forcefields with entity filters, detection output and a handheld Field Tuner.
+Android compatibility patches for Flashback
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/field-emitters/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/field-emitters}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/flashback-redroided/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/flashback-redroided}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/i4qAgTBB/5da966bc805c719a80fe8718163cd8b9cd0a1b0a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/SCL0Rszg/e91b7883d09bacd96e5aa15cfb95e83bf8d2084a.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Rise of The PKG Islands" event="url{https://modrinth.com/mod/rise-of-the-pkg-islands}"
+...button-text text="FESThrough" event="url{https://modrinth.com/mod/festhrough}"
 
-👤 PoyrazPKG | 📅 2026-11-04
+👤 FiLKoNd | 📅 2026-11-05
 
-Rise of The PKG Islands is a Minecraft mod inspired by How to Train Your Dragon
+A QOL mod that allows items to interact while ignoring entity hitboxes.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/rise-of-the-pkg-islands/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/rise-of-the-pkg-islands}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/festhrough/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/festhrough}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/QDVUKssz/d9d1b7a0f7f5eddd7b7e3ce4a94fcd69b052d6ad_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/hR4BwPwM/f54e39a1ab59076ded992f1663a179f26d945bd8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Strange Statue" event="url{https://modrinth.com/mod/strangestatue}"
+...button-text text="Auto Totem" event="url{https://modrinth.com/mod/autototemr}"
 
-👤 Speedythereal | 📅 2026-11-04
+👤 ERTZ | 📅 2026-11-05
 
-This mod ads an strange statue to the game...
+Auto totem is a tool that helps players use totem of undying.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/strangestatue/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/strangestatue}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/autototemr/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/autototemr}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/LYyD2Cq3/e1f74df5e438eead167f57ead6419d28aaf66403_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/JoioCpsG/dedc128c628cda40327bac440dce89d949f7be88_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="dupe mod" event="url{https://modrinth.com/mod/dupem0d}"
+...button-text text="Old PVP" event="url{https://modrinth.com/mod/old-pvp-legen_t}"
 
-👤 stormbeens@gmail.com | 📅 2026-11-04
+👤 Legen_T | 📅 2026-11-05
 
-Het voegt /dupe command toe je kan ook nog 1-64 erachter dacht ik.
-hij maakt een config aan daar kan
+Now You Can Finally Play New Minecraft While Have Old PVP
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dupem0d/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dupem0d}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/old-pvp-legen_t/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/old-pvp-legen_t}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/JA1pGzZa/b6d89c6326a433886f72fa9feeff986fe2133e3b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/7tdgvNEA/016d27fcd4509f20dd5633c3139fd1b2ea95b742.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Better Mob Combat Forked" event="url{https://modrinth.com/mod/better-mob-combat-forked}"
+...button-text text="It Fills Everything" event="url{https://modrinth.com/mod/it-fills-everything}"
 
-👤 x7bbbbbbb | 📅 2026-11-04
+👤 HoneyStudio | 📅 2026-11-05
 
-An add-on for Better Combat that allows it to work with (humanoid) mobs. A fork for 1.21.1 with smal
+This poject adds puzzle blocks that fill all the air with themselves
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/better-mob-combat-forked/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/better-mob-combat-forked}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/it-fills-everything/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/it-fills-everything}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -179,9 +178,9 @@ An add-on for Better Combat that allows it to work with (humanoid) mobs. A fork 
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 1.19 Pre-release 3](https://minecraft.wiki/Java_Edition_1.19_Pre-release_3)
+📖 **Wiki 推荐**：[Bedrock Edition missing tile texture uses](https://minecraft.wiki/Bedrock_Edition_missing_tile_texture_uses)
 
-⏰ 更新时间：2026-11-04 19:38:43
+⏰ 更新时间：2026-11-05 06:18:39
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
