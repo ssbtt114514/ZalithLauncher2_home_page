@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-06 06:13:17
+// 生成时间：2026-11-06 19:13:51
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.PipiwaiTrail_ZH-CN1811194311_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.DakotaBison_ZH-CN2302503868_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"就此拂衣去，水覆旧荣径。"*
+> *"或许只需一滴露水，便能守护这绽放的花朵。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{就此拂衣去，水覆旧荣径。}"
+...button-text text="📋 复制" event="copy{或许只需一滴露水，便能守护这绽放的花朵。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minotaur}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft_Blast}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/YeDmh9lX/e4e6475e4f09badd2a7bf9b38cf3e9958649a715_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/sqFvGwo8/d217ad18ba4174526f24c8a246b58b83f7413122.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="GtbStructures" event="url{https://modrinth.com/mod/gtbstructures}"
+...button-text text="Precsence signals" event="url{https://modrinth.com/mod/precsence-signals}"
 
-👤 _iqcx | 📅 2026-11-06
+👤 TOP_G2026 | 📅 2026-11-06
 
-Utility mod for the Hypixel minigame Guess The Build.
+Presence Signals makes multiplayer activity visible without exposing chat contents or inventory cont
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/gtbstructures/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/gtbstructures}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/precsence-signals/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/precsence-signals}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Gwl4VXlb/cc6506f5642c09c66875073514e46fba1cf4356d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/EKfeICoL/2a0e344c143f3939b238e18dc5752a4b6e202585.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="CBC Enchanced Shells [Create Big Cannons]" event="url{https://modrinth.com/mod/cbc-enchanced-shells-create-big-cannons}"
+...button-text text="Distant Beacons" event="url{https://modrinth.com/mod/distant-beacons}"
 
-👤 Arginou | 📅 2026-11-05
+👤 xewowa4144 | 📅 2026-11-06
 
-A massive arsenal expansion for Create Big Cannons — 79 progressive shells, 5 upgraded powder charge
+Always render Beacon Beams. See your beacons beam from a million blocks away, no matter the render d
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cbc-enchanced-shells-create-big-cannons/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cbc-enchanced-shells-create-big-cannons}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/distant-beacons/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/distant-beacons}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/W7PYrEwe/91e15741865a4d0e48a117c44347220415129d22.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/CK88tdzw/1b11a617c46a42ee4c38a9d622fc8b8046e362f5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="ruby craft" event="url{https://modrinth.com/mod/ruby-craft-satiar821}"
+...button-text text="Take It [Fixed] — Fork" event="url{https://modrinth.com/mod/take-it-fixed-fork}"
 
-👤 satiar821 | 📅 2026-11-05
+👤 AminAA | 📅 2026-11-06
 
-Ruby Mod introduces a new ruby ore that generates at iron-like depths with slightly reduced rarity. 
+You can now customize the keybind used for item pickup.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ruby-craft-satiar821/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ruby-craft-satiar821}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/take-it-fixed-fork/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/take-it-fixed-fork}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/OyCBXAGH/cf44e16d983c7fb572e7ae9432b533638312a6f6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/eoRxaJeI/0aa45f21a3a53dd4d056fa7cc70b02f9eafa4b89_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MContain" event="url{https://modrinth.com/mod/mcontain}"
+...button-text text="Alex's Chili Flavoured" event="url{https://modrinth.com/mod/alexs-chili-flavoured}"
 
-👤 xkat | 📅 2026-11-05
+👤 1MinuteMinecraft | 📅 2026-11-06
 
-A server-side Fabric mod for player containment.
+[W.I.P] No more punshing trees! More depth for the early game, craftable enchants, new armor/tools, 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mcontain/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mcontain}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/alexs-chili-flavoured/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/alexs-chili-flavoured}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/VJGcTk0D/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Cc5aRToz/1efa36db5cac1729b0f13e22eb93cb221342eaa1.jpeg" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Custom Shields and Trims" event="url{https://modrinth.com/mod/csat}"
+...button-text text="Biome Border Highlighter" event="url{https://modrinth.com/mod/biome-border-highlighter}"
 
-👤 astrolddd | 📅 2026-11-05
+👤 _RamaLlama | 📅 2026-11-06
 
-It allows the user to customize the banner and the appearance of the shield along with the trims on 
+A very simple biome border highlighter which makes biome border glow that you stand inside.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/csat/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/csat}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/biome-border-highlighter/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/biome-border-highlighter}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ It allows the user to customize the banner and the appearance of the shield alon
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：穿越毛伊岛的绿色隧道
-© 竹林，皮皮维小径，哈莱亚卡拉国家公园，毛伊岛，夏威夷州，美国 (© MNStudio/Getty Images)
+🖼️ 壁纸：归来的草原巨兽
+© 草原上的一头野牛，西奥多·罗斯福国家公园，北达科他州，美国 (© Tandem Stock/Adobe Stock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Minotaur](https://minecraft.wiki/Minotaur)
+📖 **Wiki 推荐**：[Minecraft Blast](https://minecraft.wiki/Minecraft_Blast)
 
-⏰ 更新时间：2026-11-06 06:13:17
+⏰ 更新时间：2026-11-06 19:13:51
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
