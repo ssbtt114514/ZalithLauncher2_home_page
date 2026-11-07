@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-07 05:40:53
+// 生成时间：2026-11-07 17:41:28
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.DakotaBison_ZH-CN2302503868_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.DiwaliLamps_ZH-CN2462894749_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"求求你，不要对我这么温柔！"*
+> *"没有期盼就不会出现奇迹。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{求求你，不要对我这么温柔！}"
+...button-text text="📋 复制" event="copy{没有期盼就不会出现奇迹。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_25w16a}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Powder}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/hXdKK1GJ/61dac9f703ef394fc0046809e314c2d23813de2f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/W3znNwFL/ec29e43ef071a0e69b4a8a522298ee2e19f3230c.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="LifeTweaks" event="url{https://modrinth.com/mod/lifetweaks}"
+...button-text text="voidarion" event="url{https://modrinth.com/mod/voidarion}"
 
-👤 OhBubba | 📅 2026-11-07
+👤 _r3don | 📅 2026-11-07
 
-A customizable all-in-one Minecraft utility mod.
+a mod all about random and crazy stuff
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lifetweaks/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lifetweaks}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/voidarion/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/voidarion}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Q5qbfLpt/9b3052acb72154eff93391e88709597951468652_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/GsWAmsFA/28ce66c8eaddff629eebb3f6ff6f39bef43c6fc2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="CityWorks" event="url{https://modrinth.com/mod/cityworks}"
+...button-text text="AdvancedChatHUD Reforged" event="url{https://modrinth.com/mod/advancedchathud-reforged}"
 
-👤 FormaWorks | 📅 2026-11-07
+👤 flyingfinger.te | 📅 2026-11-07
 
-CityWorks adds a ton of additions for your city. Such as scalable street lights, customizable highwa
+Multiple movable chat windows and tabs (HUD) for AdvancedChat. Refurbished Minecraft 26.x version of
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cityworks/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cityworks}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/advancedchathud-reforged/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/advancedchathud-reforged}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/GcDZGLtk/eed44d398274d4e164153476d729a015d5bf3e24_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/87wbER3c/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Shulker NO Barrier TP" event="url{https://modrinth.com/mod/shulker-no-barrier-tp}"
+...button-text text="Yttrisium's Tiertagger" event="url{https://modrinth.com/mod/yttrisiums-tiertagger}"
 
-👤 Tacodragon_ | 📅 2026-11-07
+👤 yttrisium | 📅 2026-11-07
 
-Prevents shulkers from teleportings onto barriers
+This is a simple tiertagger that shows tierlist data and tiers ingame. made it for my own tierlist p
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/shulker-no-barrier-tp/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/shulker-no-barrier-tp}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/yttrisiums-tiertagger/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/yttrisiums-tiertagger}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wwqN2zTc/1e0fad04b9b78f9dc2698cf2027f4c8413716d01_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/estMuX1w/3e0b0f372f69f0f2c16e5c6315325df806e59d1e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Squint Your Eyes" event="url{https://modrinth.com/mod/squint-your-eyes}"
+...button-text text="Schizophreniс" event="url{https://modrinth.com/mod/schizophreni}"
 
-👤 TommonPavou | 📅 2026-11-07
+👤 TNK | 📅 2026-11-07
 
-Simulate natural squinting for a highly immersive zoom feature!
+You suffer from schizophrenia, take your pills so that you feel better
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/squint-your-eyes/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/squint-your-eyes}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/schizophreni/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/schizophreni}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/4iHZoSb8/eb73ace15c1c315b7849f8717cc5e03828e8dde5.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ZokM5k8n/dc35e8c9edd16790738f743143a2c0d1d79e26a8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Beyond" event="url{https://modrinth.com/mod/beyonduniverse}"
+...button-text text="Items Expanded" event="url{https://modrinth.com/mod/items-expanded}"
 
-👤 AstraIvy | 📅 2026-11-07
+👤 Not_It_Cal | 📅 2026-11-07
 
-This is an extremly experimental project made for Beyond Universe.
+This mod adds some fun BUT expensive items to minecraft which all fit into the vanilla crafting styl
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/beyonduniverse/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/beyonduniverse}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/items-expanded/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/items-expanded}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ This is an extremly experimental project made for Beyond Universe.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：归来的草原巨兽
-© 草原上的一头野牛，西奥多·罗斯福国家公园，北达科他州，美国 (© Tandem Stock/Adobe Stock)
+🖼️ 壁纸：光芒四射的节日
+© 排灯节灯笼，孟买，马哈拉施特拉邦，印度 (© Dinodia Photo/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 25w16a](https://minecraft.wiki/Java_Edition_25w16a)
+📖 **Wiki 推荐**：[Powder](https://minecraft.wiki/Powder)
 
-⏰ 更新时间：2026-11-07 05:40:53
+⏰ 更新时间：2026-11-07 17:41:28
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
