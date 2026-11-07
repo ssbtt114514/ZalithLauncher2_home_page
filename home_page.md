@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-06 19:13:51
+// 生成时间：2026-11-07 05:40:53
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"或许只需一滴露水，便能守护这绽放的花朵。"*
+> *"求求你，不要对我这么温柔！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{或许只需一滴露水，便能守护这绽放的花朵。}"
+...button-text text="📋 复制" event="copy{求求你，不要对我这么温柔！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft_Blast}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_25w16a}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/sqFvGwo8/d217ad18ba4174526f24c8a246b58b83f7413122.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/hXdKK1GJ/61dac9f703ef394fc0046809e314c2d23813de2f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Precsence signals" event="url{https://modrinth.com/mod/precsence-signals}"
+...button-text text="LifeTweaks" event="url{https://modrinth.com/mod/lifetweaks}"
 
-👤 TOP_G2026 | 📅 2026-11-06
+👤 OhBubba | 📅 2026-11-07
 
-Presence Signals makes multiplayer activity visible without exposing chat contents or inventory cont
+A customizable all-in-one Minecraft utility mod.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/precsence-signals/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/precsence-signals}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lifetweaks/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lifetweaks}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/EKfeICoL/2a0e344c143f3939b238e18dc5752a4b6e202585.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Q5qbfLpt/9b3052acb72154eff93391e88709597951468652_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Distant Beacons" event="url{https://modrinth.com/mod/distant-beacons}"
+...button-text text="CityWorks" event="url{https://modrinth.com/mod/cityworks}"
 
-👤 xewowa4144 | 📅 2026-11-06
+👤 FormaWorks | 📅 2026-11-07
 
-Always render Beacon Beams. See your beacons beam from a million blocks away, no matter the render d
+CityWorks adds a ton of additions for your city. Such as scalable street lights, customizable highwa
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/distant-beacons/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/distant-beacons}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cityworks/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cityworks}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/CK88tdzw/1b11a617c46a42ee4c38a9d622fc8b8046e362f5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/GcDZGLtk/eed44d398274d4e164153476d729a015d5bf3e24_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Take It [Fixed] — Fork" event="url{https://modrinth.com/mod/take-it-fixed-fork}"
+...button-text text="Shulker NO Barrier TP" event="url{https://modrinth.com/mod/shulker-no-barrier-tp}"
 
-👤 AminAA | 📅 2026-11-06
+👤 Tacodragon_ | 📅 2026-11-07
 
-You can now customize the keybind used for item pickup.
+Prevents shulkers from teleportings onto barriers
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/take-it-fixed-fork/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/take-it-fixed-fork}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/shulker-no-barrier-tp/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/shulker-no-barrier-tp}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/eoRxaJeI/0aa45f21a3a53dd4d056fa7cc70b02f9eafa4b89_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wwqN2zTc/1e0fad04b9b78f9dc2698cf2027f4c8413716d01_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Alex's Chili Flavoured" event="url{https://modrinth.com/mod/alexs-chili-flavoured}"
+...button-text text="Squint Your Eyes" event="url{https://modrinth.com/mod/squint-your-eyes}"
 
-👤 1MinuteMinecraft | 📅 2026-11-06
+👤 TommonPavou | 📅 2026-11-07
 
-[W.I.P] No more punshing trees! More depth for the early game, craftable enchants, new armor/tools, 
+Simulate natural squinting for a highly immersive zoom feature!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/alexs-chili-flavoured/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/alexs-chili-flavoured}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/squint-your-eyes/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/squint-your-eyes}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Cc5aRToz/1efa36db5cac1729b0f13e22eb93cb221342eaa1.jpeg" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/4iHZoSb8/eb73ace15c1c315b7849f8717cc5e03828e8dde5.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Biome Border Highlighter" event="url{https://modrinth.com/mod/biome-border-highlighter}"
+...button-text text="Beyond" event="url{https://modrinth.com/mod/beyonduniverse}"
 
-👤 _RamaLlama | 📅 2026-11-06
+👤 AstraIvy | 📅 2026-11-07
 
-A very simple biome border highlighter which makes biome border glow that you stand inside.
+This is an extremly experimental project made for Beyond Universe.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/biome-border-highlighter/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/biome-border-highlighter}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/beyonduniverse/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/beyonduniverse}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ A very simple biome border highlighter which makes biome border glow that you st
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Minecraft Blast](https://minecraft.wiki/Minecraft_Blast)
+📖 **Wiki 推荐**：[Java Edition 25w16a](https://minecraft.wiki/Java_Edition_25w16a)
 
-⏰ 更新时间：2026-11-06 19:13:51
+⏰ 更新时间：2026-11-07 05:40:53
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
