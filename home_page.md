@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-07 17:41:28
+// 生成时间：2026-11-08 05:43:41
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"没有期盼就不会出现奇迹。"*
+> *"アートは最高です！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{没有期盼就不会出现奇迹。}"
+...button-text text="📋 复制" event="copy{アートは最高です！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Powder}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Fclear}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/W3znNwFL/ec29e43ef071a0e69b4a8a522298ee2e19f3230c.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/lxS2beOo/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="voidarion" event="url{https://modrinth.com/mod/voidarion}"
+...button-text text="Plugin Revealer" event="url{https://modrinth.com/mod/plugin-revealer}"
 
-👤 _r3don | 📅 2026-11-07
+👤 noamharel2103 | 📅 2026-11-08
 
-a mod all about random and crazy stuff
+See exactly which plugins a Minecraft server is running, even ones it tries to hide.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/voidarion/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/voidarion}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/plugin-revealer/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/plugin-revealer}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/GsWAmsFA/28ce66c8eaddff629eebb3f6ff6f39bef43c6fc2_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ENtX8HgA/2a7b6156583278774772edf32924da352fcb2a40.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="AdvancedChatHUD Reforged" event="url{https://modrinth.com/mod/advancedchathud-reforged}"
+...button-text text="CheckHacks Fabric" event="url{https://modrinth.com/mod/checkhacks-fabric-port}"
 
-👤 flyingfinger.te | 📅 2026-11-07
+👤 bananaman7582 | 📅 2026-11-08
 
-Multiple movable chat windows and tabs (HUD) for AdvancedChat. Refurbished Minecraft 26.x version of
+A simple port of the Checkhacks plugin to fabric 26.2
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/advancedchathud-reforged/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/advancedchathud-reforged}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/checkhacks-fabric-port/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/checkhacks-fabric-port}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/87wbER3c/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/HNZMeozE/53d460459907bb8da266281ab50758b6159dc030_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Yttrisium's Tiertagger" event="url{https://modrinth.com/mod/yttrisiums-tiertagger}"
+...button-text text="Hydrogen Performance" event="url{https://modrinth.com/mod/hydrogen-performance}"
 
-👤 yttrisium | 📅 2026-11-07
+👤 admin43 | 📅 2026-11-08
 
-This is a simple tiertagger that shows tierlist data and tiers ingame. made it for my own tierlist p
+Performance mod. It measures your CPU, GPU, monitor and frame times at runtime, then tunes core affi
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/yttrisiums-tiertagger/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/yttrisiums-tiertagger}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hydrogen-performance/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hydrogen-performance}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/estMuX1w/3e0b0f372f69f0f2c16e5c6315325df806e59d1e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/WgQw9OQR/2c30c8876b5339ff4c03d714d9bc2f18c38f1d89.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Schizophreniс" event="url{https://modrinth.com/mod/schizophreni}"
+...button-text text="Recipe Remainders" event="url{https://modrinth.com/mod/recipe-remainders}"
 
-👤 TNK | 📅 2026-11-07
+👤 Henness | 📅 2026-11-08
 
-You suffer from schizophrenia, take your pills so that you feel better
+A lightweight Fabric mod that adds datapack-defined crafting remainders, allowing custom recipes to 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/schizophreni/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/schizophreni}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/recipe-remainders/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/recipe-remainders}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ZokM5k8n/dc35e8c9edd16790738f743143a2c0d1d79e26a8_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ZSZw42Md/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Items Expanded" event="url{https://modrinth.com/mod/items-expanded}"
+...button-text text="Better Death Messages" event="url{https://modrinth.com/mod/betterdeathmessages}"
 
-👤 Not_It_Cal | 📅 2026-11-07
+👤 Timon4ikRU | 📅 2026-11-08
 
-This mod adds some fun BUT expensive items to minecraft which all fit into the vanilla crafting styl
+Just a mod that turns boring vanilla death messages into more aggressive-admin-like messages
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/items-expanded/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/items-expanded}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/betterdeathmessages/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/betterdeathmessages}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ This mod adds some fun BUT expensive items to minecraft which all fit into the v
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Powder](https://minecraft.wiki/Powder)
+📖 **Wiki 推荐**：[Commands/clear](https://minecraft.wiki/Commands%2Fclear)
 
-⏰ 更新时间：2026-11-07 17:41:28
+⏰ 更新时间：2026-11-08 05:43:41
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
