@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-08 05:43:41
+// 生成时间：2026-11-08 17:51:16
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.DiwaliLamps_ZH-CN2462894749_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.TrianaSpain_ZH-CN6329291776_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"アートは最高です！"*
+> *"终一生渡世人和终一世渡一人，为师觉得是一样的。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{アートは最高です！}"
+...button-text text="📋 复制" event="copy{终一生渡世人和终一世渡一人，为师觉得是一样的。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Commands%2Fclear}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Recovery_Compass}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/lxS2beOo/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/S01tPZTk/3a9afcc24a534139c35bb64037f3c7b2b54d3cc0.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Plugin Revealer" event="url{https://modrinth.com/mod/plugin-revealer}"
+...button-text text="Cobblemon Raid Icons" event="url{https://modrinth.com/mod/cobblemon-raid-icons}"
 
-👤 noamharel2103 | 📅 2026-11-08
+👤 shiero | 📅 2026-11-08
 
-See exactly which plugins a Minecraft server is running, even ones it tries to hide.
+Every Cobblemon Raid Dens crystal on your minimap and world map, drawn as its tera type or its Dynam
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/plugin-revealer/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/plugin-revealer}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cobblemon-raid-icons/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cobblemon-raid-icons}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ENtX8HgA/2a7b6156583278774772edf32924da352fcb2a40.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/l5kKXaHe/2b8afe0dce2880330d423aa003781aa77c0d996b.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="CheckHacks Fabric" event="url{https://modrinth.com/mod/checkhacks-fabric-port}"
+...button-text text="RTN`s PALM Auth" event="url{https://modrinth.com/mod/rtns-palm-auth}"
 
-👤 bananaman7582 | 📅 2026-11-08
+👤 RTN_project | 📅 2026-11-08
 
-A simple port of the Checkhacks plugin to fabric 26.2
+RTN's PALM Auth Mod is a premium, mod-only authentication system for NeoForge. Forget boring chat co
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/checkhacks-fabric-port/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/checkhacks-fabric-port}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/rtns-palm-auth/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/rtns-palm-auth}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/HNZMeozE/53d460459907bb8da266281ab50758b6159dc030_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/lm45lfyM/8d9de888b21ad3ac0bc2b3a39f1f7fb2d00aad07.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Hydrogen Performance" event="url{https://modrinth.com/mod/hydrogen-performance}"
+...button-text text="Elytra Without the End" event="url{https://modrinth.com/mod/elytra-without-the-end}"
 
-👤 admin43 | 📅 2026-11-08
+👤 rcatlab | 📅 2026-11-08
 
-Performance mod. It measures your CPU, GPU, monitor and frame times at runtime, then tunes core affi
+Craft vanilla elytra from phantom membranes, a feather and a diamond. Fabric, Forge, NeoForge, 1.20–
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hydrogen-performance/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hydrogen-performance}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/elytra-without-the-end/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/elytra-without-the-end}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/WgQw9OQR/2c30c8876b5339ff4c03d714d9bc2f18c38f1d89.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/snR3Zpxl/672817a466112c630e7ba0e0b159e2ff148c4e2b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Recipe Remainders" event="url{https://modrinth.com/mod/recipe-remainders}"
+...button-text text="Craftwebs" event="url{https://modrinth.com/mod/craftwebs}"
 
-👤 Henness | 📅 2026-11-08
+👤 cooperhoag5 | 📅 2026-11-08
 
-A lightweight Fabric mod that adds datapack-defined crafting remainders, allowing custom recipes to 
+this adds craftable cobwebs. I made this since like no one was making 26.2 fabric craftable webs
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/recipe-remainders/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/recipe-remainders}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/craftwebs/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/craftwebs}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ZSZw42Md/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/AIKEhtCj/11472999f057fdb7fde06d85c1eb7eb2a2182d17.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Better Death Messages" event="url{https://modrinth.com/mod/betterdeathmessages}"
+...button-text text="Straightforward Dyes" event="url{https://modrinth.com/mod/straightforward-dyes}"
 
-👤 Timon4ikRU | 📅 2026-11-08
+👤 AshenAstra | 📅 2026-11-08
 
-Just a mod that turns boring vanilla death messages into more aggressive-admin-like messages
+Allows green and brown dyes to be crafted using other dyes, skipping the need for cacti and cocoa be
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/betterdeathmessages/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/betterdeathmessages}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/straightforward-dyes/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/straightforward-dyes}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Just a mod that turns boring vanilla death messages into more aggressive-admin-l
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：光芒四射的节日
-© 排灯节灯笼，孟买，马哈拉施特拉邦，印度 (© Dinodia Photo/Getty Images)
+🖼️ 壁纸：艺术与韵律交汇之地
+© 特里亚纳历史街区，塞维利亚，西班牙 (© Andrzej Rostek/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Commands/clear](https://minecraft.wiki/Commands%2Fclear)
+📖 **Wiki 推荐**：[Recovery Compass](https://minecraft.wiki/Recovery_Compass)
 
-⏰ 更新时间：2026-11-08 05:43:41
+⏰ 更新时间：2026-11-08 17:51:16
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
