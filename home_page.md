@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-09 05:54:52
+// 生成时间：2026-11-09 22:13:18
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.TrianaSpain_ZH-CN6329291776_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.RoseIsland_ZH-CN6477140814_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我想任性要一回自由。"*
+> *"苦难是生命的防沉迷系统。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我想任性要一回自由。}"
+...button-text text="📋 复制" event="copy{苦难是生命的防沉迷系统。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/3D}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FStraw_Bed}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/yF6TayHk/fa46e6cc9a7a46837d53da3169c2ffd394ca137c.jpeg" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6aP4yLVS/8aeab21856d05d8a7e7646a3068adae6d07d1098_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Auto Enchant" event="url{https://modrinth.com/mod/auto-enchant-rejoicearul}"
+...button-text text="Donut HUD" event="url{https://modrinth.com/mod/donut-hud}"
 
-👤 rejoicearul | 📅 2026-11-09
+👤 kanthbuymi | 📅 2026-11-09
 
-The automates enchating items, targeted towards donut smp. I suggest to only use it if allowed.
+Client-side HUD that turns /pay and /bounty chat messages into animated alerts with player heads, ra
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/auto-enchant-rejoicearul/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/auto-enchant-rejoicearul}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/donut-hud/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/donut-hud}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ndeGWhXI/ab4236a2c7cbe9c608d8d54b9bae77d27caa1887.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8AtfMD7w/82014368f055c8fe9673c7ccd7510e5c9fa1ad78_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MoneyShortcut" event="url{https://modrinth.com/mod/moneyshortcut}"
+...button-text text="the deleted - Psychological Horror" event="url{https://modrinth.com/mod/the-deleted}"
 
-👤 S1mplyAyaz | 📅 2026-11-09
+👤 Kezz00 | 📅 2026-11-09
 
-Shortens long money numbers in chat (150000000-> 150M) and, with Just Money, shows only the payment 
+An analog horror survival mod where erased code watches you from the void. Explore the Fractured Mea
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/moneyshortcut/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/moneyshortcut}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-deleted/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-deleted}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xwdkTxBB/dc26fce40d530c26f8830c681879570f3958d7ff_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/yeXTskFs/52d85e2398cbffc38c28c1fe10532cb7648a4827.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="FragileBeds" event="url{https://modrinth.com/mod/fragilebeds}"
+...button-text text="Food Recycled" event="url{https://modrinth.com/mod/food-recycled}"
 
-👤 Cam3 | 📅 2026-11-08
+👤 punpanprolol | 📅 2026-11-09
 
-Beds are fragile: breaking one destroys it. The only way to get a bed back is to break it with a too
+Make eating simpler with easy recipes for cooking eggs, mushrooms, seeds and more.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fragilebeds/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fragilebeds}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/food-recycled/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/food-recycled}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/w8uUw4uD/178fc3eb490bb1ca65a4e4b8e83fcdeadbd0acf4.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/9oJCKh8g/5fadc4c8a3f23dcab0991bb603aa80d7e7a0a49a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Craftable Name Tags Backport" event="url{https://modrinth.com/mod/craftable-name-tags-backport}"
+...button-text text="Freetimemod: Fossils and Ruins" event="url{https://modrinth.com/mod/freetimemod-fossils-and-ruins}"
 
-👤 rcatlab | 📅 2026-11-08
+👤 punpanprolol | 📅 2026-11-09
 
-Brings the name tag recipe from Minecraft 26.1 to older versions: paper and a nugget.
+adds small amount of structures focused on Fossils
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/craftable-name-tags-backport/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/craftable-name-tags-backport}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/freetimemod-fossils-and-ruins/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/freetimemod-fossils-and-ruins}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/RszLOlm1/99e80c78ad47a1e49f5e6502e1e8727fc162c409.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Ey9o5ohx/8983684c0208fa3a19bc5d50ac361cea0b2c6f8e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mount Armor Recipes" event="url{https://modrinth.com/mod/mount-armor-recipes}"
+...button-text text="Cool as ice Weapons!" event="url{https://modrinth.com/mod/cool-as-ice-weapons}"
 
-👤 rcatlab | 📅 2026-11-08
+👤 punpanprolol | 📅 2026-11-09
 
-Adds crafting recipes for horse armor and nautilus armor: iron, gold, diamond and copper.
+Add weapons that are actually fun to use
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mount-armor-recipes/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mount-armor-recipes}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cool-as-ice-weapons/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cool-as-ice-weapons}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Adds crafting recipes for horse armor and nautilus armor: iron, gold, diamond an
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：艺术与韵律交汇之地
-© 特里亚纳历史街区，塞维利亚，西班牙 (© Andrzej Rostek/Getty Images)
+🖼️ 壁纸：惬意放松，尽享海岛时光
+© 玫瑰岛航拍图，巴哈马 (© Abstract Aerial Art/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[3D](https://minecraft.wiki/3D)
+📖 **Wiki 推荐**：[Java Edition block render history/Straw Bed](https://minecraft.wiki/Java_Edition_block_render_history%2FStraw_Bed)
 
-⏰ 更新时间：2026-11-09 05:54:52
+⏰ 更新时间：2026-11-09 22:13:18
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
