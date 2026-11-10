@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-10 06:58:08
+// 生成时间：2026-11-10 19:35:29
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.RoseIsland_ZH-CN6477140814_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.Atlantica_ZH-CN6593995386_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"伯牙鼓琴，志在高山。"*
+> *"今夜皎月正当明，不念天涯但思卿。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{伯牙鼓琴，志在高山。}"
+...button-text text="📋 复制" event="copy{今夜皎月正当明，不念天涯但思卿。}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.3
-**最新快照**: 26.4-snapshot-7
+**最新快照**: 26.4-snapshot-8
 
 近期版本：
 - **26.3** (2026-09-15)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft_Education%3A_Planet_Earth_III_(Original_Game_Soundtrack)}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_3.34.15}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,82 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/SjdriCWu/efb7d9d0ea69177c6318c0238338f290553acbdb.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/67qX6qJn/1a4b286708aac8325efe7439c4df3c3bc51599a8.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Xaero's & JourneyMap Cobblemon Minimap Renders" event="url{https://modrinth.com/mod/azoth-cobblemon-minimap-renders}"
+...button-text text="Chroma Text" event="url{https://modrinth.com/mod/chroma-text}"
 
-👤 konohadaze | 📅 2026-11-10
+👤 NymNux | 📅 2026-11-10
 
-A simple mod to integrate render support for Cobblemon into JourneyMap and Xaero's.
+Chroma Text with Rainbow, Aurora and More!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/azoth-cobblemon-minimap-renders/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/azoth-cobblemon-minimap-renders}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chroma-text/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chroma-text}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/omG5y2EI/293ed1cf43d0dfdf5fedf53d91e2318837548838_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/s4XocDJv/0ea8d022f4bb67daa3e4ec09e48d88061f5db022.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Custom Cursor" event="url{https://modrinth.com/mod/customcursor}"
+...button-text text="IGN Alias" event="url{https://modrinth.com/mod/ign-alias}"
 
-👤 jahsohsani | 📅 2026-11-10
+👤 NymNux | 📅 2026-11-10
 
-Replace your mouse cursor in Minecraft with anything you want.
-A diamond sword, a rainbow arrow, a h
+Fancy IGN! Client-side replace display name
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/customcursor/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/customcursor}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ign-alias/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ign-alias}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/J60SVQuO/00a45daefa524ec72eec3f6cf2abd7cf2db3fc99_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/eAEXgGmw/550ae8a478be41dcac150712c109324acab7e17c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="void.anomaly" event="url{https://modrinth.com/mod/void.anomaly}"
+...button-text text="Hand Tune" event="url{https://modrinth.com/mod/hand-tune}"
 
-👤 redpandanerd14 | 📅 2026-11-10
+👤 NymNux | 📅 2026-11-10
 
-This mod adds entities from some creepypastas, some versions of The Broken Script that were deleted,
+Custom first-person held item model and hand swing speed!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/void.anomaly/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/void.anomaly}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hand-tune/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hand-tune}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/YZxdTCuQ/3c5a29e5de7f9c4898de76d0c6723a20a779b305_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/7Lngb7Ku/c26530fa17a850b8e1f66499fd3b0f495c58bf6a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Enchantment Glow Items • NRC Addon" event="url{https://modrinth.com/mod/enchantment-glow-items}"
+...button-text text="CreateVaultPlus" event="url{https://modrinth.com/mod/createvaultplus}"
 
-👤 j4nn1k | 📅 2026-11-10
+👤 fervauk | 📅 2026-11-10
 
-Enchantment Glow is an addon for the NoRisk Client that makes your items glow in your chosen color.
+Allows you to retrieve more items from the Create storage in a single click
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/enchantment-glow-items/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/enchantment-glow-items}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/createvaultplus/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/createvaultplus}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/XD0Zb8Mb/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/XjrH5XMA/6e1679e386a09cb352944157b05d2140e7bc92aa.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="[Lilac] Seas of Color" event="url{https://modrinth.com/mod/lilac-seas-of-color}"
+...button-text text="TacOps" event="url{https://modrinth.com/mod/tacops}"
 
-👤 CrowsWings | 📅 2026-11-10
+👤 TheDarkTeri | 📅 2026-11-10
 
-Adds crafting recipes to convert coral into dyes, makes coral blocks renewable, and makes a few smal
+A mechanical, server-verified tactical FPS mod for Fabric featuring realistic ballistics, corner pee
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lilac-seas-of-color/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lilac-seas-of-color}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tacops/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tacops}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -174,14 +173,14 @@ Adds crafting recipes to convert coral into dyes, makes coral blocks renewable, 
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：惬意放松，尽享海岛时光
-© 玫瑰岛航拍图，巴哈马 (© Abstract Aerial Art/Getty Images)
+🖼️ 壁纸：奇妙纷呈的森林
+© 大西洋森林，巴西 (© FG Trade/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Minecraft Education: Planet Earth III (Original Game Soundtrack)](https://minecraft.wiki/Minecraft_Education%3A_Planet_Earth_III_(Original_Game_Soundtrack))
+📖 **Wiki 推荐**：[Launcher 3.34.15](https://minecraft.wiki/Launcher_3.34.15)
 
-⏰ 更新时间：2026-11-10 06:58:08
+⏰ 更新时间：2026-11-10 19:35:29
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
