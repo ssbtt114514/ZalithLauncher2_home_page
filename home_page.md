@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-09 22:13:18
+// 生成时间：2026-11-10 06:58:08
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"苦难是生命的防沉迷系统。"*
+> *"伯牙鼓琴，志在高山。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{苦难是生命的防沉迷系统。}"
+...button-text text="📋 复制" event="copy{伯牙鼓琴，志在高山。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FStraw_Bed}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft_Education%3A_Planet_Earth_III_(Original_Game_Soundtrack)}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,82 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6aP4yLVS/8aeab21856d05d8a7e7646a3068adae6d07d1098_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/SjdriCWu/efb7d9d0ea69177c6318c0238338f290553acbdb.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Donut HUD" event="url{https://modrinth.com/mod/donut-hud}"
+...button-text text="Xaero's & JourneyMap Cobblemon Minimap Renders" event="url{https://modrinth.com/mod/azoth-cobblemon-minimap-renders}"
 
-👤 kanthbuymi | 📅 2026-11-09
+👤 konohadaze | 📅 2026-11-10
 
-Client-side HUD that turns /pay and /bounty chat messages into animated alerts with player heads, ra
+A simple mod to integrate render support for Cobblemon into JourneyMap and Xaero's.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/donut-hud/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/donut-hud}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/azoth-cobblemon-minimap-renders/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/azoth-cobblemon-minimap-renders}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8AtfMD7w/82014368f055c8fe9673c7ccd7510e5c9fa1ad78_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/omG5y2EI/293ed1cf43d0dfdf5fedf53d91e2318837548838_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="the deleted - Psychological Horror" event="url{https://modrinth.com/mod/the-deleted}"
+...button-text text="Custom Cursor" event="url{https://modrinth.com/mod/customcursor}"
 
-👤 Kezz00 | 📅 2026-11-09
+👤 jahsohsani | 📅 2026-11-10
 
-An analog horror survival mod where erased code watches you from the void. Explore the Fractured Mea
+Replace your mouse cursor in Minecraft with anything you want.
+A diamond sword, a rainbow arrow, a h
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-deleted/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-deleted}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/customcursor/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/customcursor}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/yeXTskFs/52d85e2398cbffc38c28c1fe10532cb7648a4827.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/J60SVQuO/00a45daefa524ec72eec3f6cf2abd7cf2db3fc99_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Food Recycled" event="url{https://modrinth.com/mod/food-recycled}"
+...button-text text="void.anomaly" event="url{https://modrinth.com/mod/void.anomaly}"
 
-👤 punpanprolol | 📅 2026-11-09
+👤 redpandanerd14 | 📅 2026-11-10
 
-Make eating simpler with easy recipes for cooking eggs, mushrooms, seeds and more.
+This mod adds entities from some creepypastas, some versions of The Broken Script that were deleted,
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/food-recycled/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/food-recycled}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/void.anomaly/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/void.anomaly}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/9oJCKh8g/5fadc4c8a3f23dcab0991bb603aa80d7e7a0a49a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/YZxdTCuQ/3c5a29e5de7f9c4898de76d0c6723a20a779b305_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Freetimemod: Fossils and Ruins" event="url{https://modrinth.com/mod/freetimemod-fossils-and-ruins}"
+...button-text text="Enchantment Glow Items • NRC Addon" event="url{https://modrinth.com/mod/enchantment-glow-items}"
 
-👤 punpanprolol | 📅 2026-11-09
+👤 j4nn1k | 📅 2026-11-10
 
-adds small amount of structures focused on Fossils
+Enchantment Glow is an addon for the NoRisk Client that makes your items glow in your chosen color.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/freetimemod-fossils-and-ruins/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/freetimemod-fossils-and-ruins}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/enchantment-glow-items/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/enchantment-glow-items}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Ey9o5ohx/8983684c0208fa3a19bc5d50ac361cea0b2c6f8e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/XD0Zb8Mb/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Cool as ice Weapons!" event="url{https://modrinth.com/mod/cool-as-ice-weapons}"
+...button-text text="[Lilac] Seas of Color" event="url{https://modrinth.com/mod/lilac-seas-of-color}"
 
-👤 punpanprolol | 📅 2026-11-09
+👤 CrowsWings | 📅 2026-11-10
 
-Add weapons that are actually fun to use
+Adds crafting recipes to convert coral into dyes, makes coral blocks renewable, and makes a few smal
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cool-as-ice-weapons/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cool-as-ice-weapons}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lilac-seas-of-color/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lilac-seas-of-color}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +179,9 @@ Add weapons that are actually fun to use
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition block render history/Straw Bed](https://minecraft.wiki/Java_Edition_block_render_history%2FStraw_Bed)
+📖 **Wiki 推荐**：[Minecraft Education: Planet Earth III (Original Game Soundtrack)](https://minecraft.wiki/Minecraft_Education%3A_Planet_Earth_III_(Original_Game_Soundtrack))
 
-⏰ 更新时间：2026-11-09 22:13:18
+⏰ 更新时间：2026-11-10 06:58:08
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
