@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-10 19:35:29
+// 生成时间：2026-11-11 05:49:31
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"今夜皎月正当明，不念天涯但思卿。"*
+> *"爱，其实很简单，困难的是去接受它。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{今夜皎月正当明，不念天涯但思卿。}"
+...button-text text="📋 复制" event="copy{爱，其实很简单，困难的是去接受它。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_3.34.15}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_beta_1.14.0.52}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/67qX6qJn/1a4b286708aac8325efe7439c4df3c3bc51599a8.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/mrrBDvAY/38353c9d96193b9aa02514987ead0acd62d257be.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Chroma Text" event="url{https://modrinth.com/mod/chroma-text}"
+...button-text text="Duplicatable Pottery Sherds" event="url{https://modrinth.com/mod/duplicatable-pottery-sherd}"
 
-👤 NymNux | 📅 2026-11-10
+👤 TheLokin | 📅 2026-11-11
 
-Chroma Text with Rainbow, Aurora and More!
+Duplicate Pottery Sherds using 4 Bricks and 1 Sherd.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chroma-text/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chroma-text}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/duplicatable-pottery-sherd/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/duplicatable-pottery-sherd}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/s4XocDJv/0ea8d022f4bb67daa3e4ec09e48d88061f5db022.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/nssr4vf5/f61acc122c7266a361c4cfbcae145905cf8a4723.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="IGN Alias" event="url{https://modrinth.com/mod/ign-alias}"
+...button-text text="Enderman, Leave My Blocks!" event="url{https://modrinth.com/mod/enderman-leave-my-blocks}"
 
-👤 NymNux | 📅 2026-11-10
+👤 TheLokin | 📅 2026-11-11
 
-Fancy IGN! Client-side replace display name
+Prevents Endermen from picking up blocks.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ign-alias/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ign-alias}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/enderman-leave-my-blocks/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/enderman-leave-my-blocks}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/eAEXgGmw/550ae8a478be41dcac150712c109324acab7e17c_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/r5uPNxfF/51b4cb3749f910d4969f0e759ebc8ec2a7340a34.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Hand Tune" event="url{https://modrinth.com/mod/hand-tune}"
+...button-text text="Bye Bye Phantoms" event="url{https://modrinth.com/mod/bye-bye-phantoms}"
 
-👤 NymNux | 📅 2026-11-10
+👤 TheLokin | 📅 2026-11-11
 
-Custom first-person held item model and hand swing speed!
+Disables Phantom spawning while making Phantom Membranes obtainable from Bats.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hand-tune/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hand-tune}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bye-bye-phantoms/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bye-bye-phantoms}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7Lngb7Ku/c26530fa17a850b8e1f66499fd3b0f495c58bf6a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/yIAkD7fV/cb186e932f8cc9b50a26b60ada0945727b845bfe_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="CreateVaultPlus" event="url{https://modrinth.com/mod/createvaultplus}"
+...button-text text="Sapling to stick" event="url{https://modrinth.com/mod/sapling-to-stick}"
 
-👤 fervauk | 📅 2026-11-10
+👤 Cam3 | 📅 2026-11-11
 
-Allows you to retrieve more items from the Create storage in a single click
+This datapack adds recipes allowing to recycle saplings into stick. It's 1:1, 1 sapling = 1 stick. I
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/createvaultplus/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/createvaultplus}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sapling-to-stick/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sapling-to-stick}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/XjrH5XMA/6e1679e386a09cb352944157b05d2140e7bc92aa.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/hu9tg8kG/f751becfa545f5ab601bf7ee45423f8ac1d70786_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="TacOps" event="url{https://modrinth.com/mod/tacops}"
+...button-text text="Autumn Foliage" event="url{https://modrinth.com/mod/autumn-foliage}"
 
-👤 TheDarkTeri | 📅 2026-11-10
+👤 diggydwarff | 📅 2026-11-11
 
-A mechanical, server-verified tactical FPS mod for Fabric featuring realistic ballistics, corner pee
+Autumn Foliage is a client-side NeoForge mod that applies autumn colors to vegetation across both va
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tacops/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tacops}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/autumn-foliage/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/autumn-foliage}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ A mechanical, server-verified tactical FPS mod for Fabric featuring realistic ba
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Launcher 3.34.15](https://minecraft.wiki/Launcher_3.34.15)
+📖 **Wiki 推荐**：[Bedrock Edition beta 1.14.0.52](https://minecraft.wiki/Bedrock_Edition_beta_1.14.0.52)
 
-⏰ 更新时间：2026-11-10 19:35:29
+⏰ 更新时间：2026-11-11 05:49:31
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
