@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-11 05:49:31
+// 生成时间：2026-11-11 19:28:55
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.Atlantica_ZH-CN6593995386_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.NorthWindow_ZH-CN6734579353_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"爱，其实很简单，困难的是去接受它。"*
+> *"孤舟蓑笠翁，独钓寒江雪。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{爱，其实很简单，困难的是去接受它。}"
+...button-text text="📋 复制" event="copy{孤舟蓑笠翁，独钓寒江雪。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_beta_1.14.0.52}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft%3A_Glide_Mini_Game_(Original_Soundtrack)}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/mrrBDvAY/38353c9d96193b9aa02514987ead0acd62d257be.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/fCKgX0ZK/68fc707d3ba346e2216eb11ded044fe6147fbb0f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Duplicatable Pottery Sherds" event="url{https://modrinth.com/mod/duplicatable-pottery-sherd}"
+...button-text text="OG-Network Quality of Life Mod" event="url{https://modrinth.com/mod/og-network-qol}"
 
-👤 TheLokin | 📅 2026-11-11
+👤 LxVer | 📅 2026-11-11
 
-Duplicate Pottery Sherds using 4 Bricks and 1 Sherd.
+Client side mod that adds some Quality of Life changes to OG-Network's RPG-SMP mode.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/duplicatable-pottery-sherd/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/duplicatable-pottery-sherd}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/og-network-qol/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/og-network-qol}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/nssr4vf5/f61acc122c7266a361c4cfbcae145905cf8a4723.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/iBiEdeMe/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Enderman, Leave My Blocks!" event="url{https://modrinth.com/mod/enderman-leave-my-blocks}"
+...button-text text="Please Crash My Game" event="url{https://modrinth.com/mod/please-crash-my-game}"
 
-👤 TheLokin | 📅 2026-11-11
+👤 amvern | 📅 2026-11-11
 
-Prevents Endermen from picking up blocks.
+A mod to crash your game, just for kicks
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/enderman-leave-my-blocks/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/enderman-leave-my-blocks}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/please-crash-my-game/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/please-crash-my-game}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/r5uPNxfF/51b4cb3749f910d4969f0e759ebc8ec2a7340a34.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/GA8B4sqC/8330279ba5e668920ad313caddc5dc1ecbf9af4d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Bye Bye Phantoms" event="url{https://modrinth.com/mod/bye-bye-phantoms}"
+...button-text text="Money Point" event="url{https://modrinth.com/mod/money-point}"
 
-👤 TheLokin | 📅 2026-11-11
+👤 gqwg2003 | 📅 2026-11-11
 
-Disables Phantom spawning while making Phantom Membranes obtainable from Bats.
+Portable terminal with an upgrade wheel and a point economy for every item in the game. ^_~
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bye-bye-phantoms/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bye-bye-phantoms}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/money-point/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/money-point}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/yIAkD7fV/cb186e932f8cc9b50a26b60ada0945727b845bfe_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/HSwT5Idd/3ad7f9c95f76a53d54783401df9e24e5a9bef230_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Sapling to stick" event="url{https://modrinth.com/mod/sapling-to-stick}"
+...button-text text="CAIB | Conveniently Accessible Important Blocks" event="url{https://modrinth.com/mod/caib}"
 
-👤 Cam3 | 📅 2026-11-11
+👤 RealFlamango | 📅 2026-11-11
 
-This datapack adds recipes allowing to recycle saplings into stick. It's 1:1, 1 sapling = 1 stick. I
+A secondary inventory you can resize and load with your most used and important blocks. Set armor to
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sapling-to-stick/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sapling-to-stick}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/caib/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/caib}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/hu9tg8kG/f751becfa545f5ab601bf7ee45423f8ac1d70786_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/GyBkVihN/21b76982f123c172c5ac590cad1d159b9e7720a9.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Autumn Foliage" event="url{https://modrinth.com/mod/autumn-foliage}"
+...button-text text="No Fog" event="url{https://modrinth.com/mod/no-fog-sebghg07870}"
 
-👤 diggydwarff | 📅 2026-11-11
+👤 SebGHG07870 | 📅 2026-11-11
 
-Autumn Foliage is a client-side NeoForge mod that applies autumn colors to vegetation across both va
+Removes fog in the Overworld, Nether and End, including rain fog. Water and lava fog optional. Toggl
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/autumn-foliage/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/autumn-foliage}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/no-fog-sebghg07870/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/no-fog-sebghg07870}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Autumn Foliage is a client-side NeoForge mod that applies autumn colors to veget
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：奇妙纷呈的森林
-© 大西洋森林，巴西 (© FG Trade/Getty Images)
+🖼️ 壁纸：没有建筑师的建筑杰作
+© 北窗，拱门国家公园，莫阿布，犹他州，美国 (© lightphoto/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition beta 1.14.0.52](https://minecraft.wiki/Bedrock_Edition_beta_1.14.0.52)
+📖 **Wiki 推荐**：[Minecraft: Glide Mini Game (Original Soundtrack)](https://minecraft.wiki/Minecraft%3A_Glide_Mini_Game_(Original_Soundtrack))
 
-⏰ 更新时间：2026-11-11 05:49:31
+⏰ 更新时间：2026-11-11 19:28:55
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
