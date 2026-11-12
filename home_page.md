@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-11 19:28:55
+// 生成时间：2026-11-12 06:54:45
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"孤舟蓑笠翁，独钓寒江雪。"*
+> *"枝上柳绵吹又少。天涯何处无芳草。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{孤舟蓑笠翁，独钓寒江雪。}"
+...button-text text="📋 复制" event="copy{枝上柳绵吹又少。天涯何处无芳草。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft%3A_Glide_Mini_Game_(Original_Soundtrack)}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Redstone_circuits%2FMiscellaneous%2FMux}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/fCKgX0ZK/68fc707d3ba346e2216eb11ded044fe6147fbb0f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8z4vNTvK/a6e68c0f2be6721e7bd48b55532066083a5d7ea9_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="OG-Network Quality of Life Mod" event="url{https://modrinth.com/mod/og-network-qol}"
+...button-text text="Potion 'Em!" event="url{https://modrinth.com/mod/potion-em}"
 
-👤 LxVer | 📅 2026-11-11
+👤 AlmazmanElytra | 📅 2026-11-12
 
-Client side mod that adds some Quality of Life changes to OG-Network's RPG-SMP mode.
+Adds a way to extract potions from spiders
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/og-network-qol/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/og-network-qol}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/potion-em/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/potion-em}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/iBiEdeMe/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/VPX1zQWE/b5dc2ad93047117c9e5e903c0ff9b4a21c33b9d4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Please Crash My Game" event="url{https://modrinth.com/mod/please-crash-my-game}"
+...button-text text="Spear Armor Trims" event="url{https://modrinth.com/mod/ks-spear-trims}"
 
-👤 amvern | 📅 2026-11-11
+👤 nugrevan | 📅 2026-11-12
 
-A mod to crash your game, just for kicks
+Make your spear trimmable with all template and materials, upgrade your spears with more than 1300 d
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/please-crash-my-game/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/please-crash-my-game}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ks-spear-trims/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ks-spear-trims}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/GA8B4sqC/8330279ba5e668920ad313caddc5dc1ecbf9af4d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/VDg6bkcc/b0d9d8ffa8067e187bd5ebb2798d9d8044e81da2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Money Point" event="url{https://modrinth.com/mod/money-point}"
+...button-text text="Create: Item Sink" event="url{https://modrinth.com/mod/create-item-sink}"
 
-👤 gqwg2003 | 📅 2026-11-11
+👤 OurCreation | 📅 2026-11-12
 
-Portable terminal with an upgrade wheel and a point economy for every item in the game. ^_~
+Converts unwanted items into Numismatics coins or another currency of your choice.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/money-point/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/money-point}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-item-sink/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-item-sink}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/HSwT5Idd/3ad7f9c95f76a53d54783401df9e24e5a9bef230_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/gUCut05G/89476763d8718cf711a2ffdbd7f65b3d3e2b9563_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="CAIB | Conveniently Accessible Important Blocks" event="url{https://modrinth.com/mod/caib}"
+...button-text text="Create: New World Core" event="url{https://modrinth.com/mod/create-new-world-core}"
 
-👤 RealFlamango | 📅 2026-11-11
+👤 OurCreation | 📅 2026-11-12
 
-A secondary inventory you can resize and load with your most used and important blocks. Set armor to
+The core mod behind Create: New World Modpack, providing custom mechanics, progression features, and
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/caib/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/caib}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-new-world-core/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-new-world-core}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/GyBkVihN/21b76982f123c172c5ac590cad1d159b9e7720a9.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/EHsTEg2g/455db05fb222362fe5e1725e5c5ac26b216f2d50.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="No Fog" event="url{https://modrinth.com/mod/no-fog-sebghg07870}"
+...button-text text="Create: Better Schematics" event="url{https://modrinth.com/mod/create-better-schematics}"
 
-👤 SebGHG07870 | 📅 2026-11-11
+👤 OurCreation | 📅 2026-11-12
 
-Removes fog in the Overworld, Nether and End, including rain fog. Water and lava fog optional. Toggl
+Adds in many fixes and new features to Create’s schematic system.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/no-fog-sebghg07870/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/no-fog-sebghg07870}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-better-schematics/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-better-schematics}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Removes fog in the Overworld, Nether and End, including rain fog. Water and lava
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Minecraft: Glide Mini Game (Original Soundtrack)](https://minecraft.wiki/Minecraft%3A_Glide_Mini_Game_(Original_Soundtrack))
+📖 **Wiki 推荐**：[Redstone circuits/Miscellaneous/Mux](https://minecraft.wiki/Redstone_circuits%2FMiscellaneous%2FMux)
 
-⏰ 更新时间：2026-11-11 19:28:55
+⏰ 更新时间：2026-11-12 06:54:45
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
