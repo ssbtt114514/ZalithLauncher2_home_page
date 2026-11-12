@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-12 06:54:45
+// 生成时间：2026-11-12 19:47:02
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.NorthWindow_ZH-CN6734579353_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.AbrahamCanada_ZH-CN0344365912_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"枝上柳绵吹又少。天涯何处无芳草。"*
+> *"比起有一百个朋友，不如有个比一百人还要重要的真心朋友。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{枝上柳绵吹又少。天涯何处无芳草。}"
+...button-text text="📋 复制" event="copy{比起有一百个朋友，不如有个比一百人还要重要的真心朋友。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Redstone_circuits%2FMiscellaneous%2FMux}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Warped_Fungus_on_a_Stick}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8z4vNTvK/a6e68c0f2be6721e7bd48b55532066083a5d7ea9_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/woxZ3S7l/971566ff15235bcb4e0ed0baeffc4f342fc17ed3_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Potion 'Em!" event="url{https://modrinth.com/mod/potion-em}"
+...button-text text="clary hud" event="url{https://modrinth.com/mod/clary-hud}"
 
-👤 AlmazmanElytra | 📅 2026-11-12
+👤 aneszen31 | 📅 2026-11-12
 
-Adds a way to extract potions from spiders
+Cosmetics for Fabric: wings, capes and tags with a clean in-game menu. Set your own key to open it f
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/potion-em/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/potion-em}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/clary-hud/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/clary-hud}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/VPX1zQWE/b5dc2ad93047117c9e5e903c0ff9b4a21c33b9d4_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ZonRWgWU/a8d913503146431baf5ccdbf5704da6fc6dfbe47.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Spear Armor Trims" event="url{https://modrinth.com/mod/ks-spear-trims}"
+...button-text text="SpearAnimationJab Fix" event="url{https://modrinth.com/mod/spearanimationjab-fix}"
 
-👤 nugrevan | 📅 2026-11-12
+👤 CodiMC | 📅 2026-11-12
 
-Make your spear trimmable with all template and materials, upgrade your spears with more than 1300 d
+Stops the spear lunge/jab animation from carrying over to a non-spear item when you do swap hotbar s
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ks-spear-trims/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ks-spear-trims}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/spearanimationjab-fix/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/spearanimationjab-fix}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/VDg6bkcc/b0d9d8ffa8067e187bd5ebb2798d9d8044e81da2_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/5sFYy7YT/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Item Sink" event="url{https://modrinth.com/mod/create-item-sink}"
+...button-text text="PixelmonPokedexRewards" event="url{https://modrinth.com/mod/pixelmonpokedexrewards}"
 
-👤 OurCreation | 📅 2026-11-12
+👤 eatAWESOME | 📅 2026-11-12
 
-Converts unwanted items into Numismatics coins or another currency of your choice.
+Provides rewards to players for reaching milestones on Pokédex completion in Pixelmon.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-item-sink/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-item-sink}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pixelmonpokedexrewards/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pixelmonpokedexrewards}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/gUCut05G/89476763d8718cf711a2ffdbd7f65b3d3e2b9563_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/to7wyMxR/72f4c03f3faec8ec0d827b47f30dc3265c0bcbb1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: New World Core" event="url{https://modrinth.com/mod/create-new-world-core}"
+...button-text text="Gilded Bonds" event="url{https://modrinth.com/mod/gilded-bonds}"
 
-👤 OurCreation | 📅 2026-11-12
+👤 Team_Ultra | 📅 2026-11-12
 
-The core mod behind Create: New World Modpack, providing custom mechanics, progression features, and
+Gilded Bonds allows the user to tame and outfit piglins by splashing them with a regeneration potion
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-new-world-core/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-new-world-core}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/gilded-bonds/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/gilded-bonds}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/EHsTEg2g/455db05fb222362fe5e1725e5c5ac26b216f2d50.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/2xkufLdI/fb3adf9bbbb50fab1c7f7cce3cb803238d59e5b8.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Better Schematics" event="url{https://modrinth.com/mod/create-better-schematics}"
+...button-text text="Display That Heal!" event="url{https://modrinth.com/mod/displaythatheal}"
 
-👤 OurCreation | 📅 2026-11-12
+👤 Nullviel | 📅 2026-11-12
 
-Adds in many fixes and new features to Create’s schematic system.
+Connect Cobblemon Healing Machines to Create Display Links and customize your Pokémon Center display
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-better-schematics/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-better-schematics}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/displaythatheal/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/displaythatheal}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Adds in many fixes and new features to Create’s schematic system.
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：没有建筑师的建筑杰作
-© 北窗，拱门国家公园，莫阿布，犹他州，美国 (© lightphoto/Getty Images)
+🖼️ 壁纸：冰下秘境
+© 亚伯拉罕湖，艾伯塔省，加拿大 (© Guang Cao/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Redstone circuits/Miscellaneous/Mux](https://minecraft.wiki/Redstone_circuits%2FMiscellaneous%2FMux)
+📖 **Wiki 推荐**：[Warped Fungus on a Stick](https://minecraft.wiki/Warped_Fungus_on_a_Stick)
 
-⏰ 更新时间：2026-11-12 06:54:45
+⏰ 更新时间：2026-11-12 19:47:02
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
