@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-12 19:47:02
+// 生成时间：2026-11-13 06:16:07
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"比起有一百个朋友，不如有个比一百人还要重要的真心朋友。"*
+> *"民谣有三：爱情 理想 远方   听者有三：孤独 平庸 落魄"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{比起有一百个朋友，不如有个比一百人还要重要的真心朋友。}"
+...button-text text="📋 复制" event="copy{民谣有三：爱情 理想 远方   听者有三：孤独 平庸 落魄}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Warped_Fungus_on_a_Stick}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/End_Stone_Brick_Stairs}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/woxZ3S7l/971566ff15235bcb4e0ed0baeffc4f342fc17ed3_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/1e4sJDdB/82323492cb9105bb36caed66586801504c3bf653.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="clary hud" event="url{https://modrinth.com/mod/clary-hud}"
+...button-text text="Glitchcraft" event="url{https://modrinth.com/mod/glitchcraft-mod}"
 
-👤 aneszen31 | 📅 2026-11-12
+👤 EclipseKW | 📅 2026-11-13
 
-Cosmetics for Fabric: wings, capes and tags with a clean in-game menu. Set your own key to open it f
+Reality is breaking. Glitch Rifts spread a corruption that eats the world, glitches every mob, and l
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/clary-hud/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/clary-hud}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/glitchcraft-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/glitchcraft-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ZonRWgWU/a8d913503146431baf5ccdbf5704da6fc6dfbe47.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/1ZGPVUM8/200dd5bf5d673fb899d1949b95a98cb33f63064d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="SpearAnimationJab Fix" event="url{https://modrinth.com/mod/spearanimationjab-fix}"
+...button-text text="Not Enough Glyphs: Missile Rebalance" event="url{https://modrinth.com/mod/not-enough-glyphs-missile-rebalance}"
 
-👤 CodiMC | 📅 2026-11-12
+👤 MRGRD56 | 📅 2026-11-13
 
-Stops the spear lunge/jab animation from carrying over to a non-spear item when you do swap hotbar s
+Rebalances the Not Enough Glyphs Missile with a smaller blast, wall checks, optional target limits, 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/spearanimationjab-fix/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/spearanimationjab-fix}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/not-enough-glyphs-missile-rebalance/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/not-enough-glyphs-missile-rebalance}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/5sFYy7YT/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/12rlqCdW/92582259b847c52c59e3e981f5e7861186b85585_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="PixelmonPokedexRewards" event="url{https://modrinth.com/mod/pixelmonpokedexrewards}"
+...button-text text="Applied Flow" event="url{https://modrinth.com/mod/applied-flow}"
 
-👤 eatAWESOME | 📅 2026-11-12
+👤 Akeeru | 📅 2026-11-13
 
-Provides rewards to players for reaching milestones on Pokédex completion in Pixelmon.
+Additional automation and routing utilities for Applied Energistics 2, including configurable ingred
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pixelmonpokedexrewards/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pixelmonpokedexrewards}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/applied-flow/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/applied-flow}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/to7wyMxR/72f4c03f3faec8ec0d827b47f30dc3265c0bcbb1_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/VaYQqhB2/63a2bb557609674718a7ae0a9395aa88511bd57c_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Gilded Bonds" event="url{https://modrinth.com/mod/gilded-bonds}"
+...button-text text="Donut Payment Alerts" event="url{https://modrinth.com/mod/donut-payment-alerts}"
 
-👤 Team_Ultra | 📅 2026-11-12
+👤 F1zzifyy | 📅 2026-11-13
 
-Gilded Bonds allows the user to tame and outfit piglins by splashing them with a regeneration potion
+Cinematic /pay alerts for Donut SMP: 7 animated tiers from $1M to a $100B showcase, with a custom cl
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/gilded-bonds/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/gilded-bonds}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/donut-payment-alerts/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/donut-payment-alerts}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/2xkufLdI/fb3adf9bbbb50fab1c7f7cce3cb803238d59e5b8.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/WGo5JYkA/29e110c7e9e5c1a592c4778e0ca438d77226751a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Display That Heal!" event="url{https://modrinth.com/mod/displaythatheal}"
+...button-text text="Midas Touch" event="url{https://modrinth.com/mod/midastouch}"
 
-👤 Nullviel | 📅 2026-11-12
+👤 Cookki | 📅 2026-11-13
 
-Connect Cobblemon Healing Machines to Create Display Links and customize your Pokémon Center display
+This mod makes all blocks you touch gold! (actually)
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/displaythatheal/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/displaythatheal}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/midastouch/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/midastouch}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Connect Cobblemon Healing Machines to Create Display Links and customize your Po
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Warped Fungus on a Stick](https://minecraft.wiki/Warped_Fungus_on_a_Stick)
+📖 **Wiki 推荐**：[End Stone Brick Stairs](https://minecraft.wiki/End_Stone_Brick_Stairs)
 
-⏰ 更新时间：2026-11-12 19:47:02
+⏰ 更新时间：2026-11-13 06:16:07
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
