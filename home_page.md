@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-13 06:16:07
+// 生成时间：2026-11-13 19:30:02
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.AbrahamCanada_ZH-CN0344365912_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.BlueHK_ZH-CN1382345392_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"民谣有三：爱情 理想 远方   听者有三：孤独 平庸 落魄"*
+> *"烈焰中舞动的火花，将赐予邪恶异性交往以天罚。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{民谣有三：爱情 理想 远方   听者有三：孤独 平庸 落魄}"
+...button-text text="📋 复制" event="copy{烈焰中舞动的火花，将赐予邪恶异性交往以天罚。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/End_Stone_Brick_Stairs}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_effect_texture_history%2FDarkness}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -66,6 +66,56 @@
 // --- 🧩 Modrinth 最新模组 ---
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/eoDdTh3G/4f736281f8fea9960352b1a6e2a619fb9dcf9530.png" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Auto block crafter mod" event="url{https://modrinth.com/mod/auto-block-crafter-mod}"
+
+👤 karoksan. | 📅 2026-11-13
+
+This mod allows you to craft items while not being in inventory
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/auto-block-crafter-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/auto-block-crafter-mod}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/yQLmKfdg/icon.png" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="ElytraX PackMaker" event="url{https://modrinth.com/mod/elytrax-packmaker}"
+
+👤 _5ff | 📅 2026-11-13
+
+ElytraX PackMaker is a client-side Fabric mod for Minecraft that lets you create custom resource pac
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/elytrax-packmaker/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/elytrax-packmaker}" weight=(1)
+...row-end
+...column-end
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/TIwmn59c/8e6e54acfedb51c780d6bf3c107eebe4cbaa81c4_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="TGZJDV'S Chat" event="url{https://modrinth.com/mod/tgzjdvs-chat}"
+
+👤 TGZJDV | 📅 2026-11-13
+
+这个模组更改了我的世界的原版聊天框，将其变成了更现代化的界面
+
+This mod replaces Minecraft’s original chat window with a more moder
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tgzjdvs-chat/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tgzjdvs-chat}" weight=(1)
+...row-end
+...column-end
+...row-end
+
 ...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/1e4sJDdB/82323492cb9105bb36caed66586801504c3bf653.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
@@ -98,54 +148,6 @@ Rebalances the Not Enough Glyphs Missile with a smaller blast, wall checks, opti
 ...column-end
 ...row-end
 
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/12rlqCdW/92582259b847c52c59e3e981f5e7861186b85585_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Applied Flow" event="url{https://modrinth.com/mod/applied-flow}"
-
-👤 Akeeru | 📅 2026-11-13
-
-Additional automation and routing utilities for Applied Energistics 2, including configurable ingred
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/applied-flow/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/applied-flow}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/VaYQqhB2/63a2bb557609674718a7ae0a9395aa88511bd57c_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Donut Payment Alerts" event="url{https://modrinth.com/mod/donut-payment-alerts}"
-
-👤 F1zzifyy | 📅 2026-11-13
-
-Cinematic /pay alerts for Donut SMP: 7 animated tiers from $1M to a $100B showcase, with a custom cl
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/donut-payment-alerts/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/donut-payment-alerts}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/WGo5JYkA/29e110c7e9e5c1a592c4778e0ca438d77226751a_96.webp" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Midas Touch" event="url{https://modrinth.com/mod/midastouch}"
-
-👤 Cookki | 📅 2026-11-13
-
-This mod makes all blocks you touch gold! (actually)
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/midastouch/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/midastouch}" weight=(1)
-...row-end
-...column-end
-...row-end
-
 ...row-start horizontal=spacedBy(8)
 ...button text="📥 访问 Modrinth" event="url{https://modrinth.com/mods}" weight=(1)
 ...row-end
@@ -173,14 +175,14 @@ This mod makes all blocks you touch gold! (actually)
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：冰下秘境
-© 亚伯拉罕湖，艾伯塔省，加拿大 (© Guang Cao/Getty Images)
+🖼️ 壁纸：唯有向上发展
+© 中国香港维多利亚港 (© Juan Romero/Cavan Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[End Stone Brick Stairs](https://minecraft.wiki/End_Stone_Brick_Stairs)
+📖 **Wiki 推荐**：[Java Edition effect texture history/Darkness](https://minecraft.wiki/Java_Edition_effect_texture_history%2FDarkness)
 
-⏰ 更新时间：2026-11-13 06:16:07
+⏰ 更新时间：2026-11-13 19:30:02
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
