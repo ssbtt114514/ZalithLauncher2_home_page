@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-13 19:30:02
+// 生成时间：2026-11-14 05:58:36
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"烈焰中舞动的火花，将赐予邪恶异性交往以天罚。"*
+> *"被风吹散的思念，卷起不羁的时间。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{烈焰中舞动的火花，将赐予邪恶异性交往以天罚。}"
+...button-text text="📋 复制" event="copy{被风吹散的思念，卷起不羁的时间。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_effect_texture_history%2FDarkness}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FBlock_of_Bamboo}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,83 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/eoDdTh3G/4f736281f8fea9960352b1a6e2a619fb9dcf9530.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zpVeL3sB/487bf4437891566479438335f1eed18f2d987f04_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Auto block crafter mod" event="url{https://modrinth.com/mod/auto-block-crafter-mod}"
+...button-text text="ShapeGen" event="url{https://modrinth.com/mod/shapegen}"
 
-👤 karoksan. | 📅 2026-11-13
+👤 pajic | 📅 2026-11-14
 
-This mod allows you to craft items while not being in inventory
+Additional shapes for any block, including modded ones
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/auto-block-crafter-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/auto-block-crafter-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/shapegen/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/shapegen}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/yQLmKfdg/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/8bayMgLk/784d44bd690c188d95a17798466a3490dd29ca0a.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="ElytraX PackMaker" event="url{https://modrinth.com/mod/elytrax-packmaker}"
+...button-text text="Overgrown's Origins: Masked" event="url{https://modrinth.com/mod/overgrowns-masked}"
 
-👤 _5ff | 📅 2026-11-13
+👤 Overgrown | 📅 2026-11-14
 
-ElytraX PackMaker is a client-side Fabric mod for Minecraft that lets you create custom resource pac
+Adds the Masked origin, people of the jungle who slip through the canopy behind a carved wooden mask
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/elytrax-packmaker/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/elytrax-packmaker}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/overgrowns-masked/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/overgrowns-masked}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/TIwmn59c/8e6e54acfedb51c780d6bf3c107eebe4cbaa81c4_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/fSFZJnGJ/bb53e94a2ded1323112941a1ed77f027db6a816a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="TGZJDV'S Chat" event="url{https://modrinth.com/mod/tgzjdvs-chat}"
+...button-text text="Avarii Fortress" event="url{https://modrinth.com/mod/avarii-fortress}"
 
-👤 TGZJDV | 📅 2026-11-13
+👤 SkyArchitec | 📅 2026-11-14
 
-这个模组更改了我的世界的原版聊天框，将其变成了更现代化的界面
-
-This mod replaces Minecraft’s original chat window with a more moder
+This datapack adds a unique structure belonging to the Avarii Pirates, bringing their distinctive st
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tgzjdvs-chat/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tgzjdvs-chat}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/avarii-fortress/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/avarii-fortress}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/1e4sJDdB/82323492cb9105bb36caed66586801504c3bf653.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/MsOPJUHi/335fcd68da5ec0825eb169e497ea5dd627840a81_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Glitchcraft" event="url{https://modrinth.com/mod/glitchcraft-mod}"
+...button-text text="Books of Dragons + Genetic Animals compat" event="url{https://modrinth.com/mod/books-of-dragons-plus-genetic-animals-compat}"
 
-👤 EclipseKW | 📅 2026-11-13
+👤 vrana | 📅 2026-11-14
 
-Reality is breaking. Glitch Rifts spread a corruption that eats the world, glitches every mob, and l
+Adds compatibility between GA and BOD, as well as optionally genetic bettas!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/glitchcraft-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/glitchcraft-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/books-of-dragons-plus-genetic-animals-compat/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/books-of-dragons-plus-genetic-animals-compat}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/1ZGPVUM8/200dd5bf5d673fb899d1949b95a98cb33f63064d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ryy80kxq/b775fbbeb4dc8fd5b5c58f0cfc1ca7e4678954e7.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Not Enough Glyphs: Missile Rebalance" event="url{https://modrinth.com/mod/not-enough-glyphs-missile-rebalance}"
+...button-text text="Point Blank: Loot" event="url{https://modrinth.com/mod/point-blank-loot}"
 
-👤 MRGRD56 | 📅 2026-11-13
+👤 AlexGodly | 📅 2026-11-14
 
-Rebalances the Not Enough Glyphs Missile with a smaller blast, wall checks, optional target limits, 
+Find Point Blank guns, ammo and attachments in dungeons, outposts, temples, bastions and End cities.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/not-enough-glyphs-missile-rebalance/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/not-enough-glyphs-missile-rebalance}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/point-blank-loot/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/point-blank-loot}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -180,9 +178,9 @@ Rebalances the Not Enough Glyphs Missile with a smaller blast, wall checks, opti
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition effect texture history/Darkness](https://minecraft.wiki/Java_Edition_effect_texture_history%2FDarkness)
+📖 **Wiki 推荐**：[Java Edition block render history/Block of Bamboo](https://minecraft.wiki/Java_Edition_block_render_history%2FBlock_of_Bamboo)
 
-⏰ 更新时间：2026-11-13 19:30:02
+⏰ 更新时间：2026-11-14 05:58:36
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
