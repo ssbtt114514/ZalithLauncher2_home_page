@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-14 05:58:36
+// 生成时间：2026-11-14 17:52:55
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.BlueHK_ZH-CN1382345392_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.FirstFrost_ZH-CN2219029557_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"被风吹散的思念，卷起不羁的时间。"*
+> *"停下脚步才注意到 世界被染得雪白。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{被风吹散的思念，卷起不羁的时间。}"
+...button-text text="📋 复制" event="copy{停下脚步才注意到 世界被染得雪白。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FBlock_of_Bamboo}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FStone_Pressure_Plate}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,85 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/zpVeL3sB/487bf4437891566479438335f1eed18f2d987f04_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/MEXPeOS9/ecdde771ddffd3b3c49de1f08fca93fed515a32f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="ShapeGen" event="url{https://modrinth.com/mod/shapegen}"
+...button-text text="??? - TID Sensor" event="url{https://modrinth.com/mod/tid-sensor}"
 
-👤 pajic | 📅 2026-11-14
+👤 just_dom | 📅 2026-11-14
 
-Additional shapes for any block, including modded ones
+??? - TID Sensor
+
+
+
+A client-side threat detection HUD. It watches, it identifies, and sometimes it'
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/shapegen/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/shapegen}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tid-sensor/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tid-sensor}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8bayMgLk/784d44bd690c188d95a17798466a3490dd29ca0a.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/1rYuBJrs/efbcd2487a05cf305b15750b2f569bffa7ac464a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Overgrown's Origins: Masked" event="url{https://modrinth.com/mod/overgrowns-masked}"
+...button-text text="Clientcommands NeoForged" event="url{https://modrinth.com/mod/clientcommands-neoforged}"
 
-👤 Overgrown | 📅 2026-11-14
+👤 Dilideguazi | 📅 2026-11-14
 
-Adds the Masked origin, people of the jungle who slip through the canopy behind a carved wooden mask
+An unofficial port of Clientcommands for (Neo)Forge.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/overgrowns-masked/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/overgrowns-masked}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/clientcommands-neoforged/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/clientcommands-neoforged}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/fSFZJnGJ/bb53e94a2ded1323112941a1ed77f027db6a816a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zfGaLTQg/09b1fd2471f188511f9f8c0ee2ffec2bed784c2c.jpeg" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Avarii Fortress" event="url{https://modrinth.com/mod/avarii-fortress}"
+...button-text text="Buffs Optimizer" event="url{https://modrinth.com/mod/buffs-optimizer}"
 
-👤 SkyArchitec | 📅 2026-11-14
+👤 Diolezz | 📅 2026-11-14
 
-This datapack adds a unique structure belonging to the Avarii Pirates, bringing their distinctive st
+Buff Optimizer makes high-ping Minecraft PvP feel like low-ping gameplay through smart client-side p
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/avarii-fortress/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/avarii-fortress}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/buffs-optimizer/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/buffs-optimizer}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/MsOPJUHi/335fcd68da5ec0825eb169e497ea5dd627840a81_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/eDCZ4Da8/0e0572edbc5e98b455ff5d9a071d58f51ebeef43_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Books of Dragons + Genetic Animals compat" event="url{https://modrinth.com/mod/books-of-dragons-plus-genetic-animals-compat}"
+...button-text text="Tree Feller" event="url{https://modrinth.com/mod/tree-feller-mod}"
 
-👤 vrana | 📅 2026-11-14
+👤 TOP_G2026 | 📅 2026-11-14
 
-Adds compatibility between GA and BOD, as well as optionally genetic bettas!
+Chop down whole trees with one swing: connected-tree detection, leaf faller, custom trees and tools,
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/books-of-dragons-plus-genetic-animals-compat/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/books-of-dragons-plus-genetic-animals-compat}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tree-feller-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tree-feller-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ryy80kxq/b775fbbeb4dc8fd5b5c58f0cfc1ca7e4678954e7.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/1tEnrVuz/4377dc6b356efeccd01791a2c280802ff8d63a33_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Point Blank: Loot" event="url{https://modrinth.com/mod/point-blank-loot}"
+...button-text text="The Ritual" event="url{https://modrinth.com/mod/theritual}"
 
-👤 AlexGodly | 📅 2026-11-14
+👤 TOP_G2026 | 📅 2026-11-14
 
-Find Point Blank guns, ammo and attachments in dungeons, outposts, temples, bastions and End cities.
+Ritual horror Fabric mod: build rune-circle altars, offer sacrifices, and summon the Moder and its w
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/point-blank-loot/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/point-blank-loot}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/theritual/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/theritual}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +177,14 @@ Find Point Blank guns, ammo and attachments in dungeons, outposts, temples, bast
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：唯有向上发展
-© 中国香港维多利亚港 (© Juan Romero/Cavan Images)
+🖼️ 壁纸：霜染枝叶
+© 覆霜的红叶杜鹃 (© avoferten/Shutterstock)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition block render history/Block of Bamboo](https://minecraft.wiki/Java_Edition_block_render_history%2FBlock_of_Bamboo)
+📖 **Wiki 推荐**：[Java Edition block render history/Stone Pressure Plate](https://minecraft.wiki/Java_Edition_block_render_history%2FStone_Pressure_Plate)
 
-⏰ 更新时间：2026-11-14 05:58:36
+⏰ 更新时间：2026-11-14 17:52:55
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
