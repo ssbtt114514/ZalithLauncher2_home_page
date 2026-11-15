@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-15 06:01:06
+// 生成时间：2026-11-15 18:43:19
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.FirstFrost_ZH-CN2219029557_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.GilaCliff_ZH-CN2393001519_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"以后我的得意与失意，奖杯和人生，都与你共享。"*
+> *"事已至此，幸而夜风对他温柔。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{以后我的得意与失意，奖杯和人生，都与你共享。}"
+...button-text text="📋 复制" event="copy{事已至此，幸而夜风对他温柔。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Redstone_circuits%2FMemory%2FTFF_O1}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Boosters_(Blast)}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/2knlTxP7/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/5VtvKRxO/ee39677c1e5305a10a91c5a678b12c990b312ae2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="They are NOT standing on air" event="url{https://modrinth.com/mod/tansoa}"
+...button-text text="No Block Delay" event="url{https://modrinth.com/mod/no-block-delay}"
 
-👤 octlot | 📅 2026-11-15
+👤 Shikaru | 📅 2026-11-15
 
-Minecraft 26.3 server side mod that removes the "Player standing on air - force-sending blocks below
+A minimal Fabric minecraft mod that removes the 4 tick delay when placing blocks.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tansoa/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tansoa}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/no-block-delay/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/no-block-delay}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/bEgciFCR/5ea77a87ce39759a1f752b87e7c6af28cf1b85d1_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ETKhAfJX/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Adaptive Smelting" event="url{https://modrinth.com/mod/adaptive-smelting}"
+...button-text text="Pinata" event="url{https://modrinth.com/mod/pinata}"
 
-👤 freinIsCool | 📅 2026-11-15
+👤 inqwizitor57 | 📅 2026-11-15
 
-A simple mod that adds bulk smelting based on your fuel
+Throw away your inventory with one button
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/adaptive-smelting/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/adaptive-smelting}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pinata/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pinata}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/9skVjeNd/f85b210e0fd40f8d5df0baf06b5732c7e5893704_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/LtWlBnEq/d0d54fbd2393fe16c2232596773753effce4d441_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Still Watching" event="url{https://modrinth.com/mod/still-watching}"
+...button-text text="Player Use Counter" event="url{https://modrinth.com/mod/player-use-counter}"
 
-👤 metroin_ahid | 📅 2026-11-15
+👤 Invisiblezappie | 📅 2026-11-15
 
-A psychological horror mod where something is always watching you. Strange encounters, unsettling ev
+Tracks observed golden apple, pearl, totem and cobweb use by other players, with configurable labels
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/still-watching/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/still-watching}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/player-use-counter/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/player-use-counter}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/r3skl64g/754de6b1fc92e34526b463e1926ae856174c09d3_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/LwWFPeVk/c0a5d8e940f41277aff93d5784a147d5db3d946e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="No Enchantments" event="url{https://modrinth.com/mod/no-enchantments-battlestickk}"
+...button-text text="Offhand Guard" event="url{https://modrinth.com/mod/offhandguard}"
 
-👤 battlestickk | 📅 2026-11-15
+👤 Invisiblezappie | 📅 2026-11-15
 
-Removes all vanilla enchantments
+Protect your offhand from accidental item swaps. Configurable allowed items, inventory protection, o
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/no-enchantments-battlestickk/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/no-enchantments-battlestickk}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/offhandguard/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/offhandguard}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/S4rYc1uw/1a91132caed484f289d969ad7810bdc0588db547_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/dGd6TKYt/b0f10c0222d3ff4ed6791f765e4478a6baf71dfc_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Nerf End (No Elytra & Shulker Box)" event="url{https://modrinth.com/mod/nerf-end}"
+...button-text text="Chat Ping" event="url{https://modrinth.com/mod/chat-ping-alerts}"
 
-👤 battlestickk | 📅 2026-11-15
+👤 Invisiblezappie | 📅 2026-11-15
 
-Removes elytra and shulker boxes
+Hear a ping when another player mentions your exact Minecraft username. Automatic name detection, Mo
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nerf-end/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nerf-end}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chat-ping-alerts/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chat-ping-alerts}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Removes elytra and shulker boxes
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：霜染枝叶
-© 覆霜的红叶杜鹃 (© avoferten/Shutterstock)
+🖼️ 壁纸：历经岁月，屹立不倒
+© 美国新墨西哥州吉拉悬崖民居国家纪念地 (© Chiara Salvadori/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Redstone circuits/Memory/TFF O1](https://minecraft.wiki/Redstone_circuits%2FMemory%2FTFF_O1)
+📖 **Wiki 推荐**：[Boosters (Blast)](https://minecraft.wiki/Boosters_(Blast))
 
-⏰ 更新时间：2026-11-15 06:01:06
+⏰ 更新时间：2026-11-15 18:43:19
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
