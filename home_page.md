@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-16 06:00:43
+// 生成时间：2026-11-16 21:53:27
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.GilaCliff_ZH-CN2393001519_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.TrailCedars_ZH-CN2670680285_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"从前多热烈的对白。"*
+> *"何人知我霜雪催，何人与我共一醉。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{从前多热烈的对白。}"
+...button-text text="📋 复制" event="copy{何人知我霜雪催，何人与我共一醉。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Rachel_House}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/21102_Micro_World_The_Forest}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,83 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/wto9wq1v/d9339079a16bdaddd592436884568d5d175662dd.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Udjd5XRN/6a887a8561692cf046b7a754d2efecf28e545415.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Hollow Mine (Hollow Knight)" event="url{https://modrinth.com/mod/hollow-mine-hollow-knight}"
+...button-text text="Persistent Fishing Rods" event="url{https://modrinth.com/mod/persistent-fishing-rods}"
 
-👤 luis_gr | 📅 2026-11-16
+👤 aparatus97 | 📅 2026-11-16
 
-The world of Hollownest, in Minecraft!
+A fabric mod that does the most accurate persistent fishing rod implementation from the Unstable SMP
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hollow-mine-hollow-knight/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hollow-mine-hollow-knight}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/persistent-fishing-rods/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/persistent-fishing-rods}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xjVwYqRv/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/y5p5jIvV/d9b0c0a89c6e89de415489c92b0e39d30f5743f8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="SimpleEquip" event="url{https://modrinth.com/mod/simpleequip}"
+...button-text text="Kestrel Lib" event="url{https://modrinth.com/mod/kestrel-library}"
 
-👤 DimmuOmega | 📅 2026-11-16
+👤 T2ar | 📅 2026-11-16
 
-This mod is a good option for using accessories without constantly filling your inventory, making it
+Shared library required by Kestrel HUD modules.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simpleequip/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simpleequip}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kestrel-library/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kestrel-library}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/d9nnbgkh/5a1bc5515a12486abd69a1f316e0fcde945580dd_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/4jfmmHvt/fe4fe3bdf68ec5aae6a0fb19fc36ec623c4ea2e8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Extended Enchantments" event="url{https://modrinth.com/mod/extended-enchantments}"
+...button-text text="EnderStorage Networks" event="url{https://modrinth.com/mod/enderstorage-networks}"
 
-👤 TheSheyka | 📅 2026-11-16
+👤 NotCritKai | 📅 2026-11-16
 
-This mod increases the maximum level of certain vanilla enchantments. It removes the “Too Expensive!
+Configurable infinite-fluid EnderTank frequencies for NeoForge.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/extended-enchantments/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/extended-enchantments}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/enderstorage-networks/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/enderstorage-networks}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/QQLiWKCD/93c2c432ffbaed72be3f66b9e734b2456a3e7bb5_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/2NwY1V0Q/163ae63cf7386cfafcd1adf13f88e10eb90cbf88_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Chicken Stalker" event="url{https://modrinth.com/mod/chiken-stalker}"
+...button-text text="4D3D Lib" event="url{https://modrinth.com/mod/4d3d-lib}"
 
-👤 Tsygan | 📅 2026-11-16
+👤 4C3D | 📅 2026-11-16
 
-🐔 Chicken Stalker
-
-Chicken Stalker adds a special type of chicken — the Stalker Chicken — that does
+4D3D Lib is a reusable library used for most of my Minecraft mods to simplify development.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chiken-stalker/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chiken-stalker}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/4d3d-lib/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/4d3d-lib}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/5OyWZ2ZN/c92f3bd5e2f711be4dcfe95c14f6489390ec9ae3_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/5YdH0rW5/c7fefe185bb0892d73acd339add36e4194f8a4c8.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Viscous Void" event="url{https://modrinth.com/mod/viscous-void}"
+...button-text text="Fixings" event="url{https://modrinth.com/mod/fixings}"
 
-👤 fayaz | 📅 2026-11-16
+👤 caleb_underscore | 📅 2026-11-16
 
-A new weightless dimension, unlocked via a beacon, a conduit, and a dragon's head in a new mushroom 
+A little mod that adds a bit more complexity to tool progression.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/viscous-void/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/viscous-void}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fixings/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fixings}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -175,14 +173,14 @@ A new weightless dimension, unlocked via a beacon, a conduit, and a dragon's hea
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：历经岁月，屹立不倒
-© 美国新墨西哥州吉拉悬崖民居国家纪念地 (© Chiara Salvadori/Getty Images)
+🖼️ 壁纸：走进广阔的大自然
+© 雪松林步道，冰川国家公园，蒙大拿州，美国 (© DBushue Photography/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Rachel House](https://minecraft.wiki/Rachel_House)
+📖 **Wiki 推荐**：[21102 Micro World The Forest](https://minecraft.wiki/21102_Micro_World_The_Forest)
 
-⏰ 更新时间：2026-11-16 06:00:43
+⏰ 更新时间：2026-11-16 21:53:27
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
