@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-15 18:43:19
+// 生成时间：2026-11-16 06:00:43
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"事已至此，幸而夜风对他温柔。"*
+> *"从前多热烈的对白。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{事已至此，幸而夜风对他温柔。}"
+...button-text text="📋 复制" event="copy{从前多热烈的对白。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Boosters_(Blast)}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Rachel_House}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,83 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/5VtvKRxO/ee39677c1e5305a10a91c5a678b12c990b312ae2_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wto9wq1v/d9339079a16bdaddd592436884568d5d175662dd.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="No Block Delay" event="url{https://modrinth.com/mod/no-block-delay}"
+...button-text text="Hollow Mine (Hollow Knight)" event="url{https://modrinth.com/mod/hollow-mine-hollow-knight}"
 
-👤 Shikaru | 📅 2026-11-15
+👤 luis_gr | 📅 2026-11-16
 
-A minimal Fabric minecraft mod that removes the 4 tick delay when placing blocks.
+The world of Hollownest, in Minecraft!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/no-block-delay/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/no-block-delay}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hollow-mine-hollow-knight/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hollow-mine-hollow-knight}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ETKhAfJX/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xjVwYqRv/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Pinata" event="url{https://modrinth.com/mod/pinata}"
+...button-text text="SimpleEquip" event="url{https://modrinth.com/mod/simpleequip}"
 
-👤 inqwizitor57 | 📅 2026-11-15
+👤 DimmuOmega | 📅 2026-11-16
 
-Throw away your inventory with one button
+This mod is a good option for using accessories without constantly filling your inventory, making it
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pinata/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pinata}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simpleequip/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simpleequip}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/LtWlBnEq/d0d54fbd2393fe16c2232596773753effce4d441_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/d9nnbgkh/5a1bc5515a12486abd69a1f316e0fcde945580dd_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Player Use Counter" event="url{https://modrinth.com/mod/player-use-counter}"
+...button-text text="Extended Enchantments" event="url{https://modrinth.com/mod/extended-enchantments}"
 
-👤 Invisiblezappie | 📅 2026-11-15
+👤 TheSheyka | 📅 2026-11-16
 
-Tracks observed golden apple, pearl, totem and cobweb use by other players, with configurable labels
+This mod increases the maximum level of certain vanilla enchantments. It removes the “Too Expensive!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/player-use-counter/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/player-use-counter}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/extended-enchantments/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/extended-enchantments}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/LwWFPeVk/c0a5d8e940f41277aff93d5784a147d5db3d946e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/QQLiWKCD/93c2c432ffbaed72be3f66b9e734b2456a3e7bb5_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Offhand Guard" event="url{https://modrinth.com/mod/offhandguard}"
+...button-text text="Chicken Stalker" event="url{https://modrinth.com/mod/chiken-stalker}"
 
-👤 Invisiblezappie | 📅 2026-11-15
+👤 Tsygan | 📅 2026-11-16
 
-Protect your offhand from accidental item swaps. Configurable allowed items, inventory protection, o
+🐔 Chicken Stalker
+
+Chicken Stalker adds a special type of chicken — the Stalker Chicken — that does
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/offhandguard/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/offhandguard}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chiken-stalker/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chiken-stalker}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/dGd6TKYt/b0f10c0222d3ff4ed6791f765e4478a6baf71dfc_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/5OyWZ2ZN/c92f3bd5e2f711be4dcfe95c14f6489390ec9ae3_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Chat Ping" event="url{https://modrinth.com/mod/chat-ping-alerts}"
+...button-text text="Viscous Void" event="url{https://modrinth.com/mod/viscous-void}"
 
-👤 Invisiblezappie | 📅 2026-11-15
+👤 fayaz | 📅 2026-11-16
 
-Hear a ping when another player mentions your exact Minecraft username. Automatic name detection, Mo
+A new weightless dimension, unlocked via a beacon, a conduit, and a dragon's head in a new mushroom 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chat-ping-alerts/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chat-ping-alerts}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/viscous-void/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/viscous-void}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +180,9 @@ Hear a ping when another player mentions your exact Minecraft username. Automati
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Boosters (Blast)](https://minecraft.wiki/Boosters_(Blast))
+📖 **Wiki 推荐**：[Rachel House](https://minecraft.wiki/Rachel_House)
 
-⏰ 更新时间：2026-11-15 18:43:19
+⏰ 更新时间：2026-11-16 06:00:43
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
