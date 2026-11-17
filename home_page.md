@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-16 21:53:27
+// 生成时间：2026-11-17 07:38:42
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"何人知我霜雪催，何人与我共一醉。"*
+> *"如果温柔是罪，那就只能用拳头来洗清我们犯下的罪孽。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{何人知我霜雪催，何人与我共一醉。}"
+...button-text text="📋 复制" event="copy{如果温柔是罪，那就只能用拳头来洗清我们犯下的罪孽。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/21102_Micro_World_The_Forest}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Iron_Ingot}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Udjd5XRN/6a887a8561692cf046b7a754d2efecf28e545415.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/53yCj1oF/df730870f4e60151007f74db1e03e83af6a85781.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Persistent Fishing Rods" event="url{https://modrinth.com/mod/persistent-fishing-rods}"
+...button-text text="BAEffect" event="url{https://modrinth.com/mod/baeffect}"
 
-👤 aparatus97 | 📅 2026-11-16
+👤 MerrySnow | 📅 2026-11-17
 
-A fabric mod that does the most accurate persistent fishing rod implementation from the Unstable SMP
+Brings a BlueArchive-style click effect and cursor style to Minecraft.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/persistent-fishing-rods/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/persistent-fishing-rods}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/baeffect/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/baeffect}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/y5p5jIvV/d9b0c0a89c6e89de415489c92b0e39d30f5743f8_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/3UyF1FkJ/8050ab8dd91e701857869427b451d4b130add357_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Kestrel Lib" event="url{https://modrinth.com/mod/kestrel-library}"
+...button-text text="Disable Lightning Render" event="url{https://modrinth.com/mod/disable-lightning-render}"
 
-👤 T2ar | 📅 2026-11-16
+👤 Stalemated | 📅 2026-11-17
 
-Shared library required by Kestrel HUD modules.
+Disables rendering of lightning bolts. Client-side only.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kestrel-library/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kestrel-library}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/disable-lightning-render/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/disable-lightning-render}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/4jfmmHvt/fe4fe3bdf68ec5aae6a0fb19fc36ec623c4ea2e8_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/CDTwtpeD/54328a58a809cb6f1bfc42baf5ac2029e4436628_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="EnderStorage Networks" event="url{https://modrinth.com/mod/enderstorage-networks}"
+...button-text text="Simply Skills Tweaks" event="url{https://modrinth.com/mod/simply-skills-tweaks}"
 
-👤 NotCritKai | 📅 2026-11-16
+👤 Stalemated | 📅 2026-11-17
 
-Configurable infinite-fluid EnderTank frequencies for NeoForge.
+Customize different skills from the Simply Skills mod!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/enderstorage-networks/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/enderstorage-networks}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simply-skills-tweaks/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simply-skills-tweaks}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/2NwY1V0Q/163ae63cf7386cfafcd1adf13f88e10eb90cbf88_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/CoSfJTQ2/5f41f5daca479ea2e6be43405274bc11fc6868d1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="4D3D Lib" event="url{https://modrinth.com/mod/4d3d-lib}"
+...button-text text="MapHUD" event="url{https://modrinth.com/mod/maphud}"
 
-👤 4C3D | 📅 2026-11-16
+👤 MincraftEinstein | 📅 2026-11-17
 
-4D3D Lib is a reusable library used for most of my Minecraft mods to simplify development.
+Minimap like display when holding a map in third person
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/4d3d-lib/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/4d3d-lib}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/maphud/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/maphud}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/5YdH0rW5/c7fefe185bb0892d73acd339add36e4194f8a4c8.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/cML3ncte/e5ac25ef9a96275fdcd82928c5a38983c64d7f0a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Fixings" event="url{https://modrinth.com/mod/fixings}"
+...button-text text="Phasing" event="url{https://modrinth.com/mod/phasing}"
 
-👤 caleb_underscore | 📅 2026-11-16
+👤 almdudlerking | 📅 2026-11-17
 
-A little mod that adds a bit more complexity to tool progression.
+Allows to put players and mobs into named "phases", similar to server  phasing in MMOs. An entity ou
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fixings/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fixings}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/phasing/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/phasing}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ A little mod that adds a bit more complexity to tool progression.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[21102 Micro World The Forest](https://minecraft.wiki/21102_Micro_World_The_Forest)
+📖 **Wiki 推荐**：[Iron Ingot](https://minecraft.wiki/Iron_Ingot)
 
-⏰ 更新时间：2026-11-16 21:53:27
+⏰ 更新时间：2026-11-17 07:38:42
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
