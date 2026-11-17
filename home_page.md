@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-17 07:38:42
+// 生成时间：2026-11-17 20:44:01
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.TrailCedars_ZH-CN2670680285_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.BarnOwlsUnite_ZH-CN2930153291_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"如果温柔是罪，那就只能用拳头来洗清我们犯下的罪孽。"*
+> *"当连自己的路途也看不见时，人便不该不理一切地疯狂奔跑。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{如果温柔是罪，那就只能用拳头来洗清我们犯下的罪孽。}"
+...button-text text="📋 复制" event="copy{当连自己的路途也看不见时，人便不该不理一切地疯狂奔跑。}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.3
-**最新快照**: 26.4-snapshot-8
+**最新快照**: 26.4-snapshot-10
 
 近期版本：
 - **26.3** (2026-09-15)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Iron_Ingot}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/1.5}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/53yCj1oF/df730870f4e60151007f74db1e03e83af6a85781.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/6jQGXpW1/bfac54ee30110d09db3e0ee6f9a792b759c42e0d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="BAEffect" event="url{https://modrinth.com/mod/baeffect}"
+...button-text text="ServerSec" event="url{https://modrinth.com/mod/serversec-mintymc.xyz}"
 
-👤 MerrySnow | 📅 2026-11-17
+👤 MintyMC.xyz | 📅 2026-11-17
 
-Brings a BlueArchive-style click effect and cursor style to Minecraft.
+Server security GUI that intergrates common mods into one place.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/baeffect/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/baeffect}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/serversec-mintymc.xyz/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/serversec-mintymc.xyz}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/3UyF1FkJ/8050ab8dd91e701857869427b451d4b130add357_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/afDsd5tj/71da5d7607a112bdcc0bba8daf57fa0e0d87feae.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Disable Lightning Render" event="url{https://modrinth.com/mod/disable-lightning-render}"
+...button-text text="EMI: Small Ships" event="url{https://modrinth.com/mod/emi-small-ships}"
 
-👤 Stalemated | 📅 2026-11-17
+👤 murphy-slaw | 📅 2026-11-17
 
-Disables rendering of lightning bolts. Client-side only.
+EMI Plugin to support Small Ships Dockyard recipes.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/disable-lightning-render/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/disable-lightning-render}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/emi-small-ships/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/emi-small-ships}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/CDTwtpeD/54328a58a809cb6f1bfc42baf5ac2029e4436628_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/2mBGxMwG/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Simply Skills Tweaks" event="url{https://modrinth.com/mod/simply-skills-tweaks}"
+...button-text text="Emerald Gear" event="url{https://modrinth.com/mod/emerald-gear-_jpbs0904}"
 
-👤 Stalemated | 📅 2026-11-17
+👤 _jpbs0904 | 📅 2026-11-17
 
-Customize different skills from the Simply Skills mod!
+Adds the emerald item tier which is similar to diamond
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/simply-skills-tweaks/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/simply-skills-tweaks}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/emerald-gear-_jpbs0904/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/emerald-gear-_jpbs0904}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/CoSfJTQ2/5f41f5daca479ea2e6be43405274bc11fc6868d1_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/MvbasfvQ/b00265b7d7ce0d6fc1650e92adaa0b78f7c92c02_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="MapHUD" event="url{https://modrinth.com/mod/maphud}"
+...button-text text="EggTools for daycare+" event="url{https://modrinth.com/mod/tidefall-eggtools-for-daycare}"
 
-👤 MincraftEinstein | 📅 2026-11-17
+👤 khushalchouhan33 | 📅 2026-11-17
 
-Minimap like display when holding a map in third person
+A lightweight server-side Cobblemon breeding utility for Daycare+ with clean egg inspection, IV hove
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/maphud/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/maphud}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tidefall-eggtools-for-daycare/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tidefall-eggtools-for-daycare}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/cML3ncte/e5ac25ef9a96275fdcd82928c5a38983c64d7f0a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/4M70oqo2/9175d9fd20d8c68a54be86c551ec477cb55b371d_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Phasing" event="url{https://modrinth.com/mod/phasing}"
+...button-text text="Re: Trade" event="url{https://modrinth.com/mod/re-trade}"
 
-👤 almdudlerking | 📅 2026-11-17
+👤 rixzen | 📅 2026-11-17
 
-Allows to put players and mobs into named "phases", similar to server  phasing in MMOs. An entity ou
+A simple mod that refresh villager trade.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/phasing/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/phasing}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/re-trade/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/re-trade}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Allows to put players and mobs into named "phases", similar to server  phasing i
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：走进广阔的大自然
-© 雪松林步道，冰川国家公园，蒙大拿州，美国 (© DBushue Photography/Getty Images)
+🖼️ 壁纸：从黄昏狩猎到黎明
+© 一对仓鸮 (© Zahoor Salmi/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Iron Ingot](https://minecraft.wiki/Iron_Ingot)
+📖 **Wiki 推荐**：[1.5](https://minecraft.wiki/1.5)
 
-⏰ 更新时间：2026-11-17 07:38:42
+⏰ 更新时间：2026-11-17 20:44:01
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
