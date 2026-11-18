@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-17 20:44:01
+// 生成时间：2026-11-18 07:00:24
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"当连自己的路途也看不见时，人便不该不理一切地疯狂奔跑。"*
+> *"我希望我能有一点点的时间，来治愈日益强烈的疼痛。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{当连自己的路途也看不见时，人便不该不理一切地疯狂奔跑。}"
+...button-text text="📋 复制" event="copy{我希望我能有一点点的时间，来治愈日益强烈的疼痛。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/1.5}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_Beta_1.5}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,83 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/6jQGXpW1/bfac54ee30110d09db3e0ee6f9a792b759c42e0d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/wP1VJAiL/e5c7b09f7755b8e949f0ab19bb03260721a026f1.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="ServerSec" event="url{https://modrinth.com/mod/serversec-mintymc.xyz}"
+...button-text text="StarStruck" event="url{https://modrinth.com/mod/starstruck-the_letter_a}"
 
-👤 MintyMC.xyz | 📅 2026-11-17
+👤 The_Letter_A | 📅 2026-11-18
 
-Server security GUI that intergrates common mods into one place.
+Stargaze through a spyglass or telescope to find constellations, planets and comets, fill your Star 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/serversec-mintymc.xyz/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/serversec-mintymc.xyz}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/starstruck-the_letter_a/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/starstruck-the_letter_a}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/afDsd5tj/71da5d7607a112bdcc0bba8daf57fa0e0d87feae.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/p229Avz1/84e22f09b14f2d02ba3a978ee53eca575d214a24.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="EMI: Small Ships" event="url{https://modrinth.com/mod/emi-small-ships}"
+...button-text text="Show & Tell" event="url{https://modrinth.com/mod/show-and-tell}"
 
-👤 murphy-slaw | 📅 2026-11-17
+👤 chloe._. | 📅 2026-11-18
 
-EMI Plugin to support Small Ships Dockyard recipes.
+Show off your held item, inventory, ender chest and armor in chat
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/emi-small-ships/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/emi-small-ships}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/show-and-tell/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/show-and-tell}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/2mBGxMwG/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Tlwb0gzT/b7b84744002d0f408f763ff069e2a3e352217a66.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Emerald Gear" event="url{https://modrinth.com/mod/emerald-gear-_jpbs0904}"
+...button-text text="Checklist" event="url{https://modrinth.com/mod/todo-list-primeenforcer77}"
 
-👤 _jpbs0904 | 📅 2026-11-17
+👤 PrimeEnforcer77 | 📅 2026-11-18
 
-Adds the emerald item tier which is similar to diamond
+A see-through item checklist. Press F10, pick what you need, tick it off while you gather.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/emerald-gear-_jpbs0904/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/emerald-gear-_jpbs0904}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/todo-list-primeenforcer77/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/todo-list-primeenforcer77}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/MvbasfvQ/b00265b7d7ce0d6fc1650e92adaa0b78f7c92c02_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zelrAutW/c868cef021d0e94bbfecc1587ae5bf6275af021f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="EggTools for daycare+" event="url{https://modrinth.com/mod/tidefall-eggtools-for-daycare}"
+...button-text text="Core Protocol" event="url{https://modrinth.com/mod/core-protocol}"
 
-👤 khushalchouhan33 | 📅 2026-11-17
+👤 4C3D | 📅 2026-11-18
 
-A lightweight server-side Cobblemon breeding utility for Daycare+ with clean egg inspection, IV hove
+☢️ Core Protocol
+
+A nuclear technology and radiation mod for Minecraft. ☢️
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tidefall-eggtools-for-daycare/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tidefall-eggtools-for-daycare}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/core-protocol/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/core-protocol}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/4M70oqo2/9175d9fd20d8c68a54be86c551ec477cb55b371d_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xxgcY1o1/813483aa421a26c247d7daf9e9f37cb1d88b7f9b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Re: Trade" event="url{https://modrinth.com/mod/re-trade}"
+...button-text text="Yet Another FNAF Mod Extra Additions" event="url{https://modrinth.com/mod/yafnafmod2}"
 
-👤 rixzen | 📅 2026-11-17
+👤 MarceloGToonz | 📅 2026-11-18
 
-A simple mod that refresh villager trade.
+An official extension of Yet Another FNAF Mod adding tons of cool blocks and features!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/re-trade/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/re-trade}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/yafnafmod2/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/yafnafmod2}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +180,9 @@ A simple mod that refresh villager trade.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[1.5](https://minecraft.wiki/1.5)
+📖 **Wiki 推荐**：[Java Edition Beta 1.5](https://minecraft.wiki/Java_Edition_Beta_1.5)
 
-⏰ 更新时间：2026-11-17 20:44:01
+⏰ 更新时间：2026-11-18 07:00:24
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
