@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-19 07:01:07
+// 生成时间：2026-11-19 20:23:52
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.KnowledgeSculpture_ZH-CN3168800853_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.Megaptera_ZH-CN3361807823_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"七夕今宵看碧霄，牵牛织女渡河桥。"*
+> *"我不会接受我不要的未来，哪怕是命中注定。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{七夕今宵看碧霄，牵牛织女渡河桥。}"
+...button-text text="📋 复制" event="copy{我不会接受我不要的未来，哪怕是命中注定。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Opacity%2FPlacement}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_3.34.15}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/HDT7ug3M/99380ecd6d3756f3f03fbc453ce1fc869e430d85.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/CckdztZ9/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="无尽臭气 (Endless Stench)" event="url{https://modrinth.com/mod/endless-stench}"
+...button-text text="QuickCords" event="url{https://modrinth.com/mod/quickcords}"
 
-👤 9178-114514 | 📅 2026-11-19
+👤 MeqxsDev | 📅 2026-11-19
 
-Endless Stench — infection spreads, the Elmwood Throne, the Chrysanthemum Sanctum… This is an epic a
+A quick way to copy your cords with one simpe keybind!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/endless-stench/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/endless-stench}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/quickcords/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/quickcords}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/bNouxmJ5/7700ba63705c3c3a98066a557d2128d10fec22d9_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/SdqloeW8/0cfbe3bac7df72870ca02831797b0ca5fa681f44_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Die Coordinate Mod" event="url{https://modrinth.com/mod/die-coordinate-mod}"
+...button-text text="Borse Mod" event="url{https://modrinth.com/mod/borse-mod}"
 
-👤 Villager0090818 | 📅 2026-11-19
+👤 Unemployed_Circuit | 📅 2026-11-19
 
-If you died, system send you messege in chat where have your die coordinate.
+What was originally a joke among Disruption Developers, has now been turned into a full mod. Packed 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/die-coordinate-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/die-coordinate-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/borse-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/borse-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/JCgYDRvi/b14bb7bc7d60c7bd6f9c3e77d6f45a76c8b22ce1.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/QksYJLe4/2b54a163e84f4af635b63bb008861de6081cc8c2.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Manhunt: Riftbound" event="url{https://modrinth.com/mod/manhunt-riftbound}"
+...button-text text="PIXELS PERFECT ENCHANTS" event="url{https://modrinth.com/mod/pixels-perfect-enchants}"
 
-👤 Lacosto | 📅 2026-11-19
+👤 pixel_marine | 📅 2026-11-19
 
-Riftbound: Manhunt is an expanded Manhunt mode for Minecraft in which a Speedrunner attempts to comp
+Goofy and stupid enchants that are perfect!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/manhunt-riftbound/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/manhunt-riftbound}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pixels-perfect-enchants/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pixels-perfect-enchants}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/iDKu679T/fa7bb7ac39e1cd588102f3ac6593aae000faf42f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xwFQ1Gje/d680eaf14d6669620a72c957e9d9b662a37c05b1.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="NBT2Summon" event="url{https://modrinth.com/mod/nbt2summon}"
+...button-text text="Settings Search" event="url{https://modrinth.com/mod/settings-search}"
 
-👤 timtimoti1 | 📅 2026-11-19
+👤 TP_Pro | 📅 2026-11-19
 
-Copy mob NBT into ready-to-use Minecraft commands. Save entities, villager trades, or mobs with thei
+Search Minecraft settings with a Liquid Glass UI. Requires Fabric API and WalksyLib 2.0.5+ for Minec
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nbt2summon/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nbt2summon}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/settings-search/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/settings-search}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7kZbSEA1/54ee65d60774544bedf51601d697577887eac841.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/SZ7ygQCy/1910e35b41e4d9cfd1607698d8e876ec483028b2_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Quantum Boots" event="url{https://modrinth.com/mod/quantum-boots}"
+...button-text text="Envelope: Automated" event="url{https://modrinth.com/mod/envelope-automated}"
 
-👤 mattbillpage | 📅 2026-11-19
+👤 Boomber | 📅 2026-11-19
 
-Overhauls the armour system to match Better Than Adventure whilst adding some new features
+An Envelope addon with the aims to add automation that is inline with the base mod
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/quantum-boots/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/quantum-boots}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/envelope-automated/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/envelope-automated}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Overhauls the armour system to match Better Than Adventure whilst adding some ne
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：思想在此成形
-© 雕塑《知识之躯》，由豪梅·普兰萨创作，位于德国法兰克福的法兰克福歌德大学 (© Todamo/Shutterstock)
+🖼️ 壁纸：在峡湾中大快朵颐
+© 正在潜水的座头鲸，挪威北部特罗姆斯的克瓦尔岛 (© Espen Bergersen/Minden Pictures)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Opacity/Placement](https://minecraft.wiki/Opacity%2FPlacement)
+📖 **Wiki 推荐**：[Launcher 3.34.15](https://minecraft.wiki/Launcher_3.34.15)
 
-⏰ 更新时间：2026-11-19 07:01:07
+⏰ 更新时间：2026-11-19 20:23:52
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
