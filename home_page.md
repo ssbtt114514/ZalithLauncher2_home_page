@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-18 20:19:35
+// 生成时间：2026-11-19 07:01:07
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"要是爬太高，跌下来是会很疼的！"*
+> *"七夕今宵看碧霄，牵牛织女渡河桥。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{要是爬太高，跌下来是会很疼的！}"
+...button-text text="📋 复制" event="copy{七夕今宵看碧霄，牵牛织女渡河桥。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_block_render_history%2FImpulse_Command_Block}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Opacity%2FPlacement}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/cm5yz1Vi/7c30155832bd3af3638494060e62f21330038132_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/HDT7ug3M/99380ecd6d3756f3f03fbc453ce1fc869e430d85.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Interactic Reborn" event="url{https://modrinth.com/mod/interactic-reborn}"
+...button-text text="无尽臭气 (Endless Stench)" event="url{https://modrinth.com/mod/endless-stench}"
 
-👤 Lentypro | 📅 2026-11-18
+👤 9178-114514 | 📅 2026-11-19
 
-Interactic port for Forge, NeoForge and new Fabric versions
+Endless Stench — infection spreads, the Elmwood Throne, the Chrysanthemum Sanctum… This is an epic a
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/interactic-reborn/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/interactic-reborn}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/endless-stench/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/endless-stench}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/8BkV6PcX/f092cf2f96d45c18577c3833032eda2b30f001e7_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/bNouxmJ5/7700ba63705c3c3a98066a557d2128d10fec22d9_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Crosshair Lite" event="url{https://modrinth.com/mod/crosshair-lite}"
+...button-text text="Die Coordinate Mod" event="url{https://modrinth.com/mod/die-coordinate-mod}"
 
-👤 sixuii | 📅 2026-11-18
+👤 Villager0090818 | 📅 2026-11-19
 
-A highly customizable crosshair mod, with automatic centering and an import function.
+If you died, system send you messege in chat where have your die coordinate.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/crosshair-lite/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/crosshair-lite}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/die-coordinate-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/die-coordinate-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/D9ZZiQzJ/661583b13403b8b74d58793dc66c02541bf297cb_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/JCgYDRvi/b14bb7bc7d60c7bd6f9c3e77d6f45a76c8b22ce1.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="No Panic" event="url{https://modrinth.com/mod/no-panic}"
+...button-text text="Manhunt: Riftbound" event="url{https://modrinth.com/mod/manhunt-riftbound}"
 
-👤 QmkrAcel | 📅 2026-11-18
+👤 Lacosto | 📅 2026-11-19
 
-Adds a decent amount of challenge to your game!
+Riftbound: Manhunt is an expanded Manhunt mode for Minecraft in which a Speedrunner attempts to comp
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/no-panic/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/no-panic}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/manhunt-riftbound/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/manhunt-riftbound}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/WEhLyCHY/b2d5820cd631dee84a7c2260832d80c89e438f8f_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/iDKu679T/fa7bb7ac39e1cd588102f3ac6593aae000faf42f_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Gamblerrr" event="url{https://modrinth.com/mod/gamblerrr}"
+...button-text text="NBT2Summon" event="url{https://modrinth.com/mod/nbt2summon}"
 
-👤 xdeush | 📅 2026-11-18
+👤 timtimoti1 | 📅 2026-11-19
 
-The best gambling mod! Adds a dollar value to every item and lets you open cases, spin a wheel, risk
+Copy mob NBT into ready-to-use Minecraft commands. Save entities, villager trades, or mobs with thei
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/gamblerrr/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/gamblerrr}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nbt2summon/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nbt2summon}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/EquEmW1Q/ddc896dd534630b5a34bd13e86ec8bc360c05edf_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/7kZbSEA1/54ee65d60774544bedf51601d697577887eac841.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mod Whitelist Forge NeoForge" event="url{https://modrinth.com/mod/mod-whitelist-forge-neoforge}"
+...button-text text="Quantum Boots" event="url{https://modrinth.com/mod/quantum-boots}"
 
-👤 Klaus_Ferrano | 📅 2026-11-18
+👤 mattbillpage | 📅 2026-11-19
 
-Checks the client's mod list on login and kicks if disallowed mods are present or required mods are 
+Overhauls the armour system to match Better Than Adventure whilst adding some new features
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mod-whitelist-forge-neoforge/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mod-whitelist-forge-neoforge}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/quantum-boots/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/quantum-boots}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Checks the client's mod list on login and kicks if disallowed mods are present o
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition block render history/Impulse Command Block](https://minecraft.wiki/Java_Edition_block_render_history%2FImpulse_Command_Block)
+📖 **Wiki 推荐**：[Opacity/Placement](https://minecraft.wiki/Opacity%2FPlacement)
 
-⏰ 更新时间：2026-11-18 20:19:35
+⏰ 更新时间：2026-11-19 07:01:07
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
