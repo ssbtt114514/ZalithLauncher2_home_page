@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-19 20:23:52
+// 生成时间：2026-11-20 06:53:57
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"我不会接受我不要的未来，哪怕是命中注定。"*
+> *"要保持希望在每天清晨太阳升起。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{我不会接受我不要的未来，哪怕是命中注定。}"
+...button-text text="📋 复制" event="copy{要保持希望在每天清晨太阳升起。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_3.34.15}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Data_component_format%2Fwolf%2Fcollar}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/CckdztZ9/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/lhIOO0oW/516cc47de857f589c9a76667c5b207f2b105931f.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="QuickCords" event="url{https://modrinth.com/mod/quickcords}"
+...button-text text="Dripstone Arrows" event="url{https://modrinth.com/mod/dripstone-arrows}"
 
-👤 MeqxsDev | 📅 2026-11-19
+👤 TheKingOfNerds | 📅 2026-11-20
 
-A quick way to copy your cords with one simpe keybind!
+Adds arrows that spawn a dripstone trap
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/quickcords/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/quickcords}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dripstone-arrows/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dripstone-arrows}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/SdqloeW8/0cfbe3bac7df72870ca02831797b0ca5fa681f44_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/q5Dtv2Wk/110ede9cf0a127467e449a5df84e21345c052d62_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Borse Mod" event="url{https://modrinth.com/mod/borse-mod}"
+...button-text text="Mobs Drop Spawn Eggs" event="url{https://modrinth.com/mod/mobs-drop-spawn-eggs}"
 
-👤 Unemployed_Circuit | 📅 2026-11-19
+👤 Jodek | 📅 2026-11-20
 
-What was originally a joke among Disruption Developers, has now been turned into a full mod. Packed 
+Mobs drop their spawn egg when killed by a player
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/borse-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/borse-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mobs-drop-spawn-eggs/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mobs-drop-spawn-eggs}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/QksYJLe4/2b54a163e84f4af635b63bb008861de6081cc8c2.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xiLV0Zup/18cef1bdde63606a21a5d0710fd6d05b3854693a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="PIXELS PERFECT ENCHANTS" event="url{https://modrinth.com/mod/pixels-perfect-enchants}"
+...button-text text="Decorative Masonry" event="url{https://modrinth.com/mod/decorative-masonry}"
 
-👤 pixel_marine | 📅 2026-11-19
+👤 FunnyAnar | 📅 2026-11-20
 
-Goofy and stupid enchants that are perfect!
+Styled brick variants specifically designed for stone types that lacked them
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/pixels-perfect-enchants/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/pixels-perfect-enchants}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/decorative-masonry/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/decorative-masonry}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xwFQ1Gje/d680eaf14d6669620a72c957e9d9b662a37c05b1.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/7gcq44Ox/0eb163b62329f8ae97b92801ffc9994af36d730a.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Settings Search" event="url{https://modrinth.com/mod/settings-search}"
+...button-text text="Smooch: Sounds - Kiss Other Players" event="url{https://modrinth.com/mod/smooch-sounds}"
 
-👤 TP_Pro | 📅 2026-11-19
+👤 AlexGodly | 📅 2026-11-20
 
-Search Minecraft settings with a Liquid Glass UI. Requires Fabric API and WalksyLib 2.0.5+ for Minec
+Crouch while looking at another player to give them a kiss, with real kiss sounds, sparkles, floatin
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/settings-search/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/settings-search}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/smooch-sounds/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/smooch-sounds}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/SZ7ygQCy/1910e35b41e4d9cfd1607698d8e876ec483028b2_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/RfpmTPNt/292dd0ed1f35d815e386d62fc671da9455fa3154.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Envelope: Automated" event="url{https://modrinth.com/mod/envelope-automated}"
+...button-text text="Sulfur Gunpowder Recipe" event="url{https://modrinth.com/mod/sulfur-gunpowder-recipe}"
 
-👤 Boomber | 📅 2026-11-19
+👤 rcatlab | 📅 2026-11-20
 
-An Envelope addon with the aims to add automation that is inline with the base mod
+Craft gunpowder from sulfur and coal
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/envelope-automated/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/envelope-automated}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sulfur-gunpowder-recipe/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sulfur-gunpowder-recipe}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ An Envelope addon with the aims to add automation that is inline with the base m
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Launcher 3.34.15](https://minecraft.wiki/Launcher_3.34.15)
+📖 **Wiki 推荐**：[Data component format/wolf/collar](https://minecraft.wiki/Data_component_format%2Fwolf%2Fcollar)
 
-⏰ 更新时间：2026-11-19 20:23:52
+⏰ 更新时间：2026-11-20 06:53:57
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
