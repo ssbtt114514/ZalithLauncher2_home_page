@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-20 06:53:57
+// 生成时间：2026-11-20 19:55:06
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.Megaptera_ZH-CN3361807823_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.RedNice_ZH-CN3518429866_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"要保持希望在每天清晨太阳升起。"*
+> *"生活坏到一定程度就会好起来，因为它无法更坏。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{要保持希望在每天清晨太阳升起。}"
+...button-text text="📋 复制" event="copy{生活坏到一定程度就会好起来，因为它无法更坏。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Data_component_format%2Fwolf%2Fcollar}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_2.1.202x-beta}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/lhIOO0oW/516cc47de857f589c9a76667c5b207f2b105931f.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/JubS7kXn/3428afbae04df26662a58288cd5a67b59b7425ef.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Dripstone Arrows" event="url{https://modrinth.com/mod/dripstone-arrows}"
+...button-text text="custom_disc" event="url{https://modrinth.com/mod/custom_disc}"
 
-👤 TheKingOfNerds | 📅 2026-11-20
+👤 W1ndHang | 📅 2026-11-20
 
-Adds arrows that spawn a dripstone trap
+You can import your own music into craftable music_discs or disc_minecarts and play it in sync for o
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dripstone-arrows/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dripstone-arrows}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/custom_disc/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/custom_disc}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/q5Dtv2Wk/110ede9cf0a127467e449a5df84e21345c052d62_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/VraWcbRI/6abee8ed7a1441112135c94e0aa19f12a44c172a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Mobs Drop Spawn Eggs" event="url{https://modrinth.com/mod/mobs-drop-spawn-eggs}"
+...button-text text="Netherite Forever" event="url{https://modrinth.com/mod/netherite-forever}"
 
-👤 Jodek | 📅 2026-11-20
+👤 sillibeans | 📅 2026-11-20
 
-Mobs drop their spawn egg when killed by a player
+Make the ultimate tool as great as it is hard to get
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/mobs-drop-spawn-eggs/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/mobs-drop-spawn-eggs}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/netherite-forever/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/netherite-forever}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xiLV0Zup/18cef1bdde63606a21a5d0710fd6d05b3854693a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/DlLZh8vm/a8908004d16e0c1bba1782ba01087adea85928cb_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Decorative Masonry" event="url{https://modrinth.com/mod/decorative-masonry}"
+...button-text text="Villager Awareness" event="url{https://modrinth.com/mod/villager-awareness}"
 
-👤 FunnyAnar | 📅 2026-11-20
+👤 Zorpi | 📅 2026-11-20
 
-Styled brick variants specifically designed for stone types that lacked them
+Villager Awareness is a psychological horror mod that makes villagers remember your actions, react t
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/decorative-masonry/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/decorative-masonry}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/villager-awareness/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/villager-awareness}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/7gcq44Ox/0eb163b62329f8ae97b92801ffc9994af36d730a.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/TJHcVjFs/ad31bb7c258d99fc2c9c29bbdc86d67e1d154332_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Smooch: Sounds - Kiss Other Players" event="url{https://modrinth.com/mod/smooch-sounds}"
+...button-text text="[Tacz] Berts Armor" event="url{https://modrinth.com/mod/berts-armor}"
 
-👤 AlexGodly | 📅 2026-11-20
+👤 Senko_902 | 📅 2026-11-20
 
-Crouch while looking at another player to give them a kiss, with real kiss sounds, sparkles, floatin
+Realistic Historical armors
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/smooch-sounds/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/smooch-sounds}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/berts-armor/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/berts-armor}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/RfpmTPNt/292dd0ed1f35d815e386d62fc671da9455fa3154.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/cdOOEJ7n/33be107646b9d2e2316e40aed25a8c873fd4b149_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Sulfur Gunpowder Recipe" event="url{https://modrinth.com/mod/sulfur-gunpowder-recipe}"
+...button-text text="Bow Armor Trims" event="url{https://modrinth.com/mod/ks-bow-trims}"
 
-👤 rcatlab | 📅 2026-11-20
+👤 nugrevan | 📅 2026-11-20
 
-Craft gunpowder from sulfur and coal
+Make your bow trimmable just like your armor, choose between 198 different styles !
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sulfur-gunpowder-recipe/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sulfur-gunpowder-recipe}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ks-bow-trims/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ks-bow-trims}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Craft gunpowder from sulfur and coal
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：在峡湾中大快朵颐
-© 正在潜水的座头鲸，挪威北部特罗姆斯的克瓦尔岛 (© Espen Bergersen/Minden Pictures)
+🖼️ 壁纸：陶瓦屋顶下的梦
+© 法国普罗旺斯-阿尔卑斯-蔚蓝海岸大区尼斯 (© Siripong Kaewla-iad/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Data component format/wolf/collar](https://minecraft.wiki/Data_component_format%2Fwolf%2Fcollar)
+📖 **Wiki 推荐**：[Launcher 2.1.202x-beta](https://minecraft.wiki/Launcher_2.1.202x-beta)
 
-⏰ 更新时间：2026-11-20 06:53:57
+⏰ 更新时间：2026-11-20 19:55:06
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
