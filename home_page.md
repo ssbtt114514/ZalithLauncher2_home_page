@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-20 19:55:06
+// 生成时间：2026-11-21 06:48:59
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"生活坏到一定程度就会好起来，因为它无法更坏。"*
+> *"失去故土的花朵，回不去，却也离不开。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{生活坏到一定程度就会好起来，因为它无法更坏。}"
+...button-text text="📋 复制" event="copy{失去故土的花朵，回不去，却也离不开。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_2.1.202x-beta}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/LEGO_Minecraft_Ideas}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/JubS7kXn/3428afbae04df26662a58288cd5a67b59b7425ef.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/TDrjCMDo/96a5dc2af87d4c22c1fcb86bd4154aec9d619e46_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="custom_disc" event="url{https://modrinth.com/mod/custom_disc}"
+...button-text text="Smart NPC [Fabric & Forge & NeoForge]" event="url{https://modrinth.com/mod/smart-npc}"
 
-👤 W1ndHang | 📅 2026-11-20
+👤 pla_is_me | 📅 2026-11-21
 
-You can import your own music into craftable music_discs or disc_minecarts and play it in sync for o
+This mod add AI NPC That Plays Minecraft Like a Real Player.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/custom_disc/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/custom_disc}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/smart-npc/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/smart-npc}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/VraWcbRI/6abee8ed7a1441112135c94e0aa19f12a44c172a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/mjHZ13nm/42ee15c3e938f75be42db9302063291a8f01a54d.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Netherite Forever" event="url{https://modrinth.com/mod/netherite-forever}"
+...button-text text="ATR-Dice" event="url{https://modrinth.com/mod/atr-dice}"
 
-👤 sillibeans | 📅 2026-11-20
+👤 ATRevault | 📅 2026-11-21
 
-Make the ultimate tool as great as it is hard to get
+A lightweight dice and roleplay system for Minecraft.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/netherite-forever/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/netherite-forever}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/atr-dice/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/atr-dice}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/DlLZh8vm/a8908004d16e0c1bba1782ba01087adea85928cb_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/tIR74OSM/e0249bc702ac6cf7671712b3bce2614c6a641ff1_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Villager Awareness" event="url{https://modrinth.com/mod/villager-awareness}"
+...button-text text="Laser Excavator" event="url{https://modrinth.com/mod/laser-excavator}"
 
-👤 Zorpi | 📅 2026-11-20
+👤 frozenphoenix0948 | 📅 2026-11-21
 
-Villager Awareness is a psychological horror mod that makes villagers remember your actions, react t
+This mod adds a highly optimized excavator/quarry that combines automated mining with modular upgrad
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/villager-awareness/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/villager-awareness}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/laser-excavator/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/laser-excavator}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/TJHcVjFs/ad31bb7c258d99fc2c9c29bbdc86d67e1d154332_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/xawIB1uF/d9c9ab249682bf01a31e43ee01c72447fdad195a.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="[Tacz] Berts Armor" event="url{https://modrinth.com/mod/berts-armor}"
+...button-text text="More Japanese" event="url{https://modrinth.com/mod/more-japanese}"
 
-👤 Senko_902 | 📅 2026-11-20
+👤 TYF. | 📅 2026-11-21
 
-Realistic Historical armors
+Adds four custom Japanese-style languages for Minecraft.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/berts-armor/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/berts-armor}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/more-japanese/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/more-japanese}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/cdOOEJ7n/33be107646b9d2e2316e40aed25a8c873fd4b149_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Ok3VJwMO/c0532249442fe68d9043fdd9e93a81764a2d5400.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Bow Armor Trims" event="url{https://modrinth.com/mod/ks-bow-trims}"
+...button-text text="Trim Attributes" event="url{https://modrinth.com/mod/trim-attributes}"
 
-👤 nugrevan | 📅 2026-11-20
+👤 zenxy | 📅 2026-11-21
 
-Make your bow trimmable just like your armor, choose between 198 different styles !
+This mod adds more functionality to trims.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ks-bow-trims/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ks-bow-trims}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/trim-attributes/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/trim-attributes}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Make your bow trimmable just like your armor, choose between 198 different style
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Launcher 2.1.202x-beta](https://minecraft.wiki/Launcher_2.1.202x-beta)
+📖 **Wiki 推荐**：[LEGO Minecraft Ideas](https://minecraft.wiki/LEGO_Minecraft_Ideas)
 
-⏰ 更新时间：2026-11-20 19:55:06
+⏰ 更新时间：2026-11-21 06:48:59
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
