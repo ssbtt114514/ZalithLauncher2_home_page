@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-21 19:00:31
+// 生成时间：2026-11-22 06:21:11
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"憧憬是距离理解最遥远的感情。"*
+> *"战争考验人类的良知与正义，和平呼唤我们的理性与智慧。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{憧憬是距离理解最遥远的感情。}"
+...button-text text="📋 复制" event="copy{战争考验人类的良知与正义，和平呼唤我们的理性与智慧。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Tripwire_Hook%2FAsset_history}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Cinnabar_Wall}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,82 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/TDrjCMDo/96a5dc2af87d4c22c1fcb86bd4154aec9d619e46_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ISgXMfv9/04e25b8ef073dfa195639df3aed0a7227cbaa832_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Smart NPC [Fabric & Forge & NeoForge]" event="url{https://modrinth.com/mod/smart-npc}"
+...button-text text="Spiral Abyss" event="url{https://modrinth.com/mod/spiral-abyss}"
 
-👤 pla_is_me | 📅 2026-11-21
+👤 pla_is_me | 📅 2026-11-22
 
-This mod add AI NPC That Plays Minecraft Like a Real Player.
+Adding Genshin inspired challenge dungeon to Minecraft
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/smart-npc/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/smart-npc}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/spiral-abyss/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/spiral-abyss}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/mjHZ13nm/42ee15c3e938f75be42db9302063291a8f01a54d.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/BGy155AO/59b1df7118762d19870aa524e5243350c283de31_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="ATR-Dice" event="url{https://modrinth.com/mod/atr-dice}"
+...button-text text="TaCZ Gun Storage" event="url{https://modrinth.com/mod/tacz-gun-storage}"
 
-👤 ATRevault | 📅 2026-11-21
+👤 Fishy_Dish | 📅 2026-11-22
 
-A lightweight dice and roleplay system for Minecraft.
+Your guns deserve better than a chest.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/atr-dice/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/atr-dice}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tacz-gun-storage/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tacz-gun-storage}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/tIR74OSM/e0249bc702ac6cf7671712b3bce2614c6a641ff1_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/S2odudYP/7e8ff64b2d448284c0035923e80dc5dca449edee_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Laser Excavator" event="url{https://modrinth.com/mod/laser-excavator}"
+...button-text text="Revivable Pets" event="url{https://modrinth.com/mod/revivable-pets}"
 
-👤 frozenphoenix0948 | 📅 2026-11-21
+👤 Pino. | 📅 2026-11-22
 
-This mod adds a highly optimized excavator/quarry that combines automated mining with modular upgrad
+Revive fallen pets at a craftable altar, browse them all with 3D previews, and let admins track and 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/laser-excavator/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/laser-excavator}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/revivable-pets/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/revivable-pets}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/xawIB1uF/d9c9ab249682bf01a31e43ee01c72447fdad195a.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/eSjSMUIS/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="More Japanese" event="url{https://modrinth.com/mod/more-japanese}"
+...button-text text="ProjectRecreation" event="url{https://modrinth.com/mod/projectrecreation}"
 
-👤 TYF. | 📅 2026-11-21
+👤 ZER0_MC_ | 📅 2026-11-22
 
-Adds four custom Japanese-style languages for Minecraft.
+This is a mod that took me over 7 years to make because my dog likes eating usbs and keyboards,
+this
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/more-japanese/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/more-japanese}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/projectrecreation/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/projectrecreation}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Ok3VJwMO/c0532249442fe68d9043fdd9e93a81764a2d5400.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/rJ7yZePO/8ada7c5fad6265182643045771cec43fd22e98ed_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Trim Attributes" event="url{https://modrinth.com/mod/trim-attributes}"
+...button-text text="Prettier Horse Stuff" event="url{https://modrinth.com/mod/prettier-horse-stuff}"
 
-👤 zenxy | 📅 2026-11-21
+👤 koutsie | 📅 2026-11-22
 
-This mod adds more functionality to trims.
+This mod adds over 40 types of horse armour/saddle combos - make your horses prettier!
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/trim-attributes/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/trim-attributes}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/prettier-horse-stuff/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/prettier-horse-stuff}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +179,9 @@ This mod adds more functionality to trims.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Tripwire Hook/Asset history](https://minecraft.wiki/Tripwire_Hook%2FAsset_history)
+📖 **Wiki 推荐**：[Cinnabar Wall](https://minecraft.wiki/Cinnabar_Wall)
 
-⏰ 更新时间：2026-11-21 19:00:31
+⏰ 更新时间：2026-11-22 06:21:11
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
