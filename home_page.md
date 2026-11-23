@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-23 07:11:52
+// 生成时间：2026-11-23 23:44:01
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.FibonacciFern_ZH-CN3882237848_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.CairngormsSquirrel_ZH-CN0941302869_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"恐惧，是弱点劫持了，你身体里的驾驶舱。"*
+> *"旧情黯淡痴心愁，执念且放手。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{恐惧，是弱点劫持了，你身体里的驾驶舱。}"
+...button-text text="📋 复制" event="copy{旧情黯淡痴心愁，执念且放手。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.15.1_Pre-release_1}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_mob_render_history%2FZombified_Piglin}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/QRpOjk9I/310736dd8e9239d97a4e7c0459c40d878ebccd09_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Hc7OIasy/552cf26c9c71e0017df1bd6bd55f9b82e7a17337_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="LowerTMM's Economy Pack" event="url{https://modrinth.com/mod/lowertmms-economy-pack}"
+...button-text text="Steve: Way of Shinobi (Naruto Mod)" event="url{https://modrinth.com/mod/steve-way-of-shinobi}"
 
-👤 LowerTMM_10 | 📅 2026-11-23
+👤 uheothinking | 📅 2026-11-23
 
-This datapack/mod adds an ATM to every village that is interactable. You can trade with special bank
+This mod is based on the Naruto universe. Currently, it contains over 30 jutsu and 12 starting optio
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lowertmms-economy-pack/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lowertmms-economy-pack}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/steve-way-of-shinobi/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/steve-way-of-shinobi}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/YX3JwHpD/6d9ede66ce95e68796c0da4f7479380e85d47803_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ptYs0BA4/b50a49044b1ed217a9e1724c381aa38946ae84c4.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Fortune Ancient Debris" event="url{https://modrinth.com/mod/fortuneancientdebris}"
+...button-text text="Forgotten Evil" event="url{https://modrinth.com/mod/forgotten-evil}"
 
-👤 the_tizio | 📅 2026-11-23
+👤 FlokiF | 📅 2026-11-23
 
-Ancient debris gives netherite scraps, affected by fortune
+“Forgotten Evil” is a Ukrainian mod (English localization is available) that adds a multitude of art
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fortuneancientdebris/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fortuneancientdebris}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/forgotten-evil/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/forgotten-evil}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/KKRdjHZl/16778897027b24d8b28914c7bcb1b13b6fd0cf2b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/etS5MyEP/c53a7868b8b3b96ee0a21c31c406dd6c7de494dd_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Craftable Chainmail Armor: Iron Nugget Recipes" event="url{https://modrinth.com/mod/alexs-craftable-chainmail}"
+...button-text text="BareBonesBrews" event="url{https://modrinth.com/mod/barebonesbrews}"
 
-👤 AlexGodly | 📅 2026-11-23
+👤 AbyssLasea | 📅 2026-11-23
 
-Craft a full set of chainmail armor from iron nuggets. Helmet, chestplate, leggings and boots. Data 
+Brew weaker versions of vanilla and modded potions in a heated water cauldron
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/alexs-craftable-chainmail/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/alexs-craftable-chainmail}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/barebonesbrews/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/barebonesbrews}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/vi46Uajd/f3588b041a6428ee057d5fbfaa1ceb41a1cb979e_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/9O6HgglQ/6e43e12b1cbf47876e9b911f117eb18f49fa733b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Craftable Bell: Simple Bell Recipe" event="url{https://modrinth.com/mod/alexs-craftable-bell}"
+...button-text text="CapturVisuals" event="url{https://modrinth.com/mod/capturvisuals}"
 
-👤 AlexGodly | 📅 2026-11-23
+👤 Flixis | 📅 2026-11-23
 
-Craft bells from gold and a stick instead of searching villages for one. Data pack and mod, Minecraf
+A free client mod for Minecraft 1.21.4 with custom Interface, configs, and utility tools.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/alexs-craftable-bell/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/alexs-craftable-bell}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/capturvisuals/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/capturvisuals}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/lBsTj6Zi/e299b036e1371abc0368bee3d251896de6760684_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/BBuKrLDW/75398e28ad00bdacdf815a70f71a1a978cf9b4c4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Craftable Name Tag: Simple Name Tag Recipe" event="url{https://modrinth.com/mod/alexs-craftable-name-tag}"
+...button-text text="PackagedAvaritia:Neo" event="url{https://modrinth.com/mod/packagedavaritia-neo}"
 
-👤 AlexGodly | 📅 2026-11-23
+👤 TheLMiffy1111 | 📅 2026-11-23
 
-Craft name tags from paper, string and an iron nugget. Name your pets and stop mobs from despawning.
+AvaritiaNeo Autocrafting with PackagedAuto
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/alexs-craftable-name-tag/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/alexs-craftable-name-tag}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/packagedavaritia-neo/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/packagedavaritia-neo}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Craft name tags from paper, string and an iron nugget. Name your pets and stop m
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：自然中的几何之美
-© 蕨类植物的卷曲嫩叶 (© Reza Saputra/Getty Images)
+🖼️ 壁纸：秋日的保护色
+© 红松鼠，凯恩戈姆斯国家公园，苏格兰高地 (© Scotland: The Big Picture/Minden Pictures)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 1.15.1 Pre-release 1](https://minecraft.wiki/Java_Edition_1.15.1_Pre-release_1)
+📖 **Wiki 推荐**：[Bedrock Edition mob render history/Zombified Piglin](https://minecraft.wiki/Bedrock_Edition_mob_render_history%2FZombified_Piglin)
 
-⏰ 更新时间：2026-11-23 07:11:52
+⏰ 更新时间：2026-11-23 23:44:01
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
