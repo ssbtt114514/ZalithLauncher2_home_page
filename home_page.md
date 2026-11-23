@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-22 19:24:50
+// 生成时间：2026-11-23 07:11:52
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"明明穿的很普通，但他给人的感觉却好像浑身散发着光一样。"*
+> *"恐惧，是弱点劫持了，你身体里的驾驶舱。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{明明穿的很普通，但他给人的感觉却好像浑身散发着光一样。}"
+...button-text text="📋 复制" event="copy{恐惧，是弱点劫持了，你身体里的驾驶舱。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_26.2_Snapshot_5}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_1.15.1_Pre-release_1}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/D3MaoZ4f/9e4e707bc68ff489e05768d66cc72384670fd8a3_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/QRpOjk9I/310736dd8e9239d97a4e7c0459c40d878ebccd09_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="EMI Legacy" event="url{https://modrinth.com/mod/emi-legacy}"
+...button-text text="LowerTMM's Economy Pack" event="url{https://modrinth.com/mod/lowertmms-economy-pack}"
 
-👤 demonyga | 📅 2026-11-22
+👤 LowerTMM_10 | 📅 2026-11-23
 
-Unofficial port of EMI, the item and recipe viewer, to Minecraft 1.16.5 Forge. Search, favorites, re
+This datapack/mod adds an ATM to every village that is interactable. You can trade with special bank
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/emi-legacy/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/emi-legacy}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/lowertmms-economy-pack/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/lowertmms-economy-pack}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/awq0tCrS/357bff2063ecfc4fc0136e264739e99e2d8177d6.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/YX3JwHpD/6d9ede66ce95e68796c0da4f7479380e85d47803_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Kill fonk" event="url{https://modrinth.com/mod/kill-fonk}"
+...button-text text="Fortune Ancient Debris" event="url{https://modrinth.com/mod/fortuneancientdebris}"
 
-👤 Villager0090818 | 📅 2026-11-22
+👤 the_tizio | 📅 2026-11-23
 
-This mod displays a custom title of your choosing whenever you kill a boss or another player. Config
+Ancient debris gives netherite scraps, affected by fortune
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/kill-fonk/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/kill-fonk}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/fortuneancientdebris/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/fortuneancientdebris}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/y5INSMZI/943a14c50ff2900abe9eb8af562aae01f7210d9a.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/KKRdjHZl/16778897027b24d8b28914c7bcb1b13b6fd0cf2b_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="3D Item Icons" event="url{https://modrinth.com/mod/3d-item-icons}"
+...button-text text="Craftable Chainmail Armor: Iron Nugget Recipes" event="url{https://modrinth.com/mod/alexs-craftable-chainmail}"
 
-👤 DragonGeode | 📅 2026-11-22
+👤 AlexGodly | 📅 2026-11-23
 
-This is a mod for Fabric 1.21.11 Java Minecraft that makes it so that 3D item models from resource p
+Craft a full set of chainmail armor from iron nuggets. Helmet, chestplate, leggings and boots. Data 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/3d-item-icons/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/3d-item-icons}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/alexs-craftable-chainmail/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/alexs-craftable-chainmail}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/rq1SczV3/4afdbd40bef90b14f2f4d07f8fa68a932b103b4c.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vi46Uajd/f3588b041a6428ee057d5fbfaa1ceb41a1cb979e_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="The Last Sun" event="url{https://modrinth.com/mod/the-last-sun}"
+...button-text text="Craftable Bell: Simple Bell Recipe" event="url{https://modrinth.com/mod/alexs-craftable-bell}"
 
-👤 Yorokobi | 📅 2026-11-22
+👤 AlexGodly | 📅 2026-11-23
 
-The Sun is gone. Darkness is coming. Survive the endless winter in this atmospheric post-apocalyptic
+Craft bells from gold and a stick instead of searching villages for one. Data pack and mod, Minecraf
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/the-last-sun/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/the-last-sun}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/alexs-craftable-bell/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/alexs-craftable-bell}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/R7ebfAVr/585846f4c826e6f02c0455e5bfbc7d5807d760a6_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/lBsTj6Zi/e299b036e1371abc0368bee3d251896de6760684_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Wheelbarrow Forked" event="url{https://modrinth.com/mod/wheelbarrow-forked}"
+...button-text text="Craftable Name Tag: Simple Name Tag Recipe" event="url{https://modrinth.com/mod/alexs-craftable-name-tag}"
 
-👤 Minor2CCh | 📅 2026-11-22
+👤 AlexGodly | 📅 2026-11-23
 
-A project forked from Wheelbarrow by assassinmode.
+Craft name tags from paper, string and an iron nugget. Name your pets and stop mobs from despawning.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wheelbarrow-forked/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wheelbarrow-forked}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/alexs-craftable-name-tag/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/alexs-craftable-name-tag}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ A project forked from Wheelbarrow by assassinmode.
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition 26.2 Snapshot 5](https://minecraft.wiki/Java_Edition_26.2_Snapshot_5)
+📖 **Wiki 推荐**：[Java Edition 1.15.1 Pre-release 1](https://minecraft.wiki/Java_Edition_1.15.1_Pre-release_1)
 
-⏰ 更新时间：2026-11-22 19:24:50
+⏰ 更新时间：2026-11-23 07:11:52
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
