@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-23 23:44:01
+// 生成时间：2026-11-24 09:35:31
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"旧情黯淡痴心愁，执念且放手。"*
+> *"因为痛苦太有价值，因为回忆太珍贵，所以我们更要继续往前走。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{旧情黯淡痴心愁，执念且放手。}"
+...button-text text="📋 复制" event="copy{因为痛苦太有价值，因为回忆太珍贵，所以我们更要继续往前走。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_mob_render_history%2FZombified_Piglin}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_2.3.388}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Hc7OIasy/552cf26c9c71e0017df1bd6bd55f9b82e7a17337_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/FHaYxsjx/1f25f55c3e784e296e90920bd63a15f2a895b253.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Steve: Way of Shinobi (Naruto Mod)" event="url{https://modrinth.com/mod/steve-way-of-shinobi}"
+...button-text text="[One Block] Mod" event="url{https://modrinth.com/mod/one-block-mod}"
 
-👤 uheothinking | 📅 2026-11-23
+👤 navzary | 📅 2026-11-24
 
-This mod is based on the Naruto universe. Currently, it contains over 30 jutsu and 12 starting optio
+Your entire world begins with a single regenerating block.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/steve-way-of-shinobi/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/steve-way-of-shinobi}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/one-block-mod/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/one-block-mod}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ptYs0BA4/b50a49044b1ed217a9e1724c381aa38946ae84c4.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/uIvQDDZx/2353a6dd2e440e562e37adc9938a72795d11769f.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Forgotten Evil" event="url{https://modrinth.com/mod/forgotten-evil}"
+...button-text text="End Shrimp" event="url{https://modrinth.com/mod/end-shrimp}"
 
-👤 FlokiF | 📅 2026-11-23
+👤 NICbanana | 📅 2026-11-24
 
-“Forgotten Evil” is a Ukrainian mod (English localization is available) that adds a multitude of art
+Adds a new mob of the end
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/forgotten-evil/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/forgotten-evil}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/end-shrimp/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/end-shrimp}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/etS5MyEP/c53a7868b8b3b96ee0a21c31c406dd6c7de494dd_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/swucUsFa/1a06fe6dc9668a2f78c2ac26aa4a485ce35aa637_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="BareBonesBrews" event="url{https://modrinth.com/mod/barebonesbrews}"
+...button-text text="Auto Enchanting Table" event="url{https://modrinth.com/mod/auto-enchanting-table}"
 
-👤 AbyssLasea | 📅 2026-11-23
+👤 Zerw | 📅 2026-11-24
 
-Brew weaker versions of vanilla and modded potions in a heated water cauldron
+Automatically places lapis and books into the enchanting table for you, then loads the next book aft
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/barebonesbrews/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/barebonesbrews}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/auto-enchanting-table/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/auto-enchanting-table}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/9O6HgglQ/6e43e12b1cbf47876e9b911f117eb18f49fa733b_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Gl6De3VB/0578b44e329062c1107433344944d01c051db0eb.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="CapturVisuals" event="url{https://modrinth.com/mod/capturvisuals}"
+...button-text text="NoStack" event="url{https://modrinth.com/mod/nostack}"
 
-👤 Flixis | 📅 2026-11-23
+👤 xokz | 📅 2026-11-24
 
-A free client mod for Minecraft 1.21.4 with custom Interface, configs, and utility tools.
+Items can no longer stack! Good luck...
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/capturvisuals/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/capturvisuals}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nostack/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nostack}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/BBuKrLDW/75398e28ad00bdacdf815a70f71a1a978cf9b4c4_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/LB3rv9Ub/22f362f0341806d2232b1732668c600d44a7a857_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="PackagedAvaritia:Neo" event="url{https://modrinth.com/mod/packagedavaritia-neo}"
+...button-text text="CS2main" event="url{https://modrinth.com/mod/cs2main}"
 
-👤 TheLMiffy1111 | 📅 2026-11-23
+👤 Tarubi_ | 📅 2026-11-24
 
-AvaritiaNeo Autocrafting with PackagedAuto
+Competitive CT vs T rounds for Minecraft with TaCZ weapons, economy, C4 objectives and a tactical HU
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/packagedavaritia-neo/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/packagedavaritia-neo}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cs2main/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cs2main}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ AvaritiaNeo Autocrafting with PackagedAuto
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition mob render history/Zombified Piglin](https://minecraft.wiki/Bedrock_Edition_mob_render_history%2FZombified_Piglin)
+📖 **Wiki 推荐**：[Launcher 2.3.388](https://minecraft.wiki/Launcher_2.3.388)
 
-⏰ 更新时间：2026-11-23 23:44:01
+⏰ 更新时间：2026-11-24 09:35:31
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
