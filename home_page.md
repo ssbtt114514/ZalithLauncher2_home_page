@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-24 09:35:31
+// 生成时间：2026-11-24 22:15:41
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.CairngormsSquirrel_ZH-CN0941302869_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.SunsetPoint_ZH-CN5737034685_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"因为痛苦太有价值，因为回忆太珍贵，所以我们更要继续往前走。"*
+> *"人啊...想要保护重要东西的时候，就真的能变得很坚强。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{因为痛苦太有价值，因为回忆太珍贵，所以我们更要继续往前走。}"
+...button-text text="📋 复制" event="copy{人啊...想要保护重要东西的时候，就真的能变得很坚强。}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.3
-**最新快照**: 26.4-snapshot-10
+**最新快照**: 26.4-pre-1
 
 近期版本：
 - **26.3** (2026-09-15)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Launcher_2.3.388}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_beta_1.11.0.9}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/FHaYxsjx/1f25f55c3e784e296e90920bd63a15f2a895b253.gif" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/VMfSUlrV/b93eb2cb72d71585a661bbf00bb161def341ead1.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="[One Block] Mod" event="url{https://modrinth.com/mod/one-block-mod}"
+...button-text text="Bella the Known Cat" event="url{https://modrinth.com/mod/bella-the-known-cat}"
 
-👤 navzary | 📅 2026-11-24
+👤 dm0275 | 📅 2026-11-24
 
-Your entire world begins with a single regenerating block.
+Meet Bella, a tameable cat companion who can transform into Super Bella and defend her owner from ne
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/one-block-mod/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/one-block-mod}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bella-the-known-cat/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bella-the-known-cat}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/uIvQDDZx/2353a6dd2e440e562e37adc9938a72795d11769f.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/1bkdwL3m/e3973e4baa1462208458af3de60659ed7f46a47c.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="End Shrimp" event="url{https://modrinth.com/mod/end-shrimp}"
+...button-text text="Quill's Inkwell" event="url{https://modrinth.com/mod/quills-inkwell}"
 
-👤 NICbanana | 📅 2026-11-24
+👤 QtQwill | 📅 2026-11-24
 
-Adds a new mob of the end
+This is a Library Mod for Quill's Chronicles.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/end-shrimp/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/end-shrimp}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/quills-inkwell/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/quills-inkwell}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/swucUsFa/1a06fe6dc9668a2f78c2ac26aa4a485ce35aa637_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/t1Y7Xa0P/d72d12637e4f8b43923c68e0153b2a1ba03e2a94_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Auto Enchanting Table" event="url{https://modrinth.com/mod/auto-enchanting-table}"
+...button-text text="Sculk Horde Updated (Unofficial)" event="url{https://modrinth.com/mod/sculk-horde-updated}"
 
-👤 Zerw | 📅 2026-11-24
+👤 bananaman7582 | 📅 2026-11-24
 
-Automatically places lapis and books into the enchanting table for you, then loads the next book aft
+Unofficially pdates the Sculk Horde mod to 26.2 Fabric. (May add more versions in the future)
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/auto-enchanting-table/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/auto-enchanting-table}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sculk-horde-updated/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sculk-horde-updated}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Gl6De3VB/0578b44e329062c1107433344944d01c051db0eb.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/gu63zgSh/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="NoStack" event="url{https://modrinth.com/mod/nostack}"
+...button-text text="[Custom Orgins] The path of ninetails" event="url{https://modrinth.com/mod/orgins-the-path-of-ninetails}"
 
-👤 xokz | 📅 2026-11-24
+👤 Glitched-Da-Kitty-Cat | 📅 2026-11-24
 
-Items can no longer stack! Good luck...
+A nine-tailed kitsune-cat origin with foxfire, henge magic, a hidden chest, and more. For Minecraft 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/nostack/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/nostack}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/orgins-the-path-of-ninetails/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/orgins-the-path-of-ninetails}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/LB3rv9Ub/22f362f0341806d2232b1732668c600d44a7a857_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/uSOU2NJZ/fab49962065e02241e1a56d07f3aaa3512991bb0_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="CS2main" event="url{https://modrinth.com/mod/cs2main}"
+...button-text text="Deku's Multifications" event="url{https://modrinth.com/mod/dekus-multifications}"
 
-👤 Tarubi_ | 📅 2026-11-24
+👤 Aft0n | 📅 2026-11-24
 
-Competitive CT vs T rounds for Minecraft with TaCZ weapons, economy, C4 objectives and a tactical HU
+Nastia's Miracle Stones addon that lets you unify Butterfly Miraculous with as many Miraculouses as 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/cs2main/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/cs2main}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dekus-multifications/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dekus-multifications}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Competitive CT vs T rounds for Minecraft with TaCZ weapons, economy, C4 objectiv
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：秋日的保护色
-© 红松鼠，凯恩戈姆斯国家公园，苏格兰高地 (© Scotland: The Big Picture/Minden Pictures)
+🖼️ 壁纸：美国西南部的一场雪
+© 日落观景点，布莱斯峡谷国家公园，犹他州 (© Colin D. Young/Alamy)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Launcher 2.3.388](https://minecraft.wiki/Launcher_2.3.388)
+📖 **Wiki 推荐**：[Bedrock Edition beta 1.11.0.9](https://minecraft.wiki/Bedrock_Edition_beta_1.11.0.9)
 
-⏰ 更新时间：2026-11-24 09:35:31
+⏰ 更新时间：2026-11-24 22:15:41
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
