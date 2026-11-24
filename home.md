@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Minecraft 自定义主页
-// 生成时间：2026/11/24 03:38:52
+// 生成时间：2026/11/24 16:44:40
 // 数据来源：Minecraft Wiki | Mojang API
 // ============================================
 
@@ -30,7 +30,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
     ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.3
-**最新快照**: 26.4-snapshot-10
+**最新快照**: 26.4-pre-1
 
 近期版本：
         - **26.3** (2026-09-15)
@@ -153,7 +153,7 @@
 **Minecraft 自定义主页**
 
 🖼️ 内容来源：Minecraft Wiki
-📅 更新时间：2026/11/24 03:38:52
+📅 更新时间：2026/11/24 16:44:40
 
         ...row-start horizontal=spacedBy(12)
             ...button-text text="📖 关注作者" event="url{https://space.bilibili.com/3546377567078479}"
