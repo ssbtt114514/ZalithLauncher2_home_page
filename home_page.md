@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-24 22:15:41
+// 生成时间：2026-11-25 08:06:37
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"人啊...想要保护重要东西的时候，就真的能变得很坚强。"*
+> *"短暂柔情似流星划落。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{人啊...想要保护重要东西的时候，就真的能变得很坚强。}"
+...button-text text="📋 复制" event="copy{短暂柔情似流星划落。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_beta_1.11.0.9}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FEnd_Portal}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/VMfSUlrV/b93eb2cb72d71585a661bbf00bb161def341ead1.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/UiRHWODK/becee503f5ae3d318235588aee64519b22c4f9af_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Bella the Known Cat" event="url{https://modrinth.com/mod/bella-the-known-cat}"
+...button-text text="Hands-On Furniture" event="url{https://modrinth.com/mod/handson-furniture}"
 
-👤 dm0275 | 📅 2026-11-24
+👤 Pocky-l | 📅 2026-11-25
 
-Meet Bella, a tameable cat companion who can transform into Super Bella and defend her owner from ne
+Open MrCrayfish's furniture with your hands: put things on its shelves anywhere, turned and sized as
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/bella-the-known-cat/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/bella-the-known-cat}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/handson-furniture/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/handson-furniture}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/1bkdwL3m/e3973e4baa1462208458af3de60659ed7f46a47c.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vXV0SE04/9632e39b3ebcf8dafa8b6d88e18faab6da34a9b8_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Quill's Inkwell" event="url{https://modrinth.com/mod/quills-inkwell}"
+...button-text text="Hands-On Vanilla" event="url{https://modrinth.com/mod/handson-vanilla}"
 
-👤 QtQwill | 📅 2026-11-24
+👤 Pocky-l | 📅 2026-11-25
 
-This is a Library Mod for Quill's Chronicles.
+Craft and smelt with your own hands, right on the crafting table and the furnace. Client-side: works
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/quills-inkwell/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/quills-inkwell}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/handson-vanilla/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/handson-vanilla}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/t1Y7Xa0P/d72d12637e4f8b43923c68e0153b2a1ba03e2a94_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/vXgzx0n0/b078b547a76518cf3e204fd6f92315ed1e58f0ed.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Sculk Horde Updated (Unofficial)" event="url{https://modrinth.com/mod/sculk-horde-updated}"
+...button-text text="Laid to Rest" event="url{https://modrinth.com/mod/laid-to-rest}"
 
-👤 bananaman7582 | 📅 2026-11-24
+👤 LegendarySpy | 📅 2026-11-25
 
-Unofficially pdates the Sculk Horde mod to 26.2 Fabric. (May add more versions in the future)
+A corpse mod: Your body stays where you fell, shows how you died, and keeps your items safe until yo
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/sculk-horde-updated/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/sculk-horde-updated}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/laid-to-rest/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/laid-to-rest}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/gu63zgSh/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/928jEnIO/1f6f817dbe2c1dcae7fcf253083c35df97550c96.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="[Custom Orgins] The path of ninetails" event="url{https://modrinth.com/mod/orgins-the-path-of-ninetails}"
+...button-text text="Talking mobs" event="url{https://modrinth.com/mod/talking-mobs}"
 
-👤 Glitched-Da-Kitty-Cat | 📅 2026-11-24
+👤 LegendarySpy | 📅 2026-11-25
 
-A nine-tailed kitsune-cat origin with foxfire, henge magic, a hidden chest, and more. For Minecraft 
+Talk to mobs using ASR models and LLMs
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/orgins-the-path-of-ninetails/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/orgins-the-path-of-ninetails}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/talking-mobs/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/talking-mobs}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/uSOU2NJZ/fab49962065e02241e1a56d07f3aaa3512991bb0_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/1pcjVQ7D/0dbe4911204719f40be363811a581f843366e27a_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Deku's Multifications" event="url{https://modrinth.com/mod/dekus-multifications}"
+...button-text text="TCE: Unofficial Port" event="url{https://modrinth.com/mod/tce-unofficial-port}"
 
-👤 Aft0n | 📅 2026-11-24
+👤 ArnavMC-Modrinth | 📅 2026-11-25
 
-Nastia's Miracle Stones addon that lets you unify Butterfly Miraculous with as many Miraculouses as 
+An unofficial Fabric port of The Car Engine (TCE) newer Minecraft Versions, still bringing all TCE's
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dekus-multifications/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dekus-multifications}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tce-unofficial-port/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tce-unofficial-port}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Nastia's Miracle Stones addon that lets you unify Butterfly Miraculous with as m
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition beta 1.11.0.9](https://minecraft.wiki/Bedrock_Edition_beta_1.11.0.9)
+📖 **Wiki 推荐**：[Bedrock Edition block render history/End Portal](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FEnd_Portal)
 
-⏰ 更新时间：2026-11-24 22:15:41
+⏰ 更新时间：2026-11-25 08:06:37
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
