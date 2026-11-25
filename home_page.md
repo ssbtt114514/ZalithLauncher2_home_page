@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-25 08:06:37
+// 生成时间：2026-11-25 21:31:18
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.SunsetPoint_ZH-CN5737034685_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.RFHilo_ZH-CN5962114314_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"短暂柔情似流星划落。"*
+> *"横竖都是死，我和你们拼了！"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{短暂柔情似流星划落。}"
+...button-text text="📋 复制" event="copy{横竖都是死，我和你们拼了！}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FEnd_Portal}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_guides}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/UiRHWODK/becee503f5ae3d318235588aee64519b22c4f9af_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/kavWgfzK/4b002102b2598630549a6a8abbe2099ba65dd187_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Hands-On Furniture" event="url{https://modrinth.com/mod/handson-furniture}"
+...button-text text="Sandpaper API" event="url{https://modrinth.com/mod/snadpaper-api}"
 
-👤 Pocky-l | 📅 2026-11-25
+👤 thebritishgun | 📅 2026-11-25
 
-Open MrCrayfish's furniture with your hands: put things on its shelves anywhere, turned and sized as
+Frame based mod work scheduler
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/handson-furniture/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/handson-furniture}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/snadpaper-api/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/snadpaper-api}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/vXV0SE04/9632e39b3ebcf8dafa8b6d88e18faab6da34a9b8_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/cfNkLftN/68690d5256c009b3a33e4b83a0ba8c8fe6dead45.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Hands-On Vanilla" event="url{https://modrinth.com/mod/handson-vanilla}"
+...button-text text="water particles" event="url{https://modrinth.com/mod/water-particles}"
 
-👤 Pocky-l | 📅 2026-11-25
+👤 Tbone324YT | 📅 2026-11-25
 
-Craft and smelt with your own hands, right on the crafting table and the furnace. Client-side: works
+Adds particles when drowning to the mouth
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/handson-vanilla/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/handson-vanilla}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/water-particles/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/water-particles}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/vXgzx0n0/b078b547a76518cf3e204fd6f92315ed1e58f0ed.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/3znezz2Y/6000639e9acd434ba77b9860b18b5b3e58f85469.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Laid to Rest" event="url{https://modrinth.com/mod/laid-to-rest}"
+...button-text text="OpenSpeakers" event="url{https://modrinth.com/mod/openspeakers}"
 
-👤 LegendarySpy | 📅 2026-11-25
+👤 Mjderheftige | 📅 2026-11-25
 
-A corpse mod: Your body stays where you fell, shows how you died, and keeps your items safe until yo
+OpenSpeakers adds a configurable speaker network to Minecraft, allowing you to link speakers and bro
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/laid-to-rest/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/laid-to-rest}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/openspeakers/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/openspeakers}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/928jEnIO/1f6f817dbe2c1dcae7fcf253083c35df97550c96.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/K9Kf5bmU/896f7c82e39cf47278b2511ca656296758f9c9ba_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Talking mobs" event="url{https://modrinth.com/mod/talking-mobs}"
+...button-text text="Plurify" event="url{https://modrinth.com/mod/plurify}"
 
-👤 LegendarySpy | 📅 2026-11-25
+👤 pixfumy | 📅 2026-11-25
 
-Talk to mobs using ASR models and LLMs
+Per-member minecraft characters for plural systems playing in the same minecraft world.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/talking-mobs/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/talking-mobs}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/plurify/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/plurify}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/1pcjVQ7D/0dbe4911204719f40be363811a581f843366e27a_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/F3y2SRfJ/101f92cdc0acf159f06b190fa23777ab9cb897c1.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="TCE: Unofficial Port" event="url{https://modrinth.com/mod/tce-unofficial-port}"
+...button-text text="BatterConfigureAPI" event="url{https://modrinth.com/mod/batterconfigureapi}"
 
-👤 ArnavMC-Modrinth | 📅 2026-11-25
+👤 LonelyFoxCat | 📅 2026-11-25
 
-An unofficial Fabric port of The Car Engine (TCE) newer Minecraft Versions, still bringing all TCE's
+A lightweight configuration API for Minecraft mods, providing an easy-to-use GUI, validation, depend
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/tce-unofficial-port/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/tce-unofficial-port}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/batterconfigureapi/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/batterconfigureapi}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ An unofficial Fabric port of The Car Engine (TCE) newer Minecraft Versions, stil
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：美国西南部的一场雪
-© 日落观景点，布莱斯峡谷国家公园，犹他州 (© Colin D. Young/Alamy)
+🖼️ 壁纸：彩虹落下的地方
+© 怀卢库河上的彩虹瀑布，希洛市，夏威夷州，美国 (© Peter Unger/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition block render history/End Portal](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FEnd_Portal)
+📖 **Wiki 推荐**：[Bedrock Edition guides](https://minecraft.wiki/Bedrock_Edition_guides)
 
-⏰ 更新时间：2026-11-25 08:06:37
+⏰ 更新时间：2026-11-25 21:31:18
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
