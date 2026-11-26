@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-25 21:31:18
+// 生成时间：2026-11-26 07:56:20
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"横竖都是死，我和你们拼了！"*
+> *"最短的捷径就是绕远路。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{横竖都是死，我和你们拼了！}"
+...button-text text="📋 复制" event="copy{最短的捷径就是绕远路。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_guides}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FPrismarine_Slab}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/kavWgfzK/4b002102b2598630549a6a8abbe2099ba65dd187_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/oANa0KZv/icon.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Sandpaper API" event="url{https://modrinth.com/mod/snadpaper-api}"
+...button-text text="Eat Players" event="url{https://modrinth.com/mod/eat-players}"
 
-👤 thebritishgun | 📅 2026-11-25
+👤 FieryZane | 📅 2026-11-26
 
-Frame based mod work scheduler
+You can now eat players AND villagers.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/snadpaper-api/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/snadpaper-api}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/eat-players/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/eat-players}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/cfNkLftN/68690d5256c009b3a33e4b83a0ba8c8fe6dead45.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/mJFK3BvW/8970cb939ce16f62535071cb165ddfef8b7b17fb_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="water particles" event="url{https://modrinth.com/mod/water-particles}"
+...button-text text="WorldLink" event="url{https://modrinth.com/mod/worldlink}"
 
-👤 Tbone324YT | 📅 2026-11-25
+👤 thausle | 📅 2026-11-26
 
-Adds particles when drowning to the mouth
+Connect independent Minecraft worlds and servers through configurable in-game portals, with safe pla
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/water-particles/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/water-particles}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/worldlink/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/worldlink}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/3znezz2Y/6000639e9acd434ba77b9860b18b5b3e58f85469.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/1hBwatPo/7a7cc3a3a93c43d2a0498255cec973adb709d5eb.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="OpenSpeakers" event="url{https://modrinth.com/mod/openspeakers}"
+...button-text text="Neostamina" event="url{https://modrinth.com/mod/neostamina}"
 
-👤 Mjderheftige | 📅 2026-11-25
+👤 SquareShaper | 📅 2026-11-26
 
-OpenSpeakers adds a configurable speaker network to Minecraft, allowing you to link speakers and bro
+A new take on stamina! A better optional alternative to hunger
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/openspeakers/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/openspeakers}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/neostamina/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/neostamina}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/K9Kf5bmU/896f7c82e39cf47278b2511ca656296758f9c9ba_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/zWe30v5o/8d2a8093d12aa4a317968421b72828ed031be170.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Plurify" event="url{https://modrinth.com/mod/plurify}"
+...button-text text="Amble" event="url{https://modrinth.com/mod/amble}"
 
-👤 pixfumy | 📅 2026-11-25
+👤 Aeldrin | 📅 2026-11-26
 
-Per-member minecraft characters for plural systems playing in the same minecraft world.
+Adds the Amble enchantment, allowing boots to grant a convenient mid-air bounce for a double jump.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/plurify/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/plurify}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/amble/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/amble}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/F3y2SRfJ/101f92cdc0acf159f06b190fa23777ab9cb897c1.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/JTg8vcyr/3c00e4290ac3de5953f75f21a22131f9d13e4210.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="BatterConfigureAPI" event="url{https://modrinth.com/mod/batterconfigureapi}"
+...button-text text="Hidden Spoils" event="url{https://modrinth.com/mod/hidden-spoils}"
 
-👤 LonelyFoxCat | 📅 2026-11-25
+👤 CapiWasTaken | 📅 2026-11-26
 
-A lightweight configuration API for Minecraft mods, providing an easy-to-use GUI, validation, depend
+Per-player loot for every chest and barrel, without replacing any block: each player gets their own 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/batterconfigureapi/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/batterconfigureapi}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hidden-spoils/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hidden-spoils}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ A lightweight configuration API for Minecraft mods, providing an easy-to-use GUI
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition guides](https://minecraft.wiki/Bedrock_Edition_guides)
+📖 **Wiki 推荐**：[Bedrock Edition block render history/Prismarine Slab](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FPrismarine_Slab)
 
-⏰ 更新时间：2026-11-25 21:31:18
+⏰ 更新时间：2026-11-26 07:56:20
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
