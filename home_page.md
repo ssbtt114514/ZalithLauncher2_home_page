@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-26 07:56:20
+// 生成时间：2026-11-26 21:19:07
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.RFHilo_ZH-CN5962114314_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.FaceCanyon_ZH-CN9505064248_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"最短的捷径就是绕远路。"*
+> *"状若终末，然则复始。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{最短的捷径就是绕远路。}"
+...button-text text="📋 复制" event="copy{状若终末，然则复始。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FPrismarine_Slab}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_mob_render_history%2FPet_Cow}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -173,14 +173,14 @@ Per-player loot for every chest and barrel, without replacing any block: each pl
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：彩虹落下的地方
-© 怀卢库河上的彩虹瀑布，希洛市，夏威夷州，美国 (© Peter Unger/Getty Images)
+🖼️ 壁纸：灰金交织的峡谷
+© 夕阳下的孤峰，鲍威尔湖脸峡谷，犹他州，美国 (© Jeff Foott/Minden)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition block render history/Prismarine Slab](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FPrismarine_Slab)
+📖 **Wiki 推荐**：[Java Edition mob render history/Pet Cow](https://minecraft.wiki/Java_Edition_mob_render_history%2FPet_Cow)
 
-⏰ 更新时间：2026-11-26 07:56:20
+⏰ 更新时间：2026-11-26 21:19:07
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
