@@ -1,19 +1,19 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-27 07:57:38
+// 生成时间：2026-11-27 21:00:03
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
 // --- Bing 每日壁纸横幅 ---
-...image url="https://cn.bing.com/th?id=OHR.FaceCanyon_ZH-CN9505064248_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
+...image url="https://cn.bing.com/th?id=OHR.VltavaPrague_ZH-CN9898139716_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp" width=100% shape=0dp
 
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"已有之事后必再有，已行之事后必再行。"*
+> *"强大使人快乐。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{已有之事后必再有，已行之事后必再行。}"
+...button-text text="📋 复制" event="copy{强大使人快乐。}"
 ...row-end
 ...column-end
 ...card-end
@@ -32,7 +32,7 @@
 ...card-start title="📦 Minecraft 版本" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(6) horizontal=Start
 **最新正式版**: 26.3
-**最新快照**: 26.4-pre-1
+**最新快照**: 26.4-pre-2
 
 近期版本：
 - **26.3** (2026-09-15)
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FDark_Oak_Slab}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft_Live_2023}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -66,6 +66,22 @@
 // --- 🧩 Modrinth 最新模组 ---
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
+...row-start horizontal=spacedBy(8) vertical=Center
+...image url="https://cdn.modrinth.com/data/DhLYu1XB/38fd8728d460c9d3cff95ff7dda8afbf07af9c10_96.webp" width=40dp shape=8dp
+...column-start vertical=spacedBy(4)
+...button-text text="Origura" event="url{https://modrinth.com/mod/origura}"
+
+👤 kurosive | 📅 2026-11-27
+
+Allows Origins to trigger Figura pings.
+
+...row-start horizontal=spacedBy(8)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/origura/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/origura}" weight=(1)
+...row-end
+...column-end
+...row-end
+
 ...row-start horizontal=spacedBy(8) vertical=Center
 ...image url="https://cdn.modrinth.com/data/4ripGPJy/1e66410b9c90f4119e88f0e284a65abe66288c02_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
@@ -115,33 +131,17 @@ This mod buffs vanilla mobs to fight infection mods. Made by an artist of the Di
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/C1rdFifA/d4c29bd203e9cc67d7152bd1ca02cf8ce766aa70_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/45AAqq1D/e7b21839bdc9709a05be471e07e9d0678c1184ab.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Magivertex Spells" event="url{https://modrinth.com/mod/magivertex}"
+...button-text text="Beyond The Skies" event="url{https://modrinth.com/mod/beyond-the-sky}"
 
-👤 unknowncoder | 📅 2026-11-27
+👤 FizzerrBoi | 📅 2026-11-27
 
-Adds spells inspired by Tensura such Disintegration and Dispair Time
+This mod lets you chase the stars across worlds unknown. Can you save the universe? Or perish trying
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/magivertex/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/magivertex}" weight=(1)
-...row-end
-...column-end
-...row-end
-
-...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/Fiomc1q2/8e2bcea7574c9db3cced5c95e4f5370a16fd80cd.png" width=40dp shape=8dp
-...column-start vertical=spacedBy(4)
-...button-text text="Zar's Horse Revival" event="url{https://modrinth.com/mod/zars-horse-revival}"
-
-👤 Uezar | 📅 2026-11-27
-
-Revive skeleton horses with meat and leather, cure zombie horses, bind horses with totems and breed 
-
-...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/zars-horse-revival/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/zars-horse-revival}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/beyond-the-sky/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/beyond-the-sky}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -173,14 +173,14 @@ Revive skeleton horses with meat and leather, cure zombie horses, bind horses wi
 ...column-start vertical=spacedBy(4) horizontal=Center
 **Zalith Launcher 2** 自动更新主页
 
-🖼️ 壁纸：灰金交织的峡谷
-© 夕阳下的孤峰，鲍威尔湖脸峡谷，犹他州，美国 (© Jeff Foott/Minden)
+🖼️ 壁纸：跨越时光的桥梁
+© 捷克布拉格老城区与伏尔塔瓦河 (© Lara_Uhryn/Getty Images)
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Bedrock Edition block render history/Dark Oak Slab](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FDark_Oak_Slab)
+📖 **Wiki 推荐**：[Minecraft Live 2023](https://minecraft.wiki/Minecraft_Live_2023)
 
-⏰ 更新时间：2026-11-27 07:57:38
+⏰ 更新时间：2026-11-27 21:00:03
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
