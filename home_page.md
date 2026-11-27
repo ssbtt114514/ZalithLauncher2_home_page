@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-26 21:19:07
+// 生成时间：2026-11-27 07:57:38
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"状若终末，然则复始。"*
+> *"已有之事后必再有，已行之事后必再行。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{状若终末，然则复始。}"
+...button-text text="📋 复制" event="copy{已有之事后必再有，已行之事后必再行。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Java_Edition_mob_render_history%2FPet_Cow}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Bedrock_Edition_block_render_history%2FDark_Oak_Slab}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/oANa0KZv/icon.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/4ripGPJy/1e66410b9c90f4119e88f0e284a65abe66288c02_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Eat Players" event="url{https://modrinth.com/mod/eat-players}"
+...button-text text="Create: Brass Golem" event="url{https://modrinth.com/mod/create-brass-golem}"
 
-👤 FieryZane | 📅 2026-11-26
+👤 JCS_3000 | 📅 2026-11-27
 
-You can now eat players AND villagers.
+Adds a brass golem mob that can pick up items, generate SU, and make your factories a little more fu
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/eat-players/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/eat-players}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-brass-golem/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-brass-golem}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/mJFK3BvW/8970cb939ce16f62535071cb165ddfef8b7b17fb_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/ozsI0JYV/a38f42b685eef2ef956f5f7f0b022c44b253a643.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="WorldLink" event="url{https://modrinth.com/mod/worldlink}"
+...button-text text="Dimension Corrosion Crystal" event="url{https://modrinth.com/mod/dimension_corrosion_crystal}"
 
-👤 thausle | 📅 2026-11-26
+👤 TSO4 | 📅 2026-11-27
 
-Connect independent Minecraft worlds and servers through configurable in-game portals, with safe pla
+From the forgetten dimension,tant corrosion exalted being's will invasion,find a way use the pure wi
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/worldlink/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/worldlink}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dimension_corrosion_crystal/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dimension_corrosion_crystal}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/1hBwatPo/7a7cc3a3a93c43d2a0498255cec973adb709d5eb.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/lLdSTBYh/2b3d8ea41f0a902e367f79de01a86a41ff698407.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Neostamina" event="url{https://modrinth.com/mod/neostamina}"
+...button-text text="Infected and Redemption" event="url{https://modrinth.com/mod/infected-and-redemption}"
 
-👤 SquareShaper | 📅 2026-11-26
+👤 M19196391990 | 📅 2026-11-27
 
-A new take on stamina! A better optional alternative to hunger
+This mod buffs vanilla mobs to fight infection mods. Made by an artist of the Dimension Corrosion Cr
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/neostamina/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/neostamina}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/infected-and-redemption/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/infected-and-redemption}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/zWe30v5o/8d2a8093d12aa4a317968421b72828ed031be170.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/C1rdFifA/d4c29bd203e9cc67d7152bd1ca02cf8ce766aa70_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Amble" event="url{https://modrinth.com/mod/amble}"
+...button-text text="Magivertex Spells" event="url{https://modrinth.com/mod/magivertex}"
 
-👤 Aeldrin | 📅 2026-11-26
+👤 unknowncoder | 📅 2026-11-27
 
-Adds the Amble enchantment, allowing boots to grant a convenient mid-air bounce for a double jump.
+Adds spells inspired by Tensura such Disintegration and Dispair Time
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/amble/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/amble}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/magivertex/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/magivertex}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/JTg8vcyr/3c00e4290ac3de5953f75f21a22131f9d13e4210.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Fiomc1q2/8e2bcea7574c9db3cced5c95e4f5370a16fd80cd.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Hidden Spoils" event="url{https://modrinth.com/mod/hidden-spoils}"
+...button-text text="Zar's Horse Revival" event="url{https://modrinth.com/mod/zars-horse-revival}"
 
-👤 CapiWasTaken | 📅 2026-11-26
+👤 Uezar | 📅 2026-11-27
 
-Per-player loot for every chest and barrel, without replacing any block: each player gets their own 
+Revive skeleton horses with meat and leather, cure zombie horses, bind horses with totems and breed 
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/hidden-spoils/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/hidden-spoils}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/zars-horse-revival/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/zars-horse-revival}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ Per-player loot for every chest and barrel, without replacing any block: each pl
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Java Edition mob render history/Pet Cow](https://minecraft.wiki/Java_Edition_mob_render_history%2FPet_Cow)
+📖 **Wiki 推荐**：[Bedrock Edition block render history/Dark Oak Slab](https://minecraft.wiki/Bedrock_Edition_block_render_history%2FDark_Oak_Slab)
 
-⏰ 更新时间：2026-11-26 21:19:07
+⏰ 更新时间：2026-11-27 07:57:38
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
