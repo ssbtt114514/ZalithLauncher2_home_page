@@ -1,6 +1,6 @@
 // ============================================
 // 🎮 Zalith Launcher 2 - 全自动更新主页
-// 生成时间：2026-11-27 21:00:03
+// 生成时间：2026-11-28 07:27:15
 // 数据来源：Bing | 一言 | Mojang | Modrinth | Minecraft Wiki
 // ============================================
 
@@ -10,10 +10,10 @@
 // --- 每日一言 ---
 ...card-start title="📜 每日一言" shape=large contentPadding=(16,12)
 ...column-start vertical=spacedBy(8) horizontal=Center
-> *"强大使人快乐。"*
+> *"你可不是什么普通女孩，你是我的女孩。"*
 
 ...row-start horizontal=spacedBy(12)
-...button-text text="📋 复制" event="copy{强大使人快乐。}"
+...button-text text="📋 复制" event="copy{你可不是什么普通女孩，你是我的女孩。}"
 ...row-end
 ...column-end
 ...card-end
@@ -54,7 +54,7 @@
 ...button-filled-tonal text="🔍 模组列表" event="url{https://www.mcmod.cn/modlist.html}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
-...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Minecraft_Live_2023}" weight=(1)
+...button-filled-tonal text="📖 Minecraft Wiki" event="url{https://minecraft.wiki/Monsterized_Parrot}" weight=(1)
 ...button text="🌐 CurseForge" event="url{https://www.curseforge.com/minecraft/mcmods}" weight=(1)
 ...row-end
 ...row-start horizontal=spacedBy(8)
@@ -67,81 +67,81 @@
 ...card-start title="🧩 Modrinth 最新模组" shape=medium contentPadding=(12)
 ...column-start vertical=spacedBy(12) horizontal=Start
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/DhLYu1XB/38fd8728d460c9d3cff95ff7dda8afbf07af9c10_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/bxZ5kVBW/eab8b6984118718d77f306a044aa5bf79d54b1bf.gif" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Origura" event="url{https://modrinth.com/mod/origura}"
+...button-text text="Wicked Hands" event="url{https://modrinth.com/mod/wicked-hands}"
 
-👤 kurosive | 📅 2026-11-27
+👤 Kaworru | 📅 2026-11-28
 
-Allows Origins to trigger Figura pings.
+Wicked Hands adds severed hands that can be found from different mobs and revived through a ritual.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/origura/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/origura}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/wicked-hands/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/wicked-hands}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/4ripGPJy/1e66410b9c90f4119e88f0e284a65abe66288c02_96.webp" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/rBt066i2/aaf9b17105c8890a5cf0d7cb29cabee327b4ac70_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Create: Brass Golem" event="url{https://modrinth.com/mod/create-brass-golem}"
+...button-text text="Modular Structure Workspace" event="url{https://modrinth.com/mod/modular-structure-workspace}"
 
-👤 JCS_3000 | 📅 2026-11-27
+👤 Kaworru | 📅 2026-11-28
 
-Adds a brass golem mob that can pick up items, generate SU, and make your factories a little more fu
+An in-game workspace for browsing, editing, measuring and assembling Minecraft structures, with undo
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/create-brass-golem/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/create-brass-golem}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/modular-structure-workspace/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/modular-structure-workspace}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/ozsI0JYV/a38f42b685eef2ef956f5f7f0b022c44b253a643.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/fhH7GBiB/4c51c0e8febce745474a0f2e6224a9cb70d68a28.png" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Dimension Corrosion Crystal" event="url{https://modrinth.com/mod/dimension_corrosion_crystal}"
+...button-text text="Ultimate Compressed Gear" event="url{https://modrinth.com/mod/ultimate-compressed-gear}"
 
-👤 TSO4 | 📅 2026-11-27
+👤 yzt-yhssyt | 📅 2026-11-28
 
-From the forgetten dimension,tant corrosion exalted being's will invasion,find a way use the pure wi
+144 armor pieces across 9 materials and 4 states, armor overflow converted into max health, and acti
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/dimension_corrosion_crystal/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/dimension_corrosion_crystal}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/ultimate-compressed-gear/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/ultimate-compressed-gear}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/lLdSTBYh/2b3d8ea41f0a902e367f79de01a86a41ff698407.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/TsUerQJW/4eed2205163623cfb8db0f5a615ea983f953b245_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Infected and Redemption" event="url{https://modrinth.com/mod/infected-and-redemption}"
+...button-text text="Unfortunate Breeding!" event="url{https://modrinth.com/mod/unfortunate-breeding}"
 
-👤 M19196391990 | 📅 2026-11-27
+👤 kamussy | 📅 2026-11-28
 
-This mod buffs vanilla mobs to fight infection mods. Made by an artist of the Dimension Corrosion Cr
+Adds a 20% chance that breeding animals will fail, and no baby will spawn
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/infected-and-redemption/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/infected-and-redemption}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/unfortunate-breeding/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/unfortunate-breeding}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
 
 ...row-start horizontal=spacedBy(8) vertical=Center
-...image url="https://cdn.modrinth.com/data/45AAqq1D/e7b21839bdc9709a05be471e07e9d0678c1184ab.png" width=40dp shape=8dp
+...image url="https://cdn.modrinth.com/data/Q5Ndk8KG/586b2afaa6f4ff65f4e16e16ea32325b3d5f3ed4_96.webp" width=40dp shape=8dp
 ...column-start vertical=spacedBy(4)
-...button-text text="Beyond The Skies" event="url{https://modrinth.com/mod/beyond-the-sky}"
+...button-text text="Chest Opener" event="url{https://modrinth.com/mod/chest-opener}"
 
-👤 FizzerrBoi | 📅 2026-11-27
+👤 kamussy | 📅 2026-11-28
 
-This mod lets you chase the stars across worlds unknown. Can you save the universe? Or perish trying
+Something is inside your house, looking into your chests.
 
 ...row-start horizontal=spacedBy(8)
-...button text="⬇️ 下载" event="url{https://modrinth.com/mod/beyond-the-sky/versions}" weight=(1)
-...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/beyond-the-sky}" weight=(1)
+...button text="⬇️ 下载" event="url{https://modrinth.com/mod/chest-opener/versions}" weight=(1)
+...button-outlined text="📖 详情" event="url{https://modrinth.com/mod/chest-opener}" weight=(1)
 ...row-end
 ...column-end
 ...row-end
@@ -178,9 +178,9 @@ This mod lets you chase the stars across worlds unknown. Can you save the univer
 
 👤 **作者**：[ssbtt114514](ssbtt114514)
 
-📖 **Wiki 推荐**：[Minecraft Live 2023](https://minecraft.wiki/Minecraft_Live_2023)
+📖 **Wiki 推荐**：[Monsterized Parrot](https://minecraft.wiki/Monsterized_Parrot)
 
-⏰ 更新时间：2026-11-27 21:00:03
+⏰ 更新时间：2026-11-28 07:27:15
 
 ...row-start horizontal=spacedBy(12)
 ...button-text text="📖 Markdown教程" event="url{https://www.runoob.com/markdown/md-tutorial.html}"
